@@ -1,0 +1,13 @@
+image: ${GV_REGISTRY_ADDRESS}/${GV_BUILD_IMAGE_NAME}
+
+cache:
+  key: ${CI_PROJECT_PATH_SLUG}
+  paths:
+    - .m2/repository/
+
+include:
+  - "http://127.0.0.1:8083/pages/infr/pipelines/service/ci/common/public/java/mvn/gitflow.yml"  #ci
+  - "http://127.0.0.1:8083/pages/infr/pipelines/service/cd/common/public/definition.yml"        #cd definition
+  - "http://127.0.0.1:8083/pages/infr/pipelines/service/cd/common/public/gitflow.yml"           #cd usage
+
+

@@ -1,0 +1,35 @@
+{
+  "id": "1234567890",
+  "firstName": "John",
+  "lastName": "Doe",
+  "salutationId": "2",
+  "salutation": "MR",
+  "birthDate": "1981-01-01",
+  "VBKZ": "25",
+  "legalFormId": "18",
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/1234567890"
+    },
+    "primaryContact": {
+      "id": "1-1D0-267",
+      "href": "/v1/accounts/1234567890/contacts/1-1D0-267"
+    },
+    "mainContact": {
+      "id": "1-1D0-267",
+      "href": "/v1/accounts/1234567890/contacts/1-1D0-267"
+    },
+    "contacts": {
+      "href": "/v1/accounts/1234567890/contacts"
+    },
+    "contracts": {
+      "href": "/v1/accounts/1234567890/contracts"
+    },
+    "openOrders": {
+      "href": "/v1/accounts/1234567890/customerOrders?status=OPEN"
+    },
+    "billingAccounts": {
+      "href": "/v1/accounts/1234567890/billingAccounts"
+    }
+  }
+}

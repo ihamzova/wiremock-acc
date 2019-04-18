@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/ne3ne4-rs/inventory/gfTa?homeId=A04021J"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "OK",
+      "messageCode": "200",
+      "messageType": "SUCCESSFUL",
+      "cplId": "0TDGBL",
+      "homeId": "A04021J",
+      "klsId": "23484650",
+      "cplStatus": "FREI",
+      "rolloutStatus": "READY",
+      "buildingPartCplId": "ZZZZZY",
+      "gfApName": "P1554",
+      "gfApPort": "P1554-DP-2"
+    }
+  }
+}

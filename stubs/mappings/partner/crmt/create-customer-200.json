@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/anlegenKundeRequest/AnlegenKunde/up",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath" : "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'anlegenKunde']"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "crmt/valid-createCustomer.xml"
+  }
+}

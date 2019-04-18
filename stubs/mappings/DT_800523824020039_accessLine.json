@@ -1,0 +1,17 @@
+{
+  "id": "6db76894-25d3-4f55-890a-0a835f721116",
+  "request": {
+    "method": "PUT",
+    "url": "/api/v1.0/oltResourceInventory/accessLine"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": "{{jsonPath request.body '$'}}"
+  }
+}

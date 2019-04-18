@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions?zipCode=71254&municipalityName=Ditzingen&streetName=Keltenstr.&houseNumber=5"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : 12377484,
+    "status" : 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/ontOltOrchestrator/v1.0/testOntResource?serialNumber=485754435581B112"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "ONLINE"
+  }
+}

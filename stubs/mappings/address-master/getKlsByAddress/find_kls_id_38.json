@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions?zipCode=71254&municipalityName=Ditzingen&streetName=Weissacher%20Str.&houseNumber=19"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : 12377091,
+    "status" : 200
+  }
+}

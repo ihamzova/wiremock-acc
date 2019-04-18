@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/FlexKommCWFService/",
+    "bodyPatterns": [
+      {
+        "contains": "sendeErinnerungAnGlasfaserInteressent"
+      }
+    ]
+  },
+  "response": {
+    "status": 201
+  }
+}

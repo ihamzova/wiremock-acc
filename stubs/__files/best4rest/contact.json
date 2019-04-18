@@ -1,0 +1,17 @@
+{
+  "id": "1-1D0-267",
+  "firstName": "John",
+  "lastName": "Doe",
+  "birthDate": "1981-01-01",
+  "salutationId": "2",
+  "salutation": "MR",
+  "title": null,
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/1234567890/contacts/1-1D0-267"
+    },
+    "contactMedia": {
+      "href": "/v1/accounts/1234567890/contacts/1-1D0-267/contactMedia"
+    }
+  }
+}

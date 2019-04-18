@@ -1,0 +1,26 @@
+{
+  "id": "72a952fd-a3a3-44f8-810c-6bf5c81d3408",
+  "request": {
+    "method": "POST",
+    "url": "/api/homeId/v1.0/generator/batch"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": [
+      "0009VVB",
+      "0009VU8",
+      "0009VT5",
+      "0009VS2",
+      "0009VRY",
+      "0009VQV",
+      "0009VPS",
+      "0009VZP"
+    ]
+  }
+}

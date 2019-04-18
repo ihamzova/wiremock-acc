@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/ZIPCODE?zipCode=712"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : [ {
+      "zipCode" : "71272",
+      "municipalityName" : "Reningen",
+      "distributionAreaName" : "Reningen"
+    }, {
+      "zipCode" : "71254",
+      "municipalityName" : "Ditzingen",
+      "distributionAreaName" : "Ditzingen"
+    } ],
+    "status" : 200
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/FlexKommCWFService/",
+    "bodyPatterns": [
+      {
+        "contains": "sendeStornierungsbestaetigung"
+      }
+    ]
+  },
+  "response": {
+    "status": 201
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/service-order-rs/OntAuthenticationServiceOrderNotification"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  }
+}

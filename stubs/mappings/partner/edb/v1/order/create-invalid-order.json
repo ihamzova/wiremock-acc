@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/v1/order",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath" : "[?(@.SendungsverfolgungMailAdresse == 'invalid@aoe.test')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400
+  }
+}

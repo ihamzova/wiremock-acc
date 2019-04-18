@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/FlexKommCWFService/",
+    "bodyPatterns": [
+      {
+        "contains": "sendeEingangsbestaetigung"
+      }
+    ]
+  },
+  "response": {
+    "status": 201
+  }
+}

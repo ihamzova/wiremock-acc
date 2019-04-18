@@ -1,0 +1,21 @@
+{
+  "id": "6db76894-25d3-4f55-890a-0a835f721117",
+  "request": {
+    "method": "PUT",
+    "url": "/api/v1.0/oltResourceInventory/OntTestInfo/getInfo?serialNumber=485754435581B112"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "endSz": "49_8571_0_76H2",
+        "ontId": 2,
+        "portNumber": "1",
+        "slotNumber": "1"
+      }
+    ]
+  }
+}

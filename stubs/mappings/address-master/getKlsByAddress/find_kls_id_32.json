@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions?zipCode=71254&municipalityName=Ditzingen&streetName=Lerchenstr.&houseNumber=10"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : 12377382,
+    "status" : 200
+  }
+}

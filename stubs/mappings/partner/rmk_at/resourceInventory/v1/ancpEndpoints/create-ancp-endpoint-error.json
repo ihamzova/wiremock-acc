@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/resourceInventory/v1/ancpEndpoints"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "eventType": "500",
+        "event": {
+          "error": {
+            "code": 400,
+            "reason": "Not found bng with endSz = 49/911/84/7ZJQ",
+            "message": "Not found bng with endSz = 49/911/84/7ZJQ"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/resourceInventory/v1/ancpEndpoints"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "eventType": "AncpEndpointCreationNotification",
+        "event": {
+          "ancpEndpoint": {
+            "id": 1341434323,
+            "href": "http://server:port/resourceInventory/v1/resources/1341434323",
+            "@type": "AncpEndpoint",
+            "bngAncpIpAddress": "10.55.42.1",
+            "partnerType": "AccessNode",
+            "partnerAncpIpAddress": "10.55.42.2",
+            "vlanID": 16,
+            "linkDetails": {
+              "lsz": "4D1",
+              "lszErg": "VSL",
+              "endSz_partner": "49/343/180/7MA1",
+              "endSz_bng": "49/911/84/7ZJA",
+              "ordnungsnummer": 1,
+              "bandwidth": "1G"
+            },
+            "partnerDetails": {
+              "anManagementAddress": "10.52.31.53"
+            },
+            "parentInterface": {
+              "endSz": "49/911/84/7ZJA",
+              "port": "ge-2/1/2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

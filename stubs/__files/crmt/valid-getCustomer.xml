@@ -1,0 +1,129 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+    <!--
+            Description: This XML represents a sample SOAP message for the response interface function
+            used in the service 'lesenKunde' with CRM-T between T-ESB and a service consumer.
+            Author:		Loebig, Marcus
+            Version: 	10.0
+            Date: 		20.07.2011
+
+            Change History:
+            10.0	20.07.2011	Loebig, Marcus		Initial formal version.
+    -->
+    <soap-env:Header>
+        <TechnicalHeader xmlns="http://bom.telekom.de/esb" xsi:schemaLocation="http://bom.telekom.de/esb ESBHeader.xsd">
+            <Creator>ESB_LesenKunde</Creator>
+            <UserCredentials/>
+            <ServiceDetails>
+                <Name>LesenKunde</Name>
+                <Version>1.0</Version>
+                <SystemID>ESB</SystemID>
+                <Timestamp>2009-01-22T11:34:35</Timestamp>
+            </ServiceDetails>
+            <StatusContainers>
+                <StatusContainer>
+                    <State>3c53746174652f3e</State>
+                    <CreatorInfo>3c43726561746f72496e666f3e3c4d657373616765466c6f774e616d653e4164617074696f6e2e4553425f424c4d565f424f4d5f53657276696365735f53433c2f4d657373616765466c6f774e616d653e3c50617373546872753e303c2f50617373546872753e3c53656e64657220534f41503d2231222f3e3c5374617465547970653e534f41503c2f5374617465547970653e3c2f43726561746f72496e666f3e</CreatorInfo>
+                    <MQMD>4d442020000000020000000000000008ffffffff0000000000000111000004b84d5153545220202000000000000000004553425f424c4d565f536572766963657330303031000000000000000000000000000000000000000000000000000000000000004553425f424c4d565f435f53455256494345532e5245504c592e4f555420202020202020202020202020202020202020574d424530312020202020202020202020202020202020202020202020202020202020202020202020202020202020206d716d202020202020202020000000000000000000000000000000000000000000000000000000000000000020202020202020202020202020202020202020202020202020202020202020200000001c4d5153657269657320436c69656e7420666f72204a617661202020203230303930313232313133343333383620202020000000000000000000000000000000000000000000000000000000010000000000000000ffffffff</MQMD>
+                </StatusContainer>
+            </StatusContainers>
+        </TechnicalHeader>
+    </soap-env:Header>
+    <soap-env:Body>
+        <lesenKundeReply xmlns="http://bom.telekom.de/svc" xmlns:bom="http://bom.telekom.de/cc"
+                         xmlns:crmt="http://bom.telekom.de/crmt"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                         xsi:schemaLocation="http://bom.telekom.de/svc lesenKunde_BOM.xsd">
+            <Kunde>
+                <bom:Kundennummer>{{soapXPath request.body '/lesenKundeRequest/Suchargument/Kundennummer/text()'}}</bom:Kundennummer>
+                <Kundensegment>
+                    <bom:Kundensegment_OID>11</bom:Kundensegment_OID>
+                </Kundensegment>
+                <bom:KWP-Nummer>1122546215887448</bom:KWP-Nummer>
+                <Geschaeftspartneradresse>
+                    <Adresse>
+                        <bom:Adress-ID>697</bom:Adress-ID>
+                        <Strasze>
+                            <bom:Straszenname>Rennbahn</bom:Straszenname>
+                        </Strasze>
+                        <Grundstueck>
+                            <bom:Hausnummer>17</bom:Hausnummer>
+                            <bom:Hausnummerzusatz>A</bom:Hausnummerzusatz>
+                        </Grundstueck>
+                        <Postcode>
+                            <bom:Postleitzahl>26632</bom:Postleitzahl>
+                        </Postcode>
+                        <Ort>
+                            <Gemeinde>
+                                <bom:Gemeindename>Ihlow</bom:Gemeindename>
+                            </Gemeinde>
+                        </Ort>
+                        <Stadtteil>
+                            <bom:Stadtteilname>Kr Aurich</bom:Stadtteilname>
+                        </Stadtteil>
+                        <Land>
+                            <bom:Laenderkennzeichen>DE</bom:Laenderkennzeichen>
+                            <bom:Landesname>Deutschland</bom:Landesname>
+                        </Land>
+                    </Adresse>
+                    <bom:Empfaengerangabe/>
+                    <NichtBOMElemente>
+                        <CRM-T>
+                            <crmt:AnsprechpartnerID>1-192ERF</crmt:AnsprechpartnerID>
+                            <crmt:AdressID>1-192EPU</crmt:AdressID>
+                        </CRM-T>
+                    </NichtBOMElemente>
+                </Geschaeftspartneradresse>
+                <bom:GP-Nummer/>
+                <Person>
+                    <Anrede>
+                        <Anrede_OID>1</Anrede_OID>
+                    </Anrede>
+                    <bom:Name>Muller</bom:Name>
+                    <bom:Vorname>Gerd</bom:Vorname>
+                    <bom:Geburtsdatum>1952-04-23</bom:Geburtsdatum>
+                </Person>
+                <Rechtsform>
+                    <bom:Rechtsform_OID>017318</bom:Rechtsform_OID>
+                </Rechtsform>
+                <Werbungskenner>
+                    <bom:Werbewunsch_OID>13</bom:Werbewunsch_OID>
+                </Werbungskenner>
+                <NichtBOMElemente>
+                    <CRM-T>
+                        <crmt:Kundensperre>1</crmt:Kundensperre>
+                    </CRM-T>
+                </NichtBOMElemente>
+            </Kunde>
+            <Rechnungsvereinbarung>
+                <bom:Rechnungsvereinbarungsnummer>3110219518</bom:Rechnungsvereinbarungsnummer>
+                <NichtBOMElemente>
+                    <crmt:RechnungsvereinbarungsnummerFinal>true</crmt:RechnungsvereinbarungsnummerFinal>
+                </NichtBOMElemente>
+            </Rechnungsvereinbarung>
+            <Kontaktdaten>
+                <Telefon>
+                    <bom:ONKZ>3691</bom:ONKZ>
+                    <bom:Anschlussnummer>234895</bom:Anschlussnummer>
+                </Telefon>
+            </Kontaktdaten>
+            <Ansprechpartner>
+                <NichtBOMElemente>
+                    <CRM-T>
+                        <crmt:AnsprechpartnerID>1-192ERF</crmt:AnsprechpartnerID>
+                    </CRM-T>
+                </NichtBOMElemente>
+            </Ansprechpartner>
+            <NichtBOMElemente>
+                <CRM-T>
+                    <Standort>
+                        <crmt:StandortID>1-19MZBX</crmt:StandortID>
+                        <crmt:AnsprechpartnerID>No Match Row Id</crmt:AnsprechpartnerID>
+                    </Standort>
+                </CRM-T>
+            </NichtBOMElemente>
+            <ReturnCode>00</ReturnCode>
+        </lesenKundeReply>
+    </soap-env:Body>
+</soap-env:Envelope>

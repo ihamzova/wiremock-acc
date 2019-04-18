@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/ontOltOrchestrator/v1.0/createOntResource",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "ontSerialNumber": "485754435581B112"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "DEU.DTAG.1000000001"
+  }
+}

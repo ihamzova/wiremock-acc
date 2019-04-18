@@ -1,0 +1,29 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/ZIPCODE?zipCode=710"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : [ {
+      "zipCode" : "71032",
+      "municipalityName" : "Böblingen",
+      "distributionAreaName" : "Böblingen"
+    }, {
+      "zipCode" : "71034",
+      "municipalityName" : "Böblingen",
+      "distributionAreaName" : "Böblingen"
+    }, {
+      "zipCode" : "71063",
+      "municipalityName" : "Sindelfingen",
+      "distributionAreaName" : "Sindelfingen"
+    }, {
+      "zipCode" : "71065",
+      "municipalityName" : "Sindelfingen",
+      "distributionAreaName" : "Sindelfingen"
+    } ],
+    "status" : 200
+  }
+}

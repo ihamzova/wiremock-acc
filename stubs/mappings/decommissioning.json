@@ -1,0 +1,14 @@
+{
+  "id": "54dff265-25f1-4a2b-a454-78ef8b3cdacb",
+  "request": {
+    "method": "POST",
+    "url": "/api/ontClient/v1.0/commissioning/connectivityTest/decommissioning/"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  }
+}

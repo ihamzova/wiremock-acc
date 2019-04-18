@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions?zipCode=71254&municipalityName=Ditzingen&streetName=Ditzihofstr.&houseNumber=9"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : 9673815,
+    "status" : 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/v1/accounts/([0-9]{10})/contracts"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "best4rest/contracts.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

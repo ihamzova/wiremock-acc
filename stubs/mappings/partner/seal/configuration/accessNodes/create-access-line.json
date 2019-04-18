@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/configuration/accessNodes/([\\w\\d\\_]*)/accessLines"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "accessLineId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.slot'}}-{{jsonPath request.body '$.port'}}-{{jsonPath request.body '$.ontId'}}-{{jsonPath request.body '$.vlanId'}}"
+      }
+    }
+  }
+}

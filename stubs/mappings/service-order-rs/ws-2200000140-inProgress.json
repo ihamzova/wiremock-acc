@@ -1,0 +1,35 @@
+{
+  "id": "6db76894-25d3-4f55-890a-0a835f72163a",
+  "request": {
+    "method": "GET",
+    "url": "/service-order-rs/OntAuthenticationServiceOrder?orderState=inProgress&orderIdentifier.Einzelvertragsnummer=2200000140"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "orderState": "inProgress",
+        "orderIdentifier": {
+          "ServiceOrderId": "9",
+          "Auftragsnummer": "80052382410",
+          "Auftragspositionsnummer": "800523824100040",
+          "Einzelvertragsnummer": "2200000140"
+        },
+        "ontAuthenticationService": {
+          "OntTan": "ebb36c70-5511-4213-8117-c99a5f1c01ae",
+          "OntTanLink": null,
+          "OntTanLinkStatus": null,
+          "OntSerialNumber": null,
+          "HomeID": "A04020G",
+          "LineId": null,
+          "@type": null,
+          "@basetype": null
+        },
+        "customerContact": null
+      }
+    ]
+  }
+}

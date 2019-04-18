@@ -1,0 +1,112 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/ponInventory/v1/inventory/llc/get?apartmentCplId=0TDGBL"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "hkFiberOnkz": 8570,
+          "hkFiberAsb": 1,
+          "gfNvtName": "V1001",
+          "gfNvtKlsId": 6444178,
+          "id": 1,
+          "apartmentCplId": "0TDGBL",
+          "nvtConnected": false,
+          "gfApStatus": "PLANNED",
+          "gfApKlsId": 20064534,
+          "gfApName": "P1008",
+          "gfApCplId": "cplId",
+          "llcBaustatus": "INCOMPLETE",
+          "modifiedDate": 1545941526078,
+          "vstOnkz": 8571,
+          "vstAsb": 1,
+          "vstKlsId": 6443177,
+          "gfApCouplingratio": "32",
+          "gfApPortnumber": "1",
+          "gfApSplitterNumber": 10,
+          "gfApMaterialNumber": "40266717",
+          "couplerNvtCouplingRatio": "32",
+          "couplerNvtUmsRaster": "21-22",
+          "couplerNvtCouplerPort": "1",
+          "hkFiberGfHk": "1R/4",
+          "hkFiberFaser": "29",
+          "hkFiberUmsRaster": "4",
+          "vzkFiberUmsRaster": "1",
+          "vzkFiberFaser": "1",
+          "zielHvtOnkz": null,
+          "zielHvtAsb": null,
+          "zielHvtGeb": null,
+          "zielHvtRaum": null,
+          "messWdmGestellGebRaum": "001_010",
+          "messWdmGestellReihe": "000",
+          "messWdmGestellPlatz": "016",
+          "messWdmGestellBgt": "068",
+          "messWdmGestellKas": "513",
+          "messWdmGestellStift": "001",
+          "gfInnenKabelKabelnamegfi1": "10910_1002",
+          "gfInnenKabelFasergfi1": "001",
+          "gfInnenKabelKabelnamegfi2": "10900_1002",
+          "gfInnenKabelFasergfi2": "001",
+          "ponPortStatus": "PLANNED",
+          "ponPortOltVpsz": "49/8571/0",
+          "ponPortOltFachSz": "76H2",
+          "ponPortOltBgt": "001",
+          "ponPortOltBg": "1",
+          "ponPortOltReihe": "003",
+          "ponPortOltPlatz": "004",
+          "ponPortPortNumber": "1",
+          "ponPortOltTpl": "olt_tpl",
+          "emmsaBgtAn": null,
+          "emmsaKasAn": null,
+          "emmsaStiftAn": null,
+          "emmsaReiheAb": null,
+          "emmsaPlatzAb": null,
+          "emmsaBgtAb": null,
+          "emmsaKasAb": null,
+          "emmsaStiftAb": null,
+          "emmsHvtReiheAn": "003",
+          "emmsHvtPlatzAn": "591",
+          "emmsHvtBgtAn": "004",
+          "emmsHvtKasAn": "037",
+          "emmsHvtStiftAn": "001",
+          "emmsHvtReiheAb": "003",
+          "emmsHvtPlatzAb": "591",
+          "emmsHvtBgtAb": "005",
+          "emmsHvtKasAb": "015",
+          "emmsHvtStiftAb": "001",
+          "emmsHvtTpl": null,
+          "emmsaReiheAn": null,
+          "emmsaPlatzAn": null
+        }
+      ],
+      "pageable": {
+        "sort": {
+          "sorted": false,
+          "unsorted": true
+        },
+        "pageSize": 25,
+        "pageNumber": 0,
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+      },
+      "last": true,
+      "totalElements": 1,
+      "totalPages": 1,
+      "first": true,
+      "sort": {
+        "sorted": false,
+        "unsorted": true
+      },
+      "numberOfElements": 1,
+      "size": 25,
+      "number": 0
+    }
+  }
+}

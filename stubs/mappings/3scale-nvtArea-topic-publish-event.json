@@ -1,0 +1,15 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/pubsub/p/resource-order-resource-inventory/v1/PlannedNvt/nvtAreaTopic"
+    },
+    "response": {
+      "transformers": ["response-template"],
+      "body": "OK",
+      "headers": {
+        "Content-Type": "text/plain",
+        "X-PubSub-Event-Id": "{{jsonPath request.body '$.NvtAreaChangedEvent.eventId'}}"
+      },
+      "status": 200
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "id": "42a62ad9-6e94-4518-8daf-a2c439c31a79",
+  "request": {
+    "method": "POST",
+    "url": "/api/orderManagement/v1.0/asyncStub/receive/"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  }
+}

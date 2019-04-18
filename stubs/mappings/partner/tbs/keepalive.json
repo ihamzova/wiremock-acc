@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/openid-connect/keepalive(.*)"
+  },
+  "response": {
+    "transformers": ["response-template"],
+    "status": 200
+  }
+}

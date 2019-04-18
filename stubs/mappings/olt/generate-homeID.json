@@ -1,0 +1,17 @@
+{
+  "id": "c7a92801-56d6-4cda-ae48-f316de2d654e",
+  "request": {
+    "method": "POST",
+    "url": "/api/homeId/v1.0/generator/"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "body": "000DW8P"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/v1/order",
+    "headers": {
+      "X-B3-SpanId": {
+        "matches": "[0-9A-Za-z]{16}"
+      },
+      "X-B3-Sampled": {
+        "matches": "[0-1]"
+      },
+      "X-B3-TraceId": {
+        "matches": "[0-9A-Za-z]{16}"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "[?(@.mediacode =~ /GIG_.*/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "payload": {
+          "edbAuftragId": "edb-auftrag-ref-id-123"
+        },
+        "errorPayload": {
+          "code": null,
+          "message": null,
+          "invalidAttributes": []
+        }
+      }
+    }
+  }
+}

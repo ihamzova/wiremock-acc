@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71272&localityName=Magsstadt&streetName=Mag"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : [ {
+      "zipCode" : "71272",
+      "municipalityName" : "Magsstadt",
+      "distributionAreaName" : "Magsstadt",
+      "streetName" : "Magshof"
+    } ],
+    "status" : 200
+  }
+}

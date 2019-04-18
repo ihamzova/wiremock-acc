@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/v1/accounts/([0-9]{10})/contacts/([A-Za-z0-9-]+)/contactMedia/1-4OF7MD9"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "best4rest/contactMedia_mobile.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

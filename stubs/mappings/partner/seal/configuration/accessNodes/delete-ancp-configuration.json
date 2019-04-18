@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/configuration/accessNodes/([\\w\\d\\_]*)/ancpConfigurations"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "body": ""
+    }
+  }
+}

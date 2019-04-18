@@ -1,0 +1,14 @@
+{
+  "id": "8e6021a7-5e69-4663-9759-c5c5c68d5110",
+  "request": {
+    "method": "POST",
+    "url": "/api/ontClient/v1.0/commissioning/connectivityTest/registration/"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  }
+}

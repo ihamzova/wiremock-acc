@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71254&localityName=Heimerdingen&streetName=Hin"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : [ {
+      "zipCode" : "71254",
+      "municipalityName" : "Ditzingen",
+      "distributionAreaName" : "Heimerdingen",
+      "streetName" : "Hindenburgstr."
+    } ],
+    "status" : 200
+  }
+}

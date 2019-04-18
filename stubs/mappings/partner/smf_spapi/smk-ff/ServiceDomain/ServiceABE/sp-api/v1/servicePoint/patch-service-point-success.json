@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/sp-api/v1/servicePoint/([\\w\\d]*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "cplID": "{{request.pathSegments.[6]}}",
+      "klsID": "123",
+      "lineIdFtth": "1234",
+      "servicePointType": "Wohnung",
+      "source": "T-Magic"
+    }
+  }
+}

@@ -6,8 +6,18 @@ cache:
     - .m2/repository/
 
 include:
-  - "http://127.0.0.1:8083/pages/infr/pipelines/service/ci/common/public/java/mvn/gitflow.yml"  #ci
-  - "http://127.0.0.1:8083/pages/infr/pipelines/service/cd/common/public/definition.yml"        #cd definition
-  - "http://127.0.0.1:8083/pages/infr/pipelines/service/cd/common/public/gitflow.yml"           #cd usage
+  - project: 'infr/pipelines/service/ci/common'
+    ref: master
+    file: '/public/java/mvn/gitflow.yml'
+  - project: 'infr/pipelines/service/cd/common'
+    ref: master
+    file: '/public/definition.yml'
+  - project: 'infr/pipelines/service/cd/common'
+    ref: master
+    file: '/public/gitflow.yml'
+  - project: 'infr/pipelines/service/cd/common'
+    ref: master
+    file: '/public/domain/acc.yml'
+
 
 

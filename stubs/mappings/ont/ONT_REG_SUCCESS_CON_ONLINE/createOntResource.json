@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/api/ontOltOrchestrator/v1.0/createOntResource",
+    "url": "/api/ontOltOrchestrator/v1/ont/async",
     "bodyPatterns": [
       {
         "equalToJson": {

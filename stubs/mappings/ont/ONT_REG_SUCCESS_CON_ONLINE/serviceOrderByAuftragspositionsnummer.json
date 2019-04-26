@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "url": "/service-order-process-rs/OntAuthenticationServiceOrder?orderState=inProgress&orderIdentifier.Auftragspositionsnummer=800523824020039"
+    "url": "/service-order-rs/OntAuthenticationServiceOrder?orderState=inProgress&orderIdentifier.Auftragspositionsnummer=800523824020039"
   },
   "response": {
     "status": 200,

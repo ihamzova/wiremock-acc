@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/api/ontOltOrchestrator/v1/ont/async",
+    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/async",
     "bodyPatterns": [
       {
         "equalToJson": {

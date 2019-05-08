@@ -20,13 +20,13 @@ public class WebhookDefinition {
     private List<HttpHeader> headers;
     private Body body = Body.none();
     private Integer fixedDelayMilliseconds;
-    private String bodyFilename;
+    private String bodyFileName;
 
     @JsonCreator
     public WebhookDefinition(@JsonProperty("method") RequestMethod method,
                              @JsonProperty("url") String url,
                              @JsonProperty("headers") HttpHeaders headers,
-                             @JsonProperty("bodyFilename") String bodyFilename,
+                             @JsonProperty("bodyFileName") String bodyFileName,
                              @JsonProperty("body") String body,
                              @JsonProperty("jsonBody") JsonNode jsonBody,
                              @JsonProperty("base64Body") String base64Body,
@@ -34,7 +34,7 @@ public class WebhookDefinition {
         this.method = method;
         this.url = url;
         this.headers = newArrayList(headers.all());
-        this.bodyFilename = bodyFilename;
+        this.bodyFileName = bodyFileName;
         this.body = Body.fromOneOf(null, body, jsonBody, base64Body);
         this.fixedDelayMilliseconds = fixedDelayMilliseconds;
     }
@@ -50,8 +50,8 @@ public class WebhookDefinition {
         return url;
     }
 
-    public String getBodyFilename() {
-        return bodyFilename;
+    public String getBodyFileName() {
+        return bodyFileName;
     }
 
     public HttpHeaders getHeaders() {
@@ -76,8 +76,8 @@ public class WebhookDefinition {
         return this;
     }
 
-    public WebhookDefinition withBodyFilename(String bodyFilename) {
-        this.bodyFilename = bodyFilename;
+    public WebhookDefinition withBodyFilename(String bodyFileName) {
+        this.bodyFileName = bodyFileName;
         return this;
     }
 
@@ -117,6 +117,6 @@ public class WebhookDefinition {
 
     @JsonIgnore
     public boolean specifiesBodyFile() {
-        return bodyFilename != null && !bodyFilename.isEmpty();
+        return bodyFileName != null && !bodyFileName.isEmpty();
     }
 }

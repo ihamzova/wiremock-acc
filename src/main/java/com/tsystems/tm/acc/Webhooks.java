@@ -10,6 +10,7 @@ import com.github.tomakehurst.wiremock.core.Options;
 import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.extension.PostServeAction;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.RequestTemplateModel;
+import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.WireMockHelpers;
 import com.github.tomakehurst.wiremock.http.HttpClientFactory;
 import com.github.tomakehurst.wiremock.http.HttpHeader;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
@@ -45,6 +46,10 @@ public class Webhooks extends PostServeAction {
         scheduler = Executors.newScheduledThreadPool(10);
         httpClient = HttpClientFactory.createClient();
         handlebars = new Handlebars();
+        //Add all available wiremock helpers
+        for(WireMockHelpers helper: WireMockHelpers.values()){
+            this.handlebars.registerHelper(helper.name(), helper);
+        }
     }
 
     private static HttpUriRequest buildRequest(WebhookDefinition definition) {
@@ -114,7 +119,7 @@ public class Webhooks extends PostServeAction {
             String newBody = uncheckedApplyTemplate(bodyTemplate, model);
             definition.withBody(newBody);
         } else if (definition.specifiesBodyFile()) {
-            Template filePathTemplate = uncheckedCompileTemplate(definition.getBodyFilename());
+            Template filePathTemplate = uncheckedCompileTemplate(definition.getBodyFileName());
             String compiledFilePath = uncheckedApplyTemplate(filePathTemplate, model);
             TextFile file = files.getTextFileNamed(compiledFilePath);
             Template bodyTemplate = uncheckedCompileTemplate(file.readContentsAsString());

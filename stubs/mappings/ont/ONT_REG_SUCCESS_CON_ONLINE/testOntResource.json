@@ -1,13 +1,20 @@
 {
   "request": {
-    "method": "POST",
-    "url": "/api/ontOltOrchestrator/v1.0/testOntResource?serialNumber=485754435581B112"
+    "method": "GET",
+    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/485754435581B112"
   },
   "response": {
-    "status": 200,
-    "headers": {
-      "Content-Type": "application/json"
-    },
-    "body": "ONLINE"
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "bodyFileName": "ont/ONT_REG_SUCCESS_CON_ONLINE/testOntResource.json"
+    }
   }
 }

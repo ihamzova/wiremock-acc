@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/async",
+    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont",
     "bodyPatterns": [
       {
         "equalToJson": {
@@ -13,10 +13,17 @@
     ]
   },
   "response": {
-    "status": 201,
-    "headers": {
-      "Content-Type": "application/json"
-    },
-    "body": "DEU.DTAG.1000000001"
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "bodyFileName": "ont/ONT_REG_SUCCESS_CON_ONLINE/createOntResource.json"
+    }
   }
 }

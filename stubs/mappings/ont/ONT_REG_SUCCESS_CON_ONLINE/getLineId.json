@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/resource-order-resource-inventory/v1/commissioning/lineId?homeId=A04021J"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "homeId": "A04021J",
+      "lineId": "DEU.DTAG.1000000001"
+    }
+  }
+}

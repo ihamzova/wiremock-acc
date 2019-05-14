@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/resource-order-resource-inventory/v1/commissioning/ont/(.*)"
+  },
+  "response": {
+    "status": 200
+  }
+}

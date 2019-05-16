@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/zipcodeMunicipalityNames/getZipcodeMunicipalityNameList/7152?asb=500"
+  },
+  "response": {
+      "body" : "Bad request",
+      "headers" : {
+        "Content-Type" : "text/plain"
+      },
+      "status" : 500
+  }
+}

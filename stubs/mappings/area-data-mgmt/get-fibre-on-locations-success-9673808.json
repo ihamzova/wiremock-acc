@@ -1,0 +1,79 @@
+{
+    "id": "0b9c04df-f82f-462d-88c6-36587f8af7a7",
+    "request": {
+        "method": "GET",
+        "url": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/9673808"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "creationDate": 1554296852884,
+                "modificationDate": 1554296852884,
+                "controlTraceabilityManual": false,
+                "klsId": 9673808,
+                "installationStatus": "PLANNED",
+                "demandCarrier": "FTTH",
+                "areaType": null,
+                "initiative": "SELF_EXPANSION",
+                "reasonForNoConstruction": null,
+                "technology": "FTTH",
+                "rolloutSponsor": "SELF_EXPANSION",
+                "installationDate": null,
+                "plannedInstallationBegin": null,
+                "plannedInstallationEnd": null,
+                "we": 4,
+                "ge": 0,
+                "sl": 0,
+                "vvmArea": {
+                    "creationDate": "2018-09-20T09:41:53.215Z",
+                    "modificationDate": "2018-09-20T15:20:33.544Z",
+                    "controlTraceabilityManual": false,
+                    "name": "Bornheim Widdig",
+                    "number": "Bornheim_Widdig_001",
+                    "areaType": "KGS_8",
+                    "rolloutDate": "2020-11-16",
+                    "areaStatus": "PLANNING_ONGOING",
+                    "plannedArea": true,
+                    "plannedFrom": "2019-03-01",
+                    "plannedTo": "2019-05-31",
+                    "released": true,
+                    "fibreOnLocations": []
+                },
+                "nvtArea": {
+                    "creationDate": "2018-09-07T08:21:52Z",
+                    "modificationDate": "2018-09-07T08:21:52.009Z",
+                    "controlTraceabilityManual": false,
+                    "businessId": 9000,
+                    "guid": "RA_BORNHEIM_001",
+                    "asb": 2,
+                    "name": "NVT Area Bornheim 1",
+                    "nvtDescriptor": "NVT_Bornheim_Widdig",
+                    "onkz": "2236",
+                    "pti": "PTI-WEST",
+                    "subsidiary": "Ns Bornheim 1",
+                    "vvmArea": {
+                        "creationDate": "2018-09-20T09:41:53.215Z",
+                        "modificationDate": "2018-09-20T15:20:33.544Z",
+                        "controlTraceabilityManual": false,
+                        "name": "Bornheim Widdig",
+                        "number": "Bornheim_Widdig_001",
+                        "areaType": "KGS_8",
+                        "rolloutDate": "2020-11-16",
+                        "areaStatus": "PLANNING_ONGOING",
+                        "plannedArea": true,
+                        "plannedFrom": "2019-03-01",
+                        "plannedTo": "2019-05-31",
+                        "released": true,
+                        "fibreOnLocations": []
+                    },
+                    "nvtKlsId": 9673808,
+                    "fibreOnLocations": []
+                }
+            }
+        ]
+    }
+}

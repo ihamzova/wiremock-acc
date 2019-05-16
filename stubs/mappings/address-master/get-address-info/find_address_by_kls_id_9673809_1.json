@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "http:///giga-areas-location/v1/lookup/addressSearch/getAddressInfo/9673809"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "klsId" : 9673809,
+      "zipCode" : "71034",
+      "municipalityName" : "Böblingen",
+      "distributionAreaName" : "Böblingen",
+      "streetName" : "Römerhof",
+      "houseNumber" : 3,
+      "houseQualifier" : "3"
+    },
+    "status" : 200
+  }
+}

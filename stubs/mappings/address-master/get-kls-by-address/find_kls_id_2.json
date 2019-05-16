@@ -1,0 +1,14 @@
+{
+  "priority": 50,
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId?zipCode=71063&municipalityName=Sindelfingen&streetName=Sindelhof&houseNumber=5"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : 9673810,
+    "status" : 200
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "priority": 100,
+  "id": "6d8dcb28-24e9-42d4-8f13-5ba0ca60cee0",
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "klsId": 9673666,
+      "zipCode": "71254",
+      "municipalityName": "Test Ditzingen",
+      "distributionAreaName": "Test Heimerdingen",
+      "streetName": "Test Römerhof",
+      "streetNameShort": "Test Römerhof",
+      "houseNumber": 1,
+      "houseNumberSupplement": "",
+      "houseQualifier": "1"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "5ed03cdc-fc74-41cb-b16d-bf084d627f01",
+    "request": {
+        "url": "/giga-installation-order/v2/customerInstallationOrders/?klsId=9673808",
+        "method": "HEAD"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+          "X-Total-Count": "1"
+        }
+    },
+    "priority": 100
+}

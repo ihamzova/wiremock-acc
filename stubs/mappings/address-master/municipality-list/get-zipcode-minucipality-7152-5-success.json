@@ -1,0 +1,22 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/giga-areas-location/v1/lookup/zipcodeMunicipalityNames/getZipcodeMunicipalityNameList/7152?asb=5"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": [
+            {
+                "zipCode": "71254",
+                "municipalityName": "Ditzingen"
+            },
+            {
+                "zipCode": "71277",
+                "municipalityName": "Rutesheim"
+            }
+        ]
+    }
+}

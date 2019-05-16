@@ -1,0 +1,24 @@
+{
+  "priority": 80,
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/12377912"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "klsId": 12377912,
+      "zipCode": "71254",
+      "municipalityName": "Ditzingen",
+      "distributionAreaName": "Heimerdingen",
+      "streetName": "Finkenstr.",
+      "streetNameShort": "Finkenstr.",
+      "houseNumber": 2,
+      "houseNumberSupplement": "",
+      "houseQualifier": "2"
+    },
+    "status" : 200
+  }
+}

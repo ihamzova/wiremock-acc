@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId/STREET?zipCode=71500&localityName=Ditzingen&streetName=Bah"
+  },
+  "response" : {
+    "body" : "Internal Server Error.",
+    "headers" : {
+      "Content-Type" : "text/plain"
+    },
+    "status" : 500
+  }
+}

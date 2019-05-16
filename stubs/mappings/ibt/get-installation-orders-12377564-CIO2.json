@@ -1,0 +1,12 @@
+{
+    "request": {
+        "urlPattern": "/giga-installation-order/v2/customerInstallationOrders/?klsId=12377564",
+        "method": "HEAD"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+          "X-Total-Count": "2"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "priority": 80,
+  "request" : {
+    "method" : "GET",
+    "url" : "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/12347815"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "jsonBody" : {
+      "klsId": 12347815,
+      "zipCode": "71277",
+      "municipalityName": "Rutesheim",
+      "distributionAreaName": "Rutesheim",
+      "streetName": "Wilhelm-Hauff-Weg",
+      "streetNameShort": "Wilhelm-Hauff-Weg",
+      "houseNumber": 9,
+      "houseNumberSupplement": "",
+      "houseQualifier": "9"
+    },
+    "status" : 200
+  }
+}

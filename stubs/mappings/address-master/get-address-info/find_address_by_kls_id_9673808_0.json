@@ -1,14 +1,14 @@
 {
   "request" : {
     "method" : "GET",
-    "url" : "http:///giga-areas-location/v1/lookup/addressSearch/getAddressInfo/12377912"
+    "url" : "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/9673808"
   },
   "response" : {
     "headers" : {
       "Content-Type" : "application/json"
     },
     "jsonBody" : {
-      "klsId": 12377912,
+      "klsId": 9673808,
       "zipCode": "71254",
       "municipalityName": "Ditzingen",
       "distributionAreaName": "Heimerdingen",

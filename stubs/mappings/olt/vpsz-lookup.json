@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/resource-order-resource-inventory/v1/olt/vpszlookup?vpsz=49/7152/15&devicetype=OLT"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody": [
+        "49/7152/15/76H1",
+        "49/7152/15/76H2"
+      ]
+    }
+}

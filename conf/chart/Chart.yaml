@@ -1,0 +1,13 @@
+apiVersion: v1
+name: wiremock-acc
+version: 0.0.1
+description: wiremock microservice chart
+keywords:
+- wiremock
+- t-magic
+- acc
+sources:
+- https://digihub-wbench.psst.t-online.corp/gitlab/t-magic/acc/wiremock-acc
+maintainers:
+- name: SystemTeam
+  email: DL_GigaBit_System_Team@t-systems.com

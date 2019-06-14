@@ -1,0 +1,11 @@
+
+app_name: &app_name_definition "wiremock-acc"
+
+app:
+  name: *app_name_definition
+  image:
+    name: *app_name_definition
+  health:
+    url: "/__admin/mappings?limit=1"
+  prometheus: false
+  scaling_denied: true

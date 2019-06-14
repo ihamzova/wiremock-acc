@@ -9,6 +9,12 @@ include:
   - project: 'infr/pipelines/service/ci/common'
     ref: master
     file: '/public/java/mvn/gitflow.yml'
+  - project: 'infr/pipelines/service/ci/common'
+    ref: master
+    file: '/public/conf/definition.yml'
+  - project: 'infr/pipelines/service/ci/common'
+    ref: master
+    file: '/public/conf/gitflow.yml'
   - project: 'infr/pipelines/service/cd/common'
     ref: master
     file: '/public/definition.yml'

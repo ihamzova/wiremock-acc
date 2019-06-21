@@ -3,13 +3,13 @@
   "total": 4,
   "_links": {
     "self": {
-      "href": "/v1/accounts/1234567890/billingAccounts?limit=20&page=1"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts?limit=20&page=1"
     },
     "first": {
-      "href": "/v1/accounts/1234567890/billingAccounts?limit=20"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts?limit=20"
     },
     "last": {
-      "href": "/v1/accounts/1234567890/billingAccounts?limit=20&page=1"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts?limit=20&page=1"
     }
   },
   "_embedded": {
@@ -17,25 +17,13 @@
       {
         "self": {
           "id": "4962110854",
-          "href": "/v1/accounts/1234567890/billingAccounts/4962110854"
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts/4962110854"
         }
       },
       {
         "self": {
           "id": "4962112429",
-          "href": "/v1/accounts/1234567890/billingAccounts/4962112429"
-        }
-      },
-      {
-        "self": {
-          "id": "4962127869",
-          "href": "/v1/accounts/1234567890/billingAccounts/4962127869"
-        }
-      },
-      {
-        "self": {
-          "id": "4962147742",
-          "href": "/v1/accounts/1234567890/billingAccounts/4962147742"
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts/4962112429"
         }
       }
     ]

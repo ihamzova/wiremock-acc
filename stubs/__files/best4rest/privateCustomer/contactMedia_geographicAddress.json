@@ -3,12 +3,13 @@
   "location": {
     "streetName": "Prager Str.",
     "streetNr": "15",
+    "streetNrSuffix": "b",
     "city": "Leipzig",
-    "postcode": 4109,
+    "postcode": "4109",
     "country": "DE",
     "_links": {
       "self": {
-        "href": "/v1/accounts/1234567890/contacts/1-1AQ-571/contactMedia/22114446"
+        "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/22114446"
       }
     }
   }

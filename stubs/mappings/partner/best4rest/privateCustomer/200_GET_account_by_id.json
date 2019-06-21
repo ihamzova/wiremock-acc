@@ -1,11 +1,12 @@
 {
+  "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/v1/accounts/([0-9]{10})"
+    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "best4rest/account.json",
+    "bodyFileName": "best4rest/privateCustomer/account.json",
     "headers": {
       "Content-Type": "application/json"
     }

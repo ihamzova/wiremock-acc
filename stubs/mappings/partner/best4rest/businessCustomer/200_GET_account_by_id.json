@@ -1,11 +1,12 @@
 {
+  "priority": 1,
   "request": {
     "method": "GET",
-    "urlPattern": "/v1/accounts/([0-9]{10})/contacts/([A-Za-z0-9-]+)/contactMedia"
+    "urlPattern": "/best4rest/v1/accounts/8882105959"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "best4rest/contactMedia.json",
+    "bodyFileName": "best4rest/businessCustomer/account.json",
     "headers": {
       "Content-Type": "application/json"
     }

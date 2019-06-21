@@ -1,11 +1,11 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/v1/accounts/([0-9]{10})/contracts/([A-Za-z0-9-]+)"
+    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})/billingAccounts/4962110854"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "best4rest/contract.json",
+    "bodyFileName": "best4rest/billingAccount_4962110854.json",
     "headers": {
       "Content-Type": "application/json"
     }

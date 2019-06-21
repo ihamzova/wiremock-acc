@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap-env:Header>
+        <tesb:TechnicalHeader xmlns:tesb="http://bom.telekom.de/esb" xsi:schemaLocation="http://bom.telekom.de/esb ESBHeader.xsd">
+            <tesb:Creator>ESB_ChangeKunde</tesb:Creator>
+            <tesb:UserCredentials/>
+            <tesb:ServiceDetails>
+                <tesb:Name>ChangeKunde</tesb:Name>
+                <tesb:Version>1.0</tesb:Version>
+                <tesb:SystemID>ESB</tesb:SystemID>
+                <tesb:Timestamp>2019-03-12T15:34:59</tesb:Timestamp>
+            </tesb:ServiceDetails>
+        </tesb:TechnicalHeader>
+    </soap-env:Header>
+    <soap-env:Body>
+        <aen:aendernKundeResponse xmlns:aen="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/AendernKunde_v01.00" xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/AendernKunde_v01.00/types">
+            <typ:context xmlns:csdg="http://schemas.telekom.net/csdg_v01.01">
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.CRM_T:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.vvm.architecture.VVM:Default:AendernKunde</csdg:routingInfo>
+                    <csdg:messageId>03c3d528-44d4-11e9-9375-0aa9ac5a0000</csdg:messageId>
+                    <csdg:relatesToMessageId>ed612f88-df01-486a-8c90-72bc6adedaa5</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2019-03-12T14:34:59.842Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>600000</csdg:expiryOffsetInMillis>
+                    <csdg:priority>4</csdg:priority>
+                    <csdg:replyState>eyJpbmJPZGJFdnQiOmZhbHNlLCJSZXF1ZXN0T3BlcmF0aW9uIjoiYWVuZGVybkt1bmRlIiwibWVwVHlwZSI6IlNZTkMiLCJTaW1wbGVQUE5hbWUiOiJBZW5kZXJuS3VuZGVfVlZNIiwicm91dGluZ0luZm8iOiJkZS50ZWxla29tLnZ2bS5hcmNoaXRlY3R1cmUuVlZNOkRlZmF1bHQ6QWVuZGVybkt1bmRlIiwiUmVxdWVzdElkIjoiZWQ2MTJmODgtZGYwMS00ODZhLThjOTAtNzJiYzZhZGVkYWE1IiwiUmVxU3RhcnRUaW1lIjoiMTU1MjQwMTI5NDg5MyIsIlByb3ZpZGVyU2VuZGVyTmFtZSI6ImRlLnRlbGVrb20uQ1JNX1Q6RGVmYXVsdCIsImxvZ3BvaW50SWQiOiIzMkU3MDVGNjJDQjRGNzRFNDk4NkFFN0Y0MkFCNjFBOCIsIldzZ0luc3RhbmNlSWQiOiJ1cm46dXVpZDoxQTE0M0YwQzJGRDVDMkNBM0QxNTUyMzE4MzM1MTg5MCIsIlJlc3BvbnNlUXVldWUiOiJldHVtMS5kZS50ZWxla29tLkNSTV9ULkRlZmF1bHQuQWVuZGVybkt1bmRlX1ZWTS5sb2MucmVzcCIsIkNvcnJlbGF0aW9uSWQiOiI4YjljMDliMS0wY2I5LTRlOTktYWQ1MS1hN2Q0ZDFhOWZiNTkiLCJUYXJnZXROYW1lc3BhY2UiOiJodHRwOi8vc2VydmljZXMudGRldS50ZWxla29tLm5ldC9DdXN0UmVsTWdtdC9DdXN0b21Jbk1hL0FlbmRlcm5LdW5kZV92MDEuMDAifQ==</csdg:replyState>
+                    <csdg:property name="crmt.SystemID">CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>8b9c09b1-0cb9-4e99-ad51-a7d4d1a9fb59</csdg:processId>
+                    <csdg:processTypeId>AendernKunde</csdg:processTypeId>
+                </csdg:businessContext>
+            </typ:context>
+            <typ:data>
+                <aendernKundeReply xmlns="http://bom.telekom.de/svc" xmlns:bom="http://bom.telekom.de/cc" xmlns:crmt="http://bom.telekom.de/crmt" xmlns:udt="http://bom.telekom.de/udt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://bom.telekom.de/svc aendernKunde_BOM.xsd">
+                    <ReturnCode>00</ReturnCode>
+                </aendernKundeReply>
+            </typ:data>
+        </aen:aendernKundeResponse>
+    </soap-env:Body>
+</soap-env:Envelope>

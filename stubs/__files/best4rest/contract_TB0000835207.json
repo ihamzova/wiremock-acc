@@ -1,5 +1,5 @@
 {
-  "id": "T749645971",
+  "id": "TB0000835207",
   "status": "ACTIVE",
   "type": "RENT",
   "product": {
@@ -31,7 +31,7 @@
           "taxIncludedMonthlyRecurringAmount": 0,
           "place": [
             {
-              "id": "9566208",
+              "id": "123456",
               "role": "KLS-ID of installation"
             }
           ]
@@ -67,7 +67,7 @@
                 "taxIncludedMonthlyRecurringAmount": 0,
                 "place": [
                   {
-                    "id": "9566208",
+                    "id": "123456",
                     "role": "KLS-ID of installation"
                   }
                 ]
@@ -76,18 +76,18 @@
           ],
           "place": [
             {
-              "id": "9566208",
+              "id": "123456",
               "role": "KLS-ID of installation"
             }
           ],
           "productCharacteristic": [
             {
-              "name": "Speicherart der Verbindungsdaten",
-              "value": "3"
+              "name": "Rufnummer",
+              "value": "445566"
             },
             {
-              "name": "TNBA-ID",
-              "value": "00080000040989440"
+              "name": "Vorwahl",
+              "value": "05678"
             },
             {
               "name": "RechnungsNr",
@@ -135,7 +135,7 @@
                 "taxIncludedMonthlyRecurringAmount": 0,
                 "place": [
                   {
-                    "id": "9566208",
+                    "id": "123456",
                     "role": "KLS-ID of installation"
                   }
                 ]
@@ -144,7 +144,7 @@
           ],
           "place": [
             {
-              "id": "9566208",
+              "id": "123456",
               "role": "KLS-ID of installation"
             }
           ],
@@ -175,7 +175,7 @@
     ],
     "place": [
       {
-        "id": "9566208",
+        "id": "123456",
         "role": "KLS-ID of installation"
       }
     ],
@@ -218,19 +218,19 @@
       }
     ]
   },
-  "name": "BC5 BusinessCall ISDN AnlAs",
+  "name": "Telekom Magenta M",
   "startDate": "2012-12-13",
   "_links": {
     "self": {
       "id": "T749645971",
-      "href": "/v1/accounts/1234567890/contracts/T749645971"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contracts/T749645971"
     },
     "contacts": {
-      "href": "/v1/accounts/1234567890/contacts"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts"
     },
     "billingAccount": {
-      "id": "4962110854",
-      "href": "/v1/accounts/1234567890/billingAccounts/4962110854"
+      "id": "4962112429",
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts/4962112429"
     }
   }
 }

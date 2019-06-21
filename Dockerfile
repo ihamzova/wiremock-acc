@@ -4,4 +4,4 @@ COPY target/wiremock-acc.jar /$WM_PACKAGE
 COPY stubs /$WM_PACKAGE
 
 ENTRYPOINT ["java","-jar","wiremock-acc.jar"]
-CMD ["--local-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks"]
+CMD ["--global-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks"]

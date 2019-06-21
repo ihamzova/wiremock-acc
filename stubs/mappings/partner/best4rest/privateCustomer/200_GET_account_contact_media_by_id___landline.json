@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})/contacts/([A-Za-z0-9-]+)/contactMedia/1-4MY3UC1"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "best4rest/privateCustomer/contactMedia_landline.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

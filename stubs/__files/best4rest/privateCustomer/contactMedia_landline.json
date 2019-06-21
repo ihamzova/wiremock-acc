@@ -12,7 +12,7 @@
   "blockedForCallbacks": "false",
   "_links": {
     "self": {
-      "href": "/v1/accounts/1234567890/contacts/1-1AQ-571/contactMedia/1-4MY3UC1"
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/1-4MY3UC1"
     }
   }
 }

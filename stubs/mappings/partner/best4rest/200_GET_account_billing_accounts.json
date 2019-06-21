@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/v1/accounts/([0-9]{10})/billingAccounts"
+    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})/billingAccounts"
   },
   "response": {
     "status": 200,

@@ -1,0 +1,47 @@
+{
+  "count": 6,
+  "total": 6,
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia?limit=20"
+    },
+    "last": {
+      "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contactMedia": [
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "1-4MY3UC1",
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/1-4MY3UC1"
+        }
+      },
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "1-4OF7MCH",
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/1-4OF7MCH"
+        }
+      },
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "1-4OF7MD9",
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/1-4OF7MD9"
+        }
+      },
+      {
+        "type": "GeographicAddress",
+        "self": {
+          "id": "22114446",
+          "href": "/v1/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1AQ-571/contactMedia/22114446"
+        }
+      }
+    ]
+  }
+}

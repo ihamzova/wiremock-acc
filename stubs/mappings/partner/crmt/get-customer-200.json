@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/lesenKundeRequest",
+    "urlPattern": "/crmt/lesenKundeRequest",
     "headers": {
       "Content-Type": {
         "equalTo": "text/xml; charset=UTF-8"

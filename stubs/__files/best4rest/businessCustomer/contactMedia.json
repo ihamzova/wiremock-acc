@@ -1,0 +1,47 @@
+{
+  "count": 1,
+  "total": 1,
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia?limit=20"
+    },
+    "last": {
+      "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contactMedia": [
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "1-BUSINESS-CM",
+          "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia/1-BUSINESS-CM"
+        }
+      },
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "2-BUSINESS-CM",
+          "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia/2-BUSINESS-CM"
+        }
+      },
+      {
+        "type": "ElectronicalAddress",
+        "self": {
+          "id": "3-BUSINESS-CM",
+          "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia/3-BUSINESS-CM"
+        }
+      },
+      {
+        "type": "GeographicAddress",
+        "self": {
+          "id": "9566208",
+          "href": "/v1/accounts/8882105959/contacts/1-CE5R70/contactMedia/9566208"
+        }
+      }
+    ]
+  }
+}

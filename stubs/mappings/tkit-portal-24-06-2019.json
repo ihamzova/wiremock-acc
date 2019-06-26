@@ -1,0 +1,695 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/1000kit-portal-server/v2/menustructure/PORTAL?interpolate=true"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "persisted": true,
+        "guid": "PORTAL_ADMIN_MENU",
+        "version": 0,
+        "key": "PORTAL_ADMIN_MENU",
+        "name": "Portal administration menu parent item",
+        "i18n": {
+          "de": "Telekom Magic Admin",
+          "en": "Telekom Magic Admin"
+        },
+        "url": null,
+        "portalId": "PORTAL",
+        "disabled": false,
+        "position": 0,
+        "children": [
+          {
+            "persisted": true,
+            "guid": "SETTINGS_IMPORT",
+            "version": 0,
+            "key": "SETTINGS_IMPORT",
+            "name": "SETTINGS_IMPORT",
+            "i18n": {
+              "de": "Basis Szenarien verwalten",
+              "en": "Scenario Management Base"
+            },
+            "url": "/datamgmt/import",
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 1,
+            "children": [],
+            "permissionObject": "SETTINGS_IMPORT",
+            "badge": null,
+            "scope": "PAGE",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "SETTINGS_INTERFACES_FUSE",
+            "version": 0,
+            "key": "SETTINGS_INTERFACES_FUSE",
+            "name": "SETTINGS_INTERFACES_FUSE",
+            "i18n": {
+              "de": "Schnittstellen Fuse",
+              "en": "Interfaces Fuse"
+            },
+            "url": "/ea-ext-ui/request/search",
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 2,
+            "children": [],
+            "permissionObject": "SETTINGS_INTERFACES_FUSE",
+            "badge": null,
+            "scope": "PAGE",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "IBT_PROCESSLOG_SEARCH",
+            "version": 0,
+            "key": "IBT_PROCESSLOG_SEARCH",
+            "name": "IBT_PROCESSLOG_SEARCH",
+            "i18n": {
+              "de": "IBT Process Logs suchen",
+              "en": "IBT Process Logs search"
+            },
+            "url": "/ibt-core-ui/processlog/search",
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 4,
+            "children": [],
+            "permissionObject": "IBT_PROCESSLOG_SEARCH",
+            "badge": null,
+            "scope": "PAGE",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          }
+        ],
+        "permissionObject": "PORTAL_ADMIN_MENU",
+        "badge": null,
+        "scope": "PORTAL",
+        "applicationId": "tkit-portal",
+        "portalExit": false,
+        "parentKey": null
+      },
+      {
+        "persisted": true,
+        "guid": "PORTAL_MAIN_MENU",
+        "version": 0,
+        "key": "PORTAL_MAIN_MENU",
+        "name": "Portal main menu parent item",
+        "i18n": {},
+        "url": null,
+        "portalId": "PORTAL",
+        "disabled": false,
+        "position": 0,
+        "children": [
+          {
+            "persisted": true,
+            "guid": "AREA_MGMT_ROOT",
+            "version": 0,
+            "key": "AREA_MGMT_ROOT",
+            "name": "Area management root menu item",
+            "i18n": {
+              "de": "Gebiete/Lokationen",
+              "en": "Areas/Locations"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 1,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "VVM_AREA_IMPORT",
+                "version": 0,
+                "key": "VVM_AREA_IMPORT",
+                "name": "VVM_AREA_IMPORT",
+                "i18n": {
+                  "de": "VVM-Gebiet Import",
+                  "en": "Import VVM Area"
+                },
+                "url": "/area-management-ui/area/import",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 1,
+                "children": [],
+                "permissionObject": "VVM_AREA_IMPORT",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "VVM_AREA_SEARCH",
+                "version": 0,
+                "key": "VVM_AREA_SEARCH",
+                "name": "VVM_AREA_SEARCH",
+                "i18n": {
+                  "de": "VVM-Gebiete",
+                  "en": "Search VVM Areas"
+                },
+                "url": "/area-management-ui/area/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 2,
+                "children": [],
+                "permissionObject": "VVM_AREA_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "NVT_AREA_SEARCH",
+                "version": 0,
+                "key": "NVT_AREA_SEARCH",
+                "name": "NVT_AREA_SEARCH",
+                "i18n": {
+                  "de": "NVT-Gebiete",
+                  "en": "Search NVT Areas"
+                },
+                "url": "/area-management-ui/nvtarea/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 3,
+                "children": [],
+                "permissionObject": "NVT_AREA_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "AREA_MGMT_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "PARTNER_MGMT_ROOT",
+            "version": 0,
+            "key": "PARTNER_MGMT_ROOT",
+            "name": "Service Order root menu item",
+            "i18n": {
+              "de": "Lieferanten Cockpit",
+              "en": "Partner Management"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 2,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "IBT_TIMESLOT_GROUP_SEARCH",
+                "version": 0,
+                "key": "IBT_TIMESLOT_GROUP_SEARCH",
+                "name": "IBT_TIMESLOT_GROUP_SEARCH",
+                "i18n": {
+                  "de": "Termingruppen suchen",
+                  "en": "Timeslot Group Search"
+                },
+                "url": "/ibt-core-ui/timeslotgroup/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 6,
+                "children": [],
+                "permissionObject": "IBT_TIMESLOT_GROUP_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": true,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "IBT_TIMESLOT_SEARCH",
+                "version": 0,
+                "key": "IBT_TIMESLOT_SEARCH",
+                "name": "IBT_TIMESLOT_SEARCH",
+                "i18n": {
+                  "de": "Kapazitäten verwalten",
+                  "en": "Capacity Management"
+                },
+                "url": "/ibt-core-ui/timeslot/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 7,
+                "children": [],
+                "permissionObject": "IBT_TIMESLOT_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": true,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "PARTNER_MGMT_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "PTI_COCKPIT_ROOT",
+            "version": 0,
+            "key": "PTI_COCKPIT_ROOT",
+            "name": "Service Order root menu item",
+            "i18n": {
+              "de": "PTI Cockpit",
+              "en": "PTI Cockpit"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 3,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "CREATE_SUPPLIER_PROJECT",
+                "version": 0,
+                "key": "CREATE_SUPPLIER_PROJECT",
+                "name": "CREATE_SUPPLIER_PROJECT",
+                "i18n": {
+                  "de": "Ausbauprojekt anlegen",
+                  "en": "Create rollout project"
+                },
+                "url": "/program-management-ui/nvtarea/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 1,
+                "children": [],
+                "permissionObject": "CREATE_SUPPLIER_PROJECT",
+                "badge": "CREATE_SUPPLIER_PROJECT",
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "PROGRAM_SEARCH",
+                "version": 0,
+                "key": "PROGRAM_SEARCH",
+                "name": "PROGRAM_SEARCH",
+                "i18n": {
+                  "de": "Ausbauprojekte suchen",
+                  "en": "Search Rollout Projects"
+                },
+                "url": "/program-management-ui/areaprogram/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 2,
+                "children": [],
+                "permissionObject": "PROGRAM_SEARCH",
+                "badge": "PROGRAM_SEARCH",
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "IBT_ORDER_SEARCH",
+                "version": 0,
+                "key": "IBT_ORDER_SEARCH",
+                "name": "IBT_ORDER_SEARCH",
+                "i18n": {
+                  "de": "Bauaufträge suchen",
+                  "en": "IBT Order Search"
+                },
+                "url": "/ibt-core-ui/ibtorder/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 4,
+                "children": [],
+                "permissionObject": "IBT_ORDER_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "SUPPLIER_SEARCH",
+                "version": 0,
+                "key": "SUPPLIER_SEARCH",
+                "name": "SUPPLIER_SEARCH",
+                "i18n": {
+                  "de": "Auftragnehmer suchen",
+                  "en": "Search Suppliers"
+                },
+                "url": "/supplier-management-ui/supplier/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 5,
+                "children": [],
+                "permissionObject": "SUPPLIER_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "AVAIL_CHECK_UI",
+                "version": 0,
+                "key": "AVAIL_CHECK_UI",
+                "name": "AVAIL_CHECK_UI",
+                "i18n": {
+                  "de": "Verfuegbarkeit Glas",
+                  "en": "Availibility Fibre"
+                },
+                "url": "https://availability-check-ui-app-develop.telitcaas4.t-internal.com/availability-check",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 6,
+                "children": [],
+                "permissionObject": "AVAIL_CHECK_UI",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "PTI_COCKPIT_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "INVENTORY_DOSS_ROOT",
+            "version": 0,
+            "key": "INVENTORY_DOSS_ROOT",
+            "name": "D-OSS inventory root menu item",
+            "i18n": {
+              "de": "Inventare D-OSS",
+              "en": "Inventory D-OSS"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 4,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "PON_BROWSER",
+                "version": 0,
+                "key": "PON_BROWSER",
+                "name": "PON_BROWSER",
+                "i18n": {
+                  "de": "Glasfaser Browser",
+                  "en": "PON Browser"
+                },
+                "url": "https://pon-browser-page-app-develop-orion-02.telitcaas4.t-internal.com",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 1,
+                "children": [],
+                "permissionObject": "PON_BROWSER",
+                "badge": "PON_BROWSER",
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "OLT_BROWSER",
+                "version": 0,
+                "key": "OLT_BROWSER",
+                "name": "OLT_BROWSER",
+                "i18n": {
+                  "de": "OLT Browser",
+                  "en": "OLT Browser"
+                },
+                "url": "https://olt-maintenance-ui-app-develop.telitcaas4.t-internal.com/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 2,
+                "children": [],
+                "permissionObject": "PON_BROWSER",
+                "badge": "OLT_BROWSER",
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "GFTA_SEARCH",
+                "version": 0,
+                "key": "GFTA_SEARCH",
+                "name": "GFTA_SEARCH",
+                "i18n": {
+                  "de": "GFTA Suchen",
+                  "en": "GFTA Search"
+                },
+                "url": "/ne3ne4-inventory-ui",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 3,
+                "children": [],
+                "permissionObject": "GFTA_SEARCH",
+                "badge": "GFTA_SEARCH",
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "INVENTORY_DOSS_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": true,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "PROPERTY_OWNER_MGMT_ROOT",
+            "version": 0,
+            "key": "PROPERTY_OWNER_MGMT_ROOT",
+            "name": "Property owner management root menu item",
+            "i18n": {
+              "de": "Eigentümer Cockpit",
+              "en": "Property Owner Cockpit"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 5,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "IBT_PROPERTY_SEARCH",
+                "version": 0,
+                "key": "IBT_PROPERTY_SEARCH",
+                "name": "IBT_PROPERTY_SEARCH",
+                "i18n": {
+                  "de": "Immobilien suchen",
+                  "en": "Property search"
+                },
+                "url": "/ibt-core-ui/property/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 1,
+                "children": [],
+                "permissionObject": "IBT_PROPERTY_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "PROPERTY_OWNER_SEARCH",
+                "version": 0,
+                "key": "PROPERTY_OWNER_SEARCH",
+                "name": "PROPERTY_OWNER_SEARCH",
+                "i18n": {
+                  "de": "Eigentümer suchen",
+                  "en": "Property Onwer Search"
+                },
+                "url": "/ibt-core-ui/propertyowner/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 2,
+                "children": [],
+                "permissionObject": "PROPERTY_OWNER_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "IBT_EMAIL_REQ_SEARCH",
+                "version": 0,
+                "key": "IBT_EMAIL_REQ_SEARCH",
+                "name": "IBT_EMAIL_REQ_SEARCH",
+                "i18n": {
+                  "de": "Email-Anfrage suchen",
+                  "en": "Email requests search"
+                },
+                "url": "/ibt-core-ui/emailrequest/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 3,
+                "children": [],
+                "permissionObject": "IBT_EMAIL_REQ_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "PROPERTY_OWNER_MGMT_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          },
+          {
+            "persisted": true,
+            "guid": "SERVICE_ORDER_ROOT",
+            "version": 0,
+            "key": "SERVICE_ORDER_ROOT",
+            "name": "SERVICE_ORDER_ROOT",
+            "i18n": {
+              "de": "Service Management",
+              "en": "Service Order"
+            },
+            "url": null,
+            "portalId": "PORTAL",
+            "disabled": false,
+            "position": 6,
+            "children": [
+              {
+                "persisted": true,
+                "guid": "SERVICE_ORDER_SEARCH",
+                "version": 0,
+                "key": "SERVICE_ORDER_SEARCH",
+                "name": "SERVICE_ORDER_SEARCH",
+                "i18n": {
+                  "de": "Service Order Verwaltung",
+                  "en": "Service Order Search"
+                },
+                "url": "/service-order-ui/serviceorder/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 1,
+                "children": [],
+                "permissionObject": "SERVICE_ORDER_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              },
+              {
+                "persisted": true,
+                "guid": "SERVICE_INVENTORY_SEARCH",
+                "version": 0,
+                "key": "SERVICE_INVENTORY_SEARCH",
+                "name": "SERVICE_INVENTORY_SEARCH",
+                "i18n": {
+                  "de": "Service Inventory",
+                  "en": "Service Inventory"
+                },
+                "url": "/service-inventory-ui/serviceinventory/search",
+                "portalId": "PORTAL",
+                "disabled": false,
+                "position": 2,
+                "children": [],
+                "permissionObject": "SERVICE_ORDER_SEARCH",
+                "badge": null,
+                "scope": "PAGE",
+                "applicationId": "tkit-portal",
+                "portalExit": false,
+                "parentKey": null
+              }
+            ],
+            "permissionObject": "SERVICE_ORDER_ROOT",
+            "badge": null,
+            "scope": "APP",
+            "applicationId": "tkit-portal",
+            "portalExit": false,
+            "parentKey": null
+          }
+        ],
+        "permissionObject": "PORTAL_MAIN_MENU",
+        "badge": null,
+        "scope": "PORTAL",
+        "applicationId": "tkit-portal",
+        "portalExit": false,
+        "parentKey": null
+      },
+      {
+        "persisted": true,
+        "guid": "PORTAL_MENU_HOME",
+        "version": 0,
+        "key": "PORTAL_MENU_HOME",
+        "name": "Portal main menu parent item",
+        "i18n": {},
+        "url": null,
+        "portalId": "PORTAL",
+        "disabled": false,
+        "position": 0,
+        "children": [],
+        "permissionObject": "PORTAL_MENU_HOME",
+        "badge": "DigiOSS",
+        "scope": "PORTAL",
+        "applicationId": "tkit-portal",
+        "portalExit": false,
+        "parentKey": null
+      },
+      {
+        "persisted": true,
+        "guid": "PORTAL_USER_MENU",
+        "version": 0,
+        "key": "PORTAL_USER_MENU",
+        "name": "Portal user menu parent item",
+        "i18n": {},
+        "url": null,
+        "portalId": "PORTAL",
+        "disabled": false,
+        "position": 0,
+        "children": [],
+        "permissionObject": "PORTAL_USER_MENU",
+        "badge": null,
+        "scope": "PORTAL",
+        "applicationId": "tkit-portal",
+        "portalExit": false,
+        "parentKey": null
+      }
+    ]
+  }
+}

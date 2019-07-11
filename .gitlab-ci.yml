@@ -24,6 +24,8 @@ include:
   - project: 'infr/pipelines/service/cd/common'
     ref: master
     file: '/public/domain/acc.yml'
-
+  - project: 'infr/pipelines/service/cd/common'
+    ref: master
+    file: 'public/domain/infr.yml'
 
 

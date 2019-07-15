@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/api/resource-order-resource-inventory/v1/homeId/requestFreeHomeId",
+    "bodyPatterns" : [ {
+      "equalToJson" : {
+        "vpSz": "49/30/179",
+        "fachSz": {
+          "doesNotMatch": "76H[0-9A-Z]"
+        },
+        "slotNumber": "4",
+        "portNumber": "1"
+       }
+    } ]
+  },
+
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "freeHomeId/400.json"
+  }
+}

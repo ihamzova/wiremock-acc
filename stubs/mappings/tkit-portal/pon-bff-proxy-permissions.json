@@ -1,0 +1,29 @@
+{  
+  "request":{  
+    "method":"GET",
+    "url":"/1000kit-portal-server/v2/applications/pon-bff-proxy/permissions"
+  },
+  "response":{  
+    "status":200,
+    "headers":{  
+      "Content-Type":"application/json"
+    },
+    "jsonBody":[  
+      {  
+        "resource":"PON_INVENTORY",
+        "action":"READ",
+        "key":"PON_INVENTORY#READ"
+      },
+      {  
+        "resource":"PON_INVENTORY",
+        "action":"READ",
+        "key":"PON_INVENTORY#READ"
+      },
+      {  
+        "resource":"PON_INVENTORY",
+        "action":"CHANGE",
+        "key":"PON_INVENTORY#CHANGE"
+      }
+    ]
+  }
+}

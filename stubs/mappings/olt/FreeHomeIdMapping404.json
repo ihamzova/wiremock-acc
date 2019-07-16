@@ -3,10 +3,14 @@
     "method": "PUT",
     "urlPath": "/api/oltResourceInventory/v1/homeId/requestFreeHomeId",
     "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.vpSz == '49/30/404')]"},
-      {"matchesJsonPath" : "$[?(@.fachSz != '76H[0-9A-Z]')]"},
-      {"matchesJsonPath" : "$[?(@.slotNumber == '4')]"},
-      {"matchesJsonPath" : "$[?(@.portNumber == '1')]"}
+      {
+        "equalToJson" : {
+          "vpSz" : "49/30/404",
+          "fachSz" : "76HZ",
+          "slotNumber" : "4",
+          "portNumber" : "1"
+        }
+      }
     ]
   },
 

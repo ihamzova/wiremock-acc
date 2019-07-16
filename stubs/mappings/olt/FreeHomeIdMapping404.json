@@ -4,7 +4,7 @@
     "urlPath": "/api/resource-order-resource-inventory/v1/homeId/requestFreeHomeId",
     "bodyPatterns" : [ {
       "equalToJson" : {
-        "vpSz": "49/30/179",
+        "vpSz": "49/30/404",
         "fachSz": {
           "doesNotMatch": "76H[0-9A-Z]"
         },
@@ -15,10 +15,13 @@
   },
 
   "response": {
-    "status": 400,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "freeHomeId/400.json"
+    "jsonBody": {
+      "errorCode": "404",
+      "message": "ERROR 404"
+    }
   }
 }

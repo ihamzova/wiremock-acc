@@ -1,12 +1,11 @@
 {
-  "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})/contracts"
+    "urlPattern": "/best4rest/v1/accounts/9876543210/billingAccounts"
   },
   "response": {
     "status": 200,
-    "bodyFileName": "best4rest/contracts.json",
+    "bodyFileName": "best4rest/billingAccounts_for_9876543210.json",
     "headers": {
       "Content-Type": "application/json"
     }

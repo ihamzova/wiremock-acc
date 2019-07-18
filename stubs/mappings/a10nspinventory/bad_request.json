@@ -1,0 +1,24 @@
+{
+  "id": "51b8d55f-1938-43c0-86c8-ed8ddd40076d",
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/a10nsp/carrierConnection",
+    "queryParameters": {
+      "rahmenvertragsnummer": {
+        "doesNotMatch": "[0-9]*"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "doesNotMatch": "[A-Z0-9]{3}\\.[A-Z0-9]{1,6}\\.[A-Z0-9]{1,10}"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "body": "{\"errorCode\": null, \"message\": \"checkLineId.lineId: must match \\\"[A-Z0-9]{3}\\\\.[A-Z0-9]{1,6}\\\\.[A-Z0-9]{1,10}\\\"\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

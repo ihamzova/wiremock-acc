@@ -1,0 +1,75 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/3"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id": "10000000003",
+      "href": "/giga-project-dioss/v2/FiberAvailability/serviceQualification/3",
+      "provideAlternative": false,
+      "provideOnlyAvailable": false,
+      "provideUnavailabilityReason": true,
+      "qualificationResult": "qualified",
+      "state": "done",
+      "relatedParty": [],
+      "serviceQualificationItem": [
+        {
+          "id": "bcb770b0-ac9a-4fdf-bf95-e17fe0e971ca",
+          "qualificationResult": "qualified",
+          "state": "done",
+          "alternateServiceProposal": [],
+          "eligibilityUnavailabilityReason": [
+            {
+              "code": "PRESALES_PENDING",
+              "label": "Vorvermarktung noch nicht gestartet"
+            }
+          ],
+          "qualificationItemRelationship": [],
+          "service": {
+            "id": "c438201f-4b3b-4826-9190-4b213b332c92",
+            "place": [
+              {
+                "id": "3",
+                "@type": "UrbanPropertyAddress"
+              }
+            ],
+            "relatedParty": [],
+            "serviceCharacteristic": [
+              {
+                "name": "Kooperationspartner",
+                "value": "OOO Cooperation Partner"
+              },
+              {
+                "name": "Ausbaustand Glasfaser",
+                "value": "vvmOngoing"
+              },
+              {
+                "name": "Technologie",
+                "value": "FTTH"
+              },
+              {
+                "name": "DatumVon",
+                "value": "2021-02-28T00:00:00.000Z"
+              },
+              {
+                "name": "DatumBis",
+                "value": "2021-03-29T00:00:00.000Z"
+              }
+            ],
+            "serviceRelationship": []
+          },
+          "terminationError": []
+        }
+      ]
+    }
+  }
+}

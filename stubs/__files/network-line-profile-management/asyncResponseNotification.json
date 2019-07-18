@@ -1,0 +1,55 @@
+{
+  "error": {
+    "message": "string",
+    "status": 0,
+    "code": "string"
+  },
+  "response": {
+    "eventId": "eventId",
+    "eventTime": null,
+    "eventType": "eventType",
+    "event": {
+      "resourceOrder": {
+        "id": "id",
+        "href": "href",
+        "state": "COMPLETED",
+        "name": "name",
+        "description": "description",
+        "priority": 2,
+        "category": "category",
+        "orderDate": null,
+        "requestedStartDate": null,
+        "requestedCompletionDate": null,
+        "completionDate": null,
+        "startDate": null,
+        "expectedCompletionDate": null,
+        "resourceOrderItems": [
+          {
+            "id": "id",
+            "action": "ADD",
+            "state": "INPROGRESS",
+            "resource": {
+              "id": "id",
+              "href": "href",
+              "name": "name",
+              "description": "description",
+              "state": "OPERATING_WORKING",
+              "type": "type",
+              "resourceCharacteristics": [
+                {
+                  "name": "PPDOWNL3",
+                  "value": "value"
+                },
+                {
+                  "name": "PPUPL3",
+                  "value": "value"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "success": true
+}

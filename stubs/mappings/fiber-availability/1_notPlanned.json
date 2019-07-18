@@ -1,0 +1,60 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id": "1",
+      "href": "/giga-project-dioss/v2/FiberAvailability/serviceQualification/1",
+      "provideAlternative": false,
+      "provideOnlyAvailable": false,
+      "provideUnavailabilityReason": true,
+      "qualificationResult": "qualified",
+      "state": "done",
+      "relatedParty": [],
+      "serviceQualificationItem": [
+        {
+          "id": "3a99d912-c520-49d7-8434-85aecad040e4",
+          "qualificationResult": "qualified",
+          "state": "done",
+          "alternateServiceProposal": [],
+          "eligibilityUnavailabilityReason": [
+            {
+              "code": "NO_AREA_EXPANSION",
+              "label": "Gebiet zum Ausbau nicht vorgesehen"
+            }
+          ],
+          "qualificationItemRelationship": [],
+          "service": {
+            "id": "8f924414-2863-43d7-9b4a-e56fe4f9b09a",
+            "place": [
+              {
+                "id": "1",
+                "@type": "UrbanPropertyAddress"
+              }
+            ],
+            "relatedParty": [],
+            "serviceCharacteristic": [
+              {
+                "name": "Ausbaustand Glasfaser",
+                "value": "notPlanned"
+              }
+            ],
+            "serviceRelationship": []
+          },
+          "terminationError": []
+        }
+      ]
+    }
+  }
+}
+

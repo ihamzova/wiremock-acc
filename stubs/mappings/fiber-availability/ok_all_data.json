@@ -1,0 +1,60 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/([0-9]+)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id" : "{{request.path.[4]}}",
+      "href" : "/giga-project-dioss/v2/FiberAvailability/serviceQualification/{{request.path.[4]}}",
+      "provideAlternative" : false,
+      "provideOnlyAvailable" : false,
+      "provideUnavailabilityReason" : true,
+      "qualificationResult" : "qualified",
+      "state" : "done",
+      "relatedParty" : [ ],
+      "serviceQualificationItem" : [ {
+        "id" : "e5e99f51-5196-41b3-9081-a6e8ced9c9cd",
+        "qualificationResult" : "qualified",
+        "state" : "done",
+        "alternateServiceProposal" : [ ],
+        "eligibilityUnavailabilityReason" : [ {
+          "code" : "PRESALES_PENDING",
+          "label" : "Vorvermarktung noch nicht gestartet"
+        } ],
+        "qualificationItemRelationship" : [ ],
+        "service" : {
+          "id" : "e02a3019-dcce-418a-8280-110b9f545f1e",
+          "place" : [ {
+            "id" : "{{request.path.[4]}}",
+            "@type" : "UrbanPropertyAddress"
+          } ],
+          "relatedParty" : [ ],
+          "serviceCharacteristic" : [ {
+            "name" : "Ausbaustand Glasfaser",
+            "value" : "areaPlanned"
+          }, {
+            "name" : "Technologie",
+            "value" : "FTTH"
+          }, {
+            "name" : "DatumVon",
+            "value" : "2021-11-01T00:00:00.000Z"
+          }, {
+            "name" : "DatumBis",
+            "value" : "2022-01-16T00:00:00.000Z"
+          } ],
+          "serviceRelationship" : [ ]
+        },
+        "terminationError" : [ ]
+      } ]
+    }
+  }
+}

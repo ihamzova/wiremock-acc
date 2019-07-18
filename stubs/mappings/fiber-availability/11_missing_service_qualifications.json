@@ -1,0 +1,37 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/11"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id": "6fd95345-08c4-4474-95c1-95f35ddd69b7",
+      "href": "/sq/6fd95345-08c4-4474-95c1-95f35ddd69b7",
+      "serviceQualificationDate": null,
+      "description": null,
+      "state": "done",
+      "externalId": null,
+      "qualificationResult": "qualified",
+      "expectedQualificationDate": null,
+      "estimatedResponseDate": null,
+      "effectiveQualificationDate": null,
+      "expirationDate": null,
+      "provideOnlyAvailable": false,
+      "provideAlternative": false,
+      "provideUnavailabilityReason": true,
+      "@baseType": null,
+      "@type": null,
+      "@schemaLocation": null,
+      "relatedParty": [],
+      "serviceQualificationItem": []
+    }
+  }
+}

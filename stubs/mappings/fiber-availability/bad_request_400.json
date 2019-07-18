@@ -1,0 +1,23 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/400"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": ["response-template"],
+    "jsonBody": {
+      "code": "400",
+      "reason": "This is reason why it failed",
+      "message": "Optional message",
+      "status": "Optional http error code extension",
+      "referenceError": "http://where/to/go.com",
+      "@type": "type of resource",
+      "@schemaLocation": "Linking to schema describing this REST resource"
+    }
+  }
+}

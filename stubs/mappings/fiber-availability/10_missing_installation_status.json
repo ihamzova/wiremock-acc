@@ -1,0 +1,130 @@
+{
+  "id": "f6bd4f51-9b88-4103-bfd2-9509bd53ce90",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/FiberAvailability/v2/serviceQualification/10"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "id": "6fd95345-08c4-4474-95c1-95f35ddd69b7",
+      "href": "/sq/6fd95345-08c4-4474-95c1-95f35ddd69b7",
+      "serviceQualificationDate": null,
+      "description": null,
+      "state": "done",
+      "externalId": null,
+      "qualificationResult": "qualified",
+      "expectedQualificationDate": null,
+      "estimatedResponseDate": null,
+      "effectiveQualificationDate": null,
+      "expirationDate": null,
+      "provideOnlyAvailable": false,
+      "provideAlternative": false,
+      "provideUnavailabilityReason": true,
+      "@baseType": null,
+      "@type": null,
+      "@schemaLocation": null,
+      "relatedParty": [],
+      "serviceQualificationItem": [
+        {
+          "id": "f53e39da-9c1e-4f61-8aeb-d452c19c3326",
+          "state": "done",
+          "expectedServiceAvailabilityDate": null,
+          "expirationDate": null,
+          "qualificationItemResult": "qualified",
+          "@type": null,
+          "@schemaLocation": null,
+          "eligibilityUnavailabilityReason": [
+            {
+              "code": "NO_OWNER_COMMIT",
+              "label": "Kein Glasfaserausbau, da keine Eigentümergenehmigung erhalten",
+              "@type": null,
+              "@schemaLocation": null
+            }
+          ],
+          "category": null,
+          "qualificationItemRelationship": [],
+          "service": {
+            "id": "70a54031-b8d7-448b-ab35-c430b1e242de",
+            "href": null,
+            "name": null,
+            "place": [
+              {
+                "id": "1",
+                "href": null,
+                "name": null,
+                "role": null,
+                "@type": null,
+                "@schemaLocation": null
+              }
+            ],
+            "serviceRelationship": [],
+            "characteristic": [
+              {
+                "name": "Geplanter Beginn Glasfaser-Ausbau",
+                "value": "2018-08-01T11:11:11.011Z",
+                "@type": null,
+                "@schemaLocation": null
+              },
+              {
+                "name": "Geplantes Ende Glasfaser-Ausbau",
+                "value": "2018-09-01T12:12:12.012Z",
+                "@type": null,
+                "@schemaLocation": null
+              }
+            ],
+            "relatedParty": [],
+            "serviceSpecification": null
+          },
+          "terminationError": [],
+          "alternateServiceProposal": []
+        },
+        {
+          "id": "f53e39da-9c1e-4f61-8aeb-d452c19c3327",
+          "state": "duplicit data ",
+          "expectedServiceAvailabilityDate": null,
+          "expirationDate": null,
+          "qualificationItemResult": "qualified",
+          "@type": null,
+          "@schemaLocation": null,
+          "category": null,
+          "qualificationItemRelationship": [],
+          "service": {
+            "id": "70a54031-b8d7-448b-ab35-c430b1e242de",
+            "href": null,
+            "name": null,
+            "place": [
+              {
+                "id": "1",
+                "href": null,
+                "name": null,
+                "role": null,
+                "@type": null,
+                "@schemaLocation": null
+              }
+            ],
+            "serviceRelationship": [],
+            "characteristic": [
+              {
+                "name": "Ausbaustand Glasfaser",
+                "value": "notPlanned",
+                "@type": null,
+                "@schemaLocation": null
+              }
+            ],
+            "relatedParty": [],
+            "serviceSpecification": null
+          },
+          "terminationError": [],
+          "alternateServiceProposal": []
+        }
+      ]
+    }
+  }
+}

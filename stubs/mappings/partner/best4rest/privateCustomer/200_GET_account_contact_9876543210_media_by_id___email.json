@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/9876543210/contacts/([A-Za-z0-9-]+)/contactMedia/1-4OF7MCI"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "best4rest/privateCustomer/contactMedia_9876543210_email.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

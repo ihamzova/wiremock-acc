@@ -1,0 +1,24 @@
+{
+  "id": "36dec21a-0bf6-4eb0-aaab-6590cdea2cf2",
+  "request": {
+    "method": "POST",
+    "url": "/reqcb/resource-order-resource-inventory/v1/networkLineProfile/"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "bodyFileName": "network-line-profile-management/asyncResponseNotification.json",
+      "method": "POST"
+    }
+  }
+}

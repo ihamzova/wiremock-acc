@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.github.tomakehurst.wiremock.http.Body;
 import com.github.tomakehurst.wiremock.http.HttpHeader;
 import com.github.tomakehurst.wiremock.http.HttpHeaders;
@@ -18,6 +19,7 @@ public class WebhookDefinition {
     private RequestMethod method;
     private String url;
     private List<HttpHeader> headers;
+    @JsonSerialize(using = BodySerializer.class)
     private Body body = Body.none();
     private Integer fixedDelayMilliseconds;
     private String bodyFileName;
@@ -58,6 +60,7 @@ public class WebhookDefinition {
         return new HttpHeaders(headers);
     }
 
+    @JsonIgnore
     public String getBase64Body() {
         return body.isBinary() ? body.asBase64() : null;
     }
@@ -105,6 +108,12 @@ public class WebhookDefinition {
         return this;
     }
 
+    public WebhookDefinition withJsonBody(JsonNode jsonBody) {
+        this.body = Body.fromOneOf(null, null, jsonBody, null);
+        return this;
+    }
+
+
     public WebhookDefinition withBinaryBody(byte[] body) {
         this.body = new Body(body);
         return this;
@@ -118,5 +127,13 @@ public class WebhookDefinition {
     @JsonIgnore
     public boolean specifiesBodyFile() {
         return bodyFileName != null && !bodyFileName.isEmpty();
+    }
+
+    public Integer getFixedDelayMilliseconds() {
+        return fixedDelayMilliseconds;
+    }
+
+    public WebhookDefinitionModel toModel() {
+        return new WebhookDefinitionModel(method, url, headers, body, fixedDelayMilliseconds, bodyFileName);
     }
 }

@@ -34,10 +34,10 @@ import static com.github.tomakehurst.wiremock.common.LocalNotifier.notifier;
 import static com.github.tomakehurst.wiremock.core.WireMockApp.FILES_ROOT;
 import static com.github.tomakehurst.wiremock.http.HttpClientFactory.getHttpRequestFor;
 import static com.google.common.base.MoreObjects.firstNonNull;
-import static java.util.concurrent.TimeUnit.SECONDS;
+import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 public class Webhooks extends PostServeAction {
-
+    public static final String NAME = "webhook";
     private final ScheduledExecutorService scheduler;
     private final HttpClient httpClient;
     private final Handlebars handlebars;
@@ -47,7 +47,7 @@ public class Webhooks extends PostServeAction {
         httpClient = HttpClientFactory.createClient();
         handlebars = new Handlebars();
         //Add all available wiremock helpers
-        for(WireMockHelpers helper: WireMockHelpers.values()){
+        for (WireMockHelpers helper : WireMockHelpers.values()) {
             this.handlebars.registerHelper(helper.name(), helper);
         }
     }
@@ -75,7 +75,7 @@ public class Webhooks extends PostServeAction {
     }
 
     public String getName() {
-        return "webhook";
+        return NAME;
     }
 
     @Override
@@ -103,8 +103,8 @@ public class Webhooks extends PostServeAction {
                         notifier.error(e.toString());
                     }
                 },
-                0L,
-                SECONDS
+                transformedDefinition.getFixedDelayMilliseconds() != null ? transformedDefinition.getFixedDelayMilliseconds() : 0L,
+                MILLISECONDS
         );
     }
 

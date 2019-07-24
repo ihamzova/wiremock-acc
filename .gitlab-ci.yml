@@ -20,10 +20,10 @@ include:
     file: '/public/conf/gitflow.yml'
 
   - project: 'infr/pipelines/service/cd/common'
-    ref: rc/semver.1.0
+    ref: release/semver.1.0
     file: '/public/definition.yml'
   - project: 'infr/pipelines/service/cd/common'
-    ref: rc/semver.1.0
+    ref: release/semver.1.0
     file: '/public/gitflow.yml'
 
   - project: 'infr/pipelines/service/cd/common'

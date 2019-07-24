@@ -1,17 +1,13 @@
 {
+  "id": "36dec21a-0bf6-4eb0-aaab-6590cdea2cf2",
   "request": {
     "method": "POST",
-    "urlPattern": "/api/service",
-    "bodyPatterns": [
-      {
-        "matchesJsonPath" : "$[?(@.name == 'GigaIP_AccessCredentials')]"
-      }
-    ]
+    "url": "/reqcb/resource-order-resource-inventory/v1/networkLineProfile/"
   },
   "response": {
-    "status": 201,
+    "status": 202,
     "headers": {
-      "Content-Type": "application/json"
+      "Content-Type": "text/plain"
     }
   },
   "postServeActions": {
@@ -21,8 +17,8 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"
       },
-      "method": "POST",
-      "bodyFileName": "rcm/GigaIP_AccessCredentials.json"
+      "bodyFileName": "sosi/network-line-profile-management/asyncResponseNotification.json",
+      "method": "POST"
     }
   }
 }

@@ -1,0 +1,304 @@
+{
+	"id": "{{jsonPath request.body '$.id'}}",
+    "href": null,
+    "name": "IpAccessConfigOperational",
+    "description": null,
+    "@type": null,
+    "version": "2",
+    "state": "inactive",
+    "serviceSpecification": null,
+    "characteristic": [
+        {
+            "name": "UMT_Service_Data_OCSSubscriptionID",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "IPv4NetMask",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "CoANAKReaction",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "TunnelProfile",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "CredentialsRequested",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "true"
+            }
+        },
+        {
+            "name": "MaxDownspeed",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "220000"
+            }
+        },
+        {
+            "name": "DelegatedIPv6Prefix",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "DNSProfile",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "DNSEP"
+            }
+        },
+        {
+            "name": "FilterID",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "FramedIPv6Prefix",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "IPv4Address",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "InfluenceSession",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "DelegatedIPv6PrefixLength",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "UMT_Service_Data_ThrottleProfile",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "ignoreComplete"
+            }
+        },
+        {
+            "name": "MaxSessionDuration",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "0"
+            }
+        },
+        {
+            "name": "haMSISDN",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "UMT_Service_Data_ThrottleDownL3",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "ProfileID",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "100008"
+            }
+        },
+        {
+            "name": "ReservePrefix",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "UMT_Service_Data_ThrottleUpL3",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "FramedIPv6PrefixLength",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "TerminationProfile",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": null
+            }
+        },
+        {
+            "name": "TeilnehmerSperre",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "0"
+            }
+        },
+        {
+            "name": "LineID",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'LineID\')].value.value') '$[0]'}}"
+            }
+        },
+        {
+            "name": "MehrfachZugang",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "false"
+            }
+        },
+        {
+            "name": "IPVersion",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "1"
+            }
+        },
+        {
+            "name": "User-Auth-Required",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "0"
+            }
+        },
+        {
+            "name": "UseCase",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'UseCase\')].value.value') '$[0]'}}"
+            }
+        },
+        {
+            "name": "BSS_OE_OrderID",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'BSS_OE_OrderID\')].value.value') '$[0]'}}"
+            }
+        },
+        {
+            "name": "ProfilSet",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": ""
+            }
+        },
+        {
+            "name": "TO-Nr",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'TO-Nr\')].value.value') '$[0]'}}"
+            }
+        },
+        {
+            "name": "MaxUpspeed",
+            "valueType": null,
+            "value": {
+                "@type": null,
+                "@schemaLocation": null,
+                "value": "220000"
+            }
+        }
+    ],
+    "serviceRelationship": [],
+    "relatedParty": [],
+    "supportingService": [],
+    "supportingResource": []
+}

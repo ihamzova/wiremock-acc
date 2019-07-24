@@ -1,14 +1,10 @@
 {
-  "id": "36dec21a-0bf6-4eb0-aaab-6590cdea2cf2",
   "request": {
     "method": "POST",
-    "url": "/reqcb/resource-order-resource-inventory/v1/networkLineProfile/"
+    "urlPattern": "/resource-order-resource-inventory/v1/commissioning/ont/([0-9]*)/connectivity"
   },
   "response": {
-    "status": 202,
-    "headers": {
-      "Content-Type": "text/plain"
-    }
+    "status": 202
   },
   "postServeActions": {
     "webhook": {
@@ -17,8 +13,8 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"
       },
-      "bodyFileName": "network-line-profile-management/asyncResponseNotification.json",
-      "method": "POST"
+      "method": "POST",
+      "bodyFileName": "sosi/ont-olt-orchestrator/asyncOntConnectivityTest.json"
     }
   }
 }

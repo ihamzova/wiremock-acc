@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/service-order-service-inventory/v1/sp-api/.*"
+  },
+
+  "response": {
+    "status": 200,
+	"headers": {
+        "Content-Type": "application/problem+json"
+    }
+  }
+}

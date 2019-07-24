@@ -1,7 +1,15 @@
-FROM mtr.external.otc.telekomcloud.com/digitalhub/wiremock:master
+FROM mtr.external.otc.telekomcloud.com/digitalhub/zulu-openjdk-8:master
 
-COPY target/wiremock-acc.jar /$WM_PACKAGE
+ENV WM_PACKAGE wiremock
+
+RUN mkdir /$WM_PACKAGE
+
+WORKDIR /$WM_PACKAGE
+
+COPY target/wiremock-acc-deps.jar /$WM_PACKAGE
 COPY stubs /$WM_PACKAGE
 
-ENTRYPOINT ["java","-jar","wiremock-acc.jar"]
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","wiremock-acc-deps.jar"]
 CMD ["--disable-gzip", "--global-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks"]

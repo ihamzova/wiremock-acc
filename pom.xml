@@ -6,7 +6,8 @@
 
     <groupId>com.tsystems.tm.acc</groupId>
     <artifactId>wiremock-acc</artifactId>
-    <version>1.2</version>
+    <version>1.3</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -49,6 +50,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
+                        <id>deps</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
@@ -62,8 +64,9 @@
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>
                             </descriptorRefs>
-                            <finalName>${artifactId}</finalName>
+                            <finalName>${artifactId}-deps</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
+                            <attach>false</attach>
                         </configuration>
                     </execution>
                 </executions>

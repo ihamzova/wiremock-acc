@@ -5,6 +5,9 @@ cache:
   paths:
     - .m2/repository/
 
+variables:
+  DOMAIN: "testtool"
+
 include:
   - project: 'infr/pipelines/service/ci/common'
     ref: master
@@ -15,12 +18,14 @@ include:
   - project: 'infr/pipelines/service/ci/common'
     ref: master
     file: '/public/conf/gitflow.yml'
+
   - project: 'infr/pipelines/service/cd/common'
-    ref: master
+    ref: rc/semver.1.0
     file: '/public/definition.yml'
   - project: 'infr/pipelines/service/cd/common'
-    ref: master
+    ref: rc/semver.1.0
     file: '/public/gitflow.yml'
+
   - project: 'infr/pipelines/service/cd/common'
     ref: master
     file: '/public/domain/acc.yml'

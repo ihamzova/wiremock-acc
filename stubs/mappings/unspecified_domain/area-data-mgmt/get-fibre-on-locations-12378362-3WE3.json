@@ -1,0 +1,76 @@
+{
+    "request": {
+        "url": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/12378362",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "creationDate": 1554296852884,
+            "modificationDate": 1554296852884,
+            "controlTraceabilityManual": false,
+            "klsId": 12378362,
+            "installationStatus": "PLANNED",
+            "demandCarrier": "FTTH",
+            "areaType": null,
+            "initiative": "SELF_EXPANSION",
+            "reasonForNoConstruction": null,
+            "technology": "FTTH",
+            "rolloutSponsor": "SELF_EXPANSION",
+            "installationDate": null,
+            "plannedInstallationBegin": null,
+            "plannedInstallationEnd": null,
+            "we": 64,
+            "ge": 0,
+            "sl": 0,
+            "vvmArea": {
+                "creationDate": 1554296852884,
+                "modificationDate": 1554296852884,
+                "controlTraceabilityManual": false,
+                "name": "TEST_VVM_AREA_FOR_WORKORDER_001",
+                "number": "TEST_VVM_AREA_FOR_WORKORDER_001",
+                "areaType": "KGS_8",
+                "rolloutDate": 1582848000000,
+                "areaStatus": "AREA_PLANNED",
+                "plannedArea": true,
+                "plannedFrom": 1582848000000,
+                "plannedTo": 1582848000000,
+                "released": true,
+                "fibreOnLocations": []
+            },
+            "nvtArea": {
+                "creationDate": 1554296852884,
+                "modificationDate": 1554296852884,
+                "controlTraceabilityManual": false,
+                "businessId": 10004,
+                "guid": "e2bd15d8-ba2c-4058-a331-f9dd5431bab0",
+                "asb": 1,
+                "name": "V1002",
+                "nvtDescriptor": null,
+                "onkz": "6707",
+                "pti": "PTI 22",
+                "subsidiary": "T NL Südwest",
+                "vvmArea": {
+                    "creationDate": 1554296852884,
+                    "modificationDate": 1554296852884,
+                    "controlTraceabilityManual": false,
+                    "name": "TEST_VVM_AREA_FOR_WORKORDER_001",
+                    "number": "TEST_VVM_AREA_FOR_WORKORDER_001",
+                    "areaType": "KGS_8",
+                    "rolloutDate": 1582848000000,
+                    "areaStatus": "AREA_PLANNED",
+                    "plannedArea": true,
+                    "plannedFrom": 1582848000000,
+                    "plannedTo": 1582848000000,
+                    "released": true,
+                    "fibreOnLocations": []
+                },
+                "nvtKlsId": null,
+                "fibreOnLocations": []
+            }
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

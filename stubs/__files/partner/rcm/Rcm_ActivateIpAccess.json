@@ -14,7 +14,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "584400000550"
             }
         },
         {
@@ -167,7 +167,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "100008"
+                "value":  "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'ProfileID\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -230,7 +230,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "false"
+                "value": "1"
             }
         },
         {

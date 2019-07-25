@@ -1,0 +1,28 @@
+{
+  "count": 1,
+  "total": 1,
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/9876543211/contracts?limit=20"
+    },
+    "first": {
+      "href": "/v1/accounts/9876543211/contracts?limit=20"
+    },
+    "last": {
+      "href": "/v1/accounts/9876543211/contracts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contracts": [
+      {
+        "roles": [
+          "CONTRACT_PARTNER"
+        ],
+        "self": {
+          "id": "TB0000832103",
+          "href": "/v1/accounts/9876543211/contracts/TB0000832103"
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 helmDefaults:
   tillerNamespace: {{ requiredEnv "TILLER_NAMESPACE" }}
 releases:
-- name: wiremock
+- name: wiremock-acc
   namespace: {{ requiredEnv "TILLER_NAMESPACE" }}
   chart: ./
   missingFileHandler: Warn

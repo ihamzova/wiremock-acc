@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/resource-order-resource-inventory/v1/commissioning/ont/([0-9]*)/connectivity"
+    "urlPattern": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/([0-9]*)/connectivity"
   },
   "response": {
     "status": 202

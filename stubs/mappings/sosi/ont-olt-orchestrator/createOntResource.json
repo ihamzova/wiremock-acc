@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont",
+    "url": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/",
     "bodyPatterns": [
       {
         "equalToJson": {

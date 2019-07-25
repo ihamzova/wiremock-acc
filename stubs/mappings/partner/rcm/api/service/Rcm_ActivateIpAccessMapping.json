@@ -20,6 +20,7 @@
    "postServeActions": {
     "webhook": {
       "method": "POST",
+ 	  "fixedDelayMilliseconds": 5000,
       "headers": {
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{jsonPath request.body '$.id'}}"

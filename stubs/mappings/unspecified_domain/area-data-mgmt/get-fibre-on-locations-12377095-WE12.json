@@ -1,0 +1,33 @@
+{
+    "request": {
+        "url": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/12377095",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "creationDate": 1554296852884,
+            "modificationDate": 1554296852884,
+            "controlTraceabilityManual": false,
+            "klsId": 12377095,
+            "installationStatus": "PLANNED",
+            "demandCarrier": "FTTH",
+            "areaType": null,
+            "initiative": "SELF_EXPANSION",
+            "reasonForNoConstruction": null,
+            "technology": "FTTH",
+            "rolloutSponsor": "SELF_EXPANSION",
+            "installationDate": null,
+            "plannedInstallationBegin": null,
+            "plannedInstallationEnd": null,
+            "we": 12,
+            "ge": 0,
+            "sl": 0,
+            "vvmArea": null,
+            "nvtArea": null
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

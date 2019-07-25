@@ -1,0 +1,35 @@
+{
+  "id": "9876543211",
+  "firstName": "Karla",
+  "lastName": "Kunde",
+  "salutationId": "1",
+  "salutation": "MS",
+  "birthDate": "1985-01-01",
+  "VBKZ": "25",
+  "legalFormId": "18",
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/9876543211"
+    },
+    "primaryContact": {
+      "id": "1-1D0-268",
+      "href": "/v1/accounts/9876543211/contacts/1-1D0-268"
+    },
+    "mainContact": {
+      "id": "1-1D0-268",
+      "href": "/v1/accounts/9876543211/contacts/1-1D0-268"
+    },
+    "contacts": {
+      "href": "/v1/accounts/9876543211/contacts"
+    },
+    "contracts": {
+      "href": "/v1/accounts/9876543211/contracts"
+    },
+    "openOrders": {
+      "href": "/v1/accounts/9876543211/customerOrders?status=OPEN"
+    },
+    "billingAccounts": {
+      "href": "/v1/accounts/9876543211/billingAccounts"
+    }
+  }
+}

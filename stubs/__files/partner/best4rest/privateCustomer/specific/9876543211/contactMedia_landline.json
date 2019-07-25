@@ -1,0 +1,18 @@
+{
+  "type": "ElectronicalAddress",
+  "id": "1-4MY3UC3",
+  "usageContext": "CONTRACT",
+  "phoneNumber": {
+    "internationalAreaCode": "0049",
+    "areaCode": "0316",
+    "number": "2345789"
+  },
+  "active": "true",
+  "blockedForHotline": "false",
+  "blockedForCallbacks": "false",
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/9876543211/contacts/1-1AQ-573/contactMedia/1-4MY3UC3"
+    }
+  }
+}

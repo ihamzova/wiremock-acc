@@ -3,11 +3,7 @@
     "method": "PUT",
     "urlPath": "/api/oltResourceInventory/v1/homeId/status/assigned",
     "bodyPatterns" : [
-      {
-        "equalToJson" : {
-          "homeId" : "DEF1234"
-        }
-      }
+      {"freeHomeId" : "$[?(@.vpSz =~ /[A-Z0-9]{8}/)]"}
     ]
   },
 

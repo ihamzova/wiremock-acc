@@ -1,16 +1,12 @@
 {
   "request": {
-    "method": "POST",
-    "urlPath": "/reqcb/service-order-service-inventory/v1/testOnt/async",
+    "method": "GET",
+    "urlPathPattern": "/reqcb/service-order-service-inventory/v1/testOnt/([A-F0-9]{17})/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
       }
-    },
-    "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.serialNumber =~ /[A-F0-9]{17}/)]"},
-      {"matchesJsonPath" : "$[?(@.homeId =~ /[A-Z]{3}[0-9]{4}/)]"}
-    ]
+    }
   },
 
   "response": {
@@ -25,7 +21,7 @@
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
-      "bodyFileName": "ontConnectivityTest/ontRegistrationCallback.json",
+      "bodyFileName": "ontConnectivityTest/ponAccessLineCallbackSerialNumberNotValid.json",
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

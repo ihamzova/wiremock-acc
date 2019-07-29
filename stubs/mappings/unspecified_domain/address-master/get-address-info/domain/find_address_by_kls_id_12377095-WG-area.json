@@ -1,0 +1,23 @@
+{
+  "request": {
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/12377095",
+    "method": "GET"
+  },
+  "response": {
+    "jsonBody": {
+      "distributionAreaName": "Rieg district",
+      "houseNumber": 5,
+      "houseNumberSupplement": "",
+      "houseQualifier": "5",
+      "klsId": 12377095,
+      "municipalityName": "Ditzingen",
+      "streetName": "Finkenstr",
+      "streetNameShort": "Finkenstr",
+      "zipCode": 71254
+    },
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

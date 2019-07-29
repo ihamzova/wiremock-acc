@@ -1,0 +1,198 @@
+{
+  "id": "TB0000188064",
+  "status": "ACTIVE",
+  "type": "RENT",
+  "product": {
+    "status": "ACTIVE",
+    "startDate": "2014-10-01",
+    "productOffering": {
+      "name": "BCA BusinessCall Cpl VDSL AnlAs (2)",
+      "productSpecification": {
+        "id": "89784421"
+      },
+      "productType": "AnlAS",
+      "productSubtype": "DUWA"
+    },
+    "taxIncludedMonthlyRecurringAmount": 0,
+    "productRelationship": [{
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-01",
+        "productOffering": {
+          "name": "BC BusinessCall ErgAs (2)",
+          "productSpecification": {
+            "id": "89784416"
+          },
+          "productType": "AnlAS",
+          "productSubtype": "BaAS"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "04976950",
+          "role": "KLS-ID of installation"
+        }
+        ],
+        "productCharacteristic": [{
+          "name": "Speicherart der Verbindungsdaten",
+          "value": "3"
+        }, {
+          "name": "TNBA-ID",
+          "value": "00080000041099366"
+        }, {
+          "name": "MVST",
+          "value": "2158-T1---D"
+        }, {
+          "name": "RechnungsNr",
+          "value": "11900507"
+        }, {
+          "name": "Betriebsart",
+          "value": "3"
+        }, {
+          "name": "Zaehler_AnlAs_BaAS",
+          "value": "1"
+        }, {
+          "name": "AnlAs_PW_OV_Klammer_BaAS",
+          "value": "1-4A55QHO"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-01",
+        "productOffering": {
+          "name": "BC BusinessCall ErgAs (2)",
+          "productSpecification": {
+            "id": "89784416"
+          },
+          "productType": "AnlAS",
+          "productSubtype": "BaAS"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "04976950",
+          "role": "KLS-ID of installation"
+        }
+        ],
+        "productCharacteristic": [{
+          "name": "Speicherart der Verbindungsdaten",
+          "value": "3"
+        }, {
+          "name": "TNBA-ID",
+          "value": "00080000041099363"
+        }, {
+          "name": "MVST",
+          "value": "2158-T1---D"
+        }, {
+          "name": "RechnungsNr",
+          "value": "11900508"
+        }, {
+          "name": "Betriebsart",
+          "value": "3"
+        }, {
+          "name": "Zaehler_AnlAs_BaAS",
+          "value": "1"
+        }, {
+          "name": "AnlAs_PW_OV_Klammer_BaAS",
+          "value": "1-4A55QHG"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-01",
+        "productOffering": {
+          "name": "BCA BusinessCall Cpl VDSL BaAs (2)",
+          "productSpecification": {
+            "id": "89784422"
+          },
+          "productType": "AnlAS",
+          "productSubtype": "BaAS"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "04976950",
+          "role": "KLS-ID of installation"
+        }
+        ],
+        "productCharacteristic": [{
+          "name": "Speicherart der Verbindungsdaten",
+          "value": "3"
+        }, {
+          "name": "TNBA-ID",
+          "value": "00080000041099374"
+        }, {
+          "name": "MVST",
+          "value": "2158-T1---D"
+        }, {
+          "name": "RechnungsNr",
+          "value": "11900506"
+        }, {
+          "name": "Betriebsart",
+          "value": "3"
+        }, {
+          "name": "Zaehler_AnlAs_BaAS",
+          "value": "0"
+        }, {
+          "name": "AnlAs_PW_OV_Klammer_BaAS",
+          "value": "1-4A55QHW"
+        }
+        ]
+      }
+    }
+    ],
+    "place": [{
+      "id": "04976950",
+      "role": "KLS-ID of installation"
+    }
+    ],
+    "productCharacteristic": [{
+      "name": "Speicherart der Verbindungsdaten",
+      "value": "3"
+    }, {
+      "name": "Verzeichniskennzeichen",
+      "value": "0"
+    }, {
+      "name": "TNBA-ID",
+      "value": "00080000041099377"
+    }, {
+      "name": "MVST",
+      "value": "2158-T1---D"
+    }, {
+      "name": "Durchwahlnr.",
+      "value": "70144"
+    }, {
+      "name": "Vorwahl",
+      "value": "02158"
+    }, {
+      "name": "Abfragestelle",
+      "value": "3"
+    }, {
+      "name": "Rufnummernblock1 von",
+      "value": "30"
+    }, {
+      "name": "Rufnummernblock1 bis",
+      "value": "99"
+    }
+    ]
+  },
+  "name": "BCA BusinessCall Cpl VDSL AnlAs (2)",
+  "startDate": "2014-10-01",
+  "_links": {
+    "self": {
+      "id": "TB0000188064",
+      "href": "/v1/accounts/8882105959/contracts/TB0000188064"
+    },
+    "contacts": {
+      "href": "/v1/accounts/8882105959/contacts"
+    },
+    "billingAccount": {
+      "id": "4962127869",
+      "href": "/v1/accounts/8882105959/billingAccounts/4962127869"
+    }
+  }
+}

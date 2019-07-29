@@ -8,7 +8,7 @@
       }
     },
     "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.serialNumber =~ /[A-F0-9]{16}/)]"},
+      {"matchesJsonPath" : "$[?(@.serialNumber =~ /[A-F0-9]{17}/)]"},
       {"matchesJsonPath" : "$[?(@.homeId =~ /[A-Z]{3}[0-9]{4}/)]"}
     ]
   },

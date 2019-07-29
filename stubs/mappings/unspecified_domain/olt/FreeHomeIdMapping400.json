@@ -1,16 +1,12 @@
 {
   "request": {
     "method": "PUT",
-    "urlPath": "/api/oltResourceInventory/v1/homeId/requestFreeHomeId",
+    "urlPath": "/resource-order-resource-inventory/v1/homeId/requestFreeHomeId",
     "bodyPatterns" : [
-      {
-        "equalToJson" : {
-          "vpSz" : "49/30/400",
-          "fachSz" : "76HZ",
-          "slotNumber" : "4",
-          "portNumber" : "1"
-        }
-      }
+      {"matchesJsonPath" : "$[?(@.vpSz =~ /400E\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"},
+      {"matchesJsonPath" : "$[?(@.fachSz =~ /76H[0-9A-Z]/)]"},
+      {"matchesJsonPath" : "$[?(@.slotNumber =~ /[0-9]/)]"},
+      {"matchesJsonPath" : "$[?(@.portNumber =~ /[0-9]/)]"}
     ]
   },
 

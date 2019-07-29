@@ -1,0 +1,11 @@
+{
+  "priority":10,
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]*)/status"
+  },
+
+  "response": {
+    "status": 200
+  }
+}

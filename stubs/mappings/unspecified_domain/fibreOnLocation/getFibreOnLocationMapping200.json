@@ -1,0 +1,16 @@
+{ "priority":10,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]*)"
+  },
+
+  "response": {
+    "status": 200,
+    "transformers": ["response-template"],
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "fibreOnLocation/fibreOnLocationBodyResponse.json"
+  }
+}
+

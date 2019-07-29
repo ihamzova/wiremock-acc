@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "PUT",
-    "urlPath": "/api/oltResourceInventory/v1/homeId/requestFreeHomeId",
+    "urlPath": "/resource-order-resource-inventory/v1/homeId/requestFreeHomeId",
     "bodyPatterns" : [
       {"matchesJsonPath" : "$[?(@.vpSz =~ /404E\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"},
       {"matchesJsonPath" : "$[?(@.fachSz =~ /76H[0-9A-Z]/)]"},

@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/homeId/requestFreeHomeId/status/assigned"
+  },
+
+  "response": {
+    "status": 204,
+    "body": "ABC1234"
+  }
+}

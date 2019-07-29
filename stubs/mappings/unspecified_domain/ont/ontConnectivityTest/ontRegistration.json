@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/reqcb/service-order-service-inventory/v1/testOnt/async",
+    "headers": {
+      "X-Callback-Correlation-Id": {
+        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+      }
+    },
+    "bodyPatterns" : [
+      {
+        "equalToJson" : {
+          "serialNumber": "485754435581B112",
+          "homeId": "0002N7J"
+        }
+      }
+    ]
+  },
+
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted."
+  },
+
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "bodyFileName": "ontConnectivityTest/ontRegistrationCallback.json",
+      "url": "{{request.headers.X-Callback-Url}}"
+    }
+  }
+}

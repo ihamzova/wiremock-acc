@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/reqcb/service-order-service-inventory/v1/testOnt/([A-F0-9]{16})/async",
+    "headers": {
+      "X-Callback-Correlation-Id": {
+        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+      }
+    }
+  },
+
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted."
+  },
+
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "bodyFileName": "ontConnectivityTest/ponAccessLineCallback.json",
+      "url": "{{request.headers.X-Callback-Url}}"
+    }
+  }
+}

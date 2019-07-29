@@ -4,7 +4,7 @@
     "urlPath": "/resource-order-resource-inventory/v1/llc",
     "bodyPatterns" : [
       {"matchesJsonPath" : "$[?(@.key.id =~ /[0-9]{1,6}/)]"},
-      {"matchesJsonPath" : "$[?(@.key.gfApName =~ /[\\d]{1,3}P(?:[\\d]{7})|[\\d]{3,4}[a-z]?/)]"},
+      {"matchesJsonPath" : "$[?(@.key.gfApName =~ /[\\d]{1,3}P(?:[\\d]{7}|[\\d]{3,4}[a-z]?)/)]"},
       {"matchesJsonPath" : "$[?(@.key.gfApKlsId =~ /[0-9]{8}/)]"},
       {"matchesJsonPath" : "$[?(@.key.gfApPortnumber =~ /[0-3]/)]"},
       {"matchesJsonPath" : "$[?(@.key.splitterNumber =~ /[0-3]/)]"},

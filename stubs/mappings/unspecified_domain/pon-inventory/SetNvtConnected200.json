@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/llc/connect",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.id =~ /[\\d]{1,6}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.modifiedDate =~ /[\\d]{8}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200
+  }
+}

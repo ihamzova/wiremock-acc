@@ -1,0 +1,178 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/llc",
+    "queryParameters": {
+      "apartmentCplId": {
+        "matches": "[\\d[A-Z]]{6}"
+      },
+      "forNvtConnection": {
+        "equalTo": "true"
+      },
+      "gfApCplId": {
+        "matches": "[\\d[A-Z]]{6}"
+      },
+      "gfApKlsId": {
+        "matches": "[0-9]{8}"
+      },
+      "gfApName": {
+        "matches": "[\\d]{1,3}P(?:[\\d]{7}|[\\d]{3,4}[a-z]?)"
+      },
+      "gfApStatus": {
+        "equalTo": "PLANNED"
+      },
+      "gfNvtKlsId": {
+        "matches": "[0-9]{8}"
+      },
+      "gfNvtName": {
+        "matches": "[\\d]{1,3}V[\\d]{4}"
+      },
+      "hkFiberAsb": {
+        "matches": "[0-9]{1,6}"
+      },
+      "hkFiberOnkz": {
+        "matches": "[0-9]{1,6}"
+      },
+      "id": {
+        "matches": "[0-9]{1,6}"
+      },
+      "llcBaustatus": {
+        "equalTo": "PLANNED"
+      },
+      "nvtConnected": {
+        "equalTo": "false"
+      },
+      "ponPortOltBg": {
+        "matches": "[0-9]{1}"
+      },
+      "ponPortOltFachSz": {
+        "matches": "[0-9]{1,2}"
+      },
+      "ponPortOltVpsz": {
+        "matches": "[0-9]{1,2}"
+      },
+      "ponPortPortNumber": {
+        "matches": "[0-9]{1}"
+      },
+      "direction": {
+        "equalTo": "ASC"
+      },
+      "page": {
+        "matches": "[0-9]{1,6}"
+      },
+      "pageSize": {
+        "matches": "[0-9]{1,6}"
+      },
+      "sortField": {
+        "equalTo": "HK_FIBER_ASB"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "totalPages": 2,
+      "totalElements": 10,
+      "sort": {
+        "sorted": true,
+        "unsorted": false
+      },
+      "first": true,
+      "numberOfElements": 5,
+      "last": false,
+      "pageable": {
+        "sort": {
+          "sorted": true,
+          "unsorted": false
+        },
+        "pageSize": 5,
+        "unpaged": false,
+        "pageNumber": 1,
+        "paged": true,
+        "offset": 2
+      },
+      "size": 2,
+      "content": [
+        {
+          "hkFiberOnkz": 5,
+          "hkFiberAsb": 6,
+          "gfNvtName": "123V5678",
+          "gfNvtKlsId": 12345678,
+          "id": 123456,
+          "apartmentCplId": "ACE123",
+          "nvtConnected": false,
+          "gfApStatus": "PLANNED",
+          "gfApKlsId": 87654321,
+          "gfApName": "5P1001a",
+          "forNvtConnection": true,
+          "gfApCplId": "XYZ456",
+          "llcBaustatus": "PLANNED",
+          "ponPortOltVpsz": "20",
+          "ponPortOltFachSz": "10",
+          "ponPortOltBg": "3",
+          "ponPortPortNumber": "3",
+          "modifiedDate": 20190729,
+          "vstOnkz": 10,
+          "vstAsb": 11,
+          "vstKlsId": 654321,
+          "gfApCouplingratio": "2",
+          "gfApPortnumber": "3",
+          "gfApSplitterNumber": 2,
+          "gfApMaterialNumber": "3",
+          "couplerNvtCouplingRatio": "2",
+          "couplerNvtUmsRaster": "8",
+          "couplerNvtCouplerPort": "3",
+          "hkFiberGfHk": "64",
+          "hkFiberFaser": 3,
+          "hkFiberUmsRaster": "3",
+          "vzkFiberUmsRaster": 5,
+          "vzkFiberFaser": 3,
+          "zielHvtOnkz": "zielHvtOnkz",
+          "zielHvtAsb": "zielHvtAsb",
+          "zielHvtGeb": "3",
+          "zielHvtRaum": "3",
+          "messWdmGestellGebRaum": "10",
+          "messWdmGestellReihe": "3",
+          "messWdmGestellPlatz": "3",
+          "messWdmGestellBgt": "3",
+          "messWdmGestellKas": "3",
+          "messWdmGestellStift": "3",
+          "gfInnenKabelKabelnamegfi1": "64",
+          "gfInnenKabelFasergfi1": "3",
+          "gfInnenKabelKabelnamegfi2": "64",
+          "gfInnenKabelFasergfi2": "3",
+          "ponPortStatus": "PLANNED",
+          "ponPortOltBgt": "3",
+          "ponPortOltReihe": "3",
+          "ponPortOltPlatz": "3",
+          "ponPortOltTpl": "50",
+          "emmsHvtReiheAn": "emmsHvtReiheAn",
+          "emmsHvtPlatzAn": "emmsHvtPlatzAn",
+          "emmsHvtBgtAn": "emmsHvtBgtAn",
+          "emmsHvtKasAn": "emmsHvtKasAn",
+          "emmsHvtStiftAn": "emmsHvtStiftAn",
+          "emmsHvtReiheAb": "emmsHvtReiheAb",
+          "emmsHvtPlatzAb": "emmsHvtPlatzAb",
+          "emmsHvtBgtAb": "emmsHvtBgtAb",
+          "emmsHvtKasAb": "emmsHvtKasAb",
+          "emmsHvtStiftAb": "emmsHvtStiftAb",
+          "emmsHvtTpl": "emmsHvtTpl",
+          "emmsaReiheAn": "emmsaReiheAn",
+          "emmsaPlatzAn": "emmsaPlatzAn",
+          "emmsaBgtAn": "emmsaBgtAn",
+          "emmsaKasAn": "emmsaKasAn",
+          "emmsaStiftAn": "emmsaStiftAn",
+          "emmsaReiheAb": "emmsaReiheAb",
+          "emmsaPlatzAb": "emmsaPlatzAb",
+          "emmsaBgtAb": "emmsaBgtAb",
+          "emmsaKasAb": "emmsaKasAb",
+          "emmsaStiftAb": "emmsaStiftAb"
+        }
+      ],
+      "number": 1
+    }
+  }
+}

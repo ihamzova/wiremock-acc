@@ -2,7 +2,7 @@
   "priority": 2,
   "request": {
     "method": "DELETE",
-    "urlPathPattern": "/reqcb/service-order-service-inventory/v1/testOnt/(E[A-F0-9]{15})/async",
+    "urlPathPattern": "/service-order-service-inventory/v1/testOnt/(E[A-F0-9]{15})/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"

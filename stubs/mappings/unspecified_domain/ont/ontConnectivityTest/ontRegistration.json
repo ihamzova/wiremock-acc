@@ -2,7 +2,7 @@
   "priority": 2,
   "request": {
     "method": "POST",
-    "urlPath": "/service-order-service-inventory/v1/testOnt/async",
+    "urlPath": "/reqcb/service-order-service-inventory/v1/testOnt/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"

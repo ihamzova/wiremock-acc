@@ -1,4 +1,5 @@
 {
+  "priority": 1,
   "request": {
     "method": "POST",
     "urlPath": "/reqcb/service-order-service-inventory/v1/testOnt/async",
@@ -7,17 +8,19 @@
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
       }
     },
-    "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.serialNumber =~ /[A-F0-9]{17}/)]"},
-      {"matchesJsonPath" : "$[?(@.homeId =~ /[A-Z]{3}[0-9]{4}/)]"}
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E1[A-F0-9]{14}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
     ]
   },
-
   "response": {
     "status": 202,
     "statusMessage": "Async response. Reservation request is accepted."
   },
-
   "postServeActions": {
     "webhook": {
       "method": "POST",

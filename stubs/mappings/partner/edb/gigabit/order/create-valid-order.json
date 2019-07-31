@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/v1/order",
+    "urlPattern": "/gigabit/order",
     "headers": {
       "X-B3-SpanId": {
         "matches": "[0-9A-Za-z]{16}"

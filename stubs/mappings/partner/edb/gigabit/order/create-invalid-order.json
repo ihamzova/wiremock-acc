@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/v1/order",
+    "urlPattern": "/gigabit/order",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

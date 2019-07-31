@@ -13,6 +13,6 @@
 
   "response": {
     "status": 200,
-    "body": "ABC1234"
+    "body": "{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}"
   }
 }

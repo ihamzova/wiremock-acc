@@ -20,7 +20,10 @@
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
-      "bodyFileName": "ontConnectivityTest/ponAccessLineCallback.json",
+      "jsonBody": {
+        "response": "ONLINE",
+        "success": true
+      },
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

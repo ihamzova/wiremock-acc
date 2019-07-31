@@ -28,7 +28,17 @@
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
-      "bodyFileName": "ontConnectivityTest/ontRegistrationCallbackSerialNumberNotValid.json",
+      "jsonBody": {
+        "response": {
+          "status": "ERROR"
+        },
+        "success": false,
+        "error": {
+          "message": "registration error",
+          "status": 1,
+          "code": "E1"
+        }
+      },
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

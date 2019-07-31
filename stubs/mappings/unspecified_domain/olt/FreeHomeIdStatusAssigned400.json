@@ -1,13 +1,13 @@
 {
-  "priority": 2,
   "request": {
     "method": "PUT",
     "urlPath": "/api/oltResourceInventory/v1/homeId/status/assigned",
-    "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.homeId =~ /[A-Z]{3}[0-9]{5}/)]"}
+    "bodyPatterns": [
+      {
+        "matches": "[A-Z0-9]{8}"
+      }
     ]
   },
-
   "response": {
     "status": 400
   }

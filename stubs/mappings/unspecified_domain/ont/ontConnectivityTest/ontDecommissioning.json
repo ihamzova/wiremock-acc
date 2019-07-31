@@ -20,7 +20,12 @@
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
-      "bodyFileName": "ontConnectivityTest/ontDecommissioningCallback.json",
+      "jsonBody": {
+        "response": {
+          "status": "DECOMMISSIONED"
+        },
+        "success": true
+      },
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

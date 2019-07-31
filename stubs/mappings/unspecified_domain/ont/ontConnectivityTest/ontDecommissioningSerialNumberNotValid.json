@@ -20,7 +20,17 @@
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
-      "bodyFileName": "ontConnectivityTest/ontDecommissioningCallbackSerialNumberNotValid.json",
+      "jsonBody": {
+        "response": {
+          "status": "ERROR"
+        },
+        "success": false,
+        "error": {
+          "message": "decommissioning error",
+          "status": 3,
+          "code": "E3"
+        }
+      },
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

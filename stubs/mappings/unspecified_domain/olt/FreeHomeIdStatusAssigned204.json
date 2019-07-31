@@ -3,12 +3,11 @@
   "request": {
     "method": "PUT",
     "urlPath": "/api/oltResourceInventory/v1/homeId/status/assigned",
-    "body": [
-      {
-        "matches": "/[A-Z][0-9]{7}/"
-      }
+    "bodyPatterns" : [
+      {"matchesJsonPath" : "$[?(@.homeId =~ /[A-Z]{3}[0-9]{4}/)]"}
     ]
   },
+
   "response": {
     "status": 204
   }

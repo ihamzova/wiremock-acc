@@ -4,8 +4,8 @@
     "method": "PUT",
     "urlPath": "/api/oltResourceInventory/v1/homeId/requestFreeHomeId",
     "bodyPatterns" : [
-      {"matchesJsonPath" : "$[?(@.vpSz == '179/30/241')]"},
-      {"matchesJsonPath" : "$[?(@.fachSz == '76HA')]"},
+      {"matchesJsonPath" : "$[?(@.vpSz == '49/30/179')]"},
+      {"matchesJsonPath" : "$[?(@.fachSz == '76H1')]"},
       {"matchesJsonPath" : "$[?(@.slotNumber == '4')]"},
       {"matchesJsonPath" : "$[?(@.portNumber == '1')]"}
     ]

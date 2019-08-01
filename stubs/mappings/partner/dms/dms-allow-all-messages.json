@@ -15,14 +15,10 @@
       "Content-Type": {
         "equalTo": "application/json"
       }
-    },
-    "bodyPatterns": [
-      {
-        "contains": "sendeStornierungsbestaetigung"
-      }
-    ]
+    }
   },
   "response": {
     "status": 201
-  }
+  },
+  "priority": 5
 }

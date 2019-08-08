@@ -13,7 +13,7 @@
     "statusMessage": "Async response. Reservation request is accepted.",
 	"headers": {
 		"Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{jsonPath request.body '$.id'}}"
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
 	}
   },
   
@@ -23,9 +23,9 @@
  	  "fixedDelayMilliseconds": 5000,
       "headers": {
         "Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{jsonPath request.body '$.id'}}"
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
       },
-      "url": "{{request.headers.X-Callback-Url}}",
+      "url": "{{request.headers.X-Callback-Url.[0]}}",
 	  "bodyFileName": "partner/rcm/Rcm_ActivateIpAccess.json"
     }
   }

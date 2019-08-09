@@ -1,8 +1,8 @@
 {
-  "priority": 2,
+  "priority": 1,
   "request": {
-    "method": "GET",
-    "urlPathPattern": "/service-order-service-inventory/v1/(ont|testOnt)/(E[A-F0-9]{15})/async",
+    "method": "DELETE",
+    "urlPathPattern": "/service-order-service-inventory/v1/(ont|testOnt)/(E3[A-F0-9]{14})/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
@@ -21,8 +21,15 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
       "jsonBody": {
-        "response": "ONLINE",
-        "success": true
+        "response": {
+          "status": "ERROR"
+        },
+        "success": false,
+        "error": {
+          "message": "decommissioning error",
+          "status": 3,
+          "code": "E3"
+        }
       },
       "url": "{{request.headers.X-Callback-Url}}"
     }

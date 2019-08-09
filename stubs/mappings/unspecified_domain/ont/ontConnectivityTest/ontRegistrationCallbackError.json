@@ -1,13 +1,21 @@
 {
   "priority": 1,
   "request": {
-    "method": "DELETE",
-    "urlPathPattern": "/service-order-service-inventory/v1/ont/(E3[A-F0-9]{14})/async",
+    "method": "POST",
+    "urlPath": "/service-order-service-inventory/v1/(ont|testOnt)async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
       }
-    }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E4[A-F0-9]{14}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
   },
   "response": {
     "status": 202,
@@ -21,17 +29,12 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
       "jsonBody": {
-        "response": {
-          "status": "ERROR"
-        },
-        "success": false,
-        "error": {
-          "message": "decommissioning error",
-          "status": 3,
-          "code": "E3"
+        "somePayload": {
+          "someNumber": 123,
+          "someString": "123"
         }
       },
-      "url": "{{request.headers.X-Callback-Url}}"
+      "url": "{{request.headers.X-Callback-Error-Url}}"
     }
   }
 }

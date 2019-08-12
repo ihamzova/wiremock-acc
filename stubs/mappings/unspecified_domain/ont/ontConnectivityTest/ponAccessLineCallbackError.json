@@ -2,7 +2,7 @@
   "priority": 1,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/service-order-service-inventory/v1/ont/(E2[A-F0-9]{14})/async",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/(ont|testOnt)/(E5[A-F0-9]{14})/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
@@ -18,18 +18,18 @@
       "method": "POST",
       "headers": {
         "Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-Callback-Request-Id": "{{randomValue type='UUID'}}",
+        "X-Callback-Error-Id": "{{randomValue type='UUID'}}",
+        "X-Callback-Error-HTTP-Code": "503"
       },
       "jsonBody": {
-        "response": "OFFLINE",
-        "success": false,
-        "error": {
-          "message": "lineTest error",
-          "status": 2,
-          "code": "E2"
+        "somePayload": {
+          "someNumber": 123,
+          "someString": "123"
         }
       },
-      "url": "{{request.headers.X-Callback-Url}}"
+      "url": "{{request.headers.X-Callback-Error-Url}}"
     }
   }
 }

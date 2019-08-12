@@ -1,8 +1,8 @@
 {
-  "priority": 2,
+  "priority": 1,
   "request": {
-    "method": "DELETE",
-    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/(ont|testOnt)/([A-F0-9]{16})/async",
+    "method": "GET",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/(ont|testOnt)/(E2[A-F0-9]{14})/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
@@ -21,10 +21,13 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
       "jsonBody": {
-        "response": {
-          "status": "DECOMMISSIONED"
-        },
-        "success": true
+        "response": "OFFLINE",
+        "success": false,
+        "error": {
+          "message": "lineTest error",
+          "status": 2,
+          "code": "E2"
+        }
       },
       "url": "{{request.headers.X-Callback-Url}}"
     }

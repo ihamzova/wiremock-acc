@@ -1,5 +1,5 @@
 {
-  "priority": 2,
+  "priority": 1,
   "request": {
     "method": "POST",
     "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/(ont|testOnt)/async",
@@ -10,7 +10,7 @@
     },
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$[?(@.serialNumber =~ /[A-F0-9]{16}/)]"
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E4[A-F0-9]{14}/)]"
       },
       {
         "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
@@ -26,15 +26,18 @@
       "method": "POST",
       "headers": {
         "Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-Callback-Request-Id": "{{randomValue type='UUID'}}",
+        "X-Callback-Error-Id": "{{randomValue type='UUID'}}",
+        "X-Callback-Error-HTTP-Code": "503"
       },
       "jsonBody": {
-        "response": {
-          "status": "REGISTERED"
-        },
-        "success": true
+        "somePayload": {
+          "someNumber": 123,
+          "someString": "123"
+        }
       },
-      "url": "{{request.headers.X-Callback-Url}}"
+      "url": "{{request.headers.X-Callback-Error-Url}}"
     }
   }
 }

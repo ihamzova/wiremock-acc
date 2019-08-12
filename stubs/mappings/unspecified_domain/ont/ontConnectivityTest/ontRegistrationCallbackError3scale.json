@@ -1,13 +1,21 @@
 {
   "priority": 1,
   "request": {
-    "method": "DELETE",
-    "urlPathPattern": "/service-order-service-inventory/v1/ont/(E3[A-F0-9]{14})/async",
+    "method": "POST",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/(ont|testOnt)/async",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
       }
-    }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E7[A-F0-9]{14}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
   },
   "response": {
     "status": 202,
@@ -26,12 +34,12 @@
         },
         "success": false,
         "error": {
-          "message": "decommissioning error",
-          "status": 3,
-          "code": "E3"
+          "message": "registration error",
+          "status": 7,
+          "code": "E7"
         }
       },
-      "url": "{{request.headers.X-Callback-Url}}"
+      "url": "{{request.headers.X-Callback-Url}}/error"
     }
   }
 }

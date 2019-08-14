@@ -1,7 +1,8 @@
 {
+  "priority": 5,
   "request": {
     "method": "POST",
-    "urlPattern": "/reqcb/resource-order-resource-inventory/v1/commissioning/ont/([0-9]*)/connectivity"
+    "urlPathPattern": "/((reqcb\/)?)resource-order-resource-inventory/v1/commissioning/ont/([0-9]*)/connectivity"
   },
   "response": {
     "status": 202

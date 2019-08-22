@@ -1,32 +1,32 @@
 {
-  "request": {
-    "method": "POST",
-    "urlPath": "/api/service",
-	"bodyPatterns" : [ {
-      "matchesJsonPath" : "$.[?(@.name=='IpAccessConfigOperational')]"
-    } ]
-  },
-
-
-  "response": {
-    "status": 202,
-    "statusMessage": "Async response. Reservation request is accepted.",
-	"headers": {
-		"Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
-	}
-  },
+	"request": {
+		"method": "POST",
+		"urlPattern": "/api/service.*|/reqcb/service-order-service-inventory/v1/rcm-service",
+		"bodyPatterns" : [ {
+		  "matchesJsonPath" : "$.[?(@.name=='IpAccessConfigOperational')]"
+		} ]
+	},
+	"priority" : 5,
   
-   "postServeActions": {
-    "webhook": {
-      "method": "POST",
- 	  "fixedDelayMilliseconds": 5000,
-      "headers": {
-        "Content-Type": "application/json",
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
-      },
-      "url": "{{request.headers.X-Callback-Url.[0]}}",
-	  "bodyFileName": "partner/rcm/Rcm_ActivateIpAccess.json"
-    }
-  }
+	"response": {
+		"status": 202,
+		"statusMessage": "Async response. Reservation request is accepted.",
+		"headers": {
+			"Content-Type": "application/json",
+			"X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
+		}
+	},
+
+	"postServeActions": {
+		"webhook": {
+		  "method": "POST",
+		  "fixedDelayMilliseconds": 5000,
+		  "headers": {
+			"Content-Type": "application/json",
+			"X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
+		  },
+		  "url": "{{request.headers.X-Callback-Url.[0]}}",
+		  "bodyFileName": "partner/rcm/Rcm_ActivateIpAccess.json"
+		}
+	}
 }

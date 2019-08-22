@@ -3,6 +3,7 @@
     "method": "ANY",
     "urlPattern": "/httpStatus/201.*"
   },
+  "priority" : 5,
 
   "response": {
     "status": 201

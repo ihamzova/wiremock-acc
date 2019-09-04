@@ -1,13 +1,11 @@
 {
+  "priority": 5,
   "request": {
-    "method": "PATCH",
-    "urlPattern": "/resource-order-resource-inventory/v1/access-line-configuration/([\\w\\d\\_]*)/accessLines"
+    "method": "POST",
+    "urlPath": "/api/wgAccessProvisioning/v1/postProvisioning"
   },
   "response": {
-    "status": 202,
-    "headers": {
-      "Content-Type": "application/json"
-    }
+    "status": 201
   },
   "postServeActions": {
     "webhook": {
@@ -19,7 +17,6 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "accessLineId": "PON-0-1-2-3-4"
         },
         "success": true
       }

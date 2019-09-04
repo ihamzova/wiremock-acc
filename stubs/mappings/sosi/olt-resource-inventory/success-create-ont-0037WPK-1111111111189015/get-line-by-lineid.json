@@ -1,0 +1,77 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/oltResourceInventory/v1/accessLine/",
+    "bodyPatterns": [
+      {
+        "matches": "DEU.DTAG.WSPA000000"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "portId": 1002,
+      "accessLine": {
+        "id": 1053,
+        "technology": "GPON",
+        "status": "ASSIGNED",
+        "lineId": "DEU.DTAG.WSPA000000",
+        "homeId": "0037WPK",
+        "defaultNeProfile": {
+          "profileName": "RFS_AL_GPON",
+          "ontSerialNumber": "DEFAULT",
+          "state": "INACTIVE",
+          "id": 1053,
+          "ancpPartitionId": 53,
+          "ontId": 53,
+          "ontState": "ONLINE",
+          "anpTag": 53,
+          "subscriberNeProfile": {
+            "profileName": "RFS_AL_GPON",
+            "ontSerialNumber": "1111111111189015",
+            "state": "ACTIVE",
+            "id": 1020
+          }
+        },
+        "defaultNetworkLineProfile": {
+          "authMethod": 1,
+          "klsId": 14653,
+          "minDownBandwidth": 62000,
+          "minUpBandwidth": 31000,
+          "guaranteedDownBandwidth": 62000,
+          "guaranteedUpBandwidth": 31000,
+          "maxDownBandwidth": 1000000,
+          "maxUpBandwidth": 500000,
+          "state": "INACTIVE",
+          "federationPartner": null,
+          "id": 1050,
+          "accessNetworkType": "Ethernet",
+          "accessType": "FTTH",
+          "subscriberNetworkLineProfile": {
+            "authMethod": 1,
+            "klsId": 14653,
+            "minDownBandwidth": 62000,
+            "minUpBandwidth": 31000,
+            "guaranteedDownBandwidth": 62000,
+            "guaranteedUpBandwidth": 31000,
+            "maxDownBandwidth": 1000000,
+            "maxUpBandwidth": 500000,
+            "state": "ACTIVE",
+            "federationPartner": "t-online.de",
+            "id": 1020,
+            "providerId": "0000",
+            "downBandwidth": 100000,
+            "upBandwidth": 50000,
+            "substitutionDomain": "53",
+            "l2ccid": "53"
+          }
+        }
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/resource-order-resource-inventory/v1/ont-connectivity-test/"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ont-connectivity-test/"
   },
   "response": {
     "status": 202,
@@ -20,12 +20,8 @@
       "jsonBody": {
         "payload": {
           "actualRunState": "Online",
-          "lastDownCause": "LOS",
-          "lastDownTime": "2018-08-21T17:32:28.0000000+00:00",
-          "lastUpTime": "2018-08-21T16:58:08.0000000+00:00",
-          "ontId": 0
-        },
-        "success": true
+          "ontId": "{{jsonPath request.body /'$.ontId/'}}"
+        }
       }
     }
   }

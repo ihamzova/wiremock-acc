@@ -1,0 +1,24 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/oltResourceInventory/v1/OntTestInfo/getInfo",
+    "bodyPatterns": [
+      {
+        "matches": "1111111111189016"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "endSz": "49/30/179/76H1",
+      "ontId": 0,
+      "portNumber": "2",
+      "slotNumber": "1"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

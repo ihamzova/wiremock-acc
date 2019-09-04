@@ -2,7 +2,12 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPath": "/api/oltResourceInventory/v1/accessLine/reserve"
+    "urlPathPattern": "/api/oltResourceInventory/v1/accessLine/reserve",
+    "bodyPatterns": [
+      {
+        "matches": "0037WPK"
+      }
+    ]
   },
   "response": {
     "status": 404,

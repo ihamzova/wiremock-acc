@@ -1,0 +1,112 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/oltResourceInventory/v1/port",
+    "queryParameters" : {
+      "endSz" : {
+        "matches" : "^49/30/179/76H1$"
+      },
+      "slotNumber" : {
+        "matches" : "^1$"
+      },
+      "portNumber" : {
+        "matches" : "^2$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "accessLines": [
+        {
+          "defaultNeProfile": {
+            "profileName": "RFS_AL_GPON",
+            "ontSerialNumber": "DEFAULT",
+            "state": "INACTIVE",
+            "id": 1053,
+            "ancpPartitionId": 53,
+            "ontId": 53,
+            "ontState": "ONLINE",
+            "anpTag": 53,
+            "subscriberNeProfile": {
+              "profileName": "RFS_AL_GPON",
+              "ontSerialNumber": "1111111111189015",
+              "state": "ACTIVE",
+              "id": 1020
+            }
+          },
+          "defaultNetworkLineProfile": {
+            "authMethod": 1,
+            "klsId": 14653,
+            "minDownBandwidth": 62000,
+            "minUpBandwidth": 31000,
+            "guaranteedDownBandwidth": 62000,
+            "guaranteedUpBandwidth": 31000,
+            "maxDownBandwidth": 1000000,
+            "maxUpBandwidth": 500000,
+            "state": "INACTIVE",
+            "federationPartner": null,
+            "id": 1050,
+            "accessNetworkType": "Ethernet",
+            "accessType": "FTTH",
+            "subscriberNetworkLineProfile": {
+              "authMethod": 1,
+              "klsId": 14653,
+              "minDownBandwidth": 62000,
+              "minUpBandwidth": 31000,
+              "guaranteedDownBandwidth": 62000,
+              "guaranteedUpBandwidth": 31000,
+              "maxDownBandwidth": 1000000,
+              "maxUpBandwidth": 500000,
+              "state": "ACTIVE",
+              "federationPartner": "t-online.de",
+              "id": 1020,
+              "providerId": "0000",
+              "downBandwidth": 100000,
+              "upBandwidth": 50000,
+              "substitutionDomain": "53",
+              "l2ccid": "53"
+            }
+          },
+          "homeId": "string",
+          "id": 0,
+          "lineId": "DEU.DTAG.WSPA000000",
+          "status": "WALLED_GARDEN",
+          "technology": "GFAST"
+        }
+      ],
+      "homeIdPools": [
+        {
+          "homeId": "0037WPK",
+          "id": 0
+        }
+      ],
+      "id": 0,
+      "lineIdPools": [
+        {
+          "id": 0,
+          "lineId": "DEU.DTAG.WSPA000000",
+          "status": "string"
+        }
+      ],
+      "opticalModule": {
+        "description": "string",
+        "descriptionUrl": "string",
+        "emsNbiName": "string",
+        "id": 0,
+        "lastDiscovery": "2019-09-02T08:07:15.103Z",
+        "manufacturer": "string",
+        "materialNumber": "string",
+        "name": "string",
+        "shortName": "string",
+        "tkz1": "string",
+        "tkz2": "string"
+      },
+      "portNumber": "2",
+      "portType": "PON"
+    }
+  }
+}

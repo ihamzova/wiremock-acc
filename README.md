@@ -61,6 +61,21 @@ Stubs are in the folder "stubs"
  * Is stub already exists, check if you can reuse it.
  * If not either contact whoever created it to resolve conflict, or add a similar one
 
+
+Example: Simple webhook receiver
+---
+
+Wiremock can be used as a simple webhook/callback receiver.
+
+## Locally
+* `docker run --rm -ti -p 8080:8080 mtr.external.otc.telekomcloud.com/digitalhub/wiremock-acc:develop`
+* Send your callback to http://localhost:8080/api/genericCallbackConsumer/v1.0/consume/
+* Find the callback
+  * http://localhost:8080/__admin/swagger-ui/#/Requests/post___admin_requests_find
+    * Request body: `{"method":"POST","url":"/api/genericCallbackConsumer/v1.0/consume/"}`
+  * `curl -X POST "http://localhost:8080/__admin/requests/find" -H "accept: application/json" -H "Content-Type: application/json" -d "{\"method\":\"POST\",\"url\":\"/api/genericCallbackConsumer/v1.0/consume/\"}"`
+* More details: http://localhost:8080/__admin/docs
+
 More
 ---
 You can read more about creating stubs here: https://gard.telekom.de/gardwiki/display/DGHB/Wiremock+Stubs+Handling

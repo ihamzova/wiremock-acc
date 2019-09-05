@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/resource-order-resource-inventory/v1/ipRangeAssignments/42"
+  },
+  "response" : {
+    "body" : "Not found",
+    "headers" : {
+      "Content-Type" : "text/plain"
+    },
+    "status" : 404
+  }
+}

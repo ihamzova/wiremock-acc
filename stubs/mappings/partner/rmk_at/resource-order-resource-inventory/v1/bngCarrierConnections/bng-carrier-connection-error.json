@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/bngCarrierConnections",
+    "queryParameters" : {
+      "bngEndsz" : {
+        "matches" : "^49/911/84/7Z42$"
+      }
+    }
+  },
+  "response" : {
+    "body" : "Not found",
+    "headers" : {
+      "Content-Type" : "text/plain"
+    },
+    "status" : 404
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/resource-order-resource-inventory/v1/ancp-configuration"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+      }
+    }
+  }
+}

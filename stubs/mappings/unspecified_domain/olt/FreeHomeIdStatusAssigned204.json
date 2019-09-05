@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "PUT",
-    "urlPath": "/api/oltResourceInventory/v1/homeId/status/assigned",
+    "urlPathPattern": "/(?:resource-order-resource-inventory|api/oltResourceInventory)/v1/homeId/status/assigned",
     "bodyPatterns": [
       {
         "matches": "[A-Z0-9]{7}"

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_EQDATA_RESPV2 xmlns:ns1="http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2">
+            <eiMessageContext>
+                <target xmlns="http://messaging.ei.tmobile.net/datatypes">SI_ReadEquipmentResponseV2In_DigiOSS</target>
+                <requestId xmlns="http://messaging.ei.tmobile.net/datatypes">urn:uuid:E72E79E85B12C51C351566990706688246213</requestId>
+                <timeLeft xmlns="http://messaging.ei.tmobile.net/datatypes">172800000</timeLeft>
+                <priority xmlns="http://messaging.ei.tmobile.net/datatypes">4</priority>
+                <sender xmlns="http://messaging.ei.tmobile.net/datatypes">sndr:tmo.erp.sap.architecture.SAP:PI</sender>
+                <correlationId xmlns="http://messaging.ei.tmobile.net/datatypes">AAA_0017A477C8301EE9B2B093E471591EF1</correlationId>
+            </eiMessageContext>
+            <data>
+                <MT_EQDATA_RESPV2>
+                    <KOPF>
+                        <PARTNER>{{xPath request.body '/MT_EQDATA_REQ/data/MT_EQDATA_REQ/KOPF/PARTNER/text()'}}</PARTNER>
+                        <ANFO_KEN>{{xPath request.body '/MT_EQDATA_REQ/data/MT_EQDATA_REQ/KOPF/ANFO_KEN/text()'}}</ANFO_KEN>
+                    </KOPF>
+                    <EQUI>
+                        <EQUNR>220001641</EQUNR>
+                        <TPLNR>000030-000500-001-040-002-001</TPLNR>
+                        <FELD>0035</FELD>
+                        <HEQUI>220001501</HEQUI>
+                        <HEQNR>0035</HEQNR>
+                        <SUBMT>40209672</SUBMT>
+                        <KTEXT_MAT>AMS STM-1 S1.1 SFP</KTEXT_MAT>
+                        <HERST>124278</HERST>
+                        <HERST_NAME>R3M-SC3030</HERST_NAME>
+                        <FSACHNR>OM155T101</FSACHNR>
+                        <ANSDAT>20140812</ANSDAT>
+                        <EQART>P</EQART>
+                        <ENDSZ>49/30/500/7JVN</ENDSZ>
+                        <EQTYP>V</EQTYP>
+                        <ANLKL>67040000</ANLKL>
+                        <SERGE>KARL-HEINZ 03</SERGE>
+                        <GERSTD>1</GERSTD>
+                        <AENSTD>1</AENSTD>
+                        <AWSTAT>B</AWSTAT>
+                        <AKTION>ANFO</AKTION>
+                        <GESAMTSTRUKTUR>'    /0035'</GESAMTSTRUKTUR>
+                        <ANZ_EBENEN>1</ANZ_EBENEN>
+                        <ZM_BETR_DAT>Y</ZM_BETR_DAT>
+                        <ZM_STATUS>F</ZM_STATUS>
+                        <VPSZ>49/30/500</VPSZ>
+                        <STAR_ID>23637</STAR_ID>
+                        <ADR_ID>11526459</ADR_ID>
+                        <NKZ>30</NKZ>
+                        <VPZ>500</VPZ>
+                        <GEBA>001</GEBA>
+                        <RAUM>040</RAUM>
+                        <REIHE>002</REIHE>
+                        <PLATZ>001</PLATZ>
+                        <ASB>551</ASB>
+                        <IWERK>DE01</IWERK>
+                        <INGRP>D12</INGRP>
+                        <FLTYP>T</FLTYP>
+                        <AUFNR>200011973</AUFNR>
+                        <SOLLDAT>20140819</SOLLDAT>
+                        <BERTDAT>20140812</BERTDAT>
+                        <KTEXT_SM>Test_TF ST_12b</KTEXT_SM>
+                        <PDHNR>10.01.50.20</PDHNR>
+                        <BEZ_MB>VISYON 155</BEZ_MB>
+                        <LKR>DS2E</LKR>
+                        <ANZ_LKR>  63.0</ANZ_LKR>
+                        <ANL_REL>X</ANL_REL>
+                        <SERNR_REL>X</SERNR_REL>
+                    </EQUI>
+                    <EQUI>
+                        <EQUNR>220001642</EQUNR>
+                        <TPLNR>000030-000500-001-040-002-001</TPLNR>
+                        <FELD>0035</FELD>
+                        <HEQUI>220001501</HEQUI>
+                        <HEQNR>0035</HEQNR>
+                        <SUBMT>40209672</SUBMT>
+                        <KTEXT_MAT>AMS STM-1 S1.1 SFP</KTEXT_MAT>
+                        <HERST>124278</HERST>
+                        <HERST_NAME>R3M-SC3030</HERST_NAME>
+                        <FSACHNR>OM155T101</FSACHNR>
+                        <ANSDAT>20140812</ANSDAT>
+                        <EQART>P</EQART>
+                        <ENDSZ>49/30/500/7JVN</ENDSZ>
+                        <EQTYP>V</EQTYP>
+                        <ANLKL>67040000</ANLKL>
+                        <SERGE>KARL-HEINZ 04</SERGE>
+                        <GERSTD>1</GERSTD>
+                        <AENSTD>1</AENSTD>
+                        <AWSTAT>B</AWSTAT>
+                        <AKTION>ANFO</AKTION>
+                        <GESAMTSTRUKTUR>'    /0035'</GESAMTSTRUKTUR>
+                        <ANZ_EBENEN>1</ANZ_EBENEN>
+                        <ZM_BETR_DAT>Y</ZM_BETR_DAT>
+                        <ZM_STATUS>F</ZM_STATUS>
+                        <VPSZ>49/30/500</VPSZ>
+                        <STAR_ID>23637</STAR_ID>
+                        <ADR_ID>11526459</ADR_ID>
+                        <NKZ>30</NKZ>
+                        <VPZ>500</VPZ>
+                        <GEBA>001</GEBA>
+                        <RAUM>040</RAUM>
+                        <REIHE>002</REIHE>
+                        <PLATZ>001</PLATZ>
+                        <ASB>551</ASB>
+                        <IWERK>DE01</IWERK>
+                        <INGRP>D12</INGRP>
+                        <FLTYP>T</FLTYP>
+                        <AUFNR>200011973</AUFNR>
+                        <SOLLDAT>20140819</SOLLDAT>
+                        <BERTDAT>20140812</BERTDAT>
+                        <KTEXT_SM>Test_TF ST_12b</KTEXT_SM>
+                        <PDHNR>10.01.50.20</PDHNR>
+                        <BEZ_MB>VISYON 155</BEZ_MB>
+                        <LKR>DS2E</LKR>
+                        <ANZ_LKR>  63.0</ANZ_LKR>
+                        <ANL_REL>X</ANL_REL>
+                        <SERNR_REL>X</SERNR_REL>
+                    </EQUI>
+                    <EQUI>
+                        <EQUNR>220001643</EQUNR>
+                        <TPLNR>000030-000500-001-040-002-001</TPLNR>
+                        <FELD>0035</FELD>
+                        <HEQUI>220001501</HEQUI>
+                        <HEQNR>0035</HEQNR>
+                        <SUBMT>40248234</SUBMT>
+                        <KTEXT_MAT>F2 Schnittstellenoptionskarte Translan</KTEXT_MAT>
+                        <HERST>124278</HERST>
+                        <HERST_NAME>R3M-SC3030</HERST_NAME>
+                        <FSACHNR>CMC419B</FSACHNR>
+                        <ANSDAT>20140812</ANSDAT>
+                        <EQART>P</EQART>
+                        <ENDSZ>49/30/500/7JVN</ENDSZ>
+                        <EQTYP>V</EQTYP>
+                        <ANLKL>67040000</ANLKL>
+                        <SERGE>KARL-HEINZ 05</SERGE>
+                        <GERSTD>1</GERSTD>
+                        <AENSTD>1</AENSTD>
+                        <AWSTAT>B</AWSTAT>
+                        <AKTION>ANFO</AKTION>
+                        <GESAMTSTRUKTUR>'    /0035'</GESAMTSTRUKTUR>
+                        <ANZ_EBENEN>1</ANZ_EBENEN>
+                        <ZM_BETR_DAT>Y</ZM_BETR_DAT>
+                        <ZM_STATUS>F</ZM_STATUS>
+                        <VPSZ>49/30/500</VPSZ>
+                        <STAR_ID>23637</STAR_ID>
+                        <ADR_ID>11526459</ADR_ID>
+                        <NKZ>30</NKZ>
+                        <VPZ>500</VPZ>
+                        <GEBA>001</GEBA>
+                        <RAUM>040</RAUM>
+                        <REIHE>002</REIHE>
+                        <PLATZ>001</PLATZ>
+                        <ASB>551</ASB>
+                        <IWERK>DE01</IWERK>
+                        <INGRP>D12</INGRP>
+                        <FLTYP>T</FLTYP>
+                        <AUFNR>200011973</AUFNR>
+                        <SOLLDAT>20140819</SOLLDAT>
+                        <BERTDAT>20140812</BERTDAT>
+                        <KTEXT_SM>Test_TF ST_12b</KTEXT_SM>
+                        <PDHNR>10.01.50.32</PDHNR>
+                        <BEZ_MB>VISYON 1 GbE</BEZ_MB>
+                        <LKR>DS2E</LKR>
+                        <ANZ_LKR> 500.0</ANZ_LKR>
+                        <ANL_REL>X</ANL_REL>
+                        <SERNR_REL>X</SERNR_REL>
+                    </EQUI>
+                    <EQUI>
+                        <EQUNR>220001644</EQUNR>
+                        <TPLNR>000030-000500-001-040-002-001</TPLNR>
+                        <FELD>0035</FELD>
+                        <HEQUI>220001501</HEQUI>
+                        <HEQNR>0035</HEQNR>
+                        <SUBMT>40248234</SUBMT>
+                        <KTEXT_MAT>F2 Schnittstellenoptionskarte Translan</KTEXT_MAT>
+                        <HERST>124278</HERST>
+                        <HERST_NAME>R3M-SC3030</HERST_NAME>
+                        <FSACHNR>CMC419B</FSACHNR>
+                        <ANSDAT>20140812</ANSDAT>
+                        <EQART>P</EQART>
+                        <ENDSZ>49/30/500/7JVN</ENDSZ>
+                        <EQTYP>V</EQTYP>
+                        <ANLKL>67040000</ANLKL>
+                        <SERGE>KARL-HEINZ 06</SERGE>
+                        <GERSTD>1</GERSTD>
+                        <AENSTD>1</AENSTD>
+                        <AWSTAT>B</AWSTAT>
+                        <AKTION>ANFO</AKTION>
+                        <GESAMTSTRUKTUR>'    /0035'</GESAMTSTRUKTUR>
+                        <ANZ_EBENEN>1</ANZ_EBENEN>
+                        <ZM_BETR_DAT>Y</ZM_BETR_DAT>
+                        <ZM_STATUS>F</ZM_STATUS>
+                        <VPSZ>49/30/500</VPSZ>
+                        <STAR_ID>23637</STAR_ID>
+                        <ADR_ID>11526459</ADR_ID>
+                        <NKZ>30</NKZ>
+                        <VPZ>500</VPZ>
+                        <GEBA>001</GEBA>
+                        <RAUM>040</RAUM>
+                        <REIHE>002</REIHE>
+                        <PLATZ>001</PLATZ>
+                        <ASB>551</ASB>
+                        <IWERK>DE01</IWERK>
+                        <INGRP>D12</INGRP>
+                        <FLTYP>T</FLTYP>
+                        <AUFNR>200011973</AUFNR>
+                        <SOLLDAT>20140819</SOLLDAT>
+                        <BERTDAT>20140812</BERTDAT>
+                        <KTEXT_SM>Test_TF ST_12b</KTEXT_SM>
+                        <PDHNR>10.01.50.32</PDHNR>
+                        <BEZ_MB>VISYON 1 GbE</BEZ_MB>
+                        <LKR>DS2E</LKR>
+                        <ANZ_LKR> 500.0</ANZ_LKR>
+                        <ANL_REL>X</ANL_REL>
+                        <SERNR_REL>X</SERNR_REL>
+                    </EQUI>
+                    <STATUS>
+                        <TYPE>S</TYPE>
+                        <ID>ZDIB</ID>
+                        <NUMBER>000</NUMBER>
+                        <MESSAGE>Die Anforderung wurde ausgeführt.</MESSAGE>
+                        <LOG_NO>0000000000</LOG_NO>
+                        <SYSTEM>Linux</SYSTEM>
+                    </STATUS>
+                </MT_EQDATA_RESPV2>
+            </data>
+        </ns1:MT_EQDATA_RESPV2>
+    </SOAP:Body>
+</SOAP:Envelope>

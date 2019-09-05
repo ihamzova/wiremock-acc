@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "DELETE",
-    "urlPattern": "/resource-order-resource-inventory/v1/access-line-configuration/([\\w\\d\\_]*)/accessLines/([\\w\\d\\-]*)"
+    "urlPattern": "/resource-order-resource-inventory/v1/rdqLineProfile/DeleteRequestLineProfile/"
   },
   "response": {
     "status": 202,
@@ -17,7 +17,11 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
-      "jsonBody": {}
+      "jsonBody": {
+        "RequestID": "{{jsonPath request.body '$.RequestID'}}",
+        "calid": "{{jsonPath request.body '$.calid'}}",
+        "FehlerCode": "0000"
+      }
     }
   }
 }

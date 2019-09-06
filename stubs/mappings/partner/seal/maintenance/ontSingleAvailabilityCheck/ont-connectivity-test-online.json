@@ -19,8 +19,7 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "actualRunState": "Online",
-          "ontId": "{{jsonPath request.body /'$.ontId/'}}"
+          "actualRunState": "Online"
         }
       }
     }

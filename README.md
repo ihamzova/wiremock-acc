@@ -30,6 +30,17 @@ Example:
   }
 }
 ```
+Example of for cycle
+```json
+[
+  {{#each (jsonPath request.body '$.klsIds')}}
+  {
+    "klsId": {{this}}
+  }{{#unless @last}},{{/unless}}
+  {{/each}}
+]
+```
+
 
 Project structure
 ---

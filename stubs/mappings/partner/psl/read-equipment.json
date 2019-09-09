@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/soabp/rpc/etum2/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp"
+  },
+  "response": {
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "http://psl-transformer-app/api/pslTransformer/v1/callback",
+      "headers": {
+        "Content-Type": "text/xml"
+      },
+      "method": "POST",
+      "bodyFileName": "partner/psl/read-equipment.xml"
+    }
+  }
+}

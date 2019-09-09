@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/([\\w\\d]*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "osr/olt-material-catalog/find-device-template-by-emsnbiname.json"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/resource-order-resource-inventory/v1/ancp-status-test/49_30_179_76H1/ancpConfigurations/1001"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "adminState": "unlocked",
+        "operState": "up",
+        "vlanId": null,
+        "ancpInterfaceId": null,
+        "ancpPartitionId": null,
+        "ancpInterfaceControllerNodeIp": null
+      }
+    }
+  }
+}

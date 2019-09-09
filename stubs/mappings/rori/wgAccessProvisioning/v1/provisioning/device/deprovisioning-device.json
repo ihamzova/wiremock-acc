@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/wgAccessProvisioning/v1/provisioning/cards"
+    "urlPathPattern": "/wgAccessProvisioning/v1/deprovisioning/device"
   },
   "response": {
     "status": 202,
@@ -18,13 +18,9 @@
       },
       "method": "POST",
       "jsonBody": {
-
-        "ProcessDto": {
-          "businessKey": "42",
-          "index": 13
-        }
-
-
+        "payload": {
+        },
+        "success": true
       }
     }
   }

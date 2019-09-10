@@ -3,11 +3,11 @@
     "method": "GET",
     "url": "/resource-order-resource-inventory/v1/psl-adapter/v1/session?session-id=42"
   },
-  "response" : {
-    "body" : "Not found",
-    "headers" : {
-      "Content-Type" : "text/plain"
+  "response": {
+    "body": "Not found",
+    "headers": {
+      "Content-Type": "text/plain"
     },
-    "status" : 404
+    "status": 404
   }
 }

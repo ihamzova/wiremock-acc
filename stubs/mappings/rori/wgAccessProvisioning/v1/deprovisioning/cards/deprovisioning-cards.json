@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/api/wgAccessProvisioning/v1/deprovisioning/device/"
+    "urlPathPattern": "/api/wgAccessProvisioning/v1/deprovisioning/cards"
   },
   "response": {
     "status": 200,

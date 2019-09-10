@@ -1,26 +1,13 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/wgAccessProvisioning/v1/provisioning/device"
+    "urlPathPattern": "/api/wgAccessProvisioning/v1/provisioning/device/"
   },
   "response": {
-    "status": 202,
+    "status": 200,
     "headers": {
       "Content-Type": "application/json"
-    }
-  },
-  "postServeActions": {
-    "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
-      "headers": {
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
-        "Content-Type": "application/json"
-      },
-      "method": "POST",
-      "jsonBody": {
-
-
-      }
-    }
+    },
+    "bodyFileName": "rori/wgAccessProvisioning/v1/provisioning.json"
   }
 }

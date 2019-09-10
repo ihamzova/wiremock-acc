@@ -1,13 +1,13 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/api/wgAccessProvisioning/v1/deprovisioning/device/"
+    "urlPathPattern": "/api/wgAccessProvisioning/v1/provisioning/cards"
   },
   "response": {
     "status": 200,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/wgAccessProvisioning/v1/deprovisioning.json"
+    "bodyFileName": "rori/wgAccessProvisioning/v1/provisioning.json"
   }
 }

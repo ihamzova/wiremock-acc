@@ -9,13 +9,15 @@
       "Content-Type": "application/json"
     },
     "jsonBody": {
-      "name": "49_8571_0_76H1",
-      "ipAddress": "10.182.112.196",
-      "productName": "MA5600T",
-      "manufacturer": "HUAWEI",
-      "softwareVersion": "MA5600V800R016C00",
-      "resourceState": "WORKING",
-      "communicationState": "CS_AVAILABLE",
+      "managedElement": {
+        "name": "49_8571_0_76H1",
+        "ipAddress": "10.182.112.196",
+        "productName": "MA5600T",
+        "manufacturer": "HUAWEI",
+        "softwareVersion": "MA5600V800R016C00",
+        "resourceState": "WORKING",
+        "communicationState": "CS_AVAILABLE"
+      },
       "modules": [
         {
           "slot": 1,

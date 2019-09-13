@@ -4,12 +4,20 @@
     "url": "/resource-order-resource-inventory/v1/inventory-retrieval/49_911_1100_76ZB/"
   },
   "response": {
-    "status": 200,
+    "status": 202,
     "headers": {
       "Content-Type": "application/json"
-    },
-    "jsonBody": {
-      "payload": {
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
         "managedElement": {
           "name": "49_911_1100_76ZB",
           "ipAddress": "172.22.53.4",

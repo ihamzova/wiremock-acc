@@ -18,121 +18,63 @@
       },
       "method": "POST",
       "jsonBody": {
-        "equipmentNummer": "212880011",
-        "materialNummer": "40247069",
-        "klsId": "17056514",
-        "endsz": "49/8571/0/76HZ",
-        "seriennummer": "21023533106TG4900198",
-        "datumAufbau": null,
-        "gebaeude": null,
-        "raum": null,
-        "reihe": null,
-        "platz": null,
-        "asb": "1",
-        "auftragNummer": null,
-        "technischerPlatznummer": "008571-000000-001-004-002-021",
-        "pslModules": [
+        "delayBeforeCallback": 2,
+        "endsz": "49/911/1100/76ZB",
+        "equipment": [
           {
-            "slot": "1",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
+            "equnr": "212880011",
+            "tplnr": "000031-000000-001-004-002-021",
+            "hequi": "212879995",
+            "heqnr": "0056",
+            "submt": "40916237",
+            "eqart": "G",
+            "endsz": "49/911/1100/76ZB",
+            "serge": "21023533106TG4900198",
+            "anzEbenen": "1",
+            "adrId": "17056514",
+            "asb": "1"
           },
           {
-            "slot": "2",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000599",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
+            "equnr": "212880063",
+            "hequi": "212880011",
+            "heqnr": "0001",
+            "submt": "40916243",
+            "eqart": "P",
+            "endsz": "49/911/1100/76ZB",
+            "serge": "021BQWW0G6002494",
+            "anzEbenen": "2"
           },
           {
-            "slot": "3",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40261742",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
+            "equnr": "212880056",
+            "hequi": "212880011",
+            "heqnr": "0008",
+            "submt": "40916239",
+            "eqart": "P",
+            "endsz": "49/911/1100/76ZB",
+            "serge": "020KAX6TG5602889",
+            "anzEbenen": "2"
           },
           {
-            "slot": "4",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
+            "equnr": "212880057",
+            "hequi": "212880011",
+            "heqnr": "0010",
+            "submt": "40916246",
+            "eqart": "P",
+            "endsz": "49/911/1100/76ZB",
+            "serge": "020KAX6TG5604051",
+            "anzEbenen": "2"
           },
           {
-            "slot": "5",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "6",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "7",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "8",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40251139",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "11",
-            "equipmentNummer": "212880063",
-            "materialNummer": "40294954",
-            "seriennummer": "022MLNCNF2000512",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "19",
-            "equipmentNummer": "212880062",
-            "materialNummer": "40247074",
-            "seriennummer": "020KKPCNG5010973",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
-          },
-          {
-            "slot": "11",
-            "equipmentNummer": "212880056",
-            "materialNummer": "40247072",
-            "seriennummer": "21021204816TG4900581",
-            "datumAufbau": null,
-            "auftragNummer": null,
-            "technischerPlatznummer": null
+            "equnr": "212880062",
+            "hequi": "212880011",
+            "heqnr": "0011",
+            "submt": "40916246",
+            "eqart": "P",
+            "endsz": "49/911/1100/76ZB",
+            "serge": "020KKPCNG5010973",
+            "anzEbenen": "2"
           }
-        ],
-        "sfpModules": []
+        ]
       }
     }
   }

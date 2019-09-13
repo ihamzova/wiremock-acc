@@ -4,152 +4,92 @@
     "urlPathPattern": "/resource-order-resource-inventory/v1/inventory-retrieval"
   },
   "response": {
-    "status": 200,
+    "status": 202,
     "headers": {
       "Content-Type": "application/json"
-    },
-    "jsonBody": {
-      "managedElement": {
-        "name": "49_8571_0_76H1",
-        "ipAddress": "10.182.112.196",
-        "productName": "MA5600T",
-        "manufacturer": "HUAWEI",
-        "softwareVersion": "MA5600V800R016C00",
-        "resourceState": "WORKING",
-        "communicationState": "CS_AVAILABLE"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
       },
-      "modules": [
-        {
-          "slot": 1,
-          "installedEquipmentObjectType": "H805GPBD",
-          "installedSerialNumber": "021BQW10B6000065",
+      "method": "POST",
+      "jsonBody": {
+        "managedElement": {
+          "name": "49_8571_0_76H1",
+          "ipAddress": "10.182.112.196",
+          "productName": "MA5600T",
           "manufacturer": "HUAWEI",
-          "installedVersion": "507(2015-8-27)",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
+          "softwareVersion": "MA5600V800R016C00",
+          "resourceState": "WORKING",
+          "communicationState": "CS_AVAILABLE"
         },
-        {
-          "slot": 9,
-          "installedEquipmentObjectType": "H801SCUN",
-          "installedSerialNumber": "020KAX6TB6601085",
-          "manufacturer": "HUAWEI",
-          "installedVersion": "MA5600V800R016C00",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
-        },
-        {
-          "slot": 10,
-          "installedEquipmentObjectType": "H801SCUN",
-          "installedSerialNumber": "020KAX6TB6601085",
-          "manufacturer": "HUAWEI",
-          "installedVersion": "MA5600V800R016C00",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
-        },
-        {
-          "slot": 11,
-          "installedEquipmentObjectType": "H802GPBD",
-          "installedSerialNumber": "020PFN6TBA607546",
-          "manufacturer": "HUAWEI",
-          "installedVersion": "507(2015-8-27)",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
-        },
-        {
-          "slot": 18,
-          "installedEquipmentObjectType": "H807GPBH",
-          "installedSerialNumber": "022MLNCNG8000087",
-          "manufacturer": "HUAWEI",
-          "installedVersion": "507(2015-8-27)",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
-        },
-        {
-          "slot": 19,
-          "installedEquipmentObjectType": "H801X2CS",
-          "installedSerialNumber": "020KKPW0B5000021",
-          "manufacturer": "HUAWEI",
-          "installedVersion": "154(2015-7-1)",
-          "resourceState": "INSTALLING_INSTALLED",
-          "resourceFulfillmentState": "IN_SERVICE",
-          "shelf": 0
-        }
-      ],
-      "ports": [
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 9,
-          "port": "0"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 9,
-          "port": "1"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 9,
-          "port": "2"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 9,
-          "port": "3"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 10,
-          "port": "0"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 10,
-          "port": "1"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 10,
-          "port": "2"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": null,
-          "installedMatNumberSFP": null,
-          "shelf": "0",
-          "slot": 10,
-          "port": "3"
-        },
-        {
-          "portType": "ETHERNET",
-          "installedPartNumberSFP": "OpticV"
-        }
-      ]
+        "modules": [
+          {
+            "slot": 1,
+            "installedEquipmentObjectType": "H805GPBD",
+            "installedSerialNumber": "021BQW10B6000065",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "507(2015-8-27)",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          },
+          {
+            "slot": 9,
+            "installedEquipmentObjectType": "H801SCUN",
+            "installedSerialNumber": "020KAX6TB6601085",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "MA5600V800R016C00",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          },
+          {
+            "slot": 10,
+            "installedEquipmentObjectType": "H801SCUN",
+            "installedSerialNumber": "020KAX6TB6601085",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "MA5600V800R016C00",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          },
+          {
+            "slot": 11,
+            "installedEquipmentObjectType": "H802GPBD",
+            "installedSerialNumber": "020PFN6TBA607546",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "507(2015-8-27)",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          },
+          {
+            "slot": 18,
+            "installedEquipmentObjectType": "H807GPBH",
+            "installedSerialNumber": "022MLNCNG8000087",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "507(2015-8-27)",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          },
+          {
+            "slot": 19,
+            "installedEquipmentObjectType": "H801X2CS",
+            "installedSerialNumber": "020KKPW0B5000021",
+            "manufacturer": "HUAWEI",
+            "installedVersion": "154(2015-7-1)",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": 0
+          }
+        ]
+      }
     }
   }
 }

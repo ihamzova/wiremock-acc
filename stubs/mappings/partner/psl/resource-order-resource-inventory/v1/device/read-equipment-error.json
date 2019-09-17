@@ -1,0 +1,61 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/resource-order-resource-inventory/psl/v1/read-equipment/readEquipment?endsz=49/911/1100/42ZB"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "messageContext": {
+          "target": "SI_ReadEquipmentResponseV2In_DIGIOSS",
+          "sender": null,
+          "sndr": "tmo.erp.sap.architecture.SAP: PI",
+          "correlationId": "{{request.headers.X-Callback-Correlation-Id}}",
+          "redelivered": null,
+          "replyTo": null,
+          "requestId": null,
+          "urn": null,
+          "uuid": "7AB8B128C0B08B9381155602770191633979195",
+          "revision": null,
+          "sequenceId": null,
+          "timeLeft": "172799997",
+          "priority": 4
+        },
+        "responseData": {
+          "header": {
+            "partner": "BS_DIGIOSS",
+            "anfoKen": "15682947194733752345"
+          },
+          "status": {
+            "type": null,
+            "id": 1000,
+            "number": "001",
+            "message": "An error occurred!",
+            "logNo": null,
+            "logMsgNo": null,
+            "messageV1": null,
+            "messageV2": null,
+            "messageV3": null,
+            "messageV4": null,
+            "parameter": null,
+            "row": null,
+            "field": null,
+            "system": null
+          }
+        }
+      }
+    }
+  }
+}

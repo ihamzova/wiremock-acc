@@ -2,7 +2,7 @@
   "priority": 100,
   "request" : {
     "method" : "GET",
-    "urlPattern" : "/api/addressLookup/v1/lookup/addressSearch/extended/getKlsId.*"
+    "urlPattern" : "/api/addressLookup/v1/addressSearch/extended/getKlsId.*"
   },
   "response" : {
     "headers" : {

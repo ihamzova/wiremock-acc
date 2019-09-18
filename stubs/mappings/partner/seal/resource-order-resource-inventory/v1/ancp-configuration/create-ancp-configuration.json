@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/resource-order-resource-inventory/v1/ancp-configuration"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ancp-configuration/([\\w\\d\\_]*)/ancpConfigurations"
   },
   "response": {
     "status": 202,
@@ -18,7 +18,11 @@
       },
       "method": "POST",
       "jsonBody": {
-        "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+        "payload": {
+          "properties": {
+            "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+          }
+        }
       }
     }
   }

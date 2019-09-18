@@ -1,7 +1,7 @@
 {
     "request": {
       "method": "GET",
-      "url": "/resource-order-resource-inventory/v1/olt/vpszlookup?vpsz=49/7152/5&devicetype=OLT"
+      "url": "/api/oltResourceInventory/v1/olt/vpszlookup?vpsz=49/7152/5&devicetype=OLT"
     },
     "response": {
       "status": 200,

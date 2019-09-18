@@ -1,7 +1,7 @@
 { "priority":10,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]*)"
+    "urlPathPattern": "/api/addressLookup/v1/areaDataManagement/fibreonlocations/([0-9]*)"
   },
 
   "response": {

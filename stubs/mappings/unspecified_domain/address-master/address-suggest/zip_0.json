@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/ZIPCODE?zipCode=710"
+    "url" : "/api/addressLookup/v1/lookup/addressSuggest/addressSuggestions/ZIPCODE?zipCode=710"
   },
   "response" : {
     "headers" : {

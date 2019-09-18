@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71254&localityName=Ditzingen&streetName=R%C3%B6m"
+    "url" : "/api/addressLookup/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71254&localityName=Ditzingen&streetName=R%C3%B6m"
   },
   "response" : {
     "headers" : {

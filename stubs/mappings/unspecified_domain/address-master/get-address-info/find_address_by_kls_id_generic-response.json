@@ -3,7 +3,7 @@
   "id": "6d8dcb28-24e9-42d4-8f13-5ba0ca60cee0",
   "request": {
     "method": "GET",
-    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/.*"
+    "urlPattern": "/api/addressLookup/v1/lookup/addressSearch/getAddressInfo/.*"
   },
   "response": {
     "status": 200,

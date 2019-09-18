@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71063&localityName=Sindelfingen&streetName=Sin"
+    "url" : "/api/addressLookup/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71063&localityName=Sindelfingen&streetName=Sin"
   },
   "response" : {
     "headers" : {

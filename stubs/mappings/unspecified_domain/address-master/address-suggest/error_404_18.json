@@ -1,7 +1,7 @@
 {
   "request" : {
     "method" : "GET",
-    "url" : "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71400&localityName=Ditzingen&streetName=Bah"
+    "url" : "/api/addressLookup/v1/lookup/addressSuggest/addressSuggestions/STREET?zipCode=71400&localityName=Ditzingen&streetName=Bah"
   },
   "response" : {
     "body" : "Not found",

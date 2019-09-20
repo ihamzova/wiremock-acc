@@ -1,0 +1,14 @@
+{
+  "request": {
+    "urlPattern": "/crmt/SuchenKunde/up",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/crmt/search-no-customers-found.xml",
+    "headers": {
+      "Content-Type": "text/xml; charset=UTF-8"
+    }
+  },
+  "priority": 10
+}

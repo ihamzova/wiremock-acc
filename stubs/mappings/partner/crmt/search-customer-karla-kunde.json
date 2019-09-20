@@ -1,0 +1,40 @@
+{
+  "request": {
+    "urlPattern": "/crmt/SuchenKunde/up",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//ns3:Name[text()='Karla']",
+        "xPathNamespaces": {
+          "ns3":"http://bom.telekom.de/cc"
+        }
+      },
+      {
+        "matchesXPath": "//ns3:Vorname[text()='Kunde']",
+        "xPathNamespaces": {
+          "ns3":"http://bom.telekom.de/cc"
+        }
+      },
+      {
+        "matchesXPath": "//ns5:Straszenname[text()='Mozartstrasse.']",
+        "xPathNamespaces": {
+          "ns5":"http://bom.telekom.de/crmt"
+        }
+      },
+      {
+        "matchesXPath": "//ns3:Hausnummer[text()='3']",
+        "xPathNamespaces": {
+          "ns3":"http://bom.telekom.de/cc"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/crmt/search-karla-kunde-found.xml",
+    "headers": {
+      "Content-Type": "text/xml; charset=UTF-8"
+    }
+  },
+  "priority": 1
+}

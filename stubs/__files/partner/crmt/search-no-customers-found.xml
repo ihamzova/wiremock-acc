@@ -1,0 +1,32 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns7:suchenKundeResponse
+                xmlns:ns1="http://schemas.telekom.net/csdg_v01.01"
+                xmlns:ns2="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/SuchenKunde_v01.00/types"
+                xmlns:ns4="http://bom.telekom.de/svc"
+                xmlns:ns7="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/SuchenKunde_v01.00">
+            <ns2:context>
+                <ns1:technicalContext>
+                    <ns1:from>de.telekom.vvm.architecture.VVM:Default</ns1:from>
+                    <ns1:routingInfo>de.telekom.vvm.architecture.VVM:Default:SuchenKunde</ns1:routingInfo>
+                    <ns1:messageId>49ab77b2-3fa4-4ce1-8c01-1701d0a39845</ns1:messageId>
+                    <ns1:currentSenderTimestampUTC>2019-09-17T14:48:58.171Z</ns1:currentSenderTimestampUTC>
+                    <ns1:expiryOffsetInMillis>600000</ns1:expiryOffsetInMillis>
+                </ns1:technicalContext>
+                <ns1:businessContext>
+                    <ns1:processId>894017ec-355a-46e7-a18b-1d203edaff42</ns1:processId>
+                    <ns1:processTypeId>SuchenKunde</ns1:processTypeId>
+                </ns1:businessContext>
+            </ns2:context>
+            <ns2:data>
+                <ns4:suchenKundeReply>
+                    <ns4:ReturnCode>12</ns4:ReturnCode>
+                    <ns4:Meldung>
+                        <ns4:MeldNr>SVC3112</ns4:MeldNr>
+                        <ns4:MeldText>Es wurde kein Kunde gefunden</ns4:MeldText>
+                    </ns4:Meldung>
+                </ns4:suchenKundeReply>
+            </ns2:data>
+        </ns7:suchenKundeResponse>
+    </soap:Body>
+</soap:Envelope>

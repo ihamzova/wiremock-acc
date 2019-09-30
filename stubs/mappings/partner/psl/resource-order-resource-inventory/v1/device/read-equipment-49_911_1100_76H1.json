@@ -1,7 +1,14 @@
 {
+  "priority": 1,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/psl/v1/read-equipment/readEquipment"
+    "url": "/resource-order-resource-inventory/psl/v1/read-equipment/readEquipment",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..endsz",
+        "contains": "49/911/1100/76H1"
+      }
+    } ]
   },
   "response": {
     "status": 202,
@@ -36,14 +43,14 @@
         "responseData": {
           "header": {
             "partner": "BS_DIGIOSS",
-            "anfoKen": "15682947194733752345"
+            "anfoKen": "{{jsonPath request.body '$.requestData.header.anfoKen'}}"
           },
           "status": {
-            "type": null,
-            "id": 1000,
+            "type": "S",
+            "id": "ZDIB",
             "number": "000",
-            "message": null,
-            "logNo": null,
+            "message": "Die Anforderung wurde ausgeführt.",
+            "logNo": "0000000000",
             "logMsgNo": null,
             "messageV1": null,
             "messageV2": null,
@@ -52,7 +59,7 @@
             "parameter": null,
             "row": null,
             "field": null,
-            "system": null
+            "system": "Linux"
           },
           "equipment": [
             {
@@ -62,7 +69,7 @@
               "heqnr": "0056",
               "submt": "40916237",
               "eqart": "G",
-              "endsz": "49/911/1100/76ZB",
+              "endsz": "49/911/1100/76H1",
               "serge": "21023533106TG4900198",
               "anzEbenen": "1",
               "adrId": "17056514",
@@ -74,8 +81,8 @@
               "heqnr": "0001",
               "submt": "40916243",
               "eqart": "P",
-              "endsz": "49/911/1100/76ZB",
-              "serge": "021BQWW0G6002494",
+              "endsz": "49/911/1100/76H1",
+              "serge": "033DPA10K7000001",
               "anzEbenen": "2"
             },
             {
@@ -84,8 +91,8 @@
               "heqnr": "0008",
               "submt": "40916239",
               "eqart": "P",
-              "endsz": "49/911/1100/76ZB",
-              "serge": "020KAX6TG5602889",
+              "endsz": "49/911/1100/76H1",
+              "serge": "025KFF10K6000233",
               "anzEbenen": "2"
             },
             {
@@ -94,8 +101,8 @@
               "heqnr": "0010",
               "submt": "40916246",
               "eqart": "P",
-              "endsz": "49/911/1100/76ZB",
-              "serge": "020KAX6TG5604051",
+              "endsz": "49/911/1100/76H1",
+              "serge": "025KET10K6004035",
               "anzEbenen": "2"
             },
             {
@@ -104,8 +111,8 @@
               "heqnr": "0011",
               "submt": "40916246",
               "eqart": "P",
-              "endsz": "49/911/1100/76ZB",
-              "serge": "020KKPCNG5010973",
+              "endsz": "49/911/1100/76H1",
+              "serge": "025KET10K6004050",
               "anzEbenen": "2"
             }
           ]

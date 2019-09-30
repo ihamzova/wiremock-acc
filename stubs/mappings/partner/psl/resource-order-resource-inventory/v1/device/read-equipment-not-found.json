@@ -1,7 +1,8 @@
 {
+  "priority": 10,
   "request": {
     "method": "POST",
-    "url": "/resource-order-resource-inventory/psl/v1/read-equipment/readEquipment?endsz=49/911/1100/42ZB"
+    "url": "/resource-order-resource-inventory/psl/v1/read-equipment/readEquipment"
   },
   "response": {
     "status": 202,
@@ -36,23 +37,23 @@
         "responseData": {
           "header": {
             "partner": "BS_DIGIOSS",
-            "anfoKen": "15682947194733752345"
+            "anfoKen": "{{jsonPath request.body '$.requestData.header.anfoKen'}}"
           },
           "status": {
-            "type": null,
-            "id": 1000,
-            "number": "001",
-            "message": "An error occurred!",
-            "logNo": null,
-            "logMsgNo": null,
-            "messageV1": null,
+            "type": "I",
+            "id": "ZDIB",
+            "number": "908",
+            "message": "Es wurden keine Equipments selektiert",
+            "logNo": "0000000000",
+            "logMsgNo": "000908",
+            "messageV1": "Es wurden keine Equipments selektiert",
             "messageV2": null,
             "messageV3": null,
             "messageV4": null,
             "parameter": null,
             "row": null,
             "field": null,
-            "system": null
+            "system": "Linux"
           }
         }
       }

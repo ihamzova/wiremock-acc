@@ -2,7 +2,7 @@
   "priority": 10,
   "request": {
     "method": "GET",
-    "urlPattern": "/resource-order-resource-inventory/v1/ancp-status-test/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_]*)"
+    "urlPattern": "/resource-order-resource-inventory/v1/ancp-status-test/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_-]*)"
   },
   "response": {
     "status": 202,

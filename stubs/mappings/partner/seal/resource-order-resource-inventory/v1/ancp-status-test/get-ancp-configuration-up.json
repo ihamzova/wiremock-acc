@@ -1,4 +1,5 @@
 {
+  "priority": 10,
   "request": {
     "method": "GET",
     "urlPattern": "/resource-order-resource-inventory/v1/ancp-status-test/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_]*)"
@@ -18,12 +19,14 @@
       },
       "method": "POST",
       "jsonBody": {
-        "adminState": "unlocked",
-        "operState": "up",
-        "vlanId": null,
-        "ancpInterfaceId": null,
-        "ancpPartitionId": null,
-        "ancpInterfaceControllerNodeIp": null
+        "payload": {
+          "adminState": "unlocked",
+          "operState": "up",
+          "vlanId": 16,
+          "ancpInterfaceId": 1,
+          "ancpPartitionId": 2,
+          "ancpInterfaceControllerNodeIp": "10.30.120.2"
+        }
       }
     }
   }

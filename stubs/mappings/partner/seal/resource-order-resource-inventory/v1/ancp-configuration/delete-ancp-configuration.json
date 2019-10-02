@@ -17,7 +17,9 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
-      "body": ""
+      "jsonBody": {
+        "body": {}
+      }
     }
   }
 }

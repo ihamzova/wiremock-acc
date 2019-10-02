@@ -1,6 +1,6 @@
 {
   "request": {
-    "method": "POST",
+    "method": "ANY",
     "urlPathPattern": "/api/wgAccessProvisioning/v1/deprovisioning/device/"
   },
   "response": {
@@ -9,5 +9,20 @@
       "Content-Type": "application/json"
     },
     "bodyFileName": "rori/wgAccessProvisioning/v1/deprovisioning.json"
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "body": {
+          "success": true
+        }
+      }
+    }
   }
 }

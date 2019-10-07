@@ -6,7 +6,8 @@
   "response": {
     "status": 200,
     "headers": {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin" : "*"
     },
     "bodyFileName": "rori/wgAccessProvisioning/v1/provisioning.json"
   },

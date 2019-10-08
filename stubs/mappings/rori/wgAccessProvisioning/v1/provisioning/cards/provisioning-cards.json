@@ -8,7 +8,7 @@
     "headers": {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Request-Headers": "{{request.headers.Access-Control-Request-Headers}}"
+      "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
     },
     "bodyFileName": "rori/wgAccessProvisioning/v1/provisioning.json"
   },

@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "DELETE",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments/"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments/(\\d*)"
   },
   "response": {
     "status": 200,
@@ -9,6 +9,7 @@
       "Content-Type": "application/json"
     },
     "jsonBody": {
+      "body": {}
     }
   }
 }

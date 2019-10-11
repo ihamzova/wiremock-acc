@@ -22,6 +22,7 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "eventType": "500",
         "event": {

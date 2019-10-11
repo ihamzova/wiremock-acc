@@ -24,6 +24,7 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "messageContext": {
           "target": "SI_ReadEquipmentResponseV2In_DIGIOSS",

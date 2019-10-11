@@ -17,6 +17,7 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "payload": {
           "managedElement": {

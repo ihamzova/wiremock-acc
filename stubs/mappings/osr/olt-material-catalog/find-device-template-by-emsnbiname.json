@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/([\\w\\d]*)"
+    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/.*"
   },
   "response": {
     "status": 200,

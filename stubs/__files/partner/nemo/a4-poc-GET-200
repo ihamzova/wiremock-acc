@@ -1,0 +1,77 @@
+{
+  "@baseType": "BerliniumTestDataMock",
+  "@referredType": "string",
+  "@schemaLocation": "string",
+  "@type": "string",
+  "category": "string",
+  "characteristic": [
+    {
+      "@schemaLocation": "string",
+      "@type": "string",
+      "name": "string",
+      "value": "string"
+    }
+  ],
+  "description": "string",
+  "endDate": "2019-10-16T12:31:08.638Z",
+  "href": "string",
+  "id": "string",
+  "lifecycleState": "string",
+  "name": "string",
+  "note": [
+    {
+      "@type": "string",
+      "author": "string",
+      "date": "2019-10-16T12:31:08.638Z",
+      "text": "string"
+    }
+  ],
+  "partyRole": [
+    {
+      "@referredType": "string",
+      "href": "string",
+      "id": "string",
+      "name": "string",
+      "partyId": "string",
+      "partyName": "string"
+    }
+  ],
+  "place": {
+    "@type": "string",
+    "href": "string",
+    "id": "string",
+    "name": "string",
+    "role": "string"
+  },
+  "relatedParty": [
+    {
+      "@referredType": "string",
+      "href": "string",
+      "id": "string",
+      "name": "string",
+      "role": "string"
+    }
+  ],
+  "resourceRelationship": [
+    {
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "resourceRef": {
+        "@referredType": "string",
+        "href": "string",
+        "id": "string"
+      },
+      "type": "string"
+    }
+  ],
+  "resourceSpecification": {
+    "@referredType": "string",
+    "href": "string",
+    "id": "string",
+    "name": "string",
+    "version": "string"
+  },
+  "startDate": "2019-10-16T12:31:08.638Z",
+  "value": "string",
+  "version": "string"
+      }

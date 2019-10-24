@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/ibt/reqcb/giga-installation-order/v2/customerInstallationOrders/creationRequest"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "bodyFileName": "ibt/valid-customer-installation-oder-id.json",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

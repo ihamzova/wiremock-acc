@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_]*)"
+    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)$"
   },
   "response": {
     "status": 202,
@@ -17,14 +17,7 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
-      "jsonBody": {
-        "adminState": "unlocked",
-        "operState": "up",
-        "vlanId": null,
-        "ancpInterfaceId": null,
-        "ancpPartitionId": null,
-        "ancpInterfaceControllerNodeIp": null
-      }
+      "bodyFileName": "partner/seal/Inventory_{{request.requestLine.pathSegments.[3]}}.json"
     }
   }
 }

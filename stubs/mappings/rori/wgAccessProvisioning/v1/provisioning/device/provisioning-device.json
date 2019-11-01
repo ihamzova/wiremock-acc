@@ -1,13 +1,13 @@
 {
   "request": {
     "method": "ANY",
-    "urlPathPattern": "/api/wgAccessProvisioning/v1/provisioning/device/"
+    "urlPathPattern": "/api/wgAccessProvisioning/v1/provisioning/device"
   },
   "response": {
     "status": 200,
     "headers": {
       "Content-Type": "application/json",
-      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
     },
     "bodyFileName": "rori/wgAccessProvisioning/v1/provisioning.json"
@@ -22,9 +22,7 @@
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
       "jsonBody": {
-        "body": {
-          "success": true
-        }
+        "success": true
       }
     }
   }

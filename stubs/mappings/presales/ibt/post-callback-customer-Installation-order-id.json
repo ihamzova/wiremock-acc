@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "url": "/ibt/reqcb/giga-installation-order/v2/customerInstallationOrders/creationRequest"
+    "url": "/reqcb/giga-installation-order/v4/customerInstallationOrders/creationRequest"
   },
   "response": {
     "headers": {
@@ -15,6 +15,7 @@
       "bodyFileName": "ibt/valid-customer-installation-oder-id.json",
       "method": "POST",
       "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"
       }
     }

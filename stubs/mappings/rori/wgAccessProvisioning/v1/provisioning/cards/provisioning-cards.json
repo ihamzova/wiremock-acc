@@ -22,9 +22,7 @@
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
       "jsonBody": {
-        "body": {
-          "success": true
-        }
+        "success": true
       }
     }
   }

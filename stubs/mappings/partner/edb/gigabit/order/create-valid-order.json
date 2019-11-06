@@ -26,7 +26,7 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "edbAuftragId": "edb-auftrag-ref-id-123"
+          "edbOrderId": "edb-auftrag-ref-id-123"
         },
         "errorPayload": {
           "code": null,

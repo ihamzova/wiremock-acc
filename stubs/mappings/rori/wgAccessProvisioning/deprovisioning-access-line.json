@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/wgAccessProvisioning/v1/deprovisioning/accessLine"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "source": "wg-access-provisioning"
+      }
+    ]
+  }
+}

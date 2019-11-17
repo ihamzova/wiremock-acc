@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "DELETE",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/accessLines/([\\w\\d\\-]*)"
+    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/accessLines/([\\w\\d\\-]*)/?"
   },
   "response": {
     "status": 202,

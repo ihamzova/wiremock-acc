@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)$"
+    "urlPattern": "/resource-order-resource-inventory/v1/inventory-retrieval/.*"
   },
   "response": {
     "status": 202,
@@ -17,6 +17,7 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "bodyFileName": "partner/seal/Inventory_{{request.requestLine.pathSegments.[3]}}.json"
     }
   }

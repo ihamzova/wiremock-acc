@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/maintenance/v1/ontSingleAvailabilityCheck"
+    "urlPattern": "/maintenance/v1/ontSingleAvailabilityCheck/?"
   },
   "response": {
     "status": 202,

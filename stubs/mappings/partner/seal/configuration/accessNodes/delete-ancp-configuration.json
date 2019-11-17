@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "DELETE",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/ancpConfigurations"
+    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/ancpConfigurations/?"
   },
   "response": {
     "status": 202,

@@ -8,17 +8,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "jsonBody": {
-      "id": 1341434323,
-      "@type": "IpRangeAssignment",
-      "href": "http://server:port/resourceInventory/v1/ipRangeAssignments/1341434323",
-      "ipRangePool": "ancp_olt",
-      "parentInterface": {
-        "endSz": "49/911/84/7ZJA",
-        "port": "ge_4/0/2"
-      },
-      "ipAddress": "10.150.240.100",
-      "prefixLength": 30
-    }
+    "bodyFileName": "partner/rmk_at/create-ip-range-assignment-correct.json"
   }
 }

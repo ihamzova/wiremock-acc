@@ -1,50 +1,28 @@
 {
-  "request": {
-    "method": "POST",
-    "urlPattern": "/resourceInventory/v1/ancpEndpoints"
-  },
-  "response": {
-    "status": 202,
-    "headers": {
-      "Content-Type": "application/json"
-    }
-  },
-  "postServeActions": {
-    "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
-      "headers": {
-        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
-        "Content-Type": "application/json"
+  "eventType": "AncpEndpointCreationNotification",
+  "event": {
+    "ancpEndpoint": {
+      "id": {{now format='unix'}},
+      "href": "http://{{hostname}}/resourceInventory/v1/resources/{{now format='unix'}}",
+      "@type": "AncpEndpoint",
+      "bngAncpIpAddress": "{{jsonPath request.body '$.bngAncpIpAddress'}}",
+      "partnerType": "AccessNode",
+      "partnerAncpIpAddress": "{{jsonPath request.body '$.partnerAncpIpAddress'}}",
+      "vlanID": {{jsonPath request.body '$.vlanID'}},
+      "linkDetails": {
+        "lsz": "{{jsonPath request.body '$.linkDetails.lsz'}}",
+        "lszErg": "{{jsonPath request.body '$.linkDetails.lszErg'}}",
+        "endSz_partner": "{{jsonPath request.body '$.linkDetails.endSz_partner'}}",
+        "endSz_bng": "{{jsonPath request.body '$.linkDetails.endSz_bng'}}",
+        "ordnungsnummer": {{jsonPath request.body '$.linkDetails.ordnungsnummer'}},
+        "bandwidth": "{{jsonPath request.body '$.linkDetails.bandwidth'}}"
       },
-      "method": "POST",
-      "jsonBody": {
-        "eventType": "AncpEndpointCreationNotification",
-        "event": {
-          "ancpEndpoint": {
-            "id": {{now format='unix'}},
-            "href": "http://{{hostname}}/resourceInventory/v1/resources/{{now format='unix'}}",
-            "@type": "AncpEndpoint",
-            "bngAncpIpAddress": "{{jsonPath request.body '$.bngAncpIpAddress'}}",
-            "partnerType": "AccessNode",
-            "partnerAncpIpAddress": "{{jsonPath request.body '$.partnerAncpIpAddress'}}",
-            "vlanID": {{jsonPath request.body '$.vlanID'}},
-            "linkDetails": {
-              "lsz": "{{jsonPath request.body '$.linkDetails.lsz'}}",
-              "lszErg": "{{jsonPath request.body '$.linkDetails.lszErg'}}",
-              "endSz_partner": "{{jsonPath request.body '$.linkDetails.endSz_partner'}}",
-              "endSz_bng": "{{jsonPath request.body '$.linkDetails.endSz_bng'}}",
-              "ordnungsnummer": {{jsonPath request.body '$.linkDetails.ordnungsnummer'}},
-              "bandwidth": "{{jsonPath request.body '$.linkDetails.bandwidth'}}"
-            },
-            "partnerDetails": {
-              "anManagementAddress": "{{jsonPath request.body '$.partnerDetails.anManagementAddress'}}"
-            },
-            "parentInterface": {
-              "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
-              "port": "{{jsonPath request.body '$.parentInterface.port'}}"
-            }
-          }
-        }
+      "partnerDetails": {
+        "anManagementAddress": "{{jsonPath request.body '$.partnerDetails.anManagementAddress'}}"
+      },
+      "parentInterface": {
+        "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
+        "port": "{{jsonPath request.body '$.parentInterface.port'}}"
       }
     }
   }

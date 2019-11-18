@@ -25,7 +25,7 @@
                 <suchenKundeReply>
                     <Suchergebnis>
                         <Kunde>
-                            <bom:Kundennummer>2110006501</bom:Kundennummer>
+                            <bom:Kundennummer>9876543210</bom:Kundennummer>
                             <Kundensegment>
                                 <bom:Kundensegment_OID>9</bom:Kundensegment_OID>
                             </Kundensegment>
@@ -34,8 +34,8 @@
                                 <Anrede>
                                     <Anrede_OID>2</Anrede_OID>
                                 </Anrede>
-                                <bom:Name>Karla</bom:Name>
-                                <bom:Vorname>Kunde</bom:Vorname>
+                                <bom:Name>Kunde</bom:Name>
+                                <bom:Vorname>Karla</bom:Vorname>
                                 <bom:Geburtsdatum>1985-01-01</bom:Geburtsdatum>
                             </Person>
                             <Rechtsform>
@@ -43,12 +43,12 @@
                             </Rechtsform>
                             <Geschaeftspartneradresse>
                                 <Adresse>
-                                    <bom:Adress-ID>Ditzingen</bom:Adress-ID>
+                                    <bom:Adress-ID>12376994</bom:Adress-ID>
                                     <Strasze>
-                                        <crmt:Straszenname>Mozartstrasse.</crmt:Straszenname>
+                                        <crmt:Straszenname>Wiesenäckerstr.</crmt:Straszenname>
                                     </Strasze>
                                     <Grundstueck>
-                                        <bom:Hausnummer>3</bom:Hausnummer>
+                                        <bom:Hausnummer>13</bom:Hausnummer>
                                     </Grundstueck>
                                     <Postcode>
                                         <bom:Postleitzahl>71254</bom:Postleitzahl>
@@ -66,7 +66,7 @@
                                 <NichtBOMElemente>
                                     <CRM-T>
                                         <crmt:AnsprechpartnerID>1-1D0-268</crmt:AnsprechpartnerID>
-                                        <crmt:AdressID>22114447</crmt:AdressID>
+                                        <crmt:AdressID>12376994</crmt:AdressID>
                                     </CRM-T>
                                 </NichtBOMElemente>
                             </Geschaeftspartneradresse>

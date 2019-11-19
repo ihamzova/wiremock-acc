@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/access-line-configuration/([\\w\\d\\_]*)/accessLines/PON(.*)"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "payload": {
+          "accessLineId": "{{jsonPath request.body '$.accessType'}}{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.slot'}}-{{jsonPath request.body '$.port'}}-{{jsonPath request.body '$.ontId'}}-{{jsonPath request.body '$.vlanId'}}"
+        }
+      }
+    }
+  }
+}

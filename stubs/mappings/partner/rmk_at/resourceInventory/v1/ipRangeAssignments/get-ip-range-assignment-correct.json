@@ -3,6 +3,7 @@
     "method": "GET",
     "urlPattern": "/resourceInventory/v1/ipRangeAssignments/(\\d*)"
   },
+  "priority": 10,
   "response": {
     "status": 200,
     "headers": {

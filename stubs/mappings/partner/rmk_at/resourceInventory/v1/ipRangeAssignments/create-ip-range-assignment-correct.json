@@ -9,5 +9,15 @@
       "Content-Type": "application/json"
     },
     "bodyFileName": "partner/rmk_at/create-ip-range-assignment-correct.json"
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "http://localhost:8080/__admin/mappings",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "bodyFileName": "partner/rmk_at/create-ip-range-assignment-correct-postserve.json"
+    }
   }
 }

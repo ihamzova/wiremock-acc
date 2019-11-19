@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/access-line-configuration/([\\w\\d\\_]*)/accessLines/PON(.*)"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/access-line-configuration/([\\w\\d\\_]*)/accessLines"
   },
   "response": {
     "status": 202,

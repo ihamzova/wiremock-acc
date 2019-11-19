@@ -18,7 +18,10 @@
       },
       "method": "POST",
       "jsonBody": {
-        "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+        "error": null,
+        "payload": {
+          "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+        }
       }
     }
   }

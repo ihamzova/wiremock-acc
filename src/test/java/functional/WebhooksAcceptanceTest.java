@@ -3,6 +3,7 @@ package functional;
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import com.tsystems.tm.acc.Webhooks;
+import com.tsystems.tm.acc.WebhooksArray;
 import org.apache.http.entity.StringEntity;
 import org.junit.Before;
 import org.junit.Rule;
@@ -20,6 +21,7 @@ import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import static com.github.tomakehurst.wiremock.http.RequestMethod.GET;
 import static com.github.tomakehurst.wiremock.http.RequestMethod.POST;
 import static com.tsystems.tm.acc.Webhooks.webhook;
+import static com.tsystems.tm.acc.WebhooksArray.webhooks;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.apache.http.entity.ContentType.TEXT_PLAIN;
 import static org.hamcrest.Matchers.*;
@@ -32,13 +34,14 @@ public class WebhooksAcceptanceTest {
 
     CountDownLatch latch;
     Webhooks webhooks = new Webhooks();
+    WebhooksArray webhooksArray = new WebhooksArray();
     TestNotifier notifier = new TestNotifier();
     @Rule
     public WireMockRule rule = new WireMockRule(
             options()
                     .dynamicPort()
                     .notifier(notifier)
-                    .extensions(webhooks));
+                    .extensions(webhooks, webhooksArray));
     WireMockTestClient client;
 
     @Before
@@ -134,6 +137,30 @@ public class WebhooksAcceptanceTest {
                 containsString("/callback returned status"),
                 containsString("200")
         )));
+    }
+
+    @Test
+    public void firesMultipleWebhooks() throws Exception {
+        rule.stubFor(post(urlPathEqualTo("/something-async"))
+                .willReturn(aResponse().withStatus(200))
+                .withPostServeAction("webhooks", webhooks()
+                        .addWebhook(webhook()
+                                .withMethod(GET)
+                                .withUrl("http://localhost:" + targetServer.port() + "/callback1"))
+                        .addWebhook(webhook()
+                                .withMethod(GET)
+                                .withUrl("http://localhost:" + targetServer.port() + "/callback2"))
+                )
+        );
+
+        verify(0, postRequestedFor(anyUrl()));
+
+        client.post("/something-async", new StringEntity("", TEXT_PLAIN));
+
+        waitForRequestToTargetServer();
+
+        verify(1, getRequestedFor(urlEqualTo("/callback1")));
+        verify(1, getRequestedFor(urlEqualTo("/callback2")));
     }
 
     private void waitForRequestToTargetServer() throws Exception {

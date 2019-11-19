@@ -38,9 +38,9 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 public class Webhooks extends PostServeAction {
     public static final String NAME = "webhook";
-    private final ScheduledExecutorService scheduler;
-    private final HttpClient httpClient;
-    private final Handlebars handlebars;
+    protected final ScheduledExecutorService scheduler;
+    protected final HttpClient httpClient;
+    protected final Handlebars handlebars;
 
     public Webhooks() {
         scheduler = Executors.newScheduledThreadPool(10);
@@ -52,7 +52,7 @@ public class Webhooks extends PostServeAction {
         }
     }
 
-    private static HttpUriRequest buildRequest(WebhookDefinition definition) {
+    protected static HttpUriRequest buildRequest(WebhookDefinition definition) {
         HttpUriRequest request = getHttpRequestFor(
                 definition.getMethod(),
                 definition.getUrl()
@@ -81,6 +81,10 @@ public class Webhooks extends PostServeAction {
     @Override
     public void doAction(ServeEvent serveEvent, Admin admin, Parameters parameters) {
         final WebhookDefinition definition = parameters.as(WebhookDefinition.class);
+        doActionInternal(definition, serveEvent, admin, parameters);
+    }
+
+    protected void doActionInternal(WebhookDefinition definition, ServeEvent serveEvent, Admin admin, Parameters parameters) {
         final WebhookDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
         final Notifier notifier = notifier();
 
@@ -108,7 +112,7 @@ public class Webhooks extends PostServeAction {
         );
     }
 
-    private WebhookDefinition transform(ServeEvent serveEvent, WebhookDefinition definition, Parameters parameters, Options options) {
+    protected WebhookDefinition transform(ServeEvent serveEvent, WebhookDefinition definition, Parameters parameters, Options options) {
         final FileSource files = options.filesRoot().child(FILES_ROOT);
         final ImmutableMap<String, Object> model = ImmutableMap.<String, Object>builder()
                 .put("parameters", firstNonNull(parameters, Collections.<String, Object>emptyMap()))
@@ -148,7 +152,7 @@ public class Webhooks extends PostServeAction {
         return definition;
     }
 
-    private String uncheckedApplyTemplate(Template template, Object context) {
+    protected String uncheckedApplyTemplate(Template template, Object context) {
         try {
             return template.apply(context);
         } catch (IOException e) {
@@ -156,7 +160,7 @@ public class Webhooks extends PostServeAction {
         }
     }
 
-    private Template uncheckedCompileTemplate(String content) {
+    protected Template uncheckedCompileTemplate(String content) {
         try {
             return handlebars.compileInline(content);
         } catch (IOException e) {

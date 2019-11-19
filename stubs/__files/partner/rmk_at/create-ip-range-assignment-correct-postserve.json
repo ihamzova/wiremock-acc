@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/resourceInventory/v1/ipRangeAssignments/{{now format='unix'}}"
+  },
+  "priority": 5,
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": {{now format='unix'}},
+      "@type": "IpRangeAssignment",
+      "href": "http://{{hostname}}/resourceInventory/v1/ipRangeAssignments/{{now format='unix'}}",
+      "ipRangePool": "{{jsonPath request.body '$.ipRangePool'}}",
+      "parentInterface": {
+      "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
+      "port": "{{jsonPath request.body '$.parentInterface.port'}}"
+      },
+      "ipAddress": "10.150.240.100",
+      "prefixLength": 30
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "scenarioName": "ONT test retry",
-  "requiredScenarioState": "Next",
-  "newScenarioState": "Started",
+  "requiredScenarioState": "Started",
+  "newScenarioState": "Next",
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ont-connectivity-test/"
+    "urlPattern": "/maintenance/v1/ontSingleAvailabilityCheck/?"
   },
   "response": {
     "status": 202,
@@ -22,7 +22,7 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "actualRunState": "Online"
+          "actualRunState": "Offline"
         }
       }
     }

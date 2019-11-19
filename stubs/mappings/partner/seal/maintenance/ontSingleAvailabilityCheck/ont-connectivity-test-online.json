@@ -1,4 +1,7 @@
 {
+  "scenarioName": "ONT test retry",
+  "requiredScenarioState": "Next",
+  "newScenarioState": "Started",
   "request": {
     "method": "POST",
     "urlPattern": "/maintenance/v1/ontSingleAvailabilityCheck/?"

@@ -1,0 +1,169 @@
+{
+  "error": null,
+  "payload": {
+    "managedElement": {
+      "name": "49_8571_123_76H1",
+      "ipAddress": "10.182.123.196",
+      "productName": "MA5600T",
+      "manufacturer": "HUAWEI",
+      "softwareVersion": "MA5600V800R016C00",
+      "resourceState": "WORKING",
+      "communicationState": "CS_AVAILABLE"
+    },
+    "modules": [
+      {
+        "slot": "0",
+        "installedEquipmentObjectType": "H805GPBD",
+        "installedSerialNumber": "021BQW10B6123000",
+        "manufacturer": "HUAWEI",
+        "installedVersion": "507(2015-8-27)",
+        "resourceState": "INSTALLING_INSTALLED",
+        "resourceFulfillmentState": "IN_SERVICE",
+        "shelf": "0"
+      },
+      {
+        "slot": "1",
+        "installedEquipmentObjectType": "H805GPBD",
+        "installedSerialNumber": "021BQW10B6123001",
+        "manufacturer": "HUAWEI",
+        "installedVersion": "507(2015-8-27)",
+        "resourceState": "INSTALLING_INSTALLED",
+        "resourceFulfillmentState": "IN_SERVICE",
+        "shelf": "0"
+      }
+    ],
+    "ports": [
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "0"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "1"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "2"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "3"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "4"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "5"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "6"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "0",
+        "port": "7"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "0"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "1"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "2"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "3"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "4"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "5"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "6"
+      },
+      {
+        "portType": "PON",
+        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n                                ",
+        "installedMatNumberSFP": "OpticUserEeprom:",
+        "shelf": "0",
+        "slot": "1",
+        "port": "7"
+      }
+    ],
+    "connections": null,
+    "onts": null,
+    "ancpConfigurations": null
+  }
+}

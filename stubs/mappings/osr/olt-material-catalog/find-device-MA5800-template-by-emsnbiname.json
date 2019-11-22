@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/MA5800T"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "osr/olt-material-catalog/find-device-MA5800-template-by-emsnbiname.json"
+  }
+}

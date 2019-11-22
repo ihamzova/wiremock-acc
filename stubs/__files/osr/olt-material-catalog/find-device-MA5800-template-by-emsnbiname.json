@@ -1,0 +1,605 @@
+{
+  "name": "ETSI Service Shelf H8-MABC",
+  "materialNumber": "40247069",
+  "shortName": "MABC VB",
+  "manufacturer": "HUAWEI",
+  "emsNbiName": "{{request.requestLine.pathSegments.[5]}}",
+  "tkz": "02351082",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+  "id": 1000,
+  "deviceType": {
+    "id": 1000,
+    "type": "OLT",
+    "deviceAttributes": []
+  },
+  "preprovisioningStrategy": "32_on-demand",
+  "equipmentHolderProfile": {
+    "id": 1000,
+    "name": "Slot",
+    "equipmentHolderProfileTemplates": [
+      {
+        "id": 1000,
+        "description": "ETSI Service Shelf H8-MABC",
+        "name": "MA5600T",
+        "cardProfiles": [
+          {
+            "name": "Power Transfer Board H8-PRTE",
+            "materialNumber": "40247072",
+            "shortName": "H8-PRTE",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H801PRTE",
+            "tkz": "03020NDE",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247072",
+            "id": 1000,
+            "portNumber": 0,
+            "cardType": {
+              "id": 1000,
+              "type": "SUPPORT_MODULE"
+            },
+            "cardProfileTemplates": [],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "Super Control Unit Board SCUN",
+            "materialNumber": "40247071",
+            "shortName": "SCUN",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H801SCUN",
+            "tkz": "03020KAX",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247071",
+            "id": 1001,
+            "portNumber": 4,
+            "cardType": {
+              "id": 1001,
+              "type": "MANAGEMENT_CARD"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1000,
+                "name": "H801SCUN",
+                "description": "Super Control Unit Board SCUN",
+                "portProfile": {
+                  "id": 1000,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1001,
+                "name": "H801SCUN",
+                "description": "Super Control Unit Board SCUN",
+                "portProfile": {
+                  "id": 1001,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1002,
+                "name": "H801SCUN",
+                "description": "Super Control Unit Board SCUN",
+                "portProfile": {
+                  "id": 1002,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 3,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1003,
+                "name": "H801SCUN",
+                "description": "Super Control Unit Board SCUN",
+                "portProfile": {
+                  "id": 1003,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 4,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "Super Control Unit Board SCUK",
+            "materialNumber": "40294952",
+            "shortName": "SCUK",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H801SCUK",
+            "tkz": "03021YPA",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294952",
+            "id": 1002,
+            "portNumber": 4,
+            "cardType": {
+              "id": 1001,
+              "type": "MANAGEMENT_CARD"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1004,
+                "name": "H801SCUK",
+                "description": "Super Control Unit Board SCUK",
+                "portProfile": {
+                  "id": 1004,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1005,
+                "name": "H801SCUK",
+                "description": "Super Control Unit Board SCUK",
+                "portProfile": {
+                  "id": 1005,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1006,
+                "name": "H801SCUK",
+                "description": "Super Control Unit Board SCUK",
+                "portProfile": {
+                  "id": 1006,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 3,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1007,
+                "name": "H801SCUK",
+                "description": "Super Control Unit Board SCUK",
+                "portProfile": {
+                  "id": 1007,
+                  "portType": "1GE (SFP)",
+                  "orderNumber": 4,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "10GE SFP+ Optical Interface Unit Board",
+            "materialNumber": "40247074",
+            "shortName": "X2CS",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H801X2CS",
+            "tkz": "03020KKP",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+            "id": 1003,
+            "portNumber": 2,
+            "cardType": {
+              "id": 1002,
+              "type": "UPLINK_CARD"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1008,
+                "name": "H801X2CS",
+                "description": "10GE SFP+ Optical Interface Unit Board",
+                "portProfile": {
+                  "id": 1008,
+                  "portType": "10GE SFP+",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1009,
+                "name": "H801X2CS",
+                "description": "10GE SFP+ Optical Interface Unit Board",
+                "portProfile": {
+                  "id": 1009,
+                  "portType": "10GE SFP+",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "10GE SFP+ Optical Interface Unit Board",
+            "materialNumber": "40804319",
+            "shortName": "X2CS",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H802X2CS",
+            "tkz": "03024GDX",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40804319",
+            "id": 1004,
+            "portNumber": 2,
+            "cardType": {
+              "id": 1002,
+              "type": "UPLINK_CARD"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1010,
+                "name": "H802X2CS",
+                "description": "10GE SFP+ Optical Interface Unit Board",
+                "portProfile": {
+                  "id": 1010,
+                  "portType": "10GE SFP+",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1011,
+                "name": "H802X2CS",
+                "description": "10GE SFP+ Optical Interface Unit Board",
+                "portProfile": {
+                  "id": 1011,
+                  "portType": "10GE SFP+",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "8-port GPON R1.7 OLT Interface Board",
+            "materialNumber": "40251139",
+            "shortName": "GPPD",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H802GPBD",
+            "tkz": "03020PFN",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40251139",
+            "id": 1005,
+            "portNumber": 8,
+            "cardType": {
+              "id": 1003,
+              "type": "GPON"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1012,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1012,
+                  "portType": "GPON",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1013,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1013,
+                  "portType": "GPON",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1014,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1014,
+                  "portType": "GPON",
+                  "orderNumber": 3,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1015,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1015,
+                  "portType": "GPON",
+                  "orderNumber": 4,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1016,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1016,
+                  "portType": "GPON",
+                  "orderNumber": 5,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1017,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1017,
+                  "portType": "GPON",
+                  "orderNumber": 6,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1018,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1018,
+                  "portType": "GPON",
+                  "orderNumber": 7,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1019,
+                "name": "H802GPBD",
+                "description": "8-port GPON R1.7 OLT Interface Board",
+                "portProfile": {
+                  "id": 1019,
+                  "portType": "GPON",
+                  "orderNumber": 8,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "8-port GPON OLT Interface Board V2",
+            "materialNumber": "40261742",
+            "shortName": "GPPD",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H805GPBD",
+            "tkz": "03021BQW",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+            "id": 1006,
+            "portNumber": 8,
+            "cardType": {
+              "id": 1003,
+              "type": "GPON"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1020,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1020,
+                  "portType": "GPON",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1021,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1021,
+                  "portType": "GPON",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1022,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1022,
+                  "portType": "GPON",
+                  "orderNumber": 3,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1023,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1023,
+                  "portType": "GPON",
+                  "orderNumber": 4,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1024,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1024,
+                  "portType": "GPON",
+                  "orderNumber": 5,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1025,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1025,
+                  "portType": "GPON",
+                  "orderNumber": 6,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1026,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1026,
+                  "portType": "GPON",
+                  "orderNumber": 7,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1027,
+                "name": "H805GPBD",
+                "description": "8-port GPON OLT Interface Board V2",
+                "portProfile": {
+                  "id": 1027,
+                  "portType": "GPON",
+                  "orderNumber": 8,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          },
+          {
+            "name": "8-port GPON OLT Interface Board V3",
+            "materialNumber": "40294954",
+            "shortName": "GPBH",
+            "manufacturer": "HUAWEI",
+            "emsNbiName": "H807GPBH",
+            "tkz": "03022MLN",
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+            "id": 1007,
+            "portNumber": 8,
+            "cardType": {
+              "id": 1003,
+              "type": "GPON"
+            },
+            "cardProfileTemplates": [
+              {
+                "id": 1028,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1028,
+                  "portType": "GPON",
+                  "orderNumber": 1,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1029,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1029,
+                  "portType": "GPON",
+                  "orderNumber": 2,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1030,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1030,
+                  "portType": "GPON",
+                  "orderNumber": 3,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1031,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1031,
+                  "portType": "GPON",
+                  "orderNumber": 4,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1032,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1032,
+                  "portType": "GPON",
+                  "orderNumber": 5,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1033,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1033,
+                  "portType": "GPON",
+                  "orderNumber": 6,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1034,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1034,
+                  "portType": "GPON",
+                  "orderNumber": 7,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              },
+              {
+                "id": 1035,
+                "name": "H807GPBH",
+                "description": "8-port GPON OLT Interface Board V3",
+                "portProfile": {
+                  "id": 1035,
+                  "portType": "GPON",
+                  "orderNumber": 8,
+                  "opticalModuleProfile": null
+                },
+                "portAttributes": []
+              }
+            ],
+            "cardProfileAttributes": []
+          }
+        ]
+      }
+    ],
+    "equipmentHolderProfileAttributes": []
+  }
+}

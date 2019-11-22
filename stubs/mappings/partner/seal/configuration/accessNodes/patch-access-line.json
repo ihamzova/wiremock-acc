@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "PATCH",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/accessLines/PON(.*)/?"
+    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/accessLines/(.*)/?"
   },
   "response": {
     "status": 202,

@@ -1,0 +1,33 @@
+[
+  {
+    "id": 10012,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "IT Business Support der DT",
+    "nameType": "BusinessSupport",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10001,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Telekom Deutschland GmbH",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "DTAG"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

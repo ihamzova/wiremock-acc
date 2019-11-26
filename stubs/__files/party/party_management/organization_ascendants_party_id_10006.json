@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10006,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "Leonard Weiss fuer JV",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10000,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Glasfaser-Nordwest",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "GFNW"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

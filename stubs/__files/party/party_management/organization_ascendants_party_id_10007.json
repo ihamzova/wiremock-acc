@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10007,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Produktion Quality Controller JV",
+    "nameType": "Department",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10000,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Glasfaser-Nordwest",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "GFNW"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

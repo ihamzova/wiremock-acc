@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/partyManagement/v2/organizations/(-?\\d*)\\?loadLocations=false"
+    "urlPattern": "/api/partyManagement/v2/organizations/(-?\\d*)($|\\?loadLocations=false)"
   },
   "response": {
     "status": 404,

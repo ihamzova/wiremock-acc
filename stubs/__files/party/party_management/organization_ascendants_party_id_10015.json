@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10015,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "externe IT Systeme TD",
+    "nameType": "System",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10001,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Telekom Deutschland GmbH",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "DTAG"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

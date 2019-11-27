@@ -1,0 +1,33 @@
+[
+  {
+    "id": 10003,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "EWE NETZ",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10000,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Glasfaser-Nordwest",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "GFNW"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

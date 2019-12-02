@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+     "urlPattern": "/service-order-service-inventory/v1/sp-api/cplAttachment/*",
+	"bodyPatterns" : [ {
+      "matchesJsonPath" : "$.[?(@.lineIdFtth=='DEU.DTAG.GX12000000')]"
+    } ]
+
+  },
+ "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["response-template"],
+	 "jsonBody": {
+		"title": "Internal error",
+		"status": 668, 
+		"detail": "Generic error during request processing"
+	}
+  }
+
+}
+
+

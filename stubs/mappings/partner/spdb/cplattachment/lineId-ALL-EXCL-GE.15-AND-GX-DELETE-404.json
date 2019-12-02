@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/service-order-service-inventory/v1/sp-api/cplAttachment/((?!DEU.DTAG.GE15000000|DEU.DTAG.GX[0-9]+).)*"
+  },
+ "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["response-template"],
+	 "jsonBody": {
+	 
+		"title": "CPL attachment not found",
+		"status": 123, 
+		"detail": "CPL attachment for line id {{request.path.[4]}} was not found"
+	  }
+    
+    
+  }
+
+}
+
+

@@ -11,7 +11,7 @@
   },
   "postServeActions": {
     "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
+      "url": "{{request.headers.X-Callback-Error-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"

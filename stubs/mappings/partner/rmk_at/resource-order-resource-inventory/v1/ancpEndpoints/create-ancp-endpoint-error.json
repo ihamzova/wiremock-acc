@@ -1,10 +1,13 @@
 {
+  "priority": 1,
   "request": {
     "method": "POST",
     "urlPathPattern": "/resource-order-resource-inventory/v1/ancpEndpoints",
-    "bodyPatterns": [
-      {
-        "matches": "49/911/84/7ZJQ"
+    "bodyPatterns": [ {
+        "matchesJsonPath": {
+          "expression": "$.parentInterface.endSz",
+          "contains":  "49/911/84/7ZJQ"
+        }
       }
     ]
   },
@@ -16,7 +19,7 @@
   },
   "postServeActions": {
     "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
+      "url": "{{request.headers.X-Callback-Error-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"

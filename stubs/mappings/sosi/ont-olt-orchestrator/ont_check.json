@@ -1,0 +1,15 @@
+{
+  "request" : {
+    "urlPathPattern" : "((/reqcb)?)/resource-order-resource-inventory/v1/commissioning/ont/1111111111111111/state",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "ontState" : "ONLINE"
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

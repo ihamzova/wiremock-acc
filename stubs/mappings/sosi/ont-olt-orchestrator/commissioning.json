@@ -1,0 +1,33 @@
+{
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "success": "true",
+        "response": "DEU.DTAG.GE11000000"
+      }
+    }
+  },
+  "request": {
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "ontSerialNumber": "1111111111111111",
+          "homeId": "A123450"
+        },
+        "ignoreExtraElements": true,
+        "ignoreArrayOrder": true
+      }
+    ],
+    "method": "POST",
+    "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v1/commissioning/ont/"
+  },
+  "response": {
+    "status": 202
+  }
+}

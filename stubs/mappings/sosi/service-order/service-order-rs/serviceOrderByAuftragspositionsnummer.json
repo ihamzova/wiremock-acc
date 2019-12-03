@@ -1,0 +1,41 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/service-order-rs/OntAuthenticationServiceOrder?orderState=inProgress&orderIdentifier.Auftragspositionsnummer=100000000000001"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [{
+      "orderState": "inProgress",
+      "orderIdentifier": {
+        "ServiceOrderId": "15649",
+        "Auftragsnummer": "80052382402",
+        "Auftragspositionsnummer": "100000000000001",
+        "Einzelvertragsnummer": null
+      },
+      "ontAuthenticationService": {
+        "OntTan": "453f0d01-28a1-4e41-9169-216f9deb8ce0",
+        "OntTanLink": "https://ont-registration-page/registration?tan=453f0d01-28a1-4e41-9169-216f9deb8ce0",
+        "OntTanLinkStatus": "initial",
+        "OntSerialNumber": null,
+        "HomeID": null,
+        "LineId": null,
+        "@type": null,
+        "@basetype": null
+      },
+      "customerContact": {
+        "CustomerNumber": "1111111101",
+        "CustomerName": "Kunde",
+        "CustomerFirstName": null,
+        "CustomerTitle": "Dr.",
+        "CustomerSalutation": "Frau",
+        "CustomerVbkz": "27",
+        "EmailAddress": null,
+        "MobileNumber": null
+      }
+    }]
+  }
+}

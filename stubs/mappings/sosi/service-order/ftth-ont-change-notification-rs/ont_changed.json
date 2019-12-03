@@ -1,0 +1,14 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$..[?(@.OntSerialNumberNew=='2222222222222222')]"
+      }
+    ],
+    "method": "POST",
+    "urlPathPattern": "/ftth-ont-change-notification-rs/OntChangedNotification"
+  },
+  "response": {
+    "status": 200
+  }
+}

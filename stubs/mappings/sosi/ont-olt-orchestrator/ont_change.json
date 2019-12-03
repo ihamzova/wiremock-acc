@@ -1,0 +1,28 @@
+{
+    "request" : {
+      "urlPathPattern" : "((/reqcb)?)/resource-order-resource-inventory/v1/commissioning/ont/1111111111111111",
+      "method" : "PUT",
+      "queryParameters" : {
+        "newSerialNumber" : {
+          "equalTo" : "2222222222222222"
+        }
+      }
+    },
+    "response" : {
+      "status" : 202
+    },
+    "postServeActions" : {
+      "webhook" : {
+        "method" : "POST",
+        "url" : "{{request.headers.X-Callback-Url}}",
+        "headers" : {
+          "X-Callback-Correlation-Id" : "{{request.headers.X-Callback-Correlation-Id}}",
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : {
+          "success" : "true",
+          "response" : "DEU.DTAG.GE11000000"
+        }
+      }
+    }
+  }

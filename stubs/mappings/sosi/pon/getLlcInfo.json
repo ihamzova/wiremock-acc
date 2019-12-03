@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "apartmentCplId": {
+        "equalTo": "XY0010"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v2/llc"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "apartmentCplId": "XY0010",
+          "ponPortOltVpsz": "49/9124/130",
+          "ponPortOltFachSz": "7ACP",
+          "ponPortOltBg": "3",
+          "ponPortPortNumber": "102"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

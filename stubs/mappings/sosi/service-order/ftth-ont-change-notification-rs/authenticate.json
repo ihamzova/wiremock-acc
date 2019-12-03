@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "OntSerialNumber": {
+        "equalTo": "1111111111111111"
+      },
+      "Subscriber.Kundennummer": {
+        "equalTo": "1111111101"
+      }
+    },
+    "urlPathPattern": "/ftth-ont-change-notification-rs/v1/OntAuthenticationServices"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "orderState": "inProgress",
+        "orderIdentifier": {
+          "ServiceOrderId": "15649",
+          "Auftragspositionsnummer": "100000000000001"
+        },
+        "ontAuthenticationService": {
+          "OntTan": "453f0d01-28a1-4e41-9169-216f9deb8ce0"
+        }
+      }
+    ],
+    "status": 200
+  }
+}

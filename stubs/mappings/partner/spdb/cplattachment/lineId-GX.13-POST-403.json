@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+     "urlPattern": "/service-order-service-inventory/v1/sp-api/cplAttachment/*",
+	"bodyPatterns" : [ {
+      "matchesJsonPath" : "$.[?(@.lineIdFtth=='DEU.DTAG.GX13000000')]"
+    } ]
+
+  },
+ "response": {
+    "status": 403,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+
+}
+
+

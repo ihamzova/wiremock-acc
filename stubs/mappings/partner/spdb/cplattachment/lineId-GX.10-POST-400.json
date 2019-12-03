@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+     "urlPattern": "/service-order-service-inventory/v1/sp-api/cplAttachment/*",
+	"bodyPatterns" : [ {
+      "matchesJsonPath" : "$.[?(@.lineIdFtth=='DEU.DTAG.GX10000000')]"
+    } ]
+
+  },
+ "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+	"transformers": ["response-template"],
+	 "jsonBody": {
+		"title": "BAD REQUEST",
+		"status": 667, 
+		"detail": "Something wrong witrh request structure"
+	}
+  }
+
+}
+
+

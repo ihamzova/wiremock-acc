@@ -1,0 +1,13 @@
+{  
+  "request":{  
+    "method":"GET",
+    "url":"/1000kit-portal-server/v2/applications/olt-resource-inventory/permissions"
+  },
+  "response":{  
+    "status":200,
+    "headers":{  
+      "Content-Type":"application/json"
+    },
+    "jsonBody":[]
+  }
+}

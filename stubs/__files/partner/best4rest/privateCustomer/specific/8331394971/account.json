@@ -1,0 +1,35 @@
+{
+  "id": "8331394971",
+  "firstName": "Andrea",
+  "lastName": "Kunde",
+  "salutationId": "3",
+  "salutation": "MS",
+  "birthDate": "1960-03-13",
+  "VBKZ": "25",
+  "legalFormId": "18",
+  "_links": {
+    "self": {
+      "href": "/v1/accounts/8331394971"
+    },
+    "primaryContact": {
+      "id": "1-99R096",
+      "href": "/v1/accounts/8331394971/contacts/1-99R096"
+    },
+    "mainContact": {
+      "id": "1-99R096",
+      "href": "/v1/accounts/8331394971/contacts/1-99R096"
+    },
+    "contacts": {
+      "href": "/v1/accounts/8331394971/contacts"
+    },
+    "contracts": {
+      "href": "/v1/accounts/8331394971/contracts"
+    },
+    "openOrders": {
+      "href": "/v1/accounts/8331394971/customerOrders?status=OPEN"
+    },
+    "billingAccounts": {
+      "href": "/v1/accounts/8331394971/billingAccounts"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/8331394971/contacts/([A-Za-z0-9-]+)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/privateCustomer/specific/8331394971/contact_1-99R096.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -25,12 +25,3 @@ include:
   - project: 'infr/pipelines/service/cd/common'
     ref: release/semver.1.0
     file: '/public/gitflow.yml'
-
-  - project: 'infr/pipelines/service/cd/common'
-    ref: master
-    file: '/public/domain/acc.yml'
-  - project: 'infr/pipelines/service/cd/common'
-    ref: master
-    file: 'public/domain/infr.yml'
-
-

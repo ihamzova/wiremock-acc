@@ -25,7 +25,8 @@
       },
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
-      "bodyFileName": "osr/psl-transformer/PSL_equipment_{{replace (jsonPath request.body '$.requestData.requestEquipment[0].endsz') '/' '_'}}.json"
+      "bodyFileName": "osr/psl-transformer/PSL_equipment_49_8571_0_76HA.json"
+
     }
   }
 }

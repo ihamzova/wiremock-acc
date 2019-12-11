@@ -6,7 +6,7 @@
     "bodyPatterns" : [ {
       "matchesJsonPath" : {
         "expression": "$..endsz",
-        "contains": "49/8571/0/76HA"
+        "contains": "49/911/1100/76H2"
       }
     } ]
   },
@@ -25,7 +25,7 @@
       },
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
-      "bodyFileName": "osr/psl-transformer/PSL_equipment_{{replace (jsonPath request.body '$.requestData.requestEquipment[0].endsz') '/' '_'}}.json"
+      "bodyFileName": "osr/psl-transformer/PSL_equipment_49_911_1100_76H2.json"
     }
   }
 }

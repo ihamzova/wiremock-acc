@@ -12,4 +12,4 @@ COPY stubs /$WM_PACKAGE
 EXPOSE 8080
 
 ENTRYPOINT ["java","-jar","wiremock-acc-deps.jar"]
-CMD ["--disable-gzip", "--global-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks", "com.tsystems.tm.acc.WebhooksArray", "--print-all-network-traffic", "--permitted-system-keys .*"]
+CMD ["--disable-gzip", "--global-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks", "com.tsystems.tm.acc.WebhooksArray", "--print-all-network-traffic", "--permitted-system-keys", ".*"]

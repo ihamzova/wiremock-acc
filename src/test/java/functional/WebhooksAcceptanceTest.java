@@ -24,8 +24,8 @@ import static com.tsystems.tm.acc.Webhooks.webhook;
 import static com.tsystems.tm.acc.WebhooksArray.webhooks;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.apache.http.entity.ContentType.TEXT_PLAIN;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertThat;
 
 public class WebhooksAcceptanceTest {
 

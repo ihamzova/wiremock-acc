@@ -2,6 +2,10 @@ package com.tsystems.tm.acc;
 
 import com.github.jknack.handlebars.Handlebars;
 import com.github.jknack.handlebars.Template;
+import com.github.jknack.handlebars.helper.AssignHelper;
+import com.github.jknack.handlebars.helper.ConditionalHelpers;
+import com.github.jknack.handlebars.helper.NumberHelper;
+import com.github.jknack.handlebars.helper.StringHelpers;
 import com.github.tomakehurst.wiremock.common.FileSource;
 import com.github.tomakehurst.wiremock.common.Notifier;
 import com.github.tomakehurst.wiremock.common.TextFile;
@@ -10,11 +14,14 @@ import com.github.tomakehurst.wiremock.core.Options;
 import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.extension.PostServeAction;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.RequestTemplateModel;
+import com.github.tomakehurst.wiremock.extension.responsetemplating.SystemKeyAuthoriser;
+import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.SystemValueHelper;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.WireMockHelpers;
 import com.github.tomakehurst.wiremock.http.HttpClientFactory;
 import com.github.tomakehurst.wiremock.http.HttpHeader;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableSet;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
@@ -50,6 +57,17 @@ public class Webhooks extends PostServeAction {
         for (WireMockHelpers helper : WireMockHelpers.values()) {
             this.handlebars.registerHelper(helper.name(), helper);
         }
+        for (StringHelpers helper : StringHelpers.values()) {
+            this.handlebars.registerHelper(helper.name(), helper);
+        }
+        for (NumberHelper helper : NumberHelper.values()) {
+            this.handlebars.registerHelper(helper.name(), helper);
+        }
+        for (ConditionalHelpers helper : ConditionalHelpers.values()) {
+            this.handlebars.registerHelper(helper.name(), helper);
+        }
+        this.handlebars.registerHelper(AssignHelper.NAME, new AssignHelper());
+        this.handlebars.registerHelper("systemValue", new SystemValueHelper(new SystemKeyAuthoriser(ImmutableSet.of(".*"))));
     }
 
     protected static HttpUriRequest buildRequest(WebhookDefinition definition) {
@@ -80,8 +98,13 @@ public class Webhooks extends PostServeAction {
 
     @Override
     public void doAction(ServeEvent serveEvent, Admin admin, Parameters parameters) {
-        final WebhookDefinition definition = parameters.as(WebhookDefinition.class);
-        doActionInternal(definition, serveEvent, admin, parameters);
+        try {
+            final WebhookDefinition definition = parameters.as(WebhookDefinition.class);
+            doActionInternal(definition, serveEvent, admin, parameters);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throwUnchecked(e);
+        }
     }
 
     protected void doActionInternal(WebhookDefinition definition, ServeEvent serveEvent, Admin admin, Parameters parameters) {

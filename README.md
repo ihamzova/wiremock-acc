@@ -40,7 +40,10 @@ Example of for cycle
   {{/each}}
 ]
 ```
-
+Example of for Environment variable
+```json
+"system": "{{systemValue type='ENVIRONMENT' key='TEST_VALUE'}}"
+```
 
 Project structure
 ---

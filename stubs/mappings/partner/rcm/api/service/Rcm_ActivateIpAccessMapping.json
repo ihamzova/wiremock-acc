@@ -1,7 +1,7 @@
 {
 	"request": {
 		"method": "POST",
-		"urlPattern": "/api/service/v1/.*|/reqcb/service-order-service-inventory/v1/rcm-service",
+		"urlPattern": "/api/service/v1.*|/reqcb/service-order-service-inventory/v1/rcm-service",
 		"bodyPatterns" : [ {
 		  "matchesJsonPath" : "$.[?(@.name=='IpAccessConfigOperational')]"
 		} ]

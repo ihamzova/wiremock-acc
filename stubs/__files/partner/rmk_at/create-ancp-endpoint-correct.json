@@ -2,8 +2,8 @@
   "eventType": "AncpEndpointCreationNotification",
   "event": {
     "ancpEndpoint": {
-      "id": {{now format='unix'}},
-      "href": "http://{{hostname}}/resourceInventory/v1/resources/{{now format='unix'}}",
+      "id": {{now format='yyMMddHHmmss'}},
+      "href": "http://{{hostname}}/resourceInventory/v1/resources/{{now format='yyMMddHHmmss'}}",
       "@type": "AncpEndpoint",
       "bngAncpIpAddress": "{{jsonPath request.body '$.bngAncpIpAddress'}}",
       "partnerType": "AccessNode",

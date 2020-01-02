@@ -1,14 +1,8 @@
 {
-  "priority": 1,
+  "priority": 10,
   "request": {
     "method": "POST",
-    "url": "/psl/v1/read-equipment/readEquipment",
-    "bodyPatterns" : [ {
-      "matchesJsonPath" : {
-        "expression": "$..endsz",
-        "contains": "49/89/8000/76H1"
-      }
-    } ]
+    "url": "/psl/v1/read-equipment/readEquipment"
   },
   "response": {
     "status": 202,
@@ -25,8 +19,7 @@
       },
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
-      "bodyFileName": "osr/psl-transformer/PSL_equipment_49_89_8000_76H1.json"
-
+      "bodyFileName": "osr/psl-transformer/PSL_equipment_{{replace (jsonPath request.body '$.requestData.requestEquipment[0].endsz') '/' '_'}}.json"
     }
   }
 }

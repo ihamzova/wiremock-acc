@@ -14,7 +14,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "584400000550"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'UMT_Service_Data_OCSSubscriptionID\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -23,7 +23,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'IPv4NetMask\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -32,7 +32,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "0"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'CoANAKReaction\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -41,7 +41,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'TunnelProfile\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -50,7 +50,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "true"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'CredentialsRequested\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -59,7 +59,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "220000"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'MaxDownspeed\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -68,7 +68,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'DelegatedIPv6Prefix\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -77,7 +77,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'DNSProfile\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -86,7 +86,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'FilterID\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -95,7 +95,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'FramedIPv6Prefix\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -104,7 +104,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'IPv4Address\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -113,7 +113,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "0"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'InfluenceSession\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -122,7 +122,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'DelegatedIPv6PrefixLength\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -131,7 +131,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "ignoreComplete"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'UMT_Service_Data_ThrottleProfile\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -140,7 +140,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "0"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'MaxSessionDuration\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -149,7 +149,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'haMSISDN\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -158,7 +158,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'UMT_Service_Data_ThrottleDownL3\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -176,7 +176,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'ReservePrefix\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -185,7 +185,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'UMT_Service_Data_ThrottleUpL3\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -194,7 +194,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'FramedIPv6PrefixLength\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -203,7 +203,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": null
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'TerminationProfile\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -212,7 +212,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "0"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'TeilnehmerSperre\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -230,7 +230,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "1"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'MehrfachZugang\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -239,7 +239,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "3"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'IPVersion\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -248,7 +248,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "0"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'User-Auth-Required\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -275,7 +275,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": ""
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'ProfilSet\')].value.value') '$[0]'}}"
             }
         },
         {
@@ -293,7 +293,7 @@
             "value": {
                 "@type": null,
                 "@schemaLocation": null,
-                "value": "20000"
+                "value": "{{jsonPath (jsonPath request.body '$.characteristic[?(@.name == \'MaxUpspeed\')].value.value') '$[0]'}}"
             }
         }
     ],

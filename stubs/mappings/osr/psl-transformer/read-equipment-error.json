@@ -2,7 +2,7 @@
   "priority": 10,
   "request": {
     "method": "POST",
-    "url": "/psl/v1/read-equipment/readEquipment"
+    "url": "/resource-order-resource-inventory/v1/psl/read-equipment/readEquipment"
   },
   "response": {
     "status": 202,

@@ -20,8 +20,8 @@ app:
   env:
     params:
       CLIENT_ID: *app_name_definition
-      PROVIDER_CLIENT_ID: 'wiremock-provider-client'
-      PUBLIC_CLIENT_ID: 'wiremock-public-client'
+      PROVIDER_CLIENT_ID: "wiremock-provider-client"
+      PUBLIC_CLIENT_ID: "wiremock-public-client"
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"

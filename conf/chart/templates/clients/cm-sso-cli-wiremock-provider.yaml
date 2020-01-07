@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: "{{ .Values.app.env.PROVIDER_CLIENT_ID }}-rhsso-client"
+  name: "{{ .Values.app.env.params.PROVIDER_CLIENT_ID }}-rhsso-client"
   annotations:
     rhsso.cli/type: client
     rhsso.cli/target-instance: rhsso-broker
@@ -13,8 +13,8 @@ data:
   {{- $intUrl := .Values.global.domains.internal.url }}
   client: |-
     {
-        "clientId": "{{ .Values.app.env.PROVIDER_CLIENT_ID }}",
-        "name": "{{ .Values.app.env.PROVIDER_CLIENT_ID }}",
+        "clientId": "{{ .Values.app.env.params.PROVIDER_CLIENT_ID }}",
+        "name": "{{ .Values.app.env.params.PROVIDER_CLIENT_ID }}",
         "description": "Wiremock client for rhsso-provider",
         "publicClient": true,
         "defaultClientScopes": ["ui-client", "email", "profile", "web-origins", "roles"],

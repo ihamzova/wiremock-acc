@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/rhsso/provider/login"
+  },
+  "response": {
+    "body": "",
+    "headers": {
+      "Location": "{{systemValue type='ENVIRONMENT' key='RHSSO_AUTHORIZATION_ENDPOINT'}}?response_type=code&client_id={{systemValue type='ENVIRONMENT' key='PROVIDER_CLIENT_ID'}}&redirect_uri=https%3A%2F%2F{{request.requestLine.host}}%2Frhsso%2Fprovider%2Fcallback&state={{randomValue type='UUID'}}&login=true&scope=openid",
+      "Expires": "0"
+    },
+    "status": 302
+  }
+}

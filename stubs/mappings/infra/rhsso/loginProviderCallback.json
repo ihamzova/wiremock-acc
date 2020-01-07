@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/rhsso/provider/callback(.*)"
+  },
+  "response": {
+    "bodyFileName": "infra/rhsso/page.html",
+    "headers": {
+      "Content-Type": "text/html;charset=UTF-8"
+    },
+    "status": 200
+  }
+}

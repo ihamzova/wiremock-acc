@@ -1,8 +1,8 @@
 {
-  "priority": 1,
+  "priority": 10,
   "request": {
     "method": "POST",
-    "url": "/psl/v1/read-equipment/readEquipment"
+    "url": "/v1/psl/read-equipment/"
   },
   "response": {
     "status": 202,
@@ -19,7 +19,7 @@
       },
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
-      "bodyFileName": "osr/psl-transformer/PSL_equipment_{{replace (jsonPath request.body '$.requestData.requestEquipment[0].endsz') '/' '_'}}.json"
+      "bodyFileName": "partner/psl/PSL_equipment_{{replace (jsonPath request.body '$.requestData.requestEquipment[0].endsz') '/' '_'}}.json"
     }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/v1/psl/read-equipment/",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..endsz",
+        "contains": "49/8571/123/76H2"
+      }
+    } ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "fixedDelayMilliseconds": 5000,
+      "jsonBody": {
+        "messageContext": {
+          "correlationId": "string",
+          "priority": 0,
+          "requestId": "string",
+          "sender": "string",
+          "target": "string",
+          "timeLeft": "string"
+        },
+        "responseData": {
+          "equipment": [
+          ],
+          "header": {
+            "anfoKen": "15758997480418591403",
+            "partner": "BS_DIGIOSS"
+          },
+          "status": {
+            "id": "ZDIB",
+            "logMsgNo": "string",
+            "logNo": "0000000908",
+            "message": "Es wurden keine Equipments selektiert",
+            "messageV1": "",
+            "number": "908",
+            "system": "Linux",
+            "type": "S"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "dependency": {
+    "resources": [
+      {
+        "resource": "/emulator/Wholebuy/v1/WholebuyResourceOrder/Events",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ]
+      },
+      {
+        "resource": "/Wholebuy/v1/WholebuyResourceOrder/Events",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ]
+      }
+    ],
+    "callback_urls": {
+    }
+  }
+}

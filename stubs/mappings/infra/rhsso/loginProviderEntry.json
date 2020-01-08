@@ -6,7 +6,7 @@
   "response": {
     "body": "",
     "headers": {
-      "Location": "{{systemValue type='ENVIRONMENT' key='RHSSO_AUTHORIZATION_ENDPOINT'}}?response_type=code&client_id={{systemValue type='ENVIRONMENT' key='PROVIDER_CLIENT_ID'}}&redirect_uri={{request.requestLine.baseUrl}}{{request.requestLine.path}}&state={{randomValue type='UUID'}}&login=true&scope=openid",
+      "Location": "{{systemValue type='ENVIRONMENT' key='RHSSO_AUTHORIZATION_ENDPOINT'}}?response_type=code&client_id={{systemValue type='ENVIRONMENT' key='PROVIDER_CLIENT_ID'}}&redirect_uri=https://{{request.requestLine.host}}{{request.requestLine.path}}&state={{randomValue type='UUID'}}&login=true&scope=openid",
       "Expires": "0"
     },
     "status": 302

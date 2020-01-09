@@ -68,6 +68,7 @@ public class Webhooks extends PostServeAction {
         }
         this.handlebars.registerHelper(AssignHelper.NAME, new AssignHelper());
         this.handlebars.registerHelper("systemValue", new SystemValueHelper(new SystemKeyAuthoriser(ImmutableSet.of(".*"))));
+        this.handlebars.registerHelper("oauth", new Oauth2Helper());
     }
 
     protected static HttpUriRequest buildRequest(WebhookDefinition definition) {

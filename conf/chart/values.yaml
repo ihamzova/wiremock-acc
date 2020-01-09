@@ -20,6 +20,7 @@ app:
   env:
     params:
       CLIENT_ID: *app_name_definition
+      CLIENT_SECRET: "gohgua4ahLaP9quei7go"
       PROVIDER_CLIENT_ID: "wiremock-provider-client"
       PUBLIC_CLIENT_ID: "wiremock-public-client"
     inject_maps:

@@ -44,6 +44,33 @@ Example of for Environment variable
 ```json
 "system": "{{systemValue type='ENVIRONMENT' key='TEST_VALUE'}}"
 ```
+Example oauth helper.
+```json
+{
+  "request": {
+    "method": "POST",
+    "url": "/test/auth"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "http://localhost:8080/api/genericCallbackConsumer/v1.0/consume/",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "body": "OK"
+    }
+  }
+}
+```
 
 Project structure
 ---

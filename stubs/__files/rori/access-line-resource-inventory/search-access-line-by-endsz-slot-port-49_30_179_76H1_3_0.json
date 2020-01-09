@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 1073,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3023394",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1073,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 1073,
+        "anpTag": 133
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1073,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1073,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8f754e71-ad5d-4a55-9a2a-686f0dabfbeb"
+    },
+    "version": 0
+  },
+  {
+    "id": 1074,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA6227685",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1074,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 1074,
+        "anpTag": 134
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1074,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1074,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d79e429b-b6e0-4124-972c-62bc0caf8daa"
+    },
+    "version": 0
+  },
+  {
+    "id": 1075,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA8725985",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1075,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 1075,
+        "anpTag": 135
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1075,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1075,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9e17d502-a988-4891-aae2-7e9c362da5f4"
+    },
+    "version": 0
+  },
+  {
+    "id": 1076,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA4066013",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1076,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 1076,
+        "anpTag": 136
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1076,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1076,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "78113ab1-15a7-4056-9c3a-b69a2cdbba6f"
+    },
+    "version": 0
+  },
+  {
+    "id": 1077,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3043659",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1077,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 1077,
+        "anpTag": 137
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1077,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1077,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8bb01e74-5643-42bd-82dc-cbe1377c94f7"
+    },
+    "version": 0
+  },
+  {
+    "id": 1078,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA8331913",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1078,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 1078,
+        "anpTag": 138
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1078,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1078,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "fbc1351b-e51e-449a-b2da-ca8a149a3934"
+    },
+    "version": 0
+  },
+  {
+    "id": 1079,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA7446096",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1079,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 1079,
+        "anpTag": 139
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1079,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1079,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "02aa2069-ae90-4876-95cd-4cf8de9035ff"
+    },
+    "version": 0
+  },
+  {
+    "id": 1080,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA5229951",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1080,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 1080,
+        "anpTag": 140
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1080,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1080,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "51e47fe7-1870-4ecb-a9e3-84cf98302331"
+    },
+    "version": 0
+  },
+  {
+    "id": 1081,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA5938136",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1081,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 1081,
+        "anpTag": 141
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1081,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1081,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6f95275b-e354-40c2-aaa3-4ac823d2cdf5"
+    },
+    "version": 0
+  },
+  {
+    "id": 1082,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA1204547",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1082,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 1082,
+        "anpTag": 142
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1082,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1082,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "7c49ae67-8e84-47c4-be40-9212717c294d"
+    },
+    "version": 0
+  },
+  {
+    "id": 1083,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA120230",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1083,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 1083,
+        "anpTag": 143
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1083,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1083,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "32a84d09-6be9-47d8-b14e-4f595c2b6356"
+    },
+    "version": 0
+  },
+  {
+    "id": 1084,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA6071300",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1084,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 16,
+      "anpTag": {
+        "id": 1084,
+        "anpTag": 144
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1084,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1084,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "3fdf509d-fb81-4d4a-81e0-b47ff756bd3c"
+    },
+    "version": 0
+  },
+  {
+    "id": 1085,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA253682",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1085,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 17,
+      "anpTag": {
+        "id": 1085,
+        "anpTag": 145
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1085,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1085,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d360a9b3-631f-430b-b921-8d5022a514ea"
+    },
+    "version": 0
+  },
+  {
+    "id": 1086,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA8784606",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1086,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 18,
+      "anpTag": {
+        "id": 1086,
+        "anpTag": 146
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1086,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1086,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "83d48032-18a4-40ab-9972-ac531f793f04"
+    },
+    "version": 0
+  },
+  {
+    "id": 1087,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3364456",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1087,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 19,
+      "anpTag": {
+        "id": 1087,
+        "anpTag": 147
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1087,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1087,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "13a221f7-0c57-4170-9cb1-2a3219efb252"
+    },
+    "version": 0
+  },
+  {
+    "id": 1088,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3625999",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1088,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 20,
+      "anpTag": {
+        "id": 1088,
+        "anpTag": 148
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1088,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1088,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "2e4ba63d-9f63-47d6-a737-e8632cfc9cd4"
+    },
+    "version": 0
+  },
+  {
+    "id": 1089,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3386102",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1089,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 21,
+      "anpTag": {
+        "id": 1089,
+        "anpTag": 149
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1089,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1089,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "934fa207-a84c-46c2-b0ba-db24b904f575"
+    },
+    "version": 0
+  },
+  {
+    "id": 1090,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA6333912",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1090,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 22,
+      "anpTag": {
+        "id": 1090,
+        "anpTag": 150
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1090,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1090,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0df0a040-a841-4d27-8560-60ce192e76fc"
+    },
+    "version": 0
+  },
+  {
+    "id": 1091,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA7921910",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1091,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 23,
+      "anpTag": {
+        "id": 1091,
+        "anpTag": 151
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1091,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1091,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6514a28c-c552-43c0-8a2e-c60534d07dfe"
+    },
+    "version": 0
+  },
+  {
+    "id": 1092,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA8763713",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1092,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 24,
+      "anpTag": {
+        "id": 1092,
+        "anpTag": 152
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1092,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1092,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d758bdd9-5139-40af-9309-e6691dfde869"
+    },
+    "version": 0
+  },
+  {
+    "id": 1093,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3508377",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1093,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 25,
+      "anpTag": {
+        "id": 1093,
+        "anpTag": 153
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1093,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1093,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4f697cfb-4463-4665-9da0-486eb6c8399f"
+    },
+    "version": 0
+  },
+  {
+    "id": 1094,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA7313992",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1094,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 26,
+      "anpTag": {
+        "id": 1094,
+        "anpTag": 154
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1094,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1094,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5b72420b-b380-4666-b4e1-8d18ad2e04d7"
+    },
+    "version": 0
+  },
+  {
+    "id": 1095,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA1612272",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1095,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 27,
+      "anpTag": {
+        "id": 1095,
+        "anpTag": 155
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1095,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1095,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "dcb5425f-36e0-4038-965b-564ec8de5d34"
+    },
+    "version": 0
+  },
+  {
+    "id": 1096,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA465839",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1096,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 28,
+      "anpTag": {
+        "id": 1096,
+        "anpTag": 156
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1096,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1096,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6ae7ce84-ff11-4607-9933-52245bae71c7"
+    },
+    "version": 0
+  },
+  {
+    "id": 1097,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA2985339",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1097,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 29,
+      "anpTag": {
+        "id": 1097,
+        "anpTag": 157
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1097,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1097,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "be766c83-0003-4236-9d29-8d934d2f0849"
+    },
+    "version": 0
+  },
+  {
+    "id": 1098,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA2233347",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1098,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 30,
+      "anpTag": {
+        "id": 1098,
+        "anpTag": 158
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1098,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1098,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "528502af-1f09-49eb-80b4-ce4367fc5237"
+    },
+    "version": 0
+  },
+  {
+    "id": 1099,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA6826700",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1099,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 31,
+      "anpTag": {
+        "id": 1099,
+        "anpTag": 159
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1099,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1099,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d1b609e5-bef1-40ee-a293-de9d5642ad68"
+    },
+    "version": 0
+  },
+  {
+    "id": 1100,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA5483353",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1100,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 1100,
+        "anpTag": 128
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1100,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1100,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "494f2d1a-d164-4c54-a1e0-938905803c43"
+    },
+    "version": 0
+  },
+  {
+    "id": 1101,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA909119",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1101,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 1101,
+        "anpTag": 129
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1101,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1101,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b23ff1e5-d5f7-4dda-ba27-b7d9afc74565"
+    },
+    "version": 0
+  },
+  {
+    "id": 1102,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA2096879",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1102,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 1102,
+        "anpTag": 131
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1102,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1102,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9c43d798-8916-43b5-9509-a7f80fcd5432"
+    },
+    "version": 0
+  },
+  {
+    "id": 1103,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA1846453",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1103,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 1103,
+        "anpTag": 132
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1103,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1103,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "fa4a4390-1201-4b20-aac7-576de2685a50"
+    },
+    "version": 0
+  },
+  {
+    "id": 1104,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQA3140925",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1104,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 1104,
+        "anpTag": 130
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1104,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1104,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "998a7d35-9cc5-4753-bd68-4302e2d13e14"
+    },
+    "version": 0
+  }
+]

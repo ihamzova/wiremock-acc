@@ -1,0 +1,19 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "POST",
+    "urlPath": "/accessLineResourceInventory/v2/accessLine/search",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]" },
+      { "matchesJsonPath": "$[?(@.portNumber =~ /[0-9]/)]" },
+      { "matchesJsonPath": "$[?(@.slotNumber =~ /[0-9]{1,2}/)]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "rori/access-line-resource-inventory/search-access-line-by-endsz-slot-port-{{ replace (jsonPath request.body '$.endSz') '/' '_' }}_{{ jsonPath request.body '$.slotNumber' }}_{{ jsonPath request.body '$.portNumber' }}.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

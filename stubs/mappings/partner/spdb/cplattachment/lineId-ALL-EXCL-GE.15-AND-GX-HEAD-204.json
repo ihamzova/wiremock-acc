@@ -1,9 +1,0 @@
-{
-  "request": {
-    "method": "HEAD",
-    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/sp-api/v1/cplAttachment/((?!DEU.DTAG.GE15000000|DEU.DTAG.GX[0-9]+).)*|/service-order-service-inventory/v1/sp-api/cplAttachment/((?!DEU.DTAG.GE15000000|DEU.DTAG.GX[0-9]+).)*"
-  },
-  "response": {
-    "status": 204
-  }
-}

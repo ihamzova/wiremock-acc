@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "PATCH",
-    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/sp-api/v1/servicePoint/([\\w\\d]*)"
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/sp-api/v1/servicePoint/([\\w\\d]*)|/service-order-service-inventory/v1/sp-api/servicePoint/.*"
   },
   "response": {
     "status": 200,

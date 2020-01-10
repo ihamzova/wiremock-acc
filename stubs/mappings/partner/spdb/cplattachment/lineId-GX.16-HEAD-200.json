@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "HEAD",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment/DEU.DTAG.GX16000000|/service-order-service-inventory/v1/cplAttachment/DEU.DTAG.GX16000000"
+  },
+ "response": {
+    "status": 200,
+	 "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+
+}
+
+

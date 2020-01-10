@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1044,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA120550",
+    "homeId": "0037W80",
+    "defaultNeProfile": {
+      "id": 1044,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "INACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 1044,
+        "anpTag": 164
+      },
+      "ontState": "ONLINE",
+      "subscriberNeProfile": {
+        "id": 1003,
+        "profileName": "RFS_AL_GPON",
+        "state": "ACTIVE",
+        "ontSerialNumber": "1111111111112004",
+        "version": 0
+      },
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1044,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "INACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": {
+      "id": 1003,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "downBandwidth": 100000,
+      "upBandwidth": 50000,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "providerId": "0000",
+      "substitutionDomain": "36",
+      "l2ccid": "36",
+      "version": 0
+    },
+    "reference": {
+      "id": 1006,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1044,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4b65095d-6b7a-455c-8cb0-6307fd0b3e34"
+    },
+    "version": 0
+  }
+]

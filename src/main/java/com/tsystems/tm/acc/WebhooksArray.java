@@ -4,6 +4,8 @@ import com.github.tomakehurst.wiremock.core.Admin;
 import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 
+import static com.github.tomakehurst.wiremock.common.Exceptions.throwUnchecked;
+
 public class WebhooksArray extends Webhooks {
     public static final String NAME = "webhooks";
 
@@ -20,7 +22,12 @@ public class WebhooksArray extends Webhooks {
     public void doAction(ServeEvent serveEvent, Admin admin, Parameters parameters) {
         final WebhookArrayDefinition arrayDefinition = parameters.as(WebhookArrayDefinition.class);
         for (WebhookDefinition definition : arrayDefinition.getWebhooks()) {
-            doActionInternal(definition, serveEvent, admin, parameters);
+            try {
+                doActionInternal(definition, serveEvent, admin, parameters);
+            } catch (Exception e) {
+                e.printStackTrace();
+                throwUnchecked(e);
+            }
         }
     }
 }

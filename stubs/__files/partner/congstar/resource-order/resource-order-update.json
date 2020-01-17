@@ -1,0 +1,16 @@
+{
+  "OrderUpdatedEvent": {
+    "eventId": "{{request.headers.X-Callback-Correlation-Id}}",
+    "eventTopic": "WholebuyResourceOrder/Events",
+    "eventVersion": "1.0",
+    "eventSource": "WholebuyGateway",
+    "eventTime": "2020-01-10T00:00:00.000Z",
+    "eventType": "OrderUpdated",
+    "eventPayload": {
+      "id": "1",
+      "externalId": "5678",
+      "lineId": "DEU.GFNW.8094935087",
+      "confirmedDueDate": "2020-01-10T00:00:00.000Z"
+    }
+  }
+}

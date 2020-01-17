@@ -2,7 +2,7 @@
   "priority": 4,
   "request": {
     "method": "POST",
-    "urlPath": "/accessLineResourceInventory/v3/accessLine/search",
+    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
     "bodyPatterns": [
       { "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]" },
       { "matchesJsonPath": "$[?(@.portNumber =~ /[0-9]/)]" },

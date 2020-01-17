@@ -2,7 +2,7 @@
   "priority": 1,
   "request": {
     "method": "POST",
-    "urlPath": "/accessLineResourceInventory/v3/accessLine/search",
+    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$[?(@.endSz =~ /49\\/40.*/)]"

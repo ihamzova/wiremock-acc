@@ -1,17 +1,17 @@
 {
-  "priority": 1,
+  "priority": 5,
   "request": {
     "method": "POST",
     "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$[?(@.endSz =~ /49\\/40.*/)]"
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
       }
     ]
   },
   "response": {
     "status": 200,
-    "bodyFileName": "rori/access-line-resource-inventory/search-access-line-by-endSz-empty-list.json",
+    "bodyFileName": "rori/access-line-resource-inventory/homeId/search-access-line-by-homeId-{{jsonPath request.body '$.homeId'}}.json",
     "headers": {
       "Content-Type": "application/json"
     }

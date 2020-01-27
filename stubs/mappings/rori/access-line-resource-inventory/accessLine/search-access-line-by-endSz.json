@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "rori/access-line-resource-inventory/endSz/search-access-line-by-endSz-{{replace (jsonPath request.body '$.endSz') '/' '_'}}.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

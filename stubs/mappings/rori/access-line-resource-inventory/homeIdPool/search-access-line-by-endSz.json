@@ -5,13 +5,13 @@
     "urlPath": "/api/accessLineResourceInventory/v3/homeIdPool/search/homeId",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+        "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"
       }
     ]
   },
   "response": {
     "status": 200,
-    "bodyFileName": "rori/access-line-resource-inventory/search-access-line-by-homeId-{{jsonPath request.body '$.homeId'}}.json",
+    "bodyFileName": "rori/access-line-resource-inventory/endSz/search-access-line-by-endSz-{{replace (jsonPath request.body '$.endSz') '/' '_'}}.json",
     "headers": {
       "Content-Type": "application/json"
     }

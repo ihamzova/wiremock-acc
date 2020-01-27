@@ -5,13 +5,13 @@
     "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"
+        "matchesJsonPath": "$[?(@.lineId =~ /[A-Z0-9]{3}.*/)]"
       }
     ]
   },
   "response": {
     "status": 200,
-    "bodyFileName": "rori/access-line-resource-inventory/search-access-line-by-endSz-{{replace (jsonPath request.body '$.endSz') '/' '_'}}.json",
+    "bodyFileName": "rori/access-line-resource-inventory/lineId/search-access-line-by-lineId-{{ jsonPath request.body '$.lineId' }}.json",
     "headers": {
       "Content-Type": "application/json"
     }

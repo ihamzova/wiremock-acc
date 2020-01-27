@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1042,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA4063162",
+    "homeId": "0037W6P",
+    "defaultNeProfile": {
+      "id": 1042,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "INACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 1042,
+        "anpTag": 162
+      },
+      "ontState": "ONLINE",
+      "subscriberNeProfile": {
+        "id": 1001,
+        "profileName": "RFS_AL_GPON",
+        "state": "ACTIVE",
+        "ontSerialNumber": "1111111111165513",
+        "version": 0
+      },
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1042,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "INACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": {
+      "id": 1001,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "downBandwidth": 100000,
+      "upBandwidth": 50000,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "providerId": "0000",
+      "substitutionDomain": "34",
+      "l2ccid": "34",
+      "version": 0
+    },
+    "reference": {
+      "id": 1006,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1042,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "31c1ed23-d8af-4ae9-8a1f-087dfc576b1d"
+    },
+    "version": 0
+  }
+]

@@ -1,0 +1,6914 @@
+[
+  {
+    "id": 2972,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.URVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2972,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 2972,
+        "anpTag": 170
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2973,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2972,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "607554ca-362c-41e2-b0b2-2d940c361de8"
+    },
+    "version": 1
+  },
+  {
+    "id": 2930,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2930,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 2930,
+        "anpTag": 128
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2931,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2930,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d72e385a-10c5-4284-b9bb-11add9fc75dd"
+    },
+    "version": 1
+  },
+  {
+    "id": 2946,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.OQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2946,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 2946,
+        "anpTag": 144
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2947,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2946,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "133f405f-a547-44c1-8eba-48935a166197"
+    },
+    "version": 1
+  },
+  {
+    "id": 2949,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.RQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2949,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 2949,
+        "anpTag": 147
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2950,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2949,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "70e6b4cb-afd2-41ec-973a-584dca1ca599"
+    },
+    "version": 1
+  },
+  {
+    "id": 2950,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2950,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 2950,
+        "anpTag": 148
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2951,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2950,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c792fd4a-6eb3-48cd-baad-b4e3fd07422a"
+    },
+    "version": 1
+  },
+  {
+    "id": 2953,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.VQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2953,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 2953,
+        "anpTag": 151
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2954,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2953,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "cc779292-6f84-4e42-acd9-d5aa46e24c12"
+    },
+    "version": 1
+  },
+  {
+    "id": 2954,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.WQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2954,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 2954,
+        "anpTag": 152
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2955,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2954,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "61c72f04-25b6-40f4-8a5b-adf379ffedf5"
+    },
+    "version": 1
+  },
+  {
+    "id": 2955,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.XQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2955,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 2955,
+        "anpTag": 153
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2956,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2955,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5718df0d-7d04-47ba-8197-30f16a6396e3"
+    },
+    "version": 1
+  },
+  {
+    "id": 2957,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ZQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2957,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 2957,
+        "anpTag": 155
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2958,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2957,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "ea9634be-3e12-41a6-a52d-b1817596022a"
+    },
+    "version": 1
+  },
+  {
+    "id": 2958,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.0RVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2958,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 2958,
+        "anpTag": 156
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2959,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2958,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "29584e5f-a869-4bc0-b132-a5db756dbfd0"
+    },
+    "version": 1
+  },
+  {
+    "id": 2959,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.1RVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2959,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 2959,
+        "anpTag": 157
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2960,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2959,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "57be5408-ee23-42a7-8f52-018e530351f5"
+    },
+    "version": 1
+  },
+  {
+    "id": 2963,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.LRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2963,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 2963,
+        "anpTag": 161
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2964,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2963,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0ae14c68-1318-48db-b42a-5ffc3b416570"
+    },
+    "version": 1
+  },
+  {
+    "id": 2964,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.MRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2964,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 2964,
+        "anpTag": 162
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2965,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2964,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c3b2b82f-1a04-41b1-8a64-8fcc8b28c4b1"
+    },
+    "version": 1
+  },
+  {
+    "id": 2965,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.NRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2965,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 2965,
+        "anpTag": 163
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2966,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2965,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9b07a986-e2d6-412e-b253-4aa5ebb62a3f"
+    },
+    "version": 1
+  },
+  {
+    "id": 2966,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ORVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2966,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 2966,
+        "anpTag": 164
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2967,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2966,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "549b4c03-4ee8-4566-9851-cffa14dfcedc"
+    },
+    "version": 1
+  },
+  {
+    "id": 2967,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.PRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2967,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 2967,
+        "anpTag": 165
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2968,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2967,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "f2944063-d828-4fc6-bedc-e4139851b790"
+    },
+    "version": 1
+  },
+  {
+    "id": 2968,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.QRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2968,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 2968,
+        "anpTag": 166
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2969,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2968,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "426ab853-0408-4c36-be33-d4b1d8181348"
+    },
+    "version": 1
+  },
+  {
+    "id": 2969,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.RRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2969,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 2969,
+        "anpTag": 167
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2970,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2969,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "de4af23d-c543-4797-a470-3d42d96cce62"
+    },
+    "version": 1
+  },
+  {
+    "id": 2973,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.VRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2973,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 2973,
+        "anpTag": 171
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2974,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2973,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4d758a93-2378-400c-bd66-7f31be67db96"
+    },
+    "version": 1
+  },
+  {
+    "id": 2975,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.XRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2975,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 2975,
+        "anpTag": 173
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2976,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2975,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6b4d8d76-adea-4ea1-8d9d-86c288bc8098"
+    },
+    "version": 1
+  },
+  {
+    "id": 2977,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ZRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2977,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 2977,
+        "anpTag": 175
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2978,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2977,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9702e4d1-a028-448a-81f9-eeba6d5d6403"
+    },
+    "version": 1
+  },
+  {
+    "id": 2979,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.HSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2979,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 2979,
+        "anpTag": 177
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2981,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2979,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a3f5dbae-b7a0-4b43-9b2c-a9e5cc0cf125"
+    },
+    "version": 1
+  },
+  {
+    "id": 2980,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ISVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2980,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 2980,
+        "anpTag": 178
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2982,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2980,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5a7b084a-d425-4bf6-921f-53576d8a6048"
+    },
+    "version": 1
+  },
+  {
+    "id": 2981,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.JSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2981,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 2981,
+        "anpTag": 179
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2983,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2981,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "cbd52677-ea39-4161-81dd-2dcd81989ef6"
+    },
+    "version": 1
+  },
+  {
+    "id": 2982,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.KSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2982,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 2982,
+        "anpTag": 180
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2984,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2982,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "333c0dbb-6555-45bc-b819-3b9bab90bb25"
+    },
+    "version": 1
+  },
+  {
+    "id": 2987,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.PSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2987,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 2987,
+        "anpTag": 185
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2989,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2987,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "857e3777-15ed-479e-9b34-c4514d030481"
+    },
+    "version": 1
+  },
+  {
+    "id": 2989,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.RSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2989,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 2989,
+        "anpTag": 187
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2991,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2989,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "329bc236-1517-441a-b336-58426f13670d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2990,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2990,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 2990,
+        "anpTag": 188
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2992,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2990,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "584f64e6-71c5-4be3-8d90-8d303668c0a0"
+    },
+    "version": 1
+  },
+  {
+    "id": 2991,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.TSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2991,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 2991,
+        "anpTag": 189
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2993,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2991,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d536a8dc-90c8-48a3-aae1-b8b766751750"
+    },
+    "version": 1
+  },
+  {
+    "id": 2992,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.USVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2992,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 2992,
+        "anpTag": 190
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2994,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2992,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "92b0cc45-6f82-4808-a449-2fa5132e7f4d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2993,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.VSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2993,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 2993,
+        "anpTag": 191
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2995,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2993,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c4f4c5c9-f608-45fa-8c7c-4d38fdbf57c6"
+    },
+    "version": 1
+  },
+  {
+    "id": 2997,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.CTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2997,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 2997,
+        "anpTag": 195
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2999,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2997,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "f795a348-7e66-44e4-85b4-ad6c12b1ed05"
+    },
+    "version": 1
+  },
+  {
+    "id": 2998,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.DTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2998,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 2998,
+        "anpTag": 196
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3000,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2998,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "55f168a9-d29b-4fdc-962e-63bee7d645f7"
+    },
+    "version": 1
+  },
+  {
+    "id": 2999,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ETVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2999,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 2999,
+        "anpTag": 197
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3001,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2999,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a41d4dda-3406-4c33-9388-f9a083278cab"
+    },
+    "version": 1
+  },
+  {
+    "id": 3000,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.FTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3000,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 3000,
+        "anpTag": 198
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3002,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3000,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6a6a78ca-7001-4640-ae54-6a12ec40384d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3001,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.GTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3001,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 3001,
+        "anpTag": 199
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3003,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3001,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9cb85cf5-4838-4289-ad65-c9c2cddc54dc"
+    },
+    "version": 1
+  },
+  {
+    "id": 3002,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.HTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3002,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 3002,
+        "anpTag": 200
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3004,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3002,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "10dde1b4-2fcb-4f66-a86c-107089b448da"
+    },
+    "version": 1
+  },
+  {
+    "id": 3003,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ITVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3003,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 3003,
+        "anpTag": 201
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3005,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3003,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9fa6ef7d-7abc-4a69-a2a4-cf7a7fbd79eb"
+    },
+    "version": 1
+  },
+  {
+    "id": 3006,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.LTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3006,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 3006,
+        "anpTag": 204
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3008,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3006,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a17db65b-3ea2-4e72-90df-82f567f177af"
+    },
+    "version": 1
+  },
+  {
+    "id": 3012,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.AUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3012,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 3012,
+        "anpTag": 210
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3014,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3012,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "46118b94-add5-4dde-9b41-14a4facb0034"
+    },
+    "version": 1
+  },
+  {
+    "id": 3013,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.BUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3013,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 3013,
+        "anpTag": 211
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3015,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3013,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "97821abb-bbab-4606-8c08-1be03be700ca"
+    },
+    "version": 1
+  },
+  {
+    "id": 3014,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.CUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3014,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 3014,
+        "anpTag": 212
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3016,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3014,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0d312dae-4d83-4d60-b81c-c574bac2180a"
+    },
+    "version": 1
+  },
+  {
+    "id": 3016,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.EUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3016,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 3016,
+        "anpTag": 214
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3018,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3016,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "477183b7-240a-4e20-bdd3-ed3f8ee086bd"
+    },
+    "version": 1
+  },
+  {
+    "id": 3021,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.JUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3021,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 3021,
+        "anpTag": 219
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3023,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3021,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d50ff96b-06d9-4a52-b858-6322e0acb96d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3022,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.KUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3022,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 3022,
+        "anpTag": 220
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3024,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3022,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a992fb1e-0b44-414e-99ad-f92047629eef"
+    },
+    "version": 1
+  },
+  {
+    "id": 2931,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.TPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2931,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 2931,
+        "anpTag": 129
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2932,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2931,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4a99fe75-d754-42ae-83de-a081ff669273"
+    },
+    "version": 1
+  },
+  {
+    "id": 2932,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.UPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2932,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 2932,
+        "anpTag": 130
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2933,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2932,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "09f522d7-7b3d-4180-b624-b713e80c9579"
+    },
+    "version": 1
+  },
+  {
+    "id": 2935,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.XPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2935,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 2935,
+        "anpTag": 133
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2936,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2935,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c19e7047-93cb-4832-a84b-f00c0b2a4abf"
+    },
+    "version": 1
+  },
+  {
+    "id": 2937,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.ZPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2937,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 2937,
+        "anpTag": 135
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2938,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2937,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9d1a29cb-24ef-497b-9556-58cb1cdd4b2f"
+    },
+    "version": 1
+  },
+  {
+    "id": 2938,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.0QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2938,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 2938,
+        "anpTag": 136
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2939,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2938,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "93d5b271-7540-4556-86a7-0a398edad9e2"
+    },
+    "version": 1
+  },
+  {
+    "id": 2939,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.1QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2939,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 2939,
+        "anpTag": 137
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2940,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2939,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "2ce72bae-a557-4c75-88b8-9d805a09e0d8"
+    },
+    "version": 1
+  },
+  {
+    "id": 2940,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.2QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2940,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 2940,
+        "anpTag": 138
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2941,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2940,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8f6ed839-e9a9-4562-b063-778f9936160d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2941,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.3QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2941,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 2941,
+        "anpTag": 139
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2942,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2941,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6627e694-ee21-485b-b871-009945ab64b7"
+    },
+    "version": 1
+  },
+  {
+    "id": 2943,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.5QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2943,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 2943,
+        "anpTag": 141
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2944,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2943,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6a5b9f88-76bf-44a3-906e-56f204a3ee66"
+    },
+    "version": 1
+  },
+  {
+    "id": 3019,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.HUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3019,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 3019,
+        "anpTag": 217
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3021,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3019,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a9f6f59e-eeef-4389-8079-8300fce72302"
+    },
+    "version": 1
+  },
+  {
+    "id": 3020,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.IUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3020,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 3020,
+        "anpTag": 218
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3022,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3020,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d00ae1f7-aa8a-43ec-bc68-313f7e73e56a"
+    },
+    "version": 1
+  },
+  {
+    "id": 3023,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.LUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3023,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 3023,
+        "anpTag": 221
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3025,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3023,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0fae0025-685c-4356-882f-0529d909f29c"
+    },
+    "version": 1
+  },
+  {
+    "id": 3031,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.9VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3031,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 3031,
+        "anpTag": 229
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3034,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3031,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4d40ca20-afb1-4570-9d9b-eab7e891feee"
+    },
+    "version": 1
+  },
+  {
+    "id": 3032,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.AVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3032,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 3032,
+        "anpTag": 230
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3035,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3032,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "44fc323b-968d-400b-8a55-fcd2401c04f5"
+    },
+    "version": 1
+  },
+  {
+    "id": 3037,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.FVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3037,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 3037,
+        "anpTag": 235
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3040,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3037,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "15bd6f88-823d-4406-9ff9-e6b500f7b36e"
+    },
+    "version": 1
+  },
+  {
+    "id": 3039,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.HVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3039,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 3039,
+        "anpTag": 237
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3042,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3039,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "201a9d59-777f-4bb8-8c41-25869bdde380"
+    },
+    "version": 1
+  },
+  {
+    "id": 3045,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.3WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3045,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 3045,
+        "anpTag": 243
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3048,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3045,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "520091b6-9ca5-435c-96d5-f7d21a96eb58"
+    },
+    "version": 1
+  },
+  {
+    "id": 3046,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.4WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3046,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 3046,
+        "anpTag": 244
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3049,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3046,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d74c890e-a9a6-40dd-870a-26712332e07a"
+    },
+    "version": 1
+  },
+  {
+    "id": 3047,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.5WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3047,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 3047,
+        "anpTag": 245
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3050,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3047,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c0ee876d-b793-4913-96e5-ddf6933b9b8d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3048,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.6WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3048,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 3048,
+        "anpTag": 246
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3051,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3048,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "fb56dc2d-3d62-4f03-8197-b0c3fb0b0393"
+    },
+    "version": 1
+  },
+  {
+    "id": 3049,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.7WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3049,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 3049,
+        "anpTag": 247
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3052,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3049,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b13b97de-3f43-4b40-aa9c-0aadc1a389b4"
+    },
+    "version": 1
+  },
+  {
+    "id": 3050,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.8WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3050,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 3050,
+        "anpTag": 248
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3053,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3050,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b1156a1d-b293-4fc7-9902-dcd086edd9d4"
+    },
+    "version": 1
+  },
+  {
+    "id": 3051,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.9WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3051,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 3051,
+        "anpTag": 249
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3054,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3051,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "80141007-25fc-4bb9-8fb5-51e0c8214180"
+    },
+    "version": 1
+  },
+  {
+    "id": 3052,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.AWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3052,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 3052,
+        "anpTag": 250
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3055,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3052,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "056f7977-99c5-406a-9d7e-8c8e185e6ddf"
+    },
+    "version": 1
+  },
+  {
+    "id": 3053,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.BWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3053,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 3053,
+        "anpTag": 251
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3056,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3053,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "3ae6a00c-8b80-4b5f-ab54-76283a3ecd8d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3054,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.CWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3054,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 3054,
+        "anpTag": 252
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3057,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3054,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "fb00b883-af58-432e-8b06-9cbd76be4ac7"
+    },
+    "version": 1
+  },
+  {
+    "id": 3055,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.DWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3055,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 3055,
+        "anpTag": 253
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3058,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3055,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b8b39571-c67f-46af-8c4e-ff7af1dc6244"
+    },
+    "version": 1
+  },
+  {
+    "id": 2933,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.VPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2933,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 2933,
+        "anpTag": 131
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2934,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2933,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8d4f7d5f-6409-4f74-ba3a-8882aa98c71d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2934,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.WPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2934,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 2934,
+        "anpTag": 132
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2935,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2934,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "78761cac-e7e4-470d-a6f0-f5fc89597853"
+    },
+    "version": 1
+  },
+  {
+    "id": 2936,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.YPVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2936,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 2936,
+        "anpTag": 134
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2937,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2936,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5292b262-f889-4351-b57e-26df44d7c195"
+    },
+    "version": 1
+  },
+  {
+    "id": 2942,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.4QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2942,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 2942,
+        "anpTag": 140
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2943,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2942,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "3c0b1dfc-04ca-4723-b1a4-9830212df685"
+    },
+    "version": 1
+  },
+  {
+    "id": 3024,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.MUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3024,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 3024,
+        "anpTag": 222
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3026,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3024,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0d229d07-69bc-4dd7-82fa-aed4e01471b7"
+    },
+    "version": 1
+  },
+  {
+    "id": 3025,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.NUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3025,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 3025,
+        "anpTag": 223
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3028,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3025,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "7cd2a8ed-1566-4d1b-ab6f-64b7ff9fa619"
+    },
+    "version": 1
+  },
+  {
+    "id": 3026,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.4VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3026,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 3026,
+        "anpTag": 224
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3029,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3026,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a0475d32-2b8d-4cf0-8c99-189cc167b3d2"
+    },
+    "version": 1
+  },
+  {
+    "id": 3027,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.5VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3027,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 3027,
+        "anpTag": 225
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3030,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3027,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4707edcb-8d3a-449b-939d-3bae00dbe0e6"
+    },
+    "version": 1
+  },
+  {
+    "id": 3028,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.6VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3028,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 3028,
+        "anpTag": 226
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3031,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3028,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "3bec003b-a13b-4bcf-a113-cac73dcb0d23"
+    },
+    "version": 1
+  },
+  {
+    "id": 3029,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.7VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3029,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 3029,
+        "anpTag": 227
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3032,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3029,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "07c0cbed-592b-4779-a1f3-0d0d982c56c2"
+    },
+    "version": 1
+  },
+  {
+    "id": 3030,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.8VVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3030,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 4,
+      "anpTag": {
+        "id": 3030,
+        "anpTag": 228
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3033,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3030,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "29d2bb45-315a-404b-aac5-035e1b0ffc25"
+    },
+    "version": 1
+  },
+  {
+    "id": 3033,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.BVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3033,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 3033,
+        "anpTag": 231
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3036,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3033,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "27b14623-e7b4-4e9d-840b-aa59a3f61e50"
+    },
+    "version": 1
+  },
+  {
+    "id": 3034,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.CVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3034,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 3034,
+        "anpTag": 232
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3037,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3034,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5d086f0c-e1d1-42f9-8ab2-4448f72245f7"
+    },
+    "version": 1
+  },
+  {
+    "id": 3035,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.DVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3035,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 3035,
+        "anpTag": 233
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3038,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3035,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "a924dcfb-7dce-462a-a83f-80b5c439a00d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3036,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.EVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3036,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 3036,
+        "anpTag": 234
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3039,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3036,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9477586b-8740-4c55-a31b-bbb9e809b1b7"
+    },
+    "version": 1
+  },
+  {
+    "id": 3038,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.GVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3038,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 3038,
+        "anpTag": 236
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3041,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3038,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "df0c573c-8b09-4c80-9903-1c460331a341"
+    },
+    "version": 1
+  },
+  {
+    "id": 3040,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.IVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3040,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 3040,
+        "anpTag": 238
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3043,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3040,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6c086f0d-2792-4466-aeb5-f81ee16cfb53"
+    },
+    "version": 1
+  },
+  {
+    "id": 3041,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.JVVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3041,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 3041,
+        "anpTag": 239
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3044,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1100,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3041,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "6fd83bc6-0b54-4cfc-b1f8-02f79a4b6276"
+    },
+    "version": 1
+  },
+  {
+    "id": 3042,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.0WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3042,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 3042,
+        "anpTag": 240
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3045,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3042,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "fcdd4aea-20c8-4d23-bab0-154fc086c1de"
+    },
+    "version": 1
+  },
+  {
+    "id": 3043,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.1WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3043,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 3043,
+        "anpTag": 241
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3046,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3043,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "06bff635-4d6f-48e0-bfd3-b52c5932b224"
+    },
+    "version": 1
+  },
+  {
+    "id": 3044,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.2WVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3044,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 3044,
+        "anpTag": 242
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3047,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3044,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "e741486e-dd63-4b5a-ba47-721e752fe0e9"
+    },
+    "version": 1
+  },
+  {
+    "id": 3056,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.EWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3056,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 3056,
+        "anpTag": 254
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3059,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3056,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "91f99714-abf5-47d4-829c-7be3f1fbcae2"
+    },
+    "version": 1
+  },
+  {
+    "id": 2944,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.6QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2944,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 2944,
+        "anpTag": 142
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2945,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2944,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "004f418b-82b8-4122-9d26-1b05c91bbee8"
+    },
+    "version": 1
+  },
+  {
+    "id": 2945,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.7QVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2945,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 2945,
+        "anpTag": 143
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2946,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1094,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "7",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2945,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "cf4f4fd1-fa04-4436-80c2-f3f76abc52c5"
+    },
+    "version": 1
+  },
+  {
+    "id": 2947,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.PQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2947,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 2947,
+        "anpTag": 145
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2948,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2947,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "f70f9803-b702-4d25-9acb-914220d6310f"
+    },
+    "version": 1
+  },
+  {
+    "id": 2948,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.QQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2948,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 2948,
+        "anpTag": 146
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2949,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2948,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "ad8358a0-1593-44ff-90b8-4c1ca77743a6"
+    },
+    "version": 1
+  },
+  {
+    "id": 2951,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.TQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2951,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 2951,
+        "anpTag": 149
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2952,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2951,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8b1b2dba-f847-4c31-b1d0-6978491f3999"
+    },
+    "version": 1
+  },
+  {
+    "id": 2952,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.UQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2952,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 2952,
+        "anpTag": 150
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2953,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2952,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "e8e641f6-0899-48fa-b62e-fd945888ddc7"
+    },
+    "version": 1
+  },
+  {
+    "id": 2956,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.YQVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2956,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 2956,
+        "anpTag": 154
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2957,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2956,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0d202793-edb2-4c06-91ae-d07fff8b5c22"
+    },
+    "version": 1
+  },
+  {
+    "id": 2960,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.2RVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2960,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 2960,
+        "anpTag": 158
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2961,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2960,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "64ac910d-7555-4417-af87-9a7807f5a855"
+    },
+    "version": 1
+  },
+  {
+    "id": 2961,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.3RVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2961,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 2961,
+        "anpTag": 159
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2962,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1095,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "6",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2961,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d6e4500d-71b7-4861-9ee9-9a221b2546e4"
+    },
+    "version": 1
+  },
+  {
+    "id": 2962,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.KRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2962,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 2962,
+        "anpTag": 160
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2963,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2962,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b2f67b5d-335d-4858-874d-6dae2ca3028d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2970,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.SRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2970,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 2970,
+        "anpTag": 168
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2971,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2970,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "bc72e10b-cbce-4d02-9cb2-568d04674750"
+    },
+    "version": 1
+  },
+  {
+    "id": 2971,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.TRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2971,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 9,
+      "anpTag": {
+        "id": 2971,
+        "anpTag": 169
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2972,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2971,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "928250d9-b2dc-4e41-b14c-17102311f61a"
+    },
+    "version": 1
+  },
+  {
+    "id": 2974,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.WRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2974,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 12,
+      "anpTag": {
+        "id": 2974,
+        "anpTag": 172
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2975,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2974,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9f95aa4e-886c-4ab3-8906-61598d8a8103"
+    },
+    "version": 1
+  },
+  {
+    "id": 2976,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.YRVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2976,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 2976,
+        "anpTag": 174
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2977,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1096,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "5",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2976,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "c1a88bcf-362d-4d54-ae4f-86ea22d9d245"
+    },
+    "version": 1
+  },
+  {
+    "id": 2978,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.GSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2978,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 2978,
+        "anpTag": 176
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2980,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2978,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "0b99b322-3d92-449f-bc59-bf2ad856b17d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2983,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.LSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2983,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 2983,
+        "anpTag": 181
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2985,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2983,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4fd75b70-dc01-4851-a340-02f0b0604d3e"
+    },
+    "version": 1
+  },
+  {
+    "id": 2984,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.MSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2984,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 6,
+      "anpTag": {
+        "id": 2984,
+        "anpTag": 182
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2986,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2984,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8839d6f4-3595-492e-8d0b-233c638dc9ae"
+    },
+    "version": 1
+  },
+  {
+    "id": 2985,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.NSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2985,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 2985,
+        "anpTag": 183
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2987,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2985,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "aef21ae3-189e-49d2-a42f-645059711902"
+    },
+    "version": 1
+  },
+  {
+    "id": 2986,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.OSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2986,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 2986,
+        "anpTag": 184
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2988,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2986,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5007f744-f4f8-4217-beee-7b63e7bfa10d"
+    },
+    "version": 1
+  },
+  {
+    "id": 2988,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.QSVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2988,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 2988,
+        "anpTag": 186
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2990,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1097,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "4",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2988,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "deb4c448-a080-4a75-818f-501f3df89b49"
+    },
+    "version": 1
+  },
+  {
+    "id": 2994,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.5UVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2994,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 2994,
+        "anpTag": 192
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2996,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2994,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "5ed29593-01cc-4f81-be28-c5e7a491eadf"
+    },
+    "version": 1
+  },
+  {
+    "id": 2995,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.6UVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2995,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 2995,
+        "anpTag": 193
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2997,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2995,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "b38b4319-e6d4-49be-979c-d664b10324b7"
+    },
+    "version": 1
+  },
+  {
+    "id": 2996,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.7UVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 2996,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 2,
+      "anpTag": {
+        "id": 2996,
+        "anpTag": 194
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 2998,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 2996,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "f3c53619-111a-4390-b71c-39df7b6ea349"
+    },
+    "version": 1
+  },
+  {
+    "id": 3004,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.JTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3004,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 10,
+      "anpTag": {
+        "id": 3004,
+        "anpTag": 202
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3006,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3004,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "2ac35b31-96b6-4313-b2a8-c8eab4fc142c"
+    },
+    "version": 1
+  },
+  {
+    "id": 3005,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.KTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3005,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 11,
+      "anpTag": {
+        "id": 3005,
+        "anpTag": 203
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3007,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3005,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "60973819-29b3-403a-a3e8-64a82b637e19"
+    },
+    "version": 1
+  },
+  {
+    "id": 3007,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.MTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3007,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 13,
+      "anpTag": {
+        "id": 3007,
+        "anpTag": 205
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3009,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3007,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "83cb0887-17a4-4af9-b40d-2958a39d6291"
+    },
+    "version": 1
+  },
+  {
+    "id": 3008,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.NTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3008,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 14,
+      "anpTag": {
+        "id": 3008,
+        "anpTag": 206
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3010,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3008,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "f4bb671c-1ecf-475d-bfec-56159492ed9c"
+    },
+    "version": 1
+  },
+  {
+    "id": 3009,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.OTVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3009,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 3009,
+        "anpTag": 207
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3011,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1098,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "3",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3009,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "4abefe8a-dea5-4e1f-9a51-f91c3d7c41d1"
+    },
+    "version": 1
+  },
+  {
+    "id": 3010,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.8UVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3010,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 0,
+      "anpTag": {
+        "id": 3010,
+        "anpTag": 208
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3012,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3010,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "2b2e2a65-09dc-450d-b6ec-37071525a44e"
+    },
+    "version": 1
+  },
+  {
+    "id": 3011,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.9UVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3011,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 3011,
+        "anpTag": 209
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3013,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3011,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "2f1d46fe-1115-4eb3-bcd9-f4d317da1ee1"
+    },
+    "version": 1
+  },
+  {
+    "id": 3015,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.DUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3015,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 5,
+      "anpTag": {
+        "id": 3015,
+        "anpTag": 213
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3017,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3015,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "92ab86dc-df7a-457e-9662-97f466fe111d"
+    },
+    "version": 1
+  },
+  {
+    "id": 3017,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.FUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3017,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 7,
+      "anpTag": {
+        "id": 3017,
+        "anpTag": 215
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3019,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3017,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "8ac39896-5d83-409e-9e70-2fe36e4d357a"
+    },
+    "version": 1
+  },
+  {
+    "id": 3018,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.GUVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3018,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 8,
+      "anpTag": {
+        "id": 3018,
+        "anpTag": 216
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3020,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1099,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "2",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3018,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "1e69d605-f35b-4db5-8d94-6673aebd2cd6"
+    },
+    "version": 1
+  },
+  {
+    "id": 3057,
+    "technology": "GPON",
+    "status": "WALLED_GARDEN",
+    "lineId": "DEU.DTAG.FWVC000000",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 3057,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 15,
+      "anpTag": {
+        "id": 3057,
+        "anpTag": 255
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 1
+    },
+    "defaultNetworkLineProfile": {
+      "id": 3061,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 1
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1101,
+      "endSz": "49/30/2000/76H1",
+      "slotNumber": "1",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 3057,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "7d71ce9d-87ce-45ff-8d30-6947120a9ac3"
+    },
+    "version": 1
+  }
+]

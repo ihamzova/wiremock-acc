@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/search",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.lineId =~ /[A-Z0-9]{3}.*/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "rori/access-line-resource-inventory/lineId/search-access-line-by-lineId-{{ jsonPath request.body '$.lineId' }}.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

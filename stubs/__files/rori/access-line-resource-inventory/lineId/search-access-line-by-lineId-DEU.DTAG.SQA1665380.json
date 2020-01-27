@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1041,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA1665380",
+    "homeId": "0037W5M",
+    "defaultNeProfile": {
+      "id": 1041,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "INACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 1041,
+        "anpTag": 161
+      },
+      "ontState": "ONLINE",
+      "subscriberNeProfile": {
+        "id": 1000,
+        "profileName": "RFS_AL_GPON",
+        "state": "ACTIVE",
+        "ontSerialNumber": "1111111111139849",
+        "version": 0
+      },
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1041,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "INACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": {
+      "id": 1000,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "downBandwidth": 100000,
+      "upBandwidth": 50000,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de ",
+      "providerId": "0000",
+      "substitutionDomain": "33",
+      "l2ccid": "33",
+      "version": 0
+    },
+    "reference": {
+      "id": 1006,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1041,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "d4131dd5-7a81-4cf3-bbef-38870e74588a"
+    },
+    "version": 0
+  }
+]

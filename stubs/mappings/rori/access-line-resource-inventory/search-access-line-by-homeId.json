@@ -11,7 +11,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "rori/access-line-resource-inventory/search-access-line-by-homeId-{{jsonPath request.body '$.homeId'}}.json",
+    "bodyFileName": "rori/access-line-resource-inventory/homeId/search-access-line-by-homeId-{{jsonPath request.body '$.homeId'}}.json",
     "headers": {
       "Content-Type": "application/json"
     }

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1102,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA2096879",
+    "homeId": null,
+    "defaultNeProfile": {
+      "id": 1102,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "ACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 1102,
+        "anpTag": 131
+      },
+      "ontState": "UNKNOWN",
+      "subscriberNeProfile": null,
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1102,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": null,
+    "reference": {
+      "id": 1007,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "0",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1102,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "9c43d798-8916-43b5-9509-a7f80fcd5432"
+    },
+    "version": 0
+  }
+]

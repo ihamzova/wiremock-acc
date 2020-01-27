@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1043,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.DTAG.SQA6022843",
+    "homeId": "0037W7S",
+    "defaultNeProfile": {
+      "id": 1043,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "INACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 3,
+      "anpTag": {
+        "id": 1043,
+        "anpTag": 163
+      },
+      "ontState": "ONLINE",
+      "subscriberNeProfile": {
+        "id": 1002,
+        "profileName": "RFS_AL_GPON",
+        "state": "ACTIVE",
+        "ontSerialNumber": "1111111111144163",
+        "version": 0
+      },
+      "version": 0
+    },
+    "defaultNetworkLineProfile": {
+      "id": 1043,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "state": "INACTIVE",
+      "federationPartner": null,
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 0
+    },
+    "subscriberNetworkLineProfile": {
+      "id": 1002,
+      "authMethod": 1,
+      "klsId": 14653,
+      "minDownBandwidth": 62000,
+      "minUpBandwidth": 31000,
+      "guaranteedDownBandwidth": 62000,
+      "guaranteedUpBandwidth": 31000,
+      "maxDownBandwidth": 1000000,
+      "maxUpBandwidth": 500000,
+      "downBandwidth": 100000,
+      "upBandwidth": 50000,
+      "state": "ACTIVE",
+      "federationPartner": "t-online.de",
+      "providerId": "0000",
+      "substitutionDomain": "35",
+      "l2ccid": "35",
+      "version": 0
+    },
+    "reference": {
+      "id": 1006,
+      "endSz": "49/30/179/76H1",
+      "slotNumber": "3",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 1043,
+      "version": 0,
+      "partyId": 10001,
+      "resourceId": "57ff9a45-7424-4f4b-a6b6-88734eba3e54"
+    },
+    "version": 0
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 6330,
+    "technology": "GPON",
+    "status": "ASSIGNED",
+    "lineId": "DEU.GFNW.16ZU",
+    "homeId": "0078CPP",
+    "defaultNeProfile": {
+      "id": 6330,
+      "profileName": "RFS_AL_GPON",
+      "ontSerialNumber": "DEFAULT",
+      "state": "INACTIVE",
+      "ancpPartitionId": 2,
+      "ontId": 1,
+      "anpTag": {
+        "id": 6330,
+        "anpTag": 225
+      },
+      "ontState": "ONLINE",
+      "subscriberNeProfile": {
+        "id": 1040,
+        "profileName": "RFS_AL_GPON",
+        "state": "ACTIVE",
+        "ontSerialNumber": "1000100010011113",
+        "version": 0
+      },
+      "version": 3
+    },
+    "defaultNetworkLineProfile": {
+      "id": 6339,
+      "authMethod": 1,
+      "klsId": 17056514,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "state": "INACTIVE",
+      "federationPartner": "t-online.de",
+      "accessNetworkType": "Ethernet",
+      "accessType": "FTTH",
+      "version": 2
+    },
+    "subscriberNetworkLineProfile": {
+      "id": 1034,
+      "authMethod": 1,
+      "klsId": 146537,
+      "minDownBandwidth": 60288,
+      "minUpBandwidth": 30144,
+      "guaranteedDownBandwidth": 60288,
+      "guaranteedUpBandwidth": 30144,
+      "maxDownBandwidth": 1168192,
+      "maxUpBandwidth": 584064,
+      "downBandwidth": null,
+      "upBandwidth": null,
+      "state": "ACTIVE",
+      "federationPartner": null,
+      "providerId": "0000",
+      "substitutionDomain": null,
+      "l2ccid": null,
+      "version": 1
+    },
+    "reference": {
+      "id": 1233,
+      "endSz": "49/8571/0/76Z7",
+      "slotNumber": "4",
+      "portNumber": "1",
+      "connectionType": "OLT_BNG",
+      "version": 0
+    },
+    "resourceAssociation": {
+      "id": 6330,
+      "version": 0,
+      "partyId": 10000,
+      "resourceId": "0bb163de-2dc2-481a-b93e-79ff78225063"
+    },
+    "version": 3
+  }
+]

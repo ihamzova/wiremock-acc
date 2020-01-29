@@ -1,5 +1,5 @@
 {
-  "priority": 5,
+  "priority": 6,
   "request": {
     "method": "GET",
     "urlPattern": "/api/partyManagement/v2/organizations/(-?\\d*)($|\\?loadLocations=false)"

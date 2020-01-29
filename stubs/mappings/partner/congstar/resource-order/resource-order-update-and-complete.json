@@ -23,7 +23,7 @@
             "Content-Type": "application/json",
             "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
           },
-          "url": "https://{{systemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}/pubsub/p/Wholebuy/v1/WholebuyResourceOrder/Events",
+          "url": "{{systemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v1/WholebuyResourceOrder/Events",
           "bodyFileName": "partner/congstar/resource-order/resource-order-update.json"
         },
         {

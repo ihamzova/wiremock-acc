@@ -114,9 +114,8 @@ public class Webhooks extends PostServeAction {
 
         scheduler.schedule(
                 () -> {
-                    HttpUriRequest request = buildRequest(transformedDefinition);
-
                     try {
+                        HttpUriRequest request = buildRequest(transformedDefinition);
                         HttpResponse response = httpClient.execute(request);
                         notifier.info(
                                 String.format("Webhook %s request to %s returned status %s\n\n%s",

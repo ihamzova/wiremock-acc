@@ -17,7 +17,7 @@
       "webhooks": [
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 6000,
+          "fixedDelayMilliseconds": 5000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json",
@@ -28,7 +28,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 6000,
+          "fixedDelayMilliseconds": 10000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json",

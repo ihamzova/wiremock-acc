@@ -5,8 +5,8 @@ import com.tsystems.tm.acc.rhsso.client.model.Token;
 
 import java.time.LocalDateTime;
 
-import static com.tsystems.tm.acc.apigw.client.invoker.ResponseSpecBuilders.shouldBeCode;
-import static com.tsystems.tm.acc.apigw.client.invoker.ResponseSpecBuilders.validatedWith;
+import static com.tsystems.tm.acc.rhsso.client.invoker.ResponseSpecBuilders.shouldBeCode;
+import static com.tsystems.tm.acc.rhsso.client.invoker.ResponseSpecBuilders.validatedWith;
 
 public class RhssoClientFlowAuthTokenProvider implements AuthTokenProvider {
     private Token token;

@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "url": "/event/v2/cio"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "bodyFileName": "partner/gfnw/b4t/201_cioEvent.json"
+  }
+}

@@ -1,28 +1,32 @@
 {
-  "messageContext": {
-    "correlationId": "string",
-    "priority": 0,
-    "requestId": "string",
-    "sender": "string",
-    "target": "string",
-    "timeLeft": "string"
-  },
-  "responseData": {
-    "equipment": [
-    ],
-    "header": {
-      "anfoKen": "15758997480418591403",
-      "partner": "BS_DIGIOSS"
+  "error": null,
+    "response": {
+      "messageContext": {
+        "correlationId": "string",
+        "priority": 0,
+        "requestId": "string",
+        "sender": "string",
+        "target": "string",
+        "timeLeft": "string"
+      },
+      "responseData": {
+        "equipment": [
+        ],
+        "header": {
+          "anfoKen": "15758997480418591403",
+          "partner": "BS_DIGIOSS"
+        },
+        "status": {
+          "id": "ZDIB",
+          "logMsgNo": "string",
+          "logNo": "0000000908",
+          "message": "Es wurden keine Equipments selektiert",
+          "messageV1": "",
+          "number": "908",
+          "system": "Linux",
+          "type": "S"
+        }
+      }
     },
-    "status": {
-      "id": "ZDIB",
-      "logMsgNo": "string",
-      "logNo": "0000000908",
-      "message": "Es wurden keine Equipments selektiert",
-      "messageV1": "",
-      "number": "908",
-      "system": "Linux",
-      "type": "S"
-    }
-  }
+  "success": true
 }

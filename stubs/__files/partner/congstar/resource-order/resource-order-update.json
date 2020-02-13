@@ -10,7 +10,13 @@
       "id": "1",
       "externalId": "5678",
       "lineId": "DEU.GFNW.8094935087",
-      "confirmedDueDate": "2020-01-10T00:00:00.000Z"
+      "confirmedDueDate": "2020-01-10T00:00:00.000Z",
+      "ramMaxDownL2": 1000000,
+      "ramMaxUpL2": 500000,
+      "ramMinDownL2": 62000,
+      "ramMinUpL2": 31000,
+      "ramMinKPDownL2": 62000,
+      "ramMinKPUpL2": 31000
     }
   }
 }

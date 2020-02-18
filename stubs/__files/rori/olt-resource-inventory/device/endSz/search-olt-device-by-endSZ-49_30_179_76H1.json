@@ -1,0 +1,1239 @@
+{
+  "shortName": "MABC VB",
+  "materialNumber": "40247069",
+  "emsNbiName": "MA5600T",
+  "tkz1": "02351082",
+  "tkz2": "02353310",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+  "lastDiscovery": null,
+  "id": 1001,
+  "resourceId": "a5a35196-3a6b-4bc0-8365-29ee4b578df8",
+  "deviceName": "MA5600T",
+  "endSz": "49/30/179/76H1",
+  "fachSz": null,
+  "klsId": 14653,
+  "ipAddress": "10.147.122.196",
+  "firmwareVersion": "MA5600V800R016C00",
+  "resourceState": null,
+  "communicationState": "CS_AVAILABLE",
+  "serialNumber": null,
+  "importState": null,
+  "type": "OLT",
+  "importDate": null,
+  "equipmentHolders": [
+    {
+      "id": 1001,
+      "slotNumber": "3",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": null,
+        "id": 1001,
+        "resourceId": "05d49a0f-9a43-49dd-99c1-3ed6dee11cf7",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "serviceState": null,
+        "resourceState": null,
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553001",
+        "manufacturer": null,
+        "ports": [
+          {
+            "id": 1001,
+            "resourceId": "05d49a0f-9a43-49dd-99c1-3ed6dee11cg7",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1002,
+            "resourceId": "fcaece28-f9de-4339-9a81-a17e42848506",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1003,
+            "resourceId": "a3faccec-e3db-44b0-a958-c8f84015bc25",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1004,
+            "resourceId": "41a64cad-7fa1-4bb9-8e6e-3f9299c3f9b8",
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1005,
+            "resourceId": "85dec663-9f20-40e9-bdac-3bd44a770eec",
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1006,
+            "resourceId": "635a530f-9b0b-4119-978c-9e1258ee4b1a",
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1007,
+            "resourceId": "377315c6-1421-49ac-91e0-fb198d6585ed",
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1008,
+            "resourceId": "e70142db-3dc6-4d8c-b4fc-aef413ac922e",
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1002,
+      "slotNumber": "4",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": null,
+        "id": 1002,
+        "resourceId": "a00f7fac-6afd-4eca-a88a-40a155a4e82b",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "serviceState": null,
+        "resourceState": null,
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553002",
+        "manufacturer": null,
+        "ports": [
+          {
+            "id": 1009,
+            "resourceId": "1466adbe-0f62-40f7-b480-32b1eccfb659",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1010,
+            "resourceId": "f5284921-e0a0-4406-be2f-1b621778f146",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1011,
+            "resourceId": "67570897-5482-4b18-bb58-b25f31e3de58",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1012,
+            "resourceId": "9e2bbc02-819e-4e5d-956d-8fd8be335bdc",
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1013,
+            "resourceId": "fb5e9611-86d5-410e-b6f2-24f2817b7b57",
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1014,
+            "resourceId": "1d808909-79a6-48fe-b344-aa8b78fa613c",
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1015,
+            "resourceId": "f92e6d42-6f33-4315-bcfe-d34b1ee6a1dd",
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1016,
+            "resourceId": "6756c423-19ee-497e-9c5d-1e5362efd881",
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1003,
+      "slotNumber": "5",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": null,
+        "id": 1003,
+        "resourceId": "0d73bc46-4199-417c-ab54-ac235c194283",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "serviceState": null,
+        "resourceState": null,
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553003",
+        "manufacturer": null,
+        "ports": [
+          {
+            "id": 1017,
+            "resourceId": "d421d498-4705-4fbe-9b51-eba3928c9485",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": [],
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    }
+  ],
+  "ftthAnptagRange": {
+    "id": 1000,
+    "startFrom": 128,
+    "endWith": 4000,
+    "allocatedFtthTags": [
+      {
+        "id": 1000,
+        "ftthAnptag": 128
+      },
+      {
+        "id": 1001,
+        "ftthAnptag": 129
+      },
+      {
+        "id": 1002,
+        "ftthAnptag": 130
+      },
+      {
+        "id": 1003,
+        "ftthAnptag": 131
+      },
+      {
+        "id": 1004,
+        "ftthAnptag": 132
+      },
+      {
+        "id": 1005,
+        "ftthAnptag": 133
+      },
+      {
+        "id": 1006,
+        "ftthAnptag": 134
+      },
+      {
+        "id": 1007,
+        "ftthAnptag": 135
+      },
+      {
+        "id": 1008,
+        "ftthAnptag": 136
+      },
+      {
+        "id": 1009,
+        "ftthAnptag": 137
+      },
+      {
+        "id": 1010,
+        "ftthAnptag": 138
+      },
+      {
+        "id": 1011,
+        "ftthAnptag": 139
+      },
+      {
+        "id": 1012,
+        "ftthAnptag": 140
+      },
+      {
+        "id": 1013,
+        "ftthAnptag": 141
+      },
+      {
+        "id": 1014,
+        "ftthAnptag": 142
+      },
+      {
+        "id": 1015,
+        "ftthAnptag": 143
+      },
+      {
+        "id": 1016,
+        "ftthAnptag": 144
+      },
+      {
+        "id": 1017,
+        "ftthAnptag": 145
+      },
+      {
+        "id": 1018,
+        "ftthAnptag": 146
+      },
+      {
+        "id": 1019,
+        "ftthAnptag": 147
+      },
+      {
+        "id": 1020,
+        "ftthAnptag": 148
+      },
+      {
+        "id": 1021,
+        "ftthAnptag": 148
+      },
+      {
+        "id": 1022,
+        "ftthAnptag": 150
+      },
+      {
+        "id": 1023,
+        "ftthAnptag": 151
+      },
+      {
+        "id": 1024,
+        "ftthAnptag": 152
+      },
+      {
+        "id": 1025,
+        "ftthAnptag": 153
+      },
+      {
+        "id": 1026,
+        "ftthAnptag": 154
+      },
+      {
+        "id": 1027,
+        "ftthAnptag": 155
+      },
+      {
+        "id": 1028,
+        "ftthAnptag": 156
+      },
+      {
+        "id": 1029,
+        "ftthAnptag": 157
+      },
+      {
+        "id": 1030,
+        "ftthAnptag": 158
+      },
+      {
+        "id": 1031,
+        "ftthAnptag": 159
+      },
+      {
+        "id": 1032,
+        "ftthAnptag": 160
+      },
+      {
+        "id": 1033,
+        "ftthAnptag": 161
+      },
+      {
+        "id": 1034,
+        "ftthAnptag": 162
+      },
+      {
+        "id": 1035,
+        "ftthAnptag": 163
+      },
+      {
+        "id": 1036,
+        "ftthAnptag": 164
+      },
+      {
+        "id": 1037,
+        "ftthAnptag": 165
+      },
+      {
+        "id": 1038,
+        "ftthAnptag": 166
+      },
+      {
+        "id": 1039,
+        "ftthAnptag": 167
+      },
+      {
+        "id": 1040,
+        "ftthAnptag": 168
+      },
+      {
+        "id": 1041,
+        "ftthAnptag": 169
+      },
+      {
+        "id": 1042,
+        "ftthAnptag": 170
+      },
+      {
+        "id": 1043,
+        "ftthAnptag": 171
+      },
+      {
+        "id": 1044,
+        "ftthAnptag": 172
+      },
+      {
+        "id": 1045,
+        "ftthAnptag": 173
+      },
+      {
+        "id": 1046,
+        "ftthAnptag": 174
+      },
+      {
+        "id": 1047,
+        "ftthAnptag": 175
+      },
+      {
+        "id": 1048,
+        "ftthAnptag": 176
+      },
+      {
+        "id": 1049,
+        "ftthAnptag": 177
+      },
+      {
+        "id": 1050,
+        "ftthAnptag": 178
+      },
+      {
+        "id": 1051,
+        "ftthAnptag": 179
+      },
+      {
+        "id": 1052,
+        "ftthAnptag": 180
+      },
+      {
+        "id": 1053,
+        "ftthAnptag": 181
+      },
+      {
+        "id": 1054,
+        "ftthAnptag": 182
+      },
+      {
+        "id": 1055,
+        "ftthAnptag": 183
+      },
+      {
+        "id": 1056,
+        "ftthAnptag": 184
+      },
+      {
+        "id": 1057,
+        "ftthAnptag": 185
+      },
+      {
+        "id": 1058,
+        "ftthAnptag": 186
+      },
+      {
+        "id": 1059,
+        "ftthAnptag": 187
+      },
+      {
+        "id": 1060,
+        "ftthAnptag": 188
+      },
+      {
+        "id": 1061,
+        "ftthAnptag": 189
+      },
+      {
+        "id": 1062,
+        "ftthAnptag": 190
+      },
+      {
+        "id": 1063,
+        "ftthAnptag": 232
+      },
+      {
+        "id": 1064,
+        "ftthAnptag": 191
+      },
+      {
+        "id": 1065,
+        "ftthAnptag": 192
+      },
+      {
+        "id": 1066,
+        "ftthAnptag": 193
+      },
+      {
+        "id": 1067,
+        "ftthAnptag": 194
+      },
+      {
+        "id": 1068,
+        "ftthAnptag": 195
+      },
+      {
+        "id": 1069,
+        "ftthAnptag": 196
+      },
+      {
+        "id": 1070,
+        "ftthAnptag": 197
+      },
+      {
+        "id": 1071,
+        "ftthAnptag": 198
+      },
+      {
+        "id": 1072,
+        "ftthAnptag": 199
+      },
+      {
+        "id": 1073,
+        "ftthAnptag": 200
+      },
+      {
+        "id": 1074,
+        "ftthAnptag": 201
+      },
+      {
+        "id": 1075,
+        "ftthAnptag": 202
+      },
+      {
+        "id": 1076,
+        "ftthAnptag": 203
+      },
+      {
+        "id": 1077,
+        "ftthAnptag": 204
+      },
+      {
+        "id": 1078,
+        "ftthAnptag": 205
+      },
+      {
+        "id": 1079,
+        "ftthAnptag": 206
+      },
+      {
+        "id": 1080,
+        "ftthAnptag": 207
+      },
+      {
+        "id": 1081,
+        "ftthAnptag": 208
+      },
+      {
+        "id": 1082,
+        "ftthAnptag": 209
+      },
+      {
+        "id": 1083,
+        "ftthAnptag": 210
+      },
+      {
+        "id": 1084,
+        "ftthAnptag": 211
+      },
+      {
+        "id": 1085,
+        "ftthAnptag": 212
+      },
+      {
+        "id": 1086,
+        "ftthAnptag": 213
+      },
+      {
+        "id": 1087,
+        "ftthAnptag": 214
+      },
+      {
+        "id": 1088,
+        "ftthAnptag": 215
+      },
+      {
+        "id": 1089,
+        "ftthAnptag": 216
+      },
+      {
+        "id": 1090,
+        "ftthAnptag": 217
+      },
+      {
+        "id": 1091,
+        "ftthAnptag": 218
+      },
+      {
+        "id": 1092,
+        "ftthAnptag": 219
+      },
+      {
+        "id": 1093,
+        "ftthAnptag": 220
+      },
+      {
+        "id": 1094,
+        "ftthAnptag": 221
+      },
+      {
+        "id": 1095,
+        "ftthAnptag": 222
+      },
+      {
+        "id": 1096,
+        "ftthAnptag": 223
+      },
+      {
+        "id": 1097,
+        "ftthAnptag": 224
+      },
+      {
+        "id": 1098,
+        "ftthAnptag": 225
+      },
+      {
+        "id": 1099,
+        "ftthAnptag": 226
+      },
+      {
+        "id": 1100,
+        "ftthAnptag": 227
+      },
+      {
+        "id": 1101,
+        "ftthAnptag": 228
+      },
+      {
+        "id": 1102,
+        "ftthAnptag": 229
+      },
+      {
+        "id": 1103,
+        "ftthAnptag": 230
+      },
+      {
+        "id": 1104,
+        "ftthAnptag": 231
+      },
+      {
+        "id": 3815,
+        "ftthAnptag": 253
+      },
+      {
+        "id": 3816,
+        "ftthAnptag": 254
+      },
+      {
+        "id": 3817,
+        "ftthAnptag": 255
+      },
+      {
+        "id": 3818,
+        "ftthAnptag": 256
+      },
+      {
+        "id": 3819,
+        "ftthAnptag": 257
+      },
+      {
+        "id": 3820,
+        "ftthAnptag": 258
+      },
+      {
+        "id": 3821,
+        "ftthAnptag": 259
+      },
+      {
+        "id": 3822,
+        "ftthAnptag": 260
+      },
+      {
+        "id": 3823,
+        "ftthAnptag": 261
+      },
+      {
+        "id": 3824,
+        "ftthAnptag": 262
+      },
+      {
+        "id": 3794,
+        "ftthAnptag": 149
+      },
+      {
+        "id": 3795,
+        "ftthAnptag": 233
+      },
+      {
+        "id": 3796,
+        "ftthAnptag": 234
+      },
+      {
+        "id": 3797,
+        "ftthAnptag": 235
+      },
+      {
+        "id": 3798,
+        "ftthAnptag": 236
+      },
+      {
+        "id": 3799,
+        "ftthAnptag": 237
+      },
+      {
+        "id": 3800,
+        "ftthAnptag": 238
+      },
+      {
+        "id": 3805,
+        "ftthAnptag": 243
+      },
+      {
+        "id": 3808,
+        "ftthAnptag": 246
+      },
+      {
+        "id": 3809,
+        "ftthAnptag": 247
+      },
+      {
+        "id": 3811,
+        "ftthAnptag": 249
+      },
+      {
+        "id": 3814,
+        "ftthAnptag": 252
+      },
+      {
+        "id": 3801,
+        "ftthAnptag": 239
+      },
+      {
+        "id": 3802,
+        "ftthAnptag": 240
+      },
+      {
+        "id": 3803,
+        "ftthAnptag": 241
+      },
+      {
+        "id": 3804,
+        "ftthAnptag": 242
+      },
+      {
+        "id": 3806,
+        "ftthAnptag": 244
+      },
+      {
+        "id": 3807,
+        "ftthAnptag": 245
+      },
+      {
+        "id": 3810,
+        "ftthAnptag": 248
+      },
+      {
+        "id": 3812,
+        "ftthAnptag": 250
+      },
+      {
+        "id": 3813,
+        "ftthAnptag": 251
+      },
+      {
+        "id": 3825,
+        "ftthAnptag": 263
+      },
+      {
+        "id": 3826,
+        "ftthAnptag": 264
+      },
+      {
+        "id": 3827,
+        "ftthAnptag": 265
+      },
+      {
+        "id": 3828,
+        "ftthAnptag": 266
+      },
+      {
+        "id": 3829,
+        "ftthAnptag": 267
+      },
+      {
+        "id": 3830,
+        "ftthAnptag": 268
+      },
+      {
+        "id": 3831,
+        "ftthAnptag": 269
+      },
+      {
+        "id": 3832,
+        "ftthAnptag": 270
+      },
+      {
+        "id": 3854,
+        "ftthAnptag": 292
+      },
+      {
+        "id": 3856,
+        "ftthAnptag": 294
+      },
+      {
+        "id": 3857,
+        "ftthAnptag": 295
+      },
+      {
+        "id": 3859,
+        "ftthAnptag": 297
+      },
+      {
+        "id": 3860,
+        "ftthAnptag": 298
+      },
+      {
+        "id": 3861,
+        "ftthAnptag": 299
+      },
+      {
+        "id": 3862,
+        "ftthAnptag": 300
+      },
+      {
+        "id": 3863,
+        "ftthAnptag": 301
+      },
+      {
+        "id": 3864,
+        "ftthAnptag": 302
+      },
+      {
+        "id": 3865,
+        "ftthAnptag": 303
+      },
+      {
+        "id": 3868,
+        "ftthAnptag": 306
+      },
+      {
+        "id": 3869,
+        "ftthAnptag": 307
+      },
+      {
+        "id": 3872,
+        "ftthAnptag": 310
+      },
+      {
+        "id": 3873,
+        "ftthAnptag": 311
+      },
+      {
+        "id": 3874,
+        "ftthAnptag": 312
+      },
+      {
+        "id": 3875,
+        "ftthAnptag": 313
+      },
+      {
+        "id": 3876,
+        "ftthAnptag": 314
+      },
+      {
+        "id": 3880,
+        "ftthAnptag": 318
+      },
+      {
+        "id": 3881,
+        "ftthAnptag": 319
+      },
+      {
+        "id": 3882,
+        "ftthAnptag": 320
+      },
+      {
+        "id": 3883,
+        "ftthAnptag": 321
+      },
+      {
+        "id": 3889,
+        "ftthAnptag": 327
+      },
+      {
+        "id": 3890,
+        "ftthAnptag": 328
+      },
+      {
+        "id": 3891,
+        "ftthAnptag": 329
+      },
+      {
+        "id": 3892,
+        "ftthAnptag": 330
+      },
+      {
+        "id": 3912,
+        "ftthAnptag": 350
+      },
+      {
+        "id": 3913,
+        "ftthAnptag": 351
+      },
+      {
+        "id": 3914,
+        "ftthAnptag": 352
+      },
+      {
+        "id": 3916,
+        "ftthAnptag": 354
+      },
+      {
+        "id": 3918,
+        "ftthAnptag": 356
+      },
+      {
+        "id": 3919,
+        "ftthAnptag": 357
+      },
+      {
+        "id": 3920,
+        "ftthAnptag": 358
+      },
+      {
+        "id": 3833,
+        "ftthAnptag": 271
+      },
+      {
+        "id": 3855,
+        "ftthAnptag": 293
+      },
+      {
+        "id": 3858,
+        "ftthAnptag": 296
+      },
+      {
+        "id": 3866,
+        "ftthAnptag": 304
+      },
+      {
+        "id": 3867,
+        "ftthAnptag": 305
+      },
+      {
+        "id": 3870,
+        "ftthAnptag": 308
+      },
+      {
+        "id": 3871,
+        "ftthAnptag": 309
+      },
+      {
+        "id": 3877,
+        "ftthAnptag": 315
+      },
+      {
+        "id": 3878,
+        "ftthAnptag": 316
+      },
+      {
+        "id": 3879,
+        "ftthAnptag": 317
+      },
+      {
+        "id": 3884,
+        "ftthAnptag": 322
+      },
+      {
+        "id": 3885,
+        "ftthAnptag": 323
+      },
+      {
+        "id": 3886,
+        "ftthAnptag": 324
+      },
+      {
+        "id": 3887,
+        "ftthAnptag": 325
+      },
+      {
+        "id": 3888,
+        "ftthAnptag": 326
+      },
+      {
+        "id": 3915,
+        "ftthAnptag": 353
+      },
+      {
+        "id": 3917,
+        "ftthAnptag": 355
+      },
+      {
+        "id": 3921,
+        "ftthAnptag": 359
+      },
+      {
+        "id": 3834,
+        "ftthAnptag": 272
+      },
+      {
+        "id": 3836,
+        "ftthAnptag": 274
+      },
+      {
+        "id": 3842,
+        "ftthAnptag": 280
+      },
+      {
+        "id": 3844,
+        "ftthAnptag": 282
+      },
+      {
+        "id": 3845,
+        "ftthAnptag": 283
+      },
+      {
+        "id": 3846,
+        "ftthAnptag": 284
+      },
+      {
+        "id": 3848,
+        "ftthAnptag": 286
+      },
+      {
+        "id": 3849,
+        "ftthAnptag": 287
+      },
+      {
+        "id": 3851,
+        "ftthAnptag": 289
+      },
+      {
+        "id": 3893,
+        "ftthAnptag": 331
+      },
+      {
+        "id": 3897,
+        "ftthAnptag": 335
+      },
+      {
+        "id": 3905,
+        "ftthAnptag": 343
+      },
+      {
+        "id": 3906,
+        "ftthAnptag": 344
+      },
+      {
+        "id": 3907,
+        "ftthAnptag": 345
+      },
+      {
+        "id": 3910,
+        "ftthAnptag": 348
+      },
+      {
+        "id": 3911,
+        "ftthAnptag": 349
+      },
+      {
+        "id": 3835,
+        "ftthAnptag": 273
+      },
+      {
+        "id": 3837,
+        "ftthAnptag": 275
+      },
+      {
+        "id": 3838,
+        "ftthAnptag": 276
+      },
+      {
+        "id": 3839,
+        "ftthAnptag": 277
+      },
+      {
+        "id": 3840,
+        "ftthAnptag": 278
+      },
+      {
+        "id": 3841,
+        "ftthAnptag": 279
+      },
+      {
+        "id": 3843,
+        "ftthAnptag": 281
+      },
+      {
+        "id": 3847,
+        "ftthAnptag": 285
+      },
+      {
+        "id": 3850,
+        "ftthAnptag": 288
+      },
+      {
+        "id": 3852,
+        "ftthAnptag": 290
+      },
+      {
+        "id": 3853,
+        "ftthAnptag": 291
+      },
+      {
+        "id": 3894,
+        "ftthAnptag": 332
+      },
+      {
+        "id": 3895,
+        "ftthAnptag": 333
+      },
+      {
+        "id": 3896,
+        "ftthAnptag": 334
+      },
+      {
+        "id": 3898,
+        "ftthAnptag": 336
+      },
+      {
+        "id": 3899,
+        "ftthAnptag": 337
+      },
+      {
+        "id": 3900,
+        "ftthAnptag": 338
+      },
+      {
+        "id": 3901,
+        "ftthAnptag": 339
+      },
+      {
+        "id": 3902,
+        "ftthAnptag": 340
+      },
+      {
+        "id": 3903,
+        "ftthAnptag": 341
+      },
+      {
+        "id": 3904,
+        "ftthAnptag": 342
+      },
+      {
+        "id": 3908,
+        "ftthAnptag": 346
+      },
+      {
+        "id": 3909,
+        "ftthAnptag": 347
+      }
+    ]
+  },
+  "fttbAnptagRange": null,
+  "description": null,
+  "asb": 1,
+  "technicalLocation": "000031-000179-001-004-002-021",
+  "equipmentNumber": "212880056",
+  "manufacturer": null,
+  "compositePartyId": 10001
+}

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/olt/vpszlookup",
+    "queryParameters": {
+      "vpsz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"
+      },
+      "devicetype": {
+        "equalTo": "OLT"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-{{replace request.query.vpsz '/' '_'}}.json"
+  }
+}

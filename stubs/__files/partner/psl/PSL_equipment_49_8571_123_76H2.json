@@ -1,0 +1,55 @@
+{
+  "error": null,
+  "response": {
+    "messageContext": {
+      "correlationId": "string",
+      "priority": 0,
+      "requestId": "string",
+      "sender": "string",
+      "target": "string",
+      "timeLeft": "string"
+    },
+    "responseData": {
+      "equipment": [
+        {
+          "equnr": "4985711232",
+          "tplnr": "000049-008571-123-002-001-001",
+          "hequi": "4930179",
+          "heqnr": "0057",
+          "submt": "40247069",
+          "eqart": "G",
+          "endsz": "49/8571/123/76H2",
+          "serge": "21023533106TG4900198",
+          "anzEbenen": "1",
+          "adrId": "17056514",
+          "asb": "1"
+        },
+        {
+          "equnr": "16123000",
+          "hequi": "4985711232",
+          "heqnr": "0000",
+          "submt": "40261742",
+          "eqart": "P",
+          "endsz": "49/8571/123/76H2",
+          "serge": "121BQW10B6123000",
+          "anzEbenen": "2"
+        }
+      ],
+      "header": {
+        "anfoKen": "15758997480418591403",
+        "partner": "BS_DIGIOSS"
+      },
+      "status": {
+        "id": "ZDIB",
+        "logMsgNo": "string",
+        "logNo": "0000000000",
+        "message": "Die Anforderung wurde ausgeführt.",
+        "messageV1": "",
+        "number": "000",
+        "system": "Linux",
+        "type": "S"
+      }
+    }
+  },
+  "success": true
+}

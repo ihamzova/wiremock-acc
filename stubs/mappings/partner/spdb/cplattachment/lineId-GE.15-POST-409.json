@@ -18,8 +18,6 @@
 		"status": 666, 
 		"detail": "CPL attachment for line id {{jsonPath request.body '$.lineIdFtth'}} was not found"
 	  }
-  }
-
+  },
+  "priority": 1
 }
-
-

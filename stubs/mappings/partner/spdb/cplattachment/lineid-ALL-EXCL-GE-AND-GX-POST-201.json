@@ -1,0 +1,73 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment/*",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.lineIdFtth =~ /((?!DEU.DTAG.GE[0-9]+|DEU.DTAG.GX[0-9]+).)*/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://{{hostname}}:8080/__admin/mappings",
+          "jsonBody": {
+            "request": {
+              "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment/{{jsonPath request.body '$.lineIdFtth'}}",
+              "method": "HEAD"
+            },
+            "response": {
+              "status": 200
+            },
+            "metadata": {
+              "id": "{{jsonPath request.body '$.lineIdFtth'}}"
+            },
+            "priority": 1
+          }
+        },
+        {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://{{hostname}}:8080/__admin/mappings",
+          "jsonBody": {
+            "request": {
+              "method": "DELETE",
+              "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment/{{jsonPath request.body '$.lineIdFtth'}}"
+            },
+            "response": {
+              "status": 204
+            },
+            "metadata": {
+              "id": "{{jsonPath request.body '$.lineIdFtth'}}"
+            },
+            "postServeActions": {
+              "webhook": {
+                "method": "POST",
+                "headers": {
+                  "Content-Type": "application/json"
+                },
+                "url": "http://{{hostname}}:8080/__admin/mappings/remove-by-metadata",
+                "jsonBody": {
+                  "matchesJsonPath": "$[?(@.id == '{{jsonPath request.body '$.lineIdFtth'}}')]"
+                }
+              }
+            },
+            "priority": 1
+          }
+        }
+      ]
+    }
+  },
+  "priority": 5
+}

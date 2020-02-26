@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPath": "/resource-order-resource-inventory/activeAccessPlatform/v1/networkElements/",
+    "urlPath": "/resource-order-resource-inventory/v1/networkElements",
     "queryParameters": {
       "vpsz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"

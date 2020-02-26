@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/resource-order-resource-inventory/v1/networkElementPorts/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-element-ports-by-uuid-444.json"
+  }
+}

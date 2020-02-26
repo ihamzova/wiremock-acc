@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/a4ResourceInventory/v1/networkElements",
+    "queryParameters": {
+      "vpsz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"
+      },
+      "type": {
+        "equalTo": "OLT"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-{{replace request.query.vpsz '/' '_'}}.json"
+  }
+}

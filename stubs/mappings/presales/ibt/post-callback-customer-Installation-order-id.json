@@ -7,12 +7,12 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "status": 200
+    "status": 202
   },
   "postServeActions": {
     "webhook": {
       "url": "{{request.headers.X-Callback-Url}}",
-      "bodyFileName": "ibt/valid-customer-installation-oder-id.json",
+      "bodyFileName": "presales/ibt/valid-customer-installation-order-id.json",
       "method": "POST",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",

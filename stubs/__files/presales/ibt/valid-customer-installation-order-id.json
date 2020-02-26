@@ -1,6 +1,3 @@
 {
-  "customerInstallationOrderId": "{{randomValue length=10 type='NUMERIC}}",
-  "message": "Successfully created customer installation order with id orderid-123",
-  "messageCode": "?",
-  "messageType": "SUCCESSFUL"
+  "customerInstallationOrderId": 1{{randomValue length=10 type='NUMERIC'}}
 }

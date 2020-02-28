@@ -9,8 +9,8 @@
     "eventPayload": {
       "id": "1",
       "externalId": "5678",
-      "lineId": "DEU.GFNW.8094935087",
-      "confirmedDueDate": "2020-01-10T00:00:00.000Z",
+      "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+      "confirmedDueDate": "{{now format=\"yyyy-MM-dd'T'HH:mm:ss.SSS\"}}Z",
       "ramMaxDownL2": 1000000,
       "ramMaxUpL2": 500000,
       "ramMinDownL2": 62000,

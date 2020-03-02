@@ -1,0 +1,24 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/bngCarrierConnections",
+    "queryParameters": {
+      "bngEndsz": {
+        "matches": "^49/911/84/7ZJD$"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "bngEndSz": "49/911/84/7ZJD",
+        "carrierConnections": []
+      }
+    ]
+  }
+}

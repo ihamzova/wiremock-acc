@@ -22,7 +22,11 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "actualRunState": "Online"
+          "actualRunState": "Online",
+          "ontId": "{{jsonPath request.body '$.ontId'}}",
+          "lastDownTime": "2020-01-01T01:02:03.456Z",
+          "lastDownCause": "LOS",
+          "lastUpTime": "2020-03-08T08:09:10.654Z"
         }
       }
     }

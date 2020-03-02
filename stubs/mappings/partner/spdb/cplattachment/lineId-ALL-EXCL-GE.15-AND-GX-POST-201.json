@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/service-order-service-inventory/v1/cplAttachment*",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment*|/service-order-service-inventory/v1/cplAttachment*",
 	"bodyPatterns" : [ {
       "matchesJsonPath" : "$[?(@.lineIdFtth =~ /((?!DEU.DTAG.GE15000000|DEU.DTAG.GX[0-9]+).)*/)]"
 

@@ -6,19 +6,15 @@
       "vpsz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"
       },
-      "fsz": {
-        "matches": "[a-zA-Z0-9]{0,4}"
-      },
       "type": {
-        "equalTo": "OLT"
+        "equalTo": "BNG"
       }
     }
   },
   "response": {
-    "status": 200,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json"
-    },
-    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-fsz-{{replace request.query.vpsz '/' '_'}}_{{request.query.fsz}}.json"
+    }
   }
 }

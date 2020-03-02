@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/resource-order-resource-inventory/activeAccessPlatform/v1/networkElementPorts/.*"
+    "urlPattern": "/resource-order-resource-inventory/activeAccessPlatform/v1/networkElementPorts.*"
   },
   "response": {
     "status": 200,

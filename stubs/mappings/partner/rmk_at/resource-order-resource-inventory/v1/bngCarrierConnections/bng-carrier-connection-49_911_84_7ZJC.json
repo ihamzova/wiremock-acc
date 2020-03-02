@@ -1,0 +1,55 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/bngCarrierConnections",
+    "queryParameters": {
+      "bngEndsz": {
+        "matches": "^49/911/84/7ZJC$"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "bngEndSz": "49/911/84/7ZJC",
+        "carrierConnections": [
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFFE7174ADEA5F1D7DD7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFFD15D496BBFE04BCA7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "2CFACCF99CEF421FACCF0B3327441355",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "27ED326626F242CF873478137FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "3BFA89517C80418E923B5075605F3930",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF98764712B6285B0852671DF0",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          }
+        ]
+      }
+    ]
+  }
+}

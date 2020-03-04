@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/networkServiceProfilesFtthAccess/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/networkServiceProfilesFtthAccess/network-service-profiles-ftth-access-1.json"
+  }
+}

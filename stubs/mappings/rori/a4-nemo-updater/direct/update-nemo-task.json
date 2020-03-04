@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/updateNemoTask"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

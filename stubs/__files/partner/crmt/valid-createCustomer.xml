@@ -21,11 +21,10 @@
                     <ns1:processTypeId>AnlegenKunde</ns1:processTypeId>
                 </ns1:businessContext>
             </ns2:context>
-
             <ns2:data>
                 <ns4:anlegenKundeReply>
                     <ns4:RequestErgebnis>
-                        <bom:Kundennummer>1234567890</bom:Kundennummer>
+                        <bom:Kundennummer>{{randomValue length=10 type='NUMERIC'}}</bom:Kundennummer>
                         <bom:Vertriebsbereichskennzeichen>25</bom:Vertriebsbereichskennzeichen>
                         <ns4:AnsprechpartnerAKReply>
                             <ns4:ASP_HASP>
@@ -45,7 +44,7 @@
                             <ns4:NichtBOMElemente>
                                 <crmt:RechnungsvereinbarungsnummerFinal>true</crmt:RechnungsvereinbarungsnummerFinal>
                             </ns4:NichtBOMElemente>
-                            <bom:Rechnungsvereinbarungsnummer>4962110854</bom:Rechnungsvereinbarungsnummer>
+                            <bom:Rechnungsvereinbarungsnummer>{{randomValue length=10 type='NUMERIC'}}</bom:Rechnungsvereinbarungsnummer>
                         </ns4:RechnungsvereinbarungAKReply>
                     </ns4:RequestErgebnis>
                     <ns4:NichtBOMElemente>

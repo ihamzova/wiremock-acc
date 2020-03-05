@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]+)"
+  },
+  "response": {
+    "status": 200,
+
+    "bodyFileName": "presales/area-data-management/fibre-locations-by-id-payload.json"
+  }
+}

@@ -21,30 +21,31 @@
                     <ns1:processTypeId>AnlegenKunde</ns1:processTypeId>
                 </ns1:businessContext>
             </ns2:context>
+
             <ns2:data>
                 <ns4:anlegenKundeReply>
                     <ns4:RequestErgebnis>
-                        <bom:Kundennummer>{{randomValue length=10 type='NUMERIC'}}</bom:Kundennummer>
+                        <bom:Kundennummer>1234567890</bom:Kundennummer>
                         <bom:Vertriebsbereichskennzeichen>25</bom:Vertriebsbereichskennzeichen>
                         <ns4:AnsprechpartnerAKReply>
                             <ns4:ASP_HASP>
-                                <crmt:AnsprechpartnerID>1-2FS6YQ</crmt:AnsprechpartnerID>
+                                <crmt:AnsprechpartnerID>1-2FS7YQ</crmt:AnsprechpartnerID>
                             </ns4:ASP_HASP>
                             <ns4:ASP_ASP>
-                                <crmt:AnsprechpartnerID>1-2FS6YQ</crmt:AnsprechpartnerID>
+                                <crmt:AnsprechpartnerID>1-2FS7YQ</crmt:AnsprechpartnerID>
                             </ns4:ASP_ASP>
                             <ns4:ASP_Standort>
-                                <crmt:AnsprechpartnerID>1-2FS6YQ</crmt:AnsprechpartnerID>
+                                <crmt:AnsprechpartnerID>1-2FS7YQ </crmt:AnsprechpartnerID>
                             </ns4:ASP_Standort>
                             <ns4:ASP_BKTO>
-                                <crmt:AnsprechpartnerID>1-2FS6YQ</crmt:AnsprechpartnerID>
+                                <crmt:AnsprechpartnerID>1-2FS7YQ</crmt:AnsprechpartnerID>
                             </ns4:ASP_BKTO>
                         </ns4:AnsprechpartnerAKReply>
                         <ns4:RechnungsvereinbarungAKReply>
-                            <bom:Rechnungsvereinbarungsnummer>6782166930</bom:Rechnungsvereinbarungsnummer>
                             <ns4:NichtBOMElemente>
                                 <crmt:RechnungsvereinbarungsnummerFinal>true</crmt:RechnungsvereinbarungsnummerFinal>
                             </ns4:NichtBOMElemente>
+                            <bom:Rechnungsvereinbarungsnummer>4962110854</bom:Rechnungsvereinbarungsnummer>
                         </ns4:RechnungsvereinbarungAKReply>
                     </ns4:RequestErgebnis>
                     <ns4:NichtBOMElemente>

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/giga-installation-order/v3/customerInstallationOrders/([0-9]+)/installationTimeslots"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody" : [{
+      "cioBid": 10500,
+      "klsId": "3237818",
+      "fromDateTime": "{{now offset='8 days' format='yyyy-MM-dd'}}T12:00:00.000Z",
+      "toDateTime": "{{now offset='8 days' format='yyyy-MM-dd'}}T15:00:00.000Z",
+      "timeslotReferenceId": 10268,
+      "timeslotBookingType": "TAInstallation",
+      "bookingStatus": "ASSIGNED"
+    }]
+  }
+}

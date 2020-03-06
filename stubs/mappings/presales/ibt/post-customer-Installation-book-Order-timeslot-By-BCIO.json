@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/giga-installation-order/v2/customerInstallationOrders/([0-9]+)/installationTimeslots/book"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200
+  }
+}

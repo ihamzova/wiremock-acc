@@ -1,0 +1,57 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-installation-order/v2/propertyOwners\\?klsId=3237819"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody" : [
+      {
+        "businessId": 10079,
+        "loginId": "10079",
+        "propertyOwnerBid": 10079,
+        "propertyOwnerClassificationType": "PROPERTY_OWNER",
+        "propertyOwnerOrganization": null,
+        "propertyOwnerIndividual": {
+          "givenName": "Tina",
+          "familyName": "Test",
+          "salutation": "MRS",
+          "title": null
+        },
+        "propertyOwnerContactMedia": [
+          {
+            "businessId": 10222,
+            "contactData": "01231231231231",
+            "contactMediumType": "MOBILE",
+            "preferred": false
+          },
+          {
+            "businessId": 10221,
+            "contactData": "sneha.reddy.test10@aoe.com",
+            "contactMediumType": "EMAIL",
+            "preferred": false
+          }
+        ],
+        "propertyOwnerContactPersons": [],
+        "address": {
+          "street": "GigaFakeStrasse",
+          "houseNumber": 8,
+          "houseNumberAppendix": null,
+          "postcode": "71254",
+          "postOfficeBox": null,
+          "district": null,
+          "city": "Ditzingen",
+          "country": "DE"
+        },
+        "propertyBids": [
+          10052
+        ],
+        "isCustomer": true,
+        "primaryPropertyOwnerContactPersonBid": null
+      }
+    ]
+  }
+}

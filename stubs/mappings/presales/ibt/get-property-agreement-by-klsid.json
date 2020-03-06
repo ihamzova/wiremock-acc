@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/giga-installation-order/v2/properties/3237819/agreement"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody" : {
+      "buildUpAgreement": true,
+      "agreementUser": "string",
+      "agreementDate": "2020-02-04T11:13:29.347Z",
+      "buildUpType": "FTTH",
+      "buildUpDecisionChannel": "LANDLORD_PORTAL",
+      "buildUpRejectionReason": ""
+    }
+  }
+}

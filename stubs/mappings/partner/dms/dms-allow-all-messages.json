@@ -1,12 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/FlexKommCWFService/",
-    "headers": {
-      "Content-Type": {
-        "equalTo": "application/json"
-      }
-    }
+    "urlPattern": "/FlexKommCWFService/"
   },
   "response": {
     "status": 201

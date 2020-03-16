@@ -24,7 +24,7 @@
             <ns2:data>
                 <ns4:anlegenKundeReply>
                     <ns4:RequestErgebnis>
-                        <bom:Kundennummer>{{randomValue length=10 type='NUMERIC'}}</bom:Kundennummer>
+                        <bom:Kundennummer>1{{randomValue length=9 type='NUMERIC'}}</bom:Kundennummer>
                         <bom:Vertriebsbereichskennzeichen>25</bom:Vertriebsbereichskennzeichen>
                         <ns4:AnsprechpartnerAKReply>
                             <ns4:ASP_HASP>

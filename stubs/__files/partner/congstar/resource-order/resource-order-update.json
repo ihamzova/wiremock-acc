@@ -10,7 +10,7 @@
       "id": "1",
       "externalId": "5678",
       "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
-      "confirmedDueDate": "{{#assign 'dateFormat'}}yyyy-MM-dd'T'HH:mm:ss.SSS{{\/assign}}{{now format=dateFormat}}Z",
+      "confirmedDueDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
       "ramMaxDownL2": 1000000,
       "ramMaxUpL2": 500000,
       "ramMinDownL2": 62000,

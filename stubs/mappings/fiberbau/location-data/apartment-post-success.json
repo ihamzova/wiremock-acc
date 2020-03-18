@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/giga-areas-location/v2/apartments",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "buildingSectionCplId": "ZZZZZ8",
+          "description": null
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "statusMessage": "Success. Response(201) for POST /giga-areas-location/v2/apartments",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "fiberbau/location-data/apartment-post-success.json"
+  }
+}

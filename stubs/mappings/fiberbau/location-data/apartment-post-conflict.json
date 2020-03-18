@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/giga-areas-location/v2/apartments",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "buildingSectionCplId": "ZZZZZ5",
+          "description": null
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 409,
+    "statusMessage": "Bad request. Response(409) for POST /giga-areas-location/v2/apartments",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "fiberbau/location-data/apartment-post-conflict.json"
+  }
+}

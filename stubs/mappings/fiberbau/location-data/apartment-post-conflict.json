@@ -13,10 +13,15 @@
   },
   "response": {
     "status": 409,
-    "statusMessage": "Bad request. Response(409) for POST /giga-areas-location/v2/apartments",
+    "statusMessage": "Conflict. Response(409) for POST /giga-areas-location/v2/apartments",
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "fiberbau/location-data/apartment-post-conflict.json"
+    "jsonBody": {
+      "status": 409,
+      "detail": "Not correct CPL-ID",
+      "type": "Conflict",
+      "title": "Conflict - Building Section Not Found"
+    }
   }
 }

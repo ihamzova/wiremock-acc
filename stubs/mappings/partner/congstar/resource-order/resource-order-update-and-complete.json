@@ -28,7 +28,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 10000,
+          "fixedDelayMilliseconds": 15000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json",

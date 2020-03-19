@@ -17,6 +17,9 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "fiberbau/location-data/apartment-post-success.json"
+    "jsonBody": {
+      "apartmentCplId": "ZZZZZ3",
+      "buildingSectionCplId": "{{jsonPath request.body '$.buildingSectionCplId'}}"
+    }
   }
 }

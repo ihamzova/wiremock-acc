@@ -9,6 +9,9 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "fiberbau/location-data/building-section-post.json"
+    "jsonBody": {
+      "buildingSectionCplId": "ZZZZZ8",
+      "klsId": "{{jsonPath request.body '$.klsId'}}"
+    }
   }
 }

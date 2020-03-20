@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/sucheProduktUeberAngebot",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns" : [ {
+      "equalToXml" : "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns=\"http://services.tdeu.telekom.net/CustRelMgmt/SalesServAndMktDev/SucheProduktUeberAngebot_v08.00\" xmlns:tns=\"http://services.tdeu.telekom.net/CustRelMgmt/SalesServAndMktDev/SucheProduktUeberAngebot_v08.00\" xmlns:suc=\"http://sucheProduktUeberAngebot_v08.SalesAndServiceCatalogue.CRM.bbfn.telekom.de\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"> <soapenv:Body> <sucheProduktUeberAngebot> <context> <technicalContext> <from>de.telekom.digioss.architecture.DigiOSS:Default</from> <routingInfo>de.telekom.digioss.architecture.DigiOSS:Default:SucheProduktUeberAngebot</routingInfo> <messageId>${xmlunit.ignore}</messageId> <currentSenderTimestampUTC>${xmlunit.ignore}</currentSenderTimestampUTC> <expiryOffsetInMillis>${xmlunit.ignore}</expiryOffsetInMillis> </technicalContext> <businessContext> <processId>DigiOSS::AVIA</processId> <processTypeId>AVIA::PSM</processTypeId> </businessContext> </context> <data> <suc:sucheProduktUeberAngebot> <suc:Angebot> <suc:ID>${xmlunit.ignore}</suc:ID> <suc:Geschaeftsfall>Bereitstellung</suc:Geschaeftsfall> <suc:PreisbildungsdatumFuerZubuchpositionen>${xmlunit.ignore} </suc:PreisbildungsdatumFuerZubuchpositionen> <suc:Waehrung>EUR</suc:Waehrung> <suc:Preisliste>03</suc:Preisliste> <suc:Wunschtermin>${xmlunit.ignore}</suc:Wunschtermin> <suc:Vertriebspunktnummer>${xmlunit.ignore}</suc:Vertriebspunktnummer> <suc:Angebotsposition> <suc:Angebotspositionsnummer>189699869761</suc:Angebotspositionsnummer> <suc:Aktion>neu</suc:Aktion> <suc:Preisbildungsdatum>${xmlunit.ignore}</suc:Preisbildungsdatum> <suc:Menge>1</suc:Menge> <suc:MengenEinheit>ST</suc:MengenEinheit> <suc:Montagewunsch>false</suc:Montagewunsch> <suc:StandortONKZ></suc:StandortONKZ> <suc:Produkt> <suc:ID>50099921</suc:ID> <suc:istStandortlos>false</suc:istStandortlos> </suc:Produkt> </suc:Angebotsposition> </suc:Angebot> <suc:Filteroptionen> <suc:ErweiterungDesBestandes>false</suc:ErweiterungDesBestandes> <suc:Materialnummer>50099921</suc:Materialnummer> <suc:ErmittleKonditionsverlauf>false</suc:ErmittleKonditionsverlauf> <suc:sortiereKonditionsalternativen>true</suc:sortiereKonditionsalternativen> </suc:Filteroptionen> </suc:sucheProduktUeberAngebot> </data> </sucheProduktUeberAngebot> </soapenv:Body></soapenv:Envelope>",
+      "enablePlaceholders" : true
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/tck/giga-response.xml"
+  }
+}

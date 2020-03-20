@@ -1,6 +1,6 @@
 {
   "request": {
-    "url": "/logicalResource/6ab0f3c6-4b72-4174-a1a9-6a97dd7a1e81",
+    "urlPattern": "/logicalResource/.*",
     "method": "PUT"
   },
   "response": {
@@ -8,6 +8,7 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "partner/nemo/a4_nemo_updater_NE_PUT.json"
+    "body": "{{{request.body}}}",
+    "transformers": ["response-template"]
   }
 }

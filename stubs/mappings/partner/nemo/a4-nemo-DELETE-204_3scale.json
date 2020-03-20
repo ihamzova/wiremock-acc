@@ -1,10 +1,10 @@
 {
   "request": {
-    "url": "/logicalResource/3aec4663-78cc-435e-9652-bdd0606433e7",
+    "urlPattern": "/resource-order-resource-inventory/activeAccessPlatform/nemo/v1/logicalResource.*",
     "method": "DELETE"
   },
   "response": {
-    "status": 500,
+    "status": 204,
     "headers": {
       "Content-Type": "application/json"
     }

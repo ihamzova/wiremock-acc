@@ -1,0 +1,28 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/port",
+    "queryParameters": {
+      "endSz": {
+        "matches": ".*"
+      },
+      "slotNumber": {
+        "matches": ".*"
+      },
+      "portNumber": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "errorCode": null,
+      "message": "There is no Port present in database with 'endSz' = {{request.query.endSz}}, 'slotNumber' = {{request.query.slotNumber}}, 'portNumber' = {{request.query.portNumber}}"
+    }
+  }
+}

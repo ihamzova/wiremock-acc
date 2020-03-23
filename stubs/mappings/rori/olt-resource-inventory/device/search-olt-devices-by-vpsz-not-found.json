@@ -1,14 +1,14 @@
 {
-  "priority": 2,
+  "priority": 3,
   "request": {
     "method": "GET",
     "urlPath": "/api/oltResourceInventory/v1/olt/vpszlookup",
     "queryParameters": {
       "vpsz": {
-        "equalTo": "49/30/179"
+        "matches": ".*"
       },
       "devicetype": {
-        "equalTo": "OLT"
+        "matches": ".*"
       }
     }
   },
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-{{replace request.query.vpsz '/' '_'}}.json"
+    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-not_found.json"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/olt/findFlatOltByEndsz",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49\\/30\\/179\\/76H1|49\\/911\\/1100\\/76H1|49\\/8571\\/0\\/76HA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/flatdevice/endSz/search-flat-olt-device-by-endSZ-{{replace request.query.endsz '/' '_'}}.json"
+  }
+}

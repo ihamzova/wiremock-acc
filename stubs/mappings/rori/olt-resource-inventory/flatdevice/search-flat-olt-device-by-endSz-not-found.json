@@ -1,0 +1,22 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/olt/findFlatOltByEndsz",
+    "queryParameters": {
+      "endsz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "errorCode": null,
+      "message": "There is no OLT present in database with 'endSZ' = {{request.query.endsz}}"
+    }
+  }
+}

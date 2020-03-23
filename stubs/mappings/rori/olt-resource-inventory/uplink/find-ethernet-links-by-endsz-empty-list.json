@@ -1,9 +1,10 @@
 {
+  "priority": 3,
   "request": {
     "method": "GET",
-    "urlPath": "/api/oltResourceInventory/v1/olt",
+    "urlPath": "/api/oltResourceInventory/v1/olt/findEthernetLinksByEndsz",
     "queryParameters": {
-      "endSZ": {
+      "oltEndSz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}"
       }
     }
@@ -13,6 +14,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/device/endSz/search-olt-device-by-endSZ-{{replace request.query.endSZ '/' '_'}}.json"
+    "bodyFileName": "rori/olt-resource-inventory/uplink/endsz/find-ethernet-links-by-endsz-not-found.json"
   }
 }

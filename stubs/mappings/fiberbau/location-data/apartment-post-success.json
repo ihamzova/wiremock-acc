@@ -1,13 +1,11 @@
 {
+  "priority": 2,
   "request": {
     "method": "POST",
     "url": "/giga-areas-location/v2/apartments",
     "bodyPatterns": [
       {
-        "equalToJson": {
-          "buildingSectionCplId": "ZZZZZ8",
-          "description": null
-        }
+        "matchesJsonPath": "$.buildingSectionCplId"
       }
     ]
   },

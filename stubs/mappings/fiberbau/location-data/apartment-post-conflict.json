@@ -1,4 +1,5 @@
 {
+  "priority": 1,
   "request": {
     "method": "POST",
     "url": "/giga-areas-location/v2/apartments",
@@ -21,7 +22,7 @@
       "status": 409,
       "detail": "Not correct CPL-ID",
       "type": "Conflict",
-      "title": "Conflict - Building Section Not Found"
+      "title": "Conflict - Building Section is not Found"
     }
   }
 }

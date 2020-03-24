@@ -1,0 +1,111 @@
+{
+  "shortName": "GPBH",
+  "materialNumber": "40294954",
+  "emsNbiName": "H807GPBH",
+  "tkz1": "03022MLN",
+  "tkz2": null,
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+  "lastDiscovery": "2020-03-18T08:24:35.266",
+  "id": 1534,
+  "resourceId": "b3db39af-40bd-4425-a730-2c7ca2f95e3f",
+  "name": "8-port GPON OLT Interface Board V3",
+  "description": null,
+  "serialNumber": "022MLNCNF2000489",
+  "serviceState": null,
+  "resourceState": "INSTALLING_INSTALLED",
+  "firmwareVersion": "507(2015-8-27)",
+  "cardType": "GPON",
+  "equipmentNumber": "212880063",
+  "manufacturer": "HUAWEI",
+  "ports": [
+    {
+      "id": 3788,
+      "resourceId": "7c91e95f-c7eb-4816-bef9-084d26442ea0",
+      "portType": "PON",
+      "portNumber": "0",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3789,
+      "resourceId": "65f39053-c495-4682-919c-e0c08dee3c28",
+      "portType": "PON",
+      "portNumber": "1",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3790,
+      "resourceId": "aef7fbc4-f6c8-4ca6-974a-a1f0ae2a5186",
+      "portType": "PON",
+      "portNumber": "2",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3791,
+      "resourceId": "00f5760b-2f8e-4a0f-9816-85488cf94733",
+      "portType": "PON",
+      "portNumber": "3",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3792,
+      "resourceId": "14734db0-4faa-47ce-9006-cdd4204707b9",
+      "portType": "PON",
+      "portNumber": "4",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3793,
+      "resourceId": "fe928c22-bf53-4b85-a913-83a3a8af9a91",
+      "portType": "PON",
+      "portNumber": "5",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3794,
+      "resourceId": "0b848f7a-901d-49a0-baf0-63725e9bd39f",
+      "portType": "PON",
+      "portNumber": "6",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 3795,
+      "resourceId": "2a40f7d6-7d15-4b39-b923-7ea42a41b349",
+      "portType": "PON",
+      "portNumber": "7",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    }
+  ],
+  "compositePartyId": 10001
+}

@@ -2,10 +2,13 @@
   "priority": 3,
   "request": {
     "method": "GET",
-    "urlPath": "/api/oltResourceInventory/v1/olt/findFlatOltByEndsz",
+    "urlPath": "/api/oltResourceInventory/v1/card",
     "queryParameters": {
-      "endsz": {
+      "endSz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{0,5}"
+      },
+      "slotNumber": {
+        "matches": ".*"
       }
     }
   },
@@ -16,7 +19,7 @@
     },
     "jsonBody": {
       "errorCode": null,
-      "message": "There is no OLT present in database with 'endSZ' = {{request.query.endsz}}"
+      "message": "There is no Card present in database with 'endSz' = {{request.query.endSz}}, 'slotNumber' = {{request.query.slotNumber}}"
     }
   }
 }

@@ -16,7 +16,7 @@
       "Content-Type": "application/json"
     },
     "jsonBody": {
-      "apartmentCplId": "ZZZZZ3",
+      "apartmentCplId": "Z{{randomValue length=5 type='NUMERIC'}}",
       "buildingSectionCplId": "{{jsonPath request.body '$.buildingSectionCplId'}}"
     }
   }

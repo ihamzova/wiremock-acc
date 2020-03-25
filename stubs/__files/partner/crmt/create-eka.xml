@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <service:anlegenElektronischeKontaktAdresseResponse 
+            xsi:schemaLocation="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/AnlegenElektronischeKontaktAdresse_v01.00 AnlegenElektronischeKontaktAdresse-ValidationHelper_v01.00.xsd" 
+            xmlns:bom="http://bom.telekom.de/cc" 
+            xmlns:crmt="http://bom.telekom.de/crmt" 
+            xmlns:eka="http://bom.telekom.de/eka"
+            xmlns:csdg="http://schemas.telekom.net/csdg_v01.01" 
+            xmlns:service="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/AnlegenElektronischeKontaktAdresse_v01.00" 
+            xmlns:types="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/AnlegenElektronischeKontaktAdresse_v01.00/types" 
+            xmlns:bomtypes="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/types_v01.01" 
+            xmlns:cc="http://bom.telekom.de/cc">
+            <types:context>
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.CRM_T:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.DMS:Default:AnlegenElektronischeKontaktAdresse_v01.00_CRM_T</csdg:routingInfo>
+                    <csdg:messageId>414d51204d524931425231202020202054b507c720025105</csdg:messageId>
+                    <csdg:relatesToMessageId>414d51204d524931425231202020202054b507c720025104</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2014-12-24T13:52:58.000Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+                    <csdg:priority>0</csdg:priority>
+                    <csdg:replyState>status container</csdg:replyState>
+                    <csdg:property name='crmt.SystemID'>CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>02E51</csdg:processId>
+                    <csdg:processTypeId>AnlegenElektronischeKontaktAdresse_v01.00</csdg:processTypeId>
+                </csdg:businessContext>
+            </types:context>
+            <types:data>
+                <bomtypes:anlegenElektronischeKontaktAdresseReply>
+                    <bomtypes:RequestErgebnis>
+                        <bomtypes:EKA-ID>ekaId</bomtypes:EKA-ID>
+                        <bom:Kundennummer>customerId</bom:Kundennummer>
+                        <crmt:KundenID>customerRowId</crmt:KundenID>
+                        <bomtypes:ASP-ID>customerContactId</bomtypes:ASP-ID>
+                    </bomtypes:RequestErgebnis>
+                    <bomtypes:ReturnCode>00</bomtypes:ReturnCode>
+                </bomtypes:anlegenElektronischeKontaktAdresseReply>
+            </types:data>
+        </service:anlegenElektronischeKontaktAdresseResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

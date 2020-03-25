@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap-env:Body>
+      <tns:lesenElektronischeKontaktAdresseResponse xmlns:tns="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/LesenElektronischeKontaktAdresse_v01.00" xmlns:bom="http://bom.telekom.de/cc" xmlns:bomtypes="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/types_v01.01" xmlns:crmt="http://bom.telekom.de/crmt" xmlns:csdg="http://schemas.telekom.net/csdg_v01.01" xmlns:eka="http://bom.telekom.de/eka" xmlns:types="http://services.tdeu.telekom.net/CustRelMgmt/ContactMgmt/LesenElektronischeKontaktAdresse_v01.00/types">
+         <types:context>
+            <csdg:technicalContext>
+               <csdg:from>de.telekom.CRM_T:Default</csdg:from>
+               <csdg:routingInfo>de.telekom.vvm.architecture.VVM:Default:LesenElektronischeKontaktAdresse</csdg:routingInfo>
+               <csdg:messageId>fe1fdcd6-466a-11ea-9f19-0aa9ac5a0000</csdg:messageId>
+               <csdg:relatesToMessageId>715bb203-a35d-4b0e-a1d8-2c994eaad19d</csdg:relatesToMessageId>
+               <csdg:currentSenderTimestampUTC>2020-02-03T09:53:12.602Z</csdg:currentSenderTimestampUTC>
+               <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+               <csdg:priority>0</csdg:priority>
+               <csdg:replyState>eyJpbmJPZGJFdnQiOmZhbHNlLCJSZXF1ZXN0T3BlcmF0aW9uIjoibGVzZW5FbGVrdHJvbmlzY2hlS29udGFrdEFkcmVzc2UiLCJtZXBUeXBlIjoiU1lOQyIsIlNpbXBsZVBQTmFtZSI6Ikxlc2VuRWxla3Ryb25pc2NoZUtvbnRha3RBZHJlc3NlX1ZWTSIsIlJlcXVlc3RJZCI6IjcxNWJiMjAzLWEzNWQtNGIwZS1hMWQ4LTJjOTk0ZWFhZDE5ZCIsInJvdXRpbmdJbmZvIjoiZGUudGVsZWtvbS52dm0uYXJjaGl0ZWN0dXJlLlZWTTpEZWZhdWx0Okxlc2VuRWxla3Ryb25pc2NoZUtvbnRha3RBZHJlc3NlIiwiUmVxU3RhcnRUaW1lIjoiMTU4MDcyMzU5MjAwMSIsIlByb3ZpZGVyU2VuZGVyTmFtZSI6ImRlLnRlbGVrb20uQ1JNX1Q6RGVmYXVsdCIsImxvZ3BvaW50SWQiOiJDQjMxNDg3OEVBRTkyNzc0MDI2QkNDNzgzN0U3MzJENiIsIldzZ0luc3RhbmNlSWQiOiJ1cm46dXVpZDoyRkVEQjIyMjY4RkQ2QTIyMjExNTgwMzc1MDA3NzQzMCIsIlJlc3BvbnNlUXVldWUiOiJTeXN0ZW1UZXN0LmRlLnRlbGVrb20uQ1JNX1QuRGVmYXVsdC5MZXNlbkVsZWt0cm9uaXNjaGVLb250YWt0QWRyZXNzZV9WVk0ubG9jLnJlc3AiLCJDb3JyZWxhdGlvbklkIjoiOGIwMzdhNTctMTg1ZS00YTNlLWJkNjktNGQ0ZGI4YzcwM2UwIiwiVGFyZ2V0TmFtZXNwYWNlIjoiaHR0cDovL3NlcnZpY2VzLnRkZXUudGVsZWtvbS5uZXQvQ3VzdFJlbE1nbXQvQ29udGFjdE1nbXQvTGVzZW5FbGVrdHJvbmlzY2hlS29udGFrdEFkcmVzc2VfdjAxLjAwIiwicmVwbHlTdGF0ZSI6InN0YXR1cyBjb250YWluZXIifQ==</csdg:replyState>
+            </csdg:technicalContext>
+            <csdg:businessContext>
+               <csdg:processId>02E50</csdg:processId>
+               <csdg:processTypeId>LesenElektronischeKontaktAdresse_v01.00</csdg:processTypeId>
+            </csdg:businessContext>
+         </types:context>
+         <types:data>
+            <bomtypes:lesenElektronischeKontaktAdresseReply>
+               <bomtypes:ReturnCode>00</bomtypes:ReturnCode>
+               <bomtypes:Suchargument>
+                  <bom:Kundennummer>1234567890</bom:Kundennummer>
+               </bomtypes:Suchargument>
+               <bomtypes:EKA-Kunde>
+                  <bom:Kundennummer>1234567890</bom:Kundennummer>
+                  <crmt:KundenID>customerRowId</crmt:KundenID>
+                  <bomtypes:EKA-Ansprechpartner>
+                     <bomtypes:ASP-ID>contactPersonId</bomtypes:ASP-ID>
+                     <bomtypes:ASP-HASP>true</bomtypes:ASP-HASP>
+                     <bomtypes:ASP-Primary>true</bomtypes:ASP-Primary>
+                     <bomtypes:ASP-Anrede>2</bomtypes:ASP-Anrede>
+                     <bomtypes:ASP-Rechtsform>18</bomtypes:ASP-Rechtsform>
+                     <bomtypes:ASP-Name1>surname</bomtypes:ASP-Name1>
+                     <bomtypes:ASP-Vorname>name</bomtypes:ASP-Vorname>
+                     <bomtypes:ASP-Strasze>street</bomtypes:ASP-Strasze>
+                     <bomtypes:ASP-PLZ>68165</bomtypes:ASP-PLZ>
+                     <bomtypes:ASP-Ort>Mannheim</bomtypes:ASP-Ort>
+                  </bomtypes:EKA-Ansprechpartner>
+                  <bomtypes:ElektronischeKontaktAdresse>
+                     <bomtypes:EKA-ID>ekaId</bomtypes:EKA-ID>
+                     <bomtypes:EKA-ASP-ID>contactPersonId</bomtypes:EKA-ASP-ID>
+                     <bomtypes:EKA-KdNr>1234567890</bomtypes:EKA-KdNr>
+                     <bomtypes:EKA-Aktiv>true</bomtypes:EKA-Aktiv>
+                     <eka:EKA-Typ>E-Mail</eka:EKA-Typ>
+                     <eka:EKA-Verwendungszweck>Vertragskommunikation</eka:EKA-Verwendungszweck>
+                     <eka:EKA-Wert>doesnotmatchtest@test.com</eka:EKA-Wert>
+                     <eka:EKA-Ruecklaeufersperre>false</eka:EKA-Ruecklaeufersperre>
+                     <eka:EKA-Hotline-Sperre>false</eka:EKA-Hotline-Sperre>
+                     <eka:EKA-Verifikationsstatus>Verifikation angestoßen</eka:EKA-Verifikationsstatus>
+                  </bomtypes:ElektronischeKontaktAdresse>
+               </bomtypes:EKA-Kunde>
+            </bomtypes:lesenElektronischeKontaktAdresseReply>
+         </types:data>
+      </tns:lesenElektronischeKontaktAdresseResponse>
+   </soap-env:Body>
+</soap-env:Envelope>

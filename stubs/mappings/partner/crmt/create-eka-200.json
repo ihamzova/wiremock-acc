@@ -6,13 +6,7 @@
       "Content-Type": {
         "equalTo": "text/xml; charset=UTF-8"
       }
-    },
-    "bodyPatterns": [
-      {
-        "matchesXPath": "//ns3:Kundennummer[.='1234567890']",
-        "xPathNamespaces" : { "ns3":"http://bom.telekom.de/cc" }
-      }
-    ]
+    }
   },
   "response": {
     "status": 200,

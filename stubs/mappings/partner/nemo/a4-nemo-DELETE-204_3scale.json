@@ -1,6 +1,6 @@
 {
   "request": {
-    "urlPattern": "/resource-order-resource-inventory/activeAccessPlatform/nemo/v1/logicalResource.*",
+    "urlPattern": "/resource-order-resource-inventory/v1/nemo/logicalResource.*",
     "method": "DELETE"
   },
   "response": {

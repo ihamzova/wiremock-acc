@@ -2,16 +2,13 @@
   "priority": 4,
   "request": {
     "method": "GET",
-    "urlPath": "/api/a4ResourceInventory/v1/networkElements",
+    "urlPath": "/resource-order-resource-inventory/v1/networkElements",
     "queryParameters": {
       "vpsz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"
       },
       "fsz": {
         "matches": "7KH4"
-      },
-      "type": {
-        "equalTo": "OLT"
       }
     }
   },

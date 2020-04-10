@@ -1,0 +1,26 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns4:annehmenAuftragResponse xmlns:ns4="http://spri.telekom.de/oss/v5/envelopeOal">
+            <control>
+                <zeitstempel>{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>90</minorRelease>
+                <signaturId>
+                    <issuer>DTAG</issuer>
+                    <serial>123456</serial>
+                </signaturId>
+            </control>
+            <quittung>
+                <meldungsTyp>TEQ</meldungsTyp>
+                <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
+                <auftraggebernummer>2016006901</auftraggebernummer>
+                <meldungspositionen>
+                    <position>
+                        <meldungscode>OK</meldungscode>
+                        <meldungstext>OK</meldungstext>
+                    </position>
+                </meldungspositionen>
+            </quittung>
+        </ns4:annehmenAuftragResponse>
+    </soap:Body>
+</soap:Envelope>

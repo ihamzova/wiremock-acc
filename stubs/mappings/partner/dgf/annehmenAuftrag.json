@@ -1,0 +1,53 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/oss/v4/spri",
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/dgf/OAL-Auftrag-response.xml"
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 1000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "bodyFileName": "partner/dgf/OALBereitstellung-QEB.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 2000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "bodyFileName": "partner/dgf/OALBereitstellung-ABM.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 7000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "bodyFileName": "partner/dgf/OALBereitstellung-ERLM.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 8000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "bodyFileName": "partner/dgf/OALBereitstellung-ENTM.xml"
+        }
+      ]
+    }
+  }
+}

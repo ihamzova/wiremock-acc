@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns2:annehmenMeldungRequest xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal"
+                                    xmlns:ns3="http://spri.telekom.de/oss/v5/message"
+                                    xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
+                                    xmlns:complexOal="http://spri.telekom.de/oss/v5/complexOal">
+            <control>
+                <zeitstempel>{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>90</minorRelease>
+                <signaturId>
+                    <issuer>DTAG</issuer>
+                    <serial>123456</serial>
+                </signaturId>
+            </control>
+            <meldung>
+                <auftragstyp>
+                    <geschaeftsfall>NEU</geschaeftsfall>
+                    <aenderungsKennzeichen>Standard</aenderungsKennzeichen>
+                    <geschaeftsfallart>Bereitstellung</geschaeftsfallart>
+                </auftragstyp>
+                <meldungstyp xsi:type="ns4:MeldungstypABMType" xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <meldungsattribute>
+                        <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
+                        <auftraggebernummer>2016006901</auftraggebernummer>
+                        <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
+                        <verbindlicherLiefertermin>
+                            <datum>{{now offset='3 days' format='yyyy-MM-dd'}}</datum>
+                        </verbindlicherLiefertermin>
+                        <anschluss xsi:type="complexOal:OalAnschlussType">
+                            <leitungsbezeichnung>DEU.VITROC.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}</leitungsbezeichnung>
+                            <patchService>partner</patchService>
+                        </anschluss>
+                    </meldungsattribute>
+                    <meldungspositionen>
+                        <position>
+                            <meldungscode>0011</meldungscode>
+                            <meldungstext>Montage beim Endkunden erforderlich.</meldungstext>
+                            <positionsattribute xsi:type="ns3:MeldungspositionsattributeABMType">
+                                <ansprechpartnerLeistungserbringer>
+                                    <anrede>1</anrede>
+                                    <vorname>Hans</vorname>
+                                    <nachname>Müller</nachname>
+                                    <telefonnummer>052413089393</telefonnummer>
+                                    <faxnummer>052419975205</faxnummer>
+                                    <emailadresse>HansMüller@vitroconnect.de</emailadresse>
+                                </ansprechpartnerLeistungserbringer>
+                            </positionsattribute>
+                        </position>
+                    </meldungspositionen>
+                </meldungstyp>
+            </meldung>
+        </ns2:annehmenMeldungRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

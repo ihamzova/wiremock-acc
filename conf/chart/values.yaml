@@ -23,6 +23,7 @@ app:
       CLIENT_SECRET: "gohgua4ahLaP9quei7go"
       PROVIDER_CLIENT_ID: "wiremock-provider-client"
       PUBLIC_CLIENT_ID: "wiremock-public-client"
+      OAL_CONNECTION_PATH: "http://oal-connection-app"
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"

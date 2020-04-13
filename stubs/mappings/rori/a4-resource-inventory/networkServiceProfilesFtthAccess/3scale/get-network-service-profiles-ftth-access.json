@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/resource-order-resource-inventory/v1/networkServiceProfilesFtthAccess/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/networkServiceProfilesFtthAccess/get-network-service-profiles-ftth-access.json"
+  }
+}

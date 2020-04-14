@@ -1,5 +1,24 @@
 # Central Wiremock Repository
 
+Groovy Helper
+---
+Allows to use groovy to create response
+You need to setup GROOVY_ROOT env variable to setup root path for groovy scripts (default: ./groovy)
+
+Example:
+```json
+{
+  // Use 'inline' property to set inline script
+  // You can add any number of args, they will be available with given names.
+  "simple": "{{groovy  arg1='request.body' arg2='request.headers' inline='context.get(arg1)'}}",
+  // You can use this sintax to pass whichever is in between to variable 'inner' in script 
+  "withInput": "{{#groovy arg1='request.body' arg2='request.headers' inline='context.get(arg2)'}}{{request.body}}{{/groovy}}",
+   // Use 'scriptFilename' to set groovy script filename
+  "file": "{{#groovy arg1='request.body' arg2='request.headers' scriptFilename='example.groovy'}}{{request.body}}{{/groovy}}",
+  "vanilla": "{{jsonPath request.body '$.test'}}"
+}
+```
+
 Webhook Extension
 ---
 Allows to do callbacks

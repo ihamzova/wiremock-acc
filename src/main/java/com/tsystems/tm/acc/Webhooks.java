@@ -22,6 +22,7 @@ import com.github.tomakehurst.wiremock.http.HttpHeader;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
+import com.tsystems.tm.acc.wiremock.groovy.GroovyHandlebarsHelper;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
@@ -69,6 +70,7 @@ public class Webhooks extends PostServeAction {
         this.handlebars.registerHelper(AssignHelper.NAME, new AssignHelper());
         this.handlebars.registerHelper("systemValue", new SystemValueHelper(new SystemKeyAuthoriser(ImmutableSet.of(".*"))));
         this.handlebars.registerHelper("oauth", new Oauth2Helper());
+        this.handlebars.registerHelper(GroovyHandlebarsHelper.NAME, new GroovyHandlebarsHelper());
     }
 
     protected static HttpUriRequest buildRequest(WebhookDefinition definition) {

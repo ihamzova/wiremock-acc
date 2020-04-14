@@ -6,7 +6,7 @@
 
     <groupId>com.tsystems.tm.acc</groupId>
     <artifactId>wiremock-acc</artifactId>
-    <version>1.6</version>
+    <version>1.7</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -84,6 +84,12 @@
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
             <version>${swagger-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.3</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
 

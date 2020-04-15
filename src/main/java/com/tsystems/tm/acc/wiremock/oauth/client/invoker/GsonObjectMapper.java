@@ -11,7 +11,7 @@
  */
 
 
-package com.tsystems.tm.acc.rhsso.client.invoker;
+package com.tsystems.tm.acc.wiremock.oauth.client.invoker;
 
 import io.restassured.mapper.ObjectMapper;
 import io.restassured.mapper.ObjectMapperDeserializationContext;

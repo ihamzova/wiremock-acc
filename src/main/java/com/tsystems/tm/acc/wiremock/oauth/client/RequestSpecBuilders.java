@@ -1,4 +1,4 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.oauth.client;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;

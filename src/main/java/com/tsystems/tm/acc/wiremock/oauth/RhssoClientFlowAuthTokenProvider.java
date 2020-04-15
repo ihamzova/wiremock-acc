@@ -1,12 +1,13 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.oauth;
 
-import com.tsystems.tm.acc.rhsso.client.model.GrantType;
-import com.tsystems.tm.acc.rhsso.client.model.Token;
+import com.tsystems.tm.acc.wiremock.oauth.client.RhssoClient;
+import com.tsystems.tm.acc.wiremock.oauth.client.model.GrantType;
+import com.tsystems.tm.acc.wiremock.oauth.client.model.Token;
 
 import java.time.LocalDateTime;
 
-import static com.tsystems.tm.acc.rhsso.client.invoker.ResponseSpecBuilders.shouldBeCode;
-import static com.tsystems.tm.acc.rhsso.client.invoker.ResponseSpecBuilders.validatedWith;
+import static com.tsystems.tm.acc.wiremock.oauth.client.invoker.ResponseSpecBuilders.shouldBeCode;
+import static com.tsystems.tm.acc.wiremock.oauth.client.invoker.ResponseSpecBuilders.validatedWith;
 
 public class RhssoClientFlowAuthTokenProvider implements AuthTokenProvider {
     private Token token;

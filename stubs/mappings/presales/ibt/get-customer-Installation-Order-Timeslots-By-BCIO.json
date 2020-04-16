@@ -1,7 +1,12 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-installation-order/v3/customerInstallationOrders/([0-9]+)/installationTimeslots"
+    "urlPathPattern": "/giga-installation-order/v3/customerInstallationOrders/([0-9]+)/installationTimeslots",
+    "queryParameters" : {
+      "bookingStatus" : {
+        "equalTo" : "ASSIGNED"
+      }
+    }
   },
   "response": {
     "headers": {

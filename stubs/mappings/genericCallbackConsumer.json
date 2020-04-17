@@ -2,7 +2,7 @@
   "id": "23764df4-39f2-4eaa-877c-d87d15956df9",
   "request": {
     "method": "POST",
-    "url": "/api/genericCallbackConsumer/v1.0/consume/"
+    "urlPattern": "/api/genericCallbackConsumer/v1.0/consume/.*"
   },
   "response": {
     "body": "Ok",

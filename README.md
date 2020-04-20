@@ -18,6 +18,59 @@ Example:
   "vanilla": "{{jsonPath request.body '$.test'}}"
 }
 ```
+In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence"
+
+Groovy Post Serve Action
+---
+Example:
+```json
+{
+  ...
+  "postServeActions": {
+    "groovy": {
+      "inline": "script here",
+      "scriptFileName": "relative path to GROOVY_ROOT", // mutually exclusive with inline
+      "arguments": {
+        "arg1": "val1",
+        "arg2": "val2"
+      }
+    }
+  },
+  ...
+}
+```
+
+Persistence Helper
+---
+Allows to get data from persistent key/value storage.
+Currently only in-memory db.
+
+Example:
+```json
+{
+  // Use 'key' property to define key to get from storage
+  "simple": "{{persist  key='storedKey'}}"
+}
+```
+
+Persistence Post Serve Action
+---
+Example:
+```json
+{
+  ...
+  "postServeActions": {
+    "persist": {
+      "action": "action, one of {set, clear}",
+      "key": "key",
+      "value": "value",
+      "filename": "relative path to __files", // mutually exclusive with value
+      "fixedDelayMilliseconds": 12345
+    }
+  },
+  ...
+}
+```
 
 Webhook Extension
 ---

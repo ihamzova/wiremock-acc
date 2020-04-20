@@ -24,7 +24,7 @@ public class WebhooksArray extends Webhooks {
         for (WebhookDefinition definition : arrayDefinition.getWebhooks()) {
             try {
                 doActionInternal(definition, serveEvent, admin, parameters);
-            } catch (Exception e) {
+            } catch (Throwable e) {
                 e.printStackTrace();
                 throwUnchecked(e);
             }

@@ -4,7 +4,12 @@ import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import com.tsystems.tm.acc.Webhooks;
 import com.tsystems.tm.acc.WebhooksArray;
+import com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction;
+import com.tsystems.tm.acc.wiremock.persist.ActionType;
+import com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction;
+import com.tsystems.tm.acc.wiremock.persist.PersistenceService;
 import org.apache.http.entity.StringEntity;
+import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -22,26 +27,30 @@ import static com.github.tomakehurst.wiremock.http.RequestMethod.GET;
 import static com.github.tomakehurst.wiremock.http.RequestMethod.POST;
 import static com.tsystems.tm.acc.Webhooks.webhook;
 import static com.tsystems.tm.acc.WebhooksArray.webhooks;
+import static com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction.groovy;
+import static com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction.persistence;
+import static java.lang.Thread.sleep;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.apache.http.entity.ContentType.TEXT_PLAIN;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class WebhooksAcceptanceTest {
-
     @Rule
     public WireMockRule targetServer = new WireMockRule(options().dynamicPort());
 
     CountDownLatch latch;
     Webhooks webhooks = new Webhooks();
     WebhooksArray webhooksArray = new WebhooksArray();
+    PersistencePostServeAction persistencePostServeAction = new PersistencePostServeAction();
+    GroovyPostServeAction groovyPostServeAction = new GroovyPostServeAction();
     TestNotifier notifier = new TestNotifier();
     @Rule
     public WireMockRule rule = new WireMockRule(
             options()
                     .dynamicPort()
                     .notifier(notifier)
-                    .extensions(webhooks, webhooksArray));
+                    .extensions(webhooks, webhooksArray, persistencePostServeAction, groovyPostServeAction));
     WireMockTestClient client;
 
     @Before
@@ -161,6 +170,44 @@ public class WebhooksAcceptanceTest {
 
         verify(1, getRequestedFor(urlEqualTo("/callback1")));
         verify(1, getRequestedFor(urlEqualTo("/callback2")));
+    }
+
+    @Test
+    public void persistenceTest() throws Exception {
+        rule.stubFor(post(urlPathEqualTo("/persist"))
+                .willReturn(aResponse().withStatus(200))
+                .withPostServeAction("persist", persistence()
+                        .withActionType(ActionType.set)
+                        .withKey("testKey")
+                        .withValue("testValue")
+                )
+        );
+
+        verify(0, postRequestedFor(anyUrl()));
+
+        client.post("/persist", new StringEntity("", TEXT_PLAIN));
+
+        sleep(1000);
+
+        assertThat(PersistenceService.get().get("testKey"), Matchers.equalTo("testValue"));
+    }
+
+    @Test
+    public void groovyTest() throws Exception {
+        rule.stubFor(post(urlPathEqualTo("/groovy"))
+                .willReturn(aResponse().withStatus(200))
+                .withPostServeAction("groovy", groovy()
+                        .withInline("persistence.put(\"testKey\", new String(serveEvent.getRequest().getBody()))")
+                )
+        );
+
+        verify(0, postRequestedFor(anyUrl()));
+
+        client.post("/groovy", new StringEntity("testValue", TEXT_PLAIN));
+
+        sleep(1000);
+
+        assertThat(PersistenceService.get().get("testKey"), Matchers.equalTo("testValue"));
     }
 
     private void waitForRequestToTargetServer() throws Exception {

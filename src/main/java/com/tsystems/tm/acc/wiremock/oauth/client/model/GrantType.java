@@ -11,7 +11,7 @@
  */
 
 
-package com.tsystems.tm.acc.rhsso.client.model;
+package com.tsystems.tm.acc.wiremock.oauth.client.model;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.annotations.JsonAdapter;

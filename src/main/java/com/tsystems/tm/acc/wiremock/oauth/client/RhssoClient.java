@@ -1,8 +1,8 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.oauth.client;
 
-import com.tsystems.tm.acc.rhsso.client.invoker.ApiClient;
-import com.tsystems.tm.acc.rhsso.client.invoker.GsonObjectMapper;
-import com.tsystems.tm.acc.rhsso.client.invoker.JSON;
+import com.tsystems.tm.acc.wiremock.oauth.client.invoker.ApiClient;
+import com.tsystems.tm.acc.wiremock.oauth.client.invoker.GsonObjectMapper;
+import com.tsystems.tm.acc.wiremock.oauth.client.invoker.JSON;
 
 import java.net.URI;
 

@@ -6,7 +6,7 @@
 
     <groupId>com.tsystems.tm.acc</groupId>
     <artifactId>wiremock-acc</artifactId>
-    <version>1.7</version>
+    <version>1.8</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -64,6 +64,12 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>${rest-assured.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.codehaus.groovy</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -118,7 +124,8 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.github.tomakehurst.wiremock.standalone.WireMockServerRunner</mainClass>
+                                    <mainClass>com.github.tomakehurst.wiremock.standalone.WireMockServerRunner
+                                    </mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
@@ -439,6 +446,6 @@
                 </plugins>
             </build>
         </profile>
-  </profiles>
+    </profiles>
 
 </project>

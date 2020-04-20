@@ -11,9 +11,9 @@
  */
 
 
-package com.tsystems.tm.acc.rhsso.client.invoker;
+package com.tsystems.tm.acc.wiremock.oauth.client.invoker;
 
-import com.tsystems.tm.acc.rhsso.client.api.*;
+import com.tsystems.tm.acc.wiremock.oauth.client.api.*;
 import io.restassured.builder.RequestSpecBuilder;
 
 import java.util.function.Supplier;

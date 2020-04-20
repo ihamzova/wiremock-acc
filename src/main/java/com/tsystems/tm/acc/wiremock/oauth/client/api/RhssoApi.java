@@ -11,10 +11,10 @@
  */
 
 
-package com.tsystems.tm.acc.rhsso.client.api;
+package com.tsystems.tm.acc.wiremock.oauth.client.api;
 
 import com.google.gson.reflect.TypeToken;
-import com.tsystems.tm.acc.rhsso.client.model.Token;
+import com.tsystems.tm.acc.wiremock.oauth.client.model.Token;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -24,7 +24,6 @@ import java.lang.reflect.Type;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import static io.restassured.http.Method.*;
 import static io.restassured.http.Method.POST;
 
 public class RhssoApi {

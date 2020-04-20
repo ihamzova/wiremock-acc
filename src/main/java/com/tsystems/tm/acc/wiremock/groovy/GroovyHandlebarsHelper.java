@@ -2,6 +2,7 @@ package com.tsystems.tm.acc.wiremock.groovy;
 
 import com.github.jknack.handlebars.Options;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.HandlebarsHelper;
+import com.tsystems.tm.acc.wiremock.persist.PersistenceService;
 import groovy.lang.Binding;
 import groovy.lang.GroovyShell;
 
@@ -44,6 +45,7 @@ public class GroovyHandlebarsHelper extends HandlebarsHelper<Object> {
         Binding b = new Binding();
         b.setVariable("context", options.context);
         b.setVariable("inner", inner);
+        b.setVariable("persistence", PersistenceService.get());
         options.hash.forEach(b::setVariable);
         return new GroovyShell(this.getClass().getClassLoader(), b);
     }

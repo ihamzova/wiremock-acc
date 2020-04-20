@@ -1,4 +1,4 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.oauth;
 
 import com.github.jknack.handlebars.Options;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.HandlebarsHelper;

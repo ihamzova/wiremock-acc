@@ -10,18 +10,18 @@ variables:
 
 include:
   - project: 'infr/pipelines/service/ci/common'
-    ref: master
+    ref: release/semver.1.0
     file: '/public/java/mvn/gitflow.yml'
   - project: 'infr/pipelines/service/ci/common'
-    ref: master
+    ref: release/semver.1.0
     file: '/public/conf/definition.yml'
   - project: 'infr/pipelines/service/ci/common'
-    ref: master
+    ref: release/semver.1.0
     file: '/public/conf/gitflow.yml'
 
   - project: 'infr/pipelines/service/cd/common'
-    ref: release/semver.1.0
+    ref: release/semver.2.3
     file: '/public/definition.yml'
   - project: 'infr/pipelines/service/cd/common'
-    ref: release/semver.1.0
+    ref: release/semver.2.3
     file: '/public/gitflow.yml'

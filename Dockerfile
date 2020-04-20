@@ -8,8 +8,8 @@ WORKDIR /$WM_PACKAGE
 
 COPY target/wiremock-acc-deps.jar /$WM_PACKAGE
 COPY stubs /$WM_PACKAGE
+COPY example-stubs /$WM_PACKAGE/example-stubs
 
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","wiremock-acc-deps.jar"]
-CMD ["--max-request-journal-entries", "1000", "--disable-gzip", "--global-response-templating", "--extensions", "com.tsystems.tm.acc.Webhooks,com.tsystems.tm.acc.WebhooksArray,com.tsystems.tm.acc.wiremock.groovy.GroovyResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.PersistenceResponseTemplateTransformer", "--permitted-system-keys", ".*"]
+CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --global-response-templating --extensions com.tsystems.tm.acc.Webhooks,com.tsystems.tm.acc.WebhooksArray,com.tsystems.tm.acc.wiremock.groovy.GroovyResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.PersistenceResponseTemplateTransformer --permitted-system-keys .* --root-dir $STUBS_PATH

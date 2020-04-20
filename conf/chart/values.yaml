@@ -25,6 +25,7 @@ app:
       PUBLIC_CLIENT_ID: "wiremock-public-client"
       OAL_CONNECTION_PATH: "http://oal-connection-app"
       GROOVY_ROOT: "./groovy"
+      STUBS_PATH: "."
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"

@@ -26,7 +26,7 @@
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
-                        <auftraggebernummer>2016006901</auftraggebernummer>
+                        <auftraggebernummer>2020005101</auftraggebernummer>
                         <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
                         <verbindlicherLiefertermin>
                             <datum>{{now offset='3 days' format='yyyy-MM-dd'}}</datum>

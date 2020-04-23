@@ -25,7 +25,7 @@
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
-                        <auftraggebernummer>2016006901</auftraggebernummer>
+                        <auftraggebernummer>2020005101</auftraggebernummer>
                         <anschluss xsi:type="complexOal:OalAnschlussType">
                             <schaltangabenNga xsi:type="complexOal:OalSchaltangabenType">
                                 <standortBName>POP-Lüdighausen-4711</standortBName>

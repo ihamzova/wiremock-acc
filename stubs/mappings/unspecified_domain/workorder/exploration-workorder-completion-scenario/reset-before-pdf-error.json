@@ -1,0 +1,11 @@
+{
+  "scenarioName": "exploration-workorder-completion",
+  "newScenarioState": "before-pdf-error",
+  "request": {
+    "method": "POST",
+    "url": "/reset/exploration-workorder-completion/before-pdf-error"
+  },
+  "response": {
+    "status": 200
+  }
+}

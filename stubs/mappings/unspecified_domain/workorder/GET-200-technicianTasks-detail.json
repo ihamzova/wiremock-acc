@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/mobile/technicianTasks/load/detail/([A-Za-z0-9]+)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "unspecified_domain/workorder/technicianTasksDetails.json"
+  }
+}

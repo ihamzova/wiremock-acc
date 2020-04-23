@@ -1,0 +1,26 @@
+{
+  "scenarioName": "exploration-workorder-completion",
+  "requiredScenarioState": "before-fol-error",
+  "newScenarioState": "fol-error",
+  "request": {
+    "method": "POST",
+    "url": "/workorders/explorationWorkorderCompletionRequests",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.explorationWorkorderBid"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "body": "1234567892"
+  }
+}

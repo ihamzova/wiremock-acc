@@ -1,0 +1,15 @@
+{
+  "scenarioName": "exploration-workorder-completion",
+  "requiredScenarioState": "before-pdf-error",
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/mobile/processLogs/([0-9]+)/EXPLORATION"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{}"
+  }
+}

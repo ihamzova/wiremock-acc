@@ -1,0 +1,137 @@
+{
+  "persisted": true,
+  "guid": "5e69a84f-7180-4391-903e-0fe396223ec2",
+  "version": 16,
+  "creationDate": 1579083793568,
+  "creationUser": "anonymous",
+  "modificationDate": 1587548198641,
+  "modificationUser": "4171feca-110b-4bcc-bd2b-cd4330b0c2db",
+  "controlTraceabilityManual": false,
+  "businessId": 10001,
+  "address": {
+    "city": "Bochum",
+    "geoData": {
+      "elevation": 0.0,
+      "latitude": 51.48945,
+      "longitude": 7.32976
+    },
+    "houseNumber": "2",
+    "houseNumberType": "EVEN",
+    "houseNumberAppendix": "",
+    "postalCode": "44894",
+    "street": "Finkenbecke"
+  },
+  "buildUpDecission": "FTTH",
+  "buildUpResponsible": null,
+  "propertyContactPerson": {
+    "email": "Test@Automation.com",
+    "familyName": "Chudy",
+    "fixLine": "0987",
+    "givenName": "Michal",
+    "mobile": "6543"
+  },
+  "productOwnerSignatureTime": 1587542351000,
+  "responsibleContactPerson": {
+    "creditorId": 101016,
+    "familyName": "monteur",
+    "givenName": "leonardweiss",
+    "orgaClassification": null,
+    "orgaId": null,
+    "supplierName": "Elektro Schmidt GmbH"
+  },
+  "responsibleSignatureDate": 1587542351000,
+  "status": "INITIAL",
+  "buildingPartCplId": "5834871",
+  "klsId": "123328",
+  "projectBid": 10514,
+  "explorationDocumentTemplateVersion": 1,
+  "explorationDocumentId": null,
+  "content": {
+    "content": {
+      "basisData": {
+        "klsId": "123328",
+        "buildingId": "5834871",
+        "buildingAddress": {
+          "street": "Finkenbecke",
+          "houseNumber": "2",
+          "houseNumberAppendix": "",
+          "postalCode": "44894",
+          "city": "Bochum"
+        }
+      },
+      "customerData": {
+        "customerContactType": "PROPERTY_OWNER",
+        "customerContact": {
+          "familyName": "Chudy",
+          "givenName": "Michal",
+          "street": null,
+          "houseNumber": null,
+          "houseNumberAppendix": null,
+          "postalCode": null,
+          "city": null,
+          "email": "Test@Automation.com",
+          "fixLine": "0987",
+          "mobile": "6543"
+        }
+      },
+      "buildingBasisData": {
+        "numberBuildings": null,
+        "buildingPartDescriptionOwner": null,
+        "buildingPartDescriptionTelekom": "A",
+        "buildingType": "APARTMENT_BUILDING",
+        "buildingClass": "GK1_2",
+        "numberAccommodationUnits": 1,
+        "numberDefaultAccommodationUnits": 2,
+        "numberBusinessUnits": 2,
+        "numberDefaultBusinessUnits": 0,
+        "numberLiftOperationRooms": 3,
+        "numberBurglarAlarmSystems": 4,
+        "numberFireAlarmSystems": 5,
+        "numberEmergencyCallSystems": 6,
+        "numberSpecialServices": 7,
+        "whiteTub": true,
+        "planningContacts": [],
+        "comments": null
+      },
+      "customerComments": {
+        "comments": null
+      },
+      "mountingLocationOneBox": {
+        "mountingLocation": "BOILER_ROOM",
+        "locationDescription": null,
+        "oneBoxMounted": false
+      },
+      "breakthroughDataBuildingEntryOneBoxLocation": [
+        {
+          "description": "",
+          "imageId": "10002",
+          "thumbnailId": "10001"
+        }
+      ],
+      "mountingLocationGFSPS": [],
+      "cableRoutingData": [],
+      "particularities": [],
+      "existingDamages": [],
+      "signatures": {
+        "buildUpResponsible": "DTAG",
+        "explorationResult": "FTTH",
+        "customerSignature": {
+          "signatureDate": 1587542351000,
+          "signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAg0AAACWCAYAAABdJrs9AAAGwklEQVR4Xu3WsRHAQAzDsGj/of0b5DgAXLvCqeDu7rbtcwQIECBAgACBHwGxYB4ECBAgQIBAEhANickTAQIECBAgIBpsgAABAgQIEEgCoiExeSJAgAABAgREgw0QIECAAAECSUA0JCZPBAgQIECAgGiwAQIECBAgQCAJiIbE5IkAAQIECBAQDTZAgAABAgQIJAHRkJg8ESBAgAABAqLBBggQIECAAIEkIBoSkycCBAgQIEBANNgAAQIECBAgkAREQ2LyRIAAAQIECIgGGyBAgAABAgSSgGhITJ4IECBAgAAB0WADBAgQIECAQBIQDYnJEwECBAgQICAabIAAAQIECBBIAqIhMXkiQIAAAQIERIMNECBAgAABAklANCQmTwQIECBAgIBosAECBAgQIEAgCYiGxOSJAAECBAgQEA02QIAAAQIECCQB0ZCYPBEgQIAAAQKiwQYIECBAgACBJCAaEpMnAgQIECBAQDTYAAECBAgQIJAERENi8kSAAAECBAiIBhsgQIAAAQIEkoBoSEyeCBAgQIAAAdFgAwQIECBAgEASEA2JyRMBAgQIECAgGmyAAAECBAgQSAKiITF5IkCAAAECBESDDRAgQIAAAQJJQDQkJk8ECBAgQICAaLABAgQIECBAIAmIhsTkiQABAgQIEBANNkCAAAECBAgkAdGQmDwRIECAAAECosEGCBAgQIAAgSQgGhKTJwIECBAgQEA02AABAgQIECCQBERDYvJEgAABAgQIiAYbIECAAAECBJKAaEhMnggQIECAAAHRYAMECBAgQIBAEhANickTAQIECBAgIBpsgAABAgQIEEgCoiExeSJAgAABAgREgw0QIECAAAECSUA0JCZPBAgQIECAgGiwAQIECBAgQCAJiIbE5IkAAQIECBAQDTZAgAABAgQIJAHRkJg8ESBAgAABAqLBBggQIECAAIEkIBoSkycCBAgQIEBANNgAAQIECBAgkAREQ2LyRIAAAQIECIgGGyBAgAABAgSSgGhITJ4IECBAgAAB0WADBAgQIECAQBIQDYnJEwECBAgQICAabIAAAQIECBBIAqIhMXkiQIAAAQIERIMNECBAgAABAklANCQmTwQIECBAgIBosAECBAgQIEAgCYiGxOSJAAECBAgQEA02QIAAAQIECCQB0ZCYPBEgQIAAAQKiwQYIECBAgACBJCAaEpMnAgQIECBAQDTYAAECBAgQIJAERENi8kSAAAECBAiIBhsgQIAAAQIEkoBoSEyeCBAgQIAAAdFgAwQIECBAgEASEA2JyRMBAgQIECAgGmyAAAECBAgQSAKiITF5IkCAAAECBESDDRAgQIAAAQJJQDQkJk8ECBAgQICAaLABAgQIECBAIAmIhsTkiQABAgQIEBANNkCAAAECBAgkAdGQmDwRIECAAAECosEGCBAgQIAAgSQgGhKTJwIECBAgQEA02AABAgQIECCQBERDYvJEgAABAgQIiAYbIECAAAECBJKAaEhMnggQIECAAAHRYAMECBAgQIBAEhANickTAQIECBAgIBpsgAABAgQIEEgCoiExeSJAgAABAgREgw0QIECAAAECSUA0JCZPBAgQIECAgGiwAQIECBAgQCAJiIbE5IkAAQIECBAQDTZAgAABAgQIJAHRkJg8ESBAgAABAqLBBggQIECAAIEkIBoSkycCBAgQIEBANNgAAQIECBAgkAREQ2LyRIAAAQIECIgGGyBAgAABAgSSgGhITJ4IECBAgAAB0WADBAgQIECAQBIQDYnJEwECBAgQICAabIAAAQIECBBIAqIhMXkiQIAAAQIERIMNECBAgAABAklANCQmTwQIECBAgIBosAECBAgQIEAgCYiGxOSJAAECBAgQEA02QIAAAQIECCQB0ZCYPBEgQIAAAQKiwQYIECBAgACBJCAaEpMnAgQIECBAQDTYAAECBAgQIJAERENi8kSAAAECBAiIBhsgQIAAAQIEkoBoSEyeCBAgQIAAAdFgAwQIECBAgEASEA2JyRMBAgQIECAgGmyAAAECBAgQSAKiITF5IkCAAAECBESDDRAgQIAAAQJJQDQkJk8ECBAgQICAaLABAgQIECBAIAmIhsTkiQABAgQIEBANNkCAAAECBAgkAdGQmDwRIECAAAECosEGCBAgQIAAgSQgGhKTJwIECBAgQEA02AABAgQIECCQBERDYvJEgAABAgQIiAYbIECAAAECBJKAaEhMnggQIECAAAHRYAMECBAgQIBAEhANickTAQIECBAgIBpsgAABAgQIEEgCoiExeSJAgAABAgREgw0QIECAAAECSeABQ8IElwVOC8IAAAAASUVORK5CYII="
+        },
+        "technicianSignature": {
+          "signatureDate": 1587542351000,
+          "signature": "data:image/png;base64,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"
+        }
+      },
+      "supplierContact": {
+        "creditorId": 101016,
+        "familyName": "monteur",
+        "givenName": "leonardweiss",
+        "supplierName": "Elektro Schmidt GmbH"
+      }
+    }
+  },
+  "nvtAreaBid": 30200,
+  "supplierPartyId": 10009
+}

@@ -1,0 +1,121 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/mobile/technicianTasks/findByFilter",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.statusType"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "type": "GROUP",
+      "tasks": [
+        {
+          "businessId": 10005,
+          "type": "PROPERTY_EXPLORATION",
+          "assignee": {
+            "id": "123321",
+            "firstName": null,
+            "surname": null
+          },
+          "organization": {
+            "id": "101016",
+            "name": "Leo Weiss"
+          },
+          "projectBid": 10090,
+          "klsId": 1237717,
+          "primaryContact": null,
+          "status": "READY",
+          "resolutionStatus": "INITIAL",
+          "dueDate": 1579873556525,
+          "scheduledTimeslotStartDate": 1581638400000,
+          "scheduledTimeslotEndDate": 1582243200000,
+          "completedTime": null,
+          "directTask": false
+        },
+        {
+          "businessId": 10012,
+          "type": "PROPERTY_EXPLORATION",
+          "assignee": null,
+          "organization": {
+            "id": "101016",
+            "name": "Leo Weiss"
+          },
+          "projectBid": 10090,
+          "klsId": 1237719,
+          "primaryContact": null,
+          "status": "READY",
+          "resolutionStatus": "INITIAL",
+          "dueDate": 1581262902119,
+          "scheduledTimeslotStartDate": 1581811200000,
+          "scheduledTimeslotEndDate": 1582416000000,
+          "completedTime": null,
+          "directTask": true
+        },
+        {
+          "businessId": 10006,
+          "type": "PROPERTY_EXPLORATION",
+          "assignee": {
+            "id": "123321",
+            "firstName": null,
+            "surname": null
+          },
+          "organization": {
+            "id": "101016",
+            "name": "Leo Weiss"
+          },
+          "projectBid": 10090,
+          "klsId": 1237717,
+          "primaryContact": null,
+          "status": "READY",
+          "resolutionStatus": "INITIAL",
+          "dueDate": 1579873556525,
+          "scheduledTimeslotStartDate": 1581638400000,
+          "scheduledTimeslotEndDate": 1582243200000,
+          "completedTime": null,
+          "directTask": false
+        }
+      ],
+      "projects": [
+        {
+          "projectId": 10090,
+          "projectName": "2236/2/V1001/Initial Ausbau"
+        }
+      ],
+      "addresses": [
+        {
+          "klsId": 1237719,
+          "street": "Finkenbecke",
+          "streetNameCorrected": null,
+          "houseNumber": "4",
+          "houseNumberAppendix": "",
+          "postalCode": 44894,
+          "city": "Bochum",
+          "houseNumberType": "EVEN",
+          "longitude": 7.32976,
+          "latitude": 51.48945,
+          "altitude": null
+        },
+        {
+          "klsId": 1237717,
+          "street": "Finkenbecke",
+          "streetNameCorrected": null,
+          "houseNumber": "2",
+          "houseNumberAppendix": "",
+          "postalCode": 44894,
+          "city": "Bochum",
+          "houseNumberType": "EVEN",
+          "longitude": 7.32976,
+          "latitude": 51.48945,
+          "altitude": null
+        }
+      ]
+    }
+  }
+}

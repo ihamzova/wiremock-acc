@@ -1,0 +1,11 @@
+{
+  "scenarioName": "exploration-workorder-completion",
+  "newScenarioState": "completed",
+  "request": {
+    "method": "POST",
+    "url": "/reset/exploration-workorder-completion/fol-error"
+  },
+  "response": {
+    "status": 200
+  }
+}

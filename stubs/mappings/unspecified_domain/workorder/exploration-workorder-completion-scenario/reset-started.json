@@ -1,0 +1,11 @@
+{
+  "scenarioName": "exploration-workorder-completion",
+  "newScenarioState": "Started",
+  "request": {
+    "method": "POST",
+    "url": "/reset/exploration-workorder-completion/started"
+  },
+  "response": {
+    "status": 200
+  }
+}

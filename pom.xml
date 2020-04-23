@@ -446,6 +446,69 @@
                 </plugins>
             </build>
         </profile>
+
+        <profile>
+            <id>docker2</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>io.fabric8</groupId>
+                        <artifactId>docker-maven-plugin</artifactId>
+                        <version>0.26.0</version>
+                        <configuration>
+                            <images>
+                                <image>
+                                    <name>digioss/wiremock-acc</name>
+                                    <alias>wiremock-acc</alias>
+                                    <build>
+                                        <dockerFileDir>${project.basedir}/</dockerFileDir>
+                                        <tags>
+                                            <tag>${env.CI_COMMIT_SHA}</tag>
+                                            <tag>${env.CI_COMMIT_REF_SLUG}</tag>
+                                            <tag>${env.RELEASE_UNIQUE_VERSION}</tag>
+                                        </tags>
+                                        <assembly>
+                                            <inline>
+                                                <files>
+                                                    <file>
+                                                        <source>
+                                                            ${project.build.directory}/wiremock-acc-1.8.jar
+                                                        </source>
+                                                        <outputDirectory>/</outputDirectory>
+                                                    </file>
+                                                </files>
+                                                <fileSets>
+                                                    <fileSet>
+                                                        <directory>src/main/docker/stubs</directory>
+                                                        <outputDirectory>/stubs</outputDirectory>
+                                                    </fileSet>
+                                                </fileSets>
+                                            </inline>
+                                        </assembly>
+                                    </build>
+                                </image>
+                            </images>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>build</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>build</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>run</id>
+                                <phase>deploy</phase>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
 
 </project>

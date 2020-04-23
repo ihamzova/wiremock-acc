@@ -24,7 +24,7 @@
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
-                        <auftraggebernummer>2016006901</auftraggebernummer>
+                        <auftraggebernummer>2020005101</auftraggebernummer>
                     </meldungsattribute>
                     <meldungspositionen>
                         <position>

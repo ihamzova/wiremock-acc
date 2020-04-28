@@ -7,10 +7,8 @@ import com.github.jknack.handlebars.helper.ConditionalHelpers;
 import com.github.jknack.handlebars.helper.NumberHelper;
 import com.github.jknack.handlebars.helper.StringHelpers;
 import com.github.tomakehurst.wiremock.extension.PostServeAction;
-import com.github.tomakehurst.wiremock.extension.responsetemplating.SystemKeyAuthoriser;
-import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.SystemValueHelper;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.helpers.WireMockHelpers;
-import com.google.common.collect.ImmutableSet;
+import com.tsystems.tm.acc.wiremock.env.UnsafeEnvHandlebarsHelper;
 import com.tsystems.tm.acc.wiremock.groovy.GroovyHandlebarsHelper;
 import com.tsystems.tm.acc.wiremock.oauth.Oauth2Helper;
 import com.tsystems.tm.acc.wiremock.persist.PersistenceHandlebarsHelper;
@@ -38,7 +36,7 @@ public abstract class PostServeActionWithHandlebars extends PostServeAction {
             this.handlebars.registerHelper(helper.name(), helper);
         }
         this.handlebars.registerHelper(AssignHelper.NAME, new AssignHelper());
-        this.handlebars.registerHelper("systemValue", new SystemValueHelper(new SystemKeyAuthoriser(ImmutableSet.of(".*"))));
+        this.handlebars.registerHelper(UnsafeEnvHandlebarsHelper.NAME, new UnsafeEnvHandlebarsHelper());
         this.handlebars.registerHelper("oauth", new Oauth2Helper());
         this.handlebars.registerHelper(GroovyHandlebarsHelper.NAME, new GroovyHandlebarsHelper());
         this.handlebars.registerHelper(PersistenceHandlebarsHelper.NAME, new PersistenceHandlebarsHelper());

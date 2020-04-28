@@ -17,7 +17,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
           "bodyFileName": "partner/dgf/OALBereitstellung-QEB.xml"
         },
         {
@@ -26,7 +26,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
           "bodyFileName": "partner/dgf/OALBereitstellung-ABM.xml"
         },
         {
@@ -35,7 +35,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
           "bodyFileName": "partner/dgf/OALBereitstellung-ERLM.xml"
         },
         {
@@ -44,7 +44,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{systemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/oss/v4/spri",
           "bodyFileName": "partner/dgf/OALBereitstellung-ENTM.xml"
         }
       ]

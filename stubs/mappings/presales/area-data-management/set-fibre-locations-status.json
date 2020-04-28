@@ -1,0 +1,101 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]+)/status"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "creationDate": 123456789000,
+      "modificationDate": 123456789000,
+      "controlTraceabilityManual": true,
+      "klsId": "{{request.path.[4]}}",
+      "installationStatus": "READY",
+      "demandCarrier": "FTTH",
+      "areaType": "DEVELOPMENT",
+      "initiative": "SELF_EXPANSION",
+      "reasonForNoConstruction": "NO_AREA_EXPANSION",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": 123456789000,
+      "plannedInstallationBegin": 123456789000,
+      "plannedInstallationEnd": 123456789000,
+      "cooperationPartner": "string",
+      "we": 0,
+      "ge": 0,
+      "sl": 0,
+      "vvmArea": {
+        "creationDate": 123456789000,
+        "modificationDate": 123456789000,
+        "controlTraceabilityManual": true,
+        "name": "string",
+        "number": "string",
+        "areaType": "KGS_8",
+        "rolloutDate": 123456789000,
+        "areaStatus": "PLANNING_ONGOING",
+        "plannedArea": true,
+        "plannedFrom": 123456789000,
+        "plannedTo": 123456789000,
+        "released": true,
+        "cooperationPartner": "string",
+        "initiative": "SELF_EXPANSION",
+        "netCoOrganisationId": 0,
+        "thresholdData": {
+          "threshold": 0,
+          "ordersCountInVVM": 0,
+          "additionalOrdersCountInVVM": 0
+        },
+        "rolloutPartner": 0,
+        "internalExpansionDecisionDate": 123456789000,
+        "fibreOnLocations": [
+          null
+        ]
+      },
+      "nvtArea": {
+        "creationDate": 123456789000,
+        "modificationDate": 123456789000,
+        "controlTraceabilityManual": true,
+        "businessId": 0,
+        "guid": "string",
+        "asb": 0,
+        "name": "string",
+        "nvtDescriptor": "Deprecated property",
+        "onkz": "string",
+        "pti": "string",
+        "subsidiary": "string",
+        "vvmArea": {
+          "creationDate": 123456789000,
+          "modificationDate": 123456789000,
+          "controlTraceabilityManual": true,
+          "name": "string",
+          "number": "string",
+          "areaType": "KGS_8",
+          "rolloutDate": 123456789000,
+          "areaStatus": "PLANNING_ONGOING",
+          "plannedArea": true,
+          "plannedFrom": 123456789000,
+          "plannedTo": 123456789000,
+          "released": true,
+          "cooperationPartner": "string",
+          "initiative": "SELF_EXPANSION",
+          "netCoOrganisationId": 0,
+          "thresholdData": {
+            "threshold": 0,
+            "ordersCountInVVM": 0,
+            "additionalOrdersCountInVVM": 0
+          },
+          "rolloutPartner": 0,
+          "internalExpansionDecisionDate": 123456789000,
+          "fibreOnLocations": [
+            null
+          ]
+        },
+        "nvtKlsId": 0,
+        "rolloutPartner": 0,
+        "fibreOnLocations": [
+          null
+        ]
+      }
+    }
+  }
+}

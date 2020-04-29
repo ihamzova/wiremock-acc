@@ -20,6 +20,16 @@
         "resourceState": "INSTALLING_INSTALLED",
         "resourceFulfillmentState": "IN_SERVICE",
         "shelf": "1"
+      },
+      {
+        "slot": "19",
+        "installedEquipmentObjectType": "H801X2CS",
+        "installedSerialNumber": "020KKPW0B5000186",
+        "manufacturer": "HUAWEI",
+        "installedVersion": "154(2015-7-1)",
+        "resourceState": "INSTALLING_INSTALLED",
+        "resourceFulfillmentState": "IN_SERVICE",
+        "shelf": "1"
       }
     ],
     "ports": [
@@ -86,6 +96,22 @@
         "shelf": "1",
         "slot": "1",
         "port": "7"
+      },
+      {
+        "portType": "ETHERNET",
+        "installedPartNumberSFP": null,
+        "installedMatNumberSFP": null,
+        "shelf": "1",
+        "slot": "19",
+        "port": "0"
+      },
+      {
+        "portType": "ETHERNET",
+        "installedPartNumberSFP": null,
+        "installedMatNumberSFP": null,
+        "shelf": "1",
+        "slot": "19",
+        "port": "1"
       }
     ],
     "connections": null,

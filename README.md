@@ -114,7 +114,7 @@ Example of for cycle
 ```
 Example of for Environment variable
 ```json
-"system": "{{systemValue type='ENVIRONMENT' key='TEST_VALUE'}}"
+"system": "{{unsafeSystemValue key='TEST_VALUE'}}"
 ```
 Example oauth helper.
 ```json

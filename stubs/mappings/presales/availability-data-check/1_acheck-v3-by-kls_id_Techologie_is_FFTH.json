@@ -1,0 +1,54 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "3237818",
+      "href": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3237818",
+      "provideAlternative": false,
+      "provideOnlyAvailable": false,
+      "provideUnavailabilityReason": true,
+      "qualificationResult": "qualified",
+      "state": "done",
+      "relatedParty": [],
+      "serviceQualificationItem": [
+        {
+          "id": "2c912ee3-eeff-4e9c-803d-ba2d6b086eef",
+          "qualificationResult": "qualified",
+          "state": "done",
+          "alternateServiceProposal": [],
+          "eligibilityUnavailabilityReason": [],
+          "qualificationItemRelationship": [],
+          "service": {
+            "id": "745fda59-1315-4ba8-a5f2-71f54474003f",
+            "place": [
+              {
+                "id": "3237818",
+                "@type": "UrbanPropertyAddress"
+              }
+            ],
+            "relatedParty": [],
+            "serviceCharacteristic": [
+              {
+                "name": "Ausbaustand Glasfaser",
+                "value": "vvmOngoing"
+              },
+              {
+                "name": "Technologie",
+                "value": "FTTH"
+              }
+            ],
+            "serviceRelationship": []
+          },
+          "terminationError": []
+        }
+      ]
+    }
+  }
+}

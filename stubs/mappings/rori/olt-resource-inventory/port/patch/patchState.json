@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/api/oltResourceInventory/v1/port/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath" : "[?(@.op == 'replace')]"
+      },
+      {
+        "matchesJsonPath" : "[?(@.path == '/lifeCycleState')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/port/id/{{request.path.[4]}}.json"
+  }
+}

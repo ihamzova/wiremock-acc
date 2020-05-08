@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "method" : "GET",
+    "urlPattern" : "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/.*"
+  },
+  "response" : {
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "bodyFileName": "unspecified_domain/address-master/get-address-info/address-info-get-{{request.requestLine.pathSegments.[5]}}.json",
+    "status" : 200
+  }
+}

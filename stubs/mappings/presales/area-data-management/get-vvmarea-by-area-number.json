@@ -1,0 +1,11 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/areaDataManagement/v1/vvmareas/([a-zA-Z0-9-_]+)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "presales/area-data-management/vvm-area-by-area-number-payload.json"
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:tns="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenRechnungsvereinbarung_v01.00"
+                  xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenRechnungsvereinbarung_v01.00/types"
+                  xmlns:csdg="http://schemas.telekom.net/csdg_v01.01"
+                  xmlns:bomtypes="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/types_v01.01"
+                  xmlns:bom="http://bom.telekom.de/cc" xmlns:sepa="http://bom.telekom.de/sepa"
+                  xmlns:crmt="http://bom.telekom.de/crmt">
+    <!--
+                This XML represents a reply-sample message for service AnlegenRechnungsvereinbarung.
+                Change History:
+                Version 22.0	12.02.2015	Wolfgang Schonert	I-745919 Initial Version
+                Version 22.1	10.03.2015	Wolfgang Schonert	I-745919 csdg header updated
+                Version 22.1	10.03.2015	Wolfgang Schonert	I-745919 routingInfo, processTypeId corrected
+                Version 36.0	11.02.2020	Marc Siegert		CRMT-56287 new element Mandatsreferenz
+    -->
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:anlegenRechnungsvereinbarungResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                  xsi:schemaLocation="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenRechnungsvereinbarung_v01.00 AnlegenRechnungsvereinbarung-ValidationHelper_v01.00.xsd">
+            <typ:context>
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.CRMT:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.TKI:Default:AnlegenRechnungsvereinbarung_v01.00_CRM_T
+                    </csdg:routingInfo>
+                    <csdg:messageId>414d51204d524931425231202020202054b507c720025106</csdg:messageId>
+                    <csdg:relatesToMessageId>414d51204d524931425231202020202054b507c720025104</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2014-12-24T13:52:58.000Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+                    <csdg:priority>0</csdg:priority>
+                    <csdg:replyState>a</csdg:replyState>
+                    <csdg:property name='crmt.SystemID'>CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>02E49</csdg:processId>
+                    <csdg:processTypeId>AnlegenRechnungsvereinbarung_v01.00</csdg:processTypeId>
+                </csdg:businessContext>
+            </typ:context>
+            <typ:data>
+                <bomtypes:anlegenRechnungsvereinbarungReply>
+                    <bomtypes:RequestErgebnis>
+                        <bom:Rechnungsvereinbarungsnummer>4563217890</bom:Rechnungsvereinbarungsnummer>
+                        <crmt:RechnungsvereinbarungsnummerFinal>true</crmt:RechnungsvereinbarungsnummerFinal>
+                        <sepa:Mandatsreferenz>DE000201000200000000000000000990001</sepa:Mandatsreferenz>
+                    </bomtypes:RequestErgebnis>
+                    <crmt:ReturnCode>00</crmt:ReturnCode>
+                </bomtypes:anlegenRechnungsvereinbarungReply>
+            </typ:data>
+        </tns:anlegenRechnungsvereinbarungResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

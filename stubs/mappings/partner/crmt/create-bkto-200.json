@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/crmt/AnlegenRechnungsvereinbarung/up",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/crmt/create-bkto-response.xml"
+  }
+}

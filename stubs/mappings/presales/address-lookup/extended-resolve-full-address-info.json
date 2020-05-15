@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/addressLookup/v1/addressSearch/extended/resolveFullAddressInfo",
+    "queryParameters" : {
+      "zipCode" : {
+        "matches" : ".*"
+      },
+      "localityName" : {
+        "matches" : ".*"
+      },
+      "streetName" : {
+        "matches" : ".*"
+      },
+      "houseQualifier" : {
+        "matches" : "[0-9]*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "presales/address-lookup/extended-resolve-full-address-info-body.json"
+  }
+}

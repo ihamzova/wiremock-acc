@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/addressLookup/v1/addressSuggest/addressSuggestions/STREET",
+    "queryParameters" : {
+      "zipCode" : {
+        "matches" : ".*"
+      },
+      "localityName" : {
+        "matches" : ".*"
+      },
+      "streetName" : {
+        "matches" : ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "klsId": null,
+        "zipCode": "34277",
+        "municipalityName": "Fuldabrück",
+        "distributionAreaName": "Fuldabrück",
+        "streetName": "Ahornweg",
+        "streetNameShort": "Ahornweg",
+        "houseNumber": null,
+        "houseNumberSupplement": null,
+        "houseQualifier": null
+      }
+    ]
+  }
+}

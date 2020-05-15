@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/addressLookup/v1/addressSearch/getFullAddressInfo/1000([0-9]*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "presales/address-lookup/get-full-address-info-body.json"
+  }
+}

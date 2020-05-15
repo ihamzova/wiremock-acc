@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/addressLookup/v1/addressSuggest/addressSuggestions/LOCALITY\\?(localityName=.*)?(zipCode=.*)?"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "klsId": null,
+        "zipCode": "34277",
+        "municipalityName": "Fuldabrück",
+        "distributionAreaName": "Fuldabrück",
+        "streetName": null,
+        "streetNameShort": null,
+        "houseNumber": null,
+        "houseNumberSupplement": null,
+        "houseQualifier": null
+      }
+    ]
+  }
+}

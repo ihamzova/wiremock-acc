@@ -1,0 +1,13 @@
+[
+  {
+    "klsId": 1000{{request.query.houseQualifier}},
+    "zipCode": "34277",
+    "municipalityName": "Fuldabrück",
+    "distributionAreaName": "Fuldabrück",
+    "streetName": "Ahornweg",
+    "streetNameShort": "Ahornweg",
+    "houseNumber": {{request.query.houseQualifier}},
+    "houseNumberSupplement": "",
+    "houseQualifier": "{{request.query.houseQualifier}}"
+  }
+]

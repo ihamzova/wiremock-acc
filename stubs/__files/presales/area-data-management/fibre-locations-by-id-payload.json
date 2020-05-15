@@ -1,12 +1,51 @@
+{{regexExtract request.path.[4] '.*([0-9])[0-9]{3}$' 'parts'}}
+{{#assign 'areaTypeCode'}}{{parts.0}}{{/assign}}
+{{#assign 'areaType'}}DEVELOPMENT{{/assign}}
+{{#eq areaTypeCode '1'}}
+  {{#assign 'areaType'}}RESIDENTIAL{{/assign}}
+{{/eq}}
+{{#eq areaTypeCode '2'}}
+  {{#assign 'areaType'}}INDUSTRIAL{{/assign}}
+{{/eq}}
+
+{{regexExtract request.path.[4] '.*([0-9])[0-9]{4}$' 'parts'}}
+{{#assign 'areaStatusCode'}}{{parts.0}}{{/assign}}
+{{#assign 'areaStatus'}}AREA_PLANNED{{/assign}}
+{{#eq areaStatusCode '1'}}
+  {{#assign 'areaStatus'}}PLANNING_ONGOING{{/assign}}
+{{/eq}}
+{{#eq areaStatusCode '2'}}
+  {{#assign 'areaStatus'}}UNDER_CONSTRUCTION{{/assign}}
+{{/eq}}
+{{#eq areaStatusCode '3'}}
+  {{#assign 'areaStatus'}}CANCELED{{/assign}}
+{{/eq}}
+{{#eq areaStatusCode '4'}}
+  {{#assign 'areaStatus'}}CLOSED{{/assign}}
+{{/eq}}
+
+{{regexExtract request.path.[4] '.*([0-9])[0-9]{5}$' 'parts'}}
+{{#assign 'netCoCode'}}{{parts.0}}{{/assign}}
+{{#assign 'netCo'}}10001{{/assign}}
+{{#eq netCoCode '1'}}
+  {{#assign 'netCo'}}11111{{/assign}}
+{{/eq}}
+
+{{regexExtract request.path.[4] '.*([0-9])[0-9]{6}$' 'parts'}}
+{{#assign 'thresholdCode'}}{{parts.0}}{{/assign}}
+{{#assign 'threshold'}}100{{/assign}}
+{{#eq thresholdCode '1'}}
+  {{#assign 'threshold'}}50{{/assign}}
+{{/eq}}
 {
-  "areaType": "DEVELOPMENT",
+  "areaType": "{{areaType}}",
   "vvmArea": {
-    "areaStatus": "AREA_PLANNED",
+    "areaStatus": "{{areaStatus}}",
     "cooperationPartner": "Cooperation Partner 123",
     "fibreOnLocations": null,
-    "netCoOrganisationId": 10001,
+    "netCoOrganisationId": {{netCo}},
     "thresholdData": {
-      "threshold": 1000
+      "threshold": {{threshold}}
     }
   }
 }

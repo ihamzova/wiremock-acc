@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]+)"
+    "urlPathPattern": "/api/areaDataManagement/v1/fibreonlocations/([0-9]+)"
   },
   "response": {
     "status": 200,

@@ -2,7 +2,7 @@
   "id": "d18a0b7b-7ac7-4202-a41c-7965dc9c5a18",
   "request": {
     "method": "PUT",
-    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/([0-9]+)/status"
+    "urlPathPattern": "/api/areaDataManagement/v1/fibreonlocations/([0-9]+)/status"
   },
   "response": {
     "status": 200,

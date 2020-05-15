@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/api/addressLookup/v1/addressSuggest/addressSuggestions/STREET",
+    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET",
     "queryParameters" : {
       "zipCode" : {
         "matches" : ".*"

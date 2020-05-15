@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/api/addressLookup/v1/addressSuggest/addressSuggestions/LOCALITY\\?(localityName=.*)?(zipCode=.*)?"
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/LOCALITY\\?(localityName=.*)?(zipCode=.*)?"
   },
   "response": {
     "status": 200,

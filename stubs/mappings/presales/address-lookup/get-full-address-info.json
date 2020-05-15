@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/api/addressLookup/v1/addressSearch/getFullAddressInfo/1000000([0-9]*)"
+    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/1000000([0-9]*)"
   },
   "response": {
     "status": 200,

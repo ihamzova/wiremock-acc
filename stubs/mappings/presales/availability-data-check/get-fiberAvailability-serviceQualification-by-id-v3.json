@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/api/FiberAvailability/v3/serviceQualification/([a-zA-Z0-9-_]+)"
+    "urlPathPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/([a-zA-Z0-9-_]+)"
   },
   "response": {
     "status": 200,

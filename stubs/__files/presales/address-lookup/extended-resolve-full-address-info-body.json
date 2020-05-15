@@ -1,10 +1,10 @@
 {
-  "klsId": 1000000{{request.query.houseQualifier}},
+  "klsId": 1000000{{request.query.houseNumber}},
   "propertyId": null,
   "propertyIdLong": 19116305,
-  "houseNumber": {{request.query.houseQualifier}},
+  "houseNumber": {{request.query.houseNumber}},
   "houseNumberSupplement": "",
-  "houseQualifier": "{{request.query.houseQualifier}}",
+  "houseQualifier": "{{request.query.houseNumber}}",
   "streetName": "Ahornweg",
   "streetNameShort": "Ahornweg",
   "distributionAreaName": "Fuldabrück",

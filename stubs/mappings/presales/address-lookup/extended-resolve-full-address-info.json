@@ -1,18 +1,18 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/api/addressLookup/v1/addressSearch/extended/resolveFullAddressInfo",
+    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSearch/extended/resolveFullAddressInfo",
     "queryParameters" : {
       "zipCode" : {
         "matches" : ".*"
       },
-      "localityName" : {
+      "municipalityName" : {
         "matches" : ".*"
       },
       "streetName" : {
         "matches" : ".*"
       },
-      "houseQualifier" : {
+      "houseNumber" : {
         "matches" : "[0-9]*"
       }
     }

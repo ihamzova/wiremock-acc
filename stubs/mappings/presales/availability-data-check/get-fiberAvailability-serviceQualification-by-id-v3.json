@@ -6,6 +6,9 @@
   },
   "response": {
     "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
     "bodyFileName": "presales/availability-data-check/fiberAvailability-serviceQualification-by-id-v3-payload.json"
   }
 }

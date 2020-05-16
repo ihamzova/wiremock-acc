@@ -6,6 +6,9 @@
   },
   "response": {
     "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
     "bodyFileName": "presales/area-data-management/vvm-area-by-area-number-payload.json"
   }
 }

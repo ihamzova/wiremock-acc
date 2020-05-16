@@ -5,7 +5,9 @@
   },
   "response": {
     "status": 200,
-
+    "headers": {
+      "Content-Type": "application/json"
+    },
     "bodyFileName": "presales/area-data-management/fibre-locations-by-id-payload.json"
   }
 }

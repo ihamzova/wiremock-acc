@@ -1,8 +1,0 @@
-{
-  "workorder": {
-    "id": "{{jsonPath request.body '$.id'}}",
-    "priority": "1",
-    "note": "Workorder note",
-    "status": "CREATED"
-  }
-}

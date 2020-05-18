@@ -1,8 +1,0 @@
-{
-  "workorder": {
-    "id": "{{request.headers.X-workorderBid}}",
-    "priority": "1",
-    "note": "Workorder updated",
-    "status": "CREATED"
-  }
-}

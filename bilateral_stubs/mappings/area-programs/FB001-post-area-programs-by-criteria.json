@@ -1,0 +1,29 @@
+{
+  "mappings": [
+    {
+      "id": "4adb3a4e-27d0-4386-a2ac-ca6909702399",
+      "name": "post_areaPrograms_by_criteria_nvtAreaId_10000",
+      "priority": 1,
+      "request": {
+        "method": "POST",
+        "urlPath": "/giga-project-dioss/v2/areaPrograms/search",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "nvtAreaId": 10000
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-programs/FB001-areaProgram_by_nvtArea_10000.json"
+      }
+    }
+  ]
+}

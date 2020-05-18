@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "id": "f6834a8a-bf8d-4fc3-b7d2-eaa91d002b89",
+      "name": "get_nvtAreas_by_businessId_with_loadFibreOnLocations_false_negative",
+      "request": {
+        "urlPathPattern": "/v1/areaDataManagement/nvtareas/[0-9]*/",
+        "method": "GET",
+        "queryParameters": {
+          "loadFibreOnLocations": {
+            "equalTo": "false"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 400
+      }
+    },
+    {
+      "id": "cf70a2dd-ad17-41a6-bb98-8f08ac727553",
+      "name": "get_nvtAreas_by_businessId_with_loadFibreOnLocations_true_negative",
+      "request": {
+        "urlPath": "/v1/areaDataManagement/nvtareas/182300/",
+        "method": "GET",
+        "queryParameters": {
+          "loadFibreOnLocations": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 400
+      }
+    }
+  ]
+}

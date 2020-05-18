@@ -1,0 +1,108 @@
+{
+  "mappings": [
+    {
+      "id": "f276339c-9d37-46df-b3f7-886fe6db2b7f",
+      "name": "Descendants_by_OrganizationId_10000_loadLocations_false",
+      "request": {
+        "urlPath": "/party/v2/partyManagement/organizations/10000/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "false"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/partyManagement_getAtomicsbyComposite_10000.json"
+      }
+    },
+    {
+      "id": "e48a4e2a-e743-4b0b-b963-40105bd1e1ed",
+      "name": "Descendants_by_OrganizationId_10000_loadLocations_true",
+      "request": {
+        "urlPath": "/party/v2/partyManagement/organizations/10000/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "true"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/partyManagement_getAtomicsbyComposite_10000.json"
+      }
+    },
+    {
+      "id": "4a4f71a3-eff6-4f67-b66d-9cfbca18359c",
+      "name": "Descendants_by_OrganizationId_10001_loadLocations_false",
+      "request": {
+        "urlPath": "/party/v2/partyManagement/organizations/10001/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "false"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/partyManagement_getAtomicsbyComposite_10001.json"
+      }
+    },
+    {
+      "id": "e2eb1b22-a955-49f2-866b-d6630238d16f",
+      "name": "Descendants_by_OrganizationId_10001_loadLocations_true",
+      "request": {
+        "urlPath": "/party/v2/partyManagement/organizations/10001/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "true"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/partyManagement_getAtomicsbyComposite_10001_withLocations.json"
+      }
+    }
+  ]
+}

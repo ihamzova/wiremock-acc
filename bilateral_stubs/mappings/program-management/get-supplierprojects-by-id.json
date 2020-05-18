@@ -1,0 +1,79 @@
+{
+  "mappings": [
+    {
+      "priority": 1,
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_id_TOPAS",
+      "request": {
+        "urlPattern": "/giga-project-dioss/v2/supplierprojects/(10068|10069|10070|10071|10072|10073|10074|10075|10076)",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_id_topas.json"
+      },
+      "id": "b87068e0-a388-444a-ab5b-6198c87006e4"
+    },
+    {
+      "priority": 2,
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_id_TOPAS",
+      "request": {
+        "urlPattern": "/giga-project-dioss/v2/supplierprojects/12952",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/FB001-program-management-12952.json"
+      },
+      "id": "3c90a342-6012-46ac-a45a-7429154c4559"
+    },
+    {
+      "priority": 2,
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_id_ne3",
+      "request": {
+        "urlPattern": "/giga-project-dioss/v2/supplierprojects/10088",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_id_10088_ne3.json"
+      }
+    },
+    {
+      "priority": 3,
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_id_fallback",
+      "request": {
+        "urlPathPattern": "/giga-project-dioss/v2/supplierprojects/[0-9]*",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_by_id_FALLBACK.json"
+      },
+      "id": "d885a8aa-2481-4ee6-a674-65a2b803002c"
+    }
+  ]
+}

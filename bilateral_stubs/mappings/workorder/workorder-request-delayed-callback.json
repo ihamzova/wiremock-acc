@@ -1,0 +1,50 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-creation-requestv3-delayed-callback",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/delay/v3/workorder/creationRequestsCallback"
+      },
+      "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 5000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v3/workorder/creationRequestsCallback",
+          "bodyFileName": "workorder/callback_v3/workorder-creation-callback.json"
+        }
+      },
+      "id": "606cd32a-0329-49cd-ad14-20a3e71f6916"
+    },
+    {
+      "name": "workorder-update-requestv3-delayed-callback",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/delay/v3/workorder/creationRequestsCallback/update"
+      },
+      "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 5000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v3/workorder/creationRequestsCallback",
+          "bodyFileName": "workorder/callback_v3/workorder-update-callback.json"
+        }
+      },
+      "id": "7c96c958-a047-4e6e-9562-33a6e488766f"
+    }
+  ]
+}

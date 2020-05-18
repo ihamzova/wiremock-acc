@@ -1,0 +1,34 @@
+{
+  "mappings": [
+    {
+      "id": "d20faabb-d8b8-4416-944a-7171c8369fd8",
+      "name": "cwfs_gigabit_flexkommcwfservice",
+      "request": {
+        "method": "POST",
+        "url": "/cwfs/gigabit/FlexKommCWFService/"
+      },
+      "response": {
+        "status": 200
+      }
+    },
+    {
+      "id": "3951a0fb-6f15-4ca2-b533-421409bb634d",
+      "name": "cwfs_gigabit_flexkommcwfservice_neg",
+      "request": {
+        "method": "POST",
+        "url": "/cwfs/gigabit/FlexKommCWFService/",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": {
+              "expression": "$.generischeNachricht.empfaenger.emailadresse",
+              "contains": "error"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 400
+      }
+    }
+  ]
+}

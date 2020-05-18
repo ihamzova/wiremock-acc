@@ -1,0 +1,240 @@
+{
+  "mappings": [
+    {
+      "id": "708f1aa7-554e-4e7e-aabe-67b4ae8e7f8a",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888001((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 400
+      }
+    },
+    {
+      "id": "0b9752f2-ef58-454d-b5c6-f389389b2932",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888002((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 404
+      }
+    },
+    {
+      "id": "84533a55-1617-4a6f-806c-fe0221a0b9f3",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888003((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo03100_NVT_missing_neg.json"
+      }
+    },
+    {
+      "id": "1cbced98-9602-4b75-8976-d621c386d46a",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888003((10[1-9])|(1[1-9][0-9])|200)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo03200_OrganisationId_missing_neg.json"
+      }
+    },
+    {
+      "id": "9b6fa91a-f4e8-4ee9-96ce-6cf5ece44098",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888004((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo04100_neg.json"
+      }
+    },
+    {
+      "id": "c00033eb-20d6-4f77-8ded-2500dd571a1e",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888005((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo05100_neg.json"
+      }
+    },
+    {
+      "id": "286a8c47-7b23-49d1-9682-a4d91445f2df",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888006((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo06100_neg.json"
+      }
+    },
+    {
+      "id": "10258beb-112d-4859-9fdf-7f1231ed845b",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888007((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo07100_neg.json"
+      }
+    },
+    {
+      "id": "1f537031-57a0-4053-af92-7cac2d8c290b",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888008(((0|1|2)[0-9][0-9]))",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo08299_neg.json"
+      }
+    },
+    {
+      "id": "aebe6f59-b683-4068-9c5d-02e9b232ba40",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888009(((0|1)[0-9][0-9]))",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo09199_neg.json"
+      }
+    },
+    {
+      "id": "c0e19f6c-0d9c-4576-8d32-21a0f94b90ba",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888010((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo10100_neg.json"
+      }
+    },
+    {
+      "id": "3605a29f-3248-4283-9533-d09b470fbc86",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888011((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo11100_neg.json"
+      }
+    },
+    {
+      "id": "4bb6c28a-bea8-47c6-aec2-f51d0f130c1b",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888012((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo12100_neg.json"
+      }
+    },
+    {
+      "id": "8fde54c7-aa4b-4430-832e-89cbb8d2b1f4",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888013((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo13100_neg.json"
+      }
+    },
+    {
+      "id": "17d4acf1-c81a-412c-bd7b-b95759e5f125",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888014((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo14100_neg.json"
+      }
+    },
+    {
+      "id": "95b384da-1463-4cc7-8bea-d62c09177da0",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888015((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo15100_neg.json"
+      }
+    },
+    {
+      "id": "f7560b18-5322-46ee-b9ae-941830052db5",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/8888016((0[0-9][0-9])|100)",
+        "method": "GET"
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "area-data-management/fibreonlocations/FibreOnLocation_KlsIdRangeTo16100_neg.json"
+      }
+    }
+  ]
+}

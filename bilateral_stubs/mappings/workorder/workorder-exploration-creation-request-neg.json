@@ -1,0 +1,72 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-exploration-creation-request-error-400-neg",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/giga-project-dioss/v2/workorder/creationRequests",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorders[?(@.type == 'SITE_SURVEY')]"
+          },
+          {
+            "matchesJsonPath": "$.workorders[?(@.klsId =~ /8888008((0[0-9][0-9])|100)/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 400
+      },
+      "id": "85b17dd0-7453-4e9f-b732-096388e4ca22"
+    },
+    {
+      "name": "workorder-exploration-creation-request-no-callback",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/giga-project-dioss/v2/workorder/creationRequests",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorders[?(@.type == 'SITE_SURVEY')]"
+          },
+          {
+            "matchesJsonPath": "$.workorders[?(@.klsId =~ /8888008((2[0-9][0-9]))/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202
+      },
+      "id": "753024aa-d335-4bc4-b01a-0f0b6313f471"
+    },
+    {
+      "name": "workorder-exploration-creation-request-callback-neg-callback",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/giga-project-dioss/v2/workorder/creationRequests",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorders[?(@.type == 'SITE_SURVEY')]"
+          },
+          {
+            "matchesJsonPath": "$.workorders[?(@.klsId =~ /8888009((0[0-9][0-9])|100)/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v1/workorder/creationRequestsCallback/error",
+          "bodyFileName": "workorder/workorder-exploration-creation-callback-neg.json"
+        }
+      },
+      "id": "1151550e-9463-4578-ae51-89fd62e24274"
+    }
+  ]
+}

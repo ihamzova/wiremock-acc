@@ -1,0 +1,87 @@
+{
+    "validFolMap": {
+        {{#each (jsonPath request.body '$.klsIds')}}
+        "{{this}}": {
+            "creationDate": 1533643200000,
+            "modificationDate": 1533643200000,
+            "controlTraceabilityManual": false,
+            "klsId": {{this}},
+            "installationStatus": "PLANNED",
+            "demandCarrier": "FTTH",
+            "areaType": null,
+            "initiative": "SELF_EXPANSION",
+            "reasonForNoConstruction": null,
+            "technology": "FTTH",
+            "rolloutSponsor": "SELF_EXPANSION",
+            "installationDate": null,
+            "plannedInstallationBegin": null,
+            "plannedInstallationEnd": null,
+            "cooperationPartner": null,
+            "we": 0,
+            "ge": 0,
+            "sl": 0,
+            "vvmArea": {
+                "creationDate": 1537436513215,
+                "modificationDate": 1571068720897,
+                "controlTraceabilityManual": false,
+                "name": "Bornheim Widdig",
+                "number": "08118011_01",
+                "areaType": "KGS_8",
+                "rolloutDate": 1605484800000,
+                "areaStatus": "PLANNING_ONGOING",
+                "plannedArea": true,
+                "plannedFrom": 1551398400000,
+                "plannedTo": 1559260800000,
+                "released": true,
+                "cooperationPartner": null,
+                "netCoOrganisationId": 10001,
+                "thresholdData": {
+                    "threshold": null,
+                    "ordersCountInVVM": 46,
+                    "additionalOrdersCountInVVM": null
+                },
+                "fibreOnLocations": []
+            },
+            "nvtArea": {
+                "creationDate": 1536308512000,
+                "modificationDate": 1536308512000,
+                "controlTraceabilityManual": false,
+                "businessId": 9001,
+                "guid": "RA_BORNHEIM_002",
+                "asb": 2,
+                "name": "NVT Area Bornheim 2",
+                "nvtDescriptor": null,
+                "onkz": "2236",
+                "pti": "PTI-WEST",
+                "subsidiary": "Ns Bornheim 2",
+                "vvmArea": {
+                    "creationDate": 1537436513215,
+                    "modificationDate": 1571068720897,
+                    "controlTraceabilityManual": false,
+                    "name": "Bornheim Widdig",
+                    "number": "Bornheim_Widdig_001",
+                    "areaType": "KGS_8",
+                    "rolloutDate": 1605484800000,
+                    "areaStatus": "PLANNING_ONGOING",
+                    "plannedArea": true,
+                    "plannedFrom": 1551398400000,
+                    "plannedTo": 1559260800000,
+                    "released": true,
+                    "cooperationPartner": null,
+                    "netCoOrganisationId": 10001,
+                    "thresholdData": {
+                        "threshold": null,
+                        "ordersCountInVVM": 46,
+                        "additionalOrdersCountInVVM": null
+                    },
+                    "fibreOnLocations": []
+                },
+                "nvtKlsId": 123451,
+                "fibreOnLocations": []
+            }
+        }
+            {{#unless @last}},{{/unless}}
+            {{/each}}
+    },
+    "errorFolMap": {}
+}

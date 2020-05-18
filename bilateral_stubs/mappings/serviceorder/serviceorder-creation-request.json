@@ -1,0 +1,88 @@
+{
+  "mappings": [
+  
+    {
+      "name": "serviceorder-creation-request",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/service-order-service-inventory/v1/wbL2bsaServiceOrder/"
+      },
+      "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v1/serviceorder/wbL2bsaServiceOrderCallback",
+          "bodyFileName": "serviceorder/serviceorder-creation-callback.json"
+        }
+      },
+      "id": "222e4195-4e22-49fc-22dc-22cdc915d861"
+    },
+    
+    {
+      "scenarioName": "serviceorder-creation-request-error-handling",
+      "requiredScenarioState": "Started",
+      "newScenarioState": "Will provide callback with success",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/service-order-service-inventory/v1/wbL2bsaServiceOrder/",
+        "bodyPatterns" : [ {
+          "matchesJsonPath" : "$..value[?(@.value =~ /1111999[0-9]/i)]"
+        } ]
+      },
+      "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v1/serviceorder/wbL2bsaServiceOrderCallback",
+          "bodyFileName": "serviceorder/serviceorder-creation-callback-error.json"
+        }
+      }
+    },
+    
+    {
+      "scenarioName": "serviceorder-creation-request-error-handling",
+      "requiredScenarioState": "Will provide callback with success",
+      "newScenarioState": "Started",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/service-order-service-inventory/v1/wbL2bsaServiceOrder/",
+        "bodyPatterns" : [ {
+          "matchesJsonPath" : "$..value[?(@.value =~ /1111999[0-9]/i)]"
+        } ]
+      },
+      "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v1/serviceorder/wbL2bsaServiceOrderCallback",
+          "bodyFileName": "serviceorder/serviceorder-creation-callback.json"
+        }
+      }
+    }
+    
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-exploration-creation-request",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/giga-project-dioss/v2/workorder/creationRequests",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorders[?(@.type == 'SITE_SURVEY')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://ibt-core-app/ibt-core-rs/v1/workorder/creationRequestsCallback",
+          "bodyFileName": "workorder/workorder-exploration-creation-callback.json"
+        }
+      },
+      "id": "20669d7d-b236-4073-b121-23f7826e6130"
+    },
+    {
+      "name": "workorder-exploration-creation-requestv3",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/reqcb/giga-project-dioss/v3/workorder"
+      },
+      "response": {
+        "status": 202
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "url": "http://wiremock-yoda-app/delay/v3/workorder/creationRequestsCallback",
+          "body": "{}"
+        }
+      },
+      "id": "9c7940fb-b537-45c1-868b-b62db756b9f7"
+    }
+  ]
+}

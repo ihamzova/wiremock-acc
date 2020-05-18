@@ -1,0 +1,163 @@
+[
+  {
+    "id": 10009,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "PTI22 Stuttgart",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10010,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "PTI25 Muenchen",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": [{
+      "vvmAreaNumber": "8888"
+    }
+  ]
+  },
+  {
+    "id": 10011,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Produktion Quality Controller DT",
+    "nameType": "Department",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10012,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "IT Business Support der DT",
+    "nameType": "BusinessSupport",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10013,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "Leonard Weiss fuer DTAG",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10014,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Netzbetrieb DT",
+    "nameType": "RolloutPartner",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10015,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "externe IT Systeme TD",
+    "nameType": "System",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10016,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "adMobis",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10017,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "Mobifon",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10018,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "NetVirtual",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10022,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "NE3-Supplier DTAG",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

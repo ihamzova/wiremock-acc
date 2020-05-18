@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "id": "07450e1f-06ec-469d-9b32-61ab55ffc64b",
+      "name": "Organization_by_Id_anyOther_loadLocations_true",
+      "request": {
+        "urlPathPattern": "/party/v2/partyManagement/organizations/((?!1000[0-9]|1001[0-9]|1002[0-3])[0-9]*)",
+        "method": "GET",
+        "queryParameters": {
+          "loadLocations": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "id": "6a8e487a-cc40-4bfc-9316-fcdf44804aed",
+      "name": "Organization_by_Id_anyOther_loadLocations_false",
+      "request": {
+        "urlPathPattern": "/party/v2/partyManagement/organizations/((?!1000[0-9]|1001[0-9]|1002[0-3])[0-9]*)",
+        "method": "GET",
+        "queryParameters": {
+          "loadLocations": {
+            "equalTo": "false"
+          }
+        }
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

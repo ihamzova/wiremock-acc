@@ -1,0 +1,54 @@
+{
+  "mappings": [
+    {
+      "id": "69e8846e-51c7-4a06-b745-08a5a4889d93",
+      "name": "Descendants_by_OrganizationId_anyOther_loadLocations_false",
+      "request": {
+        "urlPathPattern": "/party/v2/partyManagement/organizations/((?!1000[0-9]|1001[0-9]|1002[0-3])[0-9]*)/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "false"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "id": "226b282e-8d81-47e8-a9c0-11d035136da8",
+      "name": "Descendants_by_OrganizationId_anyOther_loadLocations_true",
+      "request": {
+        "urlPathPattern": "/party/v2/partyManagement/organizations/((?!1000[0-9]|1001[0-9]|1002[0-3])[0-9]*)/descendants",
+        "method": "GET",
+        "queryParameters": {
+          "childrenLayerOnlyFirst": {
+            "equalTo": "true"
+          },
+          "loadLocations": {
+            "equalTo": "true"
+          },
+          "withoutRoot": {
+            "equalTo": "true"
+          }
+        }
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

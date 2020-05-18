@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "name": "address-lookup-by-klsid-fallback",
+      "request": {
+        "urlPathPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/([0-9]*)",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"99999\",\n  \"municipalityName\": \"Wiremock-City\",\n  \"distributionAreaName\": \"Wiremock-City\",\n  \"streetName\": \"Wiremock-Street\",\n  \"streetNameShort\": \"Wiremock-Street\",\n  \"houseNumber\": 999,\n  \"houseNumberSupplement\": \"\/A\",\n  \"houseQualifier\": \"999\/A\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      },
+      "id": "756a3a79-2492-4072-b175-f514fb035abf"
+    }
+  ]
+}

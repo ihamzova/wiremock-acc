@@ -1,0 +1,64 @@
+{
+  "mappings": [
+    {
+      "name": "get_mapping_by_acid_89110",
+      "request": {
+        "urlPath": "/a-cid-service/v1/aCids",
+        "method": "GET",
+        "queryParameters": {
+          "aCid": {
+            "matches": "89110"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "acid/acidMapping_89110.json"
+      },
+      "id": "bff01073-9958-4da8-b75e-375121df2c0f"
+    },
+    {
+      "name": "get_mapping_by_acid_72850",
+      "request": {
+        "urlPath": "/a-cid-service/v1/aCids",
+        "method": "GET",
+        "queryParameters": {
+          "aCid": {
+            "matches": "72850"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "acid/acidMapping_72850.json"
+      },
+      "id": "f249edc3-508a-493e-bce7-8a3bce98bd03"
+    },
+    {
+      "name": "get_mapping_by_acid_47100",
+      "request": {
+        "urlPath": "/a-cid-service/v1/aCids",
+        "method": "GET",
+        "queryParameters": {
+          "aCid": {
+            "matches": "47100"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 200,
+        "bodyFileName": "acid/acidMapping_47100.json"
+      },
+      "id": "854bb61d-c673-4510-9e9a-e38e32032593"
+    }
+  ]
+}

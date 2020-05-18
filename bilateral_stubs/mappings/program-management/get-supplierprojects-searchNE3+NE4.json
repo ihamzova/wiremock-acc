@@ -1,0 +1,264 @@
+{
+  "mappings": [
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_default",
+      "priority": 10,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST"
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "id": "aa25746c-3bd3-4c82-a600-bdf3ab00716a"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101016",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101016"
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101016NE3+NE4.json"
+      },
+      "id": "e2e5746c-3bd3-4c82-a600-bdf3ab00716f"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId_8",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"supplierId\":8}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101016NE3+NE4.json"
+      },
+      "id": "76dc15a4-5b58-48fb-ab99-70e713b93bca"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101010",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101010"
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101010NE3+NE4.json"
+      },
+      "id": "cb563594-6fac-4e4d-9cac-69cd5fb51110"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId_2",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"supplierId\":2}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101010NE3+NE4.json"
+      },
+      "id": "d2262457-cfb6-4883-9a28-10d95d1c817e"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101017",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101017"
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101017NE3.json"
+      },
+      "id": "a5eac11c-615b-46ff-90e8-8e7b19adb95c"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId_9",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"supplierId\":9}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101017NE3.json"
+      },
+      "id": "d68f31de-e34c-4eac-a312-be7d91bad685"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101018",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101018"
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101018NE3.json"
+      },
+      "id": "f39f17c8-e12a-49d6-92f3-bc09e121654d"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId_10",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"supplierId\":10}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101018NE3.json"
+      },
+      "id": "87d4e858-e554-4d94-80d5-761ae7bcfe5e"
+    },
+    {
+      "name": "FB001-supplier",
+      "priority": 2,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"supplierId\": 101016}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/FB001-program-management-12952.json"
+      },
+      "id": "7006ad2e-5c0e-4a0d-bf56-8b880b692902"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "creationDate": 1556531003662,
+    "modificationDate": 1561650158513,
+    "controlTraceabilityManual": false,
+    "name": "Heimerdingen_MVP",
+    "number": "08118011_01",
+    "areaType": "KGS_8",
+    "rolloutDate": 1582848000000,
+    "areaStatus": "UNDER_CONSTRUCTION",
+    "plannedArea": true,
+    "plannedFrom": 1556582400000,
+    "plannedTo": 1564531200000,
+    "released": false,
+    "cooperationPartner": null,
+    "initiative": null,
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null,
+    "fibreOnLocations": []
+  },
+  {
+    "creationDate": 1586272620082,
+    "modificationDate": 1586272620082,
+    "controlTraceabilityManual": false,
+    "name": "giga_Gebiet_Name_12",
+    "number": "giga_Gebiet_Num_12",
+    "areaType": "KGS_8",
+    "rolloutDate": 1772496000000,
+    "areaStatus": "PLANNING_ONGOING",
+    "plannedArea": true,
+    "plannedFrom": 1640995200000,
+    "plannedTo": 1706572800000,
+    "released": false,
+    "cooperationPartner": null,
+    "initiative": null,
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null,
+    "fibreOnLocations": []
+  },
+  {
+    "creationDate": 1586272620082,
+    "modificationDate": 1586272620082,
+    "controlTraceabilityManual": false,
+    "name": "giga_Gebiet_Name_13",
+    "number": "giga_Gebiet_Num_13",
+    "areaType": "KGS_8",
+    "rolloutDate": 1627516800000,
+    "areaStatus": "CLOSED",
+    "plannedArea": false,
+    "plannedFrom": 1600819200000,
+    "plannedTo": 1619827200000,
+    "released": false,
+    "cooperationPartner": null,
+    "initiative": null,
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null,
+    "fibreOnLocations": []
+  },
+  {
+    "creationDate": 1556531003662,
+    "modificationDate": 1561650158513,
+    "controlTraceabilityManual": false,
+    "name": "Wholebuy Deutsche Glasfaser AG",
+    "number": "WHOLEBUY_DGFAG",
+    "areaType": "KGS_8",
+    "rolloutDate": 1582848000000,
+    "rolloutPartner": 10002,
+    "areaStatus": "CLOSED",
+    "plannedArea": true,
+    "plannedFrom": 1556582400000,
+    "plannedTo": 1564531200000,
+    "released": false,
+    "cooperationPartner": null,
+    "initiative": "WHOLE_BUY",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null,
+    "fibreOnLocations": []
+  }
+]

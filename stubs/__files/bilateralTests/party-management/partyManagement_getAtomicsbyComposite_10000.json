@@ -1,0 +1,159 @@
+[
+  {
+    "id": 10002,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Produktion TD Nord",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10003,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "EWE NETZ",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10004,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "IT Business Support JV",
+    "nameType": "BusinessSupport",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10005,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Netzbetrieb JV",
+    "nameType": "RolloutPartner",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10006,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "Leonard Weiss fuer JV",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10007,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Produktion Quality Controller JV",
+    "nameType": "Department",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10008,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "externe IT Systeme JV",
+    "nameType": "System",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10019,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "FiresideNet",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10020,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "MultiNet",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10021,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "netWaves",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10023,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "NE3-Supplier JV",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

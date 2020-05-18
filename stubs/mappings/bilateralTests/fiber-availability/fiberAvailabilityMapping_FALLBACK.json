@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "name": "FiberAvailability Fallback",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v2/FiberAvailability/serviceQualification/((?!8888)[0-9]*)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "fiber-availability/fiberAvailability_FALLBACK.json"
+      },
+      "id": "faf388a6-4f7a-4392-9219-be7b5263b54d"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "mappings": [
+    {
+      "id": "0848cf88-5d0a-426c-b734-936a50611eb2",
+      "name": "giga-areas-location_v1_areadatamanagement_nvtareas_search",
+      "request": {
+        "url": "/giga-areas-location/v1/areaDataManagement/nvtareas/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"businessIds\" : [10217, 10218, 10219, 10220, 10221, 10222, 10223, 10224]}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-management/nvtAreas-by-bids.json"
+      }
+    },
+    {
+      "id": "a3432dbe-da3b-4d14-ade0-6bf738df04db",
+      "name": "giga-areas-location_v1_areadatamanagement_nvtareas_search",
+      "request": {
+        "url": "/giga-areas-location/v1/areaDataManagement/nvtareas/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"businessIds\" : [10000]}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-management/FB001-nvtAreaId_10000.json"
+      }
+    }
+  ]
+}

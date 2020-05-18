@@ -1,0 +1,459 @@
+{
+  "mappings": [
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101016",
+      "priority": 1,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101016",
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101016NE4.json"
+      },
+      "id": "e9a972fb-4af0-4dd5-973e-7869c4fb29f7"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId",
+      "priority": 1,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "supplierId": 8,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101016NE4.json"
+      },
+      "id": "b3b9d659-9531-4fb8-99f3-94e941288757"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_creditor_101010",
+      "priority": 1,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "creditorId": "101010",
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101010NE4.json"
+      },
+      "id": "da839bfd-618f-4851-af3a-2d2f656153c0"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_supplierId_2",
+      "priority": 1,
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "supplierId": 2,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_creditor-101010NE4.json"
+      },
+      "id": "cc8341ef-6e7f-49f2-97e2-ddcc42616489"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-GENERIC",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.areaProgramBid =~ ((?!281)[0-9]*))]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": "[{\"persisted\":true,\"guid\":\"d0225acd-57b0-461f-8f6c-97bfdfbab0bf\",\"version\":1,\"creationDate\":1559555103559,\"creationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"modificationDate\":1559556832335,\"modificationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"controlTraceabilityManual\":false,\"businessId\":10067,\"name\":\"7152/5/5V5017/Nachinstallation\",\"tokenUrl\":null,\"ne3\":false,\"ne4\":true,\"projectStart\":null,\"projectEnd\":null,\"creditorId\":\"101016\",\"supplierId\": 8,\"wmsTIBA\":\"101016-5V5017-4\",\"status\":\"COMMISSIONED\",\"areaProgram\":{\"persisted\":true,\"guid\":\"57cb53e4-79f7-44f4-bb25-ce388b42d65a\",\"version\":4,\"creationDate\":1559555103511,\"creationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"modificationDate\":1559556845197,\"modificationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"controlTraceabilityManual\":false,\"businessId\": {{jsonPath request.body '$.areaProgramBid'}},\"programName\":null,\"nvtAreaId\":10221,\"ptiUserId\":null,\"ptiOrgaId\":null,\"ptiRessortId\":null,\"programType\":null,\"status\":\"INITIAL_EXPANSION\",\"assignedPhase\":null,\"areaProgramMilestones\":[{\"persisted\":true,\"guid\":\"cefd5884-fae6-4e61-9e16-0127f070f8b0\",\"version\":0,\"creationDate\":1559556845193,\"creationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"modificationDate\":1559556845193,\"modificationUser\":\"a9c35493-48de-4f62-ae5f-3549e37fa0d9\",\"controlTraceabilityManual\":false,\"milestoneDate\":\"2020-02-28T00:00:00.000Z\",\"milestoneType\":\"USUAL_MARKETING_START\",\"assignedProgramPhase\":null}]},\"phase\":\"AFTER_INSTALLATION\",\"wmsTransfers\":[]}]"
+      },
+      "id": "ec6f133d-5ace-4f8c-83b3-1e4ef1feaef5"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10008",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10008,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10008.json"
+      },
+      "id": "b66cbbcc-c720-4106-ac52-3ef99853d70d"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10010",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10010,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10010.json"
+      },
+      "id": "43506c47-1110-4c2b-abbb-d960ae244015"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10011",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10011,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10011.json"
+      },
+      "id": "69c187d3-988d-4ad3-b7b8-d1c8f2f01022"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10015",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10015,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10015.json"
+      },
+      "id": "df93ec59-cf5c-4e17-b215-3d66d1462b30"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10016",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10016,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10016.json"
+      },
+      "id": "5f0faee2-58ab-48c1-9246-10621c212e49"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10017",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10017,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10017.json"
+      },
+      "id": "36226ded-a8a8-49f1-9f8b-4387ae45e6fd"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10018",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10018,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10018.json"
+      },
+      "id": "efad1ae0-01a8-4ecc-92fb-3512b80f107f"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10020",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10020,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10020.json"
+      },
+      "id": "b58a97cc-811f-401d-a6cd-789110506d2b"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10021",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10021,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10021.json"
+      },
+      "id": "f5e3d131-7cde-4b6c-8544-4107f62067ad"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_areaProgramBid-10022",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": 10022,
+              "ne4": true
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_areaprogram10022.json"
+      },
+      "id": "4080cd1e-8ee4-42a0-88ef-278f6ca7a2f0"
+    },
+    {
+      "name": "giga-project-dioss_v2_supplierprojects_search_by_null_fallback",
+      "request": {
+        "url": "/giga-project-dioss/v2/supplierprojects/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "areaProgramBid": null,
+              "areaProgramBids": null,
+              "name": null,
+              "tokenUrl": null,
+              "ne3": null,
+              "ne4": true,
+              "projectStart": null,
+              "projectEnd": null,
+              "cioCreationDate": null,
+              "creditorId": null,
+              "supplierId": null,
+              "maxResults": null
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "transformers": [
+          "response-template"
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/supplierprojects_by_ne4.json"
+      },
+      "id": "95baf91d-29b7-4aa3-b5e9-9785d1604fdb"
+    }
+  ]
+}

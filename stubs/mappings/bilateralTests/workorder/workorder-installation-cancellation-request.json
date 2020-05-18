@@ -1,0 +1,93 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-installation-cancellation-request",
+      "request": {
+        "method": "POST",
+        "url": "/giga-project-dioss/v2/workorder/gfTaCancellationRequest"
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "{{request.headers.Authorization}}"
+          },
+          "url": "https://api-{{regexExtract request.requestLine.baseUrl 'yoda-.+?(?=\\.|\\/|:)'}}.magic.telekom.de/pubsub/p/giga-project-dioss/v1/workorderCancellationEvent/",
+          "bodyFileName": "workorder/workorder-installation-cancellation-event.json"
+        }
+      },
+      "id": "48024017-5bbe-4619-8b45-c9dd32100db9"
+    },
+    {
+      "name": "workorder-installation-cancellation-request-negative",
+      "request": {
+        "method": "POST",
+        "url": "/giga-project-dioss/v2/workorder/gfTaCancellationRequest",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorder[?(@.workorderId =~ /88880140[0-9]{6}|8888014100[0-9]{4}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "{{request.headers.Authorization}}"
+          },
+          "url": "https://api-yoda-01.magic.telekom.de/workorderEvent/p/giga-project-dioss/v1/workorderEvent/",
+          "bodyFileName": "workorder/workorder-installation-cancellation-event-negative.json"
+        }
+      },
+      "id": "718a644a-6943-4dbf-a7a8-fc7f8aa43358"
+    },
+    {
+      "name": "workorder-installation-cancellation-request_400",
+      "request": {
+        "method": "POST",
+        "url": "/giga-project-dioss/v2/workorder/gfTaCancellationRequest",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.workorder[?(@.workorderId =~ /88880120[0-9]{6}|8888012100[0-9]{4}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "workorder/workorder-installation-cancellation-event-400-response.json"
+      },
+      "id": "1e885638-1b69-488f-93cc-18626d2a8e5c"
+    },
+    {
+      "name": "workorder-installation-cancellation-request_v3",
+      "request": {
+        "method": "POST",
+        "url": "/giga-project-dioss/v3/workorder/cancelWorkorder"
+      },
+      "response": {
+        "status": 202,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "id": "01b76609-66b4-47c3-887b-4141083fe778"
+    }
+  ]
+}

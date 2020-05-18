@@ -1,0 +1,15 @@
+{
+  "mappings": [
+    {
+      "name": "cio-creation-acknowledge",
+      "request": {
+        "method": "POST",
+        "url": "/ibt/cio/created"
+      },
+      "response": {
+        "status": 200
+      },
+      "id": "91c24a6c-d5dd-4606-a497-14f2ef46d738"
+    }
+  ]
+}

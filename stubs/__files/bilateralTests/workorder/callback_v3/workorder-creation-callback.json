@@ -1,0 +1,8 @@
+{
+  "workorder": {
+      "id": "{{randomValue length=8 type='NUMERIC'}}",
+      "priority": "1",
+      "note": "Workorder note",
+      "status": "CREATED"
+   }
+}

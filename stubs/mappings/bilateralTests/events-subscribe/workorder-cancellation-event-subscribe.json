@@ -1,0 +1,15 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-cancellation-event-subscribe",
+      "request": {
+        "method": "GET",
+        "url": "/pubsub/s/giga-project-dioss/v1/workorderCancellationEvent/"
+      },
+      "response": {
+        "proxyBaseUrl": "https://api-yoda-01.magic.telekom.de"
+      },
+      "id": "2a9f8595-805b-4c28-9f5b-ec8cc3e0eae5"
+    }
+  ]
+}

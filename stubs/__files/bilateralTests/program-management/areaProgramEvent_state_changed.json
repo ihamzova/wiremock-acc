@@ -1,0 +1,15 @@
+{
+  "areaProgramStateChangeNotificationEvent": {
+    "eventId": "03f1c964-ee8e-4970-8d68-6555dada9248",
+    "eventSource": "program-management",
+    "eventStream": "/pubsub/p/giga-project-dioss/v1/areaProgramEvent/",
+    "eventType": "STATE_CHANGED",
+    "eventVersion": "1.0",
+    "eventPayload": {
+      "areaProgramBid": "{{jsonPath request.body '$.areaProgramBid'}}",
+      "programStatus": "{{jsonPath request.body '$.programStatus'}}",
+      "modificationDate": "2019-07-09T09:21:57.540Z"
+    },
+    "eventTime": "2019-07-09T09:21:57.602Z"
+  }
+}

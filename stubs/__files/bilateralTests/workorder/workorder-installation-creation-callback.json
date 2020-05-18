@@ -1,0 +1,10 @@
+{
+  "message": "GFTA WO created",
+  "messageCode": "201",
+  "messageType": "CREATED",
+  "workorders": [{
+      "workorderBid": "{{jsonPath request.body '$.workorders.[0].klsId'}}{{randomValue length=4 type='NUMERIC'}}",
+      "workorderType": "GFTA",
+      "externalReference": "{{jsonPath request.body '$.workorders.[0].externalReference'}}"
+    }]
+}

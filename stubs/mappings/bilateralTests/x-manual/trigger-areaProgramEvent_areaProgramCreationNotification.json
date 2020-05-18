@@ -1,0 +1,29 @@
+{
+  "mappings": [
+    {
+      "name": "trigger-areaProgramEvent_areaProgramCreationNotification",
+      "request": {
+        "method": "POST",
+        "url": "/useractions/areaProgramEvent/areaProgramCreationNotification"
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "{{request.headers.Authorization}}"
+          },
+          "url": "https://api-yoda-01.magic.telekom.de/pubsub/p/giga-project-dioss/v1/areaProgramEvent/",
+          "bodyFileName": "program-management/areaProgramEvent_areaProgramCreationNotification.json"
+        }
+      },
+      "id": "035fbbcd-ff65-4303-9135-26c11b707852"
+    }
+  ]
+}

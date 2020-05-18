@@ -1,0 +1,18 @@
+{
+  "areaProgramAttributeValueChangeNotificationEvent": {
+    "eventId": "43fe973b-3828-4cfd-b765-dce7d23959ea",
+    "eventSource": "program-management",
+    "eventStream": "/pubsub/p/giga-project-dioss/v1/areaProgramEvent/",
+    "eventType": "areaProgramAttributeValueChangeNotification",
+    "eventVersion": "1.0",
+    "eventPayload": {
+      "areaProgramBid": 10012,
+      "_links": {
+        "self": {
+          "href": "/giga-project-dioss/v1/areaprograms/10012"
+        }
+      }
+    },
+    "eventTime": "2019-07-10T11:23:11.793Z"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "correlationId": "{{request.headers.Correlation-Id}}",
+  "message": "Negative respnse from Workorder service",
+  "messageCode": "400",
+  "messageType": "BAD REQUEST"
+}

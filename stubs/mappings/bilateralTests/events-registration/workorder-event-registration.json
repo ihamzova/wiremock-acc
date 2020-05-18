@@ -1,0 +1,15 @@
+{
+  "mappings": [
+    {
+      "name": "workorder-event-registration",
+      "request": {
+        "method": "POST",
+        "url": "/pubsub/r/giga-project-dioss/v1/workorderEvent/"
+      },
+      "response": {
+        "proxyBaseUrl": "https://api-yoda-01.magic.telekom.de"
+      },
+      "id": "7e14a236-1801-497e-a73d-204ac25954f2"
+    }
+  ]
+}

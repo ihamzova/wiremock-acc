@@ -1,0 +1,164 @@
+{
+  "mappings": [
+    {
+      "id": "3bc7710c-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11110-Birkenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11110.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Birkenweg\",\n  \"streetNameShort\": \"Birkenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc773d2-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11111-Kiefernweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11111.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Kiefernweg\",\n  \"streetNameShort\": \"Kiefernweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc774a4-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11112-Ahornweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11112.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Ahornweg\",\n  \"streetNameShort\": \"Ahornweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc77576-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11113-Kastanienweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11113.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Kastanienweg\",\n  \"streetNameShort\": \"Kastanienweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc77666-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11114-Buchenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11114.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Buchenweg\",\n  \"streetNameShort\": \"Buchenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc7772e-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11115-Fichtenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11115.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Fichtenweg\",\n  \"streetNameShort\": \"Fichtenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc777ec-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11116-Erlenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11116.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Erlenweg\",\n  \"streetNameShort\": \"Erlenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc778aa-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11117-Eichenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11117.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Eichenweg\",\n  \"streetNameShort\": \"Eichenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc77b3e-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11118-Eschenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11118.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Eschenweg\",\n  \"streetNameShort\": \"Eschenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "id": "3bc77c10-7807-11ea-bc55-0242ac130003",
+      "name": "address-lookup-by-klsid-11118-Ulmenweg",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/11119.{3}",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"klsId\": {{request.requestLine.pathSegments.[5]}},\n  \"zipCode\": \"81254\",\n  \"municipalityName\": \"Flitzeburg\",\n  \"distributionAreaName\": \"Flitzeburg\",\n  \"streetName\": \"Ulmenweg\",\n  \"streetNameShort\": \"Ulmenweg\",\n  \"houseNumber\": {{regexExtract request.requestLine.pathSegments.[5] '(.{5})(.*)' 'parts'}}{{parts.1}},\n  \"houseNumberSupplement\": \"\",\n  \"houseQualifier\": \"{{parts.1}}\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    }
+  ]
+}

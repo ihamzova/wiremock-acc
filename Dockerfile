@@ -9,6 +9,7 @@ WORKDIR /$WM_PACKAGE
 COPY target/wiremock-acc-deps.jar /$WM_PACKAGE
 COPY stubs /$WM_PACKAGE
 COPY example-stubs /$WM_PACKAGE/example-stubs
+COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 
 EXPOSE 8080
 

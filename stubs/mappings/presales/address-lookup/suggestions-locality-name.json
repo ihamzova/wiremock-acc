@@ -1,4 +1,5 @@
 {
+  "priority": 5,
   "request": {
     "method": "GET",
     "urlPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/LOCALITY\\?(localityName=.*)?(zipCode=.*)?"

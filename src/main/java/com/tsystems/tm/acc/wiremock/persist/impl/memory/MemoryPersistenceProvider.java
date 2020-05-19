@@ -2,9 +2,7 @@ package com.tsystems.tm.acc.wiremock.persist.impl.memory;
 
 import com.tsystems.tm.acc.wiremock.persist.PersistenceProvider;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MemoryPersistenceProvider implements PersistenceProvider {
     private static MemoryPersistenceProvider INSTANCE;
@@ -20,6 +18,11 @@ public class MemoryPersistenceProvider implements PersistenceProvider {
     @Override
     public Object get(String key) {
         return storage.get(key);
+    }
+
+    @Override
+    public Set<Map.Entry<String, Object>> getAll() {
+        return storage.entrySet();
     }
 
     @Override

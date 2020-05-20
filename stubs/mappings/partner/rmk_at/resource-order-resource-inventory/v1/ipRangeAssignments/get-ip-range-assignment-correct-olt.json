@@ -1,7 +1,13 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments/(\\d*)"
+    "urlPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments/(\\d*)",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..ipRangePool",
+        "contains": "ancp_olt"
+      }
+    } ]
   },
   "response": {
     "status": 200,
@@ -18,7 +24,7 @@
         "port": "ge_4/0/2"
       },
       "ipAddress": "10.150.240.100",
-      "prefixLength": 30
+      "prefixLength": 10
     }
   }
 }

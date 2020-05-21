@@ -31,7 +31,9 @@
                                 <standortBName>POP-Lüdighausen-4711</standortBName>
                                 <rack>34-53</rack>
                                 <port>0815-23-47</port>
-                                <ppid>{{randomValue length=5 type='NUMERIC'}}</ppid>
+                                <ppid>
+                                    {{eq (persist key='dgf_ppid') null yes=(randomValue length=5 type='NUMERIC') no=(persist key='dgf_ppid')}}
+                                </ppid>
                             </schaltangabenNga>
                             <homeId>
                                 <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>

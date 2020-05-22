@@ -53,6 +53,13 @@ Example:
 }
 ```
 
+If you need "get with default" functionality you may use this piece of code:
+```json
+{
+  {{eq (persist key='my_key') null yes='my_default_value' no=(persist key='my_key')}}
+}
+```
+
 Persistence Post Serve Action
 ---
 Example:

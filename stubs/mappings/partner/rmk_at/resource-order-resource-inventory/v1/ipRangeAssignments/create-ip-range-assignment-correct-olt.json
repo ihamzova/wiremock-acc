@@ -1,7 +1,13 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..ipRangePool",
+        "contains": "ancp_olt"
+      }
+    } ]
   },
   "response": {
     "status": 200,

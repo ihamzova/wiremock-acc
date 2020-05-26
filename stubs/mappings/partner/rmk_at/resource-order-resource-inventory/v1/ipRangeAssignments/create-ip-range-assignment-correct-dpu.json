@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..ipRangePool",
+        "contains": "ancp_dpu"
+      }
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": 1341434323,
+      "@type": "IpRangeAssignment",
+      "href": "http://server:port/resource-order-resource-inventory/v1/ipRangeAssignments/1341434323",
+      "ipRangePool": "ancp_dpu",
+      "parentInterface": {
+        "endSz": "49/911/84/7ZJA",
+        "port": "ge_4/0/3"
+      },
+      "ipAddress": "80.146.191.0",
+      "prefixLength": 24
+    }
+  }
+}

@@ -2,7 +2,13 @@
   "priority": 6,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ancpEndpoints"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ancpEndpoints",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : {
+        "expression": "$..partnerType",
+        "contains": "DPU"
+      }
+    } ]
   },
   "response": {
     "status": 202,
@@ -27,20 +33,9 @@
             "href": "http://server:port/resource-order-resource-inventory/v1/resources/1341434323",
             "@type": "AncpEndpoint",
             "bngAncpIpAddress": "10.55.42.1",
-            "partnerType": "AccessNode",
+            "partnerType": "DPU",
             "partnerAncpIpAddress": "10.55.42.2",
-            "vlanID": 16,
-            "linkDetails": {
-              "lsz": "4D1",
-              "lszErg": "VSL",
-              "endSz_partner": "49/343/180/7MA1",
-              "endSz_bng": "49/911/84/7ZJA",
-              "ordnungsnummer": 1,
-              "bandwidth": "1G"
-            },
-            "partnerDetails": {
-              "anManagementAddress": "10.52.31.53"
-            },
+            "vlanID": 12,
             "parentInterface": {
               "endSz": "49/911/84/7ZJA",
               "port": "ge-2/1/2"

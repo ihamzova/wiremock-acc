@@ -13,7 +13,7 @@
       "webhooks": [
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 1000,
+          "fixedDelayMilliseconds": 10000,
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
@@ -22,7 +22,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 2000,
+          "fixedDelayMilliseconds": 20000,
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
@@ -31,7 +31,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 7000,
+          "fixedDelayMilliseconds": 30000,
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
@@ -40,7 +40,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 8000,
+          "fixedDelayMilliseconds": 40000,
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },

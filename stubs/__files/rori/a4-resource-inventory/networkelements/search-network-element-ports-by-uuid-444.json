@@ -2,27 +2,40 @@
   {
     "uuid": "1",
     "operationalState": "INSTALLING",
-    "administrativeState": "DEACTIVATED",
-    "logicalLabel": "10GB-2",
+    "administrativeState": "WORKING",
+    "logicalLabel": "998",
     "accessNetworkOperator": "AccessNetworkOperator",
     "role": "TEN10G_ETHERNET_PORT",
     "creationTime": "2019-12-01T11:59:09.375Z",
     "lastUpdateTime": "2019-12-01T11:59:09.375Z",
     "description": "NetworkElementPort_Create",
     "networkElementUuid": "444",
-    "href": "NetworkElementPort_Create"
+    "href": "/networkElements/444"
   },
   {
     "uuid": "2",
     "operationalState": "INSTALLING",
-    "administrativeState": "DEACTIVATED",
-    "logicalLabel": "10GB-2",
+    "administrativeState": "WORKING",
+    "logicalLabel": "999",
     "accessNetworkOperator": "AccessNetworkOperator",
     "role": "TEN10G_ETHERNET_PORT",
     "creationTime": "2019-12-01T11:59:09.375Z",
     "lastUpdateTime": "2019-12-01T11:59:09.375Z",
     "description": "NetworkElementPort_Create",
     "networkElementUuid": "444",
-    "href": "NetworkElementPort_Create"
+    "href": "/networkElements/444"
+  },
+  {
+    "uuid": "3",
+    "operationalState": "INSTALLING",
+    "administrativeState": "WORKING",
+    "logicalLabel": "16",
+    "accessNetworkOperator": "AccessNetworkOperator",
+    "role": "TEN10G_ETHERNET_PORT",
+    "creationTime": "2019-12-01T11:59:09.375Z",
+    "lastUpdateTime": "2019-12-01T11:59:09.375Z",
+    "description": "NetworkElementPort_Create",
+    "networkElementUuid": "444",
+    "href": "/networkElements/444"
   }
 ]

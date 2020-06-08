@@ -1,0 +1,136 @@
+{
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "33_6151_11_7KH0"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 108407614,
+        "versionId": "102/1/4601/5154735",
+        "version": 2,
+        "lsz": "4N2",
+        "lszErg": "A4CH2",
+        "ordNr": 1001,
+        "uewegId": "I1234567890, R1234567890",
+        "status": "InBetrieb",
+        "pluralId": "P12345",
+        "endPointA": {
+          "endSz": "33_6151_11_7KH0",
+          "endSzParts": {
+            "akz": 33,
+            "nkz": 6151,
+            "vkz": 11,
+            "fsz": "7KH0"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "string",
+          "vendorPortName": "10G/0"
+        },
+        "endPointB": {
+          "endSz": "33_6151_11_7KH0",
+          "endSzParts": {
+            "akz": 33,
+            "nkz": 6151,
+            "vkz": 11,
+            "fsz": "7KH0"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "string",
+          "vendorPortName": "10G/1"
+        },
+        "validFrom": "22.02.2016 00:00:00",
+        "validUntil": "22.02.2016 00:00:00"
+      },
+      {
+        "id": 108407615,
+        "versionId": "102/1/4601/5154736",
+        "version": 2,
+        "lsz": "4N3",
+        "lszErg": "A4CH3",
+        "ordNr": 1002,
+        "uewegId": "I1234567891, R1234567891",
+        "status": "geprueft",
+        "pluralId": "P123456",
+        "endPointA": {
+          "endSz": "33_6151_11_7KH0",
+          "endSzParts": {
+            "akz": 33,
+            "nkz": 6151,
+            "vkz": 11,
+            "fsz": "7KH0"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "string",
+          "vendorPortName": "10G/2"
+        },
+        "endPointB": {
+          "endSz": "33_6151_11_7KH0",
+          "endSzParts": {
+            "akz": 33,
+            "nkz": 6151,
+            "vkz": 11,
+            "fsz": "7KH0"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "string",
+          "vendorPortName": "10G/3"
+        },
+        "validFrom": "22.02.2016 00:00:00",
+        "validUntil": "22.02.2016 00:00:00"
+      },
+      {
+        "id": 108407616,
+        "versionId": "102/1/4601/5154737",
+        "version": 2,
+        "lsz": "4N4",
+        "lszErg": "A4CH4",
+        "ordNr": 1003,
+        "uewegId": "I1234567892, R1234567892",
+        "status": "geprueftZ",
+        "pluralId": "P1234567",
+        "endPointB": {
+          "endSz": "33_6151_11_7KH0",
+          "endSzParts": {
+            "akz": 33,
+            "nkz": 6151,
+            "vkz": 11,
+            "fsz": "7KH0"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "string",
+          "vendorPortName": "G/XG-1"
+        },
+        "validFrom": "22.02.2016 00:00:00",
+        "validUntil": "22.02.2016 00:00:00"
+      },
+      {
+        "id": 108407617,
+        "versionId": "102/1/4601/5154738",
+        "version": 2,
+        "lsz": "4N5",
+        "lszErg": "A4CH5",
+        "ordNr": 1004,
+        "uewegId": "I1234567893, R1234567893",
+        "status": "deaktiviert",
+        "pluralId": "P12345678",
+        "validFrom": "22.02.2016 00:00:00",
+        "validUntil": "22.02.2016 00:00:00"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

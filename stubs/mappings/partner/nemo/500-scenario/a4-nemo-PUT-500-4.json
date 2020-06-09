@@ -1,0 +1,15 @@
+{
+  "scenarioName": "NemoDown",
+  "requiredScenarioState": "Attempt #3",
+  "newScenarioState": "Attempt #4",
+  "request" : {
+    "urlPattern" : "/logicalResource/bc2ca622-5980-4ec0-9d25-bf57941d930e",
+    "method" : "PUT"
+  },
+  "response" : {
+    "status" : 500,
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

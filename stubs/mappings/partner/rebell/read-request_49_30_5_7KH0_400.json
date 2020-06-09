@@ -1,0 +1,31 @@
+{
+  "id": "6fb9b7e3-cba2-4fd9-9d99-eb6e3018eb91",
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_30_5_7KH0"
+      },
+      "uewegId": {
+        "matches": "R123456789"
+      }
+    }
+  },
+  "response": {
+    "status": 400,
+    "jsonBody": [
+      {
+        "code": "400",
+        "status": "BAD REQUEST",
+        "title": "ERROR",
+        "detail": "Request with given parameter is not correct"
+      }
+    ]
+  ,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "6fb9b7e3-cba2-4fd9-9d99-eb6e3018eb91"
+}

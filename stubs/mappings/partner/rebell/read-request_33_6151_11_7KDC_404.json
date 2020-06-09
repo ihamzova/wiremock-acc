@@ -1,0 +1,28 @@
+{
+  "id": "0bdb6415-a143-4f83-a7c3-605a562463cc",
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "33_6151_11_7KDC"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": [
+      {
+        "code": "404",
+        "status": "NOT FOUND",
+        "title": "ERROR",
+        "detail": "Ueweg not found with given parameter"
+      }
+    ]
+  ,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "0bdb6415-a143-4f83-a7c3-605a562463cc"
+}

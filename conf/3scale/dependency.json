@@ -2,7 +2,7 @@
   "dependency": {
     "resources": [
       {
-        "resource": "/emulator/Wholebuy/v1/WholebuyResourceOrder/Events",
+        "resource": "/Wholebuy/v1/WholebuyResourceOrder/Events",
         "pattern": [
           "/pubsub/p",
           "/pubsub/r",
@@ -10,7 +10,7 @@
         ]
       },
       {
-        "resource": "/Wholebuy/v1/WholebuyResourceOrder/Events",
+        "resource": "/Wholebuy/v2/WholebuyResourceOrder/Events",
         "pattern": [
           "/pubsub/p",
           "/pubsub/r",

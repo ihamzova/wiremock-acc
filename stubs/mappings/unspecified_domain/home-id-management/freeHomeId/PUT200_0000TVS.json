@@ -1,0 +1,28 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/freeHomeId",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.vpSz == '179/30/245')]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.fachSz == '76HE')]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.slotNumber == '4')]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.portNumber == '1')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{ \"homeId\" : \"0000TVS\"}"
+  }
+}

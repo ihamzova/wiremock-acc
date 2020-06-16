@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/event/v1/buildingPartPlanningData"
+  },
+  "response": {
+    "body": "Kls event posted!",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 202
+  }
+}

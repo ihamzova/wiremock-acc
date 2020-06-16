@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/event/v2/fibreOnLocation"
+  },
+  "response": {
+    "body": "Fol event posted!",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 202
+  }
+}

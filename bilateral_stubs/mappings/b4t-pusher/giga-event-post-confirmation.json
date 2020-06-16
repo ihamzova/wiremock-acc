@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/event/v2/gigaAreas"
+  },
+  "response": {
+    "body": "gigaArea event posted!",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 202
+  }
+}

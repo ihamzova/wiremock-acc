@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/assignedHomeId",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200
+  }
+}

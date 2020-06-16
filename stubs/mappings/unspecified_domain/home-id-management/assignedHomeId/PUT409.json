@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/assignedHomeId",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /409/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 409,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "type": "typeError",
+      "title": "titleError",
+      "status": 409,
+      "detail": "detailError",
+      "instance": "instanceError"
+    }
+  }
+}

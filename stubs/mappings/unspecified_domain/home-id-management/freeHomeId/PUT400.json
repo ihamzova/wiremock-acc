@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/freeHomeId",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.vpSz =~ /400E\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.fachSz =~ /76H[0-9A-Z]/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.slotNumber =~ /[0-9]/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.portNumber =~ /[0-9]/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "type": "typeError",
+      "title": "titleError",
+      "status": 400,
+      "detail": "detailError",
+      "instance": "instanceError"
+    }
+  }
+}

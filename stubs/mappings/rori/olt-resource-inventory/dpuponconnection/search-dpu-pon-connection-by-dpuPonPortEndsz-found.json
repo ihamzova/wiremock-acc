@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/dpu/dpuPonConnection",
+    "queryParameters": {
+      "dpuPonPortEndsz": {
+        "matches": "49\\/30\\/179\\/71G0"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/dpuponconnection/dpuponconnection-{{replace request.query.dpuPonPortEndsz '/' '_'}}.json"
+  }
+}

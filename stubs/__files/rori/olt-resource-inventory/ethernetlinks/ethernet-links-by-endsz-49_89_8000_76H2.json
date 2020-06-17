@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1050,
+    "oltEndSz": "49/89/8000/76H2",
+    "oltSlot": "10",
+    "oltPortNumber": "1",
+    "bngEndSz": "49/30/179/43G1",
+    "bngSlot": "2",
+    "bngPortNumber": "ge-1/2/3",
+    "ancpSessions": [
+      {
+        "id": 1078,
+        "vlan": 16,
+        "partitionId": 2,
+        "sessionId": 2,
+        "sessionType": "OLT",
+        "rmkEndpointId": "1187037139",
+        "sealConfigurationId": "0-10-1-2-16",
+        "ipSubnet": {
+          "id": 1084,
+          "subnetMask": "/30",
+          "ipAddressLoopback": "10.150.240.100",
+          "ipAddressBng": "10.150.240.102",
+          "ipAddressBroadcast": "10.150.240.103",
+          "rmkAccessId": "1187037139",
+          "allocatedIPAddresses": [
+            {
+              "id": 1086,
+              "ipAddress": "10.150.240.101"
+            }
+          ]
+        },
+        "sessionStatus": "ACTIVE",
+        "endsz": "49/89/8000/76H2",
+        "allocatedIPAddress": {
+          "id": 1086,
+          "ipAddress": "10.150.240.101"
+        },
+        "configurationStep": null,
+        "additionalInfo": null,
+        "lastActivity": "2020-02-20T14:18:08.442",
+        "port": {
+          "id": 3338,
+          "resourceId": "549ba336-e600-42eb-9e40-de0b1eedd2d0",
+          "lifeCycleState": "OPERATING",
+          "portType": "ETHERNET",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001
+        }
+      },
+      {
+        "id": 1316,
+        "vlan": 12,
+        "partitionId": null,
+        "sessionId": null,
+        "sessionType": "DPU",
+        "rmkEndpointId": "1341434323",
+        "sealConfigurationId": null,
+        "ipSubnet": {
+          "id": 1728,
+          "subnetMask": "/24",
+          "ipAddressLoopback": "80.146.191.0",
+          "ipAddressBng": "80.146.191.1",
+          "ipAddressBroadcast": "80.146.191.255",
+          "rmkAccessId": "1341434323",
+          "allocatedIPAddresses": [
+            {
+              "id": 1322,
+              "ipAddress": "80.146.191.2"
+            }
+          ]
+        },
+        "sessionStatus": "ACTIVE",
+        "endsz": "49/30/179/71G0",
+        "allocatedIPAddress": {
+          "id": 1322,
+          "ipAddress": "80.146.191.2"
+        },
+        "configurationStep": null,
+        "additionalInfo": null,
+        "lastActivity": "2020-06-16T08:37:01.941",
+        "port": {
+          "id": 5070,
+          "resourceId": "5c2516dc-f869-4c46-b835-736c8682418d",
+          "lifeCycleState": "OPERATING",
+          "portType": "PON",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001
+        }
+      }
+    ],
+    "lsz": "4C1",
+    "orderNumber": 123456789,
+    "uewegId": null,
+    "pluralId": null,
+    "versionId": null,
+    "version": null,
+    "ipStatus": "ACTIVE",
+    "ancpStatus": null,
+    "activeAncpSession": true,
+    "ipManagedAddress": "81.07.50.32",
+    "compositePartyId": 10001
+  }
+]

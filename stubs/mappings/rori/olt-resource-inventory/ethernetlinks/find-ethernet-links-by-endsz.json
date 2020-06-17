@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/ethernetlink/findEthernetLinksByEndsz",
+    "queryParameters": {
+      "oltEndSz": {
+        "matches": "49\\/89\\/8000\\/76H2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/ethernetlinks/ethernet-links-by-endsz-{{replace request.query.oltEndSz '/' '_'}}.json"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/device",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49\\/30\\/179\\/71G0"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/device/criteria/search-dpu-device-by-endSZ-{{replace request.query.endsz '/' '_'}}.json"
+  }
+}

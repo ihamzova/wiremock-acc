@@ -12,7 +12,7 @@
   },
   "response": {
     "status": 200,
-    "jsonBody": {
+    "jsonBody": [{
       "id": 1000,
       "dpuEndSZ": null,
       "onuId": 0,
@@ -26,7 +26,7 @@
         "portType": "PON"
       },
       "version": 0
-    },
+    }],
     "headers": {
       "Content-Type": "application/json"
     }

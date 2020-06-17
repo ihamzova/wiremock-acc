@@ -1,0 +1,34 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/accessLineResourceInventory/v1/allocatedOnuId/search",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]" },
+      { "matchesJsonPath": "$[?(@.portNumber =~ /[0-9]/)]" },
+      { "matchesJsonPath": "$[?(@.slotNumber =~ /[0-9]{1,2}/)]" },
+      { "matchesJsonPath": "$[?(@.lineId =~ /[A-Z0-9]{3}.*/)]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1000,
+      "dpuEndSZ": null,
+      "onuId": 0,
+      "lineId": "{{ jsonPath request.body '$.lineId' }}",
+      "reference": {
+        "id": 1001,
+        "endSz": "{{ replace (jsonPath request.body '$.endSz') '/' '_' }}",
+        "slotNumber": "{{ jsonPath request.body '$.slotNumber' }}",
+        "portNumber": "{{ jsonPath request.body '$.portNumber' }}",
+        "version": 0,
+        "portType": "PON"
+      },
+      "version": 0
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

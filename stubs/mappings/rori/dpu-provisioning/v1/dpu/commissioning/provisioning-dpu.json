@@ -16,7 +16,6 @@
     "webhook": {
       "url": "http://ont-etcd-api/v2/keys/dpu-commissioning/{{request.headers.x-b3-traceid}}?value={\"source\":\"dpu-commissioning\",\"type\":\"SUCCESS\",\"message\":\"SUCCESS callback from Wiremock\"}",
       "headers": {
-        "X-Callback-Correlation-Id": "{{request.headers.x-b3-traceid}}",
         "Content-Type": "application/json"
       },
       "method": "POST",

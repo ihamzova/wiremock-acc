@@ -1,0 +1,301 @@
+[ {
+  "id" : 10016,
+  "isLegalEntity" : false,
+  "type" : "compositeOrganization",
+  "tradingName" : "test1",
+  "nameType" : "NetCo",
+  "characteristics" : [ {
+    "name" : "carrierCode",
+    "value" : "1234"
+  }, {
+    "name" : "isWholebuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10017,
+  "isLegalEntity" : false,
+  "type" : "compositeOrganization",
+  "tradingName" : "test2",
+  "nameType" : "NetCo",
+  "characteristics" : [ {
+    "name" : "isWholebuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10018,
+  "isLegalEntity" : false,
+  "type" : "compositeOrganization",
+  "tradingName" : "test3",
+  "nameType" : "NetCo",
+  "characteristics" : [ {
+    "name" : "isWholebuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10019,
+  "type" : "compositeOrganization",
+  "tradingName" : "testTradingName",
+  "nameType" : "NetCo",
+  "status" : "test status",
+  "characteristics" : [ {
+    "name" : "isWholeBuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10020,
+  "type" : "compositeOrganization",
+  "tradingName" : "test_TradingName",
+  "nameType" : "NetCo",
+  "status" : "test",
+  "characteristics" : [ {
+    "name" : "isWholeBuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10021,
+  "type" : "compositeOrganization",
+  "tradingName" : "test_Trading_Name",
+  "nameType" : "NetCo",
+  "status" : "test_st",
+  "characteristics" : [ {
+    "name" : "isWholeBuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10000,
+  "isLegalEntity" : true,
+  "type" : "compositeOrganization",
+  "tradingName" : "Glasfaser-NordWest",
+  "nameType" : "NetCo",
+  "status" : "",
+  "characteristics" : [ {
+    "name" : "carrierCode",
+    "value" : "GFNW"
+  }, {
+    "name" : "isRestricted",
+    "value" : "True"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10001,
+  "isLegalEntity" : true,
+  "type" : "compositeOrganization",
+  "tradingName" : "Telekom Deutschland GmbH",
+  "nameType" : "NetCo",
+  "status" : "",
+  "characteristics" : [ {
+    "name" : "carrierCode",
+    "value" : "DTAG"
+  }, {
+    "name" : "isWholebuyPartner",
+    "value" : "1"
+  } ],
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10002,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "Produktion TD Nord",
+  "nameType" : "RolloutPartner",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10003,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "EWE NETZ",
+  "nameType" : "RolloutPartner",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10004,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "IT Business Support JV",
+  "nameType" : "BusinessSupport",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10005,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "Netzbetrieb JV",
+  "nameType" : "RolloutPartner",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10006,
+  "isLegalEntity" : true,
+  "type" : "atomic",
+  "tradingName" : "Leonard Weiss fuer JV",
+  "nameType" : "Supplier",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "hasContractswith",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10007,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "Produktion Quality Controller JV",
+  "nameType" : "Department",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10008,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "externe IT Systeme JV",
+  "nameType" : "System",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10000
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10009,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "PTI22 Stuttgart",
+  "nameType" : "RolloutPartner",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10010,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "PTI25 Muenchen",
+  "nameType" : "RolloutPartner",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001,
+    "validFor" : {
+      "startDateTime" : "2019-12-17T13:55:27.001Z",
+      "endDateTime" : "2020-12-17T13:55:27.002Z"
+    }
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10011,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "Produktion Quality Controller DT",
+  "nameType" : "Department",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10012,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "IT Business Support der DT",
+  "nameType" : "BusinessSupport",
+  "status" : "",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10013,
+  "isLegalEntity" : true,
+  "type" : "atomic",
+  "tradingName" : "Leonard Weiss fuer DTAG",
+  "nameType" : "Supplier",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "hasContractswith",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10014,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "Netzbetrieb DT",
+  "nameType" : "RolloutPartner",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+}, {
+  "id" : 10015,
+  "isLegalEntity" : false,
+  "type" : "atomic",
+  "tradingName" : "externe IT Systeme TD",
+  "nameType" : "System",
+  "characteristics" : [ ],
+  "organizationParentRelationship" : {
+    "relationshipType" : "partOfOrganization",
+    "id" : 10001
+  },
+  "contactMedium" : [ ],
+  "locationResponsibility" : [ ]
+} ]

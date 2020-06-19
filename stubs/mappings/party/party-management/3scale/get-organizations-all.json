@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/party/v2/partyManagement/organizations"
+    },
+  "response": {
+    "status": 200,
+    "bodyFileName": "party/party_management/organizations.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

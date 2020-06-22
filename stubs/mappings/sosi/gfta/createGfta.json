@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/gfta"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": "{{jsonPath request.body '$'}}",
+    "status": 201
+  }
+}

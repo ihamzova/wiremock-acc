@@ -1,11 +1,11 @@
-{{regexExtract request.path.[5] '1000000([0-9]+)' 'parts'}}
+{{regexExtract request.path.[5] '1([0-9]{6})([0-9]+)' 'parts'}}
 {
-  "klsId": 1000000{{parts.0}},
+  "klsId": 1{{parts.0}}{{parts.1}},
   "propertyId": null,
   "propertyIdLong": 19116305,
-  "houseNumber": {{parts.0}},
+  "houseNumber": {{parts.1}},
   "houseNumberSupplement": "",
-  "houseQualifier": "{{parts.0}}",
+  "houseQualifier": "{{parts.1}}",
   "streetName": "Ahornweg",
   "streetNameShort": "Ahornweg",
   "distributionAreaName": "Fuldabrück",

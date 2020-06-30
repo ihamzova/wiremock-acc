@@ -1,11 +1,9 @@
-{{regexExtract request.path.[5] '100000([0-9]+)' 'parts'}}
 {
-  "klsId": 100000{{parts.0}},
+  "klsId": 111222333004,
   "propertyId": null,
   "propertyIdLong": 19116305,
-  "houseNumber": {{parts.0}},
-  "houseNumberSupplement": "",
-  "houseQualifier": "{{parts.0}}",
+  "houseNumber": 4,
+  "houseQualifier": "4",
   "streetName": "Ahornweg",
   "streetNameShort": "Ahornweg",
   "distributionAreaName": "Fuldabrück",
@@ -24,8 +22,8 @@
   "streetId": 279340,
   "distributionAreaId": 5743,
   "municipalityId": 5743,
-  "geoLatitude": 50.11462,
-  "geoLongitude": 8.70472,
+  "geoLatitude": 51.81979,
+  "geoLongitude": 7.467,
   "asb": "43",
   "onkz": "0561"
 }

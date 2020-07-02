@@ -1,0 +1,41 @@
+{
+    "postServeActions": {
+        "webhook": {
+        "method": "POST",
+        "url": "{{request.headers.X-Callback-Url}}",
+        "headers": {
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "response": {
+            "homeId": "0004D7F",
+            "lineId": "DEU.DTAG.GE11055555"
+            },
+            "success": true
+        }
+        }
+    },
+    "request": {
+        "bodyPatterns": [
+        {
+            "equalToJson": {
+            "vpSz": "1",
+            "fachSz": "1",
+            "portNumber": "102",
+            "homeId": "0004D7F"
+            },
+            "ignoreExtraElements": true,
+            "ignoreArrayOrder": true
+        }
+        ],
+        "method": "POST",
+        "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/lineId"
+    },
+    "response": {
+        "headers": {
+        "Content-Type": "application/json"
+        },
+        "status": 202
+    }
+}

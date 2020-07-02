@@ -1,0 +1,20 @@
+    {
+        "request": {
+            "method": "PATCH",
+            "queryParameters": {
+            "ontStateResult": {
+                "equalTo": "Online"
+            },
+            "lineId": {
+                "equalTo": "DEU.DTAG.GE11044444"
+            },
+            "homeId": {
+                "equalTo": "0004D6C"
+            }
+            },
+            "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/ont/"
+        },
+        "response": {
+            "status": 200
+        }
+    }

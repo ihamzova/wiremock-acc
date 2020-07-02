@@ -1,8 +1,8 @@
 {
-  "priority": 5,
+  "priority": 8,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/100000([0-9]*)"
+    "urlPathPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getFullAddressInfo/(\\d{7,})"
   },
   "response": {
     "status": 200,

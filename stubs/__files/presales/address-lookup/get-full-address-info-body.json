@@ -1,6 +1,6 @@
-{{regexExtract request.path.[5] '100000([0-9]+)' 'parts'}}
+{{regexExtract request.path.[5] '\d{7}(\d*)' 'parts'}}
 {
-  "klsId": 100000{{parts.0}},
+  "klsId": {{request.path.[5]}},
   "propertyId": null,
   "propertyIdLong": 19116305,
   "houseNumber": {{parts.0}},

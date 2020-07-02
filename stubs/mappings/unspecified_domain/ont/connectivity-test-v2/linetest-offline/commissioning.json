@@ -1,0 +1,37 @@
+{
+    "postServeActions": {
+      "webhook": {
+        "method": "POST",
+        "url": "{{request.headers.X-Callback-Url}}",
+        "headers": {
+          "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "response": {
+            "serialNumber": "485754435581C424",
+            "lineId": "DEU.DTAG.GE11066666"
+          },
+          "success": true
+        }
+      }
+    },
+    "request": {
+      "bodyPatterns": [
+        {
+          "equalToJson": {
+            "ontSerialNumber": "485754435581C424",
+            "ontState": "UNKNOWN",
+            "homeId": "0004D8X"
+          },
+          "ignoreExtraElements": true,
+          "ignoreArrayOrder": true
+        }
+      ],
+      "method": "POST",
+      "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/ont/"
+    },
+    "response": {
+      "status": 202
+    }
+  }

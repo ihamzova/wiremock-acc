@@ -1,0 +1,40 @@
+    {
+        "scenarioName": "Registered",
+        "requiredScenarioState": "Started",
+        "postServeActions": {
+            "webhook": {
+            "method": "POST",
+            "url": "{{request.headers.X-Callback-Url}}",
+            "headers": {
+                "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+                "Content-Type": "application/json"
+            },
+            "jsonBody": {
+                "error": {
+                "message": "ONT is already registred",
+                "status": 409,
+                "code": "06114090"
+                },
+                "success": false
+            }
+            }
+        },
+        "request": {
+            "bodyPatterns": [
+            {
+                "equalToJson": {
+                "ontSerialNumber": "485754435581C421",
+                "ontState": "UNKNOWN",
+                "homeId": "0004D7F"
+                },
+                "ignoreExtraElements": true,
+                "ignoreArrayOrder": true
+            }
+            ],
+            "method": "POST",
+            "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/ont/"
+        },
+        "response": {
+            "status": 202
+        }
+    }

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "homeId": {
+        "equalTo": "0004D9L"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v1/gfta"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "messageType": "SUCCESSFUL",
+      "cplId": "XY0001"
+    },
+    "status": 200
+  }
+}

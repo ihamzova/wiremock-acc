@@ -1,0 +1,25 @@
+{
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "response": {
+          "actualRunState": "ONLINE"
+        },
+        "success": true
+      }
+    }
+  },
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/ont/DEU.DTAG.GE11055555/connectivity"
+  },
+  "response": {
+    "status": 202
+  }
+}

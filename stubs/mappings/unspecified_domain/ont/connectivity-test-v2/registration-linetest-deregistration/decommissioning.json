@@ -1,0 +1,50 @@
+    {
+        "postServeActions": {
+            "webhook": {
+            "method": "POST",
+            "url": "{{request.headers.X-Callback-Url}}",
+            "headers": {
+                "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+                "Content-Type": "application/json"
+            },
+            "jsonBody": {
+                "success": true
+            }
+            }
+        },
+        "request": {
+            "headers": {
+            "X-Callback-Url": {
+                "matches": "^http((s)?):\\/\\/resource-inventory-adapter-app/callback/ontOltOrchestrator/v2/decommissioningNEProfile"
+            },
+            "X-Callback-Id": {
+                "equalTo": "DigiOss"
+            },
+            "X-Callback-Error-Url": {
+                "matches": "^http((s)?):\\/\\/resource-inventory-adapter-app/callback/ontOltOrchestrator/v1/error"
+            },
+            "X-Callback-Method": {
+                "equalTo": "POST"
+            },
+            "X-Callback-Correlation-Id": {
+                "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+            }
+            },
+            "method": "DELETE",
+            "queryParameters": {
+            "serialNumber": {
+                "equalTo": "485754435581C422"
+            },
+            "lineId": {
+                "equalTo": "DEU.DTAG.GE11044444"
+            },
+            "rollbackToReservation": {
+                "equalTo": "false"
+            }
+            },
+            "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/networkElementProfile"
+        },
+        "response": {
+            "status": 202
+        }
+    }

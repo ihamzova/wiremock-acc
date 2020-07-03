@@ -1,0 +1,30 @@
+{
+    "request": {
+      "bodyPatterns": [
+        {
+          "equalToJson":
+
+          { "homeId": "0004D9L", "ontSerialNumber": "485754435581C420" }
+
+        ,
+          "ignoreExtraElements": true,
+          "ignoreArrayOrder": true
+        }
+      ],
+      "method": "POST",
+      "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v2/accessLine"
+    },
+  
+    "response": {
+      "status": 200,
+      "headers":
+  
+      { "Content-Type": "application/json" }
+  
+    ,
+      "jsonBody":
+      [
+        { "homeId": "0004D9L", "ontSerialNumber" : "485754435581C420", "portNumber" : "0", "slotNumber" : "1", "endSz" : "49/341/1/76H1", "subscriberNeStates": [ "INACTIVE" ], "lineId": "DEU.DTAG.GE11066666" }
+      ]
+    }
+  }

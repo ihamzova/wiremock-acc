@@ -1,13 +1,15 @@
 {
+  "priority": 5,
   "request": {
     "method": "POST",
-    "url": "/event/v2/gigaAreas"
+    "url": "/event/v1/buildingPartPlanningData"
   },
   "response": {
-    "body": "gigaArea event posted!",
+    "status": 201,
+    "body": "Created",
     "headers": {
       "Content-Type": "text/plain"
-    },
-    "status": 202
+    }
+
   }
 }

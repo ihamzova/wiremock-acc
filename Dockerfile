@@ -1,5 +1,7 @@
 FROM mtr.external.otc.telekomcloud.com/digitalhub/zulu-openjdk-8:master
 
+LABEL quay.expires-after=12w
+
 ENV WM_PACKAGE wiremock
 
 RUN mkdir /$WM_PACKAGE

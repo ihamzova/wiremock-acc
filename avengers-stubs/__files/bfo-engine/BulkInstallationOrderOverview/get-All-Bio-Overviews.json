@@ -1,0 +1,26 @@
+{
+  "bulkInstallationOrders": [
+    {
+      "bulkOrderState": "CREATED",
+      "companyName": "Hansa",
+      "gigaAreaNumber": "Bornheim_002",
+      "id": 111,
+      "plannedEndDate": "2020-09-12"
+    },
+    {
+      "bulkOrderState": "CREATED",
+      "companyName": "Hansa",
+      "gigaAreaNumber": "Bornheim_002",
+      "id": 222,
+      "plannedEndDate": "2020-09-12"
+    },
+    {
+      "bulkOrderState": "CREATED",
+      "companyName": "BulkOrderCompany",
+      "gigaAreaNumber": "Bornheim_002",
+      "id": 333,
+      "plannedEndDate": "2020-09-12"
+    }
+  ],
+  "limit": 100
+}

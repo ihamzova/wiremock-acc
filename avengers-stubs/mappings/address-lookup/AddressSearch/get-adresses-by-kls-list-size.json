@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "name": "Get address details by klsIds from FOLv2 (22 adresses)",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.klsIds.size() == 22)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/22-from-FOLv2.json"
+      }
+    },
+    {
+      "name": "Get all address details by klsIds from FOLv2",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.klsIds.size() != 22)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/22-from-FOLv2.json"
+      }
+    }
+  ]
+}

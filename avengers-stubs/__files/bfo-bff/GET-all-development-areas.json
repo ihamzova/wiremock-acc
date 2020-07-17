@@ -1,0 +1,116 @@
+[
+  {
+    "creationDate": "2020-04-14T16:51:25.989",
+    "modificationDate": "2020-04-14T16:51:25.989",
+    "name": "WB_test1",
+    "number": "WB_test1",
+    "rolloutDate": "2020-04-14T16:48:42.495",
+    "areaStatus": "CLOSED",
+    "initiative": "WHOLE_BUY_OAL",
+    "plannedFrom": "2020-04-14T16:48:42.495",
+    "plannedTo": "2020-04-14T16:48:42.495",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": 0,
+      "ordersCountInVVM": 0,
+      "additionalOrdersCountInVVM": 0
+    },
+    "rolloutPartner": 10016,
+    "internalExpansionDecisionDate": "2020-04-14T16:48:42.495"
+  },
+  {
+    "creationDate": "2020-04-07T15:17:00.08",
+    "modificationDate": "2020-04-07T15:17:00.08",
+    "name": "giga_Gebiet_Name_1",
+    "number": "giga_Gebiet_Num_1",
+    "rolloutDate": "2025-02-27T15:17:00.05",
+    "areaStatus": "AREA_PLANNED",
+    "initiative": null,
+    "plannedFrom": "2021-12-15T15:17:00.05",
+    "plannedTo": "2023-02-15T15:17:00.05",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null
+  },
+  {
+    "creationDate": "2020-04-15T07:29:13.56",
+    "modificationDate": "2020-04-15T07:29:13.56",
+    "name": "Bornheim Area 2",
+    "number": "Bornheim_002",
+    "rolloutDate": "2020-11-16T06:40:26",
+    "areaStatus": "AREA_PLANNED",
+    "initiative": "JOINT_VENTURE",
+    "plannedFrom": "2018-11-01T00:00:00",
+    "plannedTo": "2018-11-30T00:00:00",
+    "netCoOrganisationId": 10000,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null
+  },
+  {
+    "creationDate": "2020-04-15T07:29:13.56",
+    "modificationDate": "2020-04-15T07:29:13.56",
+    "name": "FRANKFURT_006",
+    "number": "FRANKFURT_006",
+    "rolloutDate": "2019-12-31T11:26:20",
+    "areaStatus": "AREA_PLANNED",
+    "initiative": "SELF_EXPANSION",
+    "plannedFrom": "2019-01-01T11:26:20",
+    "plannedTo": "2019-03-31T11:26:20",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null
+  },
+  {
+    "creationDate": "2020-04-15T07:29:13.56",
+    "modificationDate": "2020-04-15T07:29:13.56",
+    "name": "Fuldabrueck",
+    "number": "Fuldabrueck_001",
+    "rolloutDate": "2020-11-16T06:40:26",
+    "areaStatus": "UNDER_CONSTRUCTION",
+    "initiative": "SELF_EXPANSION",
+    "plannedFrom": "2019-03-01T00:00:00",
+    "plannedTo": "2019-05-31T00:00:00",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": null,
+      "ordersCountInVVM": null,
+      "additionalOrdersCountInVVM": null
+    },
+    "rolloutPartner": null,
+    "internalExpansionDecisionDate": null
+  },
+  {
+    "creationDate": "2020-04-14T16:50:06.668",
+    "modificationDate": "2020-04-14T16:50:06.668",
+    "name": "WB_test",
+    "number": "WB_test",
+    "rolloutDate": "2020-04-14T16:48:42.495",
+    "areaStatus": "CLOSED",
+    "initiative": "WHOLE_BUY_BSA",
+    "plannedFrom": "2020-04-14T16:48:42.495",
+    "plannedTo": "2020-04-14T16:48:42.495",
+    "netCoOrganisationId": 10001,
+    "thresholdData": {
+      "threshold": 0,
+      "ordersCountInVVM": 0,
+      "additionalOrdersCountInVVM": 0
+    },
+    "rolloutPartner": 10016,
+    "internalExpansionDecisionDate": "2020-04-14T16:48:42.495"
+  }
+]

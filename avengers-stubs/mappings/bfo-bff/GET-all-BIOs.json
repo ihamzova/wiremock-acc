@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "get all created bulk installation orders",
+      "request": {
+        "method": "GET",
+        "url": "/bulkInstallationOrders"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "bfo-bff/GET-all-BIOs.json"
+      }
+    }
+  ]
+}

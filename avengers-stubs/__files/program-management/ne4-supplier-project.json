@@ -1,0 +1,29 @@
+{
+  "supplierProject": {
+    "id": 10313,
+    "name": "2236/2/V1001/Initial Ausbau",
+    "areaProgramId": 10102,
+    "phase": "INITIAL_EXPANSION",
+    "ne3": false,
+    "ne4": true,
+    "creditorId": "101010",
+    "supplierId": "2",
+    "status": "ASSIGNED"
+  },
+  "wfmOrderId": "string",
+  "problem": {
+    "type": "string",
+    "title": "string",
+    "status": 0,
+    "detail": "string",
+    "instance": "string",
+    "problems": [
+      {
+        "message": "string",
+        "messageId": "string",
+        "code": "string",
+        "messageType": "string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "limit": 100,
+    "bulkInstallationOrders": [
+        {
+            "bulkOrderState": "in progress",
+            "companyName": "Hansa",
+            "gigaAreaName": "Bornheim Area 002",
+            "gigaAreaNumber": "Bornheim_002",
+            "id": "12345678",
+            "plannedEndDate": "2020-11-01"
+        },
+        {
+            "bulkOrderState": "created",
+            "companyName": "Hansa",
+            "gigaAreaName": "Bornheim Area 002",
+            "gigaAreaNumber": "Bornheim_002",
+            "id": "12345679",
+            "plannedEndDate": "2020-12-01"
+        },
+        {
+            "bulkOrderState": "in progress",
+            "companyName": "Topas",
+            "gigaAreaName": "Frankfurt Area 006",
+            "gigaAreaNumber": "Frankfurt_006",
+            "id": "12345680",
+            "plannedEndDate": "2020-11-15"
+        },
+        {
+            "bulkOrderState": "completed",
+            "companyName": "Stark Industries",
+            "gigaAreaName": "Frankfurt Area 006",
+            "gigaAreaNumber": "Frankfurt_006",
+            "id": "12345681",
+            "plannedEndDate": "2020-09-20"
+        },
+        {
+            "bulkOrderState": "created",
+            "companyName": "Stark Industries",
+            "gigaAreaName": "Bornheim Area 006",
+            "gigaAreaNumber": "Bornheim_006",
+            "id": "12345682",
+            "plannedEndDate": "2020-08-01"
+        }
+    ]
+}

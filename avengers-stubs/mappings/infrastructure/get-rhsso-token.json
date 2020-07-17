@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "rhsso token endpoint",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/auth/realms/GigabitHub/protocol/openid-connect/token"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "infrastructure/rhsso-token.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "get all development areas",
+      "request": {
+        "method": "GET",
+        "url": "/gigaAreas"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "bfo-bff/GET-all-development-areas.json"
+      }
+    }
+  ]
+}

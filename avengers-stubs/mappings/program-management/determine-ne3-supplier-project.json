@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/giga-project-dioss/v2/supplierprojects/determine",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$.gigaOrder[?(@.netLevel=='NE3')]"
+    } ]
+  },
+
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted.",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}",
+      "X-Callback-Url": "{{request.headers.X-Callback-Url.[0]}}"
+    }
+  },
+
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "fixedDelayMilliseconds": 60000,
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
+      },
+      "url": "{{request.headers.X-Callback-Url.[0]}}",
+      "bodyFileName": "program-management/ne3-supplier-project.json"
+    }
+  }
+}

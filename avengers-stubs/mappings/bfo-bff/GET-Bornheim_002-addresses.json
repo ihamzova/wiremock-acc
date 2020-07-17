@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "GET all addresses from Bornheim_002 area",
+      "request": {
+        "method": "GET",
+        "url": "/gigaAreas/Bornheim_002/addresses"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "bfo-bff/GET-Bornheim_002-addresses.json"
+      }
+    }
+  ]
+}

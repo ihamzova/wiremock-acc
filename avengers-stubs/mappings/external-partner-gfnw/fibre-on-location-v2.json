@@ -1,0 +1,17 @@
+{
+  "mappings": [
+    {
+      "name": "buildingPartPlanningData v1 event consume confirmation",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/event/v1/buildingPartPlanningData"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

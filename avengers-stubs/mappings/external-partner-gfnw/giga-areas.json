@@ -1,0 +1,17 @@
+{
+  "mappings": [
+    {
+      "name": "fibre on location v2 event consume confirmation",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/event/v2/fibreOnLocation"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

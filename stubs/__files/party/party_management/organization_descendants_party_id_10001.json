@@ -179,44 +179,18 @@
     "locationResponsibility": []
   },
   {
-    Inna
-    Baikova,
-  [
-    15.07.20
-    14
-    :
-    33
-  ]
-  "id"
-  :
-  10021,
-  "isLegalEntity"
-  :
-  false,
-  "type"
-  :
-  "atomic",
-  "tradingName"
-  :
-  " Supplier Org BusinessSupport DT",
-  "nameType"
-  :
-  "BusinessSupport",
-  "characteristics"
-  :
-  [],
-  "organizationParentRelationship"
-  :
-  {
-    "relationshipType": "hasContractswith",
-    "id": 10001
-  },
-  "contactMedium"
-  :
-  [],
-  "locationResponsibility"
-  :
-  []
+    "id": 10021,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": " Supplier Org BusinessSupport DT",
+    "nameType": "BusinessSupport",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
   },
   {
     "id": 10031,

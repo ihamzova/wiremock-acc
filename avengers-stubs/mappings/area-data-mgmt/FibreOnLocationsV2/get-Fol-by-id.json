@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "Get FibreOnLocationsV2 by id",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/([0-9]*)\\?includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/get-Fol-by-id.json"
+      }
+    }
+  ]
+}

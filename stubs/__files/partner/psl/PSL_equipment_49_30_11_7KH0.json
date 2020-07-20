@@ -1,0 +1,75 @@
+{
+  "error": null,
+  "response": {
+    "messageContext": {
+      "correlationId": "string",
+      "priority": 0,
+      "requestId": "string",
+      "sender": "string",
+      "target": "string",
+      "timeLeft": "string"
+    },
+    "responseData": {
+      "equipment": [
+        {
+          "equnr": "4985717232",
+          "tplnr": "000049-000030-011-001-001-001",
+          "hequi": "1930179",
+          "heqnr": "0075",
+          "submt": "40247069",
+          "eqart": "G",
+          "endsz": "49/90/11/7KH0",
+          "serge": "21023522106TG4900198",
+          "anzEbenen": "1",
+          "adrId": "17056524",
+          "asb": "1"
+        },
+        {
+          "equnr": "16122000",
+          "hequi": "4985714232",
+          "heqnr": "0001",
+          "submt": "40261742",
+          "eqart": "P",
+          "endsz": "49/30/11/7KH0",
+          "serge": "121BQW10B6123100",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "16123000",
+          "hequi": "4985714232",
+          "heqnr": "0002",
+          "submt": "40261742",
+          "eqart": "P",
+          "endsz": "49/30/11/7KH0",
+          "serge": "121BQW10B6123200",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "161230010",
+          "hequi": "4985711232",
+          "heqnr": "0019",
+          "submt": "40247074",
+          "eqart": "P",
+          "endsz": "49/30/11/7KH0",
+          "serge": "121BQW10B6123099",
+          "anzEbenen": "2"
+        }
+      ],
+      "header": {
+        "anfoKen": "15758997480418591403",
+        "partner": "BS_DIGIOSS"
+      },
+      "status": {
+        "id": "ZDIB",
+        "logMsgNo": "string",
+        "logNo": "0000000000",
+        "message": "Die Anforderung wurde ausgeführt.",
+        "messageV1": "",
+        "number": "000",
+        "system": "Linux",
+        "type": "S"
+      }
+    }
+  },
+  "success": true
+}

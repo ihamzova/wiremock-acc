@@ -1,0 +1,98 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:les="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/LesenStandort_v01.00" xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/LesenStandort_v01.00/types" xmlns:csdg="http://schemas.telekom.net/csdg_v01.01" xmlns:typ1="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/types_v01.01" xmlns:cc="http://bom.telekom.de/cc" xmlns:crmt="http://bom.telekom.de/crmt">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <les:lesenStandortResponse>
+            <typ:context>
+
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.CRM_T:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.digioss.architecture.DigiOSS:Default:LesenStandort</csdg:routingInfo>
+                    <csdg:messageId>414d51204d524931425231202020202054b507c720025105</csdg:messageId>
+                    <!--Optional:-->
+                    <csdg:relatesToMessageId>414d51204d524931425231202020202054b507c720025104</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2014-12-24T13:52:58.000Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+                    <!--Optional:-->
+                    <csdg:priority>0</csdg:priority>
+                    <!--Optional:-->
+                    <csdg:replyState>a</csdg:replyState>
+                    <!--Zero or more repetitions:-->
+                    <csdg:property name="crmt.SystemID">CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>01S06</csdg:processId>
+                    <csdg:processTypeId>LesenStandort_v01.00</csdg:processTypeId>
+                    <!--Optional:-->
+                    <csdg:messageGroupId>123</csdg:messageGroupId>
+                    <!--Optional:-->
+                    <csdg:processStepTypeId>123</csdg:processStepTypeId>
+                    <!--Optional:-->
+                    <csdg:parentProcessId>123</csdg:parentProcessId>
+                    <!--Zero or more repetitions:-->
+                    <csdg:property name="crmt.SystemID">CRMT</csdg:property>
+                </csdg:businessContext>
+            </typ:context>
+            <typ:data>
+                <typ1:lesenStandortResponse>
+                    <typ1:Kunde>
+                        <cc:Kundennummer>1000000002</cc:Kundennummer>
+                    </typ1:Kunde>
+                    <typ1:Adresse>
+                        <cc:Adress-ID>123456789011</cc:Adress-ID>
+
+                        <typ1:Strasze>
+                            <cc:Straszenname>Ringstr</cc:Straszenname>
+                        </typ1:Strasze>
+                        <typ1:Grundstueck>
+                            <cc:Hausnummer>12</cc:Hausnummer>
+                            <!--Optional:-->
+                            <cc:Hausnummerzusatz>A</cc:Hausnummerzusatz>
+                        </typ1:Grundstueck>
+                        <typ1:Ort>
+                            <!--You have a CHOICE of the next 3 items at this level-->
+                            <typ1:Gemeinde>
+                                <cc:Gemeindename>Ihlow</cc:Gemeindename>
+                            </typ1:Gemeinde>
+                        </typ1:Ort>
+                        <!--Optional:-->
+                        <typ1:Land>
+                            <cc:Laenderkennzeichen>DE</cc:Laenderkennzeichen>
+                            <!--Optional:-->
+                            <cc:Landesname>Deutschland</cc:Landesname>
+                        </typ1:Land>
+                        <!--Optional:-->
+                        <typ1:Postcode>
+                            <cc:Postleitzahl>26632</cc:Postleitzahl>
+                        </typ1:Postcode>
+                        <typ1:NichtBOMElemente>
+                            <typ1:CRM-T>
+                                <crmt:AdressID>1-16S5SL</crmt:AdressID>
+                            </typ1:CRM-T>
+                        </typ1:NichtBOMElemente>
+                    </typ1:Adresse>
+                    <cc:Empfaengerangabe>123</cc:Empfaengerangabe>
+                    <typ1:Ansprechpartner>
+                        <typ1:Person>
+                            <cc:Name>Name</cc:Name>
+                            <cc:Vorname>Vorname</cc:Vorname>
+                        </typ1:Person>
+                        <typ1:NichtBOMElemente>
+                            <typ1:CRM-T>
+                                <crmt:AnsprechpartnerID>125-te.Yu12345!</crmt:AnsprechpartnerID>
+                            </typ1:CRM-T>
+                        </typ1:NichtBOMElemente>
+                    </typ1:Ansprechpartner>
+                    <cc:ONKZ>221</cc:ONKZ>
+                    <typ1:NichtBOMElemente>
+                        <typ1:CRM-T/>
+                    </typ1:NichtBOMElemente>
+                    <typ1:ReturnCode>04</typ1:ReturnCode>
+                    <typ1:Meldung>
+                        <typ1:MeldNr>SVC1510</typ1:MeldNr>
+                        <typ1:MeldText>Es wurden keine Standorte gefunden</typ1:MeldText>
+                    </typ1:Meldung>
+                </typ1:lesenStandortResponse>
+            </typ:data>
+        </les:lesenStandortResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

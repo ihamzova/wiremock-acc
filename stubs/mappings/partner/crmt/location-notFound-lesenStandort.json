@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/crmt/lesenStandort",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'lesenStandort']"
+      },
+      {
+        "matchesXPath": "//ns6:Kundennummer[.=1000000002]",
+        "xPathNamespaces": {
+          "ns6": "http://bom.telekom.de/cc"
+        }
+      },
+      {
+        "matchesXPath": "//ns6:Adress-ID[.=123456789011]",
+        "xPathNamespaces": {
+          "ns6": "http://bom.telekom.de/cc"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/crmt/notFoundLocation-lesenStandort.xml"
+  }
+}

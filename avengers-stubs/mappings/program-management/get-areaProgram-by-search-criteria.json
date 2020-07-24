@@ -7,7 +7,7 @@
         "urlPattern": "/giga-project-dioss/v2/areaPrograms/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "@.businessId == 100"
+            "matchesJsonPath": "[?(@.nvtAreaId == 100)]"
           }
         ]
       },

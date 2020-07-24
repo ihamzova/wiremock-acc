@@ -1,0 +1,76 @@
+[
+  {
+    "persisted": true,
+    "guid": "string",
+    "version": 0,
+    "creationDate": "2020-07-24T13:22:58.383Z",
+    "creationUser": "string",
+    "modificationDate": "2020-07-24T13:22:58.383Z",
+    "modificationUser": "string",
+    "controlTraceabilityManual": true,
+    "businessId": 4,
+    "name": "string",
+    "tokenUrl": "string",
+    "ne3": false,
+    "ne4": true,
+    "projectStart": "2020-07-24T13:22:58.383Z",
+    "projectEnd": "2020-07-24T13:22:58.383Z",
+    "creditorId": "string",
+    "supplierId": 3,
+    "wmsTIBA": "string",
+    "status": "ASSIGNED",
+    "areaProgram": {
+      "persisted": true,
+      "guid": "string",
+      "version": 0,
+      "creationDate": "2020-07-24T13:22:58.383Z",
+      "creationUser": "string",
+      "modificationDate": "2020-07-24T13:22:58.383Z",
+      "modificationUser": "string",
+      "controlTraceabilityManual": true,
+      "businessId": 10,
+      "programName": "string",
+      "nvtAreaId": 100,
+      "ptiUserId": "string",
+      "ptiOrgaId": "string",
+      "ptiRessortId": "string",
+      "programType": "JOINT_VENTURE",
+      "status": "ASSIGNED",
+      "assignedPhase": "VVM_PREPARATION",
+      "areaProgramMilestones": [
+        {
+          "persisted": true,
+          "guid": "string",
+          "version": 0,
+          "creationDate": "2020-07-24T13:22:58.383Z",
+          "creationUser": "string",
+          "modificationDate": "2020-07-24T13:22:58.383Z",
+          "modificationUser": "string",
+          "controlTraceabilityManual": true,
+          "milestoneDate": "2020-07-24T13:22:58.383Z",
+          "milestoneType": "VVM_START",
+          "assignedProgramPhase": "VVM_PREPARATION"
+        }
+      ]
+    },
+    "phase": "INITIAL_EXPANSION",
+    "fixedSupplier": true,
+    "orderAcceptanceTimeStart": "2020-07-24T13:22:58.383Z",
+    "orderAcceptanceTimeEnd": "2020-07-24T13:22:58.383Z",
+    "wmsTransfers": [
+      {
+        "persisted": true,
+        "guid": "string",
+        "version": 0,
+        "creationDate": "2020-07-24T13:22:58.383Z",
+        "creationUser": "string",
+        "modificationDate": "2020-07-24T13:22:58.383Z",
+        "modificationUser": "string",
+        "controlTraceabilityManual": true,
+        "wmsTIBA": "string",
+        "requestTime": "2020-07-24T13:22:58.383Z",
+        "responseTime": "2020-07-24T13:22:58.383Z"
+      }
+    ]
+  }
+]

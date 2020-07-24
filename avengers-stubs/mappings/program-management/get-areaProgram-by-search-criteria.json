@@ -1,0 +1,23 @@
+{
+  "mappings": [
+    {
+      "name": "Gets AreaProgram by search criteria (NvtArea with and id = 100 )",
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-project-dioss/v2/areaPrograms/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "[?(@.nvtAreaId == 100)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "program-management/area-program-for-nvtId-100.json"
+      }
+    }
+  ]
+}

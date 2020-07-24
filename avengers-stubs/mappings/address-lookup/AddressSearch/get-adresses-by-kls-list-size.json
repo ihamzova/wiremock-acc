@@ -4,7 +4,7 @@
       "name": "Get address details by klsIds from FOLv2 (22 adresses)",
       "request": {
         "method": "POST",
-        "urlPattern": "/api/addressLookup/v1/addressSearch/getAddressInfo/search",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$[?(@.klsIds.size() == 22)]"
@@ -23,7 +23,7 @@
       "name": "Get all address details by klsIds from FOLv2",
       "request": {
         "method": "POST",
-        "urlPattern": "/api/addressLookup/v1/addressSearch/getAddressInfo/search",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$[?(@.klsIds.size() != 22)]"

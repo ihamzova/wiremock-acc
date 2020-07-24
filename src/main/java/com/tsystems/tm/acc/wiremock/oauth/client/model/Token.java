@@ -20,14 +20,13 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import io.swagger.annotations.ApiModelProperty;
 
-import javax.annotation.processing.Generated;
 import java.io.IOException;
 import java.util.Objects;
 
 /**
  * Token
  */
-@Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-02-07T17:04:29.119+03:00")
+@@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2020-02-07T17:04:29.119+03:00")
 public class Token {
   @SerializedName("access_token")
   private String accessToken = null;

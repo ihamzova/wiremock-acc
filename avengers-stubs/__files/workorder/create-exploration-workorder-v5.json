@@ -1,0 +1,14 @@
+{
+  "id": "1{{randomValue length=7 type='NUMERIC'}}",
+  "type": "AUSKUNDUNG",
+  "status": "CREATED",
+  "source": "INFRASTRUCTURE",
+  "networkTopology": "NE4",
+  "supplierProjectId": "{{jsonPath request.body '$.supplierProjectId'}}",
+  "externalOrderReferenceType": "BUILDING_TASK_ORDER",
+  "externalOrderReferenceId": "{{jsonPath request.body '$.supplierProjectId'}}",
+  "klsId": "{{jsonPath request.body '$.klsId'}}",
+  "folId": "{{jsonPath request.body '$.folId'}}",
+  "creationDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss:SSS'}}Z"
+}
+

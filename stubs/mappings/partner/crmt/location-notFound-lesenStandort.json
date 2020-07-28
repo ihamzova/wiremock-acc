@@ -12,13 +12,7 @@
         "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'lesenStandort']"
       },
       {
-        "matchesXPath": "//ns6:Kundennummer[.=1000000002]",
-        "xPathNamespaces": {
-          "ns6": "http://bom.telekom.de/cc"
-        }
-      },
-      {
-        "matchesXPath": "//ns6:Adress-ID[.=123456789011]",
+        "matchesXPath": "//ns6:Adress-ID[.=123456789012]",
         "xPathNamespaces": {
           "ns6": "http://bom.telekom.de/cc"
         }

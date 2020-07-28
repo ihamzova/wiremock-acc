@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:les="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/LesenStandort_v01.00"
+                  xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/LesenStandort_v01.00/types"
+                  xmlns:csdg="http://schemas.telekom.net/csdg_v01.01"
+                  xmlns:typ1="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/types_v01.01"
+                  xmlns:cc="http://bom.telekom.de/cc" xmlns:crmt="http://bom.telekom.de/crmt">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <soapenv:Fault>
+            <faultcode>env :Client</faultcode>
+            <faultstring>net.tmobile.ei.messaging.datatypes.SOABPException</faultstring>
+            <detail>
+                <csdg:technicalFault xmlns:csdg="http://schemas.telekom.net/csdg_v01.01">
+                    <csdg:context>
+                        <csdg:technicalContext>
+                            <csdg:from>de.telekom.ngssm.oss.vre.VREAdapter:core</csdg:from>
+                            <csdg:routingInfo>de.telekom.ngssm.oss.vre.VREAdapter:core:IDMA4PB</csdg:routingInfo>
+                            <csdg:messageId>4PB.3940117475.553100186916</csdg:messageId>
+                            <csdg:relatesToMessageId>4PB.3940117475.553100186916</csdg:relatesToMessageId>
+                            <csdg:currentSenderTimestampUTC>2014-05- 15T14:01:19.798Z</csdg:currentSenderTimestampUTC>
+                            <csdg:expiryOffsetInMillis>1</csdg:expiryOffsetInMillis>
+                        </csdg:technicalContext>
+                        <csdg:businessContext>
+                            <csdg:processId>4PB.3940117475.553100186916</csdg:processId>
+                            <csdg:processTypeId>UNSPECIFIED</csdg:processTypeId>
+                        </csdg:businessContext>
+                    </csdg:context>
+                    <csdg:timestamp>2014-05-15T14:01:19.798Z</csdg:timestamp>
+                    <csdg:errorCode>2016</csdg:errorCode>
+                    <csdg:errorLocation>urn:wsg:ae7la146</csdg:errorLocation>
+                    <csdg:severity>0</csdg:severity>
+                    <csdg:description>The EI message context field ‘timeLeft’ must be greater than or equal 0.
+                    </csdg:description>
+                </csdg:technicalFault>
+            </detail>
+        </soapenv:Fault>
+    </soapenv:Body>
+</soapenv:Envelope>

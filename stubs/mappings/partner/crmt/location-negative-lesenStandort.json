@@ -18,7 +18,7 @@
         }
       },
       {
-        "matchesXPath": "//ns6:Adress-ID[.=123456789012]",
+        "matchesXPath": "//ns6:Adress-ID[.=5]",
         "xPathNamespaces": {
           "ns6": "http://bom.telekom.de/cc"
         }
@@ -27,6 +27,6 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "partner/crmt/notFoundLocation-lesenStandort.xml"
+    "bodyFileName": "partner/crmt/negativeResponse-lesenStandort.xml"
   }
 }

@@ -18,15 +18,7 @@ public class ModifyPersistenceDataTask implements AdminTask {
     public ResponseDefinition execute(Admin admin, Request request, PathParams pathParams) {
         PersistencePair pair = Json.read(request.getBodyAsString(), PersistencePair.class);
 
-        if (PersistenceService.get().get(pair.getName()) == null) {
-            return ResponseDefinitionBuilder.responseDefinition()
-                    .withStatus(HTTP_NOT_FOUND)
-                    .withHeader(CONTENT_TYPE, "application/json")
-                    .withBody(Json.write("Key " + pair.getName() + " does not exist"))
-                    .build();
-        }
-
         PersistenceService.get().put(pair.getName(), pair.getValue());
-        return ResponseDefinitionBuilder.jsonResponse(pair, HTTP_NO_CONTENT);
+        return ResponseDefinitionBuilder.jsonResponse(pair, HTTP_CREATED);
     }
 }

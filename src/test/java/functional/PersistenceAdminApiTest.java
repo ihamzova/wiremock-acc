@@ -84,7 +84,7 @@ public class PersistenceAdminApiTest {
                 Json.write(newPair),
                 APPLICATION_JSON.getMimeType());
 
-        Assert.assertEquals(wireMockResponse.statusCode(), HTTP_NO_CONTENT);
+        Assert.assertEquals(wireMockResponse.statusCode(), HTTP_CREATED);
         Assert.assertEquals(PersistenceService.get().get(testKey), newTestValue);
     }
 

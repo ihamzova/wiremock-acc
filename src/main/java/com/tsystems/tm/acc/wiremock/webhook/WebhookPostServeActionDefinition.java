@@ -1,4 +1,4 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.webhook;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -14,25 +14,24 @@ import java.util.List;
 
 import static com.google.common.collect.Lists.newArrayList;
 
-public class WebhookDefinition {
+public class WebhookPostServeActionDefinition {
 
     private RequestMethod method;
     private String url;
     private List<HttpHeader> headers;
-    @JsonSerialize(using = BodySerializer.class)
     private Body body = Body.none();
     private Integer fixedDelayMilliseconds;
     private String bodyFileName;
 
     @JsonCreator
-    public WebhookDefinition(@JsonProperty("method") RequestMethod method,
-                             @JsonProperty("url") String url,
-                             @JsonProperty("headers") HttpHeaders headers,
-                             @JsonProperty("bodyFileName") String bodyFileName,
-                             @JsonProperty("body") String body,
-                             @JsonProperty("jsonBody") JsonNode jsonBody,
-                             @JsonProperty("base64Body") String base64Body,
-                             @JsonProperty("fixedDelayMilliseconds") Integer fixedDelayMilliseconds) {
+    public WebhookPostServeActionDefinition(@JsonProperty("method") RequestMethod method,
+                                            @JsonProperty("url") String url,
+                                            @JsonProperty("headers") HttpHeaders headers,
+                                            @JsonProperty("bodyFileName") String bodyFileName,
+                                            @JsonProperty("body") String body,
+                                            @JsonProperty("jsonBody") JsonNode jsonBody,
+                                            @JsonProperty("base64Body") String base64Body,
+                                            @JsonProperty("fixedDelayMilliseconds") Integer fixedDelayMilliseconds) {
         this.method = method;
         this.url = url;
         this.headers = newArrayList(headers.all());
@@ -41,7 +40,7 @@ public class WebhookDefinition {
         this.fixedDelayMilliseconds = fixedDelayMilliseconds;
     }
 
-    public WebhookDefinition() {
+    public WebhookPostServeActionDefinition() {
     }
 
     public RequestMethod getMethod() {
@@ -74,27 +73,27 @@ public class WebhookDefinition {
         return body.asBytes();
     }
 
-    public WebhookDefinition withMethod(RequestMethod method) {
+    public WebhookPostServeActionDefinition withMethod(RequestMethod method) {
         this.method = method;
         return this;
     }
 
-    public WebhookDefinition withBodyFilename(String bodyFileName) {
+    public WebhookPostServeActionDefinition withBodyFilename(String bodyFileName) {
         this.bodyFileName = bodyFileName;
         return this;
     }
 
-    public WebhookDefinition withUrl(String url) {
+    public WebhookPostServeActionDefinition withUrl(String url) {
         this.url = url;
         return this;
     }
 
-    public WebhookDefinition withHeaders(List<HttpHeader> headers) {
+    public WebhookPostServeActionDefinition withHeaders(List<HttpHeader> headers) {
         this.headers = headers;
         return this;
     }
 
-    public WebhookDefinition withHeader(String key, String... values) {
+    public WebhookPostServeActionDefinition withHeader(String key, String... values) {
         if (headers == null) {
             headers = newArrayList();
         }
@@ -103,18 +102,18 @@ public class WebhookDefinition {
         return this;
     }
 
-    public WebhookDefinition withBody(String body) {
+    public WebhookPostServeActionDefinition withBody(String body) {
         this.body = new Body(body);
         return this;
     }
 
-    public WebhookDefinition withJsonBody(JsonNode jsonBody) {
+    public WebhookPostServeActionDefinition withJsonBody(JsonNode jsonBody) {
         this.body = Body.fromOneOf(null, null, jsonBody, null);
         return this;
     }
 
 
-    public WebhookDefinition withBinaryBody(byte[] body) {
+    public WebhookPostServeActionDefinition withBinaryBody(byte[] body) {
         this.body = new Body(body);
         return this;
     }
@@ -131,9 +130,5 @@ public class WebhookDefinition {
 
     public Integer getFixedDelayMilliseconds() {
         return fixedDelayMilliseconds;
-    }
-
-    public WebhookDefinitionModel toModel() {
-        return new WebhookDefinitionModel(method, url, headers, body, fixedDelayMilliseconds, bodyFileName);
     }
 }

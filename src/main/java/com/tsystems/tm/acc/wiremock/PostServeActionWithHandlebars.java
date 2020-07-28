@@ -1,4 +1,4 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock;
 
 import com.github.jknack.handlebars.Handlebars;
 import com.github.jknack.handlebars.Template;

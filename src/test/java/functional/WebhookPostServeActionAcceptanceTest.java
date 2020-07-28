@@ -2,8 +2,8 @@ package functional;
 
 import com.github.tomakehurst.wiremock.client.WireMock;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
-import com.tsystems.tm.acc.Webhooks;
-import com.tsystems.tm.acc.WebhooksArray;
+import com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction;
+import com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction;
 import com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction;
 import com.tsystems.tm.acc.wiremock.persist.ActionType;
 import com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction;
@@ -25,8 +25,8 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 import static com.github.tomakehurst.wiremock.http.RequestMethod.GET;
 import static com.github.tomakehurst.wiremock.http.RequestMethod.POST;
-import static com.tsystems.tm.acc.Webhooks.webhook;
-import static com.tsystems.tm.acc.WebhooksArray.webhooks;
+import static com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction.webhook;
+import static com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction.webhooks;
 import static com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction.groovy;
 import static com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction.persistence;
 import static java.lang.Thread.sleep;
@@ -35,13 +35,13 @@ import static org.apache.http.entity.ContentType.TEXT_PLAIN;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class WebhooksAcceptanceTest {
+public class WebhookPostServeActionAcceptanceTest {
     @Rule
     public WireMockRule targetServer = new WireMockRule(options().dynamicPort());
 
     CountDownLatch latch;
-    Webhooks webhooks = new Webhooks();
-    WebhooksArray webhooksArray = new WebhooksArray();
+    WebhookPostServeAction webhookPostServeAction = new WebhookPostServeAction();
+    WebhooksPostServeAction webhooksArray = new WebhooksPostServeAction();
     PersistencePostServeAction persistencePostServeAction = new PersistencePostServeAction();
     GroovyPostServeAction groovyPostServeAction = new GroovyPostServeAction();
     TestNotifier notifier = new TestNotifier();
@@ -50,7 +50,7 @@ public class WebhooksAcceptanceTest {
             options()
                     .dynamicPort()
                     .notifier(notifier)
-                    .extensions(webhooks, webhooksArray, persistencePostServeAction, groovyPostServeAction));
+                    .extensions(webhookPostServeAction, webhooksArray, persistencePostServeAction, groovyPostServeAction));
     WireMockTestClient client;
 
     @Before

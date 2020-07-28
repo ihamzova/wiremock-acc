@@ -11,7 +11,7 @@ import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.RequestTemplateModel;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
-import com.tsystems.tm.acc.PostServeActionWithHandlebars;
+import com.tsystems.tm.acc.wiremock.PostServeActionWithHandlebars;
 import com.tsystems.tm.acc.wiremock.persist.PersistenceService;
 import groovy.lang.Binding;
 import groovy.lang.GroovyShell;

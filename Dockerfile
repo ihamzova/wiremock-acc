@@ -16,4 +16,4 @@ COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
 
 EXPOSE 8080
 
-CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --extensions com.tsystems.tm.acc.Webhooks,com.tsystems.tm.acc.WebhooksArray,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi --root-dir $STUBS_PATH
+CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --extensions com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi --root-dir $STUBS_PATH

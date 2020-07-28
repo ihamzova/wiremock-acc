@@ -1,4 +1,4 @@
-package com.tsystems.tm.acc;
+package com.tsystems.tm.acc.wiremock.webhook;
 
 import com.github.jknack.handlebars.Template;
 import com.github.tomakehurst.wiremock.common.FileSource;
@@ -12,6 +12,7 @@ import com.github.tomakehurst.wiremock.http.HttpClientFactory;
 import com.github.tomakehurst.wiremock.http.HttpHeader;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
+import com.tsystems.tm.acc.wiremock.AsyncPostServeActionWithHandlebars;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
@@ -19,7 +20,6 @@ import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.util.EntityUtils;
 
-import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -31,16 +31,16 @@ import static com.github.tomakehurst.wiremock.http.HttpClientFactory.getHttpRequ
 import static com.google.common.base.MoreObjects.firstNonNull;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
-public class Webhooks extends AsyncPostServeActionWithHandlebars {
+public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
     public static final String NAME = "webhook";
     protected final HttpClient httpClient;
 
-    public Webhooks() {
+    public WebhookPostServeAction() {
         super();
         httpClient = HttpClientFactory.createClient();
     }
 
-    protected static HttpUriRequest buildRequest(WebhookDefinition definition) {
+    protected static HttpUriRequest buildRequest(WebhookPostServeActionDefinition definition) {
         HttpUriRequest request = getHttpRequestFor(
                 definition.getMethod(),
                 definition.getUrl()
@@ -58,8 +58,8 @@ public class Webhooks extends AsyncPostServeActionWithHandlebars {
         return request;
     }
 
-    public static WebhookDefinition webhook() {
-        return new WebhookDefinition();
+    public static WebhookPostServeActionDefinition webhook() {
+        return new WebhookPostServeActionDefinition();
     }
 
     public String getName() {
@@ -69,7 +69,7 @@ public class Webhooks extends AsyncPostServeActionWithHandlebars {
     @Override
     public void doAction(ServeEvent serveEvent, Admin admin, Parameters parameters) {
         try {
-            final WebhookDefinition definition = parameters.as(WebhookDefinition.class);
+            final WebhookPostServeActionDefinition definition = parameters.as(WebhookPostServeActionDefinition.class);
             doActionInternal(definition, serveEvent, admin, parameters);
         } catch (Throwable e) {
             e.printStackTrace();
@@ -77,8 +77,8 @@ public class Webhooks extends AsyncPostServeActionWithHandlebars {
         }
     }
 
-    protected void doActionInternal(WebhookDefinition definition, ServeEvent serveEvent, Admin admin, Parameters parameters) {
-        final WebhookDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
+    protected void doActionInternal(WebhookPostServeActionDefinition definition, ServeEvent serveEvent, Admin admin, Parameters parameters) {
+        final WebhookPostServeActionDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
         final Notifier notifier = notifier();
 
         scheduler.schedule(
@@ -104,7 +104,7 @@ public class Webhooks extends AsyncPostServeActionWithHandlebars {
         );
     }
 
-    protected WebhookDefinition transform(ServeEvent serveEvent, WebhookDefinition definition, Parameters parameters, Options options) {
+    protected WebhookPostServeActionDefinition transform(ServeEvent serveEvent, WebhookPostServeActionDefinition definition, Parameters parameters, Options options) {
         final FileSource files = options.filesRoot().child(FILES_ROOT);
         final ImmutableMap<String, Object> model = ImmutableMap.<String, Object>builder()
                 .put("parameters", firstNonNull(parameters, Collections.<String, Object>emptyMap()))

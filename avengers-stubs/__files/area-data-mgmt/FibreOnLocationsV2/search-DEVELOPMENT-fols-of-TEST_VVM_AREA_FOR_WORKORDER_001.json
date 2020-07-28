@@ -1,0 +1,119 @@
+{
+  "content": [
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9673808",
+      "klsId": 9673808,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "FTTH",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": "2020-09-30T00:00:00Z",
+      "we": 7,
+      "ge": 0,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "number": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "rolloutDate": "2020-11-16T06:40:26Z",
+        "areaStatus": "AREA_PLANNED",
+        "initiative": "JOINT_VENTURE",
+        "plannedFrom": "2018-11-01T00:00:00Z",
+        "plannedTo": "2018-11-30T00:00:00Z",
+        "netCoOrganisationId": 10000,
+        "thresholdData": {}
+      }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9673809",
+      "klsId": 9673809,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "FTTC",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": "2020-09-30T00:00:00Z",
+      "we": 6,
+      "ge": 2,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "number": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "rolloutDate": "2020-11-16T06:40:26Z",
+        "areaStatus": "AREA_PLANNED",
+        "initiative": "JOINT_VENTURE",
+        "plannedFrom": "2018-11-01T00:00:00Z",
+        "plannedTo": "2018-11-30T00:00:00Z",
+        "netCoOrganisationId": 10000,
+        "thresholdData": {}
+      }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9673810",
+      "klsId": 9673810,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "FTTH",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": "2021-01-01T00:00:00Z",
+      "we": 5,
+      "ge": 2,
+      "sl": 2,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "number": "TEST_VVM_AREA_FOR_WORKORDER_001",
+        "rolloutDate": "2020-11-16T06:40:26Z",
+        "areaStatus": "AREA_PLANNED",
+        "initiative": "JOINT_VENTURE",
+        "plannedFrom": "2018-11-01T00:00:00Z",
+        "plannedTo": "2018-11-30T00:00:00Z",
+        "netCoOrganisationId": 10000,
+        "thresholdData": {}
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "pageNumber": 0,
+    "pageSize": 1000,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 3,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 3,
+  "size": 1000,
+  "number": 0,
+  "empty": false
+}

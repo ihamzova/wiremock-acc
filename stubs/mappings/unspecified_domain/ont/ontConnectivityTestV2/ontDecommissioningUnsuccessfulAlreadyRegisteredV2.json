@@ -1,0 +1,45 @@
+{
+  "priority": 7,
+  "request": {
+    "method": "DELETE",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v2/connectivityTest/ont",
+    "headers": {
+      "X-Callback-Correlation-Id": {
+        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E1B[A-F0-9]{13}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted."
+  },
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "jsonBody": {
+        "response": {
+          "status": "ERROR"
+        },
+        "success": false,
+        "error": {
+          "message": "decommissioning error",
+          "status": 3,
+          "code": "E3"
+        }
+      },
+      "url": "{{request.headers.X-Callback-Url}}"
+    }
+  }
+}

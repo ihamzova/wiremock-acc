@@ -9,6 +9,6 @@
   "externalOrderReferenceId": "{{jsonPath request.body '$.supplierProjectId'}}",
   "klsId": "{{jsonPath request.body '$.klsId'}}",
   "folId": "{{jsonPath request.body '$.folId'}}",
-  "creationDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss:SSS'}}Z"
+  "creationDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z"
 }
 

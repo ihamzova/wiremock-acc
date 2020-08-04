@@ -1,7 +1,15 @@
 {
     "request": {
       "method": "GET",
-      "url": "/api/oltResourceInventory/v1/olt/vpszlookup?vpsz=49/7152/5&devicetype=OLT"
+      "urlPath": "/resource-order-resource-inventory/v1/rial/olt/vpszlookup",
+      "queryParameters": {
+        "vpsz": {
+          "equalTo": "49/7152/5"
+        },
+        "devicetype": {
+          "equalTo": "OLT"
+        }
+      }
     },
     "response": {
       "status": 200,

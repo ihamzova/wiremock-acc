@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "Get GigaAreaName by GigaAreaNumber - TEST_VVM_AREA_FOR_WORKORDER_001",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/TEST_VVM_AREA_FOR_WORKORDER_001"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/get-GigaArea-By-AreaNumber-TEST_VVM_AREA_FOR_WORKORDER_001.json"
+      }
+    }
+  ]
+}

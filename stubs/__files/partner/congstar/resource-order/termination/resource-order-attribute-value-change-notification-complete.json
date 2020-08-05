@@ -30,8 +30,8 @@
           "resource": {
             "@type": "WholebuyResource",
             "endOperatingDate": "{{now format='yyyy-MM-dd'}}",
-            "lineId": "{{jsonPath request.body '$.lineId'}}",
-            "carrierContractId": "{{jsonPath request.body '$.carrierContractId'}}"
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}"
           }
         }
       ]

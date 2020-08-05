@@ -29,7 +29,10 @@
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json",
-            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+            "X-Callback-Url": "{{request.headers.X-Callback-Url}}",
+            "X-Callback-Id": "{{request.headers.X-Callback-Id}}",
+            "X-Business-Context": "{{request.headers.X-Business-Context}}"
           },
           "url": "{{request.headers.X-Callback-Url}}",
           "bodyFileName": "partner/congstar/resource-order/resource-order-callback.json"

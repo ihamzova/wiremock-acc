@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/ibt/giga-installation-order/v4/customerInstallationOrders/([a-z0-9-]+)/ibtCioCustomer",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": []
+  },
+  "response": {
+    "status": 200
+  }
+}

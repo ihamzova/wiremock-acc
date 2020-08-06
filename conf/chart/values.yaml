@@ -11,6 +11,9 @@ app_name: &app_name_definition "wiremock-acc"
 
 app:
   name: *app_name_definition
+  domain:
+    external:
+      expose: true
   image:
     name: *app_name_definition
   health:

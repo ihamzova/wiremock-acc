@@ -10,9 +10,17 @@ WORKDIR /$WM_PACKAGE
 
 COPY target/wiremock-acc-deps.jar /$WM_PACKAGE
 COPY stubs /$WM_PACKAGE
+
 COPY example-stubs /$WM_PACKAGE/example-stubs
 COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
+
+COPY fiberbau-stubs /$WM_PACKAGE/fiberbau-stubs
+COPY order-stubs /$WM_PACKAGE/order-stubs
+COPY osr-stubs /$WM_PACKAGE/osr-stubs
+COPY presales-stubs /$WM_PACKAGE/presales-stubs
+
+COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
 EXPOSE 8080
 

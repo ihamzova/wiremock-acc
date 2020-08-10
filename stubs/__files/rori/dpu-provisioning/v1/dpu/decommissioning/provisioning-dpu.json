@@ -1,0 +1,6 @@
+{
+  "id": "{{request.headers.x-b3-traceid}}",
+  "source": "dpu-commissioning",
+  "businessKey": "dpu-commissioning/{{request.headers.x-b3-traceid}}",
+  "index": 1
+}

@@ -1,6 +1,20 @@
 {
   "mappings": [
     {
+      "name": "Get GigaAreaName by GigaAreaNumber - Frankfurt_006",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/Frankfurt_006"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/get-GigaArea-By-AreaNumber-Frankfurt_006.json"
+      }
+    },
+    {
       "name": "Get GigaAreaName by GigaAreaNumber - Bornheim_002",
       "request": {
         "method": "GET",

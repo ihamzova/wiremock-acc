@@ -1,0 +1,46 @@
+{
+  "mappings": [
+    {
+      "name": "Search GigaAreaName by full GigaAreaName - 'Bornheim Area 2'",
+      "request": {
+        "method": "GET",
+        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=Bornheim+Area+2&pageSize=1000&initiatives=SELF_EXPANSION"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
+      }
+    },
+    {
+      "name": "Search GigaAreaName by partial GigaAreaName - 'Bornheim' and get 2 results",
+      "request": {
+        "method": "GET",
+        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=Bornheim*&pageSize=1000&initiatives=SELF_EXPANSION"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Two-Bornheim-Areas.json"
+      }
+    },
+    {
+      "name": "Search GigaAreaName by partial GigaAreaName - and get no results",
+      "request": {
+        "method": "GET",
+        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=not-existing&pageSize=1000&initiatives=SELF_EXPANSION"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Empty-Result.json"
+      }
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "mappings": [
     {
-      "name": "Get address details by klsIds from FOLv2 (22 adresses)",
+      "name": "Get address details by klsIds from FOLv2 for Frankfurt_006",
       "request": {
         "method": "POST",
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "$[?(@.klsIds.size() == 22)]"
+            "matchesJsonPath": "$[?(@.klsIds[0] == 2000)]"
           }
         ]
       },
@@ -16,17 +16,17 @@
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "address-lookup/AddressSearch/22-from-FOLv2.json"
+        "bodyFileName": "address-lookup/AddressSearch/FOLv2-Frankfurt-starting-with-2000.json"
       }
     },
     {
-      "name": "Get address details by klsIds from FOLv2 (22 adresses) - BFO details page stub",
+      "name": "Get address details by klsIds from FOLv2 for Bornheim_002",
       "request": {
         "method": "POST",
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "$[?(@.klsIds.size() != 22)]"
+            "matchesJsonPath": "$[?(@.klsIds[0] == 1000)]"
           }
         ]
       },
@@ -35,7 +35,7 @@
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "address-lookup/AddressSearch/22-from-FOLv2.json"
+        "bodyFileName": "address-lookup/AddressSearch/FOLv2-Bornheim-starting-with-1000.json"
       }
     }
   ]

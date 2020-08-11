@@ -4,7 +4,7 @@
       "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType of Bornheim_002 gigaArea",
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?areaType=DEVELOPMENT&gigaAreaNumber=Bornheim_002(&includeDpGeoData=false)?(&pageSize=\\d{1,4})?"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bornheim_002&pageSize=1000&areaTypes=DEVELOPMENT&includeDpGeoData=false"
       },
       "response": {
         "status": 200,

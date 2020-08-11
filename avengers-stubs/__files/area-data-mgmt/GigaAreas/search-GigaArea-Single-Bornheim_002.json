@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "creationDate": "2020-06-26T17:16:12.486Z",
+      "modificationDate": "2020-06-26T17:16:21.586Z",
+      "name": "Bornheim Area 2",
+      "number": "Bornheim_002",
+      "rolloutDate": "2020-11-16T06:40:26Z",
+      "areaStatus": "VVM_ONGOING",
+      "initiative": "SELF_EXPANSION",
+      "plannedFrom": "2019-03-01T00:00:00Z",
+      "plannedTo": "2019-05-31T00:00:00Z",
+      "netCoOrganisationId": 10001,
+      "thresholdData": {
+        "ordersCountInVVM": 0
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "pageSize": 25,
+    "pageNumber": 0,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 1,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 1,
+  "size": 25,
+  "number": 0,
+  "empty": false
+}

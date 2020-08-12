@@ -2,9 +2,25 @@
   "mappings": [
     {
       "name": "Search GigaAreaName by full GigaAreaName - 'Bornheim Area 2'",
+      "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=Bornheim+Area+2&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?%20[aA]?[rR]?[eE]?[aA]?%20[2]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
+      }
+    },
+    {
+      "name": "Search GigaAreaName by partial GigaAreaName - 'Bornheim Area'",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?%20[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -16,9 +32,10 @@
     },
     {
       "name": "Search GigaAreaName by partial GigaAreaName - 'Bornheim' and get 2 results",
+      "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=Bornheim*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]{1}[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -29,10 +46,11 @@
       }
     },
     {
-      "name": "Search GigaAreaName by partial GigaAreaName - and get no results",
+      "name": "Search GigaAreaName by GigaAreaName and get no results",
+      "priority": 10,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/gigaAreas/search?areaName=not-existing&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(\\S*\\*)&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,

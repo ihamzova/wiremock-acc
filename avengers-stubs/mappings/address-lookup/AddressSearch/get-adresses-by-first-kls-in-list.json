@@ -1,7 +1,23 @@
 {
   "mappings": [
     {
+      "name": "Get all address details from FOLv2 by klsIds for any other, not defiled request",
+      "priority": 10,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/all-addresses.json"
+      }
+    },
+    {
       "name": "Get address details by klsIds from FOLv2 for Frankfurt_006",
+      "priority": 1,
       "request": {
         "method": "POST",
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
@@ -21,6 +37,7 @@
     },
     {
       "name": "Get address details by klsIds from FOLv2 for Bornheim_002",
+      "priority": 1,
       "request": {
         "method": "POST",
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",

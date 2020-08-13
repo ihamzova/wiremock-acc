@@ -8,7 +8,7 @@
   "eventSource": "WholebuyGateway",
   "fieldPaths": [
     {
-      "path": "/orderItem/0/endOperatingDate",
+      "path": "/orderItem/0/resource/endOperatingDate",
       "typeOfChange": "initiallySet"
     }
   ],

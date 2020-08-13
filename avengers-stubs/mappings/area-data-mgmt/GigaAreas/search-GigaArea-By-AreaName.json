@@ -20,7 +20,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?%20[aA]?[rR]?[eE]?[aA]?%20[2]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?+[aA]?[rR]?[eE]?[aA]?+[2]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -35,7 +35,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?%20[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?+[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -65,7 +65,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]?[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?%20[aA]?[rR]?[eE]?[aA]?%20[6]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]?[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?+[aA]?[rR]?[eE]?[aA]?+[6]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -80,7 +80,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]?[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?%20[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]?[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?+[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,

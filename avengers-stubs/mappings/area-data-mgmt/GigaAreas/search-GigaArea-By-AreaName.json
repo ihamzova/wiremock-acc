@@ -95,7 +95,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]?[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[fF]{1}[rR]?[aA]?[nN]?[kK]?[fF]?[uU]?[rR]?[tT]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,

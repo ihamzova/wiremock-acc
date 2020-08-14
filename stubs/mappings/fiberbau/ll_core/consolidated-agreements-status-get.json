@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/landlord-management/v1/consolidatedAgreements/([0-9]+)/status"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody" : {
+        "status": "APPROVED"
+    }
+  }
+}

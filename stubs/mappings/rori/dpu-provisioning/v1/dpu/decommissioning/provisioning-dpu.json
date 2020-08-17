@@ -15,7 +15,7 @@
   },
   "postServeActions": {
     "webhook": {
-      "url": "https://ont-etcd-mercury-01.telitcaas3.t-internal.com/v2/keys/{{request.headers.x-business-context}}/{{request.headers.x-b3-traceid}}?value=%7B%22source%22%3A%20%22{{request.headers.x-business-context}}%22%2C%22type%22%3A%20%22SUCCESS%22%2C%22message%22%3A%20%22SUCCESS%20CALLBACK%20FROM%20WIREMOCK%22%7D",
+      "url": "http://ont-etcd-api/v2/keys/{{request.headers.x-business-context}}/{{request.headers.x-b3-traceid}}?value=%7B%22source%22%3A%20%22{{request.headers.x-business-context}}%22%2C%22type%22%3A%20%22SUCCESS%22%2C%22message%22%3A%20%22SUCCESS%20CALLBACK%20FROM%20WIREMOCK%22%7D",
       "headers": {
         "Content-Type": "application/json"
       },

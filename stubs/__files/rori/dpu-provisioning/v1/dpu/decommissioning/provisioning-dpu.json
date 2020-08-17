@@ -1,6 +1,6 @@
 {
   "id": "{{request.headers.x-b3-traceid}}",
-  "source": "dpu-commissioning",
-  "businessKey": "dpu-commissioning/{{request.headers.x-b3-traceid}}",
-  "index": 1
+  "source": "{{request.headers.x-business-context}}",
+  "businessKey": "{{request.headers.x-business-context}}/{{request.headers.x-b3-traceid}}",
+  "mocked": true
 }

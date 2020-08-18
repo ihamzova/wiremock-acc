@@ -1,0 +1,34 @@
+{
+  "mappings": [
+    {
+      "name": "Find address by kls id",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/(100[1-9]|101[0-9]|102[0-1]|2000)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/by-kls/{{request.path.[5]}}.json"
+      }
+    },
+    {
+      "name": "Find no address with non-existing kls id",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/(.*)"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": "Address information was not found."
+      }
+    }
+  ]
+}

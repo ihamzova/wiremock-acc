@@ -1,11 +1,11 @@
 {
   "mappings": [
     {
-      "name": "Search GigaAreaName by GigaAreaName and get no results",
+      "name": "Search GigaAreaName and get no results",
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(\\S*\\*)&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(.*)&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -16,11 +16,11 @@
       }
     },
     {
-      "name": "Search GigaAreaName by full GigaAreaName - 'Bornheim Area 2'",
+      "name": "Search GigaAreaName and get one - 'Bornheim Area 2'",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?+[aA]?[rR]?[eE]?[aA]?+[2]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)((bornheim( |%20|\\+)a|bornheim( |%20|\\+)ar|bornheim( |%20|\\+)are|bornheim( |%20|\\+)area|bornheim( |%20|\\+)area( |%20|\\+))\\*|bornheim( |%20|\\+)area( |%20|\\+)2)&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,
@@ -31,26 +31,11 @@
       }
     },
     {
-      "name": "Search GigaAreaName by partial GigaAreaName - 'Bornheim Area'",
+      "name": "Search GigaAreaName and get two - 'Bornheim Area' and 'Bornheim Widdig'",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]?[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?+[aA]?[rR]?[eE]?[aA]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
-      },
-      "response": {
-        "status": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
-      }
-    },
-    {
-      "name": "Search GigaAreaName by partial GigaAreaName - 'Bornheim' and get 2 results",
-      "priority": 1,
-      "request": {
-        "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=[bB]{1}[oO]?[rR]?[nN]?[hH]?[eE]?[iI]?[mM]?\\*&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)(b|bo|bor|born|bornh|bornhe|bornhei|bornheim|bornheim( |%20|\\+))\\*&pageSize=1000&initiatives=SELF_EXPANSION"
       },
       "response": {
         "status": 200,

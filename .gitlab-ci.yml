@@ -26,3 +26,6 @@ include:
   - project: 'infr/pipelines/service/cd/common'
     ref: v2
     file: '/public/gitflow.yml'
+  - project: 'infr/pipelines/service/cd/common'
+    ref: v2
+    file: '/public/features/deploy_from_feature_branch.yml'

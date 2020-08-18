@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns2:annehmenMeldungRequest xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal"
+                                    xmlns:ns4="http://spri.telekom.de/oss/v5/message">
+            <control>
+                <zeitstempel>{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>90</minorRelease>
+                <signaturId>
+                    <issuer>DTAG</issuer>
+                    <serial>123456</serial>
+                </signaturId>
+            </control>
+            <meldung>
+                <auftragstyp>
+                    <geschaeftsfall>KUE-AG</geschaeftsfall>
+                    <aenderungsKennzeichen>Standard</aenderungsKennzeichen>
+                    <geschaeftsfallart>Kuendigung</geschaeftsfallart>
+                </auftragstyp>
+                <meldungstyp xsi:type="ns4:MeldungstypENTMType" xmlns:ns4="http://spri.telekom.de/oss/v5/message"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <meldungsattribute>
+                        <vertragsnummer>5112940</vertragsnummer>
+                        <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
+                        <auftraggebernummer>2020005101</auftraggebernummer>
+                        <vorabstimmungId>DEU.1UND1.VPRELNM0PK</vorabstimmungId>
+                        <entgelttermin>2020-02-14</entgelttermin>
+                    </meldungsattribute>
+                    <meldungspositionen>
+                        <position xsi:type="ns4:MeldungspositionType">
+                            <meldungscode>0010</meldungscode>
+                            <meldungstext>Auftrag ausgeführt.</meldungstext>
+                        </position>
+                    </meldungspositionen>
+                </meldungstyp>
+            </meldung>
+        </ns2:annehmenMeldungRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

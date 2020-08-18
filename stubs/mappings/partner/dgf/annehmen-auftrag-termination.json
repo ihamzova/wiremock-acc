@@ -1,0 +1,58 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath" : "//geschaeftsfallArt[text()='Kuendigung']"
+      }
+    ],
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/dgf/OAL-Auftrag-response.xml"
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri/",
+          "bodyFileName": "partner/dgf/termination/OAL-Termination-QEB.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 20000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/termination/OAL-Termination-ABM.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 30000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/termination/OAL-Termination-ERLM.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 40000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/termination/OAL-Termination-ENTM.xml"
+        }
+      ]
+    }
+  }
+}

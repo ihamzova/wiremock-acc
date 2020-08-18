@@ -2,6 +2,11 @@
   "request": {
     "method": "POST",
     "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath" : "//geschaeftsfallArt[text()='Bereitstellung']"
+      }
+    ],
     "headers": {}
   },
   "response": {
@@ -17,8 +22,8 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/OALBereitstellung-QEB.xml"
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri/",
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-QEB.xml"
         },
         {
           "method": "POST",
@@ -26,8 +31,8 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/OALBereitstellung-ABM.xml"
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-ABM.xml"
         },
         {
           "method": "POST",
@@ -35,8 +40,8 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/OALBereitstellung-ERLM.xml"
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-ERLM.xml"
         },
         {
           "method": "POST",
@@ -44,8 +49,8 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/OALBereitstellung-ENTM.xml"
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-ENTM.xml"
         }
       ]
     }

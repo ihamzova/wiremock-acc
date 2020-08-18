@@ -5,7 +5,7 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(.*)&pageSize=1000&initiatives=SELF_EXPANSION"
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?(.*)"
       },
       "response": {
         "status": 200,

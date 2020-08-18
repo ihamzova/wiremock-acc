@@ -22,7 +22,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri/",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
           "bodyFileName": "partner/dgf/activation/OAL-Activation-QEB.xml"
         },
         {
@@ -31,7 +31,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
           "bodyFileName": "partner/dgf/activation/OAL-Activation-ABM.xml"
         },
         {
@@ -40,7 +40,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
           "bodyFileName": "partner/dgf/activation/OAL-Activation-ERLM.xml"
         },
         {
@@ -49,7 +49,7 @@
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/service-order-service-inventory/v5/spri",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
           "bodyFileName": "partner/dgf/activation/OAL-Activation-ENTM.xml"
         }
       ]

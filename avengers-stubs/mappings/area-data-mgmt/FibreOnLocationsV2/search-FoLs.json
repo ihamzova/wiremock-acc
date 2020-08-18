@@ -8,7 +8,7 @@
         "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?(.*)"
       },
       "response": {
-        "status": 404,
+        "status": 200,
         "headers": {
           "Content-Type": "application/json"
         },

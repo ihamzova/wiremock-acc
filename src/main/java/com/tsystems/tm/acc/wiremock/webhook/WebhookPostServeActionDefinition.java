@@ -20,7 +20,7 @@ public class WebhookPostServeActionDefinition {
     private String url;
     private List<HttpHeader> headers;
     private Body body = Body.none();
-    private Integer fixedDelayMilliseconds;
+    private Long fixedDelayMilliseconds;
     private String bodyFileName;
 
     @JsonCreator
@@ -31,7 +31,7 @@ public class WebhookPostServeActionDefinition {
                                             @JsonProperty("body") String body,
                                             @JsonProperty("jsonBody") JsonNode jsonBody,
                                             @JsonProperty("base64Body") String base64Body,
-                                            @JsonProperty("fixedDelayMilliseconds") Integer fixedDelayMilliseconds) {
+                                            @JsonProperty("fixedDelayMilliseconds") Long fixedDelayMilliseconds) {
         this.method = method;
         this.url = url;
         this.headers = newArrayList(headers.all());
@@ -118,6 +118,11 @@ public class WebhookPostServeActionDefinition {
         return this;
     }
 
+    public WebhookPostServeActionDefinition withFixedDelayMilliseconds(long delay) {
+        this.fixedDelayMilliseconds = delay;
+        return this;
+    }
+
     @JsonIgnore
     public boolean specifiesTextBodyContent() {
         return body.isPresent() && !body.isBinary();
@@ -128,7 +133,7 @@ public class WebhookPostServeActionDefinition {
         return bodyFileName != null && !bodyFileName.isEmpty();
     }
 
-    public Integer getFixedDelayMilliseconds() {
+    public Long getFixedDelayMilliseconds() {
         return fixedDelayMilliseconds;
     }
 }

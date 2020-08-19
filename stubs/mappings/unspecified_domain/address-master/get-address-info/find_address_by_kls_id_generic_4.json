@@ -1,7 +1,8 @@
 {
+  "priority": 90,
   "request" : {
     "method" : "GET",
-    "urlPattern" : "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/.*"
+    "urlPattern" : "/api/addressLookup/v1/addressSearch/getAddressInfo/.*"
   },
   "response" : {
     "headers" : {

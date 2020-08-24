@@ -3,7 +3,7 @@
   "id": "6d8dcb28-24e9-42d4-8f13-5ba0ca60cee0",
   "request": {
     "method": "GET",
-    "urlPattern": "/api/addressLookup/v1/addressSearch/getAddressInfo/.*"
+    "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/.*"
   },
   "response": {
     "status": 200,
@@ -14,7 +14,7 @@
       "response-template"
     ],
     "jsonBody": {
-      "klsId": 9673666,
+      "klsId": "{{request.path.[5]}}",
       "zipCode": "71254",
       "municipalityName": "Test Ditzingen",
       "distributionAreaName": "Test Heimerdingen",

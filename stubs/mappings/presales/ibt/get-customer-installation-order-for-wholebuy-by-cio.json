@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-installation-order/v3/customerInstallationOrders/1([0-9]+)"
+    "urlPathPattern": "/giga-installation-order/v3/customerInstallationOrders/2([0-9]+)"
   },
   "response": {
     "headers": {
@@ -131,6 +131,20 @@
       "supplierProjectBid": 10279,
       "workOrderBid": null,
       "homeId": null,
+      "characteristics": [
+        {
+          "name": "lineId",
+          "value": "string"
+        },
+        {
+          "name": "wbCarrierCode",
+          "value": "string"
+        },
+        {
+          "name": "serviceInstanceId",
+          "value": "string"
+        }
+      ],
       "vvmAreaNumber": "Frankfurt_001",
       "orderType": "FIBER_ACCESS_APARTMENT",
       "supplierProjectNE3Bid": 10277,

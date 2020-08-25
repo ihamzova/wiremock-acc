@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/giga-installation-order/v5/customerInstallationOrders/creationRequest",
+    "bodyPatterns": [
+      {
+        "contains": "Wholebuy"
+      }
+    ]
+
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "bodyFileName": "presales/ibt/valid-customer-installation-order-id-for-wholebuy.json",
+      "method": "POST",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

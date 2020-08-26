@@ -3,6 +3,7 @@
     "method": "POST",
     "url": "/giga-installation-order/v5/customerInstallationOrders/creationRequest",
     "bodyPatterns": [
+      
       {
         "contains": "Wholebuy_Customer"
       }

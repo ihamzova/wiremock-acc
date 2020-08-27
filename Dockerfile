@@ -16,7 +16,8 @@ COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
 
 COPY orion-stubs /$WM_PACKAGE/orion-stubs
-COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs
+COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs/mappings
+COPY stubs/__files/infra /$WM_PACKAGE/orion-stubs/__files/infra
 
 COPY fiberbau-stubs /$WM_PACKAGE/fiberbau-stubs
 COPY order-stubs /$WM_PACKAGE/order-stubs

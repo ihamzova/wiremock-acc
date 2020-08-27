@@ -1,0 +1,80 @@
+{
+  "content": [
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "2000",
+      "klsId": 2000,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "IKLE",
+      "areaType": "RESIDENTIAL",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "we": 3,
+      "ge": 2,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Frankfurt area 6",
+        "number": "Frankfurt_006",
+        "rolloutDate": "2019-12-31T11:26:20Z",
+        "areaStatus": "AREA_PLANNED",
+        "initiative": "SELF_EXPANSION",
+        "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2019-03-31T11:26:20Z",
+        "netCoOrganisationId": 10001,
+        "thresholdData": {}
+      },
+      "nvtArea": {
+        "creationDate": "2020-04-15T07:29:13.880Z",
+        "modificationDate": "2020-04-15T07:29:13.880Z",
+        "businessId": 9021,
+        "asb": 999,
+        "name": "RA Frankfurt 006",
+        "onkz": "69",
+        "nvtKlsId": 123471,
+        "gigaArea": {
+          "creationDate": "2020-04-15T07:29:13.560Z",
+          "modificationDate": "2020-04-15T07:29:13.560Z",
+          "name": "FRANKFURT_006",
+          "number": "FRANKFURT_006",
+          "rolloutDate": "2019-12-31T11:26:20Z",
+          "areaStatus": "AREA_PLANNED",
+          "initiative": "SELF_EXPANSION",
+          "plannedFrom": "2019-01-01T11:26:20Z",
+          "plannedTo": "2019-03-31T11:26:20Z",
+          "netCoOrganisationId": 10001,
+          "thresholdData": {}
+        }
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "pageNumber": 0,
+    "pageSize": 1000,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 22,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 22,
+  "size": 1000,
+  "number": 0,
+  "empty": false
+}

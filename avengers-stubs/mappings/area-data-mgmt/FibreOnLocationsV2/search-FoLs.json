@@ -80,7 +80,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Frankfurt_006&klsId=2000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&includeDpGeoData=false"
+        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Frankfurt_006&klsId=2000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&includeDpGeoData=false"
       },
       "response": {
         "status": 200,

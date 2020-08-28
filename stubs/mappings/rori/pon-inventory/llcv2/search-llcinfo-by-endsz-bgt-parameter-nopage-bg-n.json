@@ -1,0 +1,17 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v2/llc",
+    "queryParameters" : {
+      "page" : { "absent" : true}
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/pon-inventory/llcv2/response_endsz_empty_list.json"
+  }
+}

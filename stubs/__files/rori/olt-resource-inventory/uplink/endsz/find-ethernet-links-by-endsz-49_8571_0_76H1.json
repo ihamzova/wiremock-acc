@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1000,
+    "oltEndSz": "49/8571/0/76H1",
+    "oltSlot": "19",
+    "oltPortNumber": "1",
+    "bngEndSz": "49/911/84/7ZJE",
+    "bngSlot": "2",
+    "bngPortNumber": "ge-4/0/6",
+    "ancpSessions": [
+      {
+        "id": 1000,
+        "vlan": 16,
+        "partitionId": 2,
+        "sessionId": 2,
+        "sessionType": "OLT",
+        "rmkEndpointId": "9158067504213429100",
+        "sealConfigurationId": "0-19-1-2-16",
+        "ipSubnet": {
+          "id": 1000,
+          "subnetMask": "/30",
+          "ipAddressLoopback": "10.150.240.176",
+          "ipAddressBng": "10.150.240.178",
+          "ipAddressBroadcast": "10.150.240.179",
+          "rmkAccessId": "9146946764013742720",
+          "allocatedIPAddresses": [
+            {
+              "id": 1000,
+              "ipAddress": "10.150.240.177"
+            }
+          ]
+        },
+        "sessionStatus": "ACTIVE",
+        "endsz": "49/8571/0/76H1",
+        "allocatedIPAddress": {
+          "id": 1000,
+          "ipAddress": "10.150.240.177"
+        },
+        "configurationStep": null,
+        "additionalInfo": null,
+        "lastActivity": "2020-08-18T12:11:19.129+02:00",
+        "port": {
+          "id": 1053,
+          "resourceId": "de37553e-488d-41f6-9290-a27bdc1bd014",
+          "lifeCycleState": "OPERATING",
+          "portType": "ETHERNET",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001
+        }
+      },
+      {
+        "id": 1002,
+        "vlan": 12,
+        "partitionId": null,
+        "sessionId": null,
+        "sessionType": "DPU",
+        "rmkEndpointId": "9158075114313483362",
+        "sealConfigurationId": null,
+        "ipSubnet": {
+          "id": 1002,
+          "subnetMask": "/24",
+          "ipAddressLoopback": "10.0.102.0",
+          "ipAddressBng": "10.0.102.1",
+          "ipAddressBroadcast": "10.0.102.255",
+          "rmkAccessId": "9152692945913372992",
+          "allocatedIPAddresses": [
+            {
+              "id": 1003,
+              "ipAddress": "10.0.102.2"
+            }
+          ]
+        },
+        "sessionStatus": "ACTIVE",
+        "endsz": "49/8571/0/71G2",
+        "allocatedIPAddress": {
+          "id": 1003,
+          "ipAddress": "10.0.102.2"
+        },
+        "configurationStep": null,
+        "additionalInfo": null,
+        "lastActivity": "2020-08-19T09:19:24.326+02:00",
+        "port": {
+          "id": 1073,
+          "resourceId": "02ab37a7-9169-4aa0-8d91-d07c84333d46",
+          "lifeCycleState": "NOT_OPERATING",
+          "portType": "PON",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001
+        }
+      },
+      {
+        "id": 1001,
+        "vlan": 12,
+        "partitionId": null,
+        "sessionId": null,
+        "sessionType": "DPU",
+        "rmkEndpointId": null,
+        "sealConfigurationId": null,
+        "ipSubnet": {
+          "id": 1001,
+          "subnetMask": "/24",
+          "ipAddressLoopback": "10.0.102.0",
+          "ipAddressBng": "10.0.102.1",
+          "ipAddressBroadcast": "10.0.102.255",
+          "rmkAccessId": "9152692945913372992",
+          "allocatedIPAddresses": []
+        },
+        "sessionStatus": "ERROR",
+        "endsz": "49/8571/0/71G1",
+        "allocatedIPAddress": null,
+        "configurationStep": "DELETE_IP_RANGE_ASSIGNMENT",
+        "additionalInfo": "Loeschen der IP-Range-Zuweisung weiterte Fehler-Details",
+        "lastActivity": "2020-08-18T13:07:52.776+02:00",
+        "port": {
+          "id": 1056,
+          "resourceId": "8f852cb9-66bf-424a-8daf-c910cd6d3036",
+          "lifeCycleState": "NOT_OPERATING",
+          "portType": "PON",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001
+        }
+      }
+    ],
+    "lsz": "4C1",
+    "orderNumber": 1,
+    "uewegId": null,
+    "pluralId": null,
+    "versionId": null,
+    "version": null,
+    "ipStatus": "ACTIVE",
+    "ancpStatus": null,
+    "activeAncpSession": true,
+    "ipManagedAddress": "10.182.112.196",
+    "compositePartyId": 10001
+  }
+]

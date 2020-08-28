@@ -1,0 +1,30 @@
+{
+  "id":"bee8924d-ebed-4c4b-9d80-ccea2bfecf21",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/bhid-configuration/49_8571_0_76H1/bhidConfigurations"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "error": {
+          "status": 5100,
+          "message": "Missing param name"
+        }
+      }
+    }
+  }
+}

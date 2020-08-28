@@ -14,7 +14,7 @@
       "response-template"
     ],
     "jsonBody": {
-      "klsId": "{{request.path.[5]}}",
+      "klsId": "{{request.requestLine.pathSegments.[5]}}",
       "zipCode": "71254",
       "municipalityName": "Test Ditzingen",
       "distributionAreaName": "Test Heimerdingen",

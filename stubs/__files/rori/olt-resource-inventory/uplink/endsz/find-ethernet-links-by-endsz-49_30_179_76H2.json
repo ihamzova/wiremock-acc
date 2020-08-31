@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1216,
+    "oltEndSz": "49/30/179/76H2",
+    "oltSlot": "8",
+    "oltPortNumber": "1",
+    "bngEndSz": "49/30/179/43G1",
+    "bngSlot": "1",
+    "bngPortNumber": "ge-1/2/3",
+    "ancpSessions": [
+      {
+        "id": 1215,
+        "vlan": 16,
+        "partitionId": 2,
+        "sessionId": 2,
+        "sessionType": "OLT",
+        "rmkEndpointId": "1187037139",
+        "sealConfigurationId": "0-8-1-2-16",
+        "ipSubnet": {
+          "id": 1215,
+          "subnetMask": "/30",
+          "ipAddressLoopback": "10.150.240.100",
+          "ipAddressBng": "10.150.240.102",
+          "ipAddressBroadcast": "10.150.240.103",
+          "rmkAccessId": "1187037139",
+          "allocatedIPAddresses": [
+            {
+              "id": 1215,
+              "ipAddress": "10.150.240.101"
+            }
+          ]
+        },
+        "sessionStatus": "ACTIVE",
+        "endsz": "49/30/179/76H2",
+        "allocatedIPAddress": {
+          "id": 1215,
+          "ipAddress": "10.150.240.101"
+        },
+        "configurationStep": null,
+        "additionalInfo": null,
+        "lastActivity": "2020-07-14T13:59:18+02:00",
+        "port": {
+          "id": 6537,
+          "resourceId": "e346b861-7a9e-45d2-a96c-2f29b12b33b3",
+          "portType": "ETHERNET",
+          "portNumber": "1",
+          "opticalModule": null,
+          "compositePartyId": 10001,
+          "homeIdPools": [],
+          "lineIdPools": [],
+          "accessLines": []
+        }
+      }
+    ],
+    "lsz": "4C1",
+    "orderNumber": 10,
+    "uewegId": null,
+    "pluralId": null,
+    "versionId": null,
+    "version": null,
+    "ipStatus": "ACTIVE",
+    "ancpStatus": null,
+    "activeAncpSession": true,
+    "ipManagedAddress": "172.22.53.4",
+    "compositePartyId": 10001
+  }
+]

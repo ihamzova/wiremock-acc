@@ -1,0 +1,528 @@
+{
+  "shortName": "MABC VB",
+  "materialNumber": "40247069",
+  "emsNbiName": "MA5600T",
+  "tkz1": "02351082",
+  "tkz2": "02353310",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+  "lastDiscovery": "2020-08-18T12:06:47+02:00",
+  "id": 1001,
+  "resourceId": "f9707872-42f4-4309-a9cf-daea8c5cedb5",
+  "deviceName": "ETSI Service Shelf H8-MABC",
+  "endSz": "49/30/179/76H2",
+  "fachSz": "76H1",
+  "klsId": 17056514,
+  "ipAddress": "10.182.112.196",
+  "firmwareVersion": "MA5600V800R016C00",
+  "resourceState": "WORKING",
+  "communicationState": "CS_AVAILABLE",
+  "serialNumber": null,
+  "importState": "DISCOVERED",
+  "type": "OLT",
+  "importDate": "2020-08-18T12:08:03+02:00",
+  "equipmentHolders": [
+    {
+      "id": 1004,
+      "slotNumber": "1",
+      "card": {
+        "shortName": "GPPD",
+        "materialNumber": "40261742",
+        "emsNbiName": "H805GPBD",
+        "tkz1": "03021BQW",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1004,
+        "resourceId": "c82a1566-1a8c-4795-be66-1f53cc35cf4c",
+        "name": "8-port GPON OLT Interface Board V2",
+        "description": null,
+        "serialNumber": "021BQW10B6000065",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "212880063",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1027,
+            "resourceId": "4e266153-4e9a-411d-83fa-da6d0dfd2b8f",
+            "lifeCycleState": "INSTALLING",
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1026,
+            "resourceId": "29881895-46d7-48be-b654-17e45afb27fd",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1025,
+            "resourceId": "d09106f3-53ed-4800-b9eb-d9b8456450c4",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1024,
+            "resourceId": "847d41fa-5e50-4547-9f50-85a2f81f6357",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1023,
+            "resourceId": "10fc5d56-9006-4d4c-995b-978607824925",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1022,
+            "resourceId": "82d74cc6-ccd6-43fc-b340-3ead522b9e20",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1021,
+            "resourceId": "edad17c1-6480-4553-9a1a-8b1a4d4250cd",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1020,
+            "resourceId": "db5acd0c-3721-49c7-a5bd-404e87d4f05d",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1005,
+      "slotNumber": "9",
+      "card": {
+        "shortName": "SCUN",
+        "materialNumber": "40247071",
+        "emsNbiName": "H801SCUN",
+        "tkz1": "03020KAX",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247071",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1005,
+        "resourceId": "6bee61f5-9c43-4a70-ad5f-c787901e6f72",
+        "name": "Super Control Unit Board SCUN",
+        "description": null,
+        "serialNumber": "020KAX6TB6601085",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "MA5600V800R016C00",
+        "cardType": "MANAGEMENT_CARD",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1031,
+            "resourceId": "ea8cff94-6e05-4e0d-8929-c7281415b82a",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "3",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1030,
+            "resourceId": "b334d950-5f0f-4ad1-8f8f-be9c128c5da4",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1029,
+            "resourceId": "20d7ec3b-e553-471c-b3cb-9b3eba03106f",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1028,
+            "resourceId": "37f7c327-3dee-4197-a2ca-846dc523285e",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1006,
+      "slotNumber": "10",
+      "card": {
+        "shortName": "SCUN",
+        "materialNumber": "40247071",
+        "emsNbiName": "H801SCUN",
+        "tkz1": "03020KAX",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247071",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1006,
+        "resourceId": "947b3628-071d-485c-b9d8-892a1c5dec87",
+        "name": "Super Control Unit Board SCUN",
+        "description": null,
+        "serialNumber": "020KAX6TB6600535",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "MA5600V800R016C00",
+        "cardType": "MANAGEMENT_CARD",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1035,
+            "resourceId": "15403299-055e-4045-90d6-635dd3ab4ce4",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "3",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1034,
+            "resourceId": "863e9331-3413-4b68-a4fd-a13d6f7fa7eb",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1033,
+            "resourceId": "0f6e87d7-328e-48e4-b648-ef83b3bb9d31",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1032,
+            "resourceId": "3d2511a3-4a02-4206-b068-bf52950b53a6",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1007,
+      "slotNumber": "11",
+      "card": {
+        "shortName": "GPPD",
+        "materialNumber": "40251139",
+        "emsNbiName": "H802GPBD",
+        "tkz1": "03020PFN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40251139",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1007,
+        "resourceId": "ee04a7df-5d5a-401d-a85c-4b3942176e0a",
+        "name": "8-port GPON R1.7 OLT Interface Board",
+        "description": null,
+        "serialNumber": "020PFN6TBA607546",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1043,
+            "resourceId": "27f4660f-60f7-4f27-a650-38539970f922",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1042,
+            "resourceId": "3c387e34-1c74-4ae0-bf8d-dd760f4b5079",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1041,
+            "resourceId": "1aee08ce-4cc5-4aad-8532-255d7b31e38b",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1040,
+            "resourceId": "133926ce-3331-4f47-a302-f02244a7eb81",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1039,
+            "resourceId": "6b873db6-6968-4856-95dc-c8c231c7104f",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1038,
+            "resourceId": "e057e160-8cda-4e5f-990b-39abb63ea002",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1037,
+            "resourceId": "2703330a-bb09-41de-881a-13874e7bbf0d",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1036,
+            "resourceId": "42f0d191-aefb-4800-a49a-6b4ff96dbf58",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1008,
+      "slotNumber": "18",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1008,
+        "resourceId": "f68701d4-11f0-4e24-916b-d8416073b351",
+        "name": "8-port GPON OLT Interface Board V3",
+        "description": null,
+        "serialNumber": "022MLNCNG8000087",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1051,
+            "resourceId": "75b04abd-9cc4-4742-9574-21b22e57bd61",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1050,
+            "resourceId": "dca2d1b8-7597-4c4c-8956-60b08ca3bcc6",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1049,
+            "resourceId": "4b93b616-5549-42c8-b3ae-f3aea1b97ee0",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1048,
+            "resourceId": "54e0cf46-d6f7-4d61-9bc5-121aac458aea",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1047,
+            "resourceId": "3ff06fa8-0373-4239-95cc-ed3f887a5e27",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1046,
+            "resourceId": "45577d3f-22af-4070-92dc-e759e9afa6e2",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1045,
+            "resourceId": "3cbe7667-5628-496f-86c9-246cc92eb7bc",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1044,
+            "resourceId": "3475dec0-7f14-46ac-8529-56ceb8c0483c",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1009,
+      "slotNumber": "19",
+      "card": {
+        "shortName": "X2CS",
+        "materialNumber": "40247074",
+        "emsNbiName": "H801X2CS",
+        "tkz1": "03020KKP",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1009,
+        "resourceId": "6f64e494-5ded-43c3-ad9f-c22661ac4780",
+        "name": "10GE SFP+ Optical Interface Unit Board",
+        "description": null,
+        "serialNumber": "020KKPW0B5000021",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "154(2015-7-1)",
+        "cardType": "UPLINK_CARD",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [
+          {
+            "id": 1053,
+            "resourceId": "de37553e-488d-41f6-9290-a27bdc1bd014",
+            "lifeCycleState": "OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          },
+          {
+            "id": 1052,
+            "resourceId": "fe3f675a-36b5-4326-84db-657017689644",
+            "lifeCycleState": "NOT_OPERATING",
+            "portType": "ETHERNET",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 1010,
+      "slotNumber": "21",
+      "card": {
+        "shortName": "H8-PRTE",
+        "materialNumber": "40247072",
+        "emsNbiName": "H801PRTE",
+        "tkz1": "03020NDE",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247072",
+        "lastDiscovery": "2020-08-18T12:06:47+02:00",
+        "id": 1010,
+        "resourceId": "bbab7342-9a7d-4e19-9717-b98f18112c9b",
+        "name": "Power Transfer Board H8-PRTE",
+        "description": null,
+        "serialNumber": "020NDE6TB5610915",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "",
+        "cardType": "SUPPORT_MODULE",
+        "equipmentNumber": "212880061",
+        "manufacturer": "HUAWEI",
+        "ports": [],
+        "compositePartyId": 10001
+      }
+    }
+  ],
+  "description": "ETSI Service Shelf H8-MABC",
+  "asb": 1,
+  "technicalLocation": "000031-000000-001-004-002-021",
+  "equipmentNumber": "212880011",
+  "manufacturer": "HUAWEI",
+  "distributionPointId": null,
+  "lifeCycleState": "OPERATING",
+  "ports": [],
+  "compositePartyId": 10001
+}

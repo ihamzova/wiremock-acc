@@ -1,0 +1,31 @@
+{
+	"request": {
+		"method": "POST",
+		"urlPattern": "/api/v2/service.*|/reqcb/service-order-service-inventory/v2/rcm-service",
+		"bodyPatterns" : [ {
+		  "matchesJsonPath" : "$.[?(@.name=='IpAccessConfigOperational')]"
+		} ]
+	},
+  
+	"response": {
+		"status": 202,
+		"statusMessage": "Async response. Reservation request is accepted.",
+		"headers": {
+			"Content-Type": "application/json",
+			"X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
+		}
+	},
+
+	"postServeActions": {
+		"webhook": {
+		  "method": "POST",
+		  "fixedDelayMilliseconds": 4000,
+		  "headers": {
+			"Content-Type": "application/json",
+			"X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
+		  },
+		  "url": "{{request.headers.X-Callback-Url.[0]}}",
+		  "bodyFileName": "Rcm_ActivateIpAccessV2.json"
+		}
+	}
+}

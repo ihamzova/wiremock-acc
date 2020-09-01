@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment.*|/service-order-service-inventory/v1/cplAttachment.*"
+  },
+
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

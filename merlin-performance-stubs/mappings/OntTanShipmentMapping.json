@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/tanShipment/v1.0/shipment/send"
+  },
+
+  "response": {
+    "status": 201,
+    "statusMessage": "TAN link send to customer"
+  },
+
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "http://service-order-process-app/service-order-process-rs/OntAuthenticationServiceOrderNotification",
+      "fixedDelayMilliseconds": 4000,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "eventId": "{{randomValue length=10 type='NUMERIC'}}",
+        "eventTime": "2020-24-08 10:28:00.000",
+        "ontAuthenticationServiceOrder": {
+          "orderState": "completed",
+          "orderIdentifier": {
+            "OntTan": "{{regexExtract (jsonPath request.body '$.tanLink') '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'}}"
+          },
+          "ontAuthenticationService": {
+            "OntTanLink": "{{jsonPath request.body '$.tanLink'}}",
+            "OntTanLinkStatus": "used",
+            "OntSerialNumber": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].ontSerialNumber'}}",
+            "HomeID": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].homeId'}}",
+            "LineId": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].lineId'}}",
+            "CplId": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].cplId'}}"
+          }
+        }
+      }
+    },
+    "groovy": {
+      "inline": "persistence.put(arg1, persistence.get(arg1) + 1)",
+      "arguments":{
+        "arg1": "counter"
+      }
+    }
+  }
+}

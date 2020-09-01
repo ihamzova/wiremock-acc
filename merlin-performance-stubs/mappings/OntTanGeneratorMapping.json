@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/tanGenerator/v1/generator/generate"
+  },
+
+  "response": {
+    "status": 201,
+	"headers": {
+        "Content-Type": "application/json"
+    },
+	"bodyFileName": "OntTanGenerator.json"
+  }
+}

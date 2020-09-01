@@ -29,6 +29,8 @@ app:
       OAL_CONNECTION_PATH: "http://oal-connection-app"
       GROOVY_ROOT: "./groovy"
       STUBS_PATH: "."
+      CONTAINER_THREADS: 10
+      ASYNC_RESPONSE_THREADS: 10
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"

@@ -23,9 +23,10 @@ COPY fiberbau-stubs /$WM_PACKAGE/fiberbau-stubs
 COPY order-stubs /$WM_PACKAGE/order-stubs
 COPY osr-stubs /$WM_PACKAGE/osr-stubs
 COPY presales-stubs /$WM_PACKAGE/presales-stubs
+COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
 
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
 EXPOSE 8080
 
-CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi --root-dir $STUBS_PATH
+CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS

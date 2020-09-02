@@ -1,0 +1,85 @@
+{
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "response": {
+          "event": {
+            "resourceOrder": {
+              "id": "{{randomValue length=5 type='NUMERIC'}}",
+              "state": "COMPLETED",
+              "resourceOrderItems": [
+                {
+                  "resource": {
+                    "id": "12345",
+                    "state": "OPERATING_WORKING",
+                    "resourceCharacteristics": [
+                      {
+                        "name": "CALID",
+                        "value": "{{regexExtract request.body '[A-Z0-9]{3}\\.[A-Z0-9]{1,6}\\.[A-Z0-9]{1,10}'}}"
+                      },
+                      {
+                        "name": "AUTHMETHOD",
+                        "value": "1"
+                      },
+                      {
+                        "name": "KLSID",
+                        "value": "{{randomValue length=7 type='NUMERIC'}}"
+                      },
+                      {
+                        "name": "RAMMAXDOWNL2",
+                        "value": "1000000"
+                      },
+                      {
+                        "name": "RAMMAXUPL2",
+                        "value": "500000"
+                      },
+                      {
+                        "name": "RAMMINUPL2",
+                        "value": "62000"
+                      },
+                      {
+                        "name": "RAMMINDOWNL2",
+                        "value": "31000"
+                      },
+                      {
+                        "name": "RAMMINKPDOWNL2",
+                        "value": "62000"
+                      },
+                      {
+                        "name": "RAMMINKPUPL2",
+                        "value": "31000"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "success": true
+      },
+      "fixedDelayMilliseconds": 0
+    }
+  },
+  "request": {
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$..[?(@.action\u003d\u003d\u0027ADD\u0027)]"
+      }
+    ],
+    "method": "POST",
+    "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v1/networkLineProfile/"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 202
+  }
+}

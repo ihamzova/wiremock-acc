@@ -1,0 +1,23 @@
+{
+    "request": {
+      "method": "GET",
+      "urlPath": "/resource-order-resource-inventory/v1/rial/olt/vpszlookup",
+      "queryParameters": {
+        "vpsz": {
+          "equalTo": "49/7143/19"
+        },
+        "devicetype": {
+          "equalTo": "OLT"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody": [
+        "49/7143/19/76H1"
+      ]
+    }
+}

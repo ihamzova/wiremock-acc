@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/dpu/accessLineGfastTpDeconfigurationTask"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "status": 2000,
+        "statustype": "SUCCESS",
+        "message": "successfully executed"
+      }
+    }
+  }
+}

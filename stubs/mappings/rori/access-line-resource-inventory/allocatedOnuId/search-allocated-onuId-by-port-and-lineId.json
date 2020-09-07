@@ -12,21 +12,7 @@
   },
   "response": {
     "status": 200,
-    "jsonBody": [{
-      "id": 1000,
-      "dpuEndSZ": null,
-      "onuId": 0,
-      "lineId": "{{ jsonPath request.body '$.lineId' }}",
-      "reference": {
-        "id": 1001,
-        "endSz": "{{ replace (jsonPath request.body '$.oltEndSz') '/' '_' }}",
-        "slotNumber": "{{ jsonPath request.body '$.slotNumber' }}",
-        "portNumber": "{{ jsonPath request.body '$.portNumber' }}",
-        "version": 0,
-        "portType": "PON"
-      },
-      "version": 0
-    }],
+    "jsonBody": [0],
     "headers": {
       "Content-Type": "application/json"
     }

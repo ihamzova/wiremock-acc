@@ -1,0 +1,19 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/accessLineCountTask",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.endSz == '49/8571/123/76H2')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "rori/access-line-resource-inventory/endSz/accessLineCountTask-by-endSz_http400.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

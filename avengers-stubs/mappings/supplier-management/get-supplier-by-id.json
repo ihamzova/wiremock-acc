@@ -1,0 +1,32 @@
+{
+  "mappings": [
+    {
+      "name": "Get Supplier with id = 3",
+      "request": {
+        "method": "GET",
+        "url": "/giga-project/v2/suppliers/3"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "supplier-management/get-supplier-with-id-3.json"
+      }
+    },
+    {
+      "name": "Get Supplier with id = 4",
+      "request": {
+        "method": "GET",
+        "url": "/giga-project/v2/suppliers/4"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "supplier-management/get-supplier-with-id-4.json"
+      }
+    }
+  ]
+}

@@ -5,21 +5,33 @@
       "companyName": "Hansa",
       "gigaAreaNumber": "Bornheim_002",
       "id": 111,
-      "plannedEndDate": "2020-09-12"
+      "milestoneDates": [{
+        "category": "PLANNED",
+        "milestoneDate": "2020-09-12",
+        "milestoneType": "BULK_END"
+      }]
     },
     {
       "bulkOrderState": "CREATED",
       "companyName": "Hansa",
       "gigaAreaNumber": "Bornheim_002",
       "id": 222,
-      "plannedEndDate": "2020-09-12"
+      "milestoneDates": [{
+        "category": "PLANNED",
+        "milestoneDate": "2020-09-12",
+        "milestoneType": "BULK_END"
+      }]
     },
     {
       "bulkOrderState": "CREATED",
       "companyName": "BulkOrderCompany",
       "gigaAreaNumber": "Bornheim_002",
       "id": 333,
-      "plannedEndDate": "2020-09-12"
+      "milestoneDates": [{
+        "category": "PLANNED",
+        "milestoneDate": "2020-09-12",
+        "milestoneType": "BULK_END"
+      }]
     }
   ],
   "limit": 100

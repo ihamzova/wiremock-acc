@@ -10,6 +10,7 @@ import com.github.tomakehurst.wiremock.extension.Parameters;
 import com.github.tomakehurst.wiremock.extension.responsetemplating.RequestTemplateModel;
 import com.github.tomakehurst.wiremock.http.HttpClientFactory;
 import com.github.tomakehurst.wiremock.http.HttpHeader;
+import com.github.tomakehurst.wiremock.http.RequestMethod;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
 import com.tsystems.tm.acc.wiremock.AsyncPostServeActionWithHandlebars;
@@ -42,7 +43,7 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
 
     protected static HttpUriRequest buildRequest(WebhookPostServeActionDefinition definition) {
         HttpUriRequest request = getHttpRequestFor(
-                definition.getMethod(),
+                RequestMethod.fromString(definition.getMethod()),
                 definition.getUrl()
         );
 
@@ -50,7 +51,7 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
             request.addHeader(header.key(), header.firstValue());
         }
 
-        if (definition.getMethod().hasEntity()) {
+        if (RequestMethod.fromString(definition.getMethod()).hasEntity()) {
             HttpEntityEnclosingRequestBase entityRequest = (HttpEntityEnclosingRequestBase) request;
             entityRequest.setEntity(new ByteArrayEntity(definition.getBinaryBody()));
         }
@@ -139,6 +140,12 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
             Template template = uncheckedCompileTemplate(definition.getUrl());
             String newUrl = uncheckedApplyTemplate(template, model);
             definition.withUrl(newUrl);
+        }
+
+        if (definition.getMethod() != null) {
+            Template template = uncheckedCompileTemplate(definition.getMethod());
+            String newUrl = uncheckedApplyTemplate(template, model);
+            definition.withMethod(newUrl);
         }
 
         return definition;

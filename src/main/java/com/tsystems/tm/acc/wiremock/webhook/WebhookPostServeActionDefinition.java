@@ -16,7 +16,7 @@ import static com.google.common.collect.Lists.newArrayList;
 
 public class WebhookPostServeActionDefinition {
 
-    private RequestMethod method;
+    private String method;
     private String url;
     private List<HttpHeader> headers;
     private Body body = Body.none();
@@ -24,7 +24,7 @@ public class WebhookPostServeActionDefinition {
     private String bodyFileName;
 
     @JsonCreator
-    public WebhookPostServeActionDefinition(@JsonProperty("method") RequestMethod method,
+    public WebhookPostServeActionDefinition(@JsonProperty("method") String method,
                                             @JsonProperty("url") String url,
                                             @JsonProperty("headers") HttpHeaders headers,
                                             @JsonProperty("bodyFileName") String bodyFileName,
@@ -43,7 +43,7 @@ public class WebhookPostServeActionDefinition {
     public WebhookPostServeActionDefinition() {
     }
 
-    public RequestMethod getMethod() {
+    public String getMethod() {
         return method;
     }
 
@@ -73,7 +73,7 @@ public class WebhookPostServeActionDefinition {
         return body.asBytes();
     }
 
-    public WebhookPostServeActionDefinition withMethod(RequestMethod method) {
+    public WebhookPostServeActionDefinition withMethod(String method) {
         this.method = method;
         return this;
     }

@@ -1,0 +1,25 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v2/llc",
+    "queryParameters": {
+      "page": {
+        "equalTo": "2"
+      },
+      "ponPortOltVpsz": {
+        "equalTo": "49/8571/123"
+      },
+      "ponPortOltFachSz": {
+        "equalTo": "76H2"
+      }
+    }
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/pon-inventory/llcv2/response_endsz_http400.json"
+  }
+}

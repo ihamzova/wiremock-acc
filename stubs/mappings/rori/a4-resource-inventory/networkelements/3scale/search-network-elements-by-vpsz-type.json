@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPath": "/resource-order-resource-inventory/v1/networkElements",
+    "urlPath": "/resource-order-resource-inventory/v1/a4NetworkElements",
     "queryParameters": {
       "vpsz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"

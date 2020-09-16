@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/resource-order-resource-inventory/v1/ponPlanning",
+    "bodyPatterns": [
+      {"matchesJsonPath" :  "$['folId'] == .*\\S.*"},
+      {"matchesJsonPath" :  "$['fullExpansion'] == ^(?:tru|fals)e$"}
+    ]
+  },
+  "response": {
+    "status": 200
+  }
+}

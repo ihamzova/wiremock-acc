@@ -1,9 +1,9 @@
 [
   {
-    "id": 1000,
+    "id": 1001,
     "oltEndSz": "49/30/179/76H1",
-    "oltSlot": "4",
-    "oltPortNumber": "7",
+    "oltSlot": "19",
+    "oltPortNumber": "0",
     "bngEndSz": "49/911/84/7ZJB",
     "bngSlot": null,
     "bngPortNumber": "0",
@@ -30,7 +30,7 @@
             }
           ]
         },
-        "sessionStatus": "ERROR",
+        "sessionStatus": "ACTIVE",
         "endsz": "49/30/179/76H1",
         "allocatedIPAddress": null,
         "configurationStep": "DELETE_IP_RANGE_ASSIGNMENT",
@@ -38,9 +38,9 @@
         "lastActivity": "2020-07-14T13:59:18+02:00",
         "port": {
           "id": 1016,
-          "resourceId": "6756c423-19ee-497e-9c5d-1e5362efd881",
-          "portType": "PON",
-          "portNumber": "7",
+          "resourceId": "e562db69-4197-4b61-a398-1a34848462eb",
+          "portType": "ETHERNET",
+          "portNumber": "0",
           "opticalModule": null,
           "compositePartyId": 10001,
           "homeIdPools": [],

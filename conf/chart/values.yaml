@@ -27,6 +27,7 @@ app:
       PROVIDER_CLIENT_ID: "wiremock-provider-client"
       PUBLIC_CLIENT_ID: "wiremock-public-client"
       OAL_CONNECTION_PATH: "http://oal-connection-app"
+      SERVICE_ORDER_PATH: "http://service-order-app"
       GROOVY_ROOT: "./groovy"
       STUBS_PATH: "."
       CONTAINER_THREADS: 10

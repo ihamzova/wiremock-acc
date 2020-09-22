@@ -1,5 +1,20 @@
 # Central Wiremock Repository
 
+Curl Helper
+---
+Allows to make simple GET requests to remote resources.
+You can store the response in the local variable and extract some parts using `jsonPath`
+
+Example:
+```json
+{
+  // You should pass url into the body of the curl tag.
+  // You can easily format the url with additional variables.
+  "complex": "{{#assign 'relationData'}}{{#curl}}http://host/remote-relations/{{request.query.relationId}}{{/curl}}{{/assign}}{{jsonPath relationData '$.relationships[0].id'}}"
+}
+```
+In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence"
+
 Groovy Helper
 ---
 Allows to use groovy to create response

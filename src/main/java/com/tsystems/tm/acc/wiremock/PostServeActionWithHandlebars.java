@@ -12,6 +12,7 @@ import com.tsystems.tm.acc.wiremock.env.UnsafeEnvHandlebarsHelper;
 import com.tsystems.tm.acc.wiremock.groovy.GroovyHandlebarsHelper;
 import com.tsystems.tm.acc.wiremock.oauth.Oauth2Helper;
 import com.tsystems.tm.acc.wiremock.persist.PersistenceHandlebarsHelper;
+import com.tsystems.tm.acc.wiremock.url.CurlHandlebarsHelper;
 
 import java.io.IOException;
 
@@ -40,6 +41,7 @@ public abstract class PostServeActionWithHandlebars extends PostServeAction {
         this.handlebars.registerHelper("oauth", new Oauth2Helper());
         this.handlebars.registerHelper(GroovyHandlebarsHelper.NAME, new GroovyHandlebarsHelper());
         this.handlebars.registerHelper(PersistenceHandlebarsHelper.NAME, new PersistenceHandlebarsHelper());
+        this.handlebars.registerHelper(CurlHandlebarsHelper.NAME, new CurlHandlebarsHelper());
     }
 
     protected String uncheckedApplyTemplate(Template template, Object context) {

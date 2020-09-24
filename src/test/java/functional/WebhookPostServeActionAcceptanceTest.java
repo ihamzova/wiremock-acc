@@ -205,7 +205,7 @@ public class WebhookPostServeActionAcceptanceTest {
 
         client.post("/groovy", new StringEntity("testValue", TEXT_PLAIN));
 
-        sleep(1000);
+        sleep(10000);
 
         assertThat(PersistenceService.get().get("testKey"), Matchers.equalTo("testValue"));
     }

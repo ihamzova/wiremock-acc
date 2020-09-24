@@ -20,11 +20,11 @@
       "scheduledInstallationEnd": null,
       "installationTimestamp": null,
       "tsgGroupInstallationId": 10036,
-      "tsgGroupExplorationId": null,
       "customer": {
         "customerId": "1234567891",
         "customerBusinessType": "PRIVATE",
         "customerClassificationType": "CUSTOMER_IS_TENANT",
+        "customerType": "INDIVIDUAL",
         "customerIndividual": {
           "givenName": "Paula1",
           "salutation": "MRS",
@@ -126,23 +126,26 @@
         "isCustomer": null,
         "primaryPropertyOwnerContactPersonBid": null
       },
-      "carrierId": "0033",
-      "klsId": "21610305",
+      "carrier": {
+        "carrierId": "0033",
+        "carrierName": "Unknown"
+      },
+      "klsId": 21610305,
       "supplierProjectBid": 10279,
       "workOrderBid": null,
       "homeId": null,
       "characteristics": [
         {
           "name": "lineId",
-          "value": "string"
+          "value": "lineIdValue"
         },
         {
           "name": "wbCarrierCode",
-          "value": "string"
+          "value": "wbCarrierCodeValue"
         },
         {
           "name": "serviceInstanceId",
-          "value": "string"
+          "value": "serviceInstanceIdValue"
         }
       ],
       "vvmAreaNumber": "Frankfurt_001",

@@ -1,0 +1,155 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resourceInventory/v1/bngCarrierConnections",
+    "queryParameters": {
+      "bngEndsz": {
+        "matches": "^49/911/84/7ZJB$"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "bngEndSz": "49/911/84/7ZJB",
+        "carrierConnections": [
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF8BFA42DA85E0DA6D7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "011AE17E22374172879275746BA4077A",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF056441B78FCC82FC7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF57E3432EB1DCCF0A7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "6B91C61A38D34CCABA5350A56088D382",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "159BE47DE0CA472DA6C23A237FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFFF81445CF9982D75117F11914",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF667D4366A321C2507FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "3A95FA50B78A4C7B860D46777FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "5AD5E872873E4F04B4EE7C927FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF06AF4433A09DE41C7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF1B7A424E98A8273875DCAE29",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFFF4474E8898679A047FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF26734776BE11107971AAF289",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "54554588FEE645F59FA2654E76E9BFF2",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF833942ACA78E25E920EB48BC",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF31D540D199CC990C3154E83D",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFFFF8E4370976D207E0F957178",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF9AB84BC0A2731CCE7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF2322464FB4DB532C69B9F05D",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "0CB4DEF8DB2C4EB2968EE09B27541025",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "41DDEA01E0F84273AFBA93D37FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF541C4EC8897140F4368E5A9A",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "5F4B12CD841E4D4EA03BF4E07FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF9DF1488FBC9FFA707FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "7007136DE795432AAF35965719092A74",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          }
+        ]
+      }
+    ]
+  }
+}

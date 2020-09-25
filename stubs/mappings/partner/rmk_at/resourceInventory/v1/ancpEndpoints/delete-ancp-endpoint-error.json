@@ -1,7 +1,8 @@
 {
+  "priority": 5,
   "request": {
     "method": "PUT",
-    "urlPattern": "/resourceInventory/v1/ancpEndpoints/1341434325/deactivation"
+    "urlPathPattern": "/resourceInventory/v1/ancpEndpoints/1341434325/deactivation"
   },
   "response": {
     "status": 202,
@@ -11,12 +12,13 @@
   },
   "postServeActions": {
     "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
+      "url": "{{request.headers.X-Callback-Error-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "eventType": "500",
         "event": {

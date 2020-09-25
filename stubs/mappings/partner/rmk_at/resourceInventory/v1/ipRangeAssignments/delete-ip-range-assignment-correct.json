@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPathPattern": "/resourceInventory/v1/ipRangeAssignments/(\\d*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "body": {}
+    }
+  }
+}

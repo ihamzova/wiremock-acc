@@ -1,10 +1,14 @@
 {
+  "priority": 5,
   "request": {
     "method": "POST",
-    "urlPattern": "/resourceInventory/v1/ancpEndpoints",
+    "urlPathPattern": "/resourceInventory/v1/ancpEndpoints",
     "bodyPatterns": [
       {
-        "matches": "49/911/84/7ZJQ"
+        "matchesJsonPath": {
+          "expression": "$.parentInterface.endSz",
+          "contains": "49/911/84/7ZJQ"
+        }
       }
     ]
   },
@@ -16,12 +20,13 @@
   },
   "postServeActions": {
     "webhook": {
-      "url": "{{request.headers.X-Callback-Url}}",
+      "url": "{{request.headers.X-Callback-Error-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "eventType": "500",
         "event": {

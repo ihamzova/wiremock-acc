@@ -1,0 +1,35 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resourceInventory/v1/bngCarrierConnections",
+    "queryParameters": {
+      "bngEndsz": {
+        "matches": "^49/911/84/7ZJE$"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "bngEndSz": "49/911/84/7ZJE",
+        "carrierConnections": [
+          {
+            "carrierAnschlussBSAReference": "7FFFFFFF8BFA42DA85E0DA6D7FFFFFFF",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          },
+          {
+            "carrierAnschlussBSAReference": "011AE17E22374172879275746BA4077A",
+            "rahmenvertragsnummer": "1111113258594760",
+            "sperrStatus": false
+          }
+        ]
+      }
+    ]
+  }
+}

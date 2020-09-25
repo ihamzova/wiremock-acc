@@ -1,12 +1,12 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments/(\\d*)",
+    "urlPathPattern": "/resourceInventory/v1/ipRangeAssignments/(\\d*)",
     "bodyPatterns": [
       {
         "matchesJsonPath": {
           "expression": "$..ipRangePool",
-          "contains": "ancp_olt"
+          "contains": "ancp_dpu"
         }
       }
     ]
@@ -20,13 +20,13 @@
       "id": 1341434324,
       "@type": "IpRangeAssignment",
       "href": "http://server:port/resource-order-resource-inventory/v1/ipRangeAssignments/1341434324",
-      "ipRangePool": "ancp_olt",
+      "ipRangePool": "ancp_dpu",
       "parentInterface": {
         "endSz": "49/911/84/7ZJA",
         "port": "ge_4/0/2"
       },
-      "ipAddress": "10.150.240.100",
-      "prefixLength": 30
+      "ipAddress": "80.146.191.0",
+      "prefixLength": 24
     }
   }
 }

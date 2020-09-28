@@ -9,118 +9,116 @@
       "Content-Type": "application/json"
     },
     "status": 200,
-    "jsonBody" : [
-      {
-        "id": "bf38d9f1-397d-44ea-80b3-80e48f789a7c",
-        "href": "v1/searchTimeSlot",
-        "searchDate": "2021-09-15T05:09:59.061Z",
-        "searchResult": "success",
-        "availableTimeSlot": [
-          {
-            "id": "10064",
-            "href": null,
-            "relatedParty": {
-              "id": null,
-              "href": null,
-              "name": null,
-              "role": null,
-              "@baseType": null,
-              "@schemaLocation": null,
-              "@type": "TA_INSTALLATION",
-              "@referredType": null
-            },
-            "validFor": {
-              "endDateTime": "2023-09-22T08:00:00.000Z",
-              "startDateTime": "2023-09-22T04:00:00.000Z"
-            },
-            "@baseType": null,
-            "@schemaLocation": null,
-            "@type": null
-          },
-          {
-            "id": "10065",
-            "href": null,
-            "relatedParty": {
-              "id": null,
-              "href": null,
-              "name": null,
-              "role": null,
-              "@baseType": null,
-              "@schemaLocation": null,
-              "@type": "TA_INSTALLATION",
-              "@referredType": null
-            },
-            "validFor": {
-              "endDateTime": "2023-09-22T09:00:00.000Z",
-              "startDateTime": "2023-09-22T05:00:00.000Z"
-            },
-            "@baseType": null,
-            "@schemaLocation": null,
-            "@type": null
-          },
-          {
-            "id": "10066",
-            "href": null,
-            "relatedParty": {
-              "id": null,
-              "href": null,
-              "name": null,
-              "role": null,
-              "@baseType": null,
-              "@schemaLocation": null,
-              "@type": "TA_INSTALLATION",
-              "@referredType": null
-            },
-            "validFor": {
-              "endDateTime": "2023-09-22T12:30:00.000Z",
-              "startDateTime": "2023-09-22T08:00:00.000Z"
-            },
-            "@baseType": null,
-            "@schemaLocation": null,
-            "@type": null
-          },
-          {
-            "id": "10067",
-            "href": null,
-            "relatedParty": {
-              "id": null,
-              "href": null,
-              "name": null,
-              "role": null,
-              "@baseType": null,
-              "@schemaLocation": null,
-              "@type": "TA_INSTALLATION",
-              "@referredType": null
-            },
-            "validFor": {
-              "endDateTime": "2023-09-22T13:30:00.000Z",
-              "startDateTime": "2023-09-22T09:00:00.000Z"
-            },
-            "@baseType": null,
-            "@schemaLocation": null,
-            "@type": null
-          }
-        ],
-        "relatedEntity": [
-          {
-            "id": "10001",
+    "jsonBody" : {
+      "id": "bf38d9f1-397d-44ea-80b3-80e48f789a7c",
+      "href": "v1/searchTimeSlot",
+      "searchDate": "2021-09-15T05:09:59.061Z",
+      "searchResult": "success",
+      "availableTimeSlot": [
+        {
+          "id": "10064",
+          "href": null,
+          "relatedParty": {
+            "id": null,
             "href": null,
             "name": null,
-            "role": "INSTALLATION",
+            "role": null,
             "@baseType": null,
             "@schemaLocation": null,
-            "@type": null,
-            "@referredType": "CUSTOMERINSTALLATIONORDER"
-          }
-        ],
-        "relatedParty": null,
-        "relatedPlace": null,
-        "requestedTimeSlot": [],
-        "status": "done",
-        "@baseType": null,
-        "@schemaLocation": null,
-        "@type": null
-      }
-    ]
+            "@type": "TA_INSTALLATION",
+            "@referredType": null
+          },
+          "validFor": {
+            "endDateTime": "2023-09-22T08:00:00.000Z",
+            "startDateTime": "2023-09-22T04:00:00.000Z"
+          },
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null
+        },
+        {
+          "id": "10065",
+          "href": null,
+          "relatedParty": {
+            "id": null,
+            "href": null,
+            "name": null,
+            "role": null,
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": "TA_INSTALLATION",
+            "@referredType": null
+          },
+          "validFor": {
+            "endDateTime": "2023-09-22T09:00:00.000Z",
+            "startDateTime": "2023-09-22T05:00:00.000Z"
+          },
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null
+        },
+        {
+          "id": "10066",
+          "href": null,
+          "relatedParty": {
+            "id": null,
+            "href": null,
+            "name": null,
+            "role": null,
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": "TA_INSTALLATION",
+            "@referredType": null
+          },
+          "validFor": {
+            "endDateTime": "2023-09-22T12:30:00.000Z",
+            "startDateTime": "2023-09-22T08:00:00.000Z"
+          },
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null
+        },
+        {
+          "id": "10067",
+          "href": null,
+          "relatedParty": {
+            "id": null,
+            "href": null,
+            "name": null,
+            "role": null,
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": "TA_INSTALLATION",
+            "@referredType": null
+          },
+          "validFor": {
+            "endDateTime": "2023-09-22T13:30:00.000Z",
+            "startDateTime": "2023-09-22T09:00:00.000Z"
+          },
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null
+        }
+      ],
+      "relatedEntity": [
+        {
+          "id": "10001",
+          "href": null,
+          "name": null,
+          "role": "INSTALLATION",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null,
+          "@referredType": "CUSTOMERINSTALLATIONORDER"
+        }
+      ],
+      "relatedParty": null,
+      "relatedPlace": null,
+      "requestedTimeSlot": [],
+      "status": "done",
+      "@baseType": null,
+      "@schemaLocation": null,
+      "@type": null
+    }
   }
 }

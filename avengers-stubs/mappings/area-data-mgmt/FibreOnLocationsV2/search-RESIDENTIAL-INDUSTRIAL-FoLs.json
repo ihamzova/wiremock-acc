@@ -1,0 +1,49 @@
+{
+  "mappings": [
+    {
+      "name": "Get empty page for criteria not matching any existing FoL",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?(.*)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/empty-page.json"
+      }
+    },
+    {
+      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Bornheim_002",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Bornheim_002&klsId=(10[0-1][0-9]|102[0-1])&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/search-RESIDENTIAL-INDUSTRIAL-fols-of-Bornheim_002.json"
+      }
+    },
+    {
+      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Frankfurt_006",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Frankfurt_006&klsId=2000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/search-RESIDENTIAL-INDUSTRIAL-fols-of-Frankfurt_006.json"
+      }
+    }
+  ]
+}

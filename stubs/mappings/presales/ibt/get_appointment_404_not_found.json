@@ -19,22 +19,20 @@
       "Content-Type": "application/json"
     },
     "status": 404,
-    "jsonBody" : [
-      {
-        "type": "../problem/not-found",
-        "title": "Not found",
-        "status": 404,
-        "detail": "Bussiness errors: IBTIF_0940_R002",
-        "instance": "v1/searchTimeSlot",
-        "problems": [
-          {
-            "message": "The appointment status is still COMMUNICATED",
-            "messageId": "IBTIF_0940_R002",
-            "code": "404",
-            "messageType": "ERROR"
-          }
-        ]
-      }
-    ]
+    "jsonBody" : {
+      "type": "../problem/not-found",
+      "title": "Not found",
+      "status": 404,
+      "detail": "Bussiness errors: IBTIF_0940_R002",
+      "instance": "v1/searchTimeSlot",
+      "problems": [
+        {
+          "message": "The appointment status is still COMMUNICATED",
+          "messageId": "IBTIF_0940_R002",
+          "code": "404",
+          "messageType": "ERROR"
+        }
+      ]
+    }
   }
 }

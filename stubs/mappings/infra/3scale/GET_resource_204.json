@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/pubsub/s/(.*)/?"
+  },
+  "response": {
+    "status": 204
+  },
+  "priority": 10
+}

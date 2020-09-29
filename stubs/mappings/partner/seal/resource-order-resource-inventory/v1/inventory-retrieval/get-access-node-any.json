@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/resource-order-resource-inventory/v1/inventory-retrieval/.*"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/inventory-retrieval/.*"
   },
   "response": {
     "status": 202,

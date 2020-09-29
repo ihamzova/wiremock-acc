@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/p/(.*)/?"
+  },
+  "response": {
+    "status": 202
+  },
+  "postServeActions": {
+    "groovy": {
+      "inline": "put_3scale_event_post_serve_action()"
+    }
+  },
+  "priority": 10
+}

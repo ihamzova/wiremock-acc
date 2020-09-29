@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/r/(.*)/?"
+  },
+  "response": {
+    "headers":{
+      "X-Pubsub-Subscriber-Id": "{{randomValue type='UUID'}}"
+    },
+    "status": 202
+  },
+  "priority": 10
+}

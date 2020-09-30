@@ -16,26 +16,6 @@
       }
     },
     {
-      "name": "Get address details by klsIds from FOLv2 for Frankfurt_006",
-      "priority": 1,
-      "request": {
-        "method": "POST",
-        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
-        "bodyPatterns": [
-          {
-            "matchesJsonPath": "$[?(@.klsIds[0] == 2000)]"
-          }
-        ]
-      },
-      "response": {
-        "status": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "bodyFileName": "address-lookup/AddressSearch/FOLv2-Frankfurt-starting-with-2000.json"
-      }
-    },
-    {
       "name": "Get address details by klsIds from FOLv2 for Bornheim_002",
       "priority": 1,
       "request": {
@@ -52,7 +32,47 @@
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "address-lookup/AddressSearch/FOLv2-Bornheim-starting-with-1000.json"
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-10xx-(Bornheim).json"
+      }
+    },
+    {
+      "name": "Get address details by klsIds from FOLv2 for Frankfurt_006",
+      "priority": 1,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.klsIds[0] == 2000)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-20xx-(Frankfurt).json"
+      }
+    },
+    {
+      "name": "Get address details by klsIds from FOLv2 for Bonn_009",
+      "priority": 1,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.klsIds[0] == 3000)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-30xx-(Bonn).json"
       }
     }
   ]

@@ -1,7 +1,8 @@
 {
+  "priority": 10,
   "request": {
     "method": "GET",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_]*)/?"
+    "urlPathPattern": "/configuration/v1/accessNodes/ancp-status-test/([\\w\\d\\_]*)/ancpConfigurations/([\\w\\d\\_-]*)"
   },
   "response": {
     "status": 202,
@@ -17,13 +18,16 @@
         "Content-Type": "application/json"
       },
       "method": "POST",
+      "fixedDelayMilliseconds": 5000,
       "jsonBody": {
-        "adminState": "unlocked",
-        "operState": "up",
-        "vlanId": null,
-        "ancpInterfaceId": null,
-        "ancpPartitionId": null,
-        "ancpInterfaceControllerNodeIp": null
+        "payload": {
+          "adminState": "unlocked",
+          "operState": "up",
+          "vlanId": 16,
+          "ancpInterfaceId": 1,
+          "ancpPartitionId": 2,
+          "ancpInterfaceControllerNodeIp": "10.30.120.2"
+        }
       }
     }
   }

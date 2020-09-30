@@ -633,8 +633,38 @@
     {
       "creationDate": "2020-04-15T07:29:13.919Z",
       "modificationDate": "2020-04-15T07:29:13.919Z",
-      "id": "234434",
-      "klsId": 234434,
+      "id": "1020",
+      "klsId": 1020,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "TRANSMISSION_PATHS",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": "2023-03-15T00:00:00Z",
+      "we": 21,
+      "ge": 979,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Bornheim Area 2",
+        "number": "Bornheim_002",
+        "rolloutDate": "2020-11-16T06:40:26Z",
+        "areaStatus": "UNDER_CONSTRUCTION",
+        "initiative": "SELF_EXPANSION",
+        "plannedFrom": "2018-11-01T00:00:00Z",
+        "plannedTo": "2018-11-30T00:00:00Z",
+        "netCoOrganisationId": 10000,
+        "thresholdData": {}
+      }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "2000",
+      "klsId": 2000,
       "distributionPointID": "A",
       "installationStatus": "PLANNED",
       "demandCarrier": "IKLE",
@@ -679,36 +709,6 @@
           "netCoOrganisationId": 10001,
           "thresholdData": {}
         }
-      }
-    },
-    {
-      "creationDate": "2020-04-15T07:29:13.919Z",
-      "modificationDate": "2020-04-15T07:29:13.919Z",
-      "id": "1020",
-      "klsId": 1020,
-      "distributionPointID": "A",
-      "installationStatus": "PLANNED",
-      "demandCarrier": "TRANSMISSION_PATHS",
-      "areaType": "DEVELOPMENT",
-      "technology": "FTTH",
-      "rolloutSponsor": "SELF_EXPANSION",
-      "installationDate": "2023-03-15T00:00:00Z",
-      "we": 21,
-      "ge": 979,
-      "sl": 0,
-      "bandwidthProfiles": [],
-      "gigaArea": {
-        "creationDate": "2020-04-15T07:29:13.560Z",
-        "modificationDate": "2020-04-15T07:29:13.560Z",
-        "name": "Bornheim Area 2",
-        "number": "Bornheim_002",
-        "rolloutDate": "2020-11-16T06:40:26Z",
-        "areaStatus": "UNDER_CONSTRUCTION",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2018-11-01T00:00:00Z",
-        "plannedTo": "2018-11-30T00:00:00Z",
-        "netCoOrganisationId": 10000,
-        "thresholdData": {}
       }
     },
     {
@@ -799,6 +799,57 @@
         "plannedTo": "2018-11-30T00:00:00Z",
         "netCoOrganisationId": 10000,
         "thresholdData": {}
+      }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9999",
+      "klsId": 9999,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "IKLE",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "we": 3,
+      "ge": 2,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Canceled Area",
+        "number": "canceled_area",
+        "rolloutDate": "2019-12-31T11:26:20Z",
+        "areaStatus": "CANCELED",
+        "initiative": "SELF_EXPANSION",
+        "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2019-03-31T11:26:20Z",
+        "netCoOrganisationId": 10001,
+        "thresholdData": {}
+      },
+      "nvtArea": {
+        "creationDate": "2020-04-15T07:29:13.880Z",
+        "modificationDate": "2020-04-15T07:29:13.880Z",
+        "businessId": 9021,
+        "asb": 999,
+        "name": "RA Frankfurt 006",
+        "onkz": "69",
+        "nvtKlsId": 123471,
+        "gigaArea": {
+          "creationDate": "2020-04-15T07:29:13.560Z",
+          "modificationDate": "2020-04-15T07:29:13.560Z",
+          "name": "Canceled Area",
+          "number": "canceled_area",
+          "rolloutDate": "2019-12-31T11:26:20Z",
+          "areaStatus": "CANCELED",
+          "initiative": "SELF_EXPANSION",
+          "plannedFrom": "2019-01-01T11:26:20Z",
+          "plannedTo": "2019-03-31T11:26:20Z",
+          "netCoOrganisationId": 10001,
+          "thresholdData": {}
+        }
       }
     }
   ],

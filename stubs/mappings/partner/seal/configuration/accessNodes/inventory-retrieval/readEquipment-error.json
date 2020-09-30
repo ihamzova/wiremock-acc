@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "url": "/configuration/v1/accessNodes/inventory-retrieval/49_8571_0_76H9/"
+  },
+  "response": {
+    "body": "Access node not found",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 404
+  }
+}

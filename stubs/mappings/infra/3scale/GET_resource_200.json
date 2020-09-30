@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/pubsub/s/(.*)/?",
+    "customMatcher": {
+      "name": "withGroovy",
+      "parameters": {
+        "inline": "is_3scale_resource_not_empty_matcher()"
+      }
+    }
+  },
+  "response": {
+    "body": "{{#groovy}}get_3scale_event_helper(){{/groovy}}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200
+  },
+  "priority": 9
+}

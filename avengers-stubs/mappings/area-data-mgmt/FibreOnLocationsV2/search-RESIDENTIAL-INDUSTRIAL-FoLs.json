@@ -44,6 +44,21 @@
         },
         "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/search-RESIDENTIAL-INDUSTRIAL-fols-of-Frankfurt_006.json"
       }
+    },
+    {
+      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Bonn_009",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Bonn_009&klsId=3000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/search-RESIDENTIAL-INDUSTRIAL-fols-of-Bonn_009.json"
+      }
     }
   ]
 }

@@ -16,7 +16,11 @@ public class GroovyPostServeActionDefinition {
                                            @JsonProperty("arguments") Map<String, Object> arguments,
                                            @JsonProperty("scriptFileName") String scriptFileName) {
         this.inline = inline;
-        this.arguments = arguments;
+        if (arguments == null) {
+            this.arguments = new HashMap<>();
+        } else {
+            this.arguments = arguments;
+        }
         this.scriptFileName = scriptFileName;
     }
 

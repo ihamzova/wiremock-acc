@@ -15,7 +15,9 @@ import com.tsystems.tm.acc.wiremock.PostServeActionWithHandlebars;
 import com.tsystems.tm.acc.wiremock.persist.PersistenceService;
 import groovy.lang.Binding;
 import groovy.lang.GroovyShell;
+import org.apache.commons.io.FileUtils;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;
@@ -64,8 +66,16 @@ public class GroovyPostServeAction extends PostServeActionWithHandlebars {
             b.setVariable("serveEvent", serveEvent);
             b.setVariable("persistence", PersistenceService.get());
             transformedDefinition.getArguments().forEach(b::setVariable);
+
+            StringBuilder script = new StringBuilder();
+            File builtins = Paths.get(filesRoot.toString(), "builtin.groovy").toFile();
+            if (builtins.exists()) {
+                script.append(FileUtils.readFileToString(builtins));
+                script.append("\n");
+            }
+            script.append(transformedDefinition.getInline());
             new GroovyShell(this.getClass().getClassLoader(), b)
-                    .parse(transformedDefinition.getInline())
+                    .parse(script.toString())
                     .run();
         } catch (Throwable e) {
             throwUnchecked(e);

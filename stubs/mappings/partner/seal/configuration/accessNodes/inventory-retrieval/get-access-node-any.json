@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/?$"
+    "urlPathPattern": "/configuration/v1/accessNodes/inventory-retrieval/.*"
   },
   "response": {
     "status": 202,
@@ -19,7 +19,7 @@
       },
       "method": "POST",
       "fixedDelayMilliseconds": 5000,
-      "bodyFileName": "partner/seal/Inventory_{{request.requestLine.pathSegments.[3]}}.json"
+      "bodyFileName": "partner/seal/Inventory_{{request.requestLine.pathSegments.[4]}}.json"
     }
   }
 }

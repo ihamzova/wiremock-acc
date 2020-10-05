@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/configuration/v1/accessNodes/ancp-configuration/([\\w\\d\\_]*)/ancpConfigurations"
+    "urlPathPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/ancpConfigurations"
   },
   "response": {
     "status": 202,

@@ -16,11 +16,11 @@
       }
     },
     {
-      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Bornheim_002",
+      "name": "Find RESIDENTIAL & INDUSTRIAL FoL by gigaArea number for Bornheim_002",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Bornheim_002&klsId=(10[0-1][0-9]|102[0-1])&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bornheim_002&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,
@@ -31,11 +31,11 @@
       }
     },
     {
-      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Frankfurt_006",
+      "name": "Find RESIDENTIAL & INDUSTRIAL FoL by kls id AND gigaArea number for Frankfurt_006",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Frankfurt_006&klsId=2000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Frankfurt_006&klsId=2000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,
@@ -46,11 +46,11 @@
       }
     },
     {
-      "name": "Find RESIDENTIAL & INDUSTIRAL FoL by kls id AND gigaArea number for Bonn_009",
+      "name": "Find RESIDENTIAL & INDUSTRIAL FoL by kls id AND gigaArea number for Bonn_009",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Bonn_009&klsId=3000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bonn_009&klsId=3000&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,

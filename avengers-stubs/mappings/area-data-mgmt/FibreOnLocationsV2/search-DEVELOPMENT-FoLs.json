@@ -20,7 +20,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/fibreOnLocations/search?pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,
@@ -35,7 +35,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bornheim_002&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bornheim_002&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,
@@ -50,7 +50,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Frankfurt_006&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Frankfurt_006&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,
@@ -65,7 +65,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bonn_009&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&includeDpGeoData=false"
+        "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bonn_009&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,

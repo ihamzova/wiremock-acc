@@ -59,6 +59,20 @@
         },
         "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Frankfurt_006.json"
       }
+    },
+    {
+      "name": "Search rejected GigaAreaName and get one - ''",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)((bornheim( |%20|\\+)a|bornheim( |%20|\\+)ar|bornheim( |%20|\\+)are|bornheim( |%20|\\+)area|bornheim( |%20|\\+)area( |%20|\\+))\\*|bornheim( |%20|\\+)area( |%20|\\+)2\\*)&pageSize=1000&initiatives=SELF_EXPANSION"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
+      }
+      ]
     }
-  ]
-}

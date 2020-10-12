@@ -1,10 +1,11 @@
 {
+  "id": "80222b30-054c-4dfe-b704-855d9ef935d9",
   "request": {
     "method": "POST",
     "url": "/oss/v5/spri",
     "bodyPatterns": [
       {
-        "matchesXPath" : "//geschaeftsfallArt[text()='Bereitstellung']"
+        "matchesXPath": "//geschaeftsfallArt[text()='Bereitstellung']"
       }
     ],
     "headers": {}

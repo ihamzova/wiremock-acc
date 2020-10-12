@@ -1,0 +1,42 @@
+{
+  "id": "33c52bf8-8867-4389-aafb-ee3f058db1ff",
+  "priority": 4,
+  "request": {
+    "method": "POST",
+    "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//auftrag/aenderungskennzeichen[text()='Storno']"
+      }
+    ],
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/dgf/OAL-Auftrag-response.xml"
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
+          "bodyFileName": "partner/dgf/cancellation/OAL-Cancellation-ERLM.xml"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 20000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
+          "bodyFileName": "partner/dgf/cancellation/OAL-Cancellation-ENTM.xml"
+        }
+      ]
+    }
+  }
+}

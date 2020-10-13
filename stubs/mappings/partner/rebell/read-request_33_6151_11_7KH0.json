@@ -18,7 +18,7 @@
         "lsz": "4N1",
         "lszErg": "A4CH1",
         "ordNr": 1001,
-        "uewegId": "I1234567890, R1234567890",
+        "uewegId": "I1234567890",
         "status": "InBetrieb",
         "pluralId": "P12345",
         "endPointA": {
@@ -32,7 +32,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "10G/0"
+          "vendorPortName": "10 GE-1"
         },
         "endPointB": {
           "endSz": "49_30_6_7KE0",
@@ -45,7 +45,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "100G/0"
+          "vendorPortName": "100"
         },
         "validFrom": "22.02.2016 00:00:00",
         "validUntil": "22.02.2016 00:00:00"
@@ -57,7 +57,7 @@
         "lsz": "4N2",
         "lszErg": "A4CH2",
         "ordNr": 1002,
-        "uewegId": "I1234567891, R1234567891",
+        "uewegId": "I1234567891",
         "status": "InBetrieb",
         "pluralId": "P12345",
         "endPointA": {
@@ -71,7 +71,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "10G/1"
+          "vendorPortName": "10 GE-2"
         },
         "endPointB": {
           "endSz": "49_30_7_7KDA",
@@ -84,7 +84,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "100G/0"
+          "vendorPortName": "100"
         },
         "validFrom": "22.02.2016 00:00:00",
         "validUntil": "22.02.2016 00:00:00"
@@ -96,7 +96,7 @@
         "lsz": "4N3",
         "lszErg": "A4CH3",
         "ordNr": 1003,
-        "uewegId": "I1234567892, R1234567892",
+        "uewegId": "I1234567892",
         "status": "geprueft",
         "pluralId": "P123456",
         "endPointA": {
@@ -110,7 +110,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "10G/2"
+          "vendorPortName": "10 GE-3"
         },
         "endPointB": {
           "endSz": "49_30_8_7KD0",
@@ -123,7 +123,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "0/1"
+          "vendorPortName": "P1"
         },
         "validFrom": "22.02.2016 00:00:00",
         "validUntil": "22.02.2016 00:00:00"
@@ -135,7 +135,7 @@
         "lsz": "4N4",
         "lszErg": "A4CH4",
         "ordNr": 1004,
-        "uewegId": "I1234567893, R1234567893",
+        "uewegId": "I1234567893",
         "status": "geprueftZ",
         "pluralId": "P1234567",
         "endPointA": {
@@ -149,7 +149,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "10G/3"
+          "vendorPortName": "10 GE-4"
         },
         "endPointB": {
           "endSz": "33_6151_12_7KE1",
@@ -162,7 +162,7 @@
           "deviceHostName": "string",
           "portPosition": "string",
           "portName": "string",
-          "vendorPortName": "100G/3"
+          "vendorPortName": "10 GE-1"
         },
         "validFrom": "22.02.2016 00:00:00",
         "validUntil": "22.02.2016 00:00:00"

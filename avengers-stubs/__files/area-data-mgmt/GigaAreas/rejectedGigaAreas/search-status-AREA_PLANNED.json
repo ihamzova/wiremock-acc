@@ -1,21 +1,17 @@
 {
   "content": [
     {
-      "internalExpansionDecisionDate": "2020-06-17T13:34:57.845Z",
-      "name": "Frankfurt Area 6",
-      "number": "Frankfurt_006",
-      "areaStatus": "VVM_ONGOING",
+      "creationDate": "2020-04-15T07:29:13.560Z",
+      "modificationDate": "2020-04-15T07:29:13.560Z",
+      "name": "Planned Area",
+      "number": "planned_area",
+      "rolloutDate": "2019-12-31T11:26:20Z",
+      "areaStatus": "AREA_PLANNED",
       "initiative": "SELF_EXPANSION",
-      "netCoOrganisationId": 10000,
-      "plannedFrom": "2018-11-01T00:00:00Z",
-      "plannedTo": "2018-11-30T00:00:00Z",
-      "rolloutDate": "2020-11-16T06:40:26Z",
-      "rolloutPartner": 0,
-      "thresholdData": {
-        "additionalOrdersCountInVVM": 0,
-        "ordersCountInVVM": 0,
-        "threshold": 0
-      }
+      "plannedFrom": "2019-01-01T11:26:20Z",
+      "plannedTo": "2019-03-31T11:26:20Z",
+      "netCoOrganisationId": 10001,
+      "thresholdData": {}
     }
   ],
   "pageable": {

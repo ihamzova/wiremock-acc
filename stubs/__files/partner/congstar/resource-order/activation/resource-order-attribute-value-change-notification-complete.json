@@ -30,7 +30,7 @@
           "resource": {
             "@type": "WholebuyResource",
             "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
-            "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+            "lineId": "DEU.RKOM.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
             "carrierContractId": "5587898788",
             "witaContractId": "3321456789",
             "networkProfileConfig": {

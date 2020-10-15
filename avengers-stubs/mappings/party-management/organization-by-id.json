@@ -1,0 +1,32 @@
+{
+  "mappings": [
+    {
+      "name": "Get organization info for user with partyId = 10010",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10010?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10010.json"
+      }
+    },
+    {
+      "name": "Get organization info for user with partyId = 10011",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10011?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10011.json"
+      }
+    }
+  ]
+}

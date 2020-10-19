@@ -1,0 +1,134 @@
+{
+  "mappings": [
+    {
+      "id": "222fd349-e21a-44c8-bae8-15c99fa8318c",
+      "name": "address-lookup-by-klsid-27981605",
+      "priority": 1,
+      "request": {
+        "url": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/27981605",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Heinrich-Hertz-Str.",
+          "streetNameShort": "Heinrich-Hertz-Str.",
+          "houseNumber": 3,
+          "houseNumberSupplement": "",
+          "houseQualifier": "3"
+        }
+      }
+    },
+    {
+      "id": "57a3c0af-7768-4c5a-b5c5-e7a13628d45c",
+      "name": "address-lookup-by-klsid-6972564",
+      "priority": 1,
+      "request": {
+        "url": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/6972564",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Hans-Böckler-Str.",
+          "streetNameShort": "Hans-Böckler-Str.",
+          "houseNumber": 59,
+          "houseNumberSupplement": "A",
+          "houseQualifier": "59 A"
+        }
+      }
+    },
+    {
+      "id": "b188c025-be36-4294-b8d3-33bebe1b0e27",
+      "name": "address-lookup-by-klsid-22336218",
+      "priority": 1,
+      "request": {
+        "url": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/22336218",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Rudolf-Diesel-Str.",
+          "streetNameShort": "Rudolf-Diesel-Str.",
+          "houseNumber": 5,
+          "houseNumberSupplement": "",
+          "houseQualifier": "5"
+        }
+      }
+    },
+    {
+      "id": "42aa9b25-b262-4c61-b4bb-f039ca8696df",
+      "name": "address-lookup-by-klsid-6972512",
+      "priority": 1,
+      "request": {
+        "url": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/6972512",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Hans-Böckler-Str.",
+          "streetNameShort": "Hans-Böckler-Str.",
+          "houseNumber": 15,
+          "houseNumberSupplement": "",
+          "houseQualifier": "15"
+        }
+      }
+    },
+    {
+      "id": "981db95a-8965-475e-a662-cb643df8faae",
+      "name": "address-lookup-by-klsid-6972515",
+      "priority": 1,
+      "request": {
+        "url": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/6972515",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Hans-Böckler-Str.",
+          "streetNameShort": "Hans-Böckler-Str.",
+          "houseNumber": 18,
+          "houseNumberSupplement": "",
+          "houseQualifier": "18"
+        }
+      }
+    }
+  ]
+}

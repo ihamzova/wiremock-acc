@@ -24,8 +24,7 @@
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
                         <vertragsnummer>5112940</vertragsnummer>
-                        <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}
-                        </externeAuftragsnummer>
+                        <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
                         <auftraggebernummer>2018006902</auftraggebernummer>
                         <vorabstimmungId>DEU.1UND1.{{randomValue length=10 type='ALPHANUMERIC' uppercase=true}}</vorabstimmungId>
                         <entgelttermin>2020-09-14</entgelttermin>

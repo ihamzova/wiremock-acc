@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "name": "Get FibreOnLocationsV2 by id",
+      "name": "Get FibreOnLocationsV2 by id (fol / kls id equals number in path)",
       "request": {
         "method": "GET",
         "urlPattern": "/giga-areas-location/v2/fibreOnLocations/([0-9]*)\\?includeDpGeoData=false"

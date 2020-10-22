@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "name": "Gets SupplierProject by search criteria (AreaProgram with and id = 10 and for Ne3)",
+      "name": "Gets SupplierProject by search criteria: NE3 and AreaProgram with and id = 10 (always returned by previous mapping)",
       "request": {
         "method": "POST",
         "urlPattern": "/giga-project-dioss/v2/supplierprojects/search",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "name": "Gets SupplierProject by search criteria (AreaProgram with and id = 10 and for Ne4)",
+      "name": "Gets SupplierProject by search criteria: NE4 and AreaProgram with and id = 10 (always returned by previous mapping)",
       "request": {
         "method": "POST",
         "urlPattern": "/giga-project-dioss/v2/supplierprojects/search",

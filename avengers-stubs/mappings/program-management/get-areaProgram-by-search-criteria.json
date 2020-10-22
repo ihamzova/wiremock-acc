@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "name": "Gets AreaProgram by search criteria (NvtArea with and id = 100 )",
+      "name": "Gets AreaProgram by search criteria (NvtArea with and id = 100 - present in get-Fol-by-id.json mapping)",
       "request": {
         "method": "POST",
         "urlPattern": "/giga-project-dioss/v2/areaPrograms/search",

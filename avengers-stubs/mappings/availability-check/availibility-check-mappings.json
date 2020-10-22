@@ -1,0 +1,91 @@
+{
+  "mappings": [
+    {
+      "name": "Get bad request for all other requests",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/(.*)"
+      },
+      "response": {
+        "status": 400,
+        "body": "bad request"
+      }
+    },
+    {
+      "name": "Get positive availability check within timeframe",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/([0-9]+)\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-within.json"
+      }
+    },
+    {
+      "name": "Get positive availability check before timeframe",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1001\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-before.json"
+      }
+    },
+    {
+      "name": "Get positive availability check after timeframe",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1002\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-after.json"
+      }
+    },
+    {
+      "name": "Get negative availability check - NO_AREA_EXPANSION",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1003\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-negative-NO_AREA_EXPANSION.json"
+      }
+    },
+    {
+      "name": "Get negative availability check - NO_AREA_EXPANSION",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1004\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-negative-NO_OWNER_COMMIT.json"
+      }
+    }
+  ]
+}

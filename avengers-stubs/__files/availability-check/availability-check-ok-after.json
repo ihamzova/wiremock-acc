@@ -21,11 +21,27 @@
           {
             "id": "{{request.path.[4]}}",
             "@type": "BuildingSection",
-            "name": "Vorderhaus",
+            "name": "Mittelhaus",
             "value": "homesPassed"
           }
         ],
-        "relatedParty": [],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "name": "Telekom Deutschland GmbH",
+            "role": "NetCo",
+            "characteristics": [
+              {
+                "name": "carrierCode",
+                "value": "DTAG"
+              },
+              {
+                "name": "isWholebuyPartner",
+                "value": "0"
+              }
+            ]
+          }
+        ],
         "serviceCharacteristic": [
           {
             "name": "Ausbaustand Glasfaser",

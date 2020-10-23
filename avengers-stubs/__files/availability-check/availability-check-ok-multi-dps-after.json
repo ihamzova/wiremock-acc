@@ -1,5 +1,5 @@
 {
-  "id": "12000000003",
+  "id": "{{request.path.[4]}}",
   "href": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/{{request.path.[4]}}",
   "provideAlternative": false,
   "provideOnlyAvailable": false,
@@ -19,8 +19,9 @@
         "id": "32237c88-727b-410c-9ad4-497b7467d4b1",
         "place": [
           {
-            "id": "{{request.path.[4]}}",
-            "@type": "UrbanPropertyAddress"
+            "id": "{{request.path.[4]}}1",
+            "name": "Vorderhaus",
+            "@type": "BuildingSection"
           }
         ],
         "relatedParty": [
@@ -93,8 +94,8 @@
         "id": "7a6528b8-cb3c-4cd7-9fc4-bc6aaff066ca",
         "place": [
           {
-            "id": "13000000005",
-            "name": "Vorderhaus",
+            "id": "{{request.path.[4]}}2",
+            "name": "Mittelhaus",
             "@type": "BuildingSection"
           }
         ],
@@ -164,7 +165,7 @@
         "id": "26e0f511-ca22-4b2a-a0fa-2f935f31b636",
         "place": [
           {
-            "id": "13000000006",
+            "id": "{{request.path.[4]}}3",
             "name": "Hinterhaus",
             "@type": "BuildingSection"
           }

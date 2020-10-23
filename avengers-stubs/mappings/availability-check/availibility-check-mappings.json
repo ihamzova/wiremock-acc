@@ -14,7 +14,7 @@
     },
     {
       "name": "Get positive availability check within timeframe",
-      "priority": 5,
+      "priority": 7,
       "request": {
         "method": "GET",
         "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/([0-9]+)\\?fields=BuildingSection"
@@ -55,6 +55,21 @@
           "Content-Type": "application/json"
         },
         "bodyFileName": "availability-check/availability-check-ok-after.json"
+      }
+    },
+    {
+      "name": "Get positive availability check for case with multiple distribution points (within timeframe)",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3000\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-multi-dps-after.json"
       }
     },
     {

@@ -27,6 +27,20 @@
         },
         "bodyFileName": "area-data-mgmt/GigaAreas/get-GigaArea-By-AreaNumber-Bornheim_002.json"
       }
+    },
+    {
+      "name": "Get GigaAreaName by GigaAreaNumber - Bonn_009",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/Bonn_009"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/get-GigaArea-By-AreaNumber-Bonn_009.json"
+      }
     }
   ]
 }

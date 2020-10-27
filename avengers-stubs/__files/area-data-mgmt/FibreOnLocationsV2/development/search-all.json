@@ -902,6 +902,109 @@
           "thresholdData": {}
         }
       }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9002",
+      "klsId": 9002,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "IKLE",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "we": 3,
+      "ge": 2,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Wholebuy BSA Area",
+        "number": "Wholebuy_BSA",
+        "rolloutDate": "2019-12-31T11:26:20Z",
+        "areaStatus": "VVM_ONGOING",
+        "initiative": "WHOLE_BUY_OAL",
+        "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2019-03-31T11:26:20Z",
+        "netCoOrganisationId": 10001,
+        "thresholdData": {}
+      },
+      "nvtArea": {
+        "creationDate": "2020-04-15T07:29:13.880Z",
+        "modificationDate": "2020-04-15T07:29:13.880Z",
+        "businessId": 9021,
+        "asb": 999,
+        "name": "Wholebuy BSA Area",
+        "number": "Wholebuy_BSA",
+        "onkz": "69",
+        "nvtKlsId": 123471,
+        "gigaArea": {
+          "creationDate": "2020-04-15T07:29:13.560Z",
+          "modificationDate": "2020-04-15T07:29:13.560Z",
+          "name": "Wholebuy BSA Area",
+          "number": "Wholebuy_BSA",
+          "rolloutDate": "2019-12-31T11:26:20Z",
+          "areaStatus": "VVM_ONGOING",
+          "initiative": "WHOLE_BUY_OAL",
+          "plannedFrom": "2019-01-01T11:26:20Z",
+          "plannedTo": "2019-03-31T11:26:20Z",
+          "netCoOrganisationId": 10001,
+          "thresholdData": {}
+        }
+      }
+    },
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "9003",
+      "klsId": 9003,
+      "distributionPointID": "A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "IKLE",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "we": 3,
+      "ge": 2,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Wholebuy OAL Area",
+        "number": "Wholebuy_OAL",
+        "rolloutDate": "2019-12-31T11:26:20Z",
+        "areaStatus": "VVM_ONGOING",
+        "initiative": "WHOLE_BUY_BSA",
+        "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2019-03-31T11:26:20Z",
+        "netCoOrganisationId": 10001,
+        "thresholdData": {}
+      },
+      "nvtArea": {
+        "creationDate": "2020-04-15T07:29:13.880Z",
+        "modificationDate": "2020-04-15T07:29:13.880Z",
+        "businessId": 9021,
+        "asb": 999,
+        "name": "Wholebuy OAL NVT area",
+        "onkz": "69",
+        "nvtKlsId": 123471,
+        "gigaArea": {
+          "creationDate": "2020-04-15T07:29:13.560Z",
+          "modificationDate": "2020-04-15T07:29:13.560Z",
+          "name": "Wholebuy OAL Area",
+          "number": "Wholebuy_OAL",
+          "rolloutDate": "2019-12-31T11:26:20Z",
+          "areaStatus": "VVM_ONGOING",
+          "initiative": "WHOLE_BUY_BSA",
+          "plannedFrom": "2019-01-01T11:26:20Z",
+          "plannedTo": "2019-03-31T11:26:20Z",
+          "netCoOrganisationId": 10001,
+          "thresholdData": {}
+        }
+      }
     }
   ],
   "pageable": {

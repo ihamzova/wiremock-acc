@@ -5,7 +5,7 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?(.*)"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?(.*)"
       },
       "response": {
         "status": 200,
@@ -16,26 +16,26 @@
       }
     },
     {
-      "name": "Search GigaAreaName and get one - 'Bornheim Area 2'",
+      "name": "Search GigaAreaName and get three - 'Bornheim Area', 'Bornheim Widdig' and 'Bonn'",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)((bornheim( |%20|\\+)a|bornheim( |%20|\\+)ar|bornheim( |%20|\\+)are|bornheim( |%20|\\+)area|bornheim( |%20|\\+)area( |%20|\\+))\\*|bornheim( |%20|\\+)area( |%20|\\+)2\\*)&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(b|bo)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
       },
       "response": {
         "status": 200,
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Three-Bo_.json"
       }
     },
     {
       "name": "Search GigaAreaName and get two - 'Bornheim Area' and 'Bornheim Widdig'",
-      "priority": 1,
+      "priority": 2,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)(b|bo|bor|born|bornh|bornhe|bornhei|bornheim|bornheim( |%20|\\+))\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(bor|born|bornh|bornhe|bornhei|bornheim|bornheim( |%20|\\+))\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
       },
       "response": {
         "status": 200,
@@ -46,11 +46,26 @@
       }
     },
     {
-      "name": "Search GigaAreaName and get one - 'Frankfurt Area 2'",
-      "priority": 1,
+      "name": "Search GigaAreaName and get one - 'Bornheim Area 2'",
+      "priority": 2,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)((f|fr|fra|fran|frank|frankf|frankfu|frankfur|frankfurt|frankfurt( |%20|\\+)|frankfurt( |%20|\\+)a|frankfurt( |%20|\\+)ar|frankfurt( |%20|\\+)are|frankfurt( |%20|\\+)area|frankfurt( |%20|\\+)area( |%20|\\+))\\*|frankfurt( |%20|\\+)area( |%20|\\+)2)&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(bornheim( |%20|\\+)a|bornheim( |%20|\\+)ar|bornheim( |%20|\\+)are|bornheim( |%20|\\+)area|bornheim( |%20|\\+)area( |%20|\\+)\\*|bornheim( |%20|\\+)area( |%20|\\+)2\\*)&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bornheim_002.json"
+      }
+    },
+    {
+      "name": "Search GigaAreaName and get one - 'Frankfurt Area 2'",
+      "priority": 2,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)((f|fr|fra|fran|frank|frankf|frankfu|frankfur|frankfurt|frankfurt( |%20|\\+)|frankfurt( |%20|\\+)a|frankfurt( |%20|\\+)ar|frankfurt( |%20|\\+)are|frankfurt( |%20|\\+)area|frankfurt( |%20|\\+)area( |%20|\\+))\\*|frankfurt( |%20|\\+)area( |%20|\\+)2)&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
       },
       "response": {
         "status": 200,
@@ -61,11 +76,26 @@
       }
     },
     {
+      "name": "Search GigaAreaName and get one - 'Bonn Area 9'",
+      "priority": 2,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(bon|bonn|bonn( |%20|\\+)|bonn( |%20|\\+)a|bonn( |%20|\\+)ar|bonn( |%20|\\+)are|bonn( |%20|\\+)area|bonn( |%20|\\+)area( |%20|\\+)|bonn( |%20|\\+)area( |%20|\\+)9)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bonn_009.json"
+      }
+    },
+    {
       "name": "Search GigaArea with rejected status (AREA_PLANNED) - starting with name 'planned'",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)(p|pl|pla|plan|plann|planne|planned)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(p|pl|pla|plan|plann|planne|planned)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
       },
       "response": {
         "status": 200,
@@ -80,7 +110,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/gigaAreas\/search\\?areaName=(?i)(c|ca|can|canc|cance|cancel|cancele|canceled)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/search\\?areaName=(?i)(c|ca|can|canc|cance|cancel|cancele|canceled)\\*&pageSize=1000(&initiatives=(SELF_EXPANSION|JOINT_VENTURE)){1,2}"
       },
       "response": {
         "status": 200,

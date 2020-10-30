@@ -21,15 +21,43 @@
           {
             "id": "{{request.path.[4]}}",
             "@type": "BuildingSection",
-            "name": "Vorderhaus",
-            "value": "homesPassed"
+            "name": "Hinterhaus",
+            "value": "connected"
           }
         ],
-        "relatedParty": [],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "name": "Telekom Deutschland GmbH",
+            "role": "NetCo",
+            "characteristics": [
+              {
+                "name": "carrierCode",
+                "value": "DTAG"
+              },
+              {
+                "name": "isWholebuyPartner",
+                "value": "0"
+              }
+            ]
+          }
+        ],
         "serviceCharacteristic": [
           {
             "name": "Ausbaustand Glasfaser",
             "value": "ready"
+          },
+          {
+            "name": "WE",
+            "value": "4"
+          },
+          {
+            "name": "GE",
+            "value": "3"
+          },
+          {
+            "name": "SL",
+            "value": "1"
           },
           {
             "name": "Technologie",

@@ -5,7 +5,7 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?(.*)"
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?(.*)"
       },
       "response": {
         "status": 200,
@@ -16,11 +16,11 @@
       }
     },
     {
-      "name": "Find all Bornheim_002 RESIDENTIAL & INDUSTRIAL FoL by gigaArea number and any KLS. Despite incorrectness, this stub is required only for easy validation in ExistingAreaAddressSearchService.isKlsValidForExistingAreaBulk ",
+      "name": "Find all Bornheim_002 RESIDENTIAL & INDUSTRIAL FoL by gigaArea number and any KLS. Despite incorrectness, this stub is required for proper validation in ExistingAreaAddressSearchService.isKlsValidForExistingAreaBulk. Also getAddressWithDistributionsPoints uses it and filters to single kls afterwards.",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?gigaAreaNumber=Bornheim_002&klsId=(10[0-1][0-9]|102[0-1])&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?gigaAreaNumber=Bornheim_002&klsId=(10[0-1][0-9]|102[0-1])&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
       },
       "response": {
         "status": 200,

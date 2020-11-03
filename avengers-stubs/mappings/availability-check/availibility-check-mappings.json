@@ -101,6 +101,52 @@
         },
         "bodyFileName": "availability-check/availability-check-negative-NO_OWNER_COMMIT.json"
       }
+    },
+    {
+      "name": "Get positive availability check for case with multiple distribution points (all within timeframe)",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3000\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-multi-dps-all-within.json"
+      }
+    },
+    {
+      "name": "Get positive availability check for case with multiple distribution points (all 3 with different timeframes)",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3001\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-multi-dps-all-different.json"
+      }
+    },
+    {
+      "name": "Get negative availability check for case with multiple distribution points",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3002\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-negative-multi-dps.json"
+      }
     }
+
   ]
 }

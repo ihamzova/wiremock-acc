@@ -1,0 +1,109 @@
+{
+  "mappings": [
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30001",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&ids=30001&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30001.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30002",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&ids=30002&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30002.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30003",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&ids=30003&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30003.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30001 and 30002",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&(ids=30001&ids=30002|ids=30002&ids=30001)&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30001-30002.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30001 and 30003",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&(ids=30001&ids=30003|ids=30003&ids=30001)&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30001-30003.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30002 and 30003",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&(ids=30002&ids=30003|ids=30003&ids=30002)&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30002-30003.json"
+      }
+    },
+    {
+      "name": "Get FibreOnLocationsV2 for folId 30001, 30002 and 30003",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?pageSize=1000&(ids=30001&ids=30002&ids=30003|ids=30001&ids=30003&ids=30002|ids=30002&ids=30001&ids=30003|ids=30003&ids=30001&ids=30002|ids=30002&ids=30003&ids=30001|ids=30003&ids=30002&ids=30001)&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/distribution-point-name-stubs/fol-30001-30002-30003.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "resource": "Building_Order",
+    "action": "Approve",
+    "key": "Building_Order#Approve"
+  },
+  {
+    "resource": "Building_Order",
+    "action": "Create",
+    "key": "Building_Order#Create"
+  },
+  {
+    "resource": "Building_Order",
+    "action": "Delete",
+    "key": "Building_Order#Delete"
+  },
+  {
+    "resource": "Building_Order",
+    "action": "Read",
+    "key": "Building_Order#Read"
+  },
+  {
+    "resource": "Building_Order",
+    "action": "Update",
+    "key": "Building_Order#Update"
+  },
+  {
+    "resource": "Building_Order_SubTask",
+    "action": "Approve",
+    "key": "Building_Order_SubTask#Approve"
+  },
+  {
+    "resource": "Building_Order_SubTask",
+    "action": "Create",
+    "key": "Building_Order_SubTask#Create"
+  },
+  {
+    "resource": "Building_Order_SubTask",
+    "action": "Delete",
+    "key": "Building_Order_SubTask#Delete"
+  },
+  {
+    "resource": "Building_Order_SubTask",
+    "action": "Read",
+    "key": "Building_Order_SubTask#Read"
+  },
+  {
+    "resource": "Building_Order_SubTask",
+    "action": "Update",
+    "key": "Building_Order_SubTask#Update"
+  },
+  {
+    "resource": "Bulk_Installation_Order",
+    "action": "Approve",
+    "key": "Bulk_Installation_Order#Approve"
+  },
+  {
+    "resource": "Bulk_Installation_Order",
+    "action": "Create",
+    "key": "Bulk_Installation_Order#Create"
+  },
+  {
+    "resource": "Bulk_Installation_Order",
+    "action": "Delete",
+    "key": "Bulk_Installation_Order#Delete"
+  },
+  {
+    "resource": "Bulk_Installation_Order",
+    "action": "Read",
+    "key": "Bulk_Installation_Order#Read"
+  },
+  {
+    "resource": "Bulk_Installation_Order",
+    "action": "Update",
+    "key": "Bulk_Installation_Order#Update"
+  }
+]

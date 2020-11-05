@@ -14,6 +14,7 @@
       "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "completionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaActivation",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "state": "Completed",

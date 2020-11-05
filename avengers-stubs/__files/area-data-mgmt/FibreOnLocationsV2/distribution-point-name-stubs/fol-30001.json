@@ -1,0 +1,59 @@
+{
+  "content": [
+    {
+      "creationDate": "2020-04-15T07:29:13.919Z",
+      "modificationDate": "2020-04-15T07:29:13.919Z",
+      "id": "30001",
+      "klsId": 3000,
+      "distributionPointID": "V",
+      "distributionPointName": "Vorderhaus",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "FTTH",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "installationDate": "2020-09-30T00:00:00Z",
+      "we": 3,
+      "ge": 5,
+      "sl": 0,
+      "bandwidthProfiles": [],
+      "gigaArea": {
+        "creationDate": "2020-04-15T07:29:13.560Z",
+        "modificationDate": "2020-04-15T07:29:13.560Z",
+        "name": "Bonn Area 9",
+        "number": "Bonn_009",
+        "rolloutDate": "2020-11-16T06:40:26Z",
+        "areaStatus": "UNDER_CONSTRUCTION",
+        "initiative": "JOINT_VENTURE",
+        "plannedFrom": "2018-11-01T00:00:00Z",
+        "plannedTo": "2018-11-30T00:00:00Z",
+        "netCoOrganisationId": 10000,
+        "thresholdData": {}
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "pageNumber": 0,
+    "pageSize": 1000,
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 1,
+  "totalElements": 3,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 3,
+  "size": 1000,
+  "number": 0,
+  "empty": false
+}

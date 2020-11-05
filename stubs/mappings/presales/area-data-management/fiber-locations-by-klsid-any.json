@@ -1,0 +1,19 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "GET",
+    "urlPath": "/giga-areas-location/v2/fibreOnLocations/search",
+    "queryParameters": {
+      "klsId": {
+        "matches": "[0-9]+"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "presales/area-data-management/fiber-locations-by-klsid-any-payload.json"
+  }
+}

@@ -14,6 +14,7 @@
       "completionDate": "2020-06-24",
       "expectedCompletionDate": "2020-07-22",
       "externalId": "Giga_{{#assign 'relationData'}}{{#curl}}{{unsafeSystemValue type='ENVIRONMENT' key='SERVICE_ORDER_PATH'}}/service-order-rs/service-order/local/v1/serviceorders/bid/load/{{regexExtract (jsonPath request.body '$.externalId') '[0-9]+'}}{{/curl}}{{/assign}}{{jsonPath relationData '$.orderRelationships[0].id'}}",
+      "externalTag": "bsaActivation",
       "orderDate": "2020-06-24T20:25:25.000738Z",
       "requestedCompletionDate": "2020-07-22",
       "state": "Held",

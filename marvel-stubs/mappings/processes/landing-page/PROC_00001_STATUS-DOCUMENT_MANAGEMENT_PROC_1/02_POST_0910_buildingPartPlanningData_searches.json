@@ -1,0 +1,22 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "urlPath": "/giga-installation-order/v1/buildingPartPlanningData/searches",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": "{\"klsIds\":null,\"fiberOnLocationIds\":[\"50001\"],\"vvmAreaNumbers\":null,\"street\":null,\"houseNumber\":null,\"houseNumberAppendix\":null,\"city\":null,\"postalCode\":null,\"maxResults\":null}"
+          }
+        ]
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "status": 201,
+        "bodyFileName": "processes/landing-page/PROC_00001_STATUS-DOCUMENT_MANAGEMENT_PROC_1/02_POST_0910_buildingPartPlanningData_searches.json"
+      }
+    }
+  ]
+}

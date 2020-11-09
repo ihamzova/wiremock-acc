@@ -1,0 +1,41 @@
+[
+  {
+    "businessId": 107722,
+    "klsId": 123776181,
+    "fiberOnLocationId": "1500041",
+    "compositeOrganizationId": 0,
+    "vvmAreaNumber": "string",
+    "buildingType": "SINGLE_DOUBLE_FAMILY_HOUSE",
+    "propertyAdditionalInfo": {
+      "amountOfAccommodationUnits": 0,
+      "amountOfBusinessUnits": 0,
+      "amountOfFloors": 0
+    },
+    "areaExpansionDecisionStatus": "TRUE",
+    "buildUpAgreementStatus": "PENDING",
+    "gfapInstallation": {
+      "gfapAppointmentType": "MANUAL",
+      "gfapAppointmentStatus": "INITIAL",
+      "gfapScheduledInstallationBegin": "2020-07-17T11:52:50.155Z",
+      "gfapScheduledInstallationEnd": "2020-07-17T11:52:50.155Z",
+      "gfapTsgTimeSlotGroupBid": 0,
+      "gfapInstallationTimestamp": "2020-07-17T11:52:50.155Z",
+      "gfapInstallationStatus": "REQUIRED",
+      "gfapWorkorderBid": 0
+    },
+    "exploration": {
+      "explorationRequired": true,
+      "explorationAppointmentType": "MANUAL",
+      "explorationAppointmentStatus": "TIMESLOT_BOOKED",
+      "scheduledExplorationBegin": "2020-07-17T11:52:50.155Z",
+      "scheduledExplorationEnd": "2020-07-17T11:52:50.155Z",
+      "tsgTimeSlotGroupBid": 0,
+      "workOrderBid": 0,
+      "explored": true,
+      "explorationProtocolBid": 0,
+      "confirmedExplorationEnd": "2020-07-17T11:52:50.155Z",
+      "explorationAgreementDate": "2020-07-17T11:52:50.155Z",
+      "explorationBuildUpType": "FTTH"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "urlPath": "/giga-project-dioss/v1/document-management/explorationProtocols",
+        "method": "GET",
+        "queryParameters": {
+          "klsId": {
+            "equalTo": "40001"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "*",
+          "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding, X-Requested-With, X-Authorization",
+          "X-Content-Type-Options": "nosniff",
+          "x-frame-options": "DENY",
+          "x-xss-protection": "1; mode=block"
+        },
+        "status": 200,
+        "bodyFileName": "processes/landing-page/PROC_00001_STATUS-DOCUMENT_MANAGEMENT_PROC_1/05-GET_exploration-protocols.json"
+      }
+    }
+  ]
+}

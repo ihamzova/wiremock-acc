@@ -1,0 +1,34 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "urlPath": "/giga-installation-order/v1/appointment",
+        "method": "GET",
+        "queryParameters": {
+          "relatedEntityId": {
+            "matches": "50001"
+          },
+          "relatedEntityReferredType": {
+            "matches": "BUILDINGPARTPLANNINGDATA"
+          },
+          "relatedEntityRole": {
+            "matches": "EXPLORATION"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8",
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "*",
+          "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding, X-Requested-With, X-Authorization",
+          "X-Content-Type-Options": "nosniff",
+          "x-frame-options": "DENY",
+          "x-xss-protection": "1; mode=block"
+        },
+        "status": 200,
+        "bodyFileName": "processes/landing-page/PROC_00001_STATUS-DOCUMENT_MANAGEMENT_PROC_1/04_GET_0600-appointment.json"
+      }
+    }
+  ]
+}

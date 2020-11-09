@@ -1,0 +1,63 @@
+{
+  "id": "10001",
+  "href": null,
+  "category": "EXPLORATION",
+  "creationDate": "2020-07-16T10:06:24.081Z",
+  "description": null,
+  "externalId": null,
+  "lastUpdate": "2020-07-16T14:35:31.317Z",
+  "attachment": [],
+  "calendarEvent": {
+    "id": "string",
+    "href": "string",
+    "name": "string",
+    "@baseType": "string",
+    "@schemaLocation": "string",
+    "@type": "string",
+    "@referredType": "string"
+  },
+  "contactMedium": [],
+  "note": [],
+  "relatedEntity": [
+    {
+      "id": "21985103",
+      "href": null,
+      "name": null,
+      "role": "EXPLORATION",
+      "@baseType": null,
+      "@schemaLocation": null,
+      "@type": null,
+      "@referredType": "BUILDINGPARTPLANNINGDATA"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "1",
+      "href": null,
+      "name": "Max Installation&Exploration",
+      "role": "technician",
+      "@baseType": null,
+      "@schemaLocation": null,
+      "@type": null,
+      "@referredType": "individual"
+    }
+  ],
+  "relatedPlace": {
+    "id": "21985103",
+    "href": null,
+    "name": null,
+    "role": "SITE_SURVEY_ADDRESS",
+    "@baseType": null,
+    "@schemaLocation": null,
+    "@type": null,
+    "@referredType": "fibreOnLocation"
+  },
+  "status": "confirmed",
+  "validFor": {
+    "endDateTime": "2020-08-10T09:00:00.000Z",
+    "startDateTime": "2020-08-10T07:00:00.000Z"
+  },
+  "@baseType": null,
+  "@schemaLocation": null,
+  "@type": "EXPLORATION"
+}

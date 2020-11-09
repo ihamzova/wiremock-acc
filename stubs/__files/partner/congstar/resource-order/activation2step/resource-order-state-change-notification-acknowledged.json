@@ -1,0 +1,80 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "1.0",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaPhysicalConnection",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "state": "Acknowledged",
+      "category": "PhysicalConnection",
+      "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "orderItem": [
+        {
+          "action": "add",
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "resource": {
+            "@type": "WholebuyResource",
+            "installationPlace": {
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
+              "@type": "GatewayPlace"
+            }
+          }
+        }
+      ],
+      "installationPlaceContact": {
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 151 12341234"
+            }
+          }
+        ]
+      },
+      "installationPlaceOwnerContact": {
+        "@type": "Individual",
+        "familyName": "Musk",
+        "givenName": "Ilon",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 151 12341235"
+            }
+          }
+        ],
+        "contactMediumEmail": {
+          "mediumType": "email",
+          "characteristic": {
+            "emailAddress": "imusk@gmail.com"
+          }
+        },
+        "contactMediumPostalAddress": {
+          "mediumType": "postalAddress",
+          "characteristic": {
+            "city": "Munic",
+            "postcode": "23412",
+            "street": "ABC Str.",
+            "housenumber": "13",
+            "housenumber_suffix": "A"
+          }
+        }
+      }
+    }
+  }
+}

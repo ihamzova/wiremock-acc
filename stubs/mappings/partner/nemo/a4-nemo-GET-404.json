@@ -1,0 +1,14 @@
+{
+  "scenarioName": "Default global wiremock for NEMO health checks",
+  "priority": 10,
+  "request": {
+    "urlPattern": "/api/v1/planning/logicalResource/00000000-0000-0000-0000-000000000000",
+    "method": "GET"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

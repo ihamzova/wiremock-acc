@@ -1,4 +1,6 @@
 {
+  "scenarioName": "Default global NEMO wiremock for DELETE/204",
+  "priority": 10,
   "request": {
     "urlPattern": "/api/v1/planning/logicalResource/.*",
     "method": "DELETE"

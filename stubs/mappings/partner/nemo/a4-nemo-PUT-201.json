@@ -1,4 +1,6 @@
 {
+  "scenarioName": "Default global NEMO wiremock for PUT/201",
+  "priority": 10,
   "request": {
     "urlPattern": "/api/v1/planning/logicalResource/.*",
     "method": "PUT"

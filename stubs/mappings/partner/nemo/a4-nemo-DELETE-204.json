@@ -1,6 +1,6 @@
 {
   "request": {
-    "urlPattern": "/api/v1/planning/logicalResource.*",
+    "urlPattern": "/api/v1/planning/logicalResource/.*",
     "method": "DELETE"
   },
   "response": {

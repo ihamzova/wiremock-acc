@@ -53,17 +53,7 @@
   "provideUnavailabilityReason": true,
   "qualificationResult": "qualified",
   "state": "done",
-  "relatedParty": [{{#eq isWholeBuy '1'}}
-      {
-          "role": "NetCo",
-          "characteristics": [
-              {
-                  "name": "isWholebuyPartner",
-                  "value": "1"
-              }
-          ]
-      }
-  {{/eq}}],
+  "relatedParty": [],
   "serviceQualificationItem": [
     {
       "id": "2915c09a-6567-4abe-8651-400b1b33fcf1",
@@ -80,7 +70,42 @@
             "@type": "UrbanPropertyAddress"
           }
         ],
-        "relatedParty": [],
+        "relatedParty": [
+        {{#eq isWholeBuy '0'}}
+          {
+            "role": "NetCo",
+            "id": "10001",
+            "name": "Deutsche Telekom GmbH",
+            "characteristics": [
+              {
+              "name": "isWholebuyPartner",
+              "value": "0"
+              },
+              {
+              "name": "carrierCode",
+              "value": "DTAG"
+              }
+            ]
+          }
+        {{/eq}}
+        {{#eq isWholeBuy '1'}}
+          {
+            "role": "NetCo",
+            "id": "111111",
+            "name": "Glasfaser-Nordwest",
+            "characteristics": [
+              {
+                "name": "isWholebuyPartner",
+                "value": "1"
+              },
+              {
+                "name": "carrierCode",
+                "value": "GFNW"
+              }
+            ]
+          }
+        {{/eq}}
+        ],
         "serviceCharacteristic": [
           {
             "name": "Ausbaustand Glasfaser",

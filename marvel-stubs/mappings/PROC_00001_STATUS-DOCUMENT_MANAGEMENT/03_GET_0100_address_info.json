@@ -2,7 +2,7 @@
   "mappings": [
     {
       "request": {
-        "urlPath": "/giga-installation-order/v3/tokenizedParameters/00001",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/40001",
         "method": "GET"
       },
       "response": {
@@ -16,7 +16,7 @@
           "x-xss-protection": "1; mode=block"
         },
         "status": 200,
-        "bodyFileName": "processes/landing-page/PROC_00001_STATUS-DOCUMENT_MANAGEMENT_PROC_1/01_GET_0300_tokenizedParameter.json"
+        "bodyFileName": "PROC_00001_STATUS-DOCUMENT_MANAGEMENT/03_GET_0100_address_info.json"
       }
     }
   ]

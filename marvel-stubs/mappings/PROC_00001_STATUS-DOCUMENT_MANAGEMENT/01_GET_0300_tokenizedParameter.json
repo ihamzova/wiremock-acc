@@ -2,13 +2,8 @@
   "mappings": [
     {
       "request": {
-        "urlPath": "/giga-project-dioss/v1/document-management/explorationProtocols",
-        "method": "GET",
-        "queryParameters": {
-          "klsId": {
-            "equalTo": "40001"
-          }
-        }
+        "urlPath": "/giga-installation-order/v3/tokenizedParameters/00001",
+        "method": "GET"
       },
       "response": {
         "headers": {
@@ -21,7 +16,7 @@
           "x-xss-protection": "1; mode=block"
         },
         "status": 200,
-        "bodyFileName": "processes/landing-page/PROC_00001_STATUS-DOCUMENT_MANAGEMENT_PROC_1/05-GET_exploration-protocols.json"
+        "bodyFileName": "PROC_00001_STATUS-DOCUMENT_MANAGEMENT/01_GET_0300_tokenizedParameter.json"
       }
     }
   ]

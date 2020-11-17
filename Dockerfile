@@ -14,6 +14,7 @@ COPY stubs /$WM_PACKAGE
 COPY example-stubs /$WM_PACKAGE/example-stubs
 COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
+COPY marvel-stubs /$WM_PACKAGE/marvel-stubs
 
 COPY orion-stubs /$WM_PACKAGE/orion-stubs
 COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs/mappings
@@ -27,7 +28,6 @@ COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
 
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
-COPY marvel-stubs /$WM_PACKAGE/marvel-stubs
 
 EXPOSE 8080
 

@@ -1,0 +1,37 @@
+{
+  "id": "f053dab9-a2ab-4f5c-8860-cb5415595e8d",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//geschaeftsfallArt[text()='Bereitstellung']"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fc2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/dgf/OAL-Auftrag-response.xml"
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Content-Type": "text/xml;charset=UTF-8"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-QEB.xml"
+        }
+      ]
+    }
+  }
+}

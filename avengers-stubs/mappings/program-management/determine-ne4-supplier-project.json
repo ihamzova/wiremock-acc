@@ -3,7 +3,7 @@
     "method": "POST",
     "urlPath": "/giga-project-dioss/v2/supplierprojects/determine",
     "bodyPatterns" : [ {
-      "matchesJsonPath" : "$.gigaOrder[?(@.netLevel=='NE4')]"
+      "matchesJsonPath" : "$.gigaOrder[?(@.networkLayerType=='NE4')]"
     } ]
   },
 

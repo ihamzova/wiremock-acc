@@ -6,17 +6,7 @@
         "method": "GET"
       },
       "response": {
-        "headers": {
-          "Content-Type": "application/pdf",
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "*",
-          "Access-Control-Allow-Headers": "Accept, Content-Type, Content-Encoding, Server, Transfer-Encoding, X-Requested-With, X-Authorization",
-          "X-Content-Type-Options": "nosniff",
-          "x-frame-options": "DENY",
-          "x-xss-protection": "1; mode=block"
-        },
-        "status": 200,
-        "bodyFileName": "PROC_00001_STATUS-DOCUMENT_MANAGEMENT/SSP_klsid_2055144_bscplid_71278828_2020-03-18.pdf"
+        "proxyBaseUrl" : "https://apigw-dynamic-digihub-69020.magic-verify.telekom.de"
       }
     }
   ]

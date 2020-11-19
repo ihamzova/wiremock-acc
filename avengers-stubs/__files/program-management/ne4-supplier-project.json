@@ -1,16 +1,19 @@
 {
   "supplierProject": {
-    "id": 10313,
-    "name": "2236/2/V1001/Initial Ausbau",
-    "areaProgramId": 10102,
+    "areaProgramBid": 0,
+    "creationDate": "2020-11-18T14:02:58.494Z",
+    "businessId": 0,
+    "name": "string",
+    "networkLayerType": "NE4",
+    "supplierId": 0,
+    "wmsTIBA": "string",
+    "status": "ASSIGNED",
     "phase": "INITIAL_EXPANSION",
-    "ne3": false,
-    "ne4": true,
-    "creditorId": "101010",
-    "supplierId": "2",
-    "status": "ASSIGNED"
+    "fixedSupplier": true,
+    "orderAcceptanceTimeStart": "2020-11-18T14:02:58.494Z",
+    "orderAcceptanceTimeEnd": "2020-11-18T14:02:58.494Z",
+    "fibreOnLocationId": "1000"
   },
-  "wfmOrderId": "string",
   "problem": {
     "type": "string",
     "title": "string",

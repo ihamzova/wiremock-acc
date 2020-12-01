@@ -1,0 +1,35 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "1.0",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "completionDate": "{{now format='yyyy-MM-dd'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaRegisterONT",
+      "state": "Completed",
+      "category": "ONT",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
+            "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}"
+          }
+        }
+      ]
+    }
+  }
+}

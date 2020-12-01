@@ -1,0 +1,80 @@
+{
+  "id": "74a7959b-bcd5-44e3-8f2c-28e662d8e36a",
+  "request": {
+    "method": "POST",
+    "urlPattern": "/Wholebuy/v2/resourceOrder/",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaDetermineLineID')]"
+      }
+    ],
+    "headers": {}
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted.",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+    }
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+            "X-Callback-Url": "{{request.headers.X-Callback-Url}}",
+            "X-Callback-Id": "{{request.headers.X-Callback-Id}}"
+          },
+          "url": "{{request.headers.X-Callback-Url}}",
+          "bodyFileName": "partner/congstar/resource-order/resource-order-callback.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 15000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/determineLineId/resource-order-state-change-notification-acknowledged.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 20000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/determineLineId/resource-order-attribute-value-change-notification-update.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 25000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/determineLineId/resource-order-attribute-value-change-notification-complete.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 30000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/determineLineId/resource-order-state-change-notification-completed.json"
+        }
+      ]
+    }
+  }
+}

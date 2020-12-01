@@ -38,7 +38,7 @@
             }
           },
           "resourceSpecification": {
-            "id": "FTTC50"
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
           }
         }
       ],

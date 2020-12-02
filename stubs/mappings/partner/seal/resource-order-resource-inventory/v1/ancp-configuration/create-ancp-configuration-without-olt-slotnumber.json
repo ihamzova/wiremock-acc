@@ -1,13 +1,8 @@
 {
-  "priority": 5,
+  "priority": 10,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ancp-configuration/([\\w\\d\\_]*)/ancpConfigurations",
-    "bodyPatterns": [
-      {
-          "matchesJsonPath" : "$.uplinkSlot"
-      }
-    ]
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ancp-configuration/([\\w\\d\\_]*)/ancpConfigurations"
   },
   "response": {
     "status": 202,
@@ -26,7 +21,7 @@
       "fixedDelayMilliseconds": 5000,
       "jsonBody": {
         "payload": {
-          "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.uplinkSlot'}}-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
+          "ancpConfigurationId": "{{jsonPath request.body '$.shelf'}}-NA-{{jsonPath request.body '$.uplinkPort'}}-{{jsonPath request.body '$.ancpInterfaceId'}}-{{jsonPath request.body '$.vlanId'}}"
         }
       }
     }

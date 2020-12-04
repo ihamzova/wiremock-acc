@@ -5,7 +5,7 @@
     "urlPattern": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?(@.externalTag=='bsaRegisterONT')]"
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaRegisterOnt')]"
       }
     ],
     "headers": {}

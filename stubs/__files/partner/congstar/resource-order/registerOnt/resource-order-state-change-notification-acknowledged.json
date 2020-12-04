@@ -12,7 +12,7 @@
       "@type": "GatewayResourceOrder",
       "id": "89898898",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
-      "externalTag": "bsaRegisterONT",
+      "externalTag": "bsaRegisterOnt",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "state": "Acknowledged",
       "category": "ONT",
@@ -25,7 +25,7 @@
             "@type": "WholebuyResource",
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
             "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
-            "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}"
+            "OntSerialNumber": "{{jsonPath request.body '$.orderItem[0].resource.OntSerialNumber'}}"
           }
         }
       ]

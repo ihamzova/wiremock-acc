@@ -5,10 +5,7 @@
     "urlPattern": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?($.orderItem[0].action == 'add')]"
-      },
-      {
-        "matchesJsonPath": "$.[?($.@type == 'GatewayResourceOrderCreateAdd')]"
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaActivation')]"
       }
     ],
     "headers": {}

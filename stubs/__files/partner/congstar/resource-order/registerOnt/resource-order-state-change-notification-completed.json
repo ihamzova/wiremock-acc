@@ -13,7 +13,7 @@
       "id": "89898898",
       "completionDate": "{{now format='yyyy-MM-dd'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
-      "externalTag": "bsaRegisterONT",
+      "externalTag": "bsaRegisterOnt",
       "state": "Completed",
       "category": "ONT",
       "orderItem": [
@@ -26,7 +26,7 @@
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
             "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
             "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
-            "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}"
+            "OntSerialNumber": "{{jsonPath request.body '$.orderItem[0].resource.OntSerialNumber'}}"
           }
         }
       ]

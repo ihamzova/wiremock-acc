@@ -13,7 +13,7 @@
       "id": "89898898",
       "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
-      "externalTag": "bsaDetermineLineID",
+      "externalTag": "bsaDetermineLineId",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "state": "Acknowledged",

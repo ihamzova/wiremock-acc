@@ -17,7 +17,7 @@
     }
   ],
   "eventPayload": {
-    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "@type": "ResourceOrderAttributeValueChangeNotificationPayload",
     "resourceOrder": {
       "@type": "GatewayResourceOrder",
       "id": "89898898",

@@ -1,0 +1,14 @@
+{
+  "name": "Create a build up agreement of a propertyOwner",
+  "request": {
+    "method": "POST",
+    "urlPath": "/landlord-management/v2/consolidatedAgreements"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "ll-core/post-consolidated-agreement.json"
+  }
+}

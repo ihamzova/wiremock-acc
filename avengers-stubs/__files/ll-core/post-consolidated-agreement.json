@@ -4,16 +4,15 @@
     "agreementDate": "2020-12-07T07:37:57.997Z",
     "klsId": 0,
     "fiberOnLocationId": 0,
-    "agreementStatus": "WAITING",
+    "agreementStatus": "APPROVED",
     "agreementMethod": "PRIMARY",
-    "buildUpAgreementRole": "PROPERTY_OWNER",
-    "reasonForNoConstruction": "NO_OWNER_COMMIT"
+    "buildUpAgreementRole": "PROPERTY_OWNER"
   },
   "resourceAssociation": {
     "tenantId": 1001
   },
   "propertyProcessTrigger": {
     "externalId": 0,
-    "processType": "CIO_ORDER"
+    "processType": "BUILDING_ORDER"
   }
 }

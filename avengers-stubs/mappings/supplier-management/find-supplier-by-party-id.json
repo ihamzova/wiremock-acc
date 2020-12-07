@@ -1,10 +1,11 @@
 {
   "mappings": [
     {
-      "name": "Get Supplier with id = 3",
+      "name": "Get NE3 supplier by party id (atomic organization id)",
+      "priority": 10,
       "request": {
         "method": "GET",
-        "url": "/giga-project/v2/suppliers/3"
+        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=10013"
       },
       "response": {
         "status": 200,
@@ -15,10 +16,11 @@
       }
     },
     {
-      "name": "Get Supplier with id = 4",
+      "name": "Get NE4 supplier by party id (atomic organization id)",
+      "priority": 10,
       "request": {
         "method": "GET",
-        "url": "/giga-project/v2/suppliers/4"
+        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=10014"
       },
       "response": {
         "status": 200,

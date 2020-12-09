@@ -55,6 +55,34 @@
         },
         "bodyFileName": "party-management/organization-with-id-10002.json"
       }
+    },
+    {
+      "name": "Get organization info for user with partyId = 10001",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10001?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10001.json"
+      }
+    },
+    {
+      "name": "Get organization info for user with partyId = 10000",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10000?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10000.json"
+      }
     }
   ]
 }

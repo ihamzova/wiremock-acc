@@ -25,7 +25,7 @@
             "@type": "WholebuyResource",
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
             "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
-            "OntSerialNumber": "{{jsonPath request.body '$.orderItem[0].resource.OntSerialNumber'}}"
+            "OntSerialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}"
           }
         }
       ]

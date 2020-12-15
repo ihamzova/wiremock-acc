@@ -1,0 +1,251 @@
+{
+  "shortName": "SDX6320-16",
+  "materialNumber": "40958960",
+  "emsNbiName": "SDX 6320 16-port Combo OLT",
+  "tkz1": "11971330F1",
+  "tkz2": "02353310",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40958960",
+  "lastDiscovery": "2020-11-30T13:32:07.907+01:00",
+  "id": 1002,
+  "resourceId": "36e0aba9-9e8a-4794-83cb-deae6b70e813",
+  "deviceName": "SDX 6320-16 XGPON/GPON Combo OLT",
+  "endSz": "49/911/1100/76H3",
+  "fachSz": "76H3",
+  "klsId": 17056514,
+  "ipAddress": "172.22.55.5",
+  "firmwareVersion": "SDX632V100R019C10",
+  "resourceState": "WORKING",
+  "communicationState": "CS_AVAILABLE",
+  "serialNumber": null,
+  "importState": "DISCOVERED",
+  "type": "OLT",
+  "importDate": "2020-11-30T13:32:37.166+01:00",
+  "equipmentHolders": [],
+  "description": "SDX 6320-16 XGPON/GPON Combo OLT",
+  "asb": 1,
+  "technicalLocation": "000031-000000-001-004-002-021",
+  "equipmentNumber": "212880011",
+  "manufacturer": "ADTRAN",
+  "distributionPointId": null,
+  "lifeCycleState": "NOT_OPERATING",
+  "fiberOnLocationId": null,
+  "ports": [
+    {
+      "id": 1058,
+      "resourceId": "beef2b58-dfbf-4ba4-94b6-97b811784b88",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "16",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1057,
+      "resourceId": "139df825-d207-4536-a678-83d63ac8888e",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "15",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1056,
+      "resourceId": "32a6f65b-40eb-49df-9a7d-b6ea61292804",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "14",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1055,
+      "resourceId": "3cde4b2e-8711-47e0-bdf3-b0ead54e0419",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "13",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1054,
+      "resourceId": "006c9499-a841-4faf-9a92-9dd80c28413b",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "12",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1053,
+      "resourceId": "e17ec9ba-65d8-43c2-8248-3594fa675167",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "11",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1052,
+      "resourceId": "f460665d-f6e2-490a-bcdc-67b5fa1f2002",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "10",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1051,
+      "resourceId": "8b90cc02-c2c0-448e-9aa5-799cf77d7102",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "9",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1050,
+      "resourceId": "08b4d82f-3fcc-4df7-8498-1df16040cfab",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "8",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1049,
+      "resourceId": "4d5d6a8d-4c2b-4542-b2be-4f23ed37c8c9",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "7",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1048,
+      "resourceId": "2afab0c2-bd86-49be-9426-d5cada92a20c",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "6",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1047,
+      "resourceId": "98cc10cd-0426-4390-b263-4461da9fc7b7",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "5",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1046,
+      "resourceId": "e207fbc0-89ab-428d-a5b2-0e1422ef7f5f",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "4",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1045,
+      "resourceId": "da869df8-5e10-41a6-a1f0-43262ba2c58c",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "3",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1044,
+      "resourceId": "341cc3f4-42f0-40cc-b6fa-23029f98982e",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "2",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1043,
+      "resourceId": "7b02ec49-2340-49d3-bdb9-f4219d8b2b04",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "1",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1042,
+      "resourceId": "2c8fc7c7-e62c-47a0-9698-4124f8d42324",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "8",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1041,
+      "resourceId": "20309f68-6e8d-47da-9dcb-7eb2e45655ee",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "7",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1040,
+      "resourceId": "0ec1dfef-0a9e-4586-8c38-de3e9c7b810c",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "6",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1039,
+      "resourceId": "092350c6-2304-49bd-b98e-ce3fd8a59b42",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "5",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1038,
+      "resourceId": "03e5e0eb-8651-45c5-afb9-1333afc42e20",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "4",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1037,
+      "resourceId": "080bb1d5-3fc8-4199-8765-b7bce2e32e78",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "3",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1036,
+      "resourceId": "83bac79b-6e68-4367-937f-dc4b52832acf",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "2",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    },
+    {
+      "id": 1035,
+      "resourceId": "53012997-b89f-485e-be89-0962a666f122",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "ETHERNET",
+      "portNumber": "1",
+      "opticalModule": null,
+      "compositePartyId": 10001
+    }
+  ],
+  "compositePartyId": 10001
+}

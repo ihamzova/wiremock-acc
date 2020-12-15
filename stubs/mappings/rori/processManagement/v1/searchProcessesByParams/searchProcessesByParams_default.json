@@ -1,0 +1,14 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/processManagement/searchProcessesByParams"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/processManagement/v1/searchProcessesByParams/default.json"
+  }
+}

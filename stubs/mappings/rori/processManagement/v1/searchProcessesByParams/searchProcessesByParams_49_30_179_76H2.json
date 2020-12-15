@@ -1,0 +1,22 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/processManagement/searchProcessesByParams",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": {
+          "expression": "$..endSz",
+          "contains": "49/30/179/76H2"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/processManagement/v1/searchProcessesByParams/49_30_179_76H2.json"
+  }
+}

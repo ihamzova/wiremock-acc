@@ -16,6 +16,7 @@
       "externalTag": "bsaRegisterOnt",
       "state": "Completed",
       "category": "ONT",
+      "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}",
       "orderItem": [
         {
           "@type": "GatewayResourceOrderItem",
@@ -25,8 +26,7 @@
             "@type": "WholebuyResource",
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
             "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
-            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
-            "OntSerialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}"
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}"
           }
         }
       ]

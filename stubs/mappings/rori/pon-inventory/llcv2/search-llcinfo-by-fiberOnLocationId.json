@@ -2,7 +2,12 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPath": "/resource-order-resource-inventory/v2/llc"
+    "urlPath": "/resource-order-resource-inventory/v2/llc",
+    "queryParameters": {
+      "gfApFolId": {
+        "matches": "^\\d{1,19}$"
+      }
+    }
   },
   "response": {
     "status": 200,

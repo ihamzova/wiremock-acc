@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "Get PropertyOwner by number - 7000",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/landlord-management/v2/propertyOwner/7000"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ll-core/get-property-owner-by-number-7000.json"
+      }
+    }
+  ]
+}

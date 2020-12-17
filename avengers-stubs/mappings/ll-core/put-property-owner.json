@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "name": "Get PUT response with propertyOwnerNumber for organization property owner",
+      "request": {
+        "method": "PUT",
+        "url": "/landlord-management/v2/propertyOwner",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.propertyOwner.propertyOwnerType == 'PERSON')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ll-core/property-owner-7000-private.json"
+      }
+    },
+    {
+      "name": "Get PUT response with propertyOwnerNumber for private person property owner",
+      "request": {
+        "method": "PUT",
+        "url": "/landlord-management/v2/propertyOwner",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.propertyOwner.propertyOwnerType == 'ORGANIZATION')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ll-core/property-owner-7010-organization.json"
+      }
+    }
+  ]
+}

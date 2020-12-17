@@ -1,0 +1,121 @@
+{
+  "contacts": [
+    {
+      "id": 188,
+      "primaryContact": true,
+      "role": "PROPERTY_OWNER",
+      "contactOrganizationName": null,
+      "familyName": "Doe",
+      "givenName": "John",
+      "salutation": "MR",
+      "title": "Dr.",
+      "medium": [
+        {
+          "mediumType": "MOBILE",
+          "emailAddress": null,
+          "phoneNumber": "+49123456789",
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": true
+        },
+        {
+          "mediumType": "EMAIL",
+          "emailAddress": "john.doe@hansa.de",
+          "phoneNumber": null,
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": false
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "primaryContact": false,
+      "role": "CONTACT_PERSON",
+      "contactOrganizationName": null,
+      "familyName": "Wannemaker",
+      "givenName": "Steffen",
+      "salutation": "MR",
+      "title": null,
+      "medium": [
+        {
+          "mediumType": "FIXED_LINE",
+          "emailAddress": null,
+          "phoneNumber": "0228 39 28934",
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": false
+        },
+        {
+          "mediumType": "EMAIL",
+          "emailAddress": "edhoxrzqvys@temporary-mail.net",
+          "phoneNumber": null,
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": true
+        },
+        {
+          "mediumType": "ADDRESS",
+          "emailAddress": null,
+          "phoneNumber": "0228 39 28934",
+          "street": "Straße der Pariser Kommune",
+          "houseNumber": "94",
+          "houseNumberExtension": "B",
+          "postCode": 53125,
+          "city": "Bonn",
+          "country": "DE",
+          "stateOrProvince": "Nordrhein-Westfalen",
+          "postOfficeBox": null,
+          "preferred": false
+        }
+      ]
+    }
+  ],
+  "propertyOwner": {
+    "id": 7000,
+    "propertyOwnerType": "ORGANIZATION",
+    "ownerClassificationType": "PROPERTY_OWNER",
+    "propertyOwnerAddress": {
+      "street": "Straße der Pariser Kommune",
+      "houseNumber": "98",
+      "houseNumberExtension": null,
+      "postCode": "53227",
+      "city": "Bonn",
+      "country": "DE",
+      "stateOrProvince": null,
+      "postOfficeBox": null
+    },
+    "organizationName": "Hansa",
+    "organizationId": 123456,
+    "legalForm": "GmbH",
+    "propertyOwnerNumber": 7000,
+    "primaryContactId": 188
+  },
+  "resourceAssociation": {
+    "tenantId": 10001
+  }
+}

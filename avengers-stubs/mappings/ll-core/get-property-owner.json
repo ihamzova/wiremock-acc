@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "name": "Get PropertyOwner by number - 7000",
+      "name": "Get private PropertyOwner by number - 7000",
       "request": {
         "method": "GET",
         "urlPattern": "/landlord-management/v2/propertyOwner/7000"
@@ -11,7 +11,21 @@
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "ll-core/get-property-owner-by-number-7000.json"
+        "bodyFileName": "ll-core/property-owner-7000-private.json"
+      }
+    },
+    {
+      "name": "Get organization PropertyOwner by number - 7010",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/landlord-management/v2/propertyOwner/7010"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ll-core/property-owner-7010-organization.json"
       }
     }
   ]

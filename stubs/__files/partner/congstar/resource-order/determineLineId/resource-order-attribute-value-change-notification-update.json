@@ -38,6 +38,14 @@
             "@type": "WholebuyResource",
             "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
             "carrierContractId": "5587898788",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 55168,
+              "ramMaxupL2": 11264,
+              "ramMinDownL2": 27504,
+              "ramMinUpL2": 27000,
+              "ramMinKPDownL2": 27504,
+              "ramMinKPUpL2": 27000
+            },
             "installationPlace": {
               "@type": "GatewayPlace",
               "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",

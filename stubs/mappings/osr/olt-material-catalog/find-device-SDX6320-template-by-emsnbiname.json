@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/SDX%206320%2016-port%20Combo%20OLT"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "osr/olt-material-catalog/find-device-SDX6320-template-by-emsnbiname.json"
+  }
+}

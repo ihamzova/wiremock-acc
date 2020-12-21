@@ -1,0 +1,163 @@
+{
+  "name": "SDX 6320-16 XGPON/GPON Combo OLT",
+  "materialNumber": "40958960",
+  "shortName": "SDX6320-16",
+  "manufacturer": "ADTRAN",
+  "emsNbiName": "SDX 6320 16-port Combo OLT",
+  "tkz": "11971330F1",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40958960",
+  "id": 1003,
+  "deviceType": {
+    "id": 1000,
+    "type": "OLT",
+    "deviceAttributes": []
+  },
+  "preprovisioningStrategy": "32_on-demand",
+  "equipmentHolderProfile": null,
+  "portProfiles": [
+    {
+      "id": 1089,
+      "portType": "GPON",
+      "orderNumber": 1,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1090,
+      "portType": "GPON",
+      "orderNumber": 2,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1091,
+      "portType": "GPON",
+      "orderNumber": 3,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1092,
+      "portType": "GPON",
+      "orderNumber": 4,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1093,
+      "portType": "GPON",
+      "orderNumber": 5,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1094,
+      "portType": "GPON",
+      "orderNumber": 6,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1095,
+      "portType": "GPON",
+      "orderNumber": 7,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1096,
+      "portType": "GPON",
+      "orderNumber": 8,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1097,
+      "portType": "GPON",
+      "orderNumber": 9,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1098,
+      "portType": "GPON",
+      "orderNumber": 10,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1099,
+      "portType": "GPON",
+      "orderNumber": 11,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1100,
+      "portType": "GPON",
+      "orderNumber": 12,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1101,
+      "portType": "GPON",
+      "orderNumber": 13,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1102,
+      "portType": "GPON",
+      "orderNumber": 14,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1103,
+      "portType": "GPON",
+      "orderNumber": 15,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1104,
+      "portType": "GPON",
+      "orderNumber": 16,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1105,
+      "portType": "10GE SFP+",
+      "orderNumber": 1,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1106,
+      "portType": "10GE SFP+",
+      "orderNumber": 2,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1107,
+      "portType": "10GE SFP+",
+      "orderNumber": 3,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1108,
+      "portType": "10GE SFP+",
+      "orderNumber": 4,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1109,
+      "portType": "100GE SFP+",
+      "orderNumber": 5,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1110,
+      "portType": "100GE SFP+",
+      "orderNumber": 6,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1111,
+      "portType": "100GE SFP+",
+      "orderNumber": 7,
+      "opticalModuleProfile": null
+    },
+    {
+      "id": 1112,
+      "portType": "100GE SFP+",
+      "orderNumber": 8,
+      "opticalModuleProfile": null
+    }
+  ]
+}

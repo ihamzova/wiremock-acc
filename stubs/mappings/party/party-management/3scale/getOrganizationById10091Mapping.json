@@ -1,0 +1,41 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/party/v2/partyManagement/organizations/10091.*"        
+  },
+  "response": {
+    "status": 200,
+    "jsonBody":
+    {
+      "id": 10091,
+      "isLegalEntity": true,
+      "type": "compositeOrganization",
+      "existsDuring": null,
+      "tradingName": "Mock_M-NET",
+      "nameType": "NetCo",
+      "status": "",
+      "characteristics": [
+        {
+          "name": "CarrierCode",
+          "value": "MNET"
+        },
+        {
+          "name": "isONTownedByDT",
+          "value": "0"
+        }
+      ],
+      "organizationIdentification": null,
+      "externalReference": [],
+      "relatedParty": null,
+      "organizationParentRelationship": null,
+      "organizationChildRelationship": null,
+      "contactMedium": [],
+      "locationResponsibility": [],
+      "otherName": null
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

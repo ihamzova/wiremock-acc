@@ -1,0 +1,28 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/port",
+    "queryParameters": {
+      "endSz": {
+        "equalTo": "49/8571/0/76Z7"
+      },
+      "slotNumber": {
+        "matches": "4"
+      },
+      "portNumber": {
+        "matches": "[0-7]"
+      },
+      "portType": {
+        "equalTo": "PON"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/port/{{replace request.query.endSz '/' '_'}}/slot_{{request.query.slotNumber}}/{{request.query.portNumber}}.json"
+  }
+}

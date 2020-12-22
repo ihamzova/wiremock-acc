@@ -4,7 +4,7 @@
     "urlPath": "/merlinCase/giga-areas-location/v2/fibreOnLocations/search",
     "queryParameters": {
       "klsId": {
-        "equalTo": "111222333004"
+        "equalTo": "221222333006"
       }
     }
   },
@@ -18,15 +18,15 @@
         {
           "creationDate": "2020-11-04T05:01:40.152Z",
           "modificationDate": "2020-11-04T05:01:40.152Z",
-          "id": "1000000007",
-          "klsId": 111222333004,
+          "id": "1000000008",
+          "klsId": 221222333006,
           "distributionPointID": "A",
           "installationStatus": "CONNECTED",
-          "demandCarrier": "RESIDENTIAL_BUILDING",
-          "areaType": "RESIDENTIAL",
+          "demandCarrier": "COMMERCIAL_BUILDING",
+          "areaType": "INDUSTRIAL",
           "reasonForNoConstruction": "TELEKOM_CANCELLATION",
           "technology": "FTTB",
-          "rolloutSponsor": "NATIONWIDE_PROMOTION_PROGRAM",
+          "rolloutSponsor": "COOPERATION",
           "we": 5,
           "ge": 6,
           "sl": 7,
@@ -37,10 +37,10 @@
             "number": "FRANKFURT_003",
             "rolloutDate": "2021-12-31T11:26:20.084Z",
             "areaStatus": "UNDER_CONSTRUCTION",
-            "initiative": "WHOLE_BUY_OAL",
+            "initiative": "WHOLE_BUY_BSA",
             "plannedFrom": "2019-01-03T11:26:20.084Z",
             "plannedTo": "2021-12-29T11:26:20.084Z",
-            "netCoOrganisationId": 10001,
+            "netCoOrganisationId": 10091,
             "thresholdData": {
               "threshold": 50,
               "ordersCountInVVM": 30,
@@ -65,10 +65,10 @@
               "number": "FRANKFURT_003",
               "rolloutDate": "2021-12-31T11:26:20.084Z",
               "areaStatus": "UNDER_CONSTRUCTION",
-              "initiative": "WHOLE_BUY_OAL",
+              "initiative": "WHOLE_BUY_BSA",
               "plannedFrom": "2019-01-03T11:26:20.084Z",
               "plannedTo": "2021-12-29T11:26:20.084Z",
-              "netCoOrganisationId": 10001,
+              "netCoOrganisationId": 10091,
               "thresholdData": {
                 "threshold": 50,
                 "ordersCountInVVM": 30,

@@ -9,6 +9,9 @@
       },
       "portNumber": {
         "matches": "[1-9]|[1][0-6]{1}"
+      },
+      "portType": {
+        "equalTo": "PON"
       }
     }
   },

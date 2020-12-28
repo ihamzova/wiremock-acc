@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "Error while processing Create Resource Order with externalId: '{{jsonPath request.body '$.externalId'}}'",
+    "status": 400,
+    "externalId": "{{jsonPath request.body '$.externalId'}}"
+  },
+  "success": false
+}

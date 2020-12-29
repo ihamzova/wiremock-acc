@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/api/genericCallbackConsumer/v1.0/consume/201/.*"
+    "urlPattern": "/api/genericCallbackConsumer/v1.0/consume/201/.*"  
   },
   "response": {
     "body": "Created",

@@ -16,6 +16,24 @@
           "/pubsub/r",
           "/pubsub/s"
         ]
+      },
+      {
+        "resource": "/service-order-service-inventory/v1/localServiceInventory",
+        "pattern": [
+          ""
+        ]
+      },
+      {
+        "resource": "/service-order-service-inventory/v1/OntChangedNotification",
+        "pattern": [
+          ""
+        ]
+      },
+      {
+        "resource": "/service-order-service-inventory/v1/OntAuthenticationServices",
+        "pattern": [
+          ""
+        ]
       }
     ],
     "callback_urls": {

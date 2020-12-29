@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/genericCallbackConsumer/v1.0/consume/202/.*"
+  },
+  "response": {
+    "body": "Accepted",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 202
+  },
+  "priority": 9
+}

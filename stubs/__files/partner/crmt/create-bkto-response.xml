@@ -37,14 +37,14 @@
                 </csdg:businessContext>
             </typ:context>
             <typ:data>
-                <bomtypes:anlegenRechnungsvereinbarungReply>
+                <bomtypes:anlegenRechnungsvereinbarungResponse>
                     <bomtypes:RequestErgebnis>
                         <bom:Rechnungsvereinbarungsnummer>4563217890</bom:Rechnungsvereinbarungsnummer>
                         <crmt:RechnungsvereinbarungsnummerFinal>true</crmt:RechnungsvereinbarungsnummerFinal>
                         <sepa:Mandatsreferenz>DE000201000200000000000000000990001</sepa:Mandatsreferenz>
                     </bomtypes:RequestErgebnis>
                     <crmt:ReturnCode>00</crmt:ReturnCode>
-                </bomtypes:anlegenRechnungsvereinbarungReply>
+                </bomtypes:anlegenRechnungsvereinbarungResponse>
             </typ:data>
         </tns:anlegenRechnungsvereinbarungResponse>
     </soapenv:Body>

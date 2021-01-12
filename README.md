@@ -83,7 +83,7 @@ Example:
   ...
   "postServeActions": {
     "persist": {
-      "action": "action, one of {set, clear}",
+      "action": "action, one of {set, unset, clearAll}",
       "key": "key",
       "value": "value",
       "filename": "relative path to __files", // mutually exclusive with value

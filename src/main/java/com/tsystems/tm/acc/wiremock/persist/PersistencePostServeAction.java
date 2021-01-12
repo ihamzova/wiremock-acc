@@ -58,7 +58,12 @@ public class PersistencePostServeAction extends PostServeActionWithHandlebars {
                         persistenceService.put(definition.getKey(), definition.getValue());
                     }
                     break;
-                case clear:
+                case unset:
+                    if (definition.getKey() != null) {
+                        persistenceService.clear(definition.getKey());
+                    }
+                    break;
+                case clearAll:
                     persistenceService.clear();
                     break;
             }
@@ -74,6 +79,11 @@ public class PersistencePostServeAction extends PostServeActionWithHandlebars {
                 .put("parameters", firstNonNull(parameters, Collections.<String, Object>emptyMap()))
                 .put("request", RequestTemplateModel.from(serveEvent.getRequest())).build();
 
+        if (definition.getKey() != null) {
+            Template bodyTemplate = uncheckedCompileTemplate(definition.getKey());
+            String newValue = uncheckedApplyTemplate(bodyTemplate, model);
+            definition.withKey(newValue);
+        }
         if (definition.getValue() != null) {
             Template bodyTemplate = uncheckedCompileTemplate(definition.getValue());
             String newValue = uncheckedApplyTemplate(bodyTemplate, model);

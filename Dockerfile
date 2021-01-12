@@ -3,6 +3,10 @@ FROM mtr.external.otc.telekomcloud.com/digitalhub/zulu-openjdk-8:master
 LABEL quay.expires-after=12w
 
 ENV WM_PACKAGE wiremock
+ENV STUBS_PATH="."
+ENV CONTAINER_THREADS="10"
+ENV ASYNC_RESPONSE_THREADS="10"
+ENV ADDITIONAL_OPTIONS=""
 
 RUN mkdir /$WM_PACKAGE
 
@@ -31,4 +35,4 @@ COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
 EXPOSE 8080
 
-CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi,com.tsystems.tm.acc.wiremock.groovy.GroovyRequestMatcherExtension --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS
+CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi,com.tsystems.tm.acc.wiremock.groovy.GroovyRequestMatcherExtension --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS $ADDITIONAL_OPTIONS

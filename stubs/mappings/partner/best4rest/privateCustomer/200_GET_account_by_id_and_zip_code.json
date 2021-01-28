@@ -2,7 +2,12 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/best4rest/v1/accounts/([0-9]{10})/contracts?postcode=([0-9]{5})"
+    "urlPathPattern": "/best4rest/v1/accounts/([0-9]{10})/contracts",
+    "queryParameters": {
+      "postcode": {
+        "matches": "([0-9]{5})"
+      }
+    }
   },
   "response": {
     "status": 200,

@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/best4rest/v1/accounts/([0-9]{10})/contracts",
+    "urlPathPattern": "/best4rest/v1/accounts/4962110854/contracts",
     "queryParameters": {
       "postcode": {
         "matches": "([0-9]{5})"

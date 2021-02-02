@@ -4,7 +4,7 @@
       "name": "Get organization info for user with partyId = 10010",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10010?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10010(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,
@@ -18,7 +18,7 @@
       "name": "Get organization info for user with partyId = 10011",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10011?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10011(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,
@@ -32,7 +32,7 @@
       "name": "Get organization info for user with partyId = 10009",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10009?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10009(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,
@@ -46,7 +46,7 @@
       "name": "Get organization info for user with partyId = 10002",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10002?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10002(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,
@@ -60,7 +60,7 @@
       "name": "Get organization info for user with partyId = 10001",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10001?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10001(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,
@@ -74,7 +74,7 @@
       "name": "Get organization info for user with partyId = 10000",
       "request": {
         "method": "GET",
-        "url": "/party/v2/partyManagement/organizations/10000?loadLocations=true"
+        "urlPattern": "/party/v2/partyManagement/organizations/10000(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,

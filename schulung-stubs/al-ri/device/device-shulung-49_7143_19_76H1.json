@@ -1,0 +1,598 @@
+{
+    "id": "8320db73-84df-42ea-893f-1b8096035d5f",
+    "uuid": "8320db73-84df-42ea-893f-1b8096035d5f",
+    "priority": 2,
+    "request": {
+        "url": "/resource-order-resource-inventory/v1/rial/olt/?endSz=49/7143/19/76H1",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "endSz": "49/7143/19/76H1",
+            "fachSz": "76H1",
+            "type": "OLT",
+            "equipmentHolders": [
+                {
+                    "slotNumber": "1",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "2",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "3",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "4",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "5",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "6",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "7",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "slotNumber": "8",
+                    "card": {
+                        "cardType": "GPON",
+                        "ports": [
+                            {
+                                "portType": "PON",
+                                "portNumber": "0"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "1"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "2"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "3"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "4"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "5"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "6"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "7"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "8"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "9"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "10"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "11"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "12"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "13"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "14"
+                            },
+                            {
+                                "portType": "PON",
+                                "portNumber": "15"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

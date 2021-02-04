@@ -1,0 +1,25 @@
+{
+	"id": "6876aacb-3d66-4ee9-9ea1-06f18fd14414",
+	"request": {
+		"url": "/resource-order-resource-inventory/v1/rial/olt/vpszlookup",
+		"method": "GET",
+		"queryParameters": {
+			"vpsz": {
+				"equalTo": "49/2233/19"
+			},
+			"devicetype": {
+				"equalTo": "OLT"
+			}
+		}
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": [
+			"49/2233/19/76H1"
+		],
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	},
+	"uuid": "6876aacb-3d66-4ee9-9ea1-06f18fd14414"
+}

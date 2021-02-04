@@ -32,6 +32,7 @@ COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
 
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
+COPY schulung-stubs /$WM_PACKAGE/schulung-stubs
 
 EXPOSE 8080
 

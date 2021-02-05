@@ -1,6 +1,34 @@
 {
   "mappings": [
     {
+      "name": "Get organization info for user with partyId = 10025 Wagner GmbH",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/party/v2/partyManagement/organizations/10025(\\?loadLocations=true|)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10025.json"
+      }
+    },
+    {
+      "name": "Get organization info for user with partyId = 10013 LEONHARD WEISS GmbH & Co. KG",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/party/v2/partyManagement/organizations/10013(\\?loadLocations=true|)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/organization-with-id-10013.json"
+      }
+    },
+    {
       "name": "Get organization info for user with partyId = 10010",
       "request": {
         "method": "GET",

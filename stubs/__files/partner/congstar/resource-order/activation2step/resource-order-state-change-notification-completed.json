@@ -29,7 +29,7 @@
             "connectedDate": "{{now format='yyyy-MM-dd'}}",
             "installationPlace": {
               "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
-              "homeId": "47110815",
+              "homeId": "{{randomValue length=7 type='NUMERIC'}}",
               "@type": "GatewayPlace"
             }
           }

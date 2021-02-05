@@ -1,0 +1,31 @@
+{
+    "request": {
+        "urlPattern": "/rmc",
+        "method": "POST"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "jsonBody": {
+            "rmcTransactionNumber": "af1519418708"
+        }
+    },
+    "postServeActions": {
+        "webhook": {
+            "fixedDelayMilliseconds": 50,
+            "url": "http://presales-service-app/v1/orders/{{jsonPath request.body '$.orderId'}}/creditcheck/callback",
+            "jsonBody": {
+                "rmcTransactionNumber": "af1519418708",
+                "decision": "approved",
+                "messages": []
+            },
+            "method": "POST",
+            "headers": {
+                "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+                "Content-Type": "application/json"
+            }
+        }
+    }
+}

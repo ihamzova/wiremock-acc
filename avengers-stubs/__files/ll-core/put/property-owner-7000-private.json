@@ -1,0 +1,67 @@
+{
+  "contacts": [
+    {
+      "id": 197,
+      "primaryContact": true,
+      "role": "Eigentümer",
+      "contactOrganizationName": null,
+      "familyName": "Koch",
+      "givenName": "Stefan",
+      "salutation": "MR",
+      "title": null,
+      "medium": [
+        {
+          "mediumType": "MOBILE",
+          "emailAddress": null,
+          "phoneNumber": "+49123456789",
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": false
+        },
+        {
+          "mediumType": "EMAIL",
+          "emailAddress": "stefan@koch.de",
+          "phoneNumber": null,
+          "street": null,
+          "houseNumber": null,
+          "houseNumberExtension": null,
+          "postCode": null,
+          "city": null,
+          "country": null,
+          "stateOrProvince": null,
+          "postOfficeBox": null,
+          "preferred": true
+        }
+      ]
+    }
+  ],
+  "propertyOwner": {
+    "id": 241,
+    "propertyOwnerType": "PERSON",
+    "ownerClassificationType": "PROPERTY_OWNER",
+    "propertyOwnerAddress": {
+      "street": "Dorfstraße",
+      "houseNumber": "15",
+      "houseNumberExtension": null,
+      "postCode": "1015",
+      "city": "Berlin",
+      "country": "DE",
+      "stateOrProvince": null,
+      "postOfficeBox": null
+    },
+    "organizationName": null,
+    "organizationId": null,
+    "legalForm": null,
+    "propertyOwnerNumber": 7000,
+    "primaryContactId": 197
+  },
+  "resourceAssociation": {
+    "tenantId": 10001
+  }
+}

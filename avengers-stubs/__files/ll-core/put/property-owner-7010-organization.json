@@ -1,7 +1,7 @@
 {
   "contacts": [
     {
-      "id": 197,
+      "id": 188,
       "primaryContact": true,
       "role": "Eigentümer",
       "contactOrganizationName": null,
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 198,
+      "id": 189,
       "primaryContact": false,
       "role": "Kontaktperson",
       "contactOrganizationName": null,
@@ -88,6 +88,7 @@
           "postCode": 53125,
           "city": "Bonn",
           "country": "DE",
+          "stateOrProvince": "Nordrhein-Westfalen",
           "postOfficeBox": null,
           "preferred": false
         }
@@ -95,8 +96,8 @@
     }
   ],
   "propertyOwner": {
-    "id": 241,
-    "propertyOwnerType": "PERSON",
+    "id": 277,
+    "propertyOwnerType": "ORGANIZATION",
     "ownerClassificationType": "PROPERTY_OWNER",
     "propertyOwnerAddress": {
       "street": "Straße der Pariser Kommune",
@@ -108,11 +109,11 @@
       "stateOrProvince": null,
       "postOfficeBox": null
     },
-    "organizationName": null,
-    "organizationId": null,
-    "legalForm": null,
-    "propertyOwnerNumber": 7000,
-    "primaryContactId": 197
+    "organizationName": "Hansa",
+    "organizationId": 123456,
+    "legalForm": "GmbH",
+    "propertyOwnerNumber": 7010,
+    "primaryContactId": 188
   },
   "resourceAssociation": {
     "tenantId": 10001

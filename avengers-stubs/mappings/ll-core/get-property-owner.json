@@ -4,7 +4,7 @@
       "name": "Get private PropertyOwner by number - 7000",
       "request": {
         "method": "GET",
-        "urlPattern": "/landlord-management/v2/propertyOwner/7000"
+        "urlPattern": "/landlord-management/v2/propertyOwner\\?property-owner-number=7000&tenant-id=\\d+"
       },
       "response": {
         "status": 200,
@@ -18,7 +18,7 @@
       "name": "Get organization PropertyOwner by number - 7010",
       "request": {
         "method": "GET",
-        "urlPattern": "/landlord-management/v2/propertyOwner/7010"
+        "urlPattern": "/landlord-management/v2/propertyOwner\\?property-owner-number=7010&tenant-id=\\d+"
       },
       "response": {
         "status": 200,

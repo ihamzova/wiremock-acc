@@ -12,7 +12,7 @@
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "supplier-management/supplier-partyId-1013.json"
+        "bodyFileName": "supplier-management/supplier-partyId-10013.json"
       }
     },
     {
@@ -20,14 +20,14 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=10014"
+        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=10025"
       },
       "response": {
         "status": 200,
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "supplier-management/supplier-partyId-1014.json"
+        "bodyFileName": "supplier-management/supplier-partyId-10025.json"
       }
     }
   ]

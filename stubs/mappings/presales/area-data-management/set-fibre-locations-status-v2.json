@@ -1,0 +1,15 @@
+{
+  "id": "85549d14-3be4-4bbb-84ee-2c16c26b5f3f",
+  "priority": 5,
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/giga-areas-location/v2/fibreOnLocations/(\\d+)/wbStatus"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "presales/area-data-management/fiber-location-status-update-by-folid-v2.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "creationDate": "2021-02-07T11:47:30.516Z",
+  "modificationDate": "2021-02-07T11:47:30.516Z",
+  "id": "string",
+  "klsId": 0,
+  "distributionPointID": "string",
+  "distributionPointName": "string",
+  "geoLatitude": 0,
+  "geoLongitude": 0,
+  "geoSource": "string",
+  "installationStatus": "{{jsonPath request.body '$.installationStatus'}}",
+  "demandCarrier": "FTTH",
+  "areaType": "DEVELOPMENT",
+  "reasonForNoConstruction": "NO_OWNER_COMMIT",
+  "technology": "FTTH",
+  "rolloutSponsor": "SELF_EXPANSION",
+  "installationDate": "2021-02-07T11:47:30.516Z",
+  "we": 0,
+  "ge": 0,
+  "sl": 0,
+  "realizationTime": 0,
+  "bandwidthProfiles": [
+    "string"
+  ],
+  "validationDateFlats": "2021-02-07T11:47:30.516Z",
+  "wbAddressStatus": "{{jsonPath request.body '$.wbAddressStatus'}}",
+  "gigaArea": {
+    "creationDate": "2021-02-07T11:47:30.516Z",
+    "modificationDate": "2021-02-07T11:47:30.516Z",
+    "name": "string",
+    "number": "string",
+    "rolloutDate": "2021-02-07T11:47:30.516Z",
+    "areaStatus": "VVM_ONGOING",
+    "initiative": "SELF_EXPANSION",
+    "plannedFrom": "2021-02-07T11:47:30.516Z",
+    "plannedTo": "2021-02-07T11:47:30.516Z",
+    "netCoOrganisationId": 0,
+    "thresholdData": {
+      "threshold": 0,
+      "ordersCountInVVM": 0,
+      "additionalOrdersCountInVVM": 0
+    },
+    "rolloutPartnerRegular": 0,
+    "rolloutPartnerInitial": 0,
+    "passiveProvider": 0,
+    "internalExpansionDecisionDate": "2021-02-07T11:47:30.516Z"
+  },
+  "nvtArea": {
+    "creationDate": "2021-02-07T11:47:30.516Z",
+    "modificationDate": "2021-02-07T11:47:30.516Z",
+    "businessId": 0,
+    "asb": 0,
+    "name": "string",
+    "onkz": "string",
+    "nvtKlsId": 0,
+    "rolloutPartnerRegular": 0,
+    "gigaArea": {
+      "creationDate": "2021-02-07T11:47:30.516Z",
+      "modificationDate": "2021-02-07T11:47:30.516Z",
+      "name": "string",
+      "number": "string",
+      "rolloutDate": "2021-02-07T11:47:30.516Z",
+      "areaStatus": "VVM_ONGOING",
+      "initiative": "SELF_EXPANSION",
+      "plannedFrom": "2021-02-07T11:47:30.516Z",
+      "plannedTo": "2021-02-07T11:47:30.516Z",
+      "netCoOrganisationId": 0,
+      "thresholdData": {
+        "threshold": 0,
+        "ordersCountInVVM": 0,
+        "additionalOrdersCountInVVM": 0
+      },
+      "rolloutPartnerRegular": 0,
+      "rolloutPartnerInitial": 0,
+      "passiveProvider": 0,
+      "internalExpansionDecisionDate": "2021-02-07T11:47:30.516Z"
+    }
+  }
+}

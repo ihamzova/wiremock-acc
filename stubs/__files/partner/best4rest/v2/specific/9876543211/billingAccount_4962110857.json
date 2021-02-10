@@ -8,7 +8,7 @@
     "bic": "10050001",
     "sepaAccountHolder": "RC-Thirteen-One"
   },
-  "differentAccountHolderFlag": "true",
+  "differentAccountHolderFlag": true,
   "_links": {
     "self": {
       "href": "/v2/accounts/9876543211/billingAccounts/4962110857"

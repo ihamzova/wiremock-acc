@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v2/accounts/8882105959/contacts/([A-Za-z0-9-]+)/contactMedia/3-BUSINESS-CM"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/V2/businessCustomer/contactMedia_landline.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

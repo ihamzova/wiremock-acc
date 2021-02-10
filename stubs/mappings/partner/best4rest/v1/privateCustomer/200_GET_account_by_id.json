@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/([0-9]{10})"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/V1/privateCustomer/account.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

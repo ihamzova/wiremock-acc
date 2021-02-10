@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/8331394971/customerOrders/customerOrders?status=OPEN"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/V1/specific/8331394971/open_orders.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

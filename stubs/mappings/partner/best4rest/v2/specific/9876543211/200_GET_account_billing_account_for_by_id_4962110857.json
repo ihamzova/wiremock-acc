@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v2/accounts/9876543211/billingAccounts/4962110857"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/V2/specific/9876543211/billingAccount_4962110857.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

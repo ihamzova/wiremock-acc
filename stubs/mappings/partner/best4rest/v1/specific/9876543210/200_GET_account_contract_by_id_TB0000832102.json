@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/best4rest/v1/accounts/9876543210/contracts/TB0000832102"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/V1/specific/9876543210/contract_TB0000832102.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

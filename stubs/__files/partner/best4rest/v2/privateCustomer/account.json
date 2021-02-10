@@ -1,0 +1,37 @@
+{
+  "id": "{{request.requestLine.pathSegments.[3]}}",
+  "firstName": "John",
+  "lastName": "Doe",
+  "lastNamePart1": "Doe",
+  "salutationId": "2",
+  "salutation": "MR",
+  "birthDate": "1981-01-01",
+  "VBKZ": "25",
+  "legalFormId": "18",
+  "status": "ACTIVE",
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}"
+    },
+    "primaryContact": {
+      "id": "1-1D0-267",
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1D0-267"
+    },
+    "mainContact": {
+      "id": "1-1D0-267",
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contacts/1-1D0-267"
+    },
+    "contacts": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contacts"
+    },
+    "contracts": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts"
+    },
+    "openOrders": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/customerOrders?status=OPEN"
+    },
+    "billingAccounts": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/billingAccounts"
+    }
+  }
+}

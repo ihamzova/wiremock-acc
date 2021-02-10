@@ -1,0 +1,37 @@
+{
+  "count": 2,
+  "total": 2,
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts?limit=20"
+    },
+    "first": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts?limit=20"
+    },
+    "last": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contracts": [
+      {
+        "roles": [
+          "CONTRACT_PARTNER"
+        ],
+        "self": {
+          "id": "TB0000832101",
+          "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts/TB0000832101"
+        }
+      },
+      {
+        "roles": [
+          "CONTRACT_PARTNER"
+        ],
+        "self": {
+          "id": "TB0000835207",
+          "href": "/v2/accounts/{{request.requestLine.pathSegments.[3]}}/contracts/TB0000835207"
+        }
+      }
+    ]
+  }
+}

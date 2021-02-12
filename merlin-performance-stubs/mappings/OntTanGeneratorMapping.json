@@ -9,6 +9,9 @@
 	"headers": {
         "Content-Type": "application/json"
     },
-	"bodyFileName": "OntTanGenerator.json"
+    "jsonBody": {
+      "tan": "{{#assign 'tanVal'}}{{randomValue type='UUID'}}{{/assign}}{{tanVal}}",
+      "tanLink": "/link/{{tanVal}}"
+    }
   }
 }

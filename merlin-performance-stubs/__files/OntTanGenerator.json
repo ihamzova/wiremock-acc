@@ -1,5 +1,0 @@
-{
-    {{#assign 'tanVal'}}{{randomValue type='UUID'}}{{/assign}}
-    "tan": "{{tanVal}}",
-    "tanLink": "/link/{{tanVal}}"
-}

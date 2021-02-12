@@ -15,7 +15,6 @@
     "webhook": {
       "method": "POST",
       "url": "{{jsonPath request.body '$.callbackUrl'}}",
-      "fixedDelayMilliseconds": 3000,
       "headers": {
         "Content-Type": "application/json"
       },

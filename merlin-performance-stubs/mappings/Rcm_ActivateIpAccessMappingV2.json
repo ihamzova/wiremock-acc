@@ -19,13 +19,321 @@
 	"postServeActions": {
 		"webhook": {
 		  "method": "POST",
-		  "fixedDelayMilliseconds": 4000,
 		  "headers": {
 			"Content-Type": "application/json",
 			"X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id.[0]}}"
 		  },
 		  "url": "{{request.headers.X-Callback-Url.[0]}}",
-		  "bodyFileName": "Rcm_ActivateIpAccessV2.json"
+		  "jsonBody": {
+			  "callbackStatus": {
+				  "code": "RCM_OK",
+				  "reason": ""
+			  },
+			  "service": {
+				  "id": "{{jsonPath request.body '$.id'}}",
+				  "href": null,
+				  "name": "IpAccessConfigOperational",
+				  "description": null,
+				  "@type": null,
+				  "version": "2",
+				  "state": "active",
+				  "serviceSpecification": null,
+				  "characteristic": [
+					  {
+						  "name": "UMT_Service_Data_OCSSubscriptionID",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'subscriptionIdName'}}UMT_Service_Data_OCSSubscriptionID{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name subscriptionIdName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "IPv4NetMask",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'ipv4NetMaskName'}}IPv4NetMask{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name ipv4NetMaskName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "CoANAKReaction",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'coANAKReactionName'}}CoANAKReaction{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name coANAKReactionName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "TunnelProfile",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'tunnelProfileName'}}TunnelProfile{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name tunnelProfileName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "CredentialsRequested",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'credentialsRequestedName'}}CredentialsRequested{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name credentialsRequestedName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "MaxDownspeed",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'maxDownspeedName'}}MaxDownspeed{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name maxDownspeedName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "DelegatedIPv6Prefix",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'iPv6PrefixName'}}DelegatedIPv6Prefix{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name iPv6PrefixName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "DNSProfile",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'dnsProfileName'}}DNSProfile{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name dnsProfileName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "FilterID",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'filterIDName'}}FilterID{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name filterIDName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "FramedIPv6Prefix",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'iPv6PrefixName'}}FramedIPv6Prefix{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name iPv6PrefixName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "IPv4Address",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'iPv4AddressName'}}IPv4Address{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name iPv4AddressName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "InfluenceSession",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'influenceSessionName'}}InfluenceSession{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name influenceSessionName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "DelegatedIPv6PrefixLength",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'iPv6PrefixLengthName'}}DelegatedIPv6PrefixLength{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name iPv6PrefixLengthName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "UMT_Service_Data_ThrottleProfile",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'throttleProfileName'}}UMT_Service_Data_ThrottleProfile{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name throttleProfileName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "MaxSessionDuration",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'durationName'}}MaxSessionDuration{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name durationName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "haMSISDN",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'haMSISDNName'}}haMSISDN{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name haMSISDNName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "UMT_Service_Data_ThrottleDownL3",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'throttleDownL3Name'}}UMT_Service_Data_ThrottleDownL3{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name throttleDownL3Name}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "ProfileID",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'profileIDName'}}ProfileID{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name profileIDName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "ReservePrefix",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'reservePrefixName'}}ReservePrefix{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name reservePrefixName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "UMT_Service_Data_ThrottleUpL3",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'throttleUpL3Name'}}UMT_Service_Data_ThrottleUpL3{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name throttleUpL3Name}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "FramedIPv6PrefixLength",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'framedIPv6PrefixLengthName'}}FramedIPv6PrefixLength{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name framedIPv6PrefixLengthName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "TerminationProfile",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'terminationProfileName'}}TerminationProfile{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name terminationProfileName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "TeilnehmerSperre",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'teilnehmerSperreName'}}TeilnehmerSperre{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name teilnehmerSperreName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "LineID",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'lineIDName'}}LineID{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name lineIDName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "MehrfachZugang",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'mehrfachZugangName'}}MehrfachZugang{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name mehrfachZugangName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "IPVersion",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'iPVersionName'}}IPVersion{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name iPVersionName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "User-Auth-Required",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'user-Auth-RequiredName'}}User-Auth-Required{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name user-Auth-RequiredName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "UseCase",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'useCaseName'}}UseCase{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name useCaseName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "BSS_OE_OrderID",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'bSS_OE_OrderIDName'}}BSS_OE_OrderID{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name bSS_OE_OrderIDName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "ProfilSet",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'profilSetName'}}ProfilSet{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name profilSetName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "TO-Nr",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'toName'}}TO-Nr{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name toName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  },
+					  {
+						  "name": "MaxUpspeed",
+						  "valueType": null,
+						  "value": {
+							  "@type": null,
+							  "@schemaLocation": null,
+							  "value": "{{#assign 'maxUpspeedName'}}MaxUpspeed{{/assign}}{{#each (jsonPath request.body '$.characteristic') as |char|}}{{#eq char.name maxUpspeedName}}{{char.value.value}}{{/eq}}{{/each}}"
+						  }
+					  }
+				  ],
+				  "serviceRelationship": [],
+				  "relatedParty": [],
+				  "supportingService": [],
+				  "supportingResource": []
+			  }
+		  }
 		}
 	}
 }

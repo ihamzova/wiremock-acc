@@ -1,45 +1,48 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/api/tanShipment/v1.0/shipment/send"
+    "urlPattern": "/api/tanShipment/v3/shipment/tanLink"
   },
 
   "response": {
-    "status": 201,
+    "status": 200,
     "statusMessage": "TAN link send to customer"
   },
 
   "postServeActions": {
     "webhook": {
       "method": "POST",
-      "url": "http://service-order-process-app/service-order-process-rs/OntAuthenticationServiceOrderNotification",
-      "fixedDelayMilliseconds": 4000,
+      "url": "http://service-order-process-app/service-order-process-rs/v1/cecServiceOrderNotification",
+      "fixedDelayMilliseconds": 1000,
       "headers": {
         "Content-Type": "application/json"
       },
       "jsonBody": {
         "eventId": "{{randomValue length=10 type='NUMERIC'}}",
         "eventTime": "2020-24-08 10:28:00.000",
-        "ontAuthenticationServiceOrder": {
+        "customerEquipmentServiceOrderItem": {
           "orderState": "completed",
+          "CEC-Order-ID": "1234",
           "orderIdentifier": {
-            "OntTan": "{{regexExtract (jsonPath request.body '$.tanLink') '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'}}"
+            "Tan": "{{regexExtract (jsonPath request.body '$.tanLink') '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'}}"
           },
-          "ontAuthenticationService": {
-            "OntTanLink": "{{jsonPath request.body '$.tanLink'}}",
-            "OntTanLinkStatus": "used",
-            "OntSerialNumber": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].ontSerialNumber'}}",
-            "HomeID": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].homeId'}}",
-            "LineId": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].lineId'}}",
-            "CplId": "{{groovy arg1='performanceData' arg2='counter' inline='return persistence.get(arg1)[persistence.get(arg2)].cplId'}}"
+          "tanLink": {
+            "TanLink": "http:/example-link/",
+            "TanLinkStatus": "used"
+          },
+          "anschluss": {
+            "Technology": "FTTH",
+            "HomeID": "00011V3",
+            "LineId": "DEU.DTAG.WSPA000001",
+            "CplId": "ITROGJ"
+          },
+          "customerEquipment": {
+            "SerialNumber": "414C434C00000001"
+          },
+          "subscriber": {
+            "Providernumber": "1234"
           }
         }
-      }
-    },
-    "groovy": {
-      "inline": "persistence.put(arg1, persistence.get(arg1) + 1)",
-      "arguments":{
-        "arg1": "counter"
       }
     }
   }

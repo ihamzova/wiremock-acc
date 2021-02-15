@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPath": "/api/accessLineResourceInventory/v3/lineIdPool/lineId/search",
+    "urlPath": "/resource-order-resource-inventory/v3/lineIdPool/lineId/search",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$[?(@.lineId =~ /[A-Z0-9]{3}.*/)]"

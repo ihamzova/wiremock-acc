@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPath": "/api/accessLineResourceInventory/v3/homeIdPool/search/homeId",
+    "urlPath": "/resource-order-resource-inventory/v3/homeIdPool/search/homeId",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$[?(@.endSz =~ /[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}[\\/a-zA-Z0-9]{0,5}/)]"

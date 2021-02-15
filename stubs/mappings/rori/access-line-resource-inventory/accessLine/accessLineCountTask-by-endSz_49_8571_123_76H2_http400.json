@@ -2,7 +2,7 @@
   "priority": 4,
   "request": {
     "method": "POST",
-    "urlPath": "/api/accessLineResourceInventory/v3/accessLine/accessLineCountTask",
+    "urlPath": "/resource-order-resource-inventory/v3/accessLine/accessLineCountTask",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$[?(@.endSz == '49/8571/123/76H2')]"

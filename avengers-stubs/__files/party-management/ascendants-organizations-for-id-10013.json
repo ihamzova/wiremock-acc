@@ -1,0 +1,32 @@
+[
+  {
+    "id": 10013,
+    "isLegalEntity": true,
+    "type": "atomic",
+    "tradingName": "Leonard Weiss fuer DTAG",
+    "nameType": "Supplier",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "hasContractswith",
+      "id": 10001
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10001,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Telekom Deutschland GmbH",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "DTAG"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

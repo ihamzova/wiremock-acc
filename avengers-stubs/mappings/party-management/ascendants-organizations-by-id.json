@@ -1,0 +1,32 @@
+{
+  "mappings": [
+    {
+      "name": "Get organization info for user with partyId = 10013 (LeonhardWeiss)",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10013/ascendants?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-mgmt/ascendants-organizations-for-id-10013.json"
+      }
+    },
+    {
+      "name": "Get organization info for user with partyId = 10025 (WagnerGmbH)",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/10025/ascendants?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-mgmt/ascendants-organizations-for-id-10025.json"
+      }
+    }
+  ]
+}

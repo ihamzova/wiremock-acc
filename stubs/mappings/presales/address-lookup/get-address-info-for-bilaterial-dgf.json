@@ -209,6 +209,126 @@
           "houseQualifier": "9"
         }
       }
+    },
+    {
+      "id": "02525178-7b82-4715-978e-0b8adea82f78",
+      "name": "address-lookup-by-klsid-6970713",
+      "priority": 1,
+      "metadata": {
+        "testCase": "carrier triggered cancellation",
+        "issue": "DIGIHUB-95389"
+      },
+      "request": {
+        "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/6970713",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Schillerstr.",
+          "streetNameShort": "Schillerstr.",
+          "houseNumber": 4,
+          "houseNumberSupplement": "",
+          "houseQualifier": "4"
+        }
+      }
+    },
+    {
+      "id": "45245af7-6a9b-4554-b0d2-945f13c26f85",
+      "name": "address-lookup-by-klsid-7288409",
+      "priority": 1,
+      "metadata": {
+        "testCase": "carrier triggered cancellation",
+        "issue": "DIGIHUB-95389"
+      },
+      "request": {
+        "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/7288409",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Am Dorn",
+          "streetNameShort": "Am Dorn",
+          "houseNumber": 8,
+          "houseNumberSupplement": "",
+          "houseQualifier": "8"
+        }
+      }
+    },
+    {
+      "id": "cfb765d9-1737-480e-a482-1315ecf29665",
+      "name": "address-lookup-by-klsid-6972837",
+      "priority": 1,
+      "metadata": {
+        "testCase": "carrier triggered cancellation",
+        "issue": "DIGIHUB-95389"
+      },
+      "request": {
+        "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/6972837",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Gerhart-Hauptmann-Str.",
+          "streetNameShort": "Gerhart-Hauptmann-Str.",
+          "houseNumber": 14,
+          "houseNumberSupplement": "",
+          "houseQualifier": "14"
+        }
+      }
+    },
+    {
+      "id": "5db54538-770e-457b-9741-6a7d240e8dd3",
+      "name": "address-lookup-by-klsid-6970719",
+      "priority": 1,
+      "metadata": {
+        "testCase": "carrier triggered cancellation",
+        "issue": "DIGIHUB-95389"
+      },
+      "request": {
+        "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/6970719",
+        "method": "GET"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "klsId": "{{request.requestLine.pathSegments.[5]}}",
+          "zipCode": "59348",
+          "municipalityName": "Lüdinghausen",
+          "distributionAreaName": "Lüdinghausen",
+          "streetName": "Schillerstr.",
+          "streetNameShort": "Schillerstr.",
+          "houseNumber": 10,
+          "houseNumberSupplement": "",
+          "houseQualifier": "10"
+        }
+      }
     }
   ]
 }

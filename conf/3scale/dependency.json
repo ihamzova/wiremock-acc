@@ -34,6 +34,57 @@
         "pattern": [
           ""
         ]
+      },
+      {
+        "resource": "/giga-project-dioss/v5/workorders",
+        "pattern": []
+      },
+      {
+        "resource": "/giga-project-dioss/v1/supplierProjectEvent/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ]
+      },
+      {
+        "resource": "/giga-project-dioss/v1/areaProgramEvent/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ]
+      },
+      {
+        "resource": "/giga-project-dioss/v1/gigaOrderEvent",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ]
+      },
+      {
+        "resource": "/giga-project-dioss/v1/areaPrograms/",
+        "pattern": []
+      },
+      {
+        "resource": "/giga-project-dioss/v1/supplierprojects/",
+        "pattern": []
+      },
+      {
+        "resource": "/giga-project-dioss/v2/areaPrograms/",
+        "pattern": []
+      },
+      {
+        "resource": "/giga-project-dioss/v2/gigaorders",
+        "pattern": []
+      },
+      {
+        "resource": "/giga-project-dioss/v2/supplierprojects/",
+        "pattern": [
+          "",
+          "/reqcb"
+        ]
       }
     ],
     "callback_urls": {

@@ -8,5 +8,5 @@ properties:
   deployment: kubernetes
   healthCheckPath: /__admin/mappings?limit=1
   pingPath: /__admin/mappings?limit=1
-  git: https://digihub-wbench.psst.t-online.corp/gitlab/t-magic/acc/wiremock-acc.git
+  git: https://digihub-wbench.workbench.telekom.de/gitlab/t-magic/acc/wiremock-acc.git
 technology: wiremock

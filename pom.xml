@@ -28,12 +28,12 @@
         <repository>
             <id>automation</id>
             <name>automation</name>
-            <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/automation/</url>
+            <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/automation/</url>
         </repository>
         <repository>
             <id>stage</id>
             <name>stage</name>
-            <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/stage/</url>
+            <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
         </repository>
     </repositories>
 
@@ -157,12 +157,12 @@
                 <repository>
                     <id>release-sandbox</id>
                     <name>release-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/releases-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -177,7 +177,7 @@
                     </snapshots>
                     <id>release-sandbox</id>
                     <name>release-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/releases-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -190,7 +190,7 @@
                     </snapshots>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </repository>
             </repositories>
         </profile>
@@ -203,12 +203,12 @@
                 <repository>
                     <id>stage-sandbox</id>
                     <name>stage-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/stage-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -223,7 +223,7 @@
                     </snapshots>
                     <id>stage-sandbox</id>
                     <name>stage-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/stage-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -236,7 +236,7 @@
                     </snapshots>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </repository>
             </repositories>
         </profile>
@@ -249,12 +249,12 @@
                 <repository>
                     <id>stage</id>
                     <name>stage</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/stage/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -269,7 +269,7 @@
                     </snapshots>
                     <id>stage</id>
                     <name>stage</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/stage/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -282,7 +282,7 @@
                     </snapshots>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </repository>
             </repositories>
         </profile>
@@ -295,12 +295,12 @@
                 <repository>
                     <id>release</id>
                     <name>release</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/releases/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -315,7 +315,7 @@
                     </snapshots>
                     <id>release</id>
                     <name>release</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/releases/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -328,7 +328,7 @@
                     </snapshots>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.psst.t-online.corp/nexus/content/repositories/snapshots/</url>
+                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </repository>
             </repositories>
         </profile>

@@ -47,7 +47,7 @@ public class GroovyRequestMatcherExtension extends RequestMatcherExtension {
                     .parse(script.toString())
                     .run());
         } catch (Throwable e) {
-            throwUnchecked(e);
+            e.printStackTrace();
             return MatchResult.noMatch();
         }
     }

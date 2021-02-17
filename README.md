@@ -54,6 +54,28 @@ Example:
   ...
 }
 ```
+Or multiple:
+```json
+{
+  ...
+  "postServeActions": {
+    "groovyArray": {
+      "content": [
+        {
+          "inline": "script here",
+          "scriptFileName": "relative path to GROOVY_ROOT",
+          // mutually exclusive with inline
+          "arguments": {
+            "arg1": "val1",
+            "arg2": "val2"
+          }
+        }
+      ]
+    }
+  }
+  ...
+}
+```
 
 Persistence Helper
 ---
@@ -88,6 +110,27 @@ Example:
       "value": "value",
       "filename": "relative path to __files", // mutually exclusive with value
       "fixedDelayMilliseconds": 12345
+    }
+  },
+  ...
+}
+```
+or multiple:
+```json
+{
+  ...
+  "postServeActions": {
+    "persistArray": {
+      "content": [
+        {
+          "action": "action, one of {set, unset, clearAll}",
+          "key": "key",
+          "value": "value",
+          "filename": "relative path to __files",
+          // mutually exclusive with value
+          "fixedDelayMilliseconds": 12345
+        }
+      ]
     }
   },
   ...

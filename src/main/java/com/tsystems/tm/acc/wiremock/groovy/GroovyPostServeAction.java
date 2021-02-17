@@ -52,7 +52,6 @@ public class GroovyPostServeAction extends PostServeActionWithHandlebars {
             doActionInternal(definition, serveEvent, admin, parameters);
         } catch (Throwable e) {
             e.printStackTrace();
-            throwUnchecked(e);
         }
     }
 

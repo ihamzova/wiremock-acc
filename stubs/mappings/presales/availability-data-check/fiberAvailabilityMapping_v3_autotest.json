@@ -1,0 +1,20 @@
+{
+  "mappings": [
+    {
+      "id": "43f63427-41e7-4f65-a7dd-ebb4df8015ac",
+      "priority": 1,
+      "name": "FiberAvailability_by_klsId_used_in_fiberbau-autotest-01-testchain",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/(3237811|90056356|90056357|90056358|90056359|90056360|90056361|90056361|90056362|90056362|90056363|90056364|90056364)\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "fiber_availability/fiberAvailability_fiberbau-autotest.json"
+      }
+    }
+  ]
+}

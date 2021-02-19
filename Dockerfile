@@ -20,8 +20,6 @@ COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
 COPY marvel-stubs /$WM_PACKAGE/marvel-stubs
 
-COPY yoda-stubs /$WM_PACKAGE/yoda-stubs
-
 COPY orion-stubs /$WM_PACKAGE/orion-stubs
 COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs/mappings
 COPY stubs/__files/infra /$WM_PACKAGE/orion-stubs/__files/infra

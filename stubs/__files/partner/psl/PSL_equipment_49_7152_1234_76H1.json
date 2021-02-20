@@ -1,0 +1,195 @@
+{
+  "error": null,
+  "response": {
+    "messageContext": {
+      "correlationId": "string",
+      "priority": 0,
+      "requestId": "string",
+      "sender": "string",
+      "target": "string",
+      "timeLeft": "string"
+    },
+    "responseData": {
+      "equipment": [
+        {
+          "equnr": "212880011",
+          "tplnr": "000031-000000-001-004-002-021",
+          "hequi": "212879995",
+          "heqnr": "0056",
+          "submt": "40247069",
+          "eqart": "G",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "21023533106TG4900198",
+          "anzEbenen": "1",
+          "adrId": "17056514",
+          "asb": "1"
+        },
+        {
+          "equnr": "212880063",
+          "hequi": "212880011",
+          "heqnr": "0001",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "021BQWW0G6002494",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880056",
+          "hequi": "212880011",
+          "heqnr": "0002",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020KAX6TG5602889",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880057",
+          "hequi": "212880011",
+          "heqnr": "003",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020KAX6TG5604051",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880062",
+          "hequi": "212880011",
+          "heqnr": "004",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020KKPCNG5010973",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880059",
+          "hequi": "212880011",
+          "heqnr": "005",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5030513",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "006",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "007",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "008",
+          "submt": "40294954",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "009",
+          "submt": "40247071",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0010",
+          "submt": "40247071",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0011",
+          "submt": "40251139",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0012",
+          "submt": "40261742",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0019",
+          "submt": "40247074",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0020",
+          "submt": "40247074",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        },
+        {
+          "equnr": "212880061",
+          "hequi": "212880011",
+          "heqnr": "0021",
+          "submt": "40247072",
+          "eqart": "P",
+          "endsz": "49/7152/1234/76H1",
+          "serge": "020NDECNG5029943",
+          "anzEbenen": "2"
+        }
+      ],
+      "header": {
+        "anfoKen": "15758997480418591403",
+        "partner": "BS_DIGIOSS"
+      },
+      "status": {
+        "id": "ZDIB",
+        "logMsgNo": "string",
+        "logNo": "0000000000",
+        "message": "Die Anforderung wurde ausgeführt.",
+        "messageV1": "",
+        "number": "000",
+        "system": "Linux",
+        "type": "S"
+      }
+    }
+  },
+  "success": true
+}

@@ -2,7 +2,7 @@
   "id": "13c7f79d-bb78-4630-b018-61622ade0339",
   "request": {
     "method": "POST",
-    "urlPattern": "/Wholebuy/v2/cancelResourceOrder/",
+    "url": "/Wholebuy/v2/cancelResourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?($.@type == 'CancelGatewayResourceOrderTaskCreate')]"

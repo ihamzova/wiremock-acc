@@ -3,7 +3,7 @@
   "priority": 15,
   "request": {
     "method": "POST",
-    "urlPattern": "/Wholebuy/v2/resourceOrder/",
+    "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?($.orderItem[0].action == 'delete')]"

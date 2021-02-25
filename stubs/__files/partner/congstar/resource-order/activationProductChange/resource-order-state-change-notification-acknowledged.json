@@ -1,0 +1,38 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "1.0",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaProductChange",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "state": "Acknowledged",
+      "category": "BSA",
+      "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "modify",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}"
+          },
+          "resourceSpecification": {
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
+          }
+        }
+      ]
+    }
+  }
+}

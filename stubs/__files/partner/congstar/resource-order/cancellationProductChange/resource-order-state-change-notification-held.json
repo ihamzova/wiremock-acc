@@ -1,0 +1,82 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "{{jsonPath request.body '$.resourceOrder.id'}}",
+      "completionDate": "2020-06-24",
+      "expectedCompletionDate": "2020-07-22",
+      "externalId": "Giga_{{#assign 'relationData'}}{{#curl}}{{unsafeSystemValue type='ENVIRONMENT' key='SERVICE_ORDER_PATH'}}/service-order-rs/service-order/local/v1/serviceorders/bid/load/{{regexExtract (jsonPath request.body '$.externalId') '[0-9]+'}}{{/curl}}{{/assign}}{{jsonPath relationData '$.orderRelationships[0].id'}}_1",
+      "externalTag": "bsaProductChange",
+      "orderDate": "2020-06-24T20:25:25.000738Z",
+      "requestedCompletionDate": "2020-07-22",
+      "state": "Held",
+      "category": "BSA",
+      "lastCancellationDate": "2020-07-16",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "DEU.RKOM.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+            "carrierContractId": "5587898788",
+            "witaContractId": "3321456789",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 55168,
+              "ramMaxupL2": 11264,
+              "ramMinDownL2": 27504,
+              "ramMinUpL2": 27000,
+              "ramMinKPDownL2": 27504,
+              "ramMinKPUpL2": 27000
+            },
+            "installationPlace": {
+              "@baseType": "Place",
+              "@type": "GatewayPlace",
+              "klsId": 3094934
+            }
+          },
+          "resourceSpecification": {
+            "id": "FTTC50"
+          }
+        }
+      ],
+      "installationPlaceContact": {
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 151 12341234"
+            }
+          }
+        ]
+      },
+      "installationTechnicianContact": {
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 221 5676567"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

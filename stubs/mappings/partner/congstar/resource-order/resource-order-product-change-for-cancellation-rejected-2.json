@@ -1,17 +1,17 @@
 {
-  "id": "baa17765-b96d-45e3-816d-5548667d31f7",
+  "id": "245a1f49-ced6-499c-bc28-fa15157c8c71",
   "priority": 1,
   "request": {
     "method": "POST",
     "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?(@.externalTag=='bsaActivation')]"
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaProductChange')]"
       }
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fc1"
+        "contains": "fcf18"
       }
     }
   },
@@ -37,7 +37,7 @@
             "X-Callback-Id": "{{request.headers.X-Callback-Id}}"
           },
           "url": "{{request.headers.X-Callback-Url}}",
-          "bodyFileName": "partner/congstar/resource-order/resource-order-callback.json"
+          "bodyFileName": "partner/congstar/resource-order/resource-order-callback-error.json"
         }
       ]
     }

@@ -1,17 +1,17 @@
 {
-  "id": "baa17765-b96d-45e3-816d-5548667d31f7",
+  "id": "bb318484-8bcd-4361-8d85-10df0a9e3beb",
   "priority": 1,
   "request": {
     "method": "POST",
     "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?(@.externalTag=='bsaActivation')]"
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaProductChange')]"
       }
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fc1"
+        "contains": "fcf12"
       }
     }
   },

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/resource-order-resource-inventory/v1/allocateL2BsaNspTask"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-carrier-management/allocateL2BsaNspTask/allocate-l2bsa-nsp-ref.json"
+  }
+}

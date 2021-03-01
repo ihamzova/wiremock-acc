@@ -45,6 +45,13 @@
 {{#eq isWholeBuyCode '1'}}
   {{#assign 'isWholeBuy'}}1{{/assign}}
 {{/eq}}
+
+{{regexExtract request.path.[4] '.*([0-9])[0-9]{3}$' 'parts'}}
+{{#assign 'isFTTB'}}{{parts.0}}{{/assign}}
+{{#assign 'technology'}}FTTH{{/assign}}
+{{#eq isFTTB '1'}}
+  {{#assign 'technology'}}FTTB{{/assign}}
+{{/eq}}
 {
   "id": "{{request.path.[4]}}",
   "href": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/3237818",
@@ -125,8 +132,14 @@
           },
           {
             "name": "Technologie",
-            "value": "FTTH"
+            "value": "{{technology}}"
           },
+          {{#eq isFTTB '1'}}
+          {
+            "name": "BBProfile",
+            "value": "FTTB100,FTTB200FTTB50"
+          },
+          {{/eq}}
           {
             "name": "DatumVon",
             "value": "{{dateFrom}}"

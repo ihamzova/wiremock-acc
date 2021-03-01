@@ -1,0 +1,80 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "completionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaDetermineLineId",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "state": "Failed",
+      "category": "BSA",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
+            "lineId": "DEU.RKOM.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+            "carrierContractId": "5587898788",
+            "witaContractId": "3321456789",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 55168,
+              "ramMaxupL2": 11264,
+              "ramMinDownL2": 27504,
+              "ramMinUpL2": 27000,
+              "ramMinKPDownL2": 27504,
+              "ramMinKPUpL2": 27000
+            },
+            "installationPlace": {
+              "@type": "GatewayPlace",
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
+              "homeId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.homeId'}}"
+            }
+          }
+        }
+      ],
+      "installationPlaceContact": {
+        "@baseType": "RelatedParty",
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 151 12341234"
+            }
+          }
+        ]
+      },
+      "installationTechnicianContact": {
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 221 5676567"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

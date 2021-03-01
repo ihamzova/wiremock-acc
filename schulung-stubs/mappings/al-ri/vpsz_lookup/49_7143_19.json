@@ -1,25 +1,17 @@
 {
-    "id": "89599514-bcb9-452c-ada8-a2ebc0f8688d",
-    "request": {
-      "url": "/resource-order-resource-inventory/v1/rial/olt/vpszlookup",
-      "method": "GET",
-	  "queryParameters": {
-		"vpsz": {
-			"equalTo": "49/7143/19"
-		},
-		"devicetype": {
-			"equalTo": "OLT"
-		}
-	}
+  "id": "89599514-bcb9-452c-ada8-a2ebc0f8688d",
+  "request": {
+    "url": "/api/riAbstractionLayer/v1/olt/vpszlookup?vpsz=49/7143/19&devicetype=OLT",
+    "method": "GET"
   },
   "response": {
-      "status": 200,
-      "jsonBody": [
-		"49/7143/19/76H1"
-		],
-		"headers": {
-			"Content-Type": "application/json"
-		}
-	},
-	"uuid": "89599514-bcb9-452c-ada8-a2ebc0f8688d"
+    "status": 200,
+    "jsonBody": [
+      "49/7143/19/76H1"
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "89599514-bcb9-452c-ada8-a2ebc0f8688d"
 }

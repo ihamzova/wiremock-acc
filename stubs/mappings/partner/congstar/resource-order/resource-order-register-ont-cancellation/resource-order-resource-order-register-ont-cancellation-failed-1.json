@@ -3,7 +3,7 @@
   "priority": 1,
   "request": {
     "method": "POST",
-    "url": "/Wholebuy/v2/resourceOrder",
+    "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?(@.externalTag=='bsaRegisterOnt')]"
@@ -38,6 +38,16 @@
           },
           "url": "{{request.headers.X-Callback-Url}}",
           "bodyFileName": "partner/congstar/resource-order/resource-order-callback.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 15000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/registerOnt/resource-order-state-change-notification-acknowledged.json"
         },
         {
           "method": "POST",

@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPathPattern": "^(\\/api\\/dpucommissioning\\/v1\\/dpu\\/decommissioning|\\/resource-order-resource-inventory\\/v1\\/dpuDecommissioningConfigurationTask)",
+    "urlPathPattern": "^(\\/api\\/dpucommissioning\\/v1\\/dpu\\/decommissioning|\\/resource-order-resource-inventory\\/v1\\/dpuDecommissioningConfigurationTask)"
   },
   "response": {
     "status": 201,

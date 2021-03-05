@@ -1,8 +1,16 @@
 {
   "id": "50f111a5-9f27-433e-9045-c8d5c3865947",
   "request": {
-    "url": "/api/riAbstractionLayer/v1/olt/vpszlookup?vpsz=49/2237/19&devicetype=OLT",
-    "method": "GET"
+    "urlPath": "/api/riAbstractionLayer/v1/olt/vpszlookup",
+    "method": "GET",
+    "queryParameters": {
+      "vpsz": {
+        "equalTo": "49/2237/19"
+      },
+      "devicetype": {
+        "equalTo": "OLT"
+      }
+    }
   },
   "response": {
     "status": 200,

@@ -1,0 +1,16 @@
+{
+  "id": "e3648681-1fc5-4df2-864e-f4c69cf677c9",
+  "uuid": "e3648681-1fc5-4df2-864e-f4c69cf677c9",
+  "priority": 2,
+  "request": {
+    "urlPattern": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesL2Bsa",
+    "method": "PATCH"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/a4NetworkServiceProfilesL2Bsa/a4NetworkServiceProfilesL2Bsa.json"
+  }
+}

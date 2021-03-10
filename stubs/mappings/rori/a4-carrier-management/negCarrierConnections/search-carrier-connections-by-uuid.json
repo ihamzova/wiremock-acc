@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/negCarrierConnections"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-carrier-management/negCarrierConnections/neg-carrier-connections-by-uuid-{{request.query.negUuid}}.json"
+  }
+}

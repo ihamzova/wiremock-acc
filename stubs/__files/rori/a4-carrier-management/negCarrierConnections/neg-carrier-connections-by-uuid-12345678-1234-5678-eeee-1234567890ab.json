@@ -1,0 +1,18 @@
+{
+  "negUuid": "12345678-1234-5678-abcd-1234567890ab",
+  "negName": null,
+  "carrierConnections": [
+    {
+      "carrierBsaReference": "KP-carrier-test-A10nsp for review2",
+      "sperrStatus": false
+    },
+    {
+      "carrierBsaReference": "KP-carrier-test-",
+      "sperrStatus": true
+    },
+    {
+      "carrierBsaReference": "TESTI",
+      "sperrStatus": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/negCarrierConnections",
+    "queryParameters": {
+      "negUuid": {
+        "matches": "11111111-2222-1111-2222-fbadee9c97be"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "code": "9999999300000002",
+      "reason": "Element not found in database",
+      "message": "No NetworkElementGroup found with uuid : 11111111-2222-1111-2222-fbadee9c97be"
+    }
+  }
+}

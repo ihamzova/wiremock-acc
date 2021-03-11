@@ -1,0 +1,20 @@
+{
+  "id": "03dd5f56-70bf-4683-ba61-f68f567cb02c",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/giga-tas",
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fcf31"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/giga-ta-resource-inventory/giga-ta/giga-ta.json"
+  }
+}

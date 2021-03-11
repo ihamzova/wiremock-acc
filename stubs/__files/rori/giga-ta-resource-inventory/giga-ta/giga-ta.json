@@ -1,0 +1,14 @@
+{
+  "giga-tas": [
+    {
+      "buildState": "BUILT",
+      "technology": "FTTH",
+      "klsId": "1234567",
+      "folId": "1234567890",
+      "homeId": "{{request.query.homeId}}",
+      "apartmentCplId": "ZZZZAA",
+      "carrierCode": "{{request.query.carrierCode}}",
+      "materialNumber": "Wholebuy"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
     "urlPath": "/api/oltResourceInventory/v1/olt/vpszlookup",
     "queryParameters": {
       "vpsz": {
-        "matches": "49\\/\\30/179|49\\/911\\/1100"
+        "matches": "49\\/30\\/179|49\\/911\\/1100"
       },
       "devicetype": {
         "equalTo": "OLT"

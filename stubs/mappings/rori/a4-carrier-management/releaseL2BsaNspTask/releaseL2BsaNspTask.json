@@ -7,6 +7,9 @@
   "response": {
     "status": 200,
     "headers": {
+      "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}",
       "Content-Type": "application/json"
     },
     "bodyFileName": "rori/a4-carrier-management/releaseL2BsaNspTask/releaseL2BsaNspTask.json"

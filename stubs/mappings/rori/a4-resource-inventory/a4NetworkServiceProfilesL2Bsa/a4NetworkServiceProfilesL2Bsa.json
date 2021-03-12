@@ -1,6 +1,4 @@
 {
-  "id": "e3648681-1fc5-4df2-864e-f4c69cf677c9",
-  "uuid": "e3648681-1fc5-4df2-864e-f4c69cf677c9",
   "priority": 2,
   "request": {
     "urlPattern": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesL2Bsa",
@@ -9,6 +7,9 @@
   "response": {
     "status": 202,
     "headers": {
+      "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}",
       "Content-Type": "application/json"
     },
     "bodyFileName": "rori/a4-resource-inventory/a4NetworkServiceProfilesL2Bsa/a4NetworkServiceProfilesL2Bsa.json"

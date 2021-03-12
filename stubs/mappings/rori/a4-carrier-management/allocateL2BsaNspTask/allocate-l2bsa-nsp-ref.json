@@ -11,6 +11,8 @@
       "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}",
       "Content-Type": "application/json"
     },
-    "body": "{{randomValue type='UUID'}}"
+    "jsonBody": {
+      "uuid": "{{randomValue type='UUID'}}"
+    }
   }
 }

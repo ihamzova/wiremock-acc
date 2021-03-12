@@ -1,0 +1,25 @@
+{
+  "id": "ca120a94-85df-4f21-8076-30a758e8ba79",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/Wholebuy/v2/resourceOrder/",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaPhysicalConnection')]"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fcf41"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "statusMessage": "Internal Server Error",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

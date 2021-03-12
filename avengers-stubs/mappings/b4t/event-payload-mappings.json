@@ -1,21 +1,6 @@
 {
   "mappings": [
     {
-      "name": "Access token",
-      "priority": 5,
-      "request": {
-        "method": "POST",
-        "url": "/auth/realms/GigabitHub/protocol/openid-connect/token"
-      },
-      "response": {
-        "status": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "bodyFileName": "b4t-event-payloads/token.json"
-      }
-    },
-    {
       "name": "Fol area event payload",
       "priority": 5,
       "request": {

@@ -11,12 +11,9 @@
     "resourceOrder": {
       "@type": "GatewayResourceOrder",
       "id": "89898898",
-      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
-      "completionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
-      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "state": "Failed",
       "orderItem": [
         {
@@ -25,18 +22,6 @@
           "action": "add",
           "resource": {
             "@type": "WholebuyResource",
-            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
-            "lineId": "DEU.RKOM.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
-            "carrierContractId": "5587898788",
-            "witaContractId": "3321456789",
-            "networkProfileConfig": {
-              "ramMaxDownL2": 55168,
-              "ramMaxupL2": 11264,
-              "ramMinDownL2": 27504,
-              "ramMinUpL2": 27000,
-              "ramMinKPDownL2": 27504,
-              "ramMinKPUpL2": 27000
-            },
             "installationPlace": {
               "@type": "GatewayPlace",
               "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}"

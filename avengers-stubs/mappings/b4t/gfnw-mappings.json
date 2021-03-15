@@ -5,7 +5,7 @@
       "priority": 5,
       "request": {
         "method": "POST",
-        "urlPattern": "/event/v3/cio|/event/v1/buildingPartPlanningData|/event/v2/gigaAreas|/event/v2/fibreOnLocation|/event/v2/areaProgramStateChange|/event/v2/areaProgram|/event/v2/supplierProject|/event/v2/nvtArea|/event/v1/nvtChangedArea|/event/v2/workorder|/event/v1/buildUpAgreement"
+        "urlPattern": "/event/v3/cio|/event/v1/buildingPartPlanningData|/event/v2/gigaAreas|/event/v2/fibreOnLocation|/event/v2/areaProgramStateChange|/event/v2/areaProgram|/event/v2/supplierProject|/event/v2/nvtArea|/event/v1/nvtChangedArea|/event/v2/workorder|/event/v1/buildUpAgreement|/event/v2/availabilityCheck"
       },
       "response": {
         "status": 201,
@@ -25,7 +25,7 @@
             "contains": "404"
           }
         },
-        "urlPattern": "/event/v3/cio|/event/v1/buildingPartPlanningData|/event/v2/gigaAreas|/event/v2/fibreOnLocation|/event/v2/areaProgramStateChange|/event/v2/areaProgram|/event/v2/supplierProject|/event/v2/nvtArea|/event/v1/nvtChangedArea|/event/v2/workorder|/event/v1/buildUpAgreement"
+        "urlPattern": "/event/v3/cio|/event/v1/buildingPartPlanningData|/event/v2/gigaAreas|/event/v2/fibreOnLocation|/event/v2/areaProgramStateChange|/event/v2/areaProgram|/event/v2/supplierProject|/event/v2/nvtArea|/event/v1/nvtChangedArea|/event/v2/workorder|/event/v1/buildUpAgreement|/event/v2/availabilityCheck"
       },
       "response": {
         "status": 404

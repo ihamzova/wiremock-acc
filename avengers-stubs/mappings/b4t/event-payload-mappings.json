@@ -1,0 +1,86 @@
+{
+  "mappings": [
+    {
+      "name": "Fol area event payload",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/.*b4t.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "b4t-event-payloads/folPayload.json"
+      }
+    },
+    {
+      "name": "Area program event payload",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v2/areaPrograms/.*b4t.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "b4t-event-payloads/areaProgramPayload.json"
+      }
+    },
+    {
+      "name": "Giga area event payload",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/gigaAreas/.*b4t.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "b4t-event-payloads/gigaAreaPayload.json"
+      }
+    },
+    {
+      "name": "Nvt area event payload",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/nvtAreas/.*b4t.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "b4t-event-payloads/nvtPsayload.json"
+      }
+    },
+    {
+      "name": "404 response of any request",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": ".*404response.*"
+      },
+      "response": {
+        "status": 404
+      }
+    },
+    {
+      "name": "500 response of any request",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": ".*500response.*"
+      },
+      "response": {
+        "status": 500
+      }
+    }
+  ]
+}

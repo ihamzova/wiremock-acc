@@ -1,0 +1,77 @@
+{
+  "persisted": true,
+  "guid": "string",
+  "version": 0,
+  "creationDate": "2021-03-10T10:42:46.410Z",
+  "creationUser": "string",
+  "modificationDate": "2021-03-10T10:42:46.411Z",
+  "modificationUser": "string",
+  "controlTraceabilityManual": true,
+  "businessId": 0,
+  "programName": "string",
+  "nvtAreaId": 0,
+  "ptiUserId": "string",
+  "ptiOrgaId": "string",
+  "ptiRessortId": "string",
+  "programType": "JOINT_VENTURE",
+  "status": "ASSIGNED",
+  "assignedPhase": "VVM_PREPARATION",
+  "areaProgramMilestones": [
+    {
+      "persisted": true,
+      "guid": "string",
+      "version": 0,
+      "creationDate": "2021-03-10T10:42:46.411Z",
+      "creationUser": "string",
+      "modificationDate": "2021-03-10T10:42:46.411Z",
+      "modificationUser": "string",
+      "controlTraceabilityManual": true,
+      "milestoneDate": "2021-03-10T10:42:46.411Z",
+      "milestoneType": "VVM_START",
+      "assignedProgramPhase": "VVM_PREPARATION"
+    }
+  ],
+  "supplierProjects": [
+    {
+      "persisted": true,
+      "guid": "string",
+      "version": 0,
+      "creationDate": "2021-03-10T10:42:46.411Z",
+      "creationUser": "string",
+      "modificationDate": "2021-03-10T10:42:46.411Z",
+      "modificationUser": "string",
+      "controlTraceabilityManual": true,
+      "businessId": 0,
+      "name": "string",
+      "tokenUrl": "string",
+      "ne3": true,
+      "ne4": true,
+      "projectStart": "2021-03-10T10:42:46.411Z",
+      "projectEnd": "2021-03-10T10:42:46.411Z",
+      "creditorId": "string",
+      "supplierId": 0,
+      "wmsTIBA": "string",
+      "status": "CREATED",
+      "phase": "INITIAL_EXPANSION",
+      "fixedSupplier": true,
+      "orderAcceptanceTimeStart": "2021-03-10T10:42:46.411Z",
+      "orderAcceptanceTimeEnd": "2021-03-10T10:42:46.411Z",
+      "wmsTransfers": [
+        {
+          "persisted": true,
+          "guid": "string",
+          "version": 0,
+          "creationDate": "2021-03-10T10:42:46.411Z",
+          "creationUser": "string",
+          "modificationDate": "2021-03-10T10:42:46.411Z",
+          "modificationUser": "string",
+          "controlTraceabilityManual": true,
+          "wmsTIBA": "string",
+          "requestTime": "2021-03-10T10:42:46.411Z",
+          "responseTime": "2021-03-10T10:42:46.411Z"
+        }
+      ],
+      "fibreOnLocationId": "1000"
+    }
+  ]
+}

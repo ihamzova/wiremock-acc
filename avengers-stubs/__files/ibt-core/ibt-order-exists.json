@@ -1,0 +1,89 @@
+[
+  {
+    "businessId": 0,
+    "externalOrderId": "string",
+    "customerOrderReference": "string",
+    "source": "VVM",
+    "status": "INITIAL",
+    "installationAppointmentStatus": "INITIAL",
+    "installationAppointmentType": "MANUAL",
+    "estimatedTime": 0,
+    "scheduledInstallationBegin": "2021-03-18T14:17:14.226Z",
+    "scheduledInstallationEnd": "2021-03-18T14:17:14.226Z",
+    "installationTimestamp": "2021-03-18T14:17:14.226Z",
+    "cancellationTimestamp": "2021-03-18T14:17:14.226Z",
+    "cancellationReason": "CUSTOMER_CANCELLATION",
+    "tsgGroupInstallationId": 0,
+    "customer": {
+      "customerId": "string",
+      "customerBusinessType": "PRIVATE",
+      "customerClassificationType": "CUSTOMER_IS_PROPERTYOWNER",
+      "customerType": "INDIVIDUAL",
+      "customerIndividual": {
+        "givenName": "string",
+        "salutation": "MR",
+        "familyName": "string",
+        "title": "string"
+      },
+      "customerOrganization": {
+        "legalForm": "string",
+        "organizationId": "string",
+        "name": "string"
+      },
+      "customerContactMedia": [
+        {
+          "contactData": "string",
+          "contactMediumType": "FIXED_LINE",
+          "preferred": true
+        }
+      ],
+      "customerContactPersons": [
+        {
+          "givenName": "string",
+          "familyName": "string",
+          "salutation": "MR",
+          "title": "string",
+          "role": "string",
+          "contactPersonContactMedia": [
+            {
+              "contactData": "string",
+              "contactMediumType": "FIXED_LINE",
+              "preferred": true
+            }
+          ]
+        }
+      ]
+    },
+    "carrier": {
+      "carrierId": "string",
+      "carrierName": "string",
+      "carrierCustomerId": "string"
+    },
+    "klsId": 0,
+    "supplierProjectBid": 0,
+    "workOrderBid": 0,
+    "homeId": "string",
+    "vvmAreaNumber": "string",
+    "compositeOrganizationId": 0,
+    "orderType": "FIBER_ACCESS_APARTMENT",
+    "installationDueDate": "2021-03-18T14:17:14.227Z",
+    "areaProgramBid": 0,
+    "supplierProjectNE3Bid": 0,
+    "comment": "string",
+    "apartmentGftaInstallationStatus": "NOT_CONNECTED",
+    "generalContractor": true,
+    "anonymizationStatus": "NOT_APPLICABLE",
+    "initiative": "SELF_EXPANSION",
+    "serviceOrderId": "string",
+    "fiberOnLocationId": "string",
+    "characteristics": [
+      {
+        "name": "string",
+        "valueType": "string",
+        "value": "string"
+      }
+    ],
+    "gftaRelatedProjectBid": 0,
+    "creationDate": "2021-03-18T14:17:14.227Z"
+  }
+]

@@ -1,18 +1,21 @@
 {
   "creationDate": "2018-09-20T09:41:53.215Z",
   "modificationDate": "2020-05-27T14:11:57.768Z",
-  "name": "Bornheim Area 2",
-  "number": "Bornheim_002",
-  "rolloutDate": "2020-11-16T00:00:00Z",
   "areaStatus": "UNDER_CONSTRUCTION",
   "initiative": "SELF_EXPANSION",
-  "plannedFrom": "2019-03-01T00:00:00Z",
-  "plannedTo": "2019-05-31T00:00:00Z",
-  "netCoOrganisationId": 10001,
+  "internalExpansionDecisionDate": "2021-03-17T10:54:23.781Z",
+  "netCoOrganisationId": 0,
+  "name": "Bornheim Area 2",
+  "number": "Bornheim_002",
+  "passiveProvider": 0,
+  "plannedFrom": "2021-03-17T10:54:23.781Z",
+  "plannedTo": "2021-03-17T10:54:23.781Z",
+  "rolloutDate": "2021-03-17T10:54:23.781Z",
+  "rolloutPartnerInitial": 0,
+  "rolloutPartnerRegular": 0,
   "thresholdData": {
-    "ordersCountInVVM": 3,
-    "additionalOrdersCountInVVM": -110
-  },
-  "rolloutPartner": 10009,
-  "internalExpansionDecisionDate": "2020-02-18T11:35:42.981Z"
+    "additionalOrdersCountInVVM": 0,
+    "ordersCountInVVM": 0,
+    "threshold": 0
+  }
 }

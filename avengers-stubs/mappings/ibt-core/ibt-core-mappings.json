@@ -5,7 +5,7 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-installation-order/v5/customerInstallationOrders\\?fiberOnLocationId=.*"
+        "urlPattern": "/giga-installation-order/v5/customerInstallationOrders\\?active=true&fiberOnLocationId=.*"
       },
       "response": {
         "status": 200,
@@ -20,7 +20,7 @@
       "priority": 5,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-installation-order/v5/customerInstallationOrders\\?fiberOnLocationId=(1005|1006|30003|30022)"
+        "urlPattern": "/giga-installation-order/v5/customerInstallationOrders\\?active=true&fiberOnLocationId=(1005|1006|30003|30022)"
       },
       "response": {
         "status": 200,

@@ -1,5 +1,4 @@
 {
-  "priority": 4,
   "request": {
     "method": "GET",
     "urlPath": "/resource-order-resource-inventory/v1/a4NetworkElements",
@@ -7,11 +6,8 @@
       "vpsz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}"
       },
-      "fsz": {
-        "matches": "7KH4|7KH0"
-      },
       "category": {
-        "equalTo": "OLT"
+        "matches": "BNG"
       }
     }
   },
@@ -20,6 +16,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-fsz-{{replace request.query.vpsz '/' '_'}}_{{request.query.fsz}}.json"
+    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-type-bng-{{replace request.query.vpsz '/' '_'}}.json"
   }
 }

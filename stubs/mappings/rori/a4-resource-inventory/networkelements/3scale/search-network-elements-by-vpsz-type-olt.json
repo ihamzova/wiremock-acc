@@ -16,6 +16,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-{{replace request.query.vpsz '/' '_'}}.json"
+    "bodyFileName": "rori/a4-resource-inventory/networkelements/search-network-elements-by-vpsz-type-olt-{{replace request.query.vpsz '/' '_'}}.json"
   }
 }

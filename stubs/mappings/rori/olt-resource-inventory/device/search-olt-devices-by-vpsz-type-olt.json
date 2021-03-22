@@ -16,6 +16,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-{{replace request.query.vpsz '/' '_'}}.json"
+    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-type-olt-{{replace request.query.vpsz '/' '_'}}.json"
   }
 }

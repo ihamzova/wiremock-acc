@@ -1,0 +1,17 @@
+{
+  "id": "f7f01911-8942-477a-888e-649082b4a5a0",
+  "request": {
+    "method": "GET",
+    "urlPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/.*"
+  },
+  "headers": {
+    "X-B3-TraceId": {
+      "contains": "fcf44"
+    }
+  }
+},
+  "response": {
+    "status": 500,
+    "statusMessage": "Internal Server Error"
+  }
+}

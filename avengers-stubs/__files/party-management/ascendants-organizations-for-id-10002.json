@@ -1,0 +1,37 @@
+[
+  {
+    "id": 10002,
+    "isLegalEntity": false,
+    "type": "atomic",
+    "tradingName": "Produktion TD Nord",
+    "nameType": "RolloutPartner",
+    "status": "",
+    "characteristics": [],
+    "organizationParentRelationship": {
+      "relationshipType": "partOfOrganization",
+      "id": 10000
+    },
+    "contactMedium": [],
+    "locationResponsibility": []
+  },
+  {
+    "id": 10000,
+    "isLegalEntity": true,
+    "type": "compositeOrganization",
+    "tradingName": "Glasfaser-NordWest",
+    "nameType": "NetCo",
+    "status": "",
+    "characteristics": [
+      {
+        "name": "carrierCode",
+        "value": "GFNW"
+      },
+      {
+        "name": "supplierRestricted",
+        "value": "1"
+      }
+    ],
+    "contactMedium": [],
+    "locationResponsibility": []
+  }
+]

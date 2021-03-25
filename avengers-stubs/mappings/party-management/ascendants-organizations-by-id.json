@@ -1,10 +1,24 @@
 {
   "mappings": [
     {
+      "name": "Get organization info for user with partyId = 10002 (Produktion TD Nord)",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/party/v2/partyManagement/organizations/10002/ascendants(\\?loadLocations=true|)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/ascendants-organizations-for-id-10002.json"
+      }
+    },
+    {
       "name": "Get organization info for user with partyId = 10010 (PTI)",
       "request": {
         "method": "GET",
-        "urlPattern": "/party/v2/partyManagement/organizations/10013/ascendants(\\?loadLocations=true|)"
+        "urlPattern": "/party/v2/partyManagement/organizations/10010/ascendants(\\?loadLocations=true|)"
       },
       "response": {
         "status": 200,

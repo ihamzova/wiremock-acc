@@ -3,10 +3,10 @@
   "priority": 1,
   "request": {
     "method": "GET",
-    "urlPath": "/resource-order-resource-inventory/v1/giga-tas",
+    "url": "/resource-order-resource-inventory/v1/giga-tas",
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fcf31"
+        "contains": "fffc35fff"
       }
     }
   },

@@ -24,21 +24,12 @@
       "webhooks": [
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 10000,
-          "headers": {
-            "Content-Type": "text/xml;charset=UTF-8"
-          },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/activation/OAL-Activation-QEB.xml"
-        },
-        {
-          "method": "POST",
           "fixedDelayMilliseconds": 20000,
           "headers": {
             "Content-Type": "text/xml;charset=UTF-8"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='OAL_CONNECTION_PATH'}}/tdg/oal/spri",
-          "bodyFileName": "partner/dgf/activation/OAL-Activation-ABBM.xml"
+          "bodyFileName": "partner/dgf/activation/OAL-Activation-ABBM-without-vertragsnummer.xml"
         }
       ]
     }

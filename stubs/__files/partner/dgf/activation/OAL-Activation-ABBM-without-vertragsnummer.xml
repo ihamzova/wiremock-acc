@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ns2:annehmenMeldungRequest xmlns:ns2="http://spri.telekom.de/oss/v5/envelopeOal"
+                                    xmlns:ns4="http://spri.telekom.de/oss/v5/message">
+            <control>
+                <zeitstempel>{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}</zeitstempel>
+                <majorRelease>04</majorRelease>
+                <minorRelease>90</minorRelease>
+                <signaturId>
+                    <issuer>DTAG</issuer>
+                    <serial>123456</serial>
+                </signaturId>
+            </control>
+            <meldung>
+                <auftragstyp>
+                    <geschaeftsfall>NEU</geschaeftsfall>
+                    <aenderungsKennzeichen>Standard</aenderungsKennzeichen>
+                    <geschaeftsfallart>Bereitstellung</geschaeftsfallart>
+                </auftragstyp>
+                <meldungstyp xsi:type="ns4:MeldungstypABBMType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <meldungsattribute>
+                        <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
+                        <auftraggebernummer>2016006901</auftraggebernummer>
+                    </meldungsattribute>
+                    <meldungspositionen>
+                        <position>
+                            <meldungscode>1310</meldungscode>
+                            <meldungstext>Das beauftrage Produkt ist aufgrund Leitungsmangel nicht möglich.</meldungstext>
+                        </position>
+                    </meldungspositionen>
+                </meldungstyp>
+            </meldung>
+        </ns2:annehmenMeldungRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

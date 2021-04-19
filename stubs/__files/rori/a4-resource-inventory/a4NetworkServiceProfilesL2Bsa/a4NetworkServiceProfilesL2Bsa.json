@@ -1,20 +1,22 @@
 {
   "uuid": "{{randomValue type='UUID'}}",
-  "lifecycleState": "PLANNING",
-  "operationalState": "OK",
+  "lifecycleState": "INSTALLING",
+  "operationalState": "WORKING",
   "description": "a4NetworkServiceProfilesL2Bsa",
-  "administrativeMode": "NONE",
+  "administrativeMode": "ENABLED",
   "serviceBandwidth": [
     {
       "dataRateDown": "{{jsonPath request.body '$.dataRateDown'}}",
       "dataRateUp": "{{jsonPath request.body '$.dataRateUp'}}"
     }
   ],
+  "dataRateDown": "{{jsonPath request.body '$.dataRateDown'}}",
+  "dataRateUp": "{{jsonPath request.body '$.dataRateUp'}}",
   "activeQosClasses": [
     {
-      "qosPbit": "234",
-      "qosBandwidthUp": "{{jsonPath request.body '$.dataRateUp'}}",
-      "qosBandwidthDown": "{{jsonPath request.body '$.dataRateDown'}}"
+      "qosPbit": "undefined",
+      "qosBandwidthUp": "undefined",
+      "qosBandwidthDown": "undefined"
     }
   ],
   "virtualServiceProvider": "DTAG",
@@ -23,5 +25,5 @@
   "creationTime": "2021-03-02T14:45:25.335Z",
   "terminationPointL2BsaUuid": "{{randomValue type='UUID'}}",
   "lineId": "{{jsonPath request.body '$.lineId'}}",
-  "href": "Ref"
+  "href": "/terminationPoints/{{randomValue type='UUID'}}"
 }

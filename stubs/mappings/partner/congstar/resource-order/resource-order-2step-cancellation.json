@@ -1,5 +1,6 @@
 {
   "id": "5f9f7ab8-b799-4b49-bd32-077cdcac0775",
+  "priority": 1,
   "request": {
     "method": "POST",
     "url": "/Wholebuy/v2/cancelResourceOrder/",
@@ -10,7 +11,7 @@
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fcf33"
+        "contains": "fffc36fff"
       }
     }
   },

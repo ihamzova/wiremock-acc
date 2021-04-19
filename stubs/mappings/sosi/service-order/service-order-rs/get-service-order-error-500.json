@@ -1,0 +1,16 @@
+{
+  "id": "8e413087-f2a6-4ae7-a200-33beaa8d0e3c",
+  "request": {
+    "method": "GET",
+    "urlPattern": "/service-order-rs/service-order/local/v1/serviceorders/bid/load/([0-9]+)",
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc46fff"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "statusMessage": "Internal Server Error"
+  }
+}

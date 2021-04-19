@@ -77,7 +77,7 @@
       "priority": 5,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1003\\?fields=BuildingSection"
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/(1003|1006)\\?fields=BuildingSection"
       },
       "response": {
         "status": 200,

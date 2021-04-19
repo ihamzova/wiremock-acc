@@ -1,0 +1,22 @@
+{
+  "id": "7ff91d3e-9c33-4aed-a928-e9eedd2c7389",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//geschaeftsfallArt[text()='Bereitstellung']"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc23fff"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/dgf/OAL-Autfrag-response-TEQ_with_error.xml"
+  }
+}

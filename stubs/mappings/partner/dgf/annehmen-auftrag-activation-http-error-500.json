@@ -1,0 +1,22 @@
+{
+  "id": "011fe411-4902-4382-9e82-7d480296d66b",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/oss/v5/spri",
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//geschaeftsfallArt[text()='Bereitstellung']"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc22fff"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "statusMessage": "Internal Server Error"
+  }
+}

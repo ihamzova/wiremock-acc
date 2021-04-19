@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/olt/vpszlookup",
+    "queryParameters": {
+      "vpsz": {
+        "matches": "49\\/30\\/179"
+      },
+      "devicetype": {
+        "equalTo": "BNG"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/device/vpsz/search-olt-devices-by-vpsz-type-bng-{{replace request.query.vpsz '/' '_'}}.json"
+  }
+}

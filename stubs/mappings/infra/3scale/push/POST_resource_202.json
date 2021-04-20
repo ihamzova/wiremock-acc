@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/p/push/(.*)/?"
+  },
+  "response": {
+    "status": 202,
+    "headers":{
+      "X-Pubsub-Event-Id": "{{randomValue type='UUID'}}"
+    }
+  },
+  "postServeActions": {
+    "groovy": {
+      "inline": "send_push_events_post_serve_action()"
+    }
+  },
+  "priority": 10
+}

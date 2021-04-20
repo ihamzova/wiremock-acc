@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/r/push/(.*)/?"
+  },
+  "response": {
+    "headers":{
+      "X-Pubsub-Subscriber-Id": "{{#groovy}}put_push_subscriber_info_helper(){{/groovy}}"
+    },
+    "status": 202
+  },
+  "priority": 10
+}

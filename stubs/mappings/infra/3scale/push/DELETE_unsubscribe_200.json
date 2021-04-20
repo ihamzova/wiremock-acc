@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/pubsub/r/push/(.*)/?"
+  },
+  "response": {
+    "status": 200
+  },
+  "postServeActions": {
+    "groovy": {
+      "inline": "unsubscribe_from_push_events_post_serve_action()"
+    }
+  },
+  "priority": 10
+}

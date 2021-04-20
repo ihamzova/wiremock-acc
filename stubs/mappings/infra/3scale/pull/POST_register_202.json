@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/r/(.*)/?"
+  },
+  "response": {
+    "headers": {
+      "X-Pubsub-Subscriber-Id": "{{randomValue type='UUID'}}",
+      "X-Pubsub-Subscriber-Url": "{{#groovy}}get_subscriber_url_helper(){{/groovy}}"
+    },
+    "status": 202
+  },
+  "priority": 10
+}

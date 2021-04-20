@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WebhooksPostServeActionDefinition {
-    private List<WebhookPostServeActionDefinition> webhooks;
+    private final List<WebhookPostServeActionDefinition> webhooks;
 
     @JsonCreator
-    public WebhooksPostServeActionDefinition(@JsonProperty("webhooks") ArrayList<WebhookPostServeActionDefinition> webhooks) {
+    public WebhooksPostServeActionDefinition(@JsonProperty("webhooks") List<WebhookPostServeActionDefinition> webhooks) {
         this.webhooks = webhooks;
     }
 

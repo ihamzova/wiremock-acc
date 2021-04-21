@@ -209,6 +209,101 @@
           }
         ]
       }
+    },
+    {
+      "id": 1005,
+      "slotNumber": "5",
+      "card": {
+        "shortName": "GPPD",
+        "materialNumber": "40261742",
+        "emsNbiName": "H805GPBD",
+        "tkz1": "03021BQW",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+        "lastDiscovery": null,
+        "id": 1005,
+        "name": "8-port GPON OLT Interface Board V2",
+        "description": null,
+        "serialNumber": "021BQW10B6000065",
+        "serviceState": null,
+        "resourceState": "INSTALLING_INSTALLED",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "ports": [
+          {
+            "id": 1050,
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1051,
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1052,
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1053,
+            "portType": "PON",
+            "portNumber": "3",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1054,
+            "portType": "PON",
+            "portNumber": "4",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1055,
+            "portType": "PON",
+            "portNumber": "5",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1056,
+            "portType": "PON",
+            "portNumber": "6",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          },
+          {
+            "id": 1057,
+            "portType": "PON",
+            "portNumber": "7",
+            "opticalModule": null,
+            "lineIdPools": [],
+            "accessLines": [],
+            "homeIdPools": []
+          }
+        ]
+      }
     }
   ],
   "ftthAnptagRange": {

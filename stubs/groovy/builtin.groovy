@@ -23,7 +23,7 @@ def get_3scale_event_helper() {
 
 def is_3scale_resource_empty_matcher() {
     get_resource(request.url)
-            .map(persistence::get)
+            .map(resource -> persistence.get(resource))
             .map(obj -> {
                 if (obj instanceof String) {
                     return ((String) obj).isEmpty()
@@ -43,7 +43,7 @@ def is_3scale_resource_not_empty_matcher() {
 }
 
 def get_subscriber_url_helper() {
-    "${System.getenv("API_GATEWAY_URL")}${context.get("request.url").toString().replaceFirst("pubsub/r", "pubsub/s")}"
+    "${System.getenv("API_GATEWAY_URL")}${context.get("request.url").toString().replaceFirst("/pubsub/r", "pubsub/s")}"
 }
 
 def put_push_subscriber_info_helper() {

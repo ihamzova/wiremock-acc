@@ -1,0 +1,53 @@
+{
+  "totalPages": 1,
+  "totalElements": 1,
+  "size": 25,
+  "content": [
+    {
+      "id": 1002,
+      "klsId": 332013724,
+      "folId": "1003",
+      "distributionPointId": "A",
+      "vzkCable": null,
+      "plannedNvt": {
+        "onkz": 3018,
+        "asb": 3,
+        "name": "3V3212",
+        "id": 1002,
+        "klsId": 332013723,
+        "vvmAreaNumber": "33100092",
+        "nvtType": "GF-NVT10GR",
+        "organizationID": 10001,
+        "plannedVst": {
+          "id": 8831,
+          "onkz": 3071,
+          "asb": 3,
+          "name": "3R",
+          "oltVpsz": null,
+          "klsId": 3237811
+        },
+        "numberOfHkFiber": null,
+        "areaType": "RESIDENTIAL"
+      }
+    }
+  ],
+  "number": 0,
+  "sort": {
+    "unsorted": true,
+    "sorted": false
+  },
+  "numberOfElements": 1,
+  "first": true,
+  "last": true,
+  "pageable": {
+    "offset": 0,
+    "sort": {
+      "unsorted": true,
+      "sorted": false
+    },
+    "pageNumber": 0,
+    "paged": true,
+    "unpaged": false,
+    "pageSize": 25
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Update a build up agreement of a propertyOwner",
+  "request": {
+    "method": "PATCH",
+    "urlPath": "/landlord-management/v2/consolidatedAgreements"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "ll-core/patch-consolidated-agreement.json"
+  }
+}

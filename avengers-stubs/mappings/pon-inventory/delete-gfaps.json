@@ -1,4 +1,5 @@
 {
+  "name": "Delete Pon Planning for a building by its folId",
   "request": {
     "method": "DELETE",
     "urlPattern": "/resource-order-resource-inventory/v3/gfAps\\?folId=.*"

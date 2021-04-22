@@ -1,0 +1,12 @@
+{
+  "agreementDate": "2021-04-22T11:03:45.998Z",
+  "buildUpRejectionReason": "{{jsonPath request.body '$.consolidatedAgreement.buildUpRejectionReason'}}",
+  "klsId": 0,
+  "fiberOnLocationId": {{jsonPath request.body '$.consolidatedAgreement.fiberOnLocationId'}},
+  "agreementStatus": "{{jsonPath request.body '$.consolidatedAgreement.agreementStatus'}}",
+  "agreementMethod": "{{jsonPath request.body '$.consolidatedAgreement.agreementMethod'}}",
+  "buildUpAgreementRole": "{{jsonPath request.body '$.consolidatedAgreement.buildUpAgreementRole'}}",
+  "reasonForNoConstruction": "{{jsonPath request.body '$.consolidatedAgreement.reasonForNoConstruction'}}",
+  "propertyOwnerId": 0,
+  "propertyOwnerNumber": 0
+}

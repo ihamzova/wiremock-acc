@@ -1,0 +1,11 @@
+{
+  "name": "Delete Pon Planning for a building by its folId",
+  "priority": 10,
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/resource-order-resource-inventory/v3/gfAps\\?folId=.*"
+  },
+  "response": {
+    "status": 200
+  }
+}

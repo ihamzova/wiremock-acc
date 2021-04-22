@@ -1,5 +1,6 @@
 {
   "name": "Update a build up agreement of a propertyOwner",
+  "priority": 10,
   "request": {
     "method": "PATCH",
     "urlPath": "/landlord-management/v2/consolidatedAgreements"

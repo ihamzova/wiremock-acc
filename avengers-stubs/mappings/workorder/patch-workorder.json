@@ -1,5 +1,6 @@
 {
   "name": "Update workorder status",
+  "priority": 10,
   "request": {
     "method": "PATCH",
     "urlPattern": "/giga-project-dioss/v5/workorders/.*"

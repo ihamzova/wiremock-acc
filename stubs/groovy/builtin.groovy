@@ -24,7 +24,7 @@ def get_3scale_event_helper() {
 def is_3scale_resource_empty_matcher() {
     get_resource(request.url)
             .map{resource -> persistence.get(resource)}
-            .map{ obj -> {
+            .map{ obj -> l: {
                 if (obj instanceof String) {
                     return ((String) obj).isEmpty()
                 } else if (obj instanceof List) {

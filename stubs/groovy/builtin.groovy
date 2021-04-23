@@ -23,8 +23,8 @@ def get_3scale_event_helper() {
 
 def is_3scale_resource_empty_matcher() {
     get_resource(request.url)
-            .map(resource -> persistence.get(resource))
-            .map(obj -> {
+            .map{resource -> persistence.get(resource)}
+            .map{ obj -> {
                 if (obj instanceof String) {
                     return ((String) obj).isEmpty()
                 } else if (obj instanceof List) {
@@ -34,7 +34,7 @@ def is_3scale_resource_empty_matcher() {
                 } else {
                     return false
                 }
-            })
+            }}
             .orElse(true)
 }
 
@@ -53,7 +53,7 @@ def put_push_subscriber_info_helper() {
 
     def url = context.get("request.headers").get("X-Push-Url").get(0)
     def method = Optional.ofNullable(context.get("request.headers").get("X-Push-Method"))
-            .map(h -> h.get(0))
+            .map{h -> h.get(0)}
             .orElse("POST")
     def subscriberId = UUID.randomUUID().toString()
 
@@ -75,11 +75,11 @@ def send_push_events_post_serve_action() {
     def event = serveEvent.request.getBodyAsString()
 
     def definitions = resourceList.stream()
-            .map(m -> new WebhookPostServeActionDefinition()
+            .map{m -> new WebhookPostServeActionDefinition()
                     .withUrl(m.get("url"))
                     .withMethod(m.get("method"))
                     .withBody(event)
-                    .withHeader("Content-Type", "application/json"))
+                    .withHeader("Content-Type", "application/json")}
             .collect(Collectors.toList()) as List<WebhookPostServeActionDefinition>
     new WebhooksPostServeAction().doAction(serveEvent, admin, Parameters.of(new WebhooksPostServeActionDefinition(definitions)))
 }
@@ -91,7 +91,7 @@ def unsubscribe_from_push_events_post_serve_action() {
     def subscriberId = serveEvent.request.headers.getHeader("X-Pubsub-Subscriber-Id").values().get(0)
 
     def filteredResourceList = resourceList.stream()
-            .filter(m -> !m.get("subscriberId").equals(subscriberId))
+            .filter{m -> !m.get("subscriberId").equals(subscriberId)}
             .collect(Collectors.toList())
 
     persistence.put(resource, filteredResourceList)
@@ -113,7 +113,7 @@ private Optional<String> get_resource(url) {
     resourceIndex = resourceIndex == -1 ? url.indexOf("/pubsub/p") : resourceIndex
 
     Optional.of(resourceIndex)
-            .filter(i -> i != -1)
-            .map(i -> i + "/pubsub/r".length())
-            .map(i -> url.substring(i + 1))
+            .filter{i -> i != -1}
+            .map{i -> i + "/pubsub/r".length()}
+            .map{i -> url.substring(i + 1)}
 }

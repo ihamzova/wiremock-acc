@@ -43,7 +43,7 @@ def is_3scale_resource_not_empty_matcher() {
 }
 
 def get_subscriber_url_helper() {
-    "${System.getenv("API_GATEWAY_URL")}${context.get("request.url").toString().replaceFirst("/pubsub/r", "pubsub/s")}"
+    "${context.get("request.requestLine.baseUrl")}${context.get("request.url").replaceFirst("pubsub/r", "pubsub/s")}"
 }
 
 def put_push_subscriber_info_helper() {

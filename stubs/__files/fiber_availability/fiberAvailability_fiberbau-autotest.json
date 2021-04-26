@@ -1427,6 +1427,148 @@
         "serviceRelationship": []
       },
       "terminationError": []
+    },
+    {
+      "id": "4bbfcef8-86b5-4223-a9bb-7f7b4bcfe3f1",
+      "qualificationResult": "qualified",
+      "state": "done",
+      "alternateServiceProposal": [],
+      "eligibilityUnavailabilityReason": [],
+      "qualificationItemRelationship": [],
+      "service": {
+        "id": "1143069d-e0f5-4143-85d4-6df647e33a5b",
+        "place": [
+          {
+            "id":  "1000000000021",
+            "name": "020",
+            "@type": "BuildingSection"
+          }
+        ],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "name": "Telekom Deutschland GmbH",
+            "role": "NetCo",
+            "characteristics": [
+              {
+                "name": "carrierCode",
+                "value": "DTAG"
+              },
+              {
+                "name": "isWholebuyPartner",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "serviceCharacteristic": [
+          {
+            "name": "Ausbaustand Glasfaser",
+            "value": "vvmOngoing"
+          },
+          {
+            "name": "WE",
+            "value": "3"
+          },
+          {
+            "name": "GE",
+            "value": "0"
+          },
+          {
+            "name": "SL",
+            "value": "0"
+          },
+          {
+            "name": "DatumVon",
+            "value": "{{now offset='2 days' format='yyyy-MM-dd'}}T00:00:00.000Z"
+          },
+          {
+            "name": "DatumBis",
+            "value": "{{now offset='31 days' format='yyyy-MM-dd'}}T00:00:00.000Z"
+          },
+          {
+            "name": "Technologie",
+            "value": "FTTH"
+          },
+          {
+            "name": "Initiative",
+            "value": "Eigenausbau"
+          }
+        ],
+        "serviceRelationship": []
+      },
+      "terminationError": []
+    },
+    {
+      "id": "6ddb8dc3-8123-470b-a39d-b2e433bc95a1",
+      "qualificationResult": "qualified",
+      "state": "done",
+      "alternateServiceProposal": [],
+      "eligibilityUnavailabilityReason": [],
+      "qualificationItemRelationship": [],
+      "service": {
+        "id": "1143069d-e0f5-4143-85d4-6df647e33a5b",
+        "place": [
+          {
+            "id":  "1000000000022",
+            "name": "020",
+            "@type": "BuildingSection"
+          }
+        ],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "name": "Telekom Deutschland GmbH",
+            "role": "NetCo",
+            "characteristics": [
+              {
+                "name": "carrierCode",
+                "value": "DTAG"
+              },
+              {
+                "name": "isWholebuyPartner",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "serviceCharacteristic": [
+          {
+            "name": "Ausbaustand Glasfaser",
+            "value": "vvmOngoing"
+          },
+          {
+            "name": "WE",
+            "value": "3"
+          },
+          {
+            "name": "GE",
+            "value": "0"
+          },
+          {
+            "name": "SL",
+            "value": "0"
+          },
+          {
+            "name": "DatumVon",
+            "value": "{{now offset='2 days' format='yyyy-MM-dd'}}T00:00:00.000Z"
+          },
+          {
+            "name": "DatumBis",
+            "value": "{{now offset='31 days' format='yyyy-MM-dd'}}T00:00:00.000Z"
+          },
+          {
+            "name": "Technologie",
+            "value": "FTTH"
+          },
+          {
+            "name": "Initiative",
+            "value": "Eigenausbau"
+          }
+        ],
+        "serviceRelationship": []
+      },
+      "terminationError": []
     }
   ]
 }

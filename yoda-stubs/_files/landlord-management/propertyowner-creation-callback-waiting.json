@@ -1,0 +1,110 @@
+{
+  "success": true,
+  "error" : null,
+  "response": {
+    "propertyOwner": {
+      "propertyOwnerType" : "ORGANIZATION",
+      "id": "{{jsonPath request.body '$.propertyOwnerAgreement.fiberOnLocationId'}}",
+      "city" : "Wiesbaden",
+      "country" : "DE",
+      "houseNumber" : "5",
+      "houseNumberExtension" : null,
+      "postCode" : "65185",
+      "postOfficeBox" : null,
+      "stateOrProvince" : null,
+      "street" : "Langgasse",
+      "ownerClassificationType" : "PROPERTY_OWNER",
+      "propertyOwnerNumber" : null,
+      "primaryContactId" : 2,
+      "legalEntity" : null,
+      "legalForm" : null,
+      "organizationId" : null,
+      "organizationName" : "AOE GmbH",
+      "contacts" : [ {
+        "id" : 2,
+        "familyName" : "Test",
+        "givenName" : "Test",
+        "salutation" : "MRS",
+        "title" : null,
+        "role" : null,
+        "media" : [ {
+          "id" : 4,
+          "preferred" : false,
+          "mediumType" : "FIXED_LINE",
+          "city" : null,
+          "country" : null,
+          "emailAddress" : null,
+          "houseNumber" : null,
+          "houseNumberExtension" : null,
+          "phoneNumber" : "0611 - 189982",
+          "postCode" : null,
+          "postOfficeBox" : null,
+          "stateOrProvince" : null,
+          "street" : null
+        }, {
+          "id" : 5,
+          "preferred" : true,
+          "mediumType" : "EMAIL",
+          "city" : null,
+          "country" : null,
+          "emailAddress" : "fabian.junkert@example.com",
+          "houseNumber" : null,
+          "houseNumberExtension" : null,
+          "phoneNumber" : null,
+          "postCode" : null,
+          "postOfficeBox" : null,
+          "stateOrProvince" : null,
+          "street" : null
+        } ]
+      } ],
+      "primaryContact" : {
+        "id" : 2,
+        "familyName" : "Test",
+        "givenName" : "Test",
+        "salutation" : "MRS",
+        "title" : null,
+        "role" : null,
+        "media" : [ {
+          "id" : 4,
+          "preferred" : false,
+          "mediumType" : "FIXED_LINE",
+          "city" : null,
+          "country" : null,
+          "emailAddress" : null,
+          "houseNumber" : null,
+          "houseNumberExtension" : null,
+          "phoneNumber" : "0611 - 189982",
+          "postCode" : null,
+          "postOfficeBox" : null,
+          "stateOrProvince" : null,
+          "street" : null
+        }, {
+          "id" : 5,
+          "preferred" : true,
+          "mediumType" : "EMAIL",
+          "city" : null,
+          "country" : null,
+          "emailAddress" : "fabian.junkert@example.com",
+          "houseNumber" : null,
+          "houseNumberExtension" : null,
+          "phoneNumber" : null,
+          "postCode" : null,
+          "postOfficeBox" : null,
+          "stateOrProvince" : null,
+          "street" : null
+        } ]
+      }
+    },
+    "consolidatedAgreement": {
+      "fiberOnLocationId": "{{jsonPath request.body '$.propertyOwnerAgreement.fiberOnLocationId'}}",
+      "agreementDate" : null,
+      "agreementStatus" : "WAITING",
+      "buildUpRejectionReason" : null,
+      "klsId": "{{jsonPath request.body '$.propertyOwnerAgreement.klsID'}}",
+      "agreementMethod" : "PRIMARY",
+      "explorationResponsibleId" : null,
+      "installationDoorOpenerId" : null,
+      "resourceAssociationOrganizationId" : null
+    }
+  }
+}

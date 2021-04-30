@@ -1,0 +1,25 @@
+{
+  "mappings": [
+
+    {
+      "id": "b0d8bba2-1576-4b89-8c70-74081ea22c3c",
+      "request": {
+        "method": "GET",
+        "urlPath": "/landlord-management/v1/propertyOwners",
+        "queryParameters": {
+          "fiberOnLocationId": {
+            "matches": "(\\d*)"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "landlord-management/get_propertyOwners_PERSON_BOTH_MULTIPLE_primary.json"
+      }
+    }
+    
+  ]
+}

@@ -29,6 +29,7 @@ COPY order-stubs /$WM_PACKAGE/order-stubs
 COPY osr-stubs /$WM_PACKAGE/osr-stubs
 COPY presales-stubs /$WM_PACKAGE/presales-stubs
 COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
+COPY yoda-stubs /$WM_PACKAGE/yoda-stubs
 
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 

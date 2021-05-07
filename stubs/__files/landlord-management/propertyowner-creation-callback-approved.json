@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "error" : null,
+  "response": {
+    "propertyOwner": {
+      "propertyOwnerType" : "PERSON",
+      "id": "{{jsonPath request.body '$.propertyOwnerAgreement.fiberOnLocationId'}}",
+      "city" : "Bornheim",
+      "country" : "DE",
+      "houseNumber" : "6",
+      "houseNumberExtension" : "A",
+      "postCode" : "53332",
+      "postOfficeBox" : null,
+      "stateOrProvince" : null,
+      "street" : "Kölner Landstr.",
+      "ownerClassificationType" : "PROPERTY_OWNER",
+      "propertyOwnerNumber" : null,
+      "primaryContactId" : null,
+      "legalEntity" : null,
+      "legalForm" : null,
+      "organizationId" : null,
+      "organizationName" : null,
+      "contacts" : [ ],
+      "primaryContact" : null
+    },
+    "consolidatedAgreement": {
+      "fiberOnLocationId": "{{jsonPath request.body '$.propertyOwnerAgreement.fiberOnLocationId'}}",
+      "agreementDate" : null,
+      "agreementStatus": "APPROVED",
+      "buildUpRejectionReason" : null,
+      "klsId": "{{jsonPath request.body '$.propertyOwnerAgreement.klsID'}}",
+      "agreementMethod": "PRIMARY",
+      "explorationResponsibleId" : null,
+      "installationDoorOpenerId" : null,
+      "resourceAssociationOrganizationId" : null
+    }
+  }
+}

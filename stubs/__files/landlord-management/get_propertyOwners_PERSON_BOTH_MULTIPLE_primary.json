@@ -1,0 +1,276 @@
+[
+    {
+        "propertyOwnerType": "PERSON",
+        "id": 5,
+        "city": "Bornheim",
+        "country": "DE",
+        "houseNumber": "6",
+        "houseNumberExtension": "A",
+        "postCode": "53332",
+        "postOfficeBox": null,
+        "stateOrProvince": null,
+        "street": "Kölner Landstr.",
+        "ownerClassificationType": "PROPERTY_OWNER",
+        "propertyOwnerNumber": null,
+        "primaryContactId": 4,
+        "legalEntity": null,
+        "legalForm": null,
+        "organizationId": null,
+        "organizationName": null,
+        "contacts": [
+            {
+                "id": 4,
+                "familyName": "Customer",
+                "givenName": "Carlo",
+                "salutation": "MR",
+                "title": null,
+                "role": null,
+                "media": [
+                    {
+                        "id": 9,
+                        "preferred": false,
+                        "mediumType": "MOBILE",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": null,
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": "01234127489",
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    },
+                    {
+                        "id": 10,
+                        "preferred": true,
+                        "mediumType": "EMAIL",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": "carlo_customer.dms@1000kit.org",
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": null,
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "familyName": "Mustermann",
+                "givenName": "Max",
+                "salutation": "MR",
+                "title": "Prof. Dr. med.",
+                "role": "Hausmeister",
+                "media": [
+                    {
+                        "id": 11,
+                        "preferred": true,
+                        "mediumType": "EMAIL",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": "dooropener.dms@1000kit.org",
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": null,
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    },
+                    {
+                        "id": 12,
+                        "preferred": true,
+                        "mediumType": "MOBILE",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": null,
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": "+4915140968574",
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "familyName": "Meier",
+                "givenName": "Paul",
+                "salutation": "MR",
+                "title": null,
+                "role": null,
+                "media": [
+                    {
+                        "id": 13,
+                        "preferred": true,
+                        "mediumType": "EMAIL",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": "sitesurvey.dms@1000kit.org",
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": null,
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    },
+                    {
+                        "id": 14,
+                        "preferred": true,
+                        "mediumType": "MOBILE",
+                        "city": null,
+                        "country": null,
+                        "emailAddress": null,
+                        "houseNumber": null,
+                        "houseNumberExtension": null,
+                        "phoneNumber": "+4917088998899",
+                        "postCode": null,
+                        "postOfficeBox": null,
+                        "stateOrProvince": null,
+                        "street": null
+                    }
+                ]
+            }
+        ],
+        "primaryContact": {
+            "id": 4,
+            "familyName": "Carlo",
+            "givenName": "Customer",
+            "salutation": "MR",
+            "title": null,
+            "role": null,
+            "media": [
+                {
+                    "id": 9,
+                    "preferred": false,
+                    "mediumType": "MOBILE",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": null,
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": "01234127489",
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                },
+                {
+                    "id": 10,
+                    "preferred": true,
+                    "mediumType": "EMAIL",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": "carlo_customer.dms@1000kit.org",
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": null,
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                }
+            ]
+        },
+        "installationDoorOpener": {
+            "id": 5,
+            "familyName": "Mustermann",
+            "givenName": "Max",
+            "salutation": "MR",
+            "title": "Prof. Dr. med.",
+            "role": "Hausmeister",
+            "media": [
+                {
+                    "id": 11,
+                    "preferred": true,
+                    "mediumType": "EMAIL",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": "dooropener.dms@1000kit.org",
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": null,
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                },
+                {
+                    "id": 12,
+                    "preferred": true,
+                    "mediumType": "MOBILE",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": null,
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": "+4915140968574",
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                }
+            ]
+        },
+        "explorationResponsible": {
+            "id": 6,
+            "familyName": "Meier",
+            "givenName": "Paul",
+            "salutation": "MR",
+            "title": null,
+            "role": null,
+            "media": [
+                {
+                    "id": 13,
+                    "preferred": true,
+                    "mediumType": "EMAIL",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": "sitesurvey.dms@1000kit.org",
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": null,
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                },
+                {
+                    "id": 14,
+                    "preferred": true,
+                    "mediumType": "MOBILE",
+                    "city": null,
+                    "country": null,
+                    "emailAddress": null,
+                    "houseNumber": null,
+                    "houseNumberExtension": null,
+                    "phoneNumber": "+4917088998899",
+                    "postCode": null,
+                    "postOfficeBox": null,
+                    "stateOrProvince": null,
+                    "street": null
+                }
+            ]
+        },
+        "agreements": [
+            {
+                "id": 5,
+                "agreementDate": null,
+                "agreementStatus": "WAITING",
+                "buildUpRejectionReason": null,
+                "klsId": 9109412,
+                "customer": true,
+                "decisionMaker": true,
+                "consolidatedAgreementFiberOnLocationId": null,
+                "propertyOwnerId": null
+            }
+        ]
+    }
+]

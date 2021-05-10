@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "priority": 2,
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/(giga-areas-location/v1/lookup|api/addressLookup/v1)/addressSearch/getAddressInfo/25692564"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "presales/address-lookup/customs/get-address-info-body-25692564.json"
+      }
+    }
+  ]
+}
+}

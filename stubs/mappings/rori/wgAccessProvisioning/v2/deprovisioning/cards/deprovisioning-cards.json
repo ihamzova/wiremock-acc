@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "ANY",
+    "urlPathPattern": "/resource-order-resource-inventory/v2/deprovisioning/cards"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
+    },
+    "bodyFileName": "rori/wgAccessProvisioning/v2/deprovisioning.json"
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "fixedDelayMilliseconds": 5000,
+      "jsonBody": {
+        "success": true
+      }
+    }
+  }
+}

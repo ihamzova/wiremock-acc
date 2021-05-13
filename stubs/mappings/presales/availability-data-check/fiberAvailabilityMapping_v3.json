@@ -159,6 +159,22 @@
         },
         "bodyFileName": "fiber_availability/fiberAvailability_25692564.json"
       }
+    },
+    {
+      "id": "8e4a2ffb-9d50-4afc-8f46-85bd203469fe",
+      "priority": 1,
+      "name": "FiberAvailability_by_klsId_80056101",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/80056101\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "fiber_availability/fiberAvailability_80056101.json"
+      }
     }
   ]
 }

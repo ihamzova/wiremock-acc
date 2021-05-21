@@ -1,67 +1,45 @@
 [
   {
-    "id": 1216,
-    "oltEndSz": "49/911/1100/76H2",
-    "oltSlot": "8",
-    "oltPortNumber": "1",
-    "bngEndSz": "49/30/179/43G2",
-    "bngSlot": "1",
-    "bngPortNumber": "ge-1/2/3",
-    "ancpSessions": [
+    "id": "1216",
+    "href": "/resource-order-resource-inventory/v5/uplink/1216",
+    "creationDate": "2021-01-22T15:21:27.19554+01:00",
+    "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+    "ordnungsnummer": 10,
+    "pluralId": null,
+    "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b23",
+    "uewegId": null,
+    "version": null,
+    "versionId": null,
+    "lsz": "4C1",
+    "portsEquipmentBusinessRef": [
       {
-        "id": 1215,
-        "vlan": 16,
-        "partitionId": 2,
-        "sessionId": 2,
-        "sessionType": "OLT",
-        "rmkEndpointId": "1187037139",
-        "sealConfigurationId": "0-8-1-2-16",
-        "ipSubnet": {
-          "id": 1215,
-          "subnetMask": "/30",
-          "ipAddressLoopback": "10.150.240.100",
-          "ipAddressBng": "10.150.240.102",
-          "ipAddressBroadcast": "10.150.240.103",
-          "rmkAccessId": "1187037139",
-          "allocatedIPAddresses": [
-            {
-              "id": 1215,
-              "ipAddress": "10.150.240.101"
-            }
-          ]
-        },
-        "sessionStatus": "ACTIVE",
-        "endsz": "49/911/1100/76H2",
-        "allocatedIPAddress": {
-          "id": 1215,
-          "ipAddress": "10.150.240.101"
-        },
-        "configurationStep": null,
-        "additionalInfo": null,
-        "lastActivity": "2020-07-14T13:59:18+02:00",
-        "port": {
-          "id": 6537,
-          "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b2",
-          "portType": "ETHERNET",
-          "portNumber": "1",
-          "opticalModule": null,
-          "compositePartyId": 10001,
-          "homeIdPools": [],
-          "lineIdPools": [],
-          "accessLines": []
-        }
+        "endSz": "49/911/1100/76H2",
+        "portName": "1",
+        "slotName": "8",
+        "deviceType": "OLT",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      },
+      {
+        "endSz": "49/30/179/43G2",
+        "portName": "ge-1/2/3",
+        "slotName": "1",
+        "deviceType": "BNG",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
       }
     ],
-    "lsz": "4C1",
-    "orderNumber": 10,
-    "uewegId": null,
-    "pluralId": null,
-    "versionId": null,
-    "version": null,
-    "ipStatus": "ACTIVE",
-    "ancpStatus": null,
-    "activeAncpSession": true,
-    "ipManagedAddress": "172.22.53.4",
-    "compositePartyId": 10001
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "state": "ACTIVE",
+    "@baseType": "PhysicalResource",
+    "@type": "Uplink"
   }
 ]

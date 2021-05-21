@@ -2,10 +2,13 @@
   "priority": 3,
   "request": {
     "method": "GET",
-    "urlPath": "/api/oltResourceInventory/v1/olt/findEthernetLinksByEndsz",
+    "urlPath": "/uplink",
     "queryParameters": {
-      "oltEndSz": {
+      "portsEquipmentBusinessRef.endSz": {
         "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{2,4}"
+      },
+      "state": {
+        "equalTo": "ACTIVE"
       }
     }
   },

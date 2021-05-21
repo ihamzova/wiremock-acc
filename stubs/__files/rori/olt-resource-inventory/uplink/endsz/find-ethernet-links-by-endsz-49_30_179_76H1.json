@@ -1,64 +1,45 @@
 [
   {
-    "id": 1001,
-    "oltEndSz": "49/30/179/76H1",
-    "oltSlot": "19",
-    "oltPortNumber": "0",
-    "bngEndSz": "49/911/84/7ZJB",
-    "bngSlot": null,
-    "bngPortNumber": "0",
-    "ancpSessions": [
+    "id": "1001",
+    "href": "/resource-order-resource-inventory/v5/uplink/1001",
+    "creationDate": "2021-01-22T15:21:27.19554+01:00",
+    "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+    "ordnungsnummer": 1,
+    "pluralId": "abc123456",
+    "resourceId": "e562db69-4197-4b61-a398-1a34848462eb",
+    "uewegId": "R000000001",
+    "version": "1",
+    "versionId": "102/1/1234/567894",
+    "lsz": "4C2",
+    "portsEquipmentBusinessRef": [
       {
-        "id": 1000,
-        "vlan": 16,
-        "partitionId": 1,
-        "sessionId": 1,
-        "sessionType": "OLT",
-        "rmkEndpointId": null,
-        "sealConfigurationId": null,
-        "ipSubnet": {
-          "id": 1000,
-          "subnetMask": "/30",
-          "ipAddressLoopback": "10.150.240.102",
-          "ipAddressBng": "10.150.240.100",
-          "ipAddressBroadcast": "10.150.240.103",
-          "rmkAccessId": "9147922971713834000",
-          "allocatedIPAddresses": [
-            {
-              "id": 1000,
-              "ipAddress": "test"
-            }
-          ]
-        },
-        "sessionStatus": "ACTIVE",
-        "endsz": "49/30/179/76H1",
-        "allocatedIPAddress": null,
-        "configurationStep": "DELETE_IP_RANGE_ASSIGNMENT",
-        "additionalInfo": "Loeschen der IP-Range-Zuweisung weiterte Fehler-Details",
-        "lastActivity": "2020-07-14T13:59:18+02:00",
-        "port": {
-          "id": 1016,
-          "resourceId": "e562db69-4197-4b61-a398-1a34848462eb",
-          "portType": "ETHERNET",
-          "portNumber": "0",
-          "opticalModule": null,
-          "compositePartyId": 10001,
-          "homeIdPools": [],
-          "lineIdPools": [],
-          "accessLines": []
-        }
+        "endSz": "49/30/179/76H1",
+        "portName": "0",
+        "slotName": "19",
+        "deviceType": "OLT",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      },
+      {
+        "endSz": "49/911/84/7ZJB",
+        "portName": "0",
+        "slotName": null,
+        "deviceType": "BNG",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
       }
     ],
-    "lsz": "4C2",
-    "orderNumber": 1,
-    "uewegId": "R000000001",
-    "pluralId": "abc123456",
-    "versionId": "102/1/1234/567894",
-    "version": "1",
-    "ipStatus": "ACTIVE",
-    "ancpStatus": null,
-    "activeAncpSession": false,
-    "ipManagedAddress": "10.147.122.196",
-    "compositePartyId": 10001
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "state": "ACTIVE",
+    "@baseType": "PhysicalResource",
+    "@type": "Uplink"
   }
 ]

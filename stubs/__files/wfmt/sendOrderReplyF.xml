@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:ti="http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang_Rueckmeldung"
+               xmlns:ns1="http://messaging.ei.tmobile.net/datatypes"
+               xmlns:typ="http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang_Rueckmeldung/types">
+    <soap:Header/>
+    <soap:Body>
+        <ti:sendOrderReply>
+            <ti:eiMessageContext>
+                {{{soapXPath request.body '/createOrder/eiMessageContext/target'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/replyTo'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/requestId'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/timeLeft'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/priority'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/redelivered'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/revision'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/sender'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/correlationId'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/sequenceId'}}}
+                {{{soapXPath request.body '/createOrder/eiMessageContext/properties'}}}
+            </ti:eiMessageContext>
+            <ti:data>
+                <ti:sendOrderReply>
+                    <typ:WMS_MSG>
+                        <typ:WMS_HEADER>
+                            <typ:SERVICE_ID>{{soapXPath request.body '/createOrder/WMS_MSG/WMS_HEADER/SERVICE_ID/text()'}}</typ:SERVICE_ID>
+                            <typ:SERVICE_VERSION>{{soapXPath request.body '/createOrder/WMS_MSG/WMS_HEADER/SERVICE_VERSION/text()'}}</typ:SERVICE_VERSION>
+                            <typ:SND_ID>{{soapXPath request.body '/createOrder/WMS_MSG/WMS_HEADER/RCV_ID/text()'}}</typ:SND_ID>
+                            <typ:RCV_ID>{{soapXPath request.body '/createOrder/WMS_MSG/WMS_HEADER/SND_ID/text()'}}</typ:RCV_ID>
+                            <typ:SND_ORDER_ID>dummy sndOrderId</typ:SND_ORDER_ID>
+                            <typ:RCV_ORDER_ID>{{{soapXPath request.body '/createOrder/WMS_MSG/WMS_HEADER/SND_ORDER_ID/text()'}}}</typ:RCV_ORDER_ID>
+                            <typ:MSG_TYPE>F</typ:MSG_TYPE>
+                        </typ:WMS_HEADER>
+                        <typ:WMS_BODY/>
+                    </typ:WMS_MSG>
+                </ti:sendOrderReply>
+            </ti:data>
+        </ti:sendOrderReply>
+    </soap:Body>
+</soap:Envelope>

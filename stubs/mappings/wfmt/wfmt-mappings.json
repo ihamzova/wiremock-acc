@@ -1,0 +1,358 @@
+{
+  "mappings": [
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "Started",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/Started"
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "ManualEventZ",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/ManualEventZ"
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "CreateOrderMultipleNotifications",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/CreateOrderMultipleNotifications"
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "CreateOrderBusinessError",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/CreateOrderBusinessError"
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "CreateOrderTechnicalError",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/CreateOrderTechnicalError"
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "newScenarioState": "UpdateOrderTechnicalError",
+      "request": {
+        "method": "PUT",
+        "url": "/wfmtScenarios/UpdateOrderTechnicalError"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:createOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      },
+      "postServeActions": {
+        "webhooks": {
+          "webhooks": [
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/createOrderReply.xml",
+              "fixedDelayMilliseconds": 1000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyZ.xml",
+              "fixedDelayMilliseconds": 5000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyE.xml",
+              "fixedDelayMilliseconds": 10000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "CreateOrderMultipleNotifications",
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:createOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      },
+      "postServeActions": {
+        "webhooks": {
+          "webhooks": [
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/createOrderReply.xml",
+              "fixedDelayMilliseconds": 1000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyZ.xml",
+              "fixedDelayMilliseconds": 5000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyV.xml",
+              "fixedDelayMilliseconds": 7000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyS.xml",
+              "fixedDelayMilliseconds": 9000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyF.xml",
+              "fixedDelayMilliseconds": 11000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyTO.xml",
+              "fixedDelayMilliseconds": 13000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            },
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyE.xml",
+              "fixedDelayMilliseconds": 15000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "ManualEventZ",
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:createOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      },
+      "postServeActions": {
+        "webhooks": {
+          "webhooks": [
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/createOrderReply.xml",
+              "fixedDelayMilliseconds": 1000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "ManualEventZ",
+      "request": {
+        "method": "POST",
+        "url": "/SendManualEventZ"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      },
+      "postServeActions": {
+        "webhooks": {
+          "webhooks": [
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/sendOrderReplyZManual.xml",
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "CreateOrderBusinessError",
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:createOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      },
+      "postServeActions": {
+        "webhooks": {
+          "webhooks": [
+            {
+              "method": "POST",
+              "headers": {
+                "Content-Type": "text/xml"
+              },
+              "bodyFileName": "wfmt/createOrderReplyBusinessError.xml",
+              "fixedDelayMilliseconds": 1000,
+              "url": "http://wfmt-ifc-adapter-app/wfmt-ifc-adapter-rs/soap/OrderReplyService/OrderReply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "CreateOrderTechnicalError",
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:createOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 503,
+        "body": "Service Unavailable"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:updateOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "text/xml"
+        }
+      }
+    },
+    {
+      "scenarioName": "WFM-T Scenario",
+      "requiredScenarioState": "UpdateOrderTechnicalError",
+      "request": {
+        "method": "POST",
+        "url": "/OrderRequestService/OrderRequest",
+        "bodyPatterns": [
+          {
+            "matchesXPath": "//ns2:updateOrder",
+            "xPathNamespaces": {
+              "ns2": "http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang"
+            }
+          }
+        ]
+      },
+      "response": {
+        "status": 503,
+        "body": "Service Unavailable"
+      }
+    }
+  ]
+}

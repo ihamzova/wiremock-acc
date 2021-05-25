@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:ti="http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang_Rueckmeldung"
+               xmlns:ns1="http://messaging.ei.tmobile.net/datatypes"
+               xmlns:typ="http://services.tdeu.telekom.net/Workforce/TechnicalInfrastructure/TI_Auftragseingang_Rueckmeldung/types">
+    <soap:Header/>
+    <soap:Body>
+        <ti:sendOrderReply>
+            <ti:eiMessageContext>
+                <ns1:target>TI_Auftragseingang</ns1:target>
+                <ns1:timeLeft>43200000</ns1:timeLeft>
+                <ns1:revision>2.2</ns1:revision>
+                <ns1:sender>sndr:de.telekom.digioss.architecture.DigiOSS:Default</ns1:sender>
+                <ns1:correlationId>DIGIOSS_TRANSFER_WF_10000</ns1:correlationId>
+            </ti:eiMessageContext>
+            <ti:data>
+                <ti:sendOrderReply>
+                    <typ:WMS_MSG>
+                        <typ:WMS_HEADER>
+                            <typ:SERVICE_ID>00620</typ:SERVICE_ID>
+                            <typ:SERVICE_VERSION>1.00</typ:SERVICE_VERSION>
+                            <typ:SND_ID>DIGIOSS</typ:SND_ID>
+                            <typ:RCV_ID>WFMT</typ:RCV_ID>
+                            <typ:SND_ORDER_ID>dummy sndOrderId</typ:SND_ORDER_ID>
+                            <typ:RCV_ORDER_ID>{{jsonPath request.body '$.rcvOrderId'}}</typ:RCV_ORDER_ID>
+                            <typ:MSG_TYPE>Z</typ:MSG_TYPE>
+                        </typ:WMS_HEADER>
+                        <typ:WMS_BODY>
+                            <typ:REMARKS>Auftrag wurde an den Auftragnehmer uebergeben</typ:REMARKS>
+                        </typ:WMS_BODY>
+                    </typ:WMS_MSG>
+                </ti:sendOrderReply>
+            </ti:data>
+        </ti:sendOrderReply>
+    </soap:Body>
+</soap:Envelope>

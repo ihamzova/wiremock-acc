@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1220",
+    "href": "/resource-order-resource-inventory/v5/uplink/1220",
+    "creationDate": "2021-01-22T15:21:27.19554+01:00",
+    "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+    "ordnungsnummer": 10,
+    "pluralId": null,
+    "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b23",
+    "uewegId": null,
+    "version": null,
+    "versionId": null,
+    "lsz": "4C1",
+    "portsEquipmentBusinessRef": [
+      {
+        "endSz": "49/89/8000/76H2",
+        "portName": "1",
+        "slotName": "8",
+        "deviceType": "OLT",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      },
+      {
+        "endSz": "49/30/179/43G2",
+        "portName": "ge-1/2/3",
+        "slotName": "1",
+        "deviceType": "BNG",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      }
+    ],
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "state": "ACTIVE",
+    "@baseType": "PhysicalResource",
+    "@type": "Uplink"
+  }
+]

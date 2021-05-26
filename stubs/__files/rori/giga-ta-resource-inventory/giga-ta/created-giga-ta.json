@@ -1,0 +1,10 @@
+{
+  "buildState": "BUILT",
+  "technology": "FTTH",
+  "klsId": "{{request.query.klsId}}",
+  "folId": "{{request.query.folId}}",
+  "homeId": "{{request.query.homeId}}",
+  "apartmentCplId": "ZZZZAA",
+  "carrierCode": "{{request.query.carrierCode}}",
+  "materialNumber": "Wholebuy"
+}

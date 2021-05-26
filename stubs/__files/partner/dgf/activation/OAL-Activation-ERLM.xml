@@ -24,8 +24,10 @@
                 <meldungstyp xsi:type="ns4:MeldungstypERLMType" xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
+                        <vertragsnummer>6923119</vertragsnummer>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
                         <auftraggebernummer>2020005101</auftraggebernummer>
+                        <erledigungstermin>2021-05-07</erledigungstermin>
                         <anschluss xsi:type="complexOal:OalAnschlussType">
                             <schaltangabenNga xsi:type="complexOal:OalSchaltangabenType">
                                 <standortBName>POP-Lüdighausen-4711</standortBName>
@@ -33,21 +35,26 @@
                                 <port>0815-23-47</port>
                                 <ppid>{{eq (persist key='dgf_ppid') null yes=(randomValue length=7 type='NUMERIC') no=(persist key='dgf_ppid')}}</ppid>
                             </schaltangabenNga>
-                            <homeId>
-                                <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>
-                            </homeId>
-                            <patchService>partner</patchService>
-                        </anschluss>
-                    </meldungsattribute>
-                    <meldungspositionen>
-                        <position>
-                            <meldungscode>0014</meldungscode>
-                            <meldungstext>Montage beim Endkunden mit Ende-zu-Ende-Prüfung erfolgreich ausgeführt
-                            </meldungstext>
-                        </position>
-                    </meldungspositionen>
-                </meldungstyp>
-            </meldung>
-        </ns2:annehmenMeldungRequest>
-    </soapenv:Body>
-</soapenv:Envelope>
+                            <standortBName>lhn-002</standortBName>
+                            <raum>A</raum>
+                            <rack>1</rack>
+                        </schaltangabenAne>
+                        <homeId>
+                            <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>
+                        </homeId>
+                        <leitungsbezeichnung>DEU.DGW.G50ED155EN</leitungsbezeichnung>
+                        <patchService>supplier</patchService>
+                    </anschluss>
+                </meldungsattribute>
+                <meldungspositionen>
+                    <position>
+                        <meldungscode>0010</meldungscode>
+                        <meldungstext>Auftrag  ausgeführt.
+                        </meldungstext>
+                    </position>
+                </meldungspositionen>
+            </meldungstyp>
+        </meldung>
+    </ns2:annehmenMeldungRequest>
+</soapenv:Body>
+        </soapenv:Envelope>

@@ -5,6 +5,10 @@
     "url": "/resource-order-resource-inventory/v1/giga-tas"
   },
   "response": {
-    "status": 201
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/giga-ta-resource-inventory/giga-ta/created-giga-ta.json"
   }
 }

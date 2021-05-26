@@ -25,15 +25,30 @@
                 <meldungstyp xsi:type="ns4:MeldungstypABMType" xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
+                        <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
                         <auftraggebernummer>2020005101</auftraggebernummer>
-                        <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
                         <verbindlicherLiefertermin>
                             <datum>{{now offset='3 days' format='yyyy-MM-dd'}}</datum>
                         </verbindlicherLiefertermin>
                         <anschluss xsi:type="complexOal:OalAnschlussType">
+                            <schaltangabenNga>
+                                <standortBName>lhn-002</standortBName>
+                                <raum>A</raum>
+                                <rack>1</rack>
+                                <port>ppf-030-10</port>
+                                <ppid>000QF9R</ppid>
+                            </schaltangabenNga>
+                            <schaltangabenAne>
+                                <standortBName>lhn-002</standortBName>
+                                <raum>A</raum>
+                                <rack>1</rack>
+                            </schaltangabenAne>
+                            <homeId>
+                                <homeIdNummer>XBC-29-1</homeIdNummer>
+                            </homeId>
                             <leitungsbezeichnung>DEU.VITROC.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}</leitungsbezeichnung>
-                            <patchService>partner</patchService>
+                            <patchService>supplier</patchService>
                         </anschluss>
                     </meldungsattribute>
                     <meldungspositionen>

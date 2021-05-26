@@ -24,26 +24,15 @@
                 <meldungstyp xsi:type="ns4:MeldungstypERLMType" xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
+                        <vertragsnummer>6816596</vertragsnummer>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
                         <auftraggebernummer>2020005101</auftraggebernummer>
-                        <anschluss xsi:type="complexOal:OalAnschlussType">
-                            <schaltangabenNga xsi:type="complexOal:OalSchaltangabenType">
-                                <standortBName>POP-Lüdighausen-4711</standortBName>
-                                <rack>34-53</rack>
-                                <port>0815-23-47</port>
-                                <ppid>{{eq (persist key='dgf_ppid') null yes=(randomValue length=7 type='NUMERIC') no=(persist key='dgf_ppid')}}</ppid>
-                            </schaltangabenNga>
-                            <homeId>
-                                <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>
-                            </homeId>
-                            <patchService>partner</patchService>
-                        </anschluss>
+                        <erledigungstermin>2021-05-07</erledigungstermin>
                     </meldungsattribute>
                     <meldungspositionen>
                         <position>
-                            <meldungscode>0014</meldungscode>
-                            <meldungstext>Montage beim Endkunden mit Ende-zu-Ende-Prüfung erfolgreich ausgeführt
-                            </meldungstext>
+                            <meldungscode>0010</meldungscode>
+                            <meldungstext>Auftrag ausgeführt.</meldungstext>
                         </position>
                     </meldungspositionen>
                 </meldungstyp>

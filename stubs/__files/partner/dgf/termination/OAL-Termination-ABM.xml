@@ -25,9 +25,10 @@
                 <meldungstyp xsi:type="ns4:MeldungstypABMType" xmlns:ns4="http://spri.telekom.de/oss/v5/messageOal"
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <meldungsattribute>
+                        <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
                         <externeAuftragsnummer>{{soapXPath request.body '/annehmenAuftragRequest/auftrag/externeAuftragsnummer/text()'}}</externeAuftragsnummer>
                         <auftraggebernummer>2020005101</auftraggebernummer>
-                        <vertragsnummer>{{randomValue length=10 type='NUMERIC'}}</vertragsnummer>
+
                         <verbindlicherLiefertermin>
                             <datum>{{now offset='3 days' format='yyyy-MM-dd'}}</datum>
                         </verbindlicherLiefertermin>
@@ -38,8 +39,8 @@
                     </meldungsattribute>
                     <meldungspositionen>
                         <position>
-                            <meldungscode>0011</meldungscode>
-                            <meldungstext>Montage beim Endkunden erforderlich.</meldungstext>
+                            <meldungscode>0000</meldungscode>
+                            <meldungstext>Keine Änderung zum Auftrag.</meldungstext>
                             <positionsattribute xsi:type="ns3:MeldungspositionsattributeABMType">
                                 <ansprechpartnerLeistungserbringer>
                                     <anrede>1</anrede>

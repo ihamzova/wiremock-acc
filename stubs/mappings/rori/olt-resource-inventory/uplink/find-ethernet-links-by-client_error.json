@@ -2,7 +2,7 @@
   "priority": 4,
   "request": {
     "method": "GET",
-    "urlPath": "/uplink",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
     "queryParameters": {
       "portsEquipmentBusinessRef.endSz": {
         "matches": ".*"

@@ -1,11 +1,11 @@
 {
-  "priority": 3,
+  "priority": 2,
   "request": {
     "method": "GET",
     "urlPath": "/resource-order-resource-inventory/v5/uplink",
     "queryParameters": {
       "portsEquipmentBusinessRef.endSz": {
-        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{2,4}"
+        "matches": "49\\/911\\/1100\\/76ZB"
       },
       "state": {
         "equalTo": "ACTIVE"
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/uplink/endsz/find-ethernet-links-by-endsz-not-found.json"
+    "bodyFileName": "rori/olt-resource-inventory/uplink/endsz/find-ethernet-links-by-endsz-49_911_1100_76ZB.json"
   }
 }

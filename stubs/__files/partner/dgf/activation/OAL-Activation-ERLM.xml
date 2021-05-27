@@ -35,26 +35,27 @@
                                 <port>0815-23-47</port>
                                 <ppid>{{eq (persist key='dgf_ppid') null yes=(randomValue length=7 type='NUMERIC') no=(persist key='dgf_ppid')}}</ppid>
                             </schaltangabenNga>
-                            <standortBName>lhn-002</standortBName>
-                            <raum>A</raum>
-                            <rack>1</rack>
-                        </schaltangabenAne>
-                        <homeId>
-                            <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>
-                        </homeId>
-                        <leitungsbezeichnung>DEU.DGW.G50ED155EN</leitungsbezeichnung>
-                        <patchService>supplier</patchService>
-                    </anschluss>
-                </meldungsattribute>
-                <meldungspositionen>
-                    <position>
-                        <meldungscode>0010</meldungscode>
-                        <meldungstext>Auftrag  ausgeführt.
-                        </meldungstext>
-                    </position>
-                </meldungspositionen>
-            </meldungstyp>
-        </meldung>
-    </ns2:annehmenMeldungRequest>
-</soapenv:Body>
-        </soapenv:Envelope>
+                            <schaltangabenAne>
+                                <standortBName>lhn-002</standortBName>
+                                <raum>A</raum>
+                                <rack>1</rack>
+                            </schaltangabenAne>
+                            <homeId>
+                                <homeIdNummer>{{randomValue length=8 type='NUMERIC'}}</homeIdNummer>
+                            </homeId>
+                            <leitungsbezeichnung>DEU.DGW.G50ED155EN</leitungsbezeichnung>
+                            <patchService>supplier</patchService>
+                        </anschluss>
+                    </meldungsattribute>
+                    <meldungspositionen>
+                        <position>
+                            <meldungscode>0010</meldungscode>
+                            <meldungstext>Auftrag  ausgeführt.
+                            </meldungstext>
+                        </position>
+                    </meldungspositionen>
+                </meldungstyp>
+            </meldung>
+        </ns2:annehmenMeldungRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

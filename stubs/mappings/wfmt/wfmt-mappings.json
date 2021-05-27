@@ -51,7 +51,7 @@
       {
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:createOrder",
@@ -106,7 +106,7 @@
         "requiredScenarioState": "CreateOrderMultipleNotifications",
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:createOrder",
@@ -197,7 +197,7 @@
         "requiredScenarioState": "ManualEventZ",
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:createOrder",
@@ -262,7 +262,7 @@
         "requiredScenarioState": "CreateOrderBusinessError",
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:createOrder",
@@ -299,7 +299,7 @@
         "requiredScenarioState": "CreateOrderTechnicalError",
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:createOrder",
@@ -317,7 +317,7 @@
       {
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:updateOrder",
@@ -339,7 +339,7 @@
         "requiredScenarioState": "UpdateOrderTechnicalError",
         "request": {
           "method": "POST",
-          "url": "/soabp/rpc/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
+          "url": "/de.telekom.digioss.architecture.DigiOSS/Default/TI_Auftragseingang/pp",
           "bodyPatterns": [
             {
               "matchesXPath": "//ns2:updateOrder",

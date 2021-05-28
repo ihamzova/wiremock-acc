@@ -478,7 +478,7 @@
                                                 <files>
                                                     <file>
                                                         <source>
-                                                            ${project.build.directory}/wiremock-acc-1.8.jar
+                                                            ${project.build.directory}/wiremock-acc-${project.version}.jar
                                                         </source>
                                                         <outputDirectory>/</outputDirectory>
                                                     </file>

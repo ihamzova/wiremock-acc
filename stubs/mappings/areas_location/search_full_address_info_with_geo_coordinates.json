@@ -1,0 +1,30 @@
+{
+  "mappings": [
+    {
+      "id": "4ab7789c-7817-110a-bc65-0242ac130044",
+      "name": "address-lookup-by-klsid-80056101-NewFibertownStrasse",
+      "priority": 1,
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "klsIds":["80056101"]
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "bodyFileName": "areas_location/fullAddressInfo_80056101.json"
+      }
+    }
+  ]
+}

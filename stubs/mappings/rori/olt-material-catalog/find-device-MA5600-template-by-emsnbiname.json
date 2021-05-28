@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/deviceTemplate/devices/MA5600T"
+    "urlPattern": "/api/v1.0/oltMaterialCatalog/deviceTemplate/devices/MA5600T"
   },
   "response": {
     "status": 200,

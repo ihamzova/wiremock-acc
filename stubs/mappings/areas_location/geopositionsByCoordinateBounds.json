@@ -5,8 +5,22 @@
       "name": "address-geopositions-lookup-by-coordinateBounds",
       "priority": 1,
       "request": {
-        "urlPattern": "/giga-areas-location/v2/lookup/addresses/geopositions/coordinateBounds?(.*)",
-        "method": "GET"
+        "urlPath": "/giga-areas-location/v2/lookup/addresses/geopositions/coordinateBounds",
+        "method": "GET",
+        "queryParameters": {
+          "northBound": {
+            "matches": "48\\.85[0-9]*"
+          },
+          "southBound": {
+            "matches": "48\\.84[0-9]*"
+          },
+          "eastBound": {
+            "matches": "8\\.99[0-9]*"
+          },
+          "westBound": {
+            "matches": "8\\.96[0-9]*"
+          }
+        }
       },
       "response": {
         "status": 200,

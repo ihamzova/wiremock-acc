@@ -1,0 +1,37 @@
+{
+  "mappings": [
+    {
+      "name": "Get documentBid of a PDF exploration protocol",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v1/document-management/explorationProtocols.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "explorationProtocolDocumentBid": 70000,
+          "fileSizeInByte": 14510
+        }
+      }
+    },
+    {
+      "name": "Get PDF",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v1/document-management/documents/70000/data"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/pdf"
+        },
+        "bodyFileName": "document-management/SSP_klsid_21985103_bscplid_null_2020-08-13.pdf"
+      }
+    }
+  ]
+}

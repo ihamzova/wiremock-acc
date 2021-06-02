@@ -7,6 +7,7 @@ ENV STUBS_PATH="."
 ENV CONTAINER_THREADS="10"
 ENV ASYNC_RESPONSE_THREADS="10"
 ENV ADDITIONAL_OPTIONS=""
+ENV MAX_REQUEST_JOURNAL_ENTRIES="1000"
 
 RUN mkdir /$WM_PACKAGE
 
@@ -36,4 +37,4 @@ COPY schulung-stubs /$WM_PACKAGE/schulung-stubs
 
 EXPOSE 8080
 
-CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries 1000 --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi,com.tsystems.tm.acc.wiremock.groovy.GroovyRequestMatcherExtension --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS $ADDITIONAL_OPTIONS
+CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries $MAX_REQUEST_JOURNAL_ENTRIES --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi,com.tsystems.tm.acc.wiremock.groovy.GroovyRequestMatcherExtension --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS $ADDITIONAL_OPTIONS

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_EQDATA_RESPV2 xmlns:ns1='http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2'>
+            <eiMessageContext>
+                <target xmlns='http://messaging.ei.tmobile.net/datatypes'>SI_ReadEquipmentResponseV2In_DigiOSS</target>
+                <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>
+                    urn:uuid:3fd44069-e138-44c5-aae2-58939d921c41
+                </requestId>
+                <timeLeft xmlns='http://messaging.ei.tmobile.net/datatypes'>172800000</timeLeft>
+                <priority xmlns='http://messaging.ei.tmobile.net/datatypes'>4</priority>
+                <sender xmlns='http://messaging.ei.tmobile.net/datatypes'>sndr:tmo.erp.sap.architecture.SAP:PI</sender>
+                <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>d8f345bb-abb7-402c-b12f-1bc1e45d0ee3
+                </correlationId>
+            </eiMessageContext>
+            <data>
+                <MT_EQDATA_RESPV2>
+                    <EQUI>
+                        <ENDSZ>49/90/11/7KH0</ENDSZ>
+                        <HEQUI>1930179</HEQUI>
+                        <HEQNR>0075</HEQNR>
+                        <ASB>1</ASB>
+                        <TPLNR>000049-000030-011-001-001-001</TPLNR>
+                        <EQART>G</EQART>
+                        <ANZ_EBENEN>1</ANZ_EBENEN>
+                        <EQUNR>4985717232</EQUNR>
+                        <SERGE>21023522106TG4900198</SERGE>
+                        <SUBMT>40247069</SUBMT>
+                        <ADR_ID>17056524</ADR_ID>
+                    </EQUI>
+                    <EQUI>
+                        <ENDSZ>49/30/11/7KH0</ENDSZ>
+                        <HEQUI>4985714232</HEQUI>
+                        <HEQNR>0001</HEQNR>
+                        <EQART>P</EQART>
+                        <ANZ_EBENEN>2</ANZ_EBENEN>
+                        <EQUNR>16122000</EQUNR>
+                        <SERGE>121BQW10B6123100</SERGE>
+                        <SUBMT>40261742</SUBMT>
+                    </EQUI>
+                    <EQUI>
+                        <ENDSZ>49/30/11/7KH0</ENDSZ>
+                        <HEQUI>4985714232</HEQUI>
+                        <HEQNR>0002</HEQNR>
+                        <EQART>P</EQART>
+                        <ANZ_EBENEN>2</ANZ_EBENEN>
+                        <EQUNR>16123000</EQUNR>
+                        <SERGE>121BQW10B6123200</SERGE>
+                        <SUBMT>40261742</SUBMT>
+                    </EQUI>
+                    <EQUI>
+                        <ENDSZ>49/30/11/7KH0</ENDSZ>
+                        <HEQUI>4985711232</HEQUI>
+                        <HEQNR>0019</HEQNR>
+                        <EQART>P</EQART>
+                        <ANZ_EBENEN>2</ANZ_EBENEN>
+                        <EQUNR>161230010</EQUNR>
+                        <SERGE>121BQW10B6123099</SERGE>
+                        <SUBMT>40247074</SUBMT>
+                    </EQUI>
+                    <KOPF>
+                        <PARTNER>BS_DIGIOSS</PARTNER>
+                        <ANFO_KEN>15758997480418591403</ANFO_KEN>
+                    </KOPF>
+                    <STATUS>
+                        <LOG_NO>0000000000</LOG_NO>
+                        <NUMBER>000</NUMBER>
+                        <SYSTEM>Linux</SYSTEM>
+                        <LOG_NO>string</LOG_NO>
+                        <ID>ZDIB</ID>
+                        <MESSAGE>Die Anforderung wurde ausgeführt.</MESSAGE>
+                        <TYPE>S</TYPE>
+                    </STATUS>
+                </MT_EQDATA_RESPV2>
+            </data>
+        </ns1:MT_EQDATA_RESPV2>
+    </SOAP:Body>
+</SOAP:Envelope>

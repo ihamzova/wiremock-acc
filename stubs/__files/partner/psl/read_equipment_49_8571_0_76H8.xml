@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP:Header/>
+    <SOAP:Body>
+        <ns1:MT_EQDATA_RESPV2 xmlns:ns1='http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2'>
+            <eiMessageContext>
+                <target xmlns='http://messaging.ei.tmobile.net/datatypes'>SI_ReadEquipmentResponseV2In_DigiOSS</target>
+                <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>
+                    urn:uuid:4f9b271b-5042-4f4e-8842-914c733f3870
+                </requestId>
+                <timeLeft xmlns='http://messaging.ei.tmobile.net/datatypes'>172800000</timeLeft>
+                <priority xmlns='http://messaging.ei.tmobile.net/datatypes'>4</priority>
+                <sender xmlns='http://messaging.ei.tmobile.net/datatypes'>sndr:tmo.erp.sap.architecture.SAP:PI</sender>
+                <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>b1cf1314-b144-4157-be8e-80eeb69bbdc6
+                </correlationId>
+            </eiMessageContext>
+            <data>
+                <MT_EQDATA_RESPV2>
+                    <KOPF>
+                        <PARTNER>BS_DIGIOSS</PARTNER>
+                        <ANFO_KEN>15758997480418591403</ANFO_KEN>
+                    </KOPF>
+                    <STATUS>
+                        <LOG_NO>0000000908</LOG_NO>
+                        <NUMBER>908</NUMBER>
+                        <SYSTEM>Linux</SYSTEM>
+                        <LOG_NO>string</LOG_NO>
+                        <ID>ZDIB</ID>
+                        <MESSAGE>Es wurden keine Equipments selektiert</MESSAGE>
+                        <TYPE>S</TYPE>
+                    </STATUS>
+                </MT_EQDATA_RESPV2>
+            </data>
+        </ns1:MT_EQDATA_RESPV2>
+    </SOAP:Body>
+</SOAP:Envelope>

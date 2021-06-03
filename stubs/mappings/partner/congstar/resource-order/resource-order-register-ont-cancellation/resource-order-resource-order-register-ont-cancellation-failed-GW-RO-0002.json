@@ -11,7 +11,7 @@
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fffc29fff"
+        "contains": "fffc50fff"
       }
     }
   },
@@ -57,7 +57,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/registerOnt/resource-order-state-change-notification-failed.json"
+          "bodyFileName": "partner/congstar/resource-order/registerOnt/resource-order-state-change-notification-failed-GW-RO-0002.json"
         }
       ]
     }

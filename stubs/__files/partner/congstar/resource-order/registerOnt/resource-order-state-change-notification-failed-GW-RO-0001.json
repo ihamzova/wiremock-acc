@@ -15,6 +15,15 @@
       "externalTag": "bsaRegisterOnt",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "state": "Failed",
+      "lastStateChange":{
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Failed",
+        "changeReason": {
+          "@type": "GatewayStateChangeReason",
+          "changeReasonCode": "GW-RO-0001",
+          "changeReasonDescription": "CarrierContractId unknown"
+        }
+      },
       "category": "ONT",
       "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}",
       "orderItem": [

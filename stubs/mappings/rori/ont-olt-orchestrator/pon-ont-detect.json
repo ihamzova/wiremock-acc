@@ -1,0 +1,39 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/maintenance/v1/ontPonDetection/?"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "events": [{
+          "endSz": "{{jsonPath request.body '$.endSz'}}",
+          "shelf": "0",
+          "slot": "0",
+          "port": "0",
+          "onuId": 0,
+          "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
+          "timeStamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd\\'T\\'HH:mm:ss.SSSXXX'}}",
+          "eventMessage": "Event Message"
+        }],
+        "status": 200,
+        "statustype": "SUCCESS",
+        "message": "detect successfully"
+      }
+    }
+  }
+}

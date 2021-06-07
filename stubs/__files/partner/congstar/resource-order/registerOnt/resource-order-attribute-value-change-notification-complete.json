@@ -17,11 +17,11 @@
     "resourceOrder": {
       "@type": "GatewayResourceOrder",
       "id": "89898898",
-      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "expectedCompletionDate": "{{now format='yyyy-MM-dd'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaRegisterOnt",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
-      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "requestedCompletionDate": "{{now format='yyyy-MM-dd'}}",
       "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
       "state": "Acknowledged",
       "category": "ONT",
@@ -33,8 +33,8 @@
           "resource": {
             "@type": "WholebuyResource",
             "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
-            "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
-            "carrierContractId": "5587898788",
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
             "networkProfileConfig": {
               "ramMaxDownL2": 55168,
               "ramMaxupL2": 11264,
@@ -42,15 +42,7 @@
               "ramMinUpL2": 27000,
               "ramMinKPDownL2": 27504,
               "ramMinKPUpL2": 27000
-            },
-            "installationPlace": {
-              "@type": "GatewayPlace",
-              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
-              "homeId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.homeId'}}"
             }
-          },
-          "resourceSpecification": {
-            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
           }
         }
       ],

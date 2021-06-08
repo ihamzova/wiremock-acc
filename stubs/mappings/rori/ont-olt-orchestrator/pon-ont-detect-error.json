@@ -1,0 +1,17 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ontPonDetection/?"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "errorCode": null,
+      "message": "Serial number and timestamp are required"
+    }
+  }
+}

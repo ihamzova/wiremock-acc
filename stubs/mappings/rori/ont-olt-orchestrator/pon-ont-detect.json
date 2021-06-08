@@ -1,8 +1,12 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/resource-order-resource-inventory/v1/ontPonDetection/?"
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ontPonDetection/?",
+    "bodyPatterns": [
+      {"matchesJsonPath": "$.serialNumber"},
+      {"matchesJsonPath": "$.timeStampOfFirstEvent"}
+    ]
   },
   "response": {
     "status": 202,

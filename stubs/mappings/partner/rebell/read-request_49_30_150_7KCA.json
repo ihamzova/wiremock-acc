@@ -1,0 +1,97 @@
+{
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_30_150_7KCA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 108407514,
+        "versionId": "102/1/4601/5154735",
+        "version": 1,
+        "lsz": "4N2",
+        "lszErg": "A4CH2",
+        "ordNr": 1002,
+        "uewegId": "Id1234567891",
+        "status": "InBetrieb",
+        "pluralId": "P12345",
+        "endPointA": {
+          "endSz": "49_30_150_7KH1",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KH1"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "10ge 0/2",
+          "vendorPortName": "10 GE-2"
+        },
+        "endPointB": {
+          "endSz": "49_30_150_7KCA",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KCA"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "0/0/25",
+          "vendorPortName": "10G_001"
+        },
+        "validFrom": "22.02.2021 00:00:00",
+        "validUntil": "22.02.2025 00:00:00"
+      },
+      {
+        "id": 108407555,
+        "versionId": "102/1/4601/5154736",
+        "version": 1,
+        "lsz": "4N4",
+        "lszErg": "A4CH4",
+        "ordNr": 100211,
+        "uewegId": "Id123456789211",
+        "status": "geprueft",
+        "pluralId": "P1234567890",
+        "endPointA": {
+          "endSz": "49_30_150_7KD3",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KD3"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "PCI-1/1",
+          "vendorPortName": "10G_002"
+        },
+        "endPointB": {
+          "endSz": "49_30_150_7KCA",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KCA"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "0/0/26",
+          "vendorPortName": "10G_002"
+        },
+        "validFrom": "22.02.2021 00:00:00",
+        "validUntil": "22.02.2025 00:00:00"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

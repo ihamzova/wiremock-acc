@@ -1,0 +1,606 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/productInventory/DEV/tdeu/customer/ProductInventory/v2/product\\?accountId=([0-9]+)&rootProductId=(.+)"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": "{{request.query.rootProductId}}",
+        "name": "MagentaZuhause S",
+        "status": [
+          "active"
+        ],
+        "startDate": "2021-04-17",
+        "relatedParty": {
+          "id": "{{request.query.accountId}}",
+          "role": "customer"
+        },
+        "self": {
+          "id": "{{request.query.rootProductId}}",
+          "href": "/tmf-api/productInventory/v2/product?accountId={{request.query.accountId}}&rootProductId={{request.query.rootProductId}}"
+        },
+        "productRelationship": [
+          {
+            "relationshipType": [
+              "BUNDLE"
+            ],
+            "product": {
+              "id": "{{request.query.rootProductId}}",
+              "name": "MagentaZuhause S",
+              "productSerialNumber": "89843265",
+              "status": [
+                "active"
+              ],
+              "startDate": "2021-04-17",
+              "plannedEndDate": "2021-04-23",
+              "cancelUntilDate": "2021-04-22",
+              "noticePeriodUnit": [
+                "day"
+              ],
+              "noticePeriodAmount": 1,
+              "isBundle": false,
+              "place": [
+                {
+                  "id": "6154990",
+                  "role": [
+                    "geographical address"
+                  ]
+                }
+              ],
+              "productOrderItem": [
+                {
+                  "orderItemId": "800522257670001",
+                  "orderItemAction": "Produktwechsel"
+                }
+              ],
+              "billingAccount": [
+                {
+                  "id": "1-HGLCKRI",
+                  "name": "6782248124"
+                }
+              ],
+              "characteristic": [
+                {
+                  "name": "productType",
+                  "value": "Anschluss"
+                },
+                {
+                  "name": "productSubtype",
+                  "value": "IP"
+                },
+                {
+                  "name": "Rufnummer",
+                  "value": "39973721",
+                  "id": "0000000001"
+                },
+                {
+                  "name": "Speicherart der Verbindungsdaten",
+                  "value": "3",
+                  "id": "0000000002"
+                },
+                {
+                  "name": "Verzeichniskennzeichen",
+                  "value": "0",
+                  "id": "0000000003"
+                },
+                {
+                  "name": "Rufnummer 2. MSN",
+                  "value": "39973723",
+                  "id": "0000000004"
+                },
+                {
+                  "name": "Rufnummer 3. MSN",
+                  "value": "39973722",
+                  "id": "0000000005"
+                },
+                {
+                  "name": "Verzeichniskennzeichen 2. MSN",
+                  "value": "0",
+                  "id": "0000000006"
+                },
+                {
+                  "name": "Verzeichniskennzeichen 3. MSN",
+                  "value": "0",
+                  "id": "0000000007"
+                },
+                {
+                  "name": "TNBA-ID",
+                  "value": "00080000056392240",
+                  "id": "0000000008"
+                },
+                {
+                  "name": "GRUS",
+                  "value": "004356288471"
+                }
+              ],
+              "relatedParty": {
+                "id": "{{request.query.accountId}}",
+                "role": "customer"
+              },
+              "self": {
+                "id": "{{request.query.rootProductId}}",
+                "href": "/tmf-api/productInventory/v2/product?accountId={{request.query.accountId}}&rootProductId={{request.query.rootProductId}}"
+              },
+              "realizingResource": [
+                {
+                  "name": "Telefonnummer",
+                  "value": "004962139973721",
+                  "resourceCharacteristic": [
+                    {
+                      "name": "LaenderVorwahl",
+                      "value": "0049",
+                      "id": "0000000001"
+                    },
+                    {
+                      "name": "ONKZ",
+                      "value": "0621",
+                      "id": "0000000001"
+                    },
+                    {
+                      "name": "Rufnummer",
+                      "value": "39973721",
+                      "id": "0000000001"
+                    }
+                  ]
+                },
+                {
+                  "name": "Telefonnummer",
+                  "value": "004962139973723",
+                  "resourceCharacteristic": [
+                    {
+                      "name": "LaenderVorwahl",
+                      "value": "0049",
+                      "id": "0000000004"
+                    },
+                    {
+                      "name": "ONKZ",
+                      "value": "0621",
+                      "id": "0000000004"
+                    },
+                    {
+                      "name": "Rufnummer 2. MSN",
+                      "value": "39973723",
+                      "id": "0000000004"
+                    }
+                  ]
+                },
+                {
+                  "name": "Telefonnummer",
+                  "value": "004962139973722",
+                  "resourceCharacteristic": [
+                    {
+                      "name": "LaenderVorwahl",
+                      "value": "0049",
+                      "id": "0000000005"
+                    },
+                    {
+                      "name": "ONKZ",
+                      "value": "0621",
+                      "id": "0000000005"
+                    },
+                    {
+                      "name": "Rufnummer 3. MSN",
+                      "value": "39973722",
+                      "id": "0000000005"
+                    }
+                  ]
+                }
+              ],
+              "productPrice": [
+                {
+                  "name": "Magenta Zuhause S, Bereitstellung",
+                  "priceType": [
+                    "one time"
+                  ],
+                  "price": {
+                    "dutyFreeAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 58.7800000
+                      }
+                    },
+                    "taxIncludedAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 69.9500000
+                      }
+                    },
+                    "taxRate": 19
+                  },
+                  "productOfferingPrice": {
+                    "id": "1000738322"
+                  }
+                },
+                {
+                  "name": "ACHTUNG: Test-Kondition für Bestandsaufbau mit 5 Tage VLZ",
+                  "priceType": [
+                    "recurring"
+                  ],
+                  "recurringChargePeriod": [
+                    "month"
+                  ],
+                  "price": {
+                    "taxRate": 19,
+                    "dutyFreeAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 373.4800000
+                      }
+                    },
+                    "taxIncludedAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 444.4500000
+                      }
+                    }
+                  },
+                  "productOfferingPrice": {
+                    "id": "1400005411"
+                  }
+                }
+              ],
+              "productRelationship": [
+                {
+                  "relationshipType": [
+                    "ZMP"
+                  ],
+                  "product": {
+                    "id": "TB0019155481",
+                    "name": "DSL 16000 RAM IP",
+                    "productSerialNumber": "89752963",
+                    "status": [
+                      "active"
+                    ],
+                    "startDate": "2021-04-17",
+                    "plannedEndDate": "2021-04-23",
+                    "cancelUntilDate": "2021-04-22",
+                    "noticePeriodUnit": [
+                      "day"
+                    ],
+                    "noticePeriodAmount": 1,
+                    "isBundle": false,
+                    "place": [
+                      {
+                        "id": "6154990",
+                        "role": [
+                          "geographical address"
+                        ]
+                      }
+                    ],
+                    "productOrderItem": [
+                      {
+                        "orderItemId": "800522257670002",
+                        "orderItemAction": "Produktwechsel"
+                      }
+                    ],
+                    "billingAccount": [
+                      {
+                        "id": "1-HGLCKRI",
+                        "name": "6782248124"
+                      }
+                    ],
+                    "characteristic": [
+                      {
+                        "name": "productType",
+                        "value": "T-DSL"
+                      },
+                      {
+                        "name": "productSubtype",
+                        "value": "Consumer"
+                      },
+                      {
+                        "name": "GRUS",
+                        "value": "004356288471"
+                      }
+                    ],
+                    "relatedParty": {
+                      "id": "{{request.query.accountId}}",
+                      "role": "customer"
+                    },
+                    "self": {
+                      "id": "TB0019155481",
+                      "href": "/tmf-api/productInventory/v2/product?accountId={{request.query.accountId}}&rootProductId=TB0019155481"
+                    },
+                    "productPrice": [
+                      {
+                        "name": "Bereitstellung von DSL 16000 RAM ohne Splitter (3) im Magenta Zuhause S",
+                        "priceType": [
+                          "one time"
+                        ],
+                        "price": {
+                          "dutyFreeAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxIncludedAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxRate": 19
+                        },
+                        "productOfferingPrice": {
+                          "id": "1000746177"
+                        }
+                      },
+                      {
+                        "name": "DSL 16000 RAM o. Splitter (3) Magenta Zuhause S",
+                        "priceType": [
+                          "recurring"
+                        ],
+                        "recurringChargePeriod": [
+                          "month"
+                        ],
+                        "price": {
+                          "taxRate": 19,
+                          "dutyFreeAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxIncludedAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "productOfferingPrice": {
+                          "id": "1000746152"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "relationshipType": [
+              "BUNDLE"
+            ],
+            "product": {
+              "id": "TB0019155482",
+              "name": "SurfZuhause S",
+              "productSerialNumber": "89843278",
+              "status": [
+                "active"
+              ],
+              "startDate": "2021-04-17",
+              "plannedEndDate": "2021-04-23",
+              "cancelUntilDate": "2021-04-22",
+              "noticePeriodUnit": [
+                "day"
+              ],
+              "noticePeriodAmount": 1,
+              "isBundle": false,
+              "place": [
+                {
+                  "id": "6154990",
+                  "role": [
+                    "geographical address"
+                  ]
+                }
+              ],
+              "productOrderItem": [
+                {
+                  "orderItemId": "800522257670003",
+                  "orderItemAction": "Produktwechsel"
+                }
+              ],
+              "billingAccount": [
+                {
+                  "id": "1-HGLCKRI",
+                  "name": "6782248124"
+                }
+              ],
+              "characteristic": [
+                {
+                  "name": "productType",
+                  "value": "ISP"
+                },
+                {
+                  "name": "productSubtype",
+                  "value": "ISPX"
+                },
+                {
+                  "name": "Zugangsnummer",
+                  "value": "553100338293",
+                  "id": "0000000564"
+                },
+                {
+                  "name": "GRUS",
+                  "value": "004356288472"
+                }
+              ],
+              "relatedParty": {
+                "id": "{{request.query.accountId}}",
+                "role": "customer"
+              },
+              "self": {
+                "id": "TB0019155482",
+                "href": "/tmf-api/productInventory/v2/product?accountId={{request.query.accountId}}&rootProductId=TB0019155482"
+              },
+              "productPrice": [
+                {
+                  "name": "Bereitstellung Surf Zuhause S",
+                  "priceType": [
+                    "one time"
+                  ],
+                  "price": {
+                    "dutyFreeAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 0
+                      }
+                    },
+                    "taxIncludedAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 0
+                      }
+                    },
+                    "taxRate": 19
+                  },
+                  "productOfferingPrice": {
+                    "id": "1000738379"
+                  }
+                },
+                {
+                  "name": "Magenta Zuhause S, Monatlicher Grundpreis",
+                  "priceType": [
+                    "recurring"
+                  ],
+                  "recurringChargePeriod": [
+                    "month"
+                  ],
+                  "price": {
+                    "taxRate": 19,
+                    "dutyFreeAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 0
+                      }
+                    },
+                    "taxIncludedAmount": {
+                      "Money": {
+                        "unit": "EUR",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "productOfferingPrice": {
+                    "id": "1000738378"
+                  }
+                }
+              ],
+              "productRelationship": [
+                {
+                  "relationshipType": [
+                    "ZMP"
+                  ],
+                  "product": {
+                    "id": "TB0019155483",
+                    "name": "VoIP Basistarif",
+                    "productSerialNumber": "89753887",
+                    "status": [
+                      "active"
+                    ],
+                    "startDate": "2021-04-17",
+                    "plannedEndDate": "2021-04-23",
+                    "cancelUntilDate": "2021-04-22",
+                    "noticePeriodUnit": [
+                      "day"
+                    ],
+                    "noticePeriodAmount": 1,
+                    "isBundle": false,
+                    "place": [
+                      {
+                        "id": "6154990",
+                        "role": [
+                          "geographical address"
+                        ]
+                      }
+                    ],
+                    "productOrderItem": [
+                      {
+                        "orderItemId": "800522257670004",
+                        "orderItemAction": "Produktwechsel"
+                      }
+                    ],
+                    "billingAccount": [
+                      {
+                        "id": "1-HGLCKRI",
+                        "name": "6782248124"
+                      }
+                    ],
+                    "characteristic": [
+                      {
+                        "name": "productType",
+                        "value": "ISP-Zusatzprodukt"
+                      },
+                      {
+                        "name": "productSubtype"
+                      },
+                      {
+                        "name": "GRUS",
+                        "value": "004356288472"
+                      }
+                    ],
+                    "relatedParty": {
+                      "id": "{{request.query.accountId}}",
+                      "role": "customer"
+                    },
+                    "self": {
+                      "id": "TB0019155483",
+                      "href": "/tmf-api/productInventory/v2/product?accountId={{request.query.accountId}}&rootProductId=TB0019155483"
+                    },
+                    "productPrice": [
+                      {
+                        "name": "Bereitstellung VoIP Basistarif",
+                        "priceType": [
+                          "one time"
+                        ],
+                        "price": {
+                          "dutyFreeAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxIncludedAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxRate": 19
+                        },
+                        "productOfferingPrice": {
+                          "id": "1000363095"
+                        }
+                      },
+                      {
+                        "name": "Monatlicher Grundpreis VoIP Basistarif",
+                        "priceType": [
+                          "recurring"
+                        ],
+                        "recurringChargePeriod": [
+                          "month"
+                        ],
+                        "price": {
+                          "taxRate": 19,
+                          "dutyFreeAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          },
+                          "taxIncludedAmount": {
+                            "Money": {
+                              "unit": "EUR",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "productOfferingPrice": {
+                          "id": "1000754165"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

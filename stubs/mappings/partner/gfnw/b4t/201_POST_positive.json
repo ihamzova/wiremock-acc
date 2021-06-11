@@ -1,8 +1,8 @@
 {
-  "priority": 5,
+  "priority": 4,
   "request": {
     "method": "POST",
-    "url": "/event/v3/cio"
+    "urlPattern": "/event/.*"
   },
   "response": {
     "status": 201,

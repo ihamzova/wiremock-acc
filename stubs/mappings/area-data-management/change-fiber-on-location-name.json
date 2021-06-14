@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/((?!8888)[0-9]*)"
+    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/((?!8888)[0-9]*)?includeDpGeoData=false"
   },
   "response": {
     "headers": {

@@ -5,7 +5,7 @@
     "urlPath": "/resource-order-resource-inventory/v1/a10nsp4",
     "queryParameters": {
       "carrierBsaReference": {
-        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+        "matches": "[0-9a-fA-F]{8}\\/[0-9a-fA-F]{4}\\/[0-9a-fA-F]{4}\\/[0-9a-fA-F]{4}\\/[0-9a-fA-F]{12}"
       },
       "rahmenvertragsnummer": {
         "matches": "[0-9]*"
@@ -13,7 +13,7 @@
     }
   },
   "response": {
-    "status": 200,
+    "status": 409,
     "jsonBody": {
       "carrierConnectionAvailable": true
     },

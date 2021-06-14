@@ -138,7 +138,13 @@
       "orderType": "FIBER_ACCESS_APARTMENT",
       "supplierProjectNE3Bid": 10277,
       "comment": null,
-      "apartmentGftaInstallationStatus": "UNKNOWN"
+      "apartmentGftaInstallationStatus": "UNKNOWN",
+      "characteristics": [
+        {
+          "name": "realFiberOnLocationId",
+          "value": "43211234"
+        }
+      ]
     }
   }
 }

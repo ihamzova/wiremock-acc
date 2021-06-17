@@ -36,3 +36,7 @@ app:
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"
+  sidecar:
+    env:
+      M2M_SCOPE_EXCLUDE: '/**'
+      M2M_PATH_EXCLUDE: '{{ .Values.health.url }},/'

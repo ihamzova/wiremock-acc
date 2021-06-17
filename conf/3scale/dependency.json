@@ -7,6 +7,10 @@
           "/pubsub/p",
           "/pubsub/r",
           "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
         ]
       },
       {
@@ -15,29 +19,45 @@
           "/pubsub/p",
           "/pubsub/r",
           "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
         ]
       },
       {
         "resource": "/service-order-service-inventory/v1/localServiceInventory",
         "pattern": [
           ""
+        ],
+        "scopes": [
+          "giga:cga:all-area-access"
         ]
       },
       {
         "resource": "/service-order-service-inventory/v1/OntChangedNotification",
         "pattern": [
           ""
+        ],
+        "scopes": [
+          "giga:cga:all-area-access"
         ]
       },
       {
         "resource": "/service-order-service-inventory/v1/OntAuthenticationServices",
         "pattern": [
           ""
+        ],
+        "scopes": [
+          "giga:cga:all-area-access"
         ]
       },
       {
         "resource": "/giga-project-dioss/v5/workorders",
-        "pattern": []
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       },
       {
         "resource": "/giga-project-dioss/v1/supplierProjectEvent/",
@@ -45,6 +65,10 @@
           "/pubsub/p",
           "/pubsub/r",
           "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
         ]
       },
       {
@@ -53,6 +77,10 @@
           "/pubsub/p",
           "/pubsub/r",
           "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
         ]
       },
       {
@@ -61,29 +89,49 @@
           "/pubsub/p",
           "/pubsub/r",
           "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
         ]
       },
       {
         "resource": "/giga-project-dioss/v1/areaPrograms/",
-        "pattern": []
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       },
       {
         "resource": "/giga-project-dioss/v1/supplierprojects/",
-        "pattern": []
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       },
       {
         "resource": "/giga-project-dioss/v2/areaPrograms/",
-        "pattern": []
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       },
       {
         "resource": "/giga-project-dioss/v2/gigaorders",
-        "pattern": []
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       },
       {
         "resource": "/giga-project-dioss/v2/supplierprojects/",
         "pattern": [
           "",
           "/reqcb"
+        ],
+        "scopes": [
+          "giga:cga:all-area-access",
+          "giga:callback:full"
         ]
       }
     ],

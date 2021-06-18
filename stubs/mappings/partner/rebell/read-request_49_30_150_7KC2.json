@@ -1,0 +1,58 @@
+{
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_30_150_7KC2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 108407514,
+        "versionId": "102/1/4601/5154735692",
+        "version": 1,
+        "lsz": "4L1",
+        "lszErg": "A4L1",
+        "ordNr": 1001,
+        "uewegId": "UeWegId1234567892",
+        "status": "InBetrieb",
+        "pluralId": "PId1234567892",
+        "endPointA": {
+          "endSz": "49_30_150_7KC2",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KC2"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "ge-0/0/1",
+          "vendorPortName": "1G_002"
+        },
+        "endPointB": {
+          "endSz": "49_30_150_7KD3",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KD3"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "iLO",
+          "vendorPortName": "1G_el_bmc_01"
+        },
+        "validFrom": "22.02.2021 00:00:00",
+        "validUntil": "22.02.2025 00:00:00"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

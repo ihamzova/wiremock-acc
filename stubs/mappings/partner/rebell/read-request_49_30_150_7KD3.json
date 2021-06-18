@@ -4,7 +4,7 @@
     "method": "GET",
     "queryParameters": {
       "endsz": {
-        "matches": "49_30_150_7KDC"
+        "matches": "49_30_150_7KD3"
       }
     }
   },
@@ -13,39 +13,39 @@
     "jsonBody": [
       {
         "id": 108407514,
-        "versionId": "102/1/4601/5154735",
+        "versionId": "102/1/4601/51547356",
         "version": 1,
         "lsz": "4L1",
-        "lszErg": "A4CH2",
-        "ordNr": 1002,
-        "uewegId": "UeWegId12345678",
+        "lszErg": "A4L1",
+        "ordNr": 1001,
+        "uewegId": "UeWegId1234567891",
         "status": "InBetrieb",
-        "pluralId": "PId12345678",
+        "pluralId": "PId1234567891",
         "endPointA": {
-          "endSz": "49_30_150_7KCA",
+          "endSz": "49_30_150_7KD3",
           "endSzParts": {
             "akz": 49,
             "nkz": 30,
             "vkz": 150,
-            "fsz": "7KCA"
+            "fsz": "7KD3"
           },
           "deviceHostName": "string",
           "portPosition": "string",
-          "portName": "0/0/25",
-          "vendorPortName": "10G_001"
+          "portName": "PCI-1/1",
+          "vendorPortName": "10G_002"
         },
         "endPointB": {
-          "endSz": "49_30_150_7KDC",
+          "endSz": "49_30_150_7KD4",
           "endSzParts": {
             "akz": 49,
             "nkz": 30,
             "vkz": 150,
-            "fsz": "7KDC"
+            "fsz": "7KD4"
           },
           "deviceHostName": "string",
           "portPosition": "string",
-          "portName": "0/0/2",
-          "vendorPortName": "10G_002"
+          "portName": "PCI-1/0",
+          "vendorPortName": "10G_001"
         },
         "validFrom": "22.02.2021 00:00:00",
         "validUntil": "22.02.2025 00:00:00"
@@ -85,6 +85,45 @@
           "portPosition": "string",
           "portName": "PCI-1/0",
           "vendorPortName": "10G_001"
+        },
+        "validFrom": "22.02.2021 00:00:00",
+        "validUntil": "22.02.2025 00:00:00"
+      },
+      {
+        "id": 108407514,
+        "versionId": "102/1/4601/5154735692",
+        "version": 1,
+        "lsz": "4L1",
+        "lszErg": "A4L1",
+        "ordNr": 1001,
+        "uewegId": "UeWegId1234567892",
+        "status": "InBetrieb",
+        "pluralId": "PId1234567892",
+        "endPointA": {
+          "endSz": "49_30_150_7KC2",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KC2"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "ge-0/0/1",
+          "vendorPortName": "1G_002"
+        },
+        "endPointB": {
+          "endSz": "49_30_150_7KD3",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 30,
+            "vkz": 150,
+            "fsz": "7KD3"
+          },
+          "deviceHostName": "string",
+          "portPosition": "string",
+          "portName": "iLO",
+          "vendorPortName": "1G_el_bmc_01"
         },
         "validFrom": "22.02.2021 00:00:00",
         "validUntil": "22.02.2025 00:00:00"

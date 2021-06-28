@@ -5,13 +5,13 @@
     "urlPath": "/api/oltResourceInventory/v1/port",
     "queryParameters": {
       "endSz": {
-        "equalTo": "49/30/179/76H1"
+        "equalTo": "49/30/179/76H3"
       },
       "slotNumber": {
         "matches": "3|4"
       },
       "portNumber": {
-        "matches": "3|4"
+        "matches": "[0-7]"
       }
     }
   },

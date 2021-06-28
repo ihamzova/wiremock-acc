@@ -1,0 +1,143 @@
+{
+  "shortName": "MABC VB",
+  "materialNumber": "40247069",
+  "emsNbiName": "MA5600T",
+  "tkz1": "02351082",
+  "tkz2": "02353310",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+  "lastDiscovery": null,
+  "id": 2001,
+  "resourceId": "91373f4c-68bb-4323-af26-9a5e3f6ddc10",
+  "deviceName": "MA5600T",
+  "endSz": "49/30/179/76H3",
+  "fachSz": "76H3",
+  "klsId": 14653,
+  "ipAddress": "10.182.112.196",
+  "firmwareVersion": "MA5600V800R016C00",
+  "resourceState": "WORKING",
+  "communicationState": "CS_AVAILABLE",
+  "serialNumber": null,
+  "importState": null,
+  "type": "OLT",
+  "importDate": null,
+  "equipmentHolders": [
+    {
+      "id": 2001,
+      "slotNumber": "3",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": null,
+        "id": 1001,
+        "resourceId": "06113c03-bd55-4ec1-a2a3-e16c21b4f1b0",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "serviceState": null,
+        "resourceState": null,
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553001",
+        "manufacturer": null,
+        "ports": [
+          {
+            "id": 3000,
+            "resourceId": "459dc663-4295-4e24-a445-34671847456a",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": []
+          },
+          {
+            "id": 3001,
+            "resourceId": "794a26bd-22fc-4f15-8c4d-29211bb00389",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": []
+          },
+          {
+            "id": 3002,
+            "resourceId": "8c1048a1-7d22-4595-bd93-0afb3a21fe0b",
+            "portType": "PON",
+            "portNumber": "2",
+            "opticalModule": null,
+            "compositePartyId": 10001,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": []
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    },
+    {
+      "id": 2002,
+      "slotNumber": "4",
+      "card": {
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "tkz1": "03022MLN",
+        "tkz2": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "lastDiscovery": null,
+        "id": 2002,
+        "resourceId": "06113c03-bd55-4ec1-a2a3-e16c21b4f1b0",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "serviceState": null,
+        "resourceState": null,
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553001",
+        "manufacturer": null,
+        "ports": [
+          {
+            "id": 3003,
+            "resourceId": "ed540f4e-41d2-4cd4-bb9a-ccb8e53130d3",
+            "portType": "PON",
+            "portNumber": "0",
+            "opticalModule": null,
+            "compositePartyId": 10001,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": []
+          },
+          {
+            "id": 3004,
+            "resourceId": "faa78f3e-4fc3-4135-a262-2f506bcd9186",
+            "portType": "PON",
+            "portNumber": "1",
+            "opticalModule": null,
+            "compositePartyId": 10001,
+            "homeIdPools": [],
+            "lineIdPools": [],
+            "accessLines": []
+          }
+        ],
+        "compositePartyId": 10001
+      }
+    }
+  ],
+  "description": null,
+  "asb": 1,
+  "technicalLocation": "000031-000000-001-004-002-021",
+  "equipmentNumber": "212880016",
+  "manufacturer": null,
+  "distributionPointId": null,
+  "lifeCycleState": "OPERATING",
+  "ports": [],
+  "compositePartyId": 10001
+}

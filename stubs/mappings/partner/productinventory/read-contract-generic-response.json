@@ -1,7 +1,15 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/productInventory/DEV/tdeu/customer/ProductInventory/v2/product\\?accountId=([0-9]+)&rootProductId=(.+)"
+    "urlPath": "/productInventory/DEV/tdeu/customer/ProductInventory/v2/product",
+    "queryParameters": {
+      "accountId": {
+        "matches": "[0-9]+"
+      },
+      "rootProductId": {
+        "matches": ".+"
+      }
+    }
   },
   "response": {
     "status": 200,

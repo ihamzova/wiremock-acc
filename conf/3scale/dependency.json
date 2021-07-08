@@ -138,6 +138,13 @@
         ]
       },
       {
+        "resource": "/giga-areas-location/v2/gigaAreas",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+      {
         "resource": "/giga-project-dioss/v2/supplierprojects/",
         "pattern": [
           "",

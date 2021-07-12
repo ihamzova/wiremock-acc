@@ -1,0 +1,45 @@
+{
+  "shortName": "GPBH",
+  "materialNumber": "40294954",
+  "emsNbiName": "H807GPBH",
+  "tkz1": "03022MLN",
+  "tkz2": null,
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+  "lastDiscovery": null,
+  "id": 2005,
+  "resourceId": "1b2159d8-5143-4958-aabf-0f5aa5037ccf",
+  "name": "8-port PON OLT Interface Board V3",
+  "description": "8-port PON OLT Interface Board V3",
+  "serialNumber": "022MLNCNFF2000512",
+  "serviceState": null,
+  "resourceState": null,
+  "firmwareVersion": "507(2015-8-27)",
+  "cardType": "GPON",
+  "equipmentNumber": "214553001",
+  "manufacturer": null,
+  "ports": [
+    {
+      "id": 4003,
+      "resourceId": "95f9de4c-d4d2-44b3-a1b4-49b54a672ad4",
+      "portType": "PON",
+      "portNumber": "0",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    },
+    {
+      "id": 4004,
+      "resourceId": "da18852d-e636-4313-9210-394043847e31",
+      "portType": "PON",
+      "portNumber": "1",
+      "opticalModule": null,
+      "compositePartyId": 10001,
+      "homeIdPools": [],
+      "lineIdPools": [],
+      "accessLines": []
+    }
+  ],
+  "compositePartyId": 10001
+}

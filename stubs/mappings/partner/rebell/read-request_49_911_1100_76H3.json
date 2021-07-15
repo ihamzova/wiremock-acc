@@ -1,0 +1,59 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_911_1100_76H3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 108507513,
+        "versionId": "102/1/4601/5154734",
+        "version": 1,
+        "lsz": "4C1",
+        "lszErg": "A4CH",
+        "ordNr": 1008,
+        "uewegId": "I123456781",
+        "status": "InBetrieb",
+        "pluralId": "P123456",
+        "endPointA": {
+          "endSz": "49_911_1100_76H3",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "76H3"
+          },
+          "deviceHostName": "hostname",
+          "portPosition": "GE1",
+          "portName": "10ge 0/1",
+          "vendorPortName": "10 GE-1"
+        },
+        "endPointB": {
+          "endSz": "49_911_1100_7ZJA",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "7ZJA"
+          },
+          "deviceHostName": "hostnamebng",
+          "portPosition": "0.0.7",
+          "portName": "ge-0/0/7",
+          "vendorPortName": "[0/2]/7"
+        },
+        "validFrom": "13.07.2021 00:00:00",
+        "validUntil": "13.07.2025 00:00:00"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_911_1100_76HN"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": [
+      {
+        "code": "E0002",
+        "detail": "Ueweg mit EndSz=49_911_1100_76HN nicht gefunden",
+        "title": "NoDataFoundException",
+        "status": "Not Found"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

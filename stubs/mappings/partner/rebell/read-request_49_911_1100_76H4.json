@@ -1,0 +1,98 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_911_1100_76H4"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": 108507515,
+        "versionId": "102/1/4601/5154734",
+        "version": 1,
+        "lsz": "4C1",
+        "lszErg": "A4CH",
+        "ordNr": 1007,
+        "uewegId": "I123456782",
+        "status": "geprueftZ",
+        "pluralId": "P153456",
+        "endPointA": {
+          "endSz": "49_911_1100_76H4",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "76H4"
+          },
+          "deviceHostName": "hostname",
+          "portPosition": "GE1",
+          "portName": "10ge 0/1",
+          "vendorPortName": "10 GE-1"
+        },
+        "endPointB": {
+          "endSz": "49_911_1100_7ZJB",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "7ZJB"
+          },
+          "deviceHostName": "hostnamebng",
+          "portPosition": "0.0.8",
+          "portName": "ge-0/0/8",
+          "vendorPortName": "[0/2]/8"
+        },
+        "validFrom": "13.07.2019 00:00:00",
+        "validUntil": "13.07.2022 00:00:00"
+      },
+      {
+        "id": 108557517,
+        "versionId": "102/1/4601/5154734",
+        "version": 1,
+        "lsz": "4C1",
+        "lszErg": "A4CH",
+        "ordNr": 1007,
+        "uewegId": "I123456784",
+        "status": "InBetrieb",
+        "pluralId": "P157456",
+        "endPointA": {
+          "endSz": "49_911_1100_7ZJA",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "7ZJA"
+          },
+          "deviceHostName": "hostnamebng",
+          "portPosition": "0.0.9",
+          "portName": "ge-0/0/9",
+          "vendorPortName": "[0/2]/9"
+        },
+        "endPointB": {
+          "endSz": "49_911_1100_76H4",
+          "endSzParts": {
+            "akz": 49,
+            "nkz": 911,
+            "vkz": 1100,
+            "fsz": "76H4"
+          },
+          "deviceHostName": "hostname",
+          "portPosition": "GE1",
+          "portName": "10ge 0/1",
+          "vendorPortName": "10 GE-1"
+        },
+        "validFrom": "15.07.2021 00:00:00",
+        "validUntil": "15.07.2025 00:00:00"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

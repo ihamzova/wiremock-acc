@@ -1,66 +1,31 @@
 {
-  "areaType": "DEVELOPMENT",
-  "bandwidthProfiles": [
-    "string"
-  ],
-  "demandCarrier": "FTTH",
-  "distributionPointID": "string",
-  "distributionPointName": "string",
-  "ge": 1,
-  "geoLatitude": 0,
-  "geoLongitude": 0,
-  "gigaArea": {
-    "areaStatus": "VVM_ONGOING",
-    "initiative": "SELF_EXPANSION",
-    "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
-    "name": "string",
-    "netCoOrganisationId": 0,
-    "number": "string",
-    "plannedFrom": "2020-07-19T09:01:31.672Z",
-    "plannedTo": "2020-07-19T09:01:31.672Z",
-    "rolloutDate": "2020-07-19T09:01:31.672Z",
-    "rolloutPartnerInitial": 0,
-    "rolloutPartnerRegular": 0,
-    "thresholdData": {
-      "additionalOrdersCountInVVM": 0,
-      "ordersCountInVVM": 0,
-      "threshold": 0
-    }
-  },
-  "id": "{{request.path.[3]}}",
-  "installationDate": "2020-07-19T09:01:31.672Z",
+  "creationDate": "2020-04-15T07:29:13.919Z",
+  "modificationDate": "2020-04-15T07:29:13.919Z",
+  "id": "30001",
+  "klsId": 3000,
+  "distributionPointID": "V",
+  "distributionPointName": "Vorderhaus",
   "installationStatus": "PLANNED",
-  "klsId": "{{request.path.[3]}}",
-  "nvtArea": {
-    "asb": 0,
-    "businessId": 100,
-    "gigaArea": {
-      "areaStatus": "VVM_ONGOING",
-      "initiative": "SELF_EXPANSION",
-      "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
-      "name": "string",
-      "netCoOrganisationId": 0,
-      "number": "string",
-      "plannedFrom": "2020-07-19T09:01:31.672Z",
-      "plannedTo": "2020-07-19T09:01:31.672Z",
-      "rolloutDate": "2020-07-19T09:01:31.672Z",
-      "rolloutPartnerInitial": 0,
-      "rolloutPartnerRegular": 0,
-      "thresholdData": {
-        "additionalOrdersCountInVVM": 0,
-        "ordersCountInVVM": 0,
-        "threshold": 0
-      }
-    },
-    "name": "string",
-    "nvtKlsId": 0,
-    "onkz": "string",
-    "rolloutPartnerRegular": 0
-  },
-  "realizationTime": 0,
-  "reasonForNoConstruction": "NO_OWNER_COMMIT",
-  "rolloutSponsor": "SELF_EXPANSION",
-  "sl": 2,
+  "demandCarrier": "FTTH",
+  "areaType": "DEVELOPMENT",
   "technology": "FTTH",
-  "we": 2
+  "rolloutSponsor": "SELF_EXPANSION",
+  "installationDate": "2020-09-30T00:00:00Z",
+  "we": 3,
+  "ge": 5,
+  "sl": 0,
+  "bandwidthProfiles": [],
+  "gigaArea": {
+    "creationDate": "2020-04-15T07:29:13.560Z",
+    "modificationDate": "2020-04-15T07:29:13.560Z",
+    "name": "Bonn Area 9",
+    "number": "Bonn_009",
+    "rolloutDate": "2020-11-16T06:40:26Z",
+    "areaStatus": "UNDER_CONSTRUCTION",
+    "initiative": "JOINT_VENTURE",
+    "plannedFrom": "2018-11-01T00:00:00Z",
+    "plannedTo": "2018-11-30T00:00:00Z",
+    "netCoOrganisationId": 10000,
+    "thresholdData": {}
+  }
 }

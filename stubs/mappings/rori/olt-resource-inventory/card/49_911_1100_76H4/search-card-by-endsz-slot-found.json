@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/card",
+    "queryParameters": {
+      "endSz": {
+        "equalTo": "49/911/1100/76H4"
+      },
+      "slotNumber": {
+        "matches": "1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/olt-resource-inventory/card/{{replace request.query.endSz '/' '_'}}/slot_{{request.query.slotNumber}}.json"
+  }
+}

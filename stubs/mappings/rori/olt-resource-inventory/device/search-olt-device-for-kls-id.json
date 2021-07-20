@@ -1,0 +1,33 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "fields": {
+        "matches": "klsId"
+      },
+      "offset": {
+        "matches": "0"
+      },
+      "limit": {
+        "matches": "1"
+      },
+      "depth": {
+        "matches": "0"
+      },
+      "deviceType": {
+        "matches": "OLT"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [{
+      "klsId": "12345"
+    }]
+  }
+}

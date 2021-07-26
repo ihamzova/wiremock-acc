@@ -1,0 +1,335 @@
+{
+  "mappings": [
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Validate Request",
+      "request": {
+        "method": "GET",
+        "urlPath": "/resource-order-resource-inventory/v1/ontUsages",
+        "queryParameters": {
+          "serialNumber": {
+            "contains": "ABCD1A2"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": [
+          {
+            "serialNumber": "{{request.query.serialNumber}}",
+            "partyId": 10013,
+            "status": "CREATED",
+            "idmLastUser": "supplier_monteur_10013",
+            "lastWorkorderId": null,
+            "lastUseOfOnt": "2020-11-18T12:00:00Z",
+            "idmNameOfEmployee": "null",
+            "useForOnlyOneEmployee": false,
+            "bid": 1,
+            "workOrderHistory": []
+          }
+        ]
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Block Serial Number",
+      "request": {
+        "method": "PUT",
+        "urlPathPattern": "/resource-order-resource-inventory/v1/ontUsages/ABCD1A2([0-9]*)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "priority": 5,
+      "request": {
+        "method": "POST",
+        "urlPath": "/reqcb/service-order-service-inventory/v1/testOnt/async",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        },
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.serialNumber =~ /ABCD1A2[A-Z0-9]{9}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": {
+              "status": "REGISTERED"
+            },
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Register ONT ok",
+      "priority": 5,
+      "request": {
+        "method": "POST",
+        "urlPath": "/reqcb/service-order-service-inventory/v2/connectivityTest/ont",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        },
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.serialNumber =~ /ABCD1A2[A-Z0-9]{9}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": {
+              "status": "REGISTERED"
+            },
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Update Status To Registered ok",
+      "request": {
+        "method": "PUT",
+        "urlPathPattern": "/resource-order-resource-inventory/v1/ontUsages/ABCD1A2([0-9]*)",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.status == 'REGISTERED')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "serialNumber": "{{request.requestLine.pathSegments.[3]}}",
+          "status": "REGISTERED"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Execute ONT Linetest ok",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/reqcb/service-order-service-inventory/v1/testOnt/ABCD1A2([0-9]*)/async",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        }
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": "ONLINE",
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Execute ONT Linetest ok",
+      "priority": 5,
+      "request": {
+        "method": "PATCH",
+        "urlPath": "/reqcb/service-order-service-inventory/v2/connectivityTest/ont",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        },
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.serialNumber =~ /ABCD1A2[A-Z0-9]{9}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": "ONLINE",
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Update Status To Online nok 409",
+      "request": {
+        "method": "PUT",
+        "urlPathPattern": "/resource-order-resource-inventory/v1/ontUsages/ABCD1A2([0-9]*)",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.status == 'ONLINE')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 409,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Deregister ONT ok",
+      "priority": 5,
+      "request": {
+        "method": "DELETE",
+        "urlPathPattern": "/reqcb/service-order-service-inventory/v1/testOnt/ABCD1A2([0-9]*)/async",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        }
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": {
+              "status": "DECOMMISSIONED"
+            },
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Deregister ONT ok",
+      "priority": 5,
+      "request": {
+        "method": "DELETE",
+        "urlPath": "/reqcb/service-order-service-inventory/v2/connectivityTest/ont",
+        "headers": {
+          "X-Callback-Correlation-Id": {
+            "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+          }
+        },
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.serialNumber =~ /ABCD1A2[A-Z0-9]{9}/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 202,
+        "statusMessage": "Async response. Reservation request is accepted."
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+          },
+          "jsonBody": {
+            "response": {
+              "status": "DECOMMISSIONED"
+            },
+            "success": true
+          },
+          "url": "{{request.headers.X-Callback-Url}}"
+        }
+      }
+    },
+    {
+      "scenarioName": "ABCD1A2_FIBERBAU",
+      "newScenarioState": "Update Status To Deregistered ok",
+      "request": {
+        "method": "PUT",
+        "urlPathPattern": "/resource-order-resource-inventory/v1/ontUsages/ABCD1A2([0-9]*)",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.status == 'DEREGISTERED')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "serialNumber": "{{request.requestLine.pathSegments.[3]}}",
+          "status": "DEREGISTERED"
+        }
+      }
+    }
+  ]
+}

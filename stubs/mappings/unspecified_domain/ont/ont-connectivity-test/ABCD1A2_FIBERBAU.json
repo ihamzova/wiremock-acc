@@ -218,7 +218,7 @@
     },
     {
       "scenarioName": "ABCD1A2_FIBERBAU",
-      "newScenarioState": "Update Status To Online nok 409",
+      "newScenarioState": "Update Status To Online OK",
       "request": {
         "method": "PUT",
         "urlPathPattern": "/resource-order-resource-inventory/v1/ontUsages/ABCD1A2([0-9]*)",
@@ -229,9 +229,13 @@
         ]
       },
       "response": {
-        "status": 409,
+        "status": 200,
         "headers": {
           "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "serialNumber": "{{request.requestLine.pathSegments.[3]}}",
+          "status": "ONLINE"
         }
       }
     },

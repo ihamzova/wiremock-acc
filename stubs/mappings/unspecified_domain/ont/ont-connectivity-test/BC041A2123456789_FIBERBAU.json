@@ -240,7 +240,7 @@
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
       "requiredScenarioState": "Execute ONT Linetest ok",
-      "newScenarioState": "Update Status To Online nok 409",
+      "newScenarioState": "Update Status To Online OK",
       "request": {
         "method": "PUT",
         "urlPath": "/resource-order-resource-inventory/v1/ontUsages/BC041A2123456789",
@@ -251,9 +251,13 @@
         ]
       },
       "response": {
-        "status": 409,
+        "status": 200,
         "headers": {
           "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "serialNumber": "{{request.requestLine.pathSegments.[3]}}",
+          "status": "ONLINE"
         }
       }
     },

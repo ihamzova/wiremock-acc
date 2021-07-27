@@ -1,0 +1,16 @@
+{
+  "id": "633015b9-0392-41fa-bb0a-634e984200d1",
+  "request": {
+    "method": "POST",
+    "url": "/resource-order-resource-inventory/v1/generateHomeIdTask/"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "homeId": "{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}"
+    },
+    "status": 201
+  }
+}

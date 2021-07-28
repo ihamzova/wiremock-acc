@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "name": "Search FolId by KLS",
+      "priority": 9,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?klsId=([0-9]*)&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/search-fol-by-kls.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "content": [
+    {
+    "areaType": "DEVELOPMENT",
+    "bandwidthProfiles": [
+      "string"
+    ],
+    "demandCarrier": "FTTH",
+    "distributionPointID": "string",
+    "distributionPointName": "string",
+    "ge": 1,
+    "geoLatitude": 0,
+    "geoLongitude": 0,
+    "gigaArea": {
+      "areaStatus": "VVM_ONGOING",
+      "initiative": "SELF_EXPANSION",
+      "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
+      "name": "string",
+      "netCoOrganisationId": 0,
+      "number": "string",
+      "plannedFrom": "2020-07-19T09:01:31.672Z",
+      "plannedTo": "2020-07-19T09:01:31.672Z",
+      "rolloutDate": "2020-07-19T09:01:31.672Z",
+      "rolloutPartnerInitial": 0,
+      "rolloutPartnerRegular": 0,
+      "thresholdData": {
+        "additionalOrdersCountInVVM": 0,
+        "ordersCountInVVM": 0,
+        "threshold": 0
+      }
+    },
+    "id": "{{request.query.klsId}}1",
+    "installationDate": "2020-07-19T09:01:31.672Z",
+    "installationStatus": "PLANNED",
+    "klsId": "{{request.query.klsId}}",
+    "nvtArea": {
+      "asb": 0,
+      "businessId": 100,
+      "gigaArea": {
+        "areaStatus": "VVM_ONGOING",
+        "initiative": "SELF_EXPANSION",
+        "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
+        "name": "string",
+        "netCoOrganisationId": 0,
+        "number": "string",
+        "plannedFrom": "2020-07-19T09:01:31.672Z",
+        "plannedTo": "2020-07-19T09:01:31.672Z",
+        "rolloutDate": "2020-07-19T09:01:31.672Z",
+        "rolloutPartnerInitial": 0,
+        "rolloutPartnerRegular": 0,
+        "thresholdData": {
+          "additionalOrdersCountInVVM": 0,
+          "ordersCountInVVM": 0,
+          "threshold": 0
+        }
+      },
+      "name": "string",
+      "nvtKlsId": 0,
+      "onkz": "string",
+      "rolloutPartnerRegular": 0
+    },
+    "realizationTime": 0,
+    "reasonForNoConstruction": "NO_OWNER_COMMIT",
+    "rolloutSponsor": "SELF_EXPANSION",
+    "sl": 2,
+    "technology": "FTTH",
+    "we": 2
+  },
+    {
+      "areaType": "DEVELOPMENT",
+      "bandwidthProfiles": [
+        "string"
+      ],
+      "demandCarrier": "FTTH",
+      "distributionPointID": "string",
+      "distributionPointName": "string",
+      "ge": 1,
+      "geoLatitude": 0,
+      "geoLongitude": 0,
+      "gigaArea": {
+        "areaStatus": "VVM_ONGOING",
+        "initiative": "SELF_EXPANSION",
+        "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
+        "name": "string",
+        "netCoOrganisationId": 0,
+        "number": "string",
+        "plannedFrom": "2020-07-19T09:01:31.672Z",
+        "plannedTo": "2020-07-19T09:01:31.672Z",
+        "rolloutDate": "2020-07-19T09:01:31.672Z",
+        "rolloutPartnerInitial": 0,
+        "rolloutPartnerRegular": 0,
+        "thresholdData": {
+          "additionalOrdersCountInVVM": 0,
+          "ordersCountInVVM": 0,
+          "threshold": 0
+        }
+      },
+      "id": "{{request.query.klsId}}2",
+      "installationDate": "2020-07-19T09:01:31.672Z",
+      "installationStatus": "PLANNED",
+      "klsId": "{{request.query.klsId}}",
+      "nvtArea": {
+        "asb": 0,
+        "businessId": 100,
+        "gigaArea": {
+          "areaStatus": "VVM_ONGOING",
+          "initiative": "SELF_EXPANSION",
+          "internalExpansionDecisionDate": "2020-07-19T09:01:31.672Z",
+          "name": "string",
+          "netCoOrganisationId": 0,
+          "number": "string",
+          "plannedFrom": "2020-07-19T09:01:31.672Z",
+          "plannedTo": "2020-07-19T09:01:31.672Z",
+          "rolloutDate": "2020-07-19T09:01:31.672Z",
+          "rolloutPartnerInitial": 0,
+          "rolloutPartnerRegular": 0,
+          "thresholdData": {
+            "additionalOrdersCountInVVM": 0,
+            "ordersCountInVVM": 0,
+            "threshold": 0
+          }
+        },
+        "name": "string",
+        "nvtKlsId": 0,
+        "onkz": "string",
+        "rolloutPartnerRegular": 0
+      },
+      "realizationTime": 0,
+      "reasonForNoConstruction": "NO_OWNER_COMMIT",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "sl": 2,
+      "technology": "FTTH",
+      "we": 2
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": false
+    },
+    "pageNumber": 1,
+    "pageSize": 1000,
+    "offset": 1,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 1,
+  "totalElements": 1,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 1,
+  "size": 1000,
+  "number": 0,
+  "empty": false
+}
+

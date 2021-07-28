@@ -35,7 +35,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Validate Request",
       "newScenarioState": "Block Serial Number",
       "request": {
         "method": "PUT",
@@ -55,7 +54,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Block Serial Number",
       "newScenarioState": "Register ONT ok",
       "priority": 5,
       "request": {
@@ -98,7 +96,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Block Serial Number",
       "newScenarioState": "Register ONT ok",
       "priority": 5,
       "request": {
@@ -141,7 +138,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Register ONT ok",
       "newScenarioState": "Update Status To Registered ok",
       "request": {
         "method": "PUT",
@@ -165,7 +161,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Update Status To Registered ok",
       "newScenarioState": "Execute ONT Linetest ok",
       "priority": 5,
       "request": {
@@ -198,7 +193,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Update Status To Registered ok",
       "newScenarioState": "Execute ONT Linetest ok",
       "priority": 5,
       "request": {
@@ -239,7 +233,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Execute ONT Linetest ok",
       "newScenarioState": "Update Status To Online OK",
       "request": {
         "method": "PUT",
@@ -263,7 +256,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Update Status To Online nok 409",
       "newScenarioState": "Deregister ONT ok",
       "priority": 5,
       "request": {
@@ -298,7 +290,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Update Status To Online nok 409",
       "newScenarioState": "Deregister ONT ok",
       "priority": 5,
       "request": {
@@ -341,7 +332,6 @@
     },
     {
       "scenarioName": "BC041A2123456789_FIBERBAU",
-      "requiredScenarioState": "Deregister ONT ok",
       "newScenarioState": "Update Status To Deregistered ok",
       "request": {
         "method": "PUT",

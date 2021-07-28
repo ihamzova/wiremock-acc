@@ -13,21 +13,21 @@
     "status": 200,
     "jsonBody": [
       {
-        "id": 108507515,
+        "id": 109202815,
         "versionId": "102/1/4601/5154734",
-        "version": 1,
+        "version": "1",
         "lsz": "4C1",
-        "lszErg": "A4CH",
-        "ordNr": 1007,
-        "uewegId": "I123456782",
+        "lszErg": "",
+        "ordNr": "1007",
+        "uewegId": "I123456722",
         "status": "geprueftZ",
         "pluralId": "P153456",
         "endPointA": {
           "endSz": "49_911_1100_76H4",
           "endSzParts": {
-            "akz": 49,
-            "nkz": 911,
-            "vkz": 1100,
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "1100",
             "fsz": "76H4"
           },
           "deviceHostName": "hostname",
@@ -38,9 +38,9 @@
         "endPointB": {
           "endSz": "49_911_1100_7ZJB",
           "endSzParts": {
-            "akz": 49,
-            "nkz": 911,
-            "vkz": 1100,
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "1100",
             "fsz": "7ZJB"
           },
           "deviceHostName": "hostnamebng",
@@ -52,21 +52,21 @@
         "validUntil": "13.07.2022 00:00:00"
       },
       {
-        "id": 108557517,
+        "id": 109202817,
         "versionId": "102/1/4601/5154734",
-        "version": 1,
+        "version": "1",
         "lsz": "4C1",
-        "lszErg": "A4CH",
-        "ordNr": 1007,
+        "lszErg": "",
+        "ordNr": "10191",
         "uewegId": "I123456784",
         "status": "InBetrieb",
         "pluralId": "P157456",
         "endPointA": {
           "endSz": "49_911_1100_7ZJA",
           "endSzParts": {
-            "akz": 49,
-            "nkz": 911,
-            "vkz": 1100,
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "1100",
             "fsz": "7ZJA"
           },
           "deviceHostName": "hostnamebng",
@@ -77,9 +77,9 @@
         "endPointB": {
           "endSz": "49_911_1100_76H4",
           "endSzParts": {
-            "akz": 49,
-            "nkz": 911,
-            "vkz": 1100,
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "1100",
             "fsz": "76H4"
           },
           "deviceHostName": "hostname",

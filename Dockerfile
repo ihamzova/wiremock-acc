@@ -30,6 +30,8 @@ COPY order-stubs /$WM_PACKAGE/order-stubs
 COPY osr-stubs /$WM_PACKAGE/osr-stubs
 COPY presales-stubs /$WM_PACKAGE/presales-stubs
 COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
+COPY gteam-stubs/__files/ /$WM_PACKAGE/__files/gteam-stubs
+COPY gteam-stubs/mappings/ /$WM_PACKAGE/mappings/gteam-stubs
 
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 

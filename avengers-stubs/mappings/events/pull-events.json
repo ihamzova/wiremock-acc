@@ -1,0 +1,67 @@
+{
+  "mappings": [
+    {
+      "name": "Publish BuildingOrder state change event",
+      "priority": 10,
+      "request": {
+        "method": "POST",
+        "url": "/pubsub/p/giga-project/v1/bfo/buildingOrderEvents"
+      },
+      "response": {
+        "status": 202
+      }
+    },
+    {
+      "name": "Register to WorkorderEvent topic",
+      "priority": 10,
+      "request": {
+        "method": "POST",
+        "url": "/pubsub/r/giga-project-dioss/v2/workorderStatusChangeEvents"
+      },
+      "response": {
+        "status": 202,
+        "headers": {
+          "X-Pubsub-Subscriber-Id": "{{randomValue type='UUID'}}",
+          "X-Pubsub-Subscriber-Url": "http://wiremock:8080/pubsub/s/giga-project-dioss/v2/workorderStatusChangeEvents"
+        }
+      }
+    },
+    {
+      "name": "Pull WorkorderEvent - No content",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/pubsub/s/giga-project-dioss/v2/workorderStatusChangeEvents"
+      },
+      "response": {
+        "status": 204
+      }
+    },
+    {
+      "name": "Register to FoLEvents topic",
+      "priority": 10,
+      "request": {
+        "method": "POST",
+        "url": "/pubsub/r/giga-areas-location/v2/folAreas/folAreaTopic"
+      },
+      "response": {
+        "status": 202,
+        "headers": {
+          "X-Pubsub-Subscriber-Id": "{{randomValue type='UUID'}}",
+          "X-Pubsub-Subscriber-Url": "http://wiremock:8080/pubsub/s/giga-areas-location/v2/folAreas/folAreaTopic"
+        }
+      }
+    },
+    {
+      "name": "Pull FoL Events - No content",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/pubsub/s/giga-areas-location/v2/folAreas/folAreaTopic"
+      },
+      "response": {
+        "status": 204
+      }
+    }
+  ]
+}

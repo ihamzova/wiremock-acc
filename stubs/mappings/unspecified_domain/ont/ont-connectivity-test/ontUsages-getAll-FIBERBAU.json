@@ -19,7 +19,7 @@
             "idmLastUser": "supplier_monteur_10013",
             "lastWorkorderId": null,
             "lastUseOfOnt": "2020-11-18T12:00:00Z",
-            "idmNameOfEmployee": "leonardweiss_monteur",
+            "idmNameOfEmployee": null,
             "useForOnlyOneEmployee": false,
             "bid": 1,
             "workOrderHistory": []
@@ -31,9 +31,21 @@
             "idmLastUser": "supplier_monteur_10013",
             "lastWorkorderId": null,
             "lastUseOfOnt": "2020-11-18T12:00:00Z",
-            "idmNameOfEmployee": "null",
+            "idmNameOfEmployee": null,
             "useForOnlyOneEmployee": false,
-            "bid": 1,
+            "bid": 2,
+            "workOrderHistory": []
+          },
+          {
+            "serialNumber": "ABCD1A2559849335",
+            "partyId": 10013,
+            "status": "CREATED",
+            "idmLastUser": "supplier_monteur_10013",
+            "lastWorkorderId": null,
+            "lastUseOfOnt": "2020-11-18T12:00:00Z",
+            "idmNameOfEmployee": "supplier_monteur_10013",
+            "useForOnlyOneEmployee": true,
+            "bid": 3,
             "workOrderHistory": []
           }
         ]

@@ -5,6 +5,13 @@
     "urlPathPattern": "/communicationManagement/v3/communicationMessage"
   },
   "response": {
-    "status": 201
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "communicationMessageId": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+    }
   }
+
 }

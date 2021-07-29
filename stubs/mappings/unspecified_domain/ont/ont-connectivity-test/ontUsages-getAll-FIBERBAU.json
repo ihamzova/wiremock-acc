@@ -1,0 +1,43 @@
+{
+  "mappings": [
+    {
+      "newScenarioState": "Validate Request",
+      "request": {
+        "method": "GET",
+        "urlPath": "/resource-order-resource-inventory/v1/ontUsages"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": [
+          {
+            "serialNumber": "BC041A2123456789",
+            "partyId": 10013,
+            "status": "CREATED",
+            "idmLastUser": "supplier_monteur_10013",
+            "lastWorkorderId": null,
+            "lastUseOfOnt": "2020-11-18T12:00:00Z",
+            "idmNameOfEmployee": "leonardweiss_monteur",
+            "useForOnlyOneEmployee": false,
+            "bid": 1,
+            "workOrderHistory": []
+          },
+          {
+            "serialNumber": "ABCD1A2559849334",
+            "partyId": 10013,
+            "status": "CREATED",
+            "idmLastUser": "supplier_monteur_10013",
+            "lastWorkorderId": null,
+            "lastUseOfOnt": "2020-11-18T12:00:00Z",
+            "idmNameOfEmployee": "null",
+            "useForOnlyOneEmployee": false,
+            "bid": 1,
+            "workOrderHistory": []
+          }
+        ]
+      }
+    }
+  ]
+}

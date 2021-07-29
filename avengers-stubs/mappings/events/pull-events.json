@@ -8,7 +8,10 @@
         "url": "/pubsub/p/giga-project/v1/bfo/buildingOrderEvents"
       },
       "response": {
-        "status": 202
+        "status": 202,
+        "headers": {
+          "X-PubSub-Event-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+        }
       }
     },
     {
@@ -34,7 +37,10 @@
         "url": "/pubsub/s/giga-project-dioss/v2/workorderStatusChangeEvents"
       },
       "response": {
-        "status": 204
+        "status": 204,
+        "headers": {
+          "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+        }
       }
     },
     {
@@ -60,7 +66,10 @@
         "url": "/pubsub/s/giga-areas-location/v2/folAreas/folAreaTopic"
       },
       "response": {
-        "status": 204
+        "status": 204,
+        "headers": {
+          "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+        }
       }
     }
   ]

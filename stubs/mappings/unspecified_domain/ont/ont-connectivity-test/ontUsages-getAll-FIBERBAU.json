@@ -4,7 +4,12 @@
       "newScenarioState": "Validate Request",
       "request": {
         "method": "GET",
-        "urlPath": "/resource-order-resource-inventory/v1/ontUsages"
+        "urlPath": "/resource-order-resource-inventory/v1/ontUsages",
+        "queryParameters": {
+          "serialNumber": {
+            "absent": true
+          }
+        }
       },
       "response": {
         "status": 200,

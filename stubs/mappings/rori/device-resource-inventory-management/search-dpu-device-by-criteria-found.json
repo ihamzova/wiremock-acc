@@ -2,9 +2,9 @@
   "priority": 2,
   "request": {
     "method": "GET",
-    "urlPath": "/api/oltResourceInventory/v1/device",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
     "queryParameters": {
-      "endsz": {
+      "endSz": {
         "matches": "49\\/30\\/179\\/71G0|49\\/30\\/179\\/71G1"
       }
     }
@@ -14,6 +14,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/device/criteria/search-dpu-device-by-endSZ-{{replace request.query.endsz '/' '_'}}.json"
+    "bodyFileName": "rori/device-resource-inventory-management/device/search-dpu-device-by-endSZ-{{replace request.query.endSz '/' '_'}}.json"
   }
 }

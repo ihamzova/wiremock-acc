@@ -11,14 +11,12 @@
   },
   "response": {
     "status": 404,
-    "jsonBody": [
-      {
-        "code": "E0002",
-        "detail": "Ueweg mit EndSz=49_911_1100_76HN nicht gefunden",
-        "title": "NoDataFoundException",
-        "status": "Not Found"
-      }
-    ],
+    "jsonBody": {
+      "code": "E0002",
+      "detail": "Ueweg mit EndSz=49_911_1100_76HN nicht gefunden",
+      "title": "NoDataFoundException",
+      "status": "Not Found"
+    },
     "headers": {
       "Content-Type": "application/json"
     }

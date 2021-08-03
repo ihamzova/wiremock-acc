@@ -1,0 +1,25 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
+    "queryParameters": {
+      "rootProductId": {
+        "matches": "TB0019111760"
+      },
+      "accountId": {
+        "matches": "^\\d{10}$"
+      },
+      "productStatus": {
+        "matches": "Terminated"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111760.json"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "TB0019111768",
+  "name": "Test BP4",
+  "productSerialNumber": "T4234578",
+  "status": [
+    "terminated"
+  ],
+  "startDate": "2021-03-17",
+  "relatedParty": {
+    "id": "9999070120",
+    "role": "customer"
+  },
+  "plannedEndDate": "2022-03-16",
+  "cancelUntilDate": "2022-03-15",
+  "noticePeriodUnit": [
+    "day"
+  ],
+  "noticePeriodAmount": 1,
+  "place": [
+    {
+      "id": "25692564",
+      "role": [
+        "geographical address"
+      ]
+    }
+  ],
+  "productPrice": [
+    {
+      "name": "Bereitstellung Test BP3",
+      "priceType": [
+        "one time"
+      ],
+      "price": {
+        "taxRate": 19,
+        "dutyFreeAmount": {
+          "Money": {
+            "unit": "EUR",
+            "value": 0
+          }
+        },
+        "taxIncludedAmount": {
+          "Money": {
+            "unit": "EUR",
+            "value": 0
+          }
+        }
+      },
+      "productOfferingPrice": {
+        "id": "9900852888"
+      }
+    },
+    {
+      "name": "Überlassung Test BP4",
+      "priceType": [
+        "recurring"
+      ],
+      "recurringChargePeriod": [
+        "month"
+      ],
+      "price": {
+        "taxRate": 19,
+        "dutyFreeAmount": {
+          "Money": {
+            "unit": "EUR",
+            "value": 50.0000000
+          }
+        },
+        "taxIncludedAmount": {
+          "Money": {
+            "unit": "EUR",
+            "value": 59.5000000
+          }
+        }
+      },
+      "productOfferingPrice": {
+        "id": "9900852999"
+      }
+    }
+  ],
+  "billingAccount": [
+    {
+      "id": "1-4X2NA8L",
+      "name": "6782028338"
+    }
+  ],
+  "characteristic": [
+    {
+      "name": "GRUS",
+      "value": "004356254487"
+    },
+    {
+      "name": "productType",
+      "value": "Bundled Promotion"
+    },
+    {
+      "name": "productSubtype",
+      "value": "EG SP"
+    }
+  ],
+  "relatedParty": {
+    "id": "9999070120",
+    "role": "customer"
+  },
+  "self": {
+    "id": "TB0019111768",
+    "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+  },
+  "productRelationship": []
+}

@@ -15,6 +15,7 @@
       "url": "{{request.headers.X-Callback-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Authorization": "Bearer {{oauth}}",
         "Content-Type": "application/json"
       },
       "method": "POST",

@@ -4,6 +4,9 @@
     "method": "GET",
     "urlPath": "/resource-order-resource-inventory/v5/device",
     "queryParameters": {
+      "depth": {
+        "matches": "1"
+      },
       "endSz": {
         "matches": "49\\/30\\/179\\/71G0|49\\/30\\/179\\/71G1"
       }

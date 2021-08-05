@@ -1,0 +1,23 @@
+{
+  "request": {
+    "urlPath": "/api/riAbstractionLayer/v1/olt/vpszlookup",
+    "method": "GET",
+    "queryParameters": {
+      "vpsz": {
+        "equalTo": "49/2234/19"
+      },
+      "devicetype": {
+        "equalTo": "OLT"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      "49/2234/19/76H1"
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

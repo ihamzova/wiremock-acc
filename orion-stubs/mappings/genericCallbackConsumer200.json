@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/genericCallbackConsumer/consume/"
+  },
+  "response": {
+    "body": "Ok",
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 200
+  }
+}

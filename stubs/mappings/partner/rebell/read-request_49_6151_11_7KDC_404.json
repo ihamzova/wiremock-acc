@@ -11,14 +11,12 @@
   },
   "response": {
     "status": 404,
-    "jsonBody": [
-      {
-        "code": "404",
-        "status": "NOT FOUND",
-        "title": "ERROR",
-        "detail": "Ueweg not found with given parameter"
-      }
-    ]
+    "jsonBody": {
+      "code": "404",
+      "status": "NOT FOUND",
+      "title": "ERROR",
+      "detail": "Ueweg not found with given parameter"
+    }
   ,
     "headers": {
       "Content-Type": "application/json"

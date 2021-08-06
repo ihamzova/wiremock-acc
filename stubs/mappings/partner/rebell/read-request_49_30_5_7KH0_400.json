@@ -14,14 +14,12 @@
   },
   "response": {
     "status": 400,
-    "jsonBody": [
-      {
-        "code": "400",
-        "status": "BAD REQUEST",
-        "title": "ERROR",
-        "detail": "Request with given parameter is not correct"
-      }
-    ]
+    "jsonBody": {
+      "code": "400",
+      "status": "BAD REQUEST",
+      "title": "ERROR",
+      "detail": "Request with given parameter is not correct"
+    }
   ,
     "headers": {
       "Content-Type": "application/json"

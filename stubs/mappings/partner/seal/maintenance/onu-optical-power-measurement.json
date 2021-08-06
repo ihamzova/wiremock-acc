@@ -1,7 +1,7 @@
 {
   "request": {
-    "method": "POST",
-    "urlPattern": "/configuration/v1/accessNodes/([\\w\\d\\_]*)/accessLines/?"
+    "urlPathPattern": "/maintenance/v1/onuOpticalPowerMeasurement/",
+    "method": "POST"
   },
   "response": {
     "status": 202,
@@ -27,8 +27,16 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "accessLineId": "{{jsonPath request.body '$.accessType'}}-{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.slot'}}-{{jsonPath request.body '$.port'}}-{{jsonPath request.body '$.ontId'}}-{{jsonPath request.body '$.vlanId'}}"
-        }
+          "onuId": "{{jsonPath request.body '$.onuId'}}",
+          "actualRunState": "Online",
+          "transmittedPowerAtOltToAllOnus": 3.6,
+          "receivedPowerAtOltFromRequestedOnu": -15.82,
+          "transmittedPowerOnu": 2.16,
+          "receivedPowerOnu": -14.46
+        },
+        "status": 2000,
+        "statustype": "SUCCESS",
+        "message": "successfully executed"
       }
     }
   }

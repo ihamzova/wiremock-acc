@@ -31,7 +31,7 @@
           "port": "0",
           "onuId": 0,
           "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
-          "timeStamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd\\'T\\'HH:mm:ss.SSSXXX'}}",
+          "timeStamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
           "eventMessage": "Event Message"
         }],
         "status": 200,

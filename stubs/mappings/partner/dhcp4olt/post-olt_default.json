@@ -1,0 +1,24 @@
+{
+  "priority": 10,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/oltDhcpConfiguration/olt",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "data": {
+        "id": 1,
+        "endsz": "{{jsonPath request.body '$.endsz_olt'}}",
+        "ip": "192.168.158.3",
+        "serialnumber": "{{jsonPath request.body '$.serialnumber'}}",
+        "bng_id": 1,
+        "type": "{{jsonPath request.body '$.type'}}"
+      },
+      "message": "OLT was successfully created"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

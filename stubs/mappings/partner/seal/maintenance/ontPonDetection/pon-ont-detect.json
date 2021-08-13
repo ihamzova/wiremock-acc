@@ -41,7 +41,7 @@
           "port": "0",
           "onuId": 0,
           "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
-          "timeStamp": "{{now offset='-2 days' timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "timeStamp": "2020-08-21T17:32:28Z",
           "eventMessage": "SecondEvent"
         },
         {
@@ -51,7 +51,7 @@
           "port": "0",
           "onuId": 0,
           "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
-          "timeStamp": "{{now offset='-4 days' timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "timeStamp": "2018-08-21T17:32:28Z",
           "eventMessage": "FirstEvent"
         }],
         "status": 200,

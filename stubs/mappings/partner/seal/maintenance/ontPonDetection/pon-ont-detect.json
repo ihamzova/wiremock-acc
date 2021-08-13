@@ -32,7 +32,27 @@
           "onuId": 0,
           "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
           "timeStamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
-          "eventMessage": "Event Message"
+          "eventMessage": "LastEvent"
+        },
+        {
+          "endSz": "{{jsonPath request.body '$.endSz'}}",
+          "shelf": "0",
+          "slot": "0",
+          "port": "0",
+          "onuId": 0,
+          "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
+          "timeStamp": "{{now offset='-2 days' timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "eventMessage": "SecondEvent"
+        },
+        {
+          "endSz": "{{jsonPath request.body '$.endSz'}}",
+          "shelf": "0",
+          "slot": "0",
+          "port": "0",
+          "onuId": 0,
+          "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
+          "timeStamp": "{{now offset='-4 days' timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "eventMessage": "FirstEvent"
         }],
         "status": 200,
         "statustype": "SUCCESS",

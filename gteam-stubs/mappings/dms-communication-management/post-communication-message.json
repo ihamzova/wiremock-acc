@@ -1,0 +1,63 @@
+{
+  "mappings": [
+    {
+      "name": "sendToReceiver",
+      "requiredScenarioState": "true",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/communicationManagement/v3/communicationMessage"
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "communicationMessageId": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+        },
+        "fixedDelayMilliseconds": 2000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "/communicationManagement/v3/communicationMessageCallback",
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-email-event.json"
+        }
+      }
+    },
+    {
+      "scenarioName": "sendToReceiver",
+      "requiredScenarioState": "true",
+      "newScenarioState": "false",
+      "request": {
+        "method": "POST",
+        "urlPathPattern": "/communicationManagement/v3/communicationMessage"
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "communicationMessageId": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+        },
+        "fixedDelayMilliseconds": 2000
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "fixedDelayMilliseconds": 5000,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "/communicationManagement/v3/communicationMessageCallback",
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
+        }
+      }
+    }
+  ]
+}

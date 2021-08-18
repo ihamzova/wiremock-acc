@@ -1,11 +1,9 @@
 {
   "mappings": [
     {
-      "name": "sendToReceiver",
-      "requiredScenarioState": "true",
       "request": {
         "method": "POST",
-        "url": "/communicationManagement/v3/communicationMessage",
+        "url": "/communicationMessage",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$.[?(@.sendToReceiver==true)]"
@@ -18,29 +16,27 @@
           "Content-Type": "application/json"
         },
         "jsonBody": {
-          "communicationMessageId": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+          "id": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
         },
-        "fixedDelayMilliseconds": 2000
+        "fixedDelayMilliseconds": 10000
       },
+
       "postServeActions": {
         "webhook": {
           "method": "POST",
-          "fixedDelayMilliseconds": 5000,
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "/communicationManagement/v3/communicationMessageCallback",
-          "bodyFileName": "gteam-stubs/dms-communication-management/dms-email-event.json"
+          "url": "http://localhost:8089/communicationMessageCallback",
+          "fixedDelayMilliseconds": 6000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }
       }
     },
     {
-      "scenarioName": "sendToReceiver",
-      "requiredScenarioState": "true",
-      "newScenarioState": "false",
       "request": {
         "method": "POST",
-        "url": "/communicationManagement/v3/communicationMessage",
+        "url": "/communicationMessage",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
@@ -52,19 +48,21 @@
         "headers": {
           "Content-Type": "application/json"
         },
+        "fixedDelayMilliseconds": 10000,
         "jsonBody": {
-          "communicationMessageId": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
-        },
-        "fixedDelayMilliseconds": 2000
+          "id": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+        }
       },
+
       "postServeActions": {
         "webhook": {
+
           "method": "POST",
-          "fixedDelayMilliseconds": 5000,
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "/communicationManagement/v3/communicationMessageCallback",
+          "url": "http://localhost:8089/communicationMessageCallback",
+          "fixedDelayMilliseconds": 6000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }
       }

@@ -62,7 +62,7 @@
             "Content-Type": "application/json"
           },
           "url": "http://localhost:8089/communicationMessageCallback",
-          "fixedDelayMilliseconds": 6000,
+          "fixedDelayMilliseconds": 7000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }
       }

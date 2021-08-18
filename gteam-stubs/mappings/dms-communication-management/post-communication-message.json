@@ -27,7 +27,7 @@
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "http://localhost:8089/communicationMessageCallback",
+          "url": "localhost:8089/communicationMessageCallback",
           "fixedDelayMilliseconds": 6000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }
@@ -56,12 +56,11 @@
 
       "postServeActions": {
         "webhook": {
-
           "method": "POST",
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "http://localhost:8089/communicationMessageCallback",
+          "url": "localhost:8089/communicationMessageCallback",
           "fixedDelayMilliseconds": 7000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }

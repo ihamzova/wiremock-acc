@@ -5,7 +5,12 @@
       "requiredScenarioState": "true",
       "request": {
         "method": "POST",
-        "urlPathPattern": "/communicationManagement/v3/communicationMessage"
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==true)]"
+          }
+        ]
       },
       "response": {
         "status": 201,
@@ -35,7 +40,12 @@
       "newScenarioState": "false",
       "request": {
         "method": "POST",
-        "urlPathPattern": "/communicationManagement/v3/communicationMessage"
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          }
+        ]
       },
       "response": {
         "status": 201,

@@ -3,7 +3,7 @@
     {
       "request": {
         "method": "POST",
-        "url": "/communicationMessage",
+        "url": "/communicationManagement/v3/communicationMessage",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$.[?(@.sendToReceiver==true)]"
@@ -35,7 +35,7 @@
     {
       "request": {
         "method": "POST",
-        "url": "/communicationMessage",
+        "url": "/communicationManagement/v3/communicationMessage",
         "bodyPatterns": [
           {
             "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"

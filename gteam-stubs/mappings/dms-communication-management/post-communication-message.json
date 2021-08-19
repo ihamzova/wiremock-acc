@@ -16,18 +16,17 @@
           "Content-Type": "application/json"
         },
         "jsonBody": {
-          "id": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+          "id": "226762cf-ce1c-4090-bc0c-f1110f72c475"
         },
         "fixedDelayMilliseconds": 10000
       },
-
       "postServeActions": {
         "webhook": {
           "method": "POST",
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "localhost:8089/communicationMessageCallback",
+          "url": "http://vvi-handler-app/communicationMessageCallback",
           "fixedDelayMilliseconds": 6000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }
@@ -53,14 +52,13 @@
           "id": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
         }
       },
-
       "postServeActions": {
         "webhook": {
           "method": "POST",
           "headers": {
             "Content-Type": "application/json"
           },
-          "url": "localhost:8089/communicationMessageCallback",
+          "url": "http://vvi-handler-app/communicationMessageCallback",
           "fixedDelayMilliseconds": 7000,
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
         }

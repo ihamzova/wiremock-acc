@@ -1,0 +1,43 @@
+{
+  "request": {
+    "urlPathPattern": "/resource-order-resource-inventory/v1/onuOpticalPowerMeasurement/",
+    "method": "POST"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json",
+        "X-Callback-Id": "{{eq request.headers.X-Callback-Id null yes=(randomValue type='UUID') no=request.headers.X-Callback-Id}}",
+        "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+        "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "payload": {
+          "onuId": "{{jsonPath request.body '$.onuId'}}",
+          "actualRunState": "Online",
+          "transmittedPowerAtOltToAllOnus": 3.6,
+          "receivedPowerAtOltFromRequestedOnu": -15.82,
+          "transmittedPowerOnu": 2.16,
+          "receivedPowerOnu": -14.46
+        },
+        "status": 2000,
+        "statustype": "SUCCESS",
+        "message": "successfully executed"
+      }
+    }
+  }
+}

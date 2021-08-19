@@ -1,0 +1,196 @@
+[
+  {
+    "id": "1128",
+    "href": "/resource-order-resource-inventory/v5/device/2700",
+    "accessTransmissionMedium": "TWISTED_PAIR",
+    "asb": 1,
+    "creationDate": "2021-03-18T11:43:31.771487+01:00",
+    "description": "SDX2221-16-TP",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40797654",
+    "emsNbiName": "SDX2221-16-TP",
+    "endSz": "49/30/179/71G0",
+    "equipmentNumber": "212880056",
+    "fiberOnLocationId": "1000000005",
+    "fsz": "71G0",
+    "importDate": "2021-03-18T11:43:31.771487+01:00",
+    "ipAddress": "0.0.0.0",
+    "klsId": "123456",
+    "manufacturer": "ADTRAN",
+    "materialNumber": "40898329",
+    "modificationDate": "2021-06-23T12:37:42.115169+02:00",
+    "name": "16 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+    "resourceId": "c637b966-4907-40b1-99a4-212dce4e4745",
+    "shortName": "SDX2221-16 TP-AC-M-FTTB ETSI",
+    "technicalLocation": "000031-000179-001-004-002-021",
+    "vpsz": "49/30/179",
+    "containsCardsRefOrValue": [],
+    "containsPortsRefOrValue": [
+      {
+        "id": "5070",
+        "href": "/resource-order-resource-inventory/v5/port/5070",
+        "portName": "1",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5071",
+        "href": "/resource-order-resource-inventory/v5/port/5071",
+        "portName": "2",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5072",
+        "href": "/resource-order-resource-inventory/v5/port/5072",
+        "portName": "3",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5073",
+        "href": "/resource-order-resource-inventory/v5/port/5073",
+        "portName": "4",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5074",
+        "href": "/resource-order-resource-inventory/v5/port/5074",
+        "portName": "5",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5075",
+        "href": "/resource-order-resource-inventory/v5/port/5075",
+        "portName": "6",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5076",
+        "href": "/resource-order-resource-inventory/v5/port/5076",
+        "portName": "7",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5077",
+        "href": "/resource-order-resource-inventory/v5/port/5077",
+        "portName": "8",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5078",
+        "href": "/resource-order-resource-inventory/v5/port/5078",
+        "portName": "9",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5079",
+        "href": "/resource-order-resource-inventory/v5/port/5079",
+        "portName": "10",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5080",
+        "href": "/resource-order-resource-inventory/v5/port/5080",
+        "portName": "11",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5081",
+        "href": "/resource-order-resource-inventory/v5/port/5081",
+        "portName": "12",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5082",
+        "href": "/resource-order-resource-inventory/v5/port/5082",
+        "portName": "13",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5083",
+        "href": "/resource-order-resource-inventory/v5/port/5083",
+        "portName": "14",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5084",
+        "href": "/resource-order-resource-inventory/v5/port/5084",
+        "portName": "15",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5085",
+        "href": "/resource-order-resource-inventory/v5/port/5085",
+        "portName": "16",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "5086",
+        "href": "/resource-order-resource-inventory/v5/port/5086",
+        "portName": "17",
+        "portType": "GFAST",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      }
+    ],
+    "deviceType": "DPU",
+    "lifeCycleState": "OPERATING",
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
+  }
+]

@@ -27,7 +27,7 @@
       "method": "POST",
       "jsonBody": {
         "payload": {
-          "accessLineId": "{{jsonPath request.body '$.accessType'}}{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.slot'}}-{{jsonPath request.body '$.port'}}-{{jsonPath request.body '$.ontId'}}-{{jsonPath request.body '$.vlanId'}}"
+          "accessLineId": "{{jsonPath request.body '$.accessType'}}-{{jsonPath request.body '$.shelf'}}-{{jsonPath request.body '$.slot'}}-{{jsonPath request.body '$.port'}}-{{jsonPath request.body '$.ontId'}}-{{jsonPath request.body '$.vlanId'}}"
         }
       }
     }

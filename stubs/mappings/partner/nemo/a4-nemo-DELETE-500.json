@@ -1,0 +1,14 @@
+{
+  "scenarioName": "Default global NEMO wiremock for DELETE/500",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/api/v1/planning/logicalResource/test-blocking-5xx-1",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

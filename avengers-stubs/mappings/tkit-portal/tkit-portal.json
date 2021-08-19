@@ -1,0 +1,85 @@
+{
+  "mappings": [
+    {
+      "name": "Get PORTAL menu items (intranet portal)",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/1000kit-portal-server/v2/menustructure/PORTAL?interpolate=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": [
+          {
+            "applicationId": "PORTAL",
+            "children": [],
+            "disabled": false,
+            "guid": "PORTAL_MAIN_MENU",
+            "i18n": {},
+            "key": "PORTAL_MAIN_MENU",
+            "name": "Portal main menu parent item",
+            "permissionObject": "PORTAL_MAIN_MENU",
+            "persisted": true,
+            "portalExit": false,
+            "portalId": "PORTAL",
+            "position": 0,
+            "scope": "PORTAL",
+            "version": 0
+          },
+          {
+            "applicationId": "PORTAL",
+            "badge": "DigiOSS",
+            "children": [],
+            "disabled": false,
+            "guid": "PORTAL_MENU_HOME",
+            "i18n": {},
+            "key": "PORTAL_MENU_HOME",
+            "name": "Portal main menu parent item",
+            "permissionObject": "PORTAL_MENU_HOME",
+            "persisted": true,
+            "portalExit": false,
+            "portalId": "PORTAL",
+            "position": 0,
+            "scope": "PORTAL",
+            "url": "/",
+            "version": 0
+          },
+          {
+            "applicationId": "PORTAL",
+            "children": [],
+            "disabled": false,
+            "guid": "PORTAL_USER_MENU",
+            "i18n": {},
+            "key": "PORTAL_USER_MENU",
+            "name": "Portal user menu parent item",
+            "permissionObject": "PORTAL_USER_MENU",
+            "persisted": true,
+            "portalExit": false,
+            "portalId": "PORTAL",
+            "position": 0,
+            "scope": "PORTAL",
+            "version": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Get SUPPLIER PORTAL menu items",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/1000kit-portal-server/v2/menustructure/SUPPLIER_PORTAL?interpolate=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "depth": {
+        "matches": "1"
+      },
+      "endSz": {
+        "matches": "49\\/30\\/179\\/71G0|49\\/30\\/179\\/71G1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/device/search-dpu-device-by-endSZ-{{replace request.query.endSz '/' '_'}}.json"
+  }
+}

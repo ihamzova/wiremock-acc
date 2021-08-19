@@ -1,0 +1,54 @@
+{
+  "mappings": [
+    {
+      "name": "Get kc_idp_hint by a-cid for Wagner GmbH",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/idm/v1/aCids?aCid=47225"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "id": 47225,
+          "kcIdpHint": "supplier-wagnergmbh",
+          "brokerHint": "external"
+        }
+      }
+    },
+    {
+      "name": "Get kc_idp_hint by a-cid for LeonhardWeiss",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "url": "/idm/v1/aCids?aCid=47100"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "id": 47100,
+          "kcIdpHint": "supplier-weiss",
+          "brokerHint": "external"
+        }
+      }
+    },
+    {
+      "name": "Get kc_idp_hint by a-cid for invalid acid",
+      "priority": 11,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/idm/v1/aCids\\?aCid=([0-9]*)"
+      },
+      "response": {
+        "status": 404,
+        "body": "Entity not found"
+      }
+    }
+  ]
+}

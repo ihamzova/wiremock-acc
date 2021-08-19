@@ -4,7 +4,21 @@
       "name": "get all permissions by any request",
       "request": {
         "method": "GET",
-        "urlPattern": "/permission-service/v2/applications/bfo-engine/permissions"
+        "url": "/permission-service/v2/applications/bfo-engine/permissions"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "permission-service/GIGA_PROJECT_BULKPRadmin.json"
+      }
+    },
+    {
+      "name": "get all permissions by any request",
+      "request": {
+        "method": "GET",
+        "url": "/permission-service/v2/applications/tkit-portal/permissions"
       },
       "response": {
         "status": 200,

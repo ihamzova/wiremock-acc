@@ -1,190 +1,162 @@
 [
   {
-    "shortName": "SDX2221-16 TP-AC-M-FTTB ETSI",
-    "materialNumber": "40898329",
+    "id": "1128",
+    "href": "/resource-order-resource-inventory/v5/device/2700",
+    "accessTransmissionMedium": "TWISTED_PAIR",
+    "asb": 1,
+    "creationDate": "2021-03-18T11:43:31.771487+01:00",
+    "description": "SDX2221-16-TP",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40797654",
     "emsNbiName": "SDX2221-16-TP",
-    "tkz1": "11321782F1",
-    "tkz2": null,
-    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40898329",
-    "lastDiscovery": null,
-    "id": 1128,
-    "resourceId": "7340feca-2b90-4b54-b6d3-8fa7e88bb54a",
-    "deviceName": "16 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
     "endSz": "49/30/179/71G0",
-    "fachSz": "71G0",
-    "klsId": 123456,
-    "ipAddress": null,
-    "firmwareVersion": null,
-    "resourceState": null,
-    "communicationState": null,
-    "serialNumber": "020123dsd23",
-    "importState": null,
-    "type": "DPU",
-    "importDate": "2020-07-14T13:59:18+02:00",
-    "equipmentHolders": [],
-    "description": null,
-    "asb": null,
-    "technicalLocation": null,
-    "equipmentNumber": null,
+    "equipmentNumber": "212880056",
+    "fiberOnLocationId": "1000000005",
+    "fsz": "71G0",
+    "importDate": "2021-03-18T11:43:31.771487+01:00",
+    "ipAddress": "0.0.0.0",
+    "klsId": "123456",
     "manufacturer": "ADTRAN",
-    "distributionPointId": "2",
-    "lifeCycleState": "OPERATING",
-    "fiberOnLocationId": "1000000024",
-    "ports": [
+    "materialNumber": "40898329",
+    "modificationDate": "2021-06-23T12:37:42.115169+02:00",
+    "name": "16 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+    "resourceId": "c637b966-4907-40b1-99a4-212dce4e4745",
+    "shortName": "SDX2221-16 TP-AC-M-FTTB ETSI",
+    "technicalLocation": "000031-000179-001-004-002-021",
+    "vpsz": "49/30/179",
+    "containsCardsRefOrValue": [],
+    "containsPortsRefOrValue": [
       {
-        "id": 5071,
-        "resourceId": "b3154438-5b67-403a-8739-2be28bc2d605",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "1",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5070",
+        "href": "/resource-order-resource-inventory/v5/port/5070",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5072,
-        "resourceId": "08406c7e-6d96-4a72-9ff4-d6c92eb675fe",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "2",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5071",
+        "href": "/resource-order-resource-inventory/v5/port/5071",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5073,
-        "resourceId": "fa653207-4894-4ed4-aa81-8c6daf7a8e89",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "3",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5072",
+        "href": "/resource-order-resource-inventory/v5/port/5072",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5074,
-        "resourceId": "354acc68-50bd-4c51-97a5-3493d0c48dad",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "4",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5073",
+        "href": "/resource-order-resource-inventory/v5/port/5073",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5075,
-        "resourceId": "1d2070ba-0e46-4cf2-8838-87437fd86323",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "5",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5074",
+        "href": "/resource-order-resource-inventory/v5/port/5074",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5076,
-        "resourceId": "de6dc63a-3ba5-4370-af6d-6df08a2d8126",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "6",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5075",
+        "href": "/resource-order-resource-inventory/v5/port/5075",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5077,
-        "resourceId": "7426232a-de7e-42c3-bde3-a02607f1a680",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "7",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5076",
+        "href": "/resource-order-resource-inventory/v5/port/5076",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5078,
-        "resourceId": "8f09a4dc-9bb8-483d-93ef-441a0934febb",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "8",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5077",
+        "href": "/resource-order-resource-inventory/v5/port/5077",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5079,
-        "resourceId": "6cbb272d-de1e-4e6d-b34b-ddddc6a95ce3",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "9",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5078",
+        "href": "/resource-order-resource-inventory/v5/port/5078",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5080,
-        "resourceId": "7c4b3daa-f5a6-4cd4-a9d6-565dc7557348",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "10",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5079",
+        "href": "/resource-order-resource-inventory/v5/port/5079",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5081,
-        "resourceId": "d4e62e52-141b-4726-b981-4b889c388eff",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "11",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5080",
+        "href": "/resource-order-resource-inventory/v5/port/5080",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5082,
-        "resourceId": "036c76a7-6a86-4103-8542-c4f2bc096ec4",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "12",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5081",
+        "href": "/resource-order-resource-inventory/v5/port/5081",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5083,
-        "resourceId": "4b4bf254-27d3-4366-8734-c7d827adfdd2",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "13",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5082",
+        "href": "/resource-order-resource-inventory/v5/port/5082",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5070,
-        "resourceId": "5c2516dc-f869-4c46-b835-736c8682418d",
-        "lifeCycleState": "OPERATING",
-        "portType": "PON",
-        "portNumber": "1",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5083",
+        "href": "/resource-order-resource-inventory/v5/port/5083",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5084,
-        "resourceId": "cc3f3872-d453-46c4-9084-ba23566a3721",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "14",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5084",
+        "href": "/resource-order-resource-inventory/v5/port/5084",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5085,
-        "resourceId": "67ee4a93-13ab-4169-80c7-635b2065148f",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "15",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5085",
+        "href": "/resource-order-resource-inventory/v5/port/5085",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       },
       {
-        "id": 5086,
-        "resourceId": "a59519ca-2a77-42c1-a253-89445840afd3",
-        "lifeCycleState": "NOT_OPERATING",
-        "portType": "GFAST",
-        "portNumber": "16",
-        "opticalModule": null,
-        "compositePartyId": 10001
+        "id": "5086",
+        "href": "/resource-order-resource-inventory/v5/port/5086",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
       }
     ],
-    "compositePartyId": 10001
+    "deviceType": "DPU",
+    "lifeCycleState": "OPERATING",
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
   }
 ]

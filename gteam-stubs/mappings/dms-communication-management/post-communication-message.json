@@ -28,7 +28,7 @@
           },
           "url": "http://vvi-handler-app/communicationMessageCallback",
           "fixedDelayMilliseconds": 10000,
-          "bodyFileName": "gteam-stubs/dms-communication-management/dms-email-event.json"
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-email-event.json"
         }
       }
     },
@@ -39,6 +39,9 @@
         "bodyPatterns": [
           {
             "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300001)]"
           }
         ]
       },
@@ -49,7 +52,7 @@
         },
         "fixedDelayMilliseconds": 6000,
         "jsonBody": {
-          "id": "6f1be45e-0e11-4721-9fa9-3a6e924456cc"
+          "id": "5c526040-c430-4d36-83b2-280dcaed7995"
         }
       },
       "postServeActions": {
@@ -60,7 +63,427 @@
           },
           "url": "http://vvi-handler-app/communicationMessageCallback",
           "fixedDelayMilliseconds": 10000,
-          "bodyFileName": "gteam-stubs/dms-communication-management/dms-pdf-event.json"
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-1.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300002)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "5d6f181b-eddf-48d3-abdf-83313751740a"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-2.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300003)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "3105490e-06cd-4810-98ee-f6565f2225e2"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-3.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300005)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "8407f15c-cbf6-46ab-a890-4adb68dc82b5"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-5.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300006)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "b1dd6253-8340-4ccd-9905-2ea74102ed07"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-6.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300007)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "4df19108-81e9-4cb0-9364-87996417b7f9"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-7.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300008)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "a458351d-d3c5-4cd9-9d5e-5ee4e93bd7a4"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-8.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300009)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "5e763c97-fc3a-416a-a277-dddb3dae9151"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-9.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300010)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "07ccb923-149d-4495-a2f4-4ad5b6f0fe42"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-10.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300012)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "f8e6a588-5e82-47a9-860d-fd4b68a68756"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-12.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300013)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "dadfac23-44df-4c42-9049-1d8550122e90"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-13.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300014)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "91321d80-0ba4-4b9d-9fbe-617b05bf73bc"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-14.json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300016)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 6000,
+        "jsonBody": {
+          "id": "010d484d-5315-4ec7-88d0-e2af9ad3db0e"
+        }
+      },
+      "postServeActions": {
+        "webhook": {
+          "method": "POST",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "http://vvi-handler-app/communicationMessageCallback",
+          "fixedDelayMilliseconds": 10000,
+          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-16.json"
         }
       }
     }

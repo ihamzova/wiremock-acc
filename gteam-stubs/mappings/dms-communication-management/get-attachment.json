@@ -1,19 +1,238 @@
 {
-  "priority": 5,
-  "request": {
-    "method": "GET",
-    "urlPathPattern": "/communicationManagement/v3/attachment",
-    "queryParameters": {
-      "communicationMessageId": {
-        "matches": "^.{1,64}$"
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "5c526040-c430-4d36-83b2-280dcaed7995"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-1.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "5d6f181b-eddf-48d3-abdf-83313751740a"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-2.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "3105490e-06cd-4810-98ee-f6565f2225e2"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-3.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "8407f15c-cbf6-46ab-a890-4adb68dc82b5"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-5.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "b1dd6253-8340-4ccd-9905-2ea74102ed07"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-6.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "4df19108-81e9-4cb0-9364-87996417b7f9"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-7.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "a458351d-d3c5-4cd9-9d5e-5ee4e93bd7a4"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-8.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "5e763c97-fc3a-416a-a277-dddb3dae9151"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-9.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "07ccb923-149d-4495-a2f4-4ad5b6f0fe42"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-10.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "f8e6a588-5e82-47a9-860d-fd4b68a68756"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-12.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "dadfac23-44df-4c42-9049-1d8550122e90"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-13.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "91321d80-0ba4-4b9d-9fbe-617b05bf73bc"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-14.json"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "010d484d-5315-4ec7-88d0-e2af9ad3db0e"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-14.json"
       }
     }
-  },
-  "response": {
-    "status": 200,
-    "headers": {
-      "Content-Type": "application/json"
-    },
-    "bodyFileName": "gteam-stubs/dms-communication-management/vvi-attachment.json"
-  }
+  ]
 }

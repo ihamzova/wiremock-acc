@@ -1,426 +1,428 @@
-{
-  "id": "TB0019111758",
-  "name": "Test BP4",
-  "productSerialNumber": "T4234578",
-  "status": [
-    "terminated"
-  ],
-  "startDate": "2021-03-17",
-  "relatedParty": {
-    "id": "9999070120",
-    "role": "customer"
-  },
-  "plannedEndDate": "2022-03-16",
-  "cancelUntilDate": "2022-03-15",
-  "noticePeriodUnit": [
-    "day"
-  ],
-  "noticePeriodAmount": 1,
-  "place": [
-    {
-      "id": "25692564",
-      "role": [
-        "geographical address"
-      ]
-    }
-  ],
-  "productPrice": [
-    {
-      "name": "Bereitstellung Test BP3",
-      "priceType": [
-        "one time"
-      ],
-      "price": {
-        "taxRate": 19,
-        "dutyFreeAmount": {
-          "Money": {
-            "unit": "EUR",
-            "value": 0
-          }
-        },
-        "taxIncludedAmount": {
-          "Money": {
-            "unit": "EUR",
-            "value": 0
-          }
-        }
-      },
-      "productOfferingPrice": {
-        "id": "9900852888"
-      }
-    },
-    {
-      "name": "Überlassung Test BP4",
-      "priceType": [
-        "recurring"
-      ],
-      "recurringChargePeriod": [
-        "month"
-      ],
-      "price": {
-        "taxRate": 19,
-        "dutyFreeAmount": {
-          "Money": {
-            "unit": "EUR",
-            "value": 50.0000000
-          }
-        },
-        "taxIncludedAmount": {
-          "Money": {
-            "unit": "EUR",
-            "value": 59.5000000
-          }
-        }
-      },
-      "productOfferingPrice": {
-        "id": "9900852999"
-      }
-    }
-  ],
-  "billingAccount": [
-    {
-      "id": "1-4X2NA8L",
-      "name": "6782028338"
-    }
-  ],
-  "characteristic": [
-    {
-      "name": "GRUS",
-      "value": "004356254487"
-    },
-    {
-      "name": "productType",
-      "value": "Bundled Promotion"
-    },
-    {
-      "name": "productSubtype",
-      "value": "EG SP"
-    }
-  ],
-  "relatedParty": {
-    "id": "9999070120",
-    "role": "customer"
-  },
-  "self": {
+[
+  {
     "id": "TB0019111758",
-    "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
-  },
-  "productRelationship": [
-    {
-      "relationshipType": [
-        "BUNDLE"
-      ],
-      "product": {
-        "id": "TB0019111759",
-        "name": "Speedport Smart 3",
-        "productSerialNumber": "40769531",
-        "status": [
-          "active"
-        ],
-        "startDate": "2021-03-17",
-        "plannedEndDate": "2022-03-16",
-        "cancelUntilDate": "2022-03-10",
-        "noticePeriodUnit": [
-          "day"
-        ],
-        "noticePeriodAmount": 6,
-        "isBundle": false,
-        "place": [
-          {
-            "id": "25692564",
-            "role": [
-              "geographical address"
-            ]
-          }
-        ],
-        "billingAccount": [
-          {
-            "id": "1-4X2NA8L",
-            "name": "6782028338"
-          }
-        ],
-        "characteristic": [
-          {
-            "name": "productType",
-            "value": "Endeinrichtung"
-          },
-          {
-            "name": "productSubtype",
-            "value": "EG SP"
-          },
-          {
-            "name": "TNBA-ID",
-            "value": "00080000056364792",
-            "id": "0000000008"
-          },
-          {
-            "name": "Seriennummer",
-            "value": "800521984530002",
-            "id": "0000001235"
-          },
-          {
-            "name": "GRUS",
-            "value": "004356254488"
-          }
-        ],
-        "relatedParty": {
-          "id": "9999070120",
-          "role": "customer"
-        },
-        "self": {
-          "id": "TB0019111759",
-          "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
-        },
-        "productPrice": [
-          {
-            "name": "Speedport Smart 3 im Test-Paket",
-            "priceType": [
-              "recurring"
-            ],
-            "recurringChargePeriod": [
-              "month"
-            ],
-            "price": {
-              "taxRate": 19,
-              "dutyFreeAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              },
-              "taxIncludedAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              }
-            },
-            "productOfferingPrice": {
-              "id": "9901643930"
-            }
-          }
+    "name": "Test BP4",
+    "productSerialNumber": "T4234578",
+    "status": [
+      "terminated"
+    ],
+    "startDate": "2021-03-17",
+    "relatedParty": {
+      "id": "9999070120",
+      "role": "customer"
+    },
+    "plannedEndDate": "2022-03-16",
+    "cancelUntilDate": "2022-03-15",
+    "noticePeriodUnit": [
+      "day"
+    ],
+    "noticePeriodAmount": 1,
+    "place": [
+      {
+        "id": "25692564",
+        "role": [
+          "geographical address"
         ]
       }
-    },
-    {
-      "relationshipType": [
-        "replaces"
-      ],
-      "product": {
-        "id": "TB0019111760",
-        "name": "Test Magenta SmartHome Pro (mit Default zMP)",
-        "productSerialNumber": "T0096410",
-        "status": [
-          "terminated"
+    ],
+    "productPrice": [
+      {
+        "name": "Bereitstellung Test BP3",
+        "priceType": [
+          "one time"
         ],
-        "startDate": "2021-03-17",
-        "plannedEndDate": "2022-03-16",
-        "cancelUntilDate": "2022-02-16",
-        "noticePeriodUnit": [
+        "price": {
+          "taxRate": 19,
+          "dutyFreeAmount": {
+            "Money": {
+              "unit": "EUR",
+              "value": 0
+            }
+          },
+          "taxIncludedAmount": {
+            "Money": {
+              "unit": "EUR",
+              "value": 0
+            }
+          }
+        },
+        "productOfferingPrice": {
+          "id": "9900852888"
+        }
+      },
+      {
+        "name": "Überlassung Test BP4",
+        "priceType": [
+          "recurring"
+        ],
+        "recurringChargePeriod": [
           "month"
         ],
-        "noticePeriodAmount": 1,
-        "isBundle": false,
-        "place": [
-          {
-            "id": "25692564",
-            "role": [
-              "geographical address"
-            ]
-          }
-        ],
-        "billingAccount": [
-          {
-            "id": "1-4X2NA8L",
-            "name": "6782028338"
-          }
-        ],
-        "characteristic": [
-          {
-            "name": "productType",
-            "value": "Serviceprodukt"
-          },
-          {
-            "name": "productSubtype"
-          },
-          {
-            "name": "GRUS",
-            "value": "004356254489"
-          }
-        ],
-        "relatedParty": {
-          "id": "9999070120",
-          "role": "customer"
-        },
-        "self": {
-          "id": "TB0019111760",
-          "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
-        },
-        "productPrice": [
-          {
-            "name": "Test Magenta SmartHome Pro (mit Default zMP)",
-            "priceType": [
-              "one time"
-            ],
-            "price": {
-              "dutyFreeAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              },
-              "taxIncludedAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              },
-              "taxRate": 19
-            },
-            "productOfferingPrice": {
-              "id": "9901562854"
+        "price": {
+          "taxRate": 19,
+          "dutyFreeAmount": {
+            "Money": {
+              "unit": "EUR",
+              "value": 50.0000000
             }
           },
-          {
-            "name": "Test Magenta SmartHome Pro (mit Default zMP) monatliches Entgelt",
-            "priceType": [
-              "recurring"
-            ],
-            "recurringChargePeriod": [
-              "month"
-            ],
-            "price": {
-              "taxRate": 19,
-              "dutyFreeAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              },
-              "taxIncludedAmount": {
-                "Money": {
-                  "unit": "EUR",
-                  "value": 0
-                }
-              }
-            },
-            "productOfferingPrice": {
-              "id": "9900004881"
+          "taxIncludedAmount": {
+            "Money": {
+              "unit": "EUR",
+              "value": 59.5000000
             }
           }
+        },
+        "productOfferingPrice": {
+          "id": "9900852999"
+        }
+      }
+    ],
+    "billingAccount": [
+      {
+        "id": "1-4X2NA8L",
+        "name": "6782028338"
+      }
+    ],
+    "characteristic": [
+      {
+        "name": "GRUS",
+        "value": "004356254487"
+      },
+      {
+        "name": "productType",
+        "value": "Bundled Promotion"
+      },
+      {
+        "name": "productSubtype",
+        "value": "EG SP"
+      }
+    ],
+    "relatedParty": {
+      "id": "9999070120",
+      "role": "customer"
+    },
+    "self": {
+      "id": "TB0019111758",
+      "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+    },
+    "productRelationship": [
+      {
+        "relationshipType": [
+          "BUNDLE"
         ],
-        "productRelationship": [
-          {
-            "relationshipType": [
-              "replaces"
-            ],
-            "product": {
-              "id": "TB0019111761",
-              "name": "Magenta SmartHome Option CloudSpeicher",
-              "productSerialNumber": "50063238",
-              "status": [
-                "active"
-              ],
-              "startDate": "2021-03-17",
-              "plannedEndDate": "2021-06-16",
-              "cancelUntilDate": "2021-05-16",
-              "noticePeriodUnit": [
-                "month"
-              ],
-              "noticePeriodAmount": 1,
-              "isBundle": false,
-              "place": [
-                {
-                  "id": "25692564",
-                  "role": [
-                    "geographical address"
-                  ]
-                }
-              ],
-              "billingAccount": [
-                {
-                  "id": "1-4X2NA8L",
-                  "name": "6782028338"
-                }
-              ],
-              "characteristic": [
-                {
-                  "name": "productType",
-                  "value": "ISP-Zusatzprodukt"
-                },
-                {
-                  "name": "productSubtype"
-                },
-                {
-                  "name": "GRUS",
-                  "value": "004356254489"
-                }
-              ],
-              "relatedParty": {
-                "id": "9999070120",
-                "role": "customer"
-              },
-              "self": {
-                "id": "TB0019111761",
-                "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
-              },
-              "productPrice": [
-                {
-                  "name": "Magenta SmartHome Option CloudSpeicher",
-                  "priceType": [
-                    "one time"
-                  ],
-                  "price": {
-                    "dutyFreeAmount": {
-                      "Money": {
-                        "unit": "EUR",
-                        "value": 0
-                      }
-                    },
-                    "taxIncludedAmount": {
-                      "Money": {
-                        "unit": "EUR",
-                        "value": 0
-                      }
-                    },
-                    "taxRate": 19
-                  },
-                  "productOfferingPrice": {
-                    "id": "1001541419"
-                  }
-                },
-                {
-                  "name": "Magenta SmartHome Option CloudSpeicher monatliches Entgelt",
-                  "priceType": [
-                    "recurring"
-                  ],
-                  "recurringChargePeriod": [
-                    "month"
-                  ],
-                  "price": {
-                    "taxRate": 19,
-                    "dutyFreeAmount": {
-                      "Money": {
-                        "unit": "EUR",
-                        "value": 1.6300000
-                      }
-                    },
-                    "taxIncludedAmount": {
-                      "Money": {
-                        "unit": "EUR",
-                        "value": 1.9400000
-                      }
-                    }
-                  },
-                  "productOfferingPrice": {
-                    "id": "1001541420"
-                  }
-                }
+        "product": {
+          "id": "TB0019111759",
+          "name": "Speedport Smart 3",
+          "productSerialNumber": "40769531",
+          "status": [
+            "active"
+          ],
+          "startDate": "2021-03-17",
+          "plannedEndDate": "2022-03-16",
+          "cancelUntilDate": "2022-03-10",
+          "noticePeriodUnit": [
+            "day"
+          ],
+          "noticePeriodAmount": 6,
+          "isBundle": false,
+          "place": [
+            {
+              "id": "25692564",
+              "role": [
+                "geographical address"
               ]
             }
-          }
-        ]
+          ],
+          "billingAccount": [
+            {
+              "id": "1-4X2NA8L",
+              "name": "6782028338"
+            }
+          ],
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "Endeinrichtung"
+            },
+            {
+              "name": "productSubtype",
+              "value": "EG SP"
+            },
+            {
+              "name": "TNBA-ID",
+              "value": "00080000056364792",
+              "id": "0000000008"
+            },
+            {
+              "name": "Seriennummer",
+              "value": "800521984530002",
+              "id": "0000001235"
+            },
+            {
+              "name": "GRUS",
+              "value": "004356254488"
+            }
+          ],
+          "relatedParty": {
+            "id": "9999070120",
+            "role": "customer"
+          },
+          "self": {
+            "id": "TB0019111759",
+            "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+          },
+          "productPrice": [
+            {
+              "name": "Speedport Smart 3 im Test-Paket",
+              "priceType": [
+                "recurring"
+              ],
+              "recurringChargePeriod": [
+                "month"
+              ],
+              "price": {
+                "taxRate": 19,
+                "dutyFreeAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                },
+                "taxIncludedAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                }
+              },
+              "productOfferingPrice": {
+                "id": "9901643930"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "relationshipType": [
+          "replaces"
+        ],
+        "product": {
+          "id": "TB0019111760",
+          "name": "Test Magenta SmartHome Pro (mit Default zMP)",
+          "productSerialNumber": "T0096410",
+          "status": [
+            "terminated"
+          ],
+          "startDate": "2021-03-17",
+          "plannedEndDate": "2022-03-16",
+          "cancelUntilDate": "2022-02-16",
+          "noticePeriodUnit": [
+            "month"
+          ],
+          "noticePeriodAmount": 1,
+          "isBundle": false,
+          "place": [
+            {
+              "id": "25692564",
+              "role": [
+                "geographical address"
+              ]
+            }
+          ],
+          "billingAccount": [
+            {
+              "id": "1-4X2NA8L",
+              "name": "6782028338"
+            }
+          ],
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "Serviceprodukt"
+            },
+            {
+              "name": "productSubtype"
+            },
+            {
+              "name": "GRUS",
+              "value": "004356254489"
+            }
+          ],
+          "relatedParty": {
+            "id": "9999070120",
+            "role": "customer"
+          },
+          "self": {
+            "id": "TB0019111760",
+            "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+          },
+          "productPrice": [
+            {
+              "name": "Test Magenta SmartHome Pro (mit Default zMP)",
+              "priceType": [
+                "one time"
+              ],
+              "price": {
+                "dutyFreeAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                },
+                "taxIncludedAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                },
+                "taxRate": 19
+              },
+              "productOfferingPrice": {
+                "id": "9901562854"
+              }
+            },
+            {
+              "name": "Test Magenta SmartHome Pro (mit Default zMP) monatliches Entgelt",
+              "priceType": [
+                "recurring"
+              ],
+              "recurringChargePeriod": [
+                "month"
+              ],
+              "price": {
+                "taxRate": 19,
+                "dutyFreeAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                },
+                "taxIncludedAmount": {
+                  "Money": {
+                    "unit": "EUR",
+                    "value": 0
+                  }
+                }
+              },
+              "productOfferingPrice": {
+                "id": "9900004881"
+              }
+            }
+          ],
+          "productRelationship": [
+            {
+              "relationshipType": [
+                "replaces"
+              ],
+              "product": {
+                "id": "TB0019111761",
+                "name": "Magenta SmartHome Option CloudSpeicher",
+                "productSerialNumber": "50063238",
+                "status": [
+                  "active"
+                ],
+                "startDate": "2021-03-17",
+                "plannedEndDate": "2021-06-16",
+                "cancelUntilDate": "2021-05-16",
+                "noticePeriodUnit": [
+                  "month"
+                ],
+                "noticePeriodAmount": 1,
+                "isBundle": false,
+                "place": [
+                  {
+                    "id": "25692564",
+                    "role": [
+                      "geographical address"
+                    ]
+                  }
+                ],
+                "billingAccount": [
+                  {
+                    "id": "1-4X2NA8L",
+                    "name": "6782028338"
+                  }
+                ],
+                "characteristic": [
+                  {
+                    "name": "productType",
+                    "value": "ISP-Zusatzprodukt"
+                  },
+                  {
+                    "name": "productSubtype"
+                  },
+                  {
+                    "name": "GRUS",
+                    "value": "004356254489"
+                  }
+                ],
+                "relatedParty": {
+                  "id": "9999070120",
+                  "role": "customer"
+                },
+                "self": {
+                  "id": "TB0019111761",
+                  "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+                },
+                "productPrice": [
+                  {
+                    "name": "Magenta SmartHome Option CloudSpeicher",
+                    "priceType": [
+                      "one time"
+                    ],
+                    "price": {
+                      "dutyFreeAmount": {
+                        "Money": {
+                          "unit": "EUR",
+                          "value": 0
+                        }
+                      },
+                      "taxIncludedAmount": {
+                        "Money": {
+                          "unit": "EUR",
+                          "value": 0
+                        }
+                      },
+                      "taxRate": 19
+                    },
+                    "productOfferingPrice": {
+                      "id": "1001541419"
+                    }
+                  },
+                  {
+                    "name": "Magenta SmartHome Option CloudSpeicher monatliches Entgelt",
+                    "priceType": [
+                      "recurring"
+                    ],
+                    "recurringChargePeriod": [
+                      "month"
+                    ],
+                    "price": {
+                      "taxRate": 19,
+                      "dutyFreeAmount": {
+                        "Money": {
+                          "unit": "EUR",
+                          "value": 1.6300000
+                        }
+                      },
+                      "taxIncludedAmount": {
+                        "Money": {
+                          "unit": "EUR",
+                          "value": 1.9400000
+                        }
+                      }
+                    },
+                    "productOfferingPrice": {
+                      "id": "1001541420"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
+]

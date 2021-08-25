@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/((upstream-partner/)?)tardis/documentManagement/v2/document/((\\w|-)+)"
+  },
+  "response": {
+    "status": 201
+  }
+}

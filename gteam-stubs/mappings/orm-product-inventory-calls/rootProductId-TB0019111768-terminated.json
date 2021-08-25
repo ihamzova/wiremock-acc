@@ -1,9 +1,12 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "GET",
     "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
     "queryParameters": {
+      "rootProductId": {
+        "matches": "TB0019111768"
+      },
       "productStatus": {
         "matches": "Terminated"
       }

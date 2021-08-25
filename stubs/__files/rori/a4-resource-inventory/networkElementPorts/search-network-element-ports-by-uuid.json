@@ -1,0 +1,16 @@
+{
+  "operationalState": "INSTALLING",
+  "administrativeState": "WORKING",
+  "logicalLabel": "998",
+  "accessNetworkOperator": "AccessNetworkOperator",
+  "type": "string",
+  "portNumber": "1",
+  "uuid": "{{request.path.[3]}}",
+  "creationTime": "2021-08-25T12:58:39.745Z",
+  "lastUpdateTime": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+  "specificationVersion": "13.4",
+  "description": "NetworkElementPort_Create",
+  "networkElementUuid": "7ef51473-da49-4767-a3de-f7fa70907982",
+  "networkElementEndsz": "49/30/179/7KH3",
+  "href": "/networkElements/3e2fece2-5b18-440c-89ef-4441d0320cea"
+}

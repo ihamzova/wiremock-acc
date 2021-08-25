@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess",
+    "queryParameters": {
+      "ontSerialNumber": {
+        "matches": "1285749632548574"
+      }
+    }
+  },
+  "priority": 2,
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "code": "4040",
+      "reason": "404",
+      "message": "NSP not found"
+    }
+  }
+}

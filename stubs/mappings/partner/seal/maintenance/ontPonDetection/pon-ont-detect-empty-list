@@ -1,0 +1,41 @@
+{
+  "id": "fc4a8ac0-1383-44f0-a874-abf62aa45be9",
+  "request": {
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ontPonDetection/?",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "endSz": "49_911_1100_76H8"
+        },
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "fc4a8ac0-1383-44f0-a874-abf62aa45be9",
+  "priority": 2,
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "events": [],
+        "status": 200,
+        "statustype": "SUCCESS",
+        "message": "detect successfully"
+      }
+    }
+  }
+}

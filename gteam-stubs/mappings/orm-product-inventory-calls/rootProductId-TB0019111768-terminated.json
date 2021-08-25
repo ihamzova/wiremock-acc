@@ -4,12 +4,6 @@
     "method": "GET",
     "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
     "queryParameters": {
-      "rootProductId": {
-        "matches": "TB0019111768"
-      },
-      "accountId": {
-        "matches": "^\\d{10}$"
-      },
       "productStatus": {
         "matches": "Terminated"
       }

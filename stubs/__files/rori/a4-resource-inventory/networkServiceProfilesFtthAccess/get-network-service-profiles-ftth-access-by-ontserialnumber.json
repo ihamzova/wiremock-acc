@@ -1,4 +1,5 @@
-{
+[
+  {
   "administrativeMode": "string",
   "creationTime": "2020-07-14T13:59:18+02:00",
   "description": "string",
@@ -6,12 +7,12 @@
   "lastUpdateTime": "2020-07-14T13:59:18+02:00",
   "lifecycleState": "INSTALLING",
   "lineId": "DEU.DTAG.3J7D000000",
-  "ontSerialNumber": "1234567812345678",
+  "ontSerialNumber": "{{request.query.ontSerialNumber}}",
   "operationalState": "WORKING",
-  "productionScheme": "string",
   "specificationVersion": "string",
   "terminationPointFtthAccessUuid": "b3fe6f00-be52-4093-9f20-d94ddf31e0b1",
   "uuid": "58a276a1-e339-4631-b330-7f97413d1d0d",
   "virtualServiceProvider": "string",
   "oltPortOntLastRegisteredOn": "21ed7bb6-9cfb-4326-b26a-d53dd380bd2c"
-}
+  }
+]

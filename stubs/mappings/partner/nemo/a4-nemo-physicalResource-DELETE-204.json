@@ -1,0 +1,17 @@
+{
+  "scenarioName": "Default global NEMO physicalResource wiremock for DELETE/204",
+  "priority": 10,
+  "request": {
+    "urlPattern": "/api/v1/planning/physicalResource/.*",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId" : "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId" : "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+    }
+  }
+}

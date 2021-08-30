@@ -1,0 +1,19 @@
+{
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess",
+    "method": "GET",
+    "queryParameters": {
+      "ontSerialNumber": {
+        "matches": "1285749632548574"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "priority": 2
+}

@@ -1,6 +1,6 @@
 {
   "request": {
-    "method": "GET",
+    "method": "PUT",
     "urlPattern": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess/.*"
   },
   "response": {
@@ -8,6 +8,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/a4-resource-inventory/networkServiceProfilesFtthAccess/get-network-service-profiles-ftth-access.json"
+    "bodyFileName": "rori/a4-resource-inventory/networkServiceProfilesFtthAccess/put-network-service-profiles-ftth-access.json"
   }
 }

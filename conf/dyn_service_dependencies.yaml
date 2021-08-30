@@ -1,0 +1,7 @@
+# Here the services are listed which will be additionally deployed to the dyn/DIGIHUB-*
+# environment when a dyn/DIGIHUB-* branch is created
+
+services: [
+  { name: external-services, version: v1.19.629,  domain: infra, team: systeam },
+  { name: swissknife, version: v1.2.812,  domain: infra, team: systeam }
+]

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/a4NetworkElementPorts",
+    "method": "GET",
+    "queryParameters": {
+      "networkElementUuid": {
+        "matches": "[A-Za-z0-9-]{1,}"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/a4-resource-inventory/networkElementPorts/search-network-element-ports.json"
+  }
+}

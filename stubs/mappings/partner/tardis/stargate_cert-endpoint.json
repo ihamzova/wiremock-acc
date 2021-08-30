@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "get_stargate_cert_endpoint_response",
+      "request": {
+        "urlPathPattern": "/((tardis/)?)auth/realms/(.*)/protocol/openid-connect/certs",
+        "method": "GET"
+        },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "partner/tardis/stargate_cert-endpoint_playground.json"
+      }
+    }
+  ]
+}

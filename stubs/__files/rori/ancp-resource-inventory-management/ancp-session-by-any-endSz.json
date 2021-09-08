@@ -1,0 +1,35 @@
+{
+  "accessNodeEquipmentBusinessRef": {
+    "deviceType": "OLT",
+    "endSz": "49/30/2000/76G2",
+    "portName": "0",
+    "portType": "ETHERNET",
+    "slotName": "19"
+  },
+  "ancpIpSubnetRef": {
+    "id": "5277"
+  },
+  "bngDownlinkPortEquipmentBusinessRef": {
+    "deviceType": "BNG",
+    "endSz": "49/30/179/43G1",
+    "portName": "ge-1/1/12",
+    "portType": "ETHERNET",
+    "slotName": "12"
+  },
+  "configurationStatus": "ACTIVE",
+  "ipAddressAccessNode": "100.150.240.101",
+  "ipAddressBng": "100.150.240.102",
+  "oltUplinkPortEquipmentBusinessRef": {
+    "deviceType": "OLT",
+    "endSz": "49/30/2000/76G2",
+    "portName": "0",
+    "portType": "ETHERNET",
+    "slotName": "19"
+  },
+  "partitionId": 2,
+  "rmkEndpointId": "1341434324",
+  "sealConfigurationId": "0-19-0-2-16",
+  "sessionId": 2,
+  "sessionType": "OLT",
+  "vlan": 16
+}

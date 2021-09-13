@@ -12,7 +12,7 @@
         "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'aendernKunde']"
       },
       {
-        "matchesXPath": "//ns6:Kundennummer[.=1234000001]",
+        "matchesXPath": "//ns6:Kundennummer[.=1234000007]",
         "xPathNamespaces": {
           "ns6": "http://bom.telekom.de/cc"
         }
@@ -21,7 +21,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "gteam-stubs/CRM-T/AendernKunde/aendernkunde-response-sample_error.xml"
+    "bodyFileName": "gteam-stubs/CRM-T/AendernKunde/aendernkunde-response-code08-svc2038.xml"
   }
 }
 

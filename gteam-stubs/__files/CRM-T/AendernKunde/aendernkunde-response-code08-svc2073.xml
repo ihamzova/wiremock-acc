@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Description: sample response csdg variant of service 'AendernKunde'
+
+	32.0 15.11.2018	Klaus Ueberhofen	CRMT-38067 VVM-Kenner added, csdg variant added
+-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aen="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/AendernKunde_v01.00" xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/AendernKunde_v01.00/types" xmlns:csdg="http://schemas.telekom.net/csdg_v01.01" xmlns:svc="http://bom.telekom.de/svc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <aen:aendernKundeResponse xsi:schemaLocation="http://services.tdeu.telekom.net/CustRelMgmt/CustomInMa/AendernKunde_v01.00 ValidationHelper_AendernKunde_v01.00.xsd">
+            <typ:context>
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.de.CRM_T:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.OpDinG:Default:AendernKunde_v01.00</csdg:routingInfo>
+                    <csdg:messageId>responseMsgId123Abc123</csdg:messageId>
+                    <!--Optional:-->
+                    <csdg:relatesToMessageId>requestMsgId123</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2018-11-15T14:07:58.000Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+                    <csdg:replyState>PHhtbG5zIG5hbWU+aGk8L25hbWU+</csdg:replyState>
+                    <!--Zero or more repetitions:-->
+                    <csdg:property name="crmt.SystemID">CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>individualIdOfProcessUmzug97C39</csdg:processId>
+                    <csdg:processTypeId>Umzug</csdg:processTypeId>
+                </csdg:businessContext>
+            </typ:context>
+            <typ:data>
+                <svc:aendernKundeReply>
+                    <!--type: ReturnCodeType - enumeration: [00,04,08,12]-->
+                    <svc:ReturnCode>08</svc:ReturnCode>
+                    <!--Zero or more repetitions:-->
+                    <svc:Meldung>
+                        <!--Optional:-->
+                        <svc:MeldNr>SVC2073</svc:MeldNr>
+                        <!--Optional:-->
+                        <svc:MeldText>Die Archivierung des Kunden kann nicht gestartet werden, da der Kunde nicht „inaktiv“ ist.</svc:MeldText>
+                    </svc:Meldung>
+                </svc:aendernKundeReply>
+            </typ:data>
+        </aen:aendernKundeResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/crmt/aendernKunde",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'aendernKunde']"
+      },
+      {
+        "matchesXPath": "//ns6:Kundennummer[.=1234000020]",
+        "xPathNamespaces": {
+          "ns6": "http://bom.telekom.de/cc"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "gteam-stubs/CRM-T/AendernKunde/aendernkunde-response-sample_success.xml"
+  }
+}
+
+

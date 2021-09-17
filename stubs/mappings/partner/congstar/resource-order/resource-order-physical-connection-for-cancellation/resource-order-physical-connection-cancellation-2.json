@@ -1,5 +1,5 @@
 {
-  "id": "ca5105a4-0bb7-4c0c-9b54-beea4ca08c31",
+  "id": "cb293eeb-39c7-4c3e-8520-26ed6fbf7878",
   "priority": 1,
   "request": {
     "method": "POST",
@@ -11,7 +11,7 @@
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fffc42fff"
+        "contains": "fffc38fff"
       }
     }
   },
@@ -41,13 +41,13 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 20000,
+          "fixedDelayMilliseconds": 15000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-state-change-notification-rejected.json"
+          "bodyFileName": "partner/congstar/resource-order/physicalConnection/resource-order-state-change-notification-acknowledged.json"
         }
       ]
     }

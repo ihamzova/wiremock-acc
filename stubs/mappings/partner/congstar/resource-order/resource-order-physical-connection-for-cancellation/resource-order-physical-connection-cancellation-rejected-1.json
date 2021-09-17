@@ -1,5 +1,5 @@
 {
-  "id": "97851a4a-2c0f-43f8-bfab-23e987efadd8",
+  "id": "ca5105a4-0bb7-4c0c-9b54-beea4ca08c31",
   "priority": 1,
   "request": {
     "method": "POST",
@@ -11,7 +11,7 @@
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fffc40fff"
+        "contains": "fffc42fff"
       }
     }
   },
@@ -41,23 +41,13 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 15000,
-          "headers": {
-            "Authorization": "Bearer {{oauth}}",
-            "Content-Type": "application/json"
-          },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-state-change-notification-acknowledged.json"
-        },
-        {
-          "method": "POST",
           "fixedDelayMilliseconds": 20000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-state-change-notification-failed.json"
+          "bodyFileName": "partner/congstar/resource-order/physicalConnection/resource-order-state-change-notification-rejected.json"
         }
       ]
     }

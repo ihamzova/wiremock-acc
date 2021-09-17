@@ -1,6 +1,5 @@
 {
-  "id": "3aca21a0-de91-4174-a082-ad24b7122573",
-  "priority": 1,
+  "id": "0c3ea00a-0427-44c2-8c18-0ed5c5fd53c7",
   "request": {
     "method": "POST",
     "url": "/Wholebuy/v2/resourceOrder/",
@@ -9,11 +8,7 @@
         "matchesJsonPath": "$.[?(@.externalTag=='bsaPhysicalConnection')]"
       }
     ],
-    "headers": {
-      "X-B3-TraceId": {
-        "contains": "fffc41fff"
-      }
-    }
+    "headers": {}
   },
   "response": {
     "status": 202,
@@ -47,7 +42,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-state-change-notification-acknowledged.json"
+          "bodyFileName": "partner/congstar/resource-order/physicalConnection/resource-order-state-change-notification-acknowledged.json"
         },
         {
           "method": "POST",
@@ -57,7 +52,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-attribute-value-change-notification-update.json"
+          "bodyFileName": "partner/congstar/resource-order/physicalConnection/resource-order-attribute-value-change-notification-update.json"
         },
         {
           "method": "POST",
@@ -67,7 +62,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/activation2step/resource-order-state-change-notification-failed.json"
+          "bodyFileName": "partner/congstar/resource-order/physicalConnection/resource-order-state-change-notification-completed.json"
         }
       ]
     }

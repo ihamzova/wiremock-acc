@@ -1,0 +1,95 @@
+{
+  "shortName": "GPBH",
+  "materialNumber": "40294954",
+  "emsNbiName": "H807GPBH",
+  "tkz1": "03022MLN",
+  "tkz2": null,
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+  "lastDiscovery": "2020-08-30T04:23:28.699+02:00",
+  "id": 7812,
+  "resourceId": "792fa437-77dc-49e7-91a8-eb578d17f181",
+  "name": "8-port GPON OLT Interface Board V3",
+  "description": null,
+  "serialNumber": "022MLNCNF2000512",
+  "serviceState": null,
+  "resourceState": "INSTALLING_INSTALLED",
+  "firmwareVersion": "507(2015-8-27)",
+  "cardType": "GPON",
+  "equipmentNumber": "212880063",
+  "manufacturer": "HUAWEI",
+  "ports": [
+    {
+      "id": 35201,
+      "resourceId": "8792bed2-c325-42cd-bb29-c3f4f79d72df",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "0",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35202,
+      "resourceId": "2e302983-4293-4010-87ea-2415d6245dcf",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "1",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35203,
+      "resourceId": "782e4849-b688-4899-abf6-fdc61333feec",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "2",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35204,
+      "resourceId": "1edeba5d-1340-4b5c-b6db-07a3f89c4983",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "3",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35205,
+      "resourceId": "0dcdf813-3a9f-4e18-9ae3-82ddeb64adc3",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "4",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35206,
+      "resourceId": "b3ad1dc2-7ad3-4249-ad76-6bbd857e0675",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "5",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35207,
+      "resourceId": "ed69b3c2-8890-40a2-86bf-3a91a108578c",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "6",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    },
+    {
+      "id": 35208,
+      "resourceId": "b023da81-fadb-43ba-b3d4-39be76255219",
+      "lifeCycleState": "NOT_OPERATING",
+      "portType": "PON",
+      "portNumber": "7",
+      "opticalModule": null,
+      "compositePartyId": 10257
+    }
+  ],
+  "compositePartyId": 10257
+}

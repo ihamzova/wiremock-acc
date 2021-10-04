@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/dpuDemand",
+    "queryParameters": {
+      "fiberOnLocationId": {
+        "matches": "(\\d*)"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/dpu-planning/v1/dpuDemand/fiberOnLocationId-{{request.query.fiberOnLocationId}}.json"
+  }
+}

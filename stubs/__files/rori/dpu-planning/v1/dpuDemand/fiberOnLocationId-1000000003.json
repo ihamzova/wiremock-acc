@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1098",
+    "href": "https://apigw-morpheus-03.pub.cl02.gigadev.telekom.de//resource-order-resource-inventory/v1/dpuDemand/1098",
+    "creationDate": "2021-10-04T11:49:23.444+02:00",
+    "modificationDate": null,
+    "dpuAccessTechnology": "FTTB_CUDA",
+    "dpuEndSz": null,
+    "dpuInstallationInstruction": null,
+    "dpuLocation": "Hinter dem Doenerladen",
+    "fiberOnLocationId": "1000000003",
+    "klsId": "1029",
+    "numberOfNeededDpuPorts": 16,
+    "state": "OPEN",
+    "workorderId": null,
+    "@baseType": null,
+    "@schemaLocation": null,
+    "@type": null
+  },
+  {
+    "id": "1100",
+    "href": "https://apigw-morpheus-03.pub.cl02.gigadev.telekom.de//resource-order-resource-inventory/v1/dpuDemand/1099",
+    "creationDate": "2021-10-04T11:51:57.169+02:00",
+    "modificationDate": null,
+    "dpuAccessTechnology": "FTTB_COAX",
+    "dpuEndSz": null,
+    "dpuInstallationInstruction": "30cm neben APL",
+    "dpuLocation": "Technikraum Keller links",
+    "fiberOnLocationId": "1000000004",
+    "klsId": "1029",
+    "numberOfNeededDpuPorts": 8,
+    "state": "FULFILLED",
+    "workorderId": null,
+    "@baseType": null,
+    "@schemaLocation": null,
+    "@type": null
+  }
+]

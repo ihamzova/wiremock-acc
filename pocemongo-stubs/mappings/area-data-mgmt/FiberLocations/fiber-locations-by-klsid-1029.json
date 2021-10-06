@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/giga-areas-location/v2/fibreOnLocations/search",
+    "queryParameters": {
+      "klsId": {
+        "matches": "1029"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "area-data-mgmt/FiberLocations/fiber-locations-by-klsid-1029-payload.json"
+  }
+}

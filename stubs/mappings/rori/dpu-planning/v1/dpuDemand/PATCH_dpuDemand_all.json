@@ -1,0 +1,31 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/dpuDemand/(.*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "{{request.path.[3]}}",
+      "href": "{{request.requestLine.baseUrl}}//resource-order-resource-inventory/v1/dpuDemand/{{request.path.[3]}}",
+      "creationDate": "2021-09-17T14:43:16.292+02:00",
+      "modificationDate": "2021-10-05T14:19:17.396+02:00",
+      "dpuAccessTechnology": "FTTB_CUDA",
+      "dpuEndSz": null,
+      "dpuInstallationInstruction": "INSTALL INSTRUCTION",
+      "dpuLocation": "LOCATION",
+      "fiberOnLocationId": "1000000015963",
+      "klsId": "12377783",
+      "numberOfNeededDpuPorts": 1,
+      "state": "OPEN",
+      "workorderId": "10225",
+      "@baseType": null,
+      "@schemaLocation": null,
+      "@type": null
+    }
+  }
+}

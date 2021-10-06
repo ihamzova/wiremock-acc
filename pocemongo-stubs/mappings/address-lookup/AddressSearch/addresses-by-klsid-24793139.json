@@ -1,0 +1,28 @@
+{
+  "mappings": [
+    {
+      "name": "Get aaddresses by klsid",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "klsIds":["24793139"]
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/addresses-by-klsid-24793139.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/LOCALITY\\?(localityName=.*)?(zipCode=.*)?"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "klsId": null,
+        "zipCode": "34277",
+        "municipalityName": "Fuldabrück",
+        "distributionAreaName": "Fuldabrück",
+        "streetName": null,
+        "streetNameShort": null,
+        "houseNumber": null,
+        "houseNumberSupplement": null,
+        "houseQualifier": null
+      }
+    ]
+  }
+}

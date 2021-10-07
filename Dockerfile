@@ -33,6 +33,8 @@ COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
 COPY gteam-stubs/__files/ /$WM_PACKAGE/__files/gteam-stubs
 COPY gteam-stubs/mappings/ /$WM_PACKAGE/mappings/gteam-stubs
 
+COPY pocemongo-stubs /$WM_PACKAGE/pocemongo-stubs
+
 COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
 COPY schulung-stubs /$WM_PACKAGE/schulung-stubs

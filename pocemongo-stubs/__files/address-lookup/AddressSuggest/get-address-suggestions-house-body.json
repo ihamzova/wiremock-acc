@@ -7,7 +7,7 @@
     "streetName": "Ahornweg",
     "streetNameShort": "Ahornweg",
     "houseNumber": {{request.query.houseQualifier}},
-    "houseNumberSupplement": "",
+    "houseNumberSupplement": "A",
     "houseQualifier": "{{request.query.houseQualifier}}"
   }
 ]

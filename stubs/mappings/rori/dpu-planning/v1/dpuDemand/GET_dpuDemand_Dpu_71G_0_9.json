@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/dpuDemand",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "^[0-9]{1,6}\/[0-9]{1,6}\/[0-9]{1,6}\/71G[0-9]{1}$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": []
+  }
+}

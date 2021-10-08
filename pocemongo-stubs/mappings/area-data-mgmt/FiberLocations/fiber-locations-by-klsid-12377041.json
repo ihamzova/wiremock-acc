@@ -4,8 +4,8 @@
     "method": "GET",
     "urlPath": "/giga-areas-location/v2/fibreOnLocations/search",
     "queryParameters": {
-      "klsId": {
-        "matches": "12377041"
+      "klsIds": {
+        "matches": ["12377041"]
       }
     }
   },

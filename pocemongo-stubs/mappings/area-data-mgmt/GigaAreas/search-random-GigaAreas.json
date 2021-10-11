@@ -1,0 +1,27 @@
+{
+  "mappings": [
+    {
+      "name": "Search GigaAreaName and get no results",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v2/gigaAreas/search",
+        "queryParameters": {
+          "pageSize": {
+            "matches": "15"
+          },
+          "page": {
+            "matches": "[0-9]+"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/GigaAreas/search-GigaArea-Single-Bonn_009.json"
+      }
+    }
+  ]
+}

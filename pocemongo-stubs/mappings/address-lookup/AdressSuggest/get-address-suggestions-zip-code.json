@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/ZIPCODE\\?(localityName=.*)?(zipCode=.*)?"
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSuggest/extended/addressSuggestions/ZIPCODE\\?(localityName=.*)?(zipCode=.*)?"
   },
   "response": {
     "status": 200,

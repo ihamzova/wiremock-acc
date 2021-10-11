@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSuggest/addressSuggestions/STREET",
+    "urlPathPattern": "/giga-areas-location/v1/lookup/addressSuggest/extended/addressSuggestions/STREET",
     "queryParameters" : {
       "zipCode" : {
         "matches" : ".*"

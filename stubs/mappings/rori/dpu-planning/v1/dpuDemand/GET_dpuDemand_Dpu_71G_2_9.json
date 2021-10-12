@@ -5,7 +5,7 @@
     "urlPath": "/resource-order-resource-inventory/v1/dpuDemand",
     "queryParameters": {
       "dpuEndSz": {
-        "matches": "^[0-9]{1,6}\/[0-9]{1,6}\/[0-9]{1,6}\/71G[0-9]{1}$"
+        "matches": "^[0-9]{1,6}\/[0-9]{1,6}\/[0-9]{1,6}\/71G[2-9]{1}$"
       }
     }
   },

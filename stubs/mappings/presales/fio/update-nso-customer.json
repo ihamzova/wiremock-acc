@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "PATCH",
-    "url": "/giga-installation-order/v1/notConnectedServiceOrder/((\\w|-)+)"
+    "urlPathPattern": "/giga-installation-order/v1/notConnectedServiceOrder/((\\w|-)+)"
   },
   "response": {
     "status": 200

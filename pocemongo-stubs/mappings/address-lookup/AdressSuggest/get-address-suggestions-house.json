@@ -23,6 +23,122 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "presales/address-lookup/get-address-suggestions-house-body.json"
+    "jsonBody": [
+      {
+        "klsId": null,
+      "zipCode": "34277",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Ahornweg",
+      "streetNameShort": "Ahornweg",
+      "houseNumber": 1,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },
+      {
+        "klsId": null,
+      "zipCode": "34278",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Spohstrasse",
+      "streetNameShort": "Spohstrasse",
+      "houseNumber":2,
+      "houseNumberSupplement": "A",
+      "houseQualifier": "{{request.query.houseQualifier}}"
+      },
+      {
+        "klsId": null,
+      "zipCode": "34279",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Hauptstrasse",
+      "streetNameShort": "Hauptstrasse",
+      "houseNumber": 3,
+      "houseNumberSupplement": "A",
+      "houseQualifier":null
+      },{
+        "klsId": null,
+      "zipCode": "34276",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Parkstrasse",
+      "streetNameShort": "Parkstrasse",
+      "houseNumber": 4,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },{
+        "klsId":null,
+      "zipCode": "34275",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Feldstrasse",
+      "streetNameShort": "Feldstrasse",
+      "houseNumber": 5,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },
+      {
+        "klsId": null,
+      "zipCode": "34274",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Berliner",
+      "streetNameShort": "Berliner",
+      "houseNumber": 7,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },{
+        "klsId": null,
+      "zipCode": "34273",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Mitlere",
+      "streetNameShort": "Mitlere",
+      "houseNumber": 6,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },{
+        "klsId": null,
+      "zipCode": "34272",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Acker",
+      "streetNameShort": "Acker",
+      "houseNumber": 8,
+      "houseNumberSupplement": "A",
+      "houseQualifier":null
+      },{
+        "klsId": null,
+      "zipCode": "34271",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Teodor-Hois",
+      "streetNameShort": "Teodor-Hois",
+      "houseNumber": 9,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },{
+        "klsId": null,
+      "zipCode": "34280",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Neuestrasse",
+      "streetNameShort": "Neuestrasse",
+      "houseNumber": 10,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      },
+      {
+        "klsId": null,
+      "zipCode": "34281",
+      "municipalityName": "Fuldabruck",
+      "distributionAreaName": "Fuldabruck",
+      "streetName": "Lorzingstrasse",
+      "streetNameShort": "Lorzingstrasse",
+      "houseNumber": 11,
+      "houseNumberSupplement": "A",
+      "houseQualifier": null
+      }
+    ]
   }
 }

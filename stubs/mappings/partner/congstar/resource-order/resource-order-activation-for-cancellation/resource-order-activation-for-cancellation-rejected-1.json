@@ -24,6 +24,11 @@
     }
   },
   "postServeActions": {
+    "persist": {
+      "action": "set",
+      "key": "l2bsaActivationLineId",
+      "value": "DEU.{{#assign 'carrierCode'}}{{#curl}}{{unsafeSystemValue type='ENVIRONMENT' key='SERVICE_ORDER_PATH'}}/service-order-rs/service-order/local/v1/serviceorders/bid/load/{{regexExtract (jsonPath request.body '$.externalId') '[0-9]+'}}{{/curl}}{{/assign}}{{jsonPath (jsonPath carrierCode '$.orderItemAnschluss.service.characteristics[?(@.name == \'CarrierCode\')].value') '$[0]'}}{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}"
+    },
     "webhooks": {
       "webhooks": [
         {

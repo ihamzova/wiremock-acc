@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/giga-installation-order/v1/cancelNotConnectedServiceOrder"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "method": "POST",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "CancelServiceOrder": {
+          "id": "1{{randomValue length=10 type='NUMERIC'}}",
+          "cancellationReason": "Wiremock cancellation callback reason",
+          "serviceOrder": {
+            "id": "1{{randomValue length=10 type='NUMERIC'}}"
+          }
+        }
+      }
+    }
+  }
+}

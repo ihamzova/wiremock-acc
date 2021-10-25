@@ -1,0 +1,19 @@
+{
+  "priority": 6,
+  "mappings": [
+    {
+      "name": "FiberAvailability-13277475",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v2/FiberAvailability/serviceQualification/13277475"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "fiber-availability/fiberAvailability-13277475_FALLBACK.json"
+      }
+    }
+  ]
+}

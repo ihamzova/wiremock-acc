@@ -25,12 +25,12 @@
         "initiative": "SELF_EXPANSION",
         "plannedFrom": "2019-01-01T11:26:20Z",
         "netCoOrganisationId": 10001,
-        "communicativeName": "vvm_map test #-1",
-        "plannedTo": "2021-10-30T00:00:00Z",
+        "communicativeName": "vvm_map test #4.99",
+        "plannedTo": "2021-12-30T00:00:00Z",
         "thresholdData": {
-          "additionalOrdersCountInVVM": 397,
-          "ordersCountInVVM": 43,
-          "threshold": -1
+          "additionalOrdersCountInVVM": 249,
+          "ordersCountInVVM": 250,
+          "threshold": 10000
         }
       },
       "nvtArea": {
@@ -55,165 +55,32 @@
           "thresholdData": {}
         }
       }
-    },
-    {
-      "creationDate": "2020-11-04T05:01:40.145Z",
-      "modificationDate": "2020-11-04T05:01:40.145Z",
-      "id": "1000000003",
-      "klsId": 1029,
-      "distributionPointID": "B",
-      "distributionPointName": "1029 DpId B",
-      "installationStatus": "PREPARED",
-      "demandCarrier": "FTTH",
-      "areaType": "RESIDENTIAL",
-      "reasonForNoConstruction": "NO_OWNER_COMMIT",
-      "technology": "FTTH",
-      "rolloutSponsor": "SELF_EXPANSION",
-      "installationDate": "2021-11-13T11:26:20Z",
-      "we": 3,
-      "ge": 4,
-      "sl": 5,
-      "gigaArea": {
-        "creationDate": "2020-11-04T05:01:40.084Z",
-        "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "FRANKFURT_002",
-        "number": "FRANKFURT_002",
-        "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2019-01-02T11:26:20Z",
-        "plannedTo": "2021-12-28T11:26:20Z",
-        "netCoOrganisationId": 10001,
-        "thresholdData": {
-          "threshold": 50,
-          "ordersCountInVVM": 30,
-          "additionalOrdersCountInVVM": 40
-        },
-        "rolloutPartnerRegular": 10009,
-        "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-      },
-      "nvtArea": {
-        "creationDate": "2020-11-04T05:01:40.110Z",
-        "modificationDate": "2020-11-04T05:01:40.110Z",
-        "businessId": 9024,
-        "asb": 444,
-        "name": "NVt1 Frankfurt 002",
-        "onkz": "39",
-        "nvtKlsId": 223473,
-        "rolloutPartnerRegular": 10009,
-        "gigaArea": {
-          "creationDate": "2020-11-04T05:01:40.084Z",
-          "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_002",
-          "number": "FRANKFURT_002",
-          "rolloutDate": "2021-12-31T11:26:20Z",
-          "areaStatus": "VVM_ONGOING",
-          "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2019-01-02T11:26:20Z",
-          "plannedTo": "2021-12-28T11:26:20Z",
-          "netCoOrganisationId": 10001,
-          "thresholdData": {
-            "threshold": 50,
-            "ordersCountInVVM": 30,
-            "additionalOrdersCountInVVM": 40
-          },
-          "rolloutPartnerRegular": 10009,
-          "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-        }
-      }
-    },
-    {
-      "creationDate": "2020-11-04T05:01:40.149Z",
-      "modificationDate": "2020-11-04T05:01:40.149Z",
-      "id": "1000000004",
-      "klsId": 1029,
-      "distributionPointID": "C",
-      "distributionPointName": "1030 DpId C",
-      "installationStatus": "PASSED_PLUS",
-      "demandCarrier": "COMMERCIAL_BUILDING",
-      "areaType": "INDUSTRIAL",
-      "reasonForNoConstruction": "OTHER_REASONS",
-      "technology": "FTTB",
-      "rolloutSponsor": "NATIONWIDE_PROMOTION_PROGRAM",
-      "we": 4,
-      "ge": 5,
-      "sl": 6,
-      "bandwidthProfiles": [
-        "FTTB500"
-      ],
-      "gigaArea": {
-        "creationDate": "2020-11-04T05:01:40.084Z",
-        "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "FRANKFURT_002",
-        "number": "FRANKFURT_002",
-        "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2019-01-02T11:26:20Z",
-        "plannedTo": "2021-12-28T11:26:20Z",
-        "netCoOrganisationId": 10001,
-        "thresholdData": {
-          "threshold": 50,
-          "ordersCountInVVM": 30,
-          "additionalOrdersCountInVVM": 40
-        },
-        "rolloutPartnerRegular": 10009,
-        "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-      },
-      "nvtArea": {
-        "creationDate": "2020-11-04T05:01:40.111Z",
-        "modificationDate": "2020-11-04T05:01:40.111Z",
-        "businessId": 9025,
-        "asb": 555,
-        "name": "NVt2 Frankfurt 002",
-        "onkz": "49",
-        "nvtKlsId": 323473,
-        "rolloutPartnerRegular": 10009,
-        "gigaArea": {
-          "creationDate": "2020-11-04T05:01:40.084Z",
-          "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_002",
-          "number": "FRANKFURT_002",
-          "rolloutDate": "2021-12-31T11:26:20Z",
-          "areaStatus": "VVM_ONGOING",
-          "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2019-01-02T11:26:20Z",
-          "plannedTo": "2021-12-28T11:26:20Z",
-          "netCoOrganisationId": 10001,
-          "thresholdData": {
-            "threshold": 50,
-            "ordersCountInVVM": 30,
-            "additionalOrdersCountInVVM": 40
-          },
-          "rolloutPartnerRegular": 10009,
-          "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-        }
-      }
     }
   ],
-  "pageable": {
+
+    "pageable": {
+      "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+      },
+      "pageNumber": 0,
+      "pageSize": 25,
+      "offset": 0,
+      "unpaged": false,
+      "paged": true
+    },
+    "totalPages": 1,
+    "totalElements": 1,
+    "last": true,
+    "first": true,
     "sort": {
       "sorted": false,
       "unsorted": true,
       "empty": true
     },
-    "pageNumber": 0,
-    "pageSize": 25,
-    "offset": 0,
-    "unpaged": false,
-    "paged": true
-  },
-  "totalPages": 1,
-  "totalElements": 3,
-  "last": true,
-  "first": true,
-  "sort": {
-    "sorted": false,
-    "unsorted": true,
-    "empty": true
-  },
-  "size": 25,
-  "number": 0,
-  "numberOfElements": 3,
-  "empty": false
-}
+    "size": 25,
+    "number": 0,
+    "numberOfElements": 1,
+    "empty": false
+    }

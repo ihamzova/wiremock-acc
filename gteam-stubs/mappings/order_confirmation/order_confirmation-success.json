@@ -1,0 +1,15 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/order-confirmation-service/api/v1/order-confirmation",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.email=='string@telekom.com')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200
+  }
+}

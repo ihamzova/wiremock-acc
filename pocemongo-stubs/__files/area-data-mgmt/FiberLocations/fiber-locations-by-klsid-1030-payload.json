@@ -4,7 +4,7 @@
       "creationDate": "2020-11-04T05:01:40.137Z",
       "modificationDate": "2020-11-04T05:01:40.137Z",
       "id": "1000000001",
-      "klsId": 12377784,
+      "klsId": 1030,
       "distributionPointID": "A",
       "distributionPointName": "2989336 DpId A",
       "installationStatus": "PLANNED",
@@ -18,34 +18,30 @@
       "gigaArea": {
         "creationDate": "2020-11-04T05:01:40.084Z",
         "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "FRANKFURT__1",
-        "number": "FRANKFURT__1",
+        "name": "FRANKFURT_005",
+        "number": "FRANKFURT_005",
         "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
+        "areaStatus": "AREA_PLANNED",
         "initiative": "SELF_EXPANSION",
         "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2021-12-27T11:26:20Z",
         "netCoOrganisationId": 10001,
         "communicativeName": "",
-        "plannedTo": "2021-12-30T00:00:00Z",
-        "thresholdData": {
-          "additionalOrdersCountInVVM": 249,
-          "ordersCountInVVM": 250,
-          "threshold": 10000
-        }
+        "thresholdData": {}
       },
       "nvtArea": {
         "creationDate": "2020-11-04T05:01:40.108Z",
         "modificationDate": "2020-11-04T05:01:40.108Z",
         "businessId": 9023,
         "asb": 333,
-        "name": "NVt Frankfurt 001",
+        "name": "NVt Frankfurt 005",
         "onkz": "29",
         "nvtKlsId": 123473,
         "gigaArea": {
           "creationDate": "2020-11-04T05:01:40.084Z",
           "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_001",
-          "number": "FRANKFURT_001",
+          "name": "FRANKFURT_005",
+          "number": "FRANKFURT_005",
           "rolloutDate": "2021-12-31T11:26:20Z",
           "areaStatus": "AREA_PLANNED",
           "initiative": "SELF_EXPANSION",
@@ -57,30 +53,29 @@
       }
     }
   ],
-
-    "pageable": {
-      "sort": {
-        "sorted": false,
-        "unsorted": true,
-        "empty": true
-      },
-      "pageNumber": 0,
-      "pageSize": 25,
-      "offset": 0,
-      "unpaged": false,
-      "paged": true
-    },
-    "totalPages": 1,
-    "totalElements": 1,
-    "last": true,
-    "first": true,
+  "pageable": {
     "sort": {
       "sorted": false,
       "unsorted": true,
       "empty": true
     },
-    "size": 25,
-    "number": 0,
-    "numberOfElements": 1,
-    "empty": false
-    }
+    "pageNumber": 0,
+    "pageSize": 25,
+    "offset": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 1,
+  "totalElements": 1,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "size": 25,
+  "number": 0,
+  "numberOfElements": 1,
+  "empty": false
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/giga-installation-order/v1/notConnectedServiceOrder/((\\w|-)+)"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody": {
+      "id": "nsoId",
+      "state": "inProgress",
+      "externalId": "psm-orderId",
+      "orderDate": "2021-10-27T14:49:16.822Z",
+      "externalReference": [],
+      "milestone": [],
+      "serviceOrderItem": [
+        {
+          "id": "serviceOrderItemId",
+          "service": {
+            "id": "serviceId",
+            "place": [],
+            "serviceCharacteristic": [
+              {
+                "name": "realFiberOnLocationId",           
+                "value": 12345
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

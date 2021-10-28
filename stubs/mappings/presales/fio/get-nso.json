@@ -18,13 +18,17 @@
       "serviceOrderItem": [
         {
           "id": "serviceOrderItemId",
+          "action": "noChange",
+          "@type": "ServiceOrderItem",
           "service": {
             "id": "serviceId",
+            "serviceType": "fiberAccessApartment",
+            "@type": "Service",
             "place": [],
             "serviceCharacteristic": [
               {
                 "name": "realFiberOnLocationId",           
-                "value": 12345
+                "value": "12345"
               }
             ]
           }

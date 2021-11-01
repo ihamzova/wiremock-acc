@@ -5,16 +5,16 @@
       <ns1:MT_EQDATA_RESPV2 xmlns:ns1='http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2'>
         <eiMessageContext>
           <target xmlns='http://messaging.ei.tmobile.net/datatypes'>SI_ReadEquipmentResponseV2In_DigiOSS</target>
-          <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>urn:uuid:abd32b9d-f528-45fb-9dfd-4f3cba7b0353</requestId>
+          <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>urn:uuid:3c085635-103c-478f-a09d-c7ea5791e27b</requestId>
           <timeLeft xmlns='http://messaging.ei.tmobile.net/datatypes'>172800000</timeLeft>
           <priority xmlns='http://messaging.ei.tmobile.net/datatypes'>4</priority>
           <sender xmlns='http://messaging.ei.tmobile.net/datatypes'>sndr:tmo.erp.sap.architecture.SAP:PI</sender>
-          <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>c7b911ec-06e1-44fe-accf-01b1a050f14b</correlationId>
+          <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>f51e65ae-146d-4354-b399-347308b1ed09</correlationId>
         </eiMessageContext>
         <data>
           <MT_EQDATA_RESPV2>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212879995</HEQUI>
               <HEQNR>0056</HEQNR>
               <ASB>1</ASB>
@@ -27,7 +27,7 @@
               <ADR_ID>17056514</ADR_ID>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>0001</HEQNR>
               <EQART>P</EQART>
@@ -37,7 +37,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>0002</HEQNR>
               <EQART>P</EQART>
@@ -47,7 +47,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>003</HEQNR>
               <EQART>P</EQART>
@@ -57,7 +57,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>004</HEQNR>
               <EQART>P</EQART>
@@ -67,7 +67,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>005</HEQNR>
               <EQART>P</EQART>
@@ -77,7 +77,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>006</HEQNR>
               <EQART>P</EQART>
@@ -87,7 +87,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>006</HEQNR>
               <EQART>P</EQART>
@@ -97,7 +97,7 @@
               <SUBMT>40916243</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>008</HEQNR>
               <EQART>P</EQART>
@@ -107,7 +107,7 @@
               <SUBMT>47104904</SUBMT>
             </EQUI>
             <EQUI>
-              <ENDSZ>49/111/2222/76H1</ENDSZ>
+              <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
               <HEQNR>0010</HEQNR>
               <EQART>P</EQART>

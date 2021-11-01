@@ -5,11 +5,11 @@
       <ns1:MT_EQDATA_RESPV2 xmlns:ns1='http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2'>
         <eiMessageContext>
           <target xmlns='http://messaging.ei.tmobile.net/datatypes'>SI_ReadEquipmentResponseV2In_DigiOSS</target>
-          <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>urn:uuid:3c085635-103c-478f-a09d-c7ea5791e27b</requestId>
+          <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>urn:uuid:45447dad-456d-48f8-b2b7-701627075329</requestId>
           <timeLeft xmlns='http://messaging.ei.tmobile.net/datatypes'>172800000</timeLeft>
           <priority xmlns='http://messaging.ei.tmobile.net/datatypes'>4</priority>
           <sender xmlns='http://messaging.ei.tmobile.net/datatypes'>sndr:tmo.erp.sap.architecture.SAP:PI</sender>
-          <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>f51e65ae-146d-4354-b399-347308b1ed09</correlationId>
+          <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>95432df0-4c45-4764-bba7-136204c9a621</correlationId>
         </eiMessageContext>
         <data>
           <MT_EQDATA_RESPV2>
@@ -49,7 +49,7 @@
             <EQUI>
               <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
-              <HEQNR>003</HEQNR>
+              <HEQNR>0003</HEQNR>
               <EQART>P</EQART>
               <ANZ_EBENEN>2</ANZ_EBENEN>
               <EQUNR>212880057</EQUNR>
@@ -59,7 +59,7 @@
             <EQUI>
               <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
-              <HEQNR>004</HEQNR>
+              <HEQNR>0004</HEQNR>
               <EQART>P</EQART>
               <ANZ_EBENEN>2</ANZ_EBENEN>
               <EQUNR>212880062</EQUNR>
@@ -69,7 +69,7 @@
             <EQUI>
               <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
-              <HEQNR>005</HEQNR>
+              <HEQNR>0005</HEQNR>
               <EQART>P</EQART>
               <ANZ_EBENEN>2</ANZ_EBENEN>
               <EQUNR>212880059</EQUNR>
@@ -79,7 +79,7 @@
             <EQUI>
               <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
-              <HEQNR>006</HEQNR>
+              <HEQNR>0006</HEQNR>
               <EQART>P</EQART>
               <ANZ_EBENEN>2</ANZ_EBENEN>
               <EQUNR>212880061</EQUNR>
@@ -89,7 +89,7 @@
             <EQUI>
               <ENDSZ>49/112/2222/76H1</ENDSZ>
               <HEQUI>212880011</HEQUI>
-              <HEQNR>006</HEQNR>
+              <HEQNR>0007</HEQNR>
               <EQART>P</EQART>
               <ANZ_EBENEN>2</ANZ_EBENEN>
               <EQUNR>212880061</EQUNR>

@@ -1,15 +1,16 @@
 {
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-areas-location/v1/areaDataManagement/fibreonlocations/((?!8888)[0-9]*)?includeDpGeoData=false"
+    "urlPathPattern": "/giga-areas-location/v2/fibreOnLocations/([0-9]*)"
   },
   "response": {
     "headers": {
       "Content-Type": "application/json"
     },
     "status": 200,
+    "bodyFileName": "",
     "jsonBody" : {
-      "distributionPointName": "DACHGESCHOSS"
+      "distributionPointName": "Ladenstrasse"
     }
   }
 }

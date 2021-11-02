@@ -1,0 +1,36 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/oltDhcpConfiguration/olt",
+    "method": "GET",
+    "queryParameters": {
+      "endsz_olt": {
+        "matches": "49_911_6843_76H5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "data": [
+        {
+          "id": 1,
+          "ip": "172.22.53.43",
+          "bng_id": 1,
+          "type_id": 1,
+          "endsz_olt": "49_911_6843_76H5",
+          "endsz_bng": "49_911_6843_7ZJA",
+          "serialnumber": "SDX00000001",
+          "type": "ADTRAN.SDX.6320"
+        }
+      ],
+      "page": 1,
+      "page_count": 1,
+      "results": 1,
+      "results_per_page": 50
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

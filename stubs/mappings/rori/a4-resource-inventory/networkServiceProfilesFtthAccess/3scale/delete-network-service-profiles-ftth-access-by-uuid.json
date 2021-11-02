@@ -1,0 +1,12 @@
+{
+  "request": {
+    "urlPattern": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess/.*",
+    "method": "DELETE"
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

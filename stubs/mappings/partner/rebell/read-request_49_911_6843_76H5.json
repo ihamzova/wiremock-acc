@@ -1,0 +1,59 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_911_6843_76H5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "pluralId": "106901492",
+        "uewegId": "I256168041",
+        "validFrom": "26.03.2021 16:00:00",
+        "endPointB": {
+          "endSz": "49_911_6843_76H5",
+          "portName": "10ge 0/1",
+          "endSzParts": {
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "6843",
+            "fkz": "76H5"
+          },
+          "deviceHostName": "",
+          "vendorPortName": "10 GE-1",
+          "portPosition": "GE1"
+        },
+        "version": "1",
+        "endPointA": {
+          "endSz": "49_911_1100_7ZJA",
+          "portName": "xe-7/1/0",
+          "endSzParts": {
+            "akz": "49",
+            "nkz": "911",
+            "vkz": "1100",
+            "fkz": "7ZJA"
+          },
+          "deviceHostName": "BONJ10",
+          "vendorPortName": "[1/3]/0",
+          "portPosition": "7.0.2"
+        },
+        "versionId": "102/1/4605/9202812",
+        "lsz": "4C2",
+        "ordNr": "25",
+        "validUntil": "01.01.2100 00:00:00",
+        "id": 109202812,
+        "lszErg": "",
+        "status": "geprueft"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

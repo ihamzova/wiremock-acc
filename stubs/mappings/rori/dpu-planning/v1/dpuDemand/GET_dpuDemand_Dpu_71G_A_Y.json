@@ -20,7 +20,7 @@
         "href": "{{request.requestLine.baseUrl}}//resource-order-resource-inventory/v1/dpuDemand/2",
         "creationDate": "2021-09-17T14:43:16.292+02:00",
         "modificationDate": null,
-        "dpuAccessTechnology": "FTTB_CUDA",
+        "dpuAccessTechnology": "FTTB",
         "dpuEndSz": "{{request.query.dpuEndSz}}",
         "dpuInstallationInstruction": "INSTALL INSTRUCTION",
         "dpuLocation": "LOCATION",

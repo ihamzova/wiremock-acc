@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/leseKunde",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+      "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'leseKunde']"
+    },
+      {
+        "matchesXPath": "//ns3:Kundennummer[.=1234654320]",
+        "xPathNamespaces": {
+          "ns3": "http://bom.telekom.de/cc"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "gteam-stubs/CRM-T/AendernKunde/aendernkunde-response-code08-svc2004.xml"
+  }
+}

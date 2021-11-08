@@ -1,0 +1,43 @@
+{
+  "priority": 7,
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
+    "headers": {
+      "X-Callback-Correlation-Id": {
+        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E2[A-F0-9]{14}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted."
+  },
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "jsonBody": {
+        "response": "OFFLINE",
+        "success": false,
+        "error": {
+          "message": "lineTest error",
+          "status": 2,
+          "code": "E2"
+        }
+      },
+      "url": "{{request.headers.X-Callback-Url}}"
+    }
+  }
+}

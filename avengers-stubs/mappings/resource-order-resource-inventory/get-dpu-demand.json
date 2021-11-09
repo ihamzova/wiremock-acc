@@ -5,7 +5,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=1.*"
+        "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=([0-9]*)"
       },
       "response": {
         "status": 200,
@@ -20,7 +20,7 @@
     "priority": 1,
     "request": {
       "method": "GET",
-      "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=4.*"
+      "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=wrong-folId"
     },
     "response": {
       "status": 404,

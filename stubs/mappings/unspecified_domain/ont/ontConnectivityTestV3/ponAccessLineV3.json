@@ -1,7 +1,7 @@
 {
   "priority": 8,
   "request": {
-    "method": "PATCH",
+    "method": "POST",
     "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestProcessInstance",
     "headers": {
       "X-Callback-Correlation-Id": {

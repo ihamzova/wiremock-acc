@@ -44,7 +44,7 @@
       "newScenarioState": "Execute ONT Linetest ok",
       "priority": 5,
       "request": {
-        "method": "PATCH",
+        "method": "POST",
         "urlPath": "/reqcb/service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
         "headers": {
           "X-Callback-Correlation-Id": {
@@ -81,7 +81,7 @@
       "newScenarioState": "Deregister ONT ok",
       "priority": 5,
       "request": {
-        "method": "DELETE",
+        "method": "POST",
         "urlPath": "/reqcb/service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
         "headers": {
           "X-Callback-Correlation-Id": {

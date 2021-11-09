@@ -1,0 +1,32 @@
+{
+  "mappings": [
+    {
+      "name": "Get DPU demand",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=1.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "resource-order-resource-inventory/dpu-demand-found.json"
+      }
+    },
+  {
+    "name": "Get DPU demand",
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "urlPattern": "/resource-order-resource-inventory/v1/dpuDemand\\?dpuAccessTechnology=FTTB&fiberOnLocationId=4.*"
+    },
+    "response": {
+      "status": 404,
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }]
+}

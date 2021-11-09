@@ -1,7 +1,7 @@
 {
   "priority": 8,
   "request": {
-    "method": "DELETE",
+    "method": "POST",
     "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
     "headers": {
       "X-Callback-Correlation-Id": {

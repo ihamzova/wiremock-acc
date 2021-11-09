@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenStandort_v01.00" xmlns:typ="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenStandort_v01.00/types" xmlns:csdg="http://schemas.telekom.net/csdg_v01.01" xmlns:bomtypes="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/types_v01.01" xmlns:bom="http://bom.telekom.de/cc" xmlns:crmt="http://bom.telekom.de/crmt">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:anlegenStandortResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://services.tdeu.telekom.net/CustRelMgmt/CustMgmt/AnlegenStandort_v01.00 AnlegenStandort-ValidationHelper_v01.00.xsd">
+            <typ:context>
+                <csdg:technicalContext>
+                    <csdg:from>de.telekom.CRMT:Default</csdg:from>
+                    <csdg:routingInfo>de.telekom.TKI:Default:AnlegenStandort_v01.00_CRM_T</csdg:routingInfo>
+                    <csdg:messageId>414d51204d524931425231202020202054b507c720025106</csdg:messageId>
+                    <csdg:relatesToMessageId>414d51204d524931425231202020202054b507c720025104</csdg:relatesToMessageId>
+                    <csdg:currentSenderTimestampUTC>2014-12-24T13:52:58.000Z</csdg:currentSenderTimestampUTC>
+                    <csdg:expiryOffsetInMillis>0</csdg:expiryOffsetInMillis>
+                    <csdg:priority>0</csdg:priority>
+                    <csdg:replyState>a</csdg:replyState>
+                    <csdg:property name='crmt.SystemID'>CRMT</csdg:property>
+                </csdg:technicalContext>
+                <csdg:businessContext>
+                    <csdg:processId>02E48</csdg:processId>
+                    <csdg:processTypeId>AnlegenStandort_v01.00</csdg:processTypeId>
+                </csdg:businessContext>
+            </typ:context>
+            <typ:data>
+                <bomtypes:anlegenStandortResponse>
+                    <bomtypes:RequestErgebnis>
+                        <crmt:StandortID>1-1WUWTGK</crmt:StandortID>
+                    </bomtypes:RequestErgebnis>
+                    <crmt:ReturnCode>08</crmt:ReturnCode>
+                    <bomtypes:Meldung>
+                        <crmt:MeldNr>SVC2007</crmt:MeldNr>
+                        <crmt:MeldText>Der Kunde wurde zwischenzeitlich aufgrund inkonsistenter Daten gesperrt</crmt:MeldText>
+                    </bomtypes:Meldung>
+                </bomtypes:anlegenStandortResponse>
+            </typ:data>
+        </tns:anlegenStandortResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,29 @@
+{
+  "scenarioName": "anlegenStandort",
+  "requiredScenarioState": "Started",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/crmt/anlegenStandort",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'anlegenStandort']"
+      },
+      {
+        "matchesXPath": "//ns6:Kundennummer[.=1234000036]",
+        "xPathNamespaces": {
+          "ns6": "http://bom.telekom.de/cc"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "gteam-stubs/CRM-T/AnlegenStandort/anlegenStandort-response-code08-svc2007.xml"
+  }
+}

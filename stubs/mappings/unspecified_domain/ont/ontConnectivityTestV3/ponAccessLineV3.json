@@ -29,8 +29,11 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
       "jsonBody": {
-        "response": "ONLINE",
-        "success": true
+        "response": {
+          "ontState":"ONLINE"
+        },
+        "success": true,
+        "error": null
       },
       "url": "{{request.headers.X-Callback-Url}}"
     }

@@ -1,0 +1,17 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/upstream-partner/tardis/communicationManagement/v3/attachment"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "partner/dms/vvi-attachment.json"
+      }
+    }
+  ]
+}

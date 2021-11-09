@@ -2,7 +2,7 @@
   "priority": 8,
   "request": {
     "method": "PATCH",
-    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestProcessInstance",
     "headers": {
       "X-Callback-Correlation-Id": {
         "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"

@@ -30,27 +30,12 @@
       },
       "jsonBody": {
         "response": {
-          "ontState": "ONLINE",
-          "attenuationMeasurementDto": {
-            "transmittedPowerAtOltToAllOnus": 0,
-            "receivedPowerAtOltFromRequestedOnu": 0,
-            "transmittedPowerOnu": 0,
-            "receivedPowerOnu": 0
-          },
-          "attenuationMeasurementSupported": "SUPPORTED",
-          "portAddress": {
-            "portNumber": "1",
-            "slotNumber": "1",
-            "endSz": "1",
-            "onuId": 0,
-            "serialNumber": "{{request.query.serialNumber}}",
-            "timestamp": "2018-08-21T17:32:28.0000000+00:00",
-            "eventMessage": "stringEventMessage"
-          },
-          "timestamp": "2018-08-21T17:32:28.0000000+00:00"
+          "ontState":"ONLINE"
         },
-        "success": true
-      },
+        "success": true,
+        "error": null
+      }
+,
       "url": "{{request.headers.X-Callback-Url}}"
     }
   }

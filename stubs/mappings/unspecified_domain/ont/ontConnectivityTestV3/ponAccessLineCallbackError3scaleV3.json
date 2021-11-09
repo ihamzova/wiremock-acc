@@ -29,7 +29,9 @@
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
       },
       "jsonBody": {
-        "response": "OFFLINE",
+        "response": {
+          "ontState":"OFFLINE"
+        },
         "success": false,
         "error": {
           "message": "lineTest error",

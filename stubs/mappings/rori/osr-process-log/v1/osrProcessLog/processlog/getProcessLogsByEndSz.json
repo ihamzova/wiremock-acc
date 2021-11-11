@@ -1,0 +1,20 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/osrProcessLog/processlog"
+  },
+  "response": {
+    "headers": { "Content-Type": "application/json" },
+    "status": 200,
+    "jsonBody":{
+      "paging" : {
+        "last" : true,
+        "page" : 1,
+        "pages" : 0,
+        "total" : 0
+      },
+      "processlogs" : [ ]
+    }
+  }
+}

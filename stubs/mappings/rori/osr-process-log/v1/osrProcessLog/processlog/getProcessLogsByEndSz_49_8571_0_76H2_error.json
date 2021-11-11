@@ -1,0 +1,26 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/osrProcessLog/processlog",
+    "queryParameters": {
+      "endSz": {
+        "matches": "^49/8571/0/76H2$"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "jsonBody": {
+      "title": "Internal error",
+      "status": 555,
+      "detail": "Generic error during processlog request"
+    }
+  }
+}

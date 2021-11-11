@@ -1,0 +1,51 @@
+{
+  "paging" : {
+    "last" : false,
+    "page" : 1,
+    "pages" : 3,
+    "total" : 3
+  },
+  "processlogs" : [ {
+    "creationDate" : null,
+    "creationUser" : null,
+    "modificationDate" : null,
+    "modificationUser" : null,
+    "version" : 1,
+    "id" : "1",
+    "businessRelevant" : null,
+    "correlationId" : null,
+    "deploymentId" : "7e1fe6db-d8a7-11eb-895d-0a58c0a879e9",
+    "domainReferenceId" : "PortPostProvisioning/5f96132a-6851-4ca1-bb5e-3ef6a7c5fb6e",
+    "domainReferenceType" : "PHYSICAL_RESOURCE_ADDRESS",
+    "endTimestamp" : "2021-09-01T05:07:57.933Z",
+    "executionId" : "9237f4bf-0ae2-11ec-becb-0a58c0a88afc",
+    "hasFailedStep" : false,
+    "inputParameters" : {
+      "endSz" : "{{request.query.endSz}}",
+      "lineId" : null,
+      "partyId" : 10001,
+      "slotNumber" : "1",
+      "portNumber" : "0"
+    },
+    "metadata" : null,
+    "outputParameters" : null,
+    "parentExecutionId" : null,
+    "parentProcessId" : null,
+    "parentProcessInstanceId" : null,
+    "parentProcessLogId" : null,
+    "parentProcessNodeId" : null,
+    "parentProcessStep" : null,
+    "processExecutor" : null,
+    "processId" : "PortPostProvisioning",
+    "processInstanceId" : "9237f4bf-0ae2-11ec-becb-0a58c0a88afc",
+    "processName" : null,
+    "processResolutionStatus" : "UNSUCCESSFUL",
+    "processStatus" : "IN_EXECUTION",
+    "processVersion" : "4",
+    "rootProcessId" : null,
+    "rootProcessInstanceId" : null,
+    "startTimestamp" : "2021-09-01T05:07:57.453Z",
+    "tenantId" : null,
+    "tenantLocationId" : null
+  }]
+}

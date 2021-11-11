@@ -1,0 +1,22 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/osrProcessLog/processlog",
+    "queryParameters": {
+      "endSz": {
+        "matches": "^49/8571/0/76H1$"
+      },
+      "offset": {
+        "matches": "^\\d+$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/osr-process-log/v1/osrProcessLog/processlog/49_8571_0_76H1_p{{request.query.offset}}.json"
+  }
+}

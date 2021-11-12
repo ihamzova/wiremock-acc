@@ -12,12 +12,12 @@
         "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'leseKunde']"
       },
       {
-        "matches": ".*<Kundennummer>1234654320</Kundennummer>.*"
+        "matches": ".*<Kundennummer>1234654345</Kundennummer>.*"
       }
     ]
   },
   "response": {
     "status": 200,
-    "bodyFileName": "gteam-stubs/leseKunde/leseKunde.timb.1234654320.xml"
+    "bodyFileName": "gteam-stubs/leseKunde/leseKunde.timb.1234654345.xml"
   }
 }

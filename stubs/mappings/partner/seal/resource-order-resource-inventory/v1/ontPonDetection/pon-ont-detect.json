@@ -2,7 +2,7 @@
   "priority": 3,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/maintenance/v1/ontPonDetection/?",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ontPonDetection/?",
     "bodyPatterns": [
       {"matchesJsonPath": "$.serialNumber"},
       {"matchesJsonPath": "$.timeStampOfFirstEvent"}

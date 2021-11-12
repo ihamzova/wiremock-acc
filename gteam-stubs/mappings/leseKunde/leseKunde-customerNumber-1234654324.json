@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/leseKunde",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "text/xml; charset=UTF-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'leseKunde']"
+      },
+      {
+        "matches": ".*<Kundennummer>1234654324</Kundennummer>.*"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "gteam-stubs/leseKunde/leseKunde.timb.1234654324.xml"
+  }
+}

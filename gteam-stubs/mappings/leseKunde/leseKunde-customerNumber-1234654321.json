@@ -4,7 +4,7 @@
     "urlPattern": "/leseKunde",
     "headers": {
       "Content-Type": {
-        "equalTo": "text/xml; charset=UTF-8"
+        "equalTo": "application/json"
       }
     },
     "bodyPatterns": [

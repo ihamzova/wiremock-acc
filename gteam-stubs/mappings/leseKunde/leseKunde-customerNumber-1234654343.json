@@ -9,9 +9,6 @@
     },
     "bodyPatterns": [
       {
-        "matchesXPath": "//*[local-name() = 'Envelope']/*[local-name() = 'Body']/*[local-name() = 'leseKunde']"
-      },
-      {
         "matches": ".*<Kundennummer>1234654343</Kundennummer>.*"
       }
     ]

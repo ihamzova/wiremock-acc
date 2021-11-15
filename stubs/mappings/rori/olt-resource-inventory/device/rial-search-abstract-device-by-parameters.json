@@ -1,0 +1,14 @@
+{
+  "request": {
+    "urlPathPattern": "/api/oltResourceInventory/v1/device/*",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "rori/olt-resource-inventory/device/criteria/rial-search-abstract-device-by-parameters.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "priority": 5
+}

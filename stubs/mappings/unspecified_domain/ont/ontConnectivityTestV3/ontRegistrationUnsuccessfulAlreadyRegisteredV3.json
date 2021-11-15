@@ -1,0 +1,45 @@
+{
+  "priority": 7,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/((reqcb\/)?)service-order-service-inventory/v1/connectivityTestRegistrationProcessInstance",
+    "headers": {
+      "X-Callback-Correlation-Id": {
+        "matches": "[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.serialNumber =~ /E1[B|C][A-F0-9]{13}/)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.homeId =~ /[A-Z0-9]{7}/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted."
+  },
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "jsonBody": {
+        "response": {
+          "status": "ERROR"
+        },
+        "success": false,
+        "error": {
+          "message": "registration error",
+          "status": 1,
+          "code": "06114090"
+        }
+      },
+      "url": "{{request.headers.X-Callback-Url}}"
+    }
+  }
+}

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<tns:leseKundeResponse xmlns:tns="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de" xmlns:bom="http://PESA_BOM_v5.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de  leseKunde_v05.xsd">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseKundeResponse xmlns:tns="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de" xmlns:bom="http://PESA_BOM_v5.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de  leseKunde_v05.xsd">
 	<tns:Kunde>
 		<bom:Kundennummer>1234654321</bom:Kundennummer>
 		<bom:HappyDigitsNummer>0000000000000000</bom:HappyDigitsNummer>
@@ -260,4 +259,4 @@
 			</tns:Zustelladresse>
 		</tns:Standortadresse>
 	</tns:Kunde>
-</tns:leseKundeResponse>
+</tns:leseKundeResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,14 @@
+{
+  "priority": 20,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/uewege",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/rebell/uewege/REBELL_{{request.query.endsz}}.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

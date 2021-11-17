@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/gigabit/order",
+    "urlPattern": "/presales-order/v1/customerOrders",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

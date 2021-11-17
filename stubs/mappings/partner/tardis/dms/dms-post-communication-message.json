@@ -3,7 +3,7 @@
     {
       "request": {
         "method": "POST",
-        "url": "/upstream-partner/tardis/communicationManagement/v3/communicationMessage"
+        "urlPathPattern": "/((upstream-partner/)?)tardis/communicationManagement/v3/communicationMessage"
       },
       "response": {
         "status": 201,
@@ -23,7 +23,7 @@
           },
           "url": "http://vvi-handler-app/communicationMessageCallback",
           "fixedDelayMilliseconds": 10000,
-          "bodyFileName": "partner/dms/dms-pdf-event.json"
+          "bodyFileName": "partner/tardis/dms/dms-pdf-event.json"
         }
       }
     }

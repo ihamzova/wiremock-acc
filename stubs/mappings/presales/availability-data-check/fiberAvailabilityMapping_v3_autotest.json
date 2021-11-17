@@ -15,6 +15,22 @@
         },
         "bodyFileName": "fiber_availability/fiberAvailability_fiberbau-autotest.json"
       }
+    },
+    {
+      "id": "f88a6246-11f1-4ae7-b1bc-716ccf4ad4aa",
+      "priority": 2,
+      "name": "FiberAvailability_by_klsId_used_in_fiberbau-autotest-01-testchain",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/[1-9][0-9]*\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "fiber_availability/fiberAvailability_fallback_standard_scenarios.json"
+      }
     }
   ]
 }

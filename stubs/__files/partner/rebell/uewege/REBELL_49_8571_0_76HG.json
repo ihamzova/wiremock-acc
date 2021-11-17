@@ -1,0 +1,41 @@
+[
+    {
+        "pluralId": "104300723",
+        "uewegId": "I787676454",
+        "validFrom": "28.01.2020 16:00:00",
+        "endPointB": {
+            "endSz": "49_8571_0_76HG",
+            "portName": "10ge 0/1",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "0",
+                "fkz": "76HG",
+                "nkz": "8571"
+            },
+            "deviceHostName": "",
+            "vendorPortName": "10 GE-1",
+            "portPosition": "GE1"
+        },
+        "version": "1",
+        "endPointA": {
+            "endSz": "49_30_179_43G1",
+            "portName": "ge-1/6/7",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "179",
+                "fkz": "43G1",
+                "nkz": "30"
+            },
+            "deviceHostName": "BONJ54",
+            "vendorPortName": "[0/2]/0",
+            "portPosition": "1.6.7"
+        },
+        "versionId": "102/1/1618/9070703",
+        "lsz": "4C1",
+        "ordNr": "7",
+        "validUntil": "01.01.2100 00:00:00",
+        "id": 214435071,
+        "lszErg": "",
+        "status": "InBetrieb"
+    }
+]

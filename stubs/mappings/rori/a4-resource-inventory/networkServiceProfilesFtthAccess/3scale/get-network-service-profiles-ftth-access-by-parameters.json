@@ -1,12 +1,7 @@
 {
   "request": {
-    "urlPath": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess",
-    "method": "GET",
-    "queryParameters": {
-      "ontSerialNumber": {
-        "matches": "[A-Z0-9]{16}"
-      }
-    }
+    "urlPathPattern": "/resource-order-resource-inventory/v1/a4NetworkServiceProfilesFtthAccess/*",
+    "method": "GET"
   },
   "response": {
     "status": 200,

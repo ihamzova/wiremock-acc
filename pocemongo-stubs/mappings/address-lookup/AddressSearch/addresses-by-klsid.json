@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "name": "Get aaddresses by klsid",
+      "name": "Get addresses by klsid",
       "request": {
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/search",
         "method": "POST",
@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "Get aaddresses by klsid",
+      "name": "Get addresses by klsid",
       "request": {
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/search",
         "method": "POST",

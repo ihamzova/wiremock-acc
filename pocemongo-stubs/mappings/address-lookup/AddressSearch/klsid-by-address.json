@@ -1,0 +1,312 @@
+{
+  "mappings": [
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34271"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000001,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34272"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000002,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34273"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000003,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34274"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000004,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34275"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000005,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34276"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000006,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34277"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000007,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34278"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000008,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34279"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000009,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34280"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000010,
+        "status" : 200
+      }
+    },
+    {
+      "name": "Get klsid by full address info",
+      "request": {
+        "method": "GET",
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/extended/getKlsId",
+        "queryParameters" : {
+          "zipCode" : {
+            "equalTo" : "34281"
+          },
+          "municipalityName" : {
+            "equalTo" : "Fuldabruck"
+          },
+          "streetName" : {
+            "matches" : "^[A-Za-zÀ-ž\\s-.]{3,}$"
+          },
+          "houseNumber": {
+            "matches": ".*"
+          }
+        }
+      },
+      "response" : {
+        "headers" : {
+          "Content-Type" : "application/json"
+        },
+        "jsonBody" : 300000011,
+        "status" : 200
+      }
+    }
+  ]
+}

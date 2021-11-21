@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "creationDate": "2020-11-04T05:01:40.137Z",
+      "modificationDate": "2020-11-04T05:01:40.137Z",
+      "id": "1000000001",
+      "klsId": 300000004,
+      "distributionPointID": "A",
+      "distributionPointName": "2989336 DpId A",
+      "installationStatus": "PLANNED",
+      "demandCarrier": "FTTH",
+      "areaType": "DEVELOPMENT",
+      "technology": "FTTH",
+      "rolloutSponsor": "SELF_EXPANSION",
+      "we": 1,
+      "ge": 2,
+      "sl": 3,
+      "gigaArea": {
+        "creationDate": "2020-11-04T05:01:40.084Z",
+        "modificationDate": "2020-11-04T05:01:40.084Z",
+        "name": "FRANKFURT_001",
+        "number": "FRANKFURT_001",
+        "rolloutDate": "2021-12-31T11:26:20Z",
+        "areaStatus": "VVM_ONGOING",
+        "initiative": "SELF_EXPANSION",
+        "plannedFrom": "2019-01-01T11:26:20Z",
+        "plannedTo": "2021-12-27T11:26:20Z",
+        "netCoOrganisationId": 10001,
+        "communicativeName": "FRANKFURT_001",
+        "thresholdData": {
+          "additionalOrdersCountInVVM": 30,
+          "ordersCountInVVM": 43,
+          "threshold": 5
+        }
+      },
+      "nvtArea": {
+        "creationDate": "2020-11-04T05:01:40.108Z",
+        "modificationDate": "2020-11-04T05:01:40.108Z",
+        "businessId": 9023,
+        "asb": 333,
+        "name": "NVt Frankfurt 001",
+        "onkz": "29",
+        "nvtKlsId": 123473,
+        "gigaArea": {
+          "creationDate": "2020-11-04T05:01:40.084Z",
+          "modificationDate": "2020-11-04T05:01:40.084Z",
+          "name": "FRANKFURT_001",
+          "number": "FRANKFURT_001",
+          "rolloutDate": "2021-12-31T11:26:20Z",
+          "areaStatus": "VVM_ONGOING",
+          "initiative": "SELF_EXPANSION",
+          "plannedFrom": "2019-01-01T11:26:20Z",
+          "plannedTo": "2021-12-27T11:26:20Z",
+          "netCoOrganisationId": 10001,
+          "thresholdData": {
+            "additionalOrdersCountInVVM": 30,
+            "ordersCountInVVM": 43,
+            "threshold": 5
+          }
+        }
+      }
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "pageNumber": 0,
+    "pageSize": 25,
+    "offset": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 1,
+  "totalElements": 3,
+  "last": true,
+  "first": true,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "size": 25,
+  "number": 0,
+  "numberOfElements": 3,
+  "empty": false
+}

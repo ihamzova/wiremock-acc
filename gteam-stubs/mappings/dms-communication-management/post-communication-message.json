@@ -674,17 +674,6 @@
         "jsonBody": {
           "id": "cac99e9a-0102-11ec-9a03-0242ac130003"
         }
-      },
-      "postServeActions": {
-        "webhook": {
-          "method": "POST",
-          "headers": {
-            "Content-Type": "application/json"
-          },
-          "url": "http://vvi-handler-app/communicationMessageCallback",
-          "fixedDelayMilliseconds": 20000,
-          "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-18.json"
-        }
       }
     }
   ]

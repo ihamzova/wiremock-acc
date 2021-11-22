@@ -626,6 +626,31 @@
           "bodyFileName": "gteam-stubs/dms-communication-management/dms-event/dms-pdf-event-20.json"
         }
       }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300030)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "title":"Bad Request",
+          "status":400,
+          "detail":"[DATA_ERROR_001]: communicationShoppingCart must not be null."
+        }
+      }
     }
   ]
 }

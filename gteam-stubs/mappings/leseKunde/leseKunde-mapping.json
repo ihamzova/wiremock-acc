@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/leseKunde",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },"response" : {
+  "status" : 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "bodyFileName" : "gteam-stubs/leseKunde/leseKunde.timb.{{jsonPath request.body '$.kundennummer'}}.xml",
+  "transformers": ["response-template"]
+}
+  }
+

@@ -19,6 +19,7 @@
         "webhook": {
           "method": "POST",
           "headers": {
+            "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
           "url": "http://vvi-handler-app/communicationMessageCallback",

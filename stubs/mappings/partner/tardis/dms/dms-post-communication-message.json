@@ -11,7 +11,7 @@
           "Content-Type": "application/json"
         },
         "jsonBody": {
-          "id": "226761cf-ce1c-4010-bc0c-f1110f72c325"
+          "id": "{{randomValue type='UUID'}}"
         },
         "fixedDelayMilliseconds": 6000
       },

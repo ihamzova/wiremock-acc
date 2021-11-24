@@ -646,9 +646,9 @@
           "Content-Type": "application/json"
         },
         "jsonBody": {
-          "title":"Bad Request",
-          "status":400,
-          "detail":"[DATA_ERROR_001]: communicationShoppingCart must not be null."
+          "title": "Bad Request",
+          "status": 400,
+          "detail": "[DATA_ERROR_001]: communicationShoppingCart must not be null."
         }
       }
     },

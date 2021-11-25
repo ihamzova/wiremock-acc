@@ -1,7 +1,7 @@
 [
   {
     "id": 1005,
-    "dpuEndsz": "49/30/179/71G1",
+    "dpuEndsz": "49/812/179/71G1",
     "backhaulId": "#bhid-003",
     "onuId": 12345678,
     "configurationState": "INACTIVE",
@@ -9,6 +9,7 @@
     "oltEndsz": "49/911/1100/76H1",
     "oltPonSlot": "1",
     "oltPonPort": "0",
+    "oltUplinkSlot": "8",
     "oltUplinkPort": "1"
   }
 ]

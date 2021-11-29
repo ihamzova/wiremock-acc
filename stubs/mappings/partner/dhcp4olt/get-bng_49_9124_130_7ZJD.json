@@ -1,0 +1,35 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/oltDhcpConfiguration/bng",
+    "method": "GET",
+    "queryParameters": {
+      "endsz": {
+        "matches": "49_9124_130_7ZJD"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "data": [
+        {
+          "id": 1,
+          "endsz": "49_9124_130_7ZJD",
+          "ip_management": "10.182.104.97",
+          "ip_relay": "172.22.92.145",
+          "range_start": "172.22.92.146",
+          "range_end": "172.22.92.158ggi",
+          "subnet_mask": "255.255.255.240"
+        }
+      ],
+      "page": 1,
+      "page_count": 1,
+      "results": 1,
+      "results_per_page": 50
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

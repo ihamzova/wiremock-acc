@@ -1,0 +1,36 @@
+{
+  "priority": 5,
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/oltDhcpConfiguration/olt",
+    "method": "GET",
+    "queryParameters": {
+      "endsz_olt": {
+        "matches": "49_9124_227_76HK"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "data": [
+        {
+          "id": 1,
+          "ip": "172.22.92.146",
+          "bng_id": 1,
+          "type_id": 1,
+          "endsz_olt": "49_9124_227_76HK",
+          "endsz_bng": "49_9124_130_7ZJD",
+          "serialnumber": "LBADTN2038AD999",
+          "type": "ADTRAN.SDX.6320"
+        }
+      ],
+      "page": 1,
+      "page_count": 1,
+      "results": 1,
+      "results_per_page": 50
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

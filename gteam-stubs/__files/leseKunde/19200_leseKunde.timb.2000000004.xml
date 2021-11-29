@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseKundeResponse xmlns:tns="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de" xmlns:bom="http://PESA_BOM_v5.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de  leseKunde_v05.xsd">
 	<tns:Kunde>
-		<bom:Kundennummer>1234654340</bom:Kundennummer>
+		<bom:Kundennummer>2000000004</bom:Kundennummer>
 		<bom:HappyDigitsNummer>0000000000000000</bom:HappyDigitsNummer>
 		<bom:VertriebsbereichskennzeichenID>1436483648</bom:VertriebsbereichskennzeichenID>
 		<bom:AuftraggeberID>1055427272</bom:AuftraggeberID>
@@ -150,11 +150,11 @@
 			</tns:Rechnungsempfaenger>
 		</tns:Rechnungsvereinbarung>
 		<tns:Ansprechpartner>
-			<tns:AnsprechpartnerID>123456789012345</tns:AnsprechpartnerID>
+			<tns:AnsprechpartnerID>112211355645</tns:AnsprechpartnerID>
 			<tns:Person>
 				<bom:GeschaeftspartnerID>112211</bom:GeschaeftspartnerID>
 				<bom:Titel>x</bom:Titel>
-				<bom:Vorname>x</bom:Vorname>
+				<bom:Vorname>Vorname</bom:Vorname>
 				<bom:Name>x</bom:Name>
 				<bom:Name2>x</bom:Name2>
 				<bom:HistorischerNamenszusatz>x</bom:HistorischerNamenszusatz>
@@ -168,6 +168,12 @@
 				<bom:Email>
 					<bom:EmailAdresse>test@rgression.de</bom:EmailAdresse>
 				</bom:Email>
+				<bom:Werbungskenner>
+					<bom:telefon>
+					<bom:ONKZ>199</bom:ONKZ>
+					<bom:Anschlussnummer>21111111111</bom:Anschlussnummer>
+					</bom:telefon>
+				</bom:Werbungskenner>
 			</tns:Person>
 			<tns:Geschaeftspartneradresse>
 				<tns:Adresse>
@@ -178,7 +184,6 @@
 						</bom:Strasse>
 						<bom:Grundstueck>
 							<bom:Hausnummer>7</bom:Hausnummer>
-
 							<bom:Hausnummerzusatz>x</bom:Hausnummerzusatz>
 						</bom:Grundstueck>
 						<bom:Postcode>
@@ -199,21 +204,21 @@
 		<tns:Geschaeftspartneradresse>
 			<tns:Adresse>
 				<tns:Zustelladresse>
-					<bom:AdressID>12121212</bom:AdressID>
+					<bom:AdressID>2222222</bom:AdressID>
 					<bom:OrtsdatenServerTyp>ZI</bom:OrtsdatenServerTyp>
 					<bom:OrtsdatenServerID>x</bom:OrtsdatenServerID>
 					<bom:Strasse>
-						<bom:Strassenname>Strasse</bom:Strassenname>
+						<bom:Strassenname>Strasse2</bom:Strassenname>
 					</bom:Strasse>
 					<bom:Grundstueck>
-						<bom:Hausnummer>10</bom:Hausnummer>
-						<bom:Hausnummerzusatz>A</bom:Hausnummerzusatz>
+						<bom:Hausnummer>102</bom:Hausnummer>
+						<bom:Hausnummerzusatz>B</bom:Hausnummerzusatz>
 					</bom:Grundstueck>
 					<bom:Postcode>
-						<bom:Postleitzahl>20097</bom:Postleitzahl>
+						<bom:Postleitzahl>20098</bom:Postleitzahl>
 					</bom:Postcode>
 					<bom:Verteilbereich>
-						<bom:Verteilbereichsname>Hamburg</bom:Verteilbereichsname>
+						<bom:Verteilbereichsname>Dresden</bom:Verteilbereichsname>
 						<bom:Verteilbereichsnamenzusatz>x</bom:Verteilbereichsnamenzusatz>
 					</bom:Verteilbereich>
 					<bom:Land>

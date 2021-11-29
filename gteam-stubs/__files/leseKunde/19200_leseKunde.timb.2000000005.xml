@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseKundeResponse xmlns:tns="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de" xmlns:bom="http://PESA_BOM_v5.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de  leseKunde_v05.xsd">
 	<tns:Kunde>
-		<bom:Kundennummer>1234654340</bom:Kundennummer>
+		<bom:Kundennummer>2000000005</bom:Kundennummer>
 		<bom:HappyDigitsNummer>0000000000000000</bom:HappyDigitsNummer>
 		<bom:VertriebsbereichskennzeichenID>1436483648</bom:VertriebsbereichskennzeichenID>
 		<bom:AuftraggeberID>1055427272</bom:AuftraggeberID>
@@ -27,7 +27,6 @@
 				<bom:WerbewunschID>1</bom:WerbewunschID>
 				<bom:Mobiltelefon>
 					<bom:Landeskennzahl>+00</bom:Landeskennzahl>
-
 					<bom:ONKZ>10</bom:ONKZ>
 					<bom:Anschlussnummer>100</bom:Anschlussnummer>
 				</bom:Mobiltelefon>
@@ -70,7 +69,6 @@
 						<bom:Anrede>x</bom:Anrede>
 						<bom:AnredeID>2</bom:AnredeID>
 					</bom:Anredeform>
-
 				</tns:Person>
 				<tns:Rechnungsempfaengeradresse>
 					<tns:Adresse>
@@ -89,7 +87,7 @@
 								<bom:Postleitzahl>20097</bom:Postleitzahl>
 							</bom:Postcode>
 							<bom:Verteilbereich>
-								<bom:Verteilbereichsname>M?nchen</bom:Verteilbereichsname>
+								<bom:Verteilbereichsname>München</bom:Verteilbereichsname>
 								<bom:Verteilbereichsnamenzusatz>x</bom:Verteilbereichsnamenzusatz>
 							</bom:Verteilbereich>
 							<bom:Land>
@@ -150,7 +148,7 @@
 			</tns:Rechnungsempfaenger>
 		</tns:Rechnungsvereinbarung>
 		<tns:Ansprechpartner>
-			<tns:AnsprechpartnerID>123456789012345</tns:AnsprechpartnerID>
+			<tns:AnsprechpartnerID>12345</tns:AnsprechpartnerID>
 			<tns:Person>
 				<bom:GeschaeftspartnerID>112211</bom:GeschaeftspartnerID>
 				<bom:Titel>x</bom:Titel>
@@ -178,7 +176,6 @@
 						</bom:Strasse>
 						<bom:Grundstueck>
 							<bom:Hausnummer>7</bom:Hausnummer>
-
 							<bom:Hausnummerzusatz>x</bom:Hausnummerzusatz>
 						</bom:Grundstueck>
 						<bom:Postcode>

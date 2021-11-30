@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseKundeResponse xmlns:tns="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de" xmlns:bom="http://PESA_BOM_v5.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseKunde_v05.CustomerManagement.CustomerFunctions.bbfn.telekom.de  leseKunde_v05.xsd">
 	<tns:Kunde>
-		<bom:Kundennummer>2000000005</bom:Kundennummer>
+		<bom:Kundennummer>2000000006</bom:Kundennummer>
 		<bom:HappyDigitsNummer>0000000000000000</bom:HappyDigitsNummer>
 		<bom:VertriebsbereichskennzeichenID>1436483648</bom:VertriebsbereichskennzeichenID>
 		<bom:AuftraggeberID>1055427272</bom:AuftraggeberID>
@@ -53,7 +53,7 @@
 		</tns:Person>
 		<tns:Rechnungsvereinbarung>
 			<bom:Rechnungsvereinbarungsnummer>1234567890</bom:Rechnungsvereinbarungsnummer>
-			<tns:HatRechnungOnline>false</tns:HatRechnungOnline>
+			<tns:HatRechnungOnline>true</tns:HatRechnungOnline>
 			<tns:Rechnungsempfaenger>
 				<tns:Person>
 					<bom:GeschaeftspartnerID>10</bom:GeschaeftspartnerID>
@@ -148,7 +148,7 @@
 			</tns:Rechnungsempfaenger>
 		</tns:Rechnungsvereinbarung>
 		<tns:Ansprechpartner>
-			<tns:AnsprechpartnerID>12345</tns:AnsprechpartnerID>
+			<tns:AnsprechpartnerID>112211355645</tns:AnsprechpartnerID>
 			<tns:Person>
 				<bom:GeschaeftspartnerID>112211</bom:GeschaeftspartnerID>
 				<bom:Titel>x</bom:Titel>

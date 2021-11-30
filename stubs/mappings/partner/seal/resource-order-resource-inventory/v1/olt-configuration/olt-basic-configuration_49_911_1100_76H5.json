@@ -1,7 +1,13 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/(resource-order-resource-inventory|configuration)/v1/olt/(oltBasicConfigurationTask)"
+    "urlPathPattern": "/(resource-order-resource-inventory|configuration)/v1/olt/(oltBasicConfigurationTask)",
+    "bodyPatterns": [{
+      "matchesJsonPath": {
+        "expression": "$.oltName",
+        "contains": "49_911_1100_76H5"
+      }
+    }]
   },
   "response": {
     "status": 202,
@@ -25,11 +31,11 @@
       },
       "method": "POST",
       "jsonBody": {
-        "status": 2000,
-        "statustype": "SUCCESS",
-        "message": "successfully executed"
+        "status": 5112,
+        "statustype": "ERROR",
+        "message": "precondition failed: netconf-session to OLT not established"
       }
     }
   },
-  "priority": 10
+  "priority": 5
 }

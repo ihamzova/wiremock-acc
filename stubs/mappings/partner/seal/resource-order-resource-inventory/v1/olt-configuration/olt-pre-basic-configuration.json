@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/(resource-order-resource-inventory|configuration)/v1/olt/(oltBasicConfigurationTask)"
+    "urlPathPattern": "/(resource-order-resource-inventory|configuration)/v1/olt/(oltPreBasicConfigurationTask|oltPreBasicDeconfigurationTask)"
   },
   "response": {
     "status": 202,

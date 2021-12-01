@@ -15,5 +15,5 @@
   "bodyFileName" : "gteam-stubs/leseKunde/leseKunde.timb.{{jsonPath request.body '$.kundennummer'}}.xml",
   "transformers": ["response-template"]
 }
-  }
+}
 

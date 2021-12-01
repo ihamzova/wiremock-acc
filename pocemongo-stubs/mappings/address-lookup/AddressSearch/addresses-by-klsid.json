@@ -71,6 +71,30 @@
         },
         "bodyFileName": "address-lookup/AddressSearch/addresses-by-klsid-24793139.json"
       }
+    },
+    {
+      "name": "Get addresses by klsid",
+      "request": {
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/search",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "equalToJson": {
+              "klsIds":["12377783"]
+            },
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+          }
+        ]
+
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/addresses-by-klsid-12377783.json"
+      }
     }
   ]
 }

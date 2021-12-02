@@ -8,10 +8,10 @@
         "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1|2|4]{1}$|49\\/8571\\/0\\/76HA"
       },
      "parentEquipmentRef.slotName": {
-        "matches": "[1-7]|11|18"
+        "matches": "[0-7]|11|18"
       },
       "portName": {
-        "matches": "[1-9]|1[0-6]"
+        "matches": "[0-9]|1[0-6]"
       },
       "portType": {
         "matches": "PON"

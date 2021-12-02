@@ -20,6 +20,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/device-resource-inventory-management/card/{{replace request.query.parentDeviceEquipmentRef.endSz '/' '_'}}/slot_{{request.query.slotName}}.json"
+    "bodyFileName": "rori/device-resource-inventory-management/card/49_30_179_76H2/slot_{{request.query.slotName}}.json"
   }
 }

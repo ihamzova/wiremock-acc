@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1068",
+    "href": "/resource-order-resource-inventory/v5/ancpSession/1068",
+    "configurationStatus": "ACTIVE",
+    "creationDate": "2021-09-22T11:54:59.928052+02:00",
+    "ipAddressAccessNode": "10.208.166.13",
+    "ipAddressBng": "10.208.166.14",
+    "lastActivity": "2021-09-22T11:54:59.928052+02:00",
+    "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+    "partitionId": 2,
+    "rmkEndpointId": "4787095556973743352",
+    "sealConfigurationId": "0-0-1-2-16",
+    "sessionId": "2",
+    "sessionType": "OLT",
+    "vlan": 16,
+    "accessNodeEquipmentBusinessRef": {
+      "endSz": "49/911/1100/76H3",
+      "portName": "1",
+      "deviceType": "OLT",
+      "portType": "ETHERNET",
+      "@type": "EquipmentBusinessRef"
+    },
+    "ancpIpSubnetRef": {
+      "id": "1102",
+      "href": "/resource-order-resource-inventory/v5/ancpIpSubnet/1102",
+      "@referredType": "AncpIpSubnet"
+    },
+    "bngDownlinkPortEquipmentBusinessRef": {
+      "endSz": "49/30/179/43G3",
+      "portName": "xe-0/0/5",
+      "slotName": "0",
+      "deviceType": "BNG",
+      "portType": "ETHERNET",
+      "@type": "EquipmentBusinessRef"
+    },
+    "oltUplinkPortEquipmentBusinessRef": {
+      "endSz": "49/911/1100/76H3",
+      "portName": "1",
+      "deviceType": "OLT",
+      "portType": "ETHERNET",
+      "@type": "EquipmentBusinessRef"
+    },
+    "@baseType": "LogicalResource",
+    "@type": "AncpSession"
+  }
+]

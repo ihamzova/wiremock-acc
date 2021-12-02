@@ -1,0 +1,25 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/oltResourceInventory/v1/card",
+    "queryParameters": {
+      "endSz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{2,4}"
+      },
+      "slotNumber": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "errorCode": null,
+      "message": "There is no Card present in database with 'endSz' = {{request.query.endSz}}, 'slotNumber' = {{request.query.slotNumber}}"
+    }
+  }
+}

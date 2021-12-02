@@ -1,0 +1,158 @@
+[
+  {
+    "id": "1065",
+    "href": "/resource-order-resource-inventory/v5/device/1065",
+    "accessTransmissionMedium": "TWISTED_PAIR",
+    "creationDate": "2021-02-03T15:07:59.449882+01:00",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40797654",
+    "emsNbiName": "SDX2221-16-TP",
+    "endSz": "49/812/179/71G0",
+    "fiberOnLocationId": "1000000010120",
+    "fsz": "71G0",
+    "importDate": "2020-09-07T11:58:24.566+02:00",
+    "klsId": "123456",
+    "manufacturer": "ADTRAN",
+    "materialNumber": "40898329",
+    "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+    "name": "16 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+    "resourceId": "b0716d61-c40d-4330-94a2-48a6d84a5303",
+    "serialNumber": "020123dsd23",
+    "shortName": "SDX2221-16 TP-AC-M-FTTB ETSI",
+    "vpsz": "49/812/179",
+    "containsCardsRefOrValue": [],
+    "containsPortsRefOrValue": [
+      {
+        "id": "1498",
+        "href": "/resource-order-resource-inventory/v5/port/1498",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1500",
+        "href": "/resource-order-resource-inventory/v5/port/1500",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1501",
+        "href": "/resource-order-resource-inventory/v5/port/1501",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1502",
+        "href": "/resource-order-resource-inventory/v5/port/1502",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1503",
+        "href": "/resource-order-resource-inventory/v5/port/1503",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1504",
+        "href": "/resource-order-resource-inventory/v5/port/1504",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1505",
+        "href": "/resource-order-resource-inventory/v5/port/1505",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1506",
+        "href": "/resource-order-resource-inventory/v5/port/1506",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1507",
+        "href": "/resource-order-resource-inventory/v5/port/1507",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1508",
+        "href": "/resource-order-resource-inventory/v5/port/1508",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1509",
+        "href": "/resource-order-resource-inventory/v5/port/1509",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1494",
+        "href": "/resource-order-resource-inventory/v5/port/1494",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1497",
+        "href": "/resource-order-resource-inventory/v5/port/1497",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1499",
+        "href": "/resource-order-resource-inventory/v5/port/1499",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1510",
+        "href": "/resource-order-resource-inventory/v5/port/1510",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1495",
+        "href": "/resource-order-resource-inventory/v5/port/1495",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      },
+      {
+        "id": "1496",
+        "href": "/resource-order-resource-inventory/v5/port/1496",
+        "@baseType": "EntityRef",
+        "@type": "PortRefOrValue",
+        "@referredType": "Port"
+      }
+    ],
+    "deviceType": "DPU",
+    "lifeCycleState": "NOT_OPERATING",
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
+  }
+]

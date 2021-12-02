@@ -8,7 +8,7 @@
         "matches": "1"
       },
       "endSz": {
-        "matches": "49\\/812\\/179\\/71G0|49\\/812\\/179\\/71G1|49\\/812\\/179\\/71G2|49\\/812\\/179\\/71G3|49\\/30\\/179\\/76H1|49\\/8571\\/0\\/76HA|49\\/911\\/1100\\/76H1"
+        "matches": "49\\/812\\/179\\/71G[0-4]{1}|49\\/30\\/179\\/76H1|49\\/8571\\/0\\/76HA|49\\/911\\/1100\\/76H1"
       }
     }
   },
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/device-resource-inventory-management/device/search-device-by-endSZ-{{replace request.query.endSz '/' '_'}}.json"
+    "bodyFileName": "rori/device-resource-inventory-management/device/depth-1/search-device-by-endSZ-{{replace request.query.endSz '/' '_'}}.json"
   }
 }

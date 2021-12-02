@@ -1,0 +1,166 @@
+[
+  {
+    "id": "1155",
+    "href": "/resource-order-resource-inventory/v5/device/1155",
+    "accessTransmissionMedium": "FIBER",
+    "asb": 1,
+    "creationDate": "2021-09-22T11:54:59.928052+02:00",
+    "description": "SDX 6320-16",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40958960",
+    "emsNbiName": "SDX 6320-16",
+    "endSz": "49/911/1100/76H5",
+    "equipmentNumber": "212880056",
+    "fsz": "76H5",
+    "importDate": "2021-09-22T11:54:59.928052+02:00",
+    "ipAddress": "0.0.0.0",
+    "klsId": "12345",
+    "manufacturer": "ADTRAN",
+    "materialNumber": "40958960",
+    "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+    "name": "SDX 6320-16 XGPON/GPON Combo OLT",
+    "resourceId": "a2cb86f3-5c0d-45c7-85df-3f4bbff3047c",
+    "shortName": "SDX6320-16",
+    "technicalLocation": "000031-000179-001-004-002-021",
+    "vpsz": "49/911/1100",
+    "containsCardsRefOrValue": [],
+    "containsPortsRefOrValue": [
+      {
+        "id": "2665",
+        "href": "/resource-order-resource-inventory/v5/port/2665",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "1",
+        "resourceId": "69a037da-b167-4c6a-bbc1-b7ca448724af",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1240",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1240",
+          "creationDate": "2021-09-22T11:54:59.928052+02:00",
+          "description": "",
+          "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40290474",
+          "emsNbiName": "T-UNISFP40290474",
+          "manufacturer": "HUAWEI",
+          "materialNumber": "40290474",
+          "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+          "name": "CWDM 80km1551nm10GB UNI MultiSFP+ Transc",
+          "resourceId": "4f1deb24-9301-4335-9c1f-73242326a48a",
+          "shortName": "n/a",
+          "parentPortEquipmentRef": {
+            "id": "2665",
+            "href": "/resource-order-resource-inventory/v5/port/2665",
+            "endSz": "49/911/1100/76H5",
+            "portName": "1",
+            "deviceType": "OLT",
+            "portType": "PON",
+            "@type": "EquipmentRef",
+            "@referredType": "Port"
+          },
+          "relatedParty": [
+            {
+              "id": "10001",
+              "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+              "role": "Owner",
+              "@baseType": "EntityRef",
+              "@type": "RelatedParty"
+            }
+          ],
+          "@type": "OpticalModuleRefOrValue"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2681",
+        "href": "/resource-order-resource-inventory/v5/port/2681",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "16",
+        "resourceId": "21cdc85b-068c-4772-8f28-2e5729c3bdf8",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1256",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1256",
+          "creationDate": "2021-09-22T11:54:59.928052+02:00",
+          "description": "",
+          "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40290474",
+          "emsNbiName": "T-UNISFP40290474",
+          "manufacturer": "HUAWEI",
+          "materialNumber": "40290474",
+          "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+          "name": "CWDM 80km1551nm10GB UNI MultiSFP+ Transc",
+          "resourceId": "0910f0f1-b01d-47e6-b091-5afe41b8c13c",
+          "shortName": "n/a",
+          "parentPortEquipmentRef": {
+            "id": "2681",
+            "href": "/resource-order-resource-inventory/v5/port/2681",
+            "endSz": "49/911/1100/76H5",
+            "portName": "1",
+            "deviceType": "OLT",
+            "portType": "ETHERNET",
+            "@type": "EquipmentRef",
+            "@referredType": "Port"
+          },
+          "relatedParty": [
+            {
+              "id": "10001",
+              "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+              "role": "Owner",
+              "@baseType": "EntityRef",
+              "@type": "RelatedParty"
+            }
+          ],
+          "@type": "OpticalModuleRefOrValue"
+        },
+        "lifeCycleState": "OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      }
+    ],
+    "deviceType": "OLT",
+    "lifeCycleState": "OPERATING",
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
+  }
+]

@@ -4,7 +4,7 @@
 		<Angebot>
           <ID>63000019725</ID>
           <Systemkenner>63</Systemkenner>
-          <Geschaeftsfall>Produktwechsel</Geschaeftsfall>
+          <Geschaeftsfall>Umzug</Geschaeftsfall>
           <PreisbildungsdatumFuerZubuchpositionen>2019-07-01</PreisbildungsdatumFuerZubuchpositionen>
           <Uebernahmekenner>true</Uebernahmekenner>
           <Waehrung>EUR</Waehrung>
@@ -15,7 +15,7 @@
           <Auftraggeberkennzeichen>1</Auftraggeberkennzeichen>
           <Wunschtermin>2010-03-30</Wunschtermin>
           <AssignmentKategorie>a</AssignmentKategorie>
-          <Kundennummer>1234654322</Kundennummer>
+          <Kundennummer>1234654345</Kundennummer>
           <Vertriebspunktnummer>U-12345</Vertriebspunktnummer>
           <VertriebsOrganisationsNummer>a</VertriebsOrganisationsNummer>
 			<KundenPLZ>
@@ -173,7 +173,7 @@
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
             <Montagewunsch>false</Montagewunsch>
-			<VertragsID>TB0019111801</VertragsID>
+			<VertragsID>123456789012</VertragsID>
 			<Klammerinformation>
 			<Konfiguration>100000000000001</Konfiguration>
 			</Klammerinformation>
@@ -256,6 +256,13 @@
 						<istSichtbar>true</istSichtbar>
 						<istEditierbar>true</istEditierbar>
 					</Parameter>
+					<Parameter>
+                      <ID>0000000001</ID>
+                      <Wert>11111111</Wert>
+                  </Parameter>
+					<Parameter>
+                      <ID>0000000004</ID>
+                  </Parameter>
 					<Parameter>
                       <ID>0000000005</ID>
                   </Parameter>

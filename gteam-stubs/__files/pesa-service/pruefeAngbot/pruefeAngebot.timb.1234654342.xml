@@ -15,7 +15,7 @@
           <Auftraggeberkennzeichen>1</Auftraggeberkennzeichen>
           <Wunschtermin>2010-03-30</Wunschtermin>
           <AssignmentKategorie>a</AssignmentKategorie>
-          <Kundennummer>1234654322</Kundennummer>
+          <Kundennummer>1234654342</Kundennummer>
           <Vertriebspunktnummer>U-12345</Vertriebspunktnummer>
           <VertriebsOrganisationsNummer>a</VertriebsOrganisationsNummer>
 			<KundenPLZ>
@@ -78,7 +78,7 @@
                           </KonditionsbildendeParameter>
                       </Kondition>
                   </Konditionsalternative>
-	<Parameter>
+	              <Parameter>
                       <ID>8</ID>
 					  <Wert>88888888</Wert>
                   </Parameter>
@@ -241,28 +241,115 @@
                           </KonditionsbildendeParameter>
                     </Kondition>
                 </Konditionsalternative>
+				<Parameter>
+                      <ID>1</ID>
+					  <Wert>11111111</Wert>
+                  </Parameter>
+				<Parameter>
+                      <ID>4</ID>
+                  </Parameter>
+				<Parameter>
+                      <ID>5</ID>
+                  </Parameter>
+							  <Parameter>
+                      <ID>0000000089</ID>
+                      <Wert>067</Wert>
+                  </Parameter>
                 <istStandortlos>false</istStandortlos>
 			   <Parameter>
                     <ID>parameter_parameterId of Anschluss product</ID>
 					<Name>parameter_name of Anschluss product</Name>
 					<Wert>parameter_value of Anschluss product</Wert>
                 </Parameter>
-				<Parameter>
-						<ID>2</ID>
-						<Name>Speicherart TDSV §7</Name>
-						<Art>P</Art>
-						<Aktion>neu</Aktion>
-						<istPflicht>true</istPflicht>
-						<istSichtbar>true</istSichtbar>
-						<istEditierbar>true</istEditierbar>
-					</Parameter>
-					<Parameter>
-                      <ID>0000000005</ID>
-                  </Parameter>
-							  <Parameter>
-                      <ID>0000000089</ID>
-                      <Wert>067</Wert>
-                  </Parameter>
+            </Produkt>
+            <Beauftragungsschritte>
+                  <Verzeichniseintrag>false</Verzeichniseintrag>
+                  <Leitungsreservierung>false</Leitungsreservierung>
+                  <Rufnummernbuchung>false</Rufnummernbuchung>
+                  <Bonitaetspruefung>false</Bonitaetspruefung>
+                  <Versandadresspruefung>false</Versandadresspruefung>
+                  <Altersverifikation>false</Altersverifikation>
+                  <Lastschriftverfahren>false</Lastschriftverfahren>
+              </Beauftragungsschritte>
+        </Angebotsposition>
+		  <Angebotsposition>
+            <Angebotspositionsnummer>100000000000002</Angebotspositionsnummer>
+            <Aktion>neu</Aktion>
+            <Preisbildungsdatum>2019-09-01</Preisbildungsdatum>
+            <Menge>1</Menge>
+            <MengenEinheit>ST</MengenEinheit>
+            <Montagewunsch>false</Montagewunsch>
+			<VertragsID>TB0019111801</VertragsID>
+            <Produkt>
+                <ID>55555555</ID>
+                <Name>Name of Endeinrichtung product</Name>
+                <Typ>Endeinrichtung</Typ>
+				<Subtyp>IP</Subtyp>
+                <Konditionsalternative>
+                    <ID>12</ID>
+                    <Kondition>
+                        <ID>1234</ID>
+                        <KonditionsArt>ZK01</KonditionsArt>
+						<KonditionsbeschreibendeParameter>
+                              <Bruttopreis>10.0</Bruttopreis>
+                              <Langtext>String</Langtext>
+                              <Nettopreis>0.0</Nettopreis>
+                              <Preiseinheit>a</Preiseinheit>
+                              <Preisliste>03</Preisliste>
+                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
+                              <Waehrung>EUR</Waehrung>
+                          </KonditionsbeschreibendeParameter>
+							<Basiskonditionen>
+                              <Kuendigungsfrist>0</Kuendigungsfrist>
+                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
+                              <MietzeitMaximum>0</MietzeitMaximum>
+                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
+                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
+                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
+                              <Vertragslaufzeit>a</Vertragslaufzeit>
+                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
+                              <Vertriebsweg>58</Vertriebsweg>
+                          </Basiskonditionen>
+							<KonditionsbildendeParameter>
+                              <Konditionsfall>x</Konditionsfall>
+                              <Zahlungsintervall>x</Zahlungsintervall>
+                          </KonditionsbildendeParameter>
+                    </Kondition>
+					<Kondition>
+                        <ID>5678</ID>
+                        <KonditionsArt>ZK02</KonditionsArt>
+						<KonditionsbeschreibendeParameter>
+                              <Bruttopreis>20.0</Bruttopreis>
+                              <Langtext>String</Langtext>
+                              <Nettopreis>0.0</Nettopreis>
+                              <Preiseinheit>a</Preiseinheit>
+                              <Preisliste>03</Preisliste>
+                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
+                              <Waehrung>EUR</Waehrung>
+                          </KonditionsbeschreibendeParameter>
+							<Basiskonditionen>
+                              <Kuendigungsfrist>0</Kuendigungsfrist>
+                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
+                              <MietzeitMaximum>0</MietzeitMaximum>
+                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
+                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
+                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
+                              <Vertragslaufzeit>a</Vertragslaufzeit>
+                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
+                              <Vertriebsweg>58</Vertriebsweg>
+                          </Basiskonditionen>
+							<KonditionsbildendeParameter>
+                              <Konditionsfall>x</Konditionsfall>
+                              <Zahlungsintervall>x</Zahlungsintervall>
+                          </KonditionsbildendeParameter>
+                    </Kondition>
+                </Konditionsalternative>
+                <istStandortlos>false</istStandortlos>
+			   <Parameter>
+                    <ID>parameter_parameterId of Endeinrichtung product</ID>
+					<Name>parameter_name of Endeinrichtung product</Name>
+					<Wert>parameter_value of Endeinrichtung product</Wert>
+                </Parameter>
             </Produkt>
             <Beauftragungsschritte>
                   <Verzeichniseintrag>false</Verzeichniseintrag>
@@ -277,7 +364,65 @@
 		  <Angebotsposition>
             <Angebotspositionsnummer>100000000000003</Angebotspositionsnummer>
             <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
+			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
+            <Menge>1</Menge>
+            <MengenEinheit>ST</MengenEinheit>
+            <Montagewunsch>false</Montagewunsch>
+            <Produkt>
+                <ID>50034893</ID>
+                <Name>HomeID</Name>
+                <Typ>LM-/LM-Paket</Typ>
+                <Konditionsalternative>
+                    <ID>1</ID>
+                    <Kondition>
+                        <ID>1001427745</ID>
+                        <KonditionsArt>ZK01</KonditionsArt>
+						<KonditionsbeschreibendeParameter>
+                              <Bruttopreis>30.0</Bruttopreis>
+                              <Langtext>String</Langtext>
+                              <Nettopreis>0.0</Nettopreis>
+                              <Preiseinheit>a</Preiseinheit>
+                              <Preisliste>03</Preisliste>
+                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
+                              <Waehrung>EUR</Waehrung>
+                          </KonditionsbeschreibendeParameter>
+							<Basiskonditionen>
+                              <Kuendigungsfrist>0</Kuendigungsfrist>
+                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
+                              <MietzeitMaximum>0</MietzeitMaximum>
+                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
+                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
+                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
+                              <Vertragslaufzeit>a</Vertragslaufzeit>
+                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
+                              <Vertriebsweg>58</Vertriebsweg>
+                          </Basiskonditionen>
+							<KonditionsbildendeParameter>
+                              <Konditionsfall>x</Konditionsfall>
+                              <Zahlungsintervall>x</Zahlungsintervall>
+                          </KonditionsbildendeParameter>
+                    </Kondition>
+                </Konditionsalternative>
+                <Parameter>
+                    <ID>2239</ID>
+                </Parameter>
+                <istStandortlos>false</istStandortlos>
+            </Produkt>
+            <Beauftragungsschritte>
+                  <Verzeichniseintrag>false</Verzeichniseintrag>
+                  <Leitungsreservierung>false</Leitungsreservierung>
+                  <Rufnummernbuchung>false</Rufnummernbuchung>
+                  <Bonitaetspruefung>false</Bonitaetspruefung>
+                  <Versandadresspruefung>false</Versandadresspruefung>
+                  <Altersverifikation>false</Altersverifikation>
+                  <Lastschriftverfahren>false</Lastschriftverfahren>
+              </Beauftragungsschritte>
+          </Angebotsposition>
+		  <Angebotsposition>
+            <Angebotspositionsnummer>100000000000004</Angebotspositionsnummer>
+            <Aktion>neu</Aktion>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
 			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
@@ -335,7 +480,7 @@
 		  <Angebotsposition>
             <Angebotspositionsnummer>100000000000005</Angebotspositionsnummer>
             <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
             <Montagewunsch>false</Montagewunsch>
@@ -416,10 +561,71 @@
                   <Lastschriftverfahren>false</Lastschriftverfahren>
               </Beauftragungsschritte>
         </Angebotsposition>
-		<Angebotsposition>
-            <Angebotspositionsnummer>100000000000004</Angebotspositionsnummer>
+		  <Angebotsposition>
+            <Angebotspositionsnummer>100000000000006</Angebotspositionsnummer>
             <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
+			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
+            <Menge>1</Menge>
+            <MengenEinheit>ST</MengenEinheit>
+            <Montagewunsch>false</Montagewunsch>
+            <Produkt>
+                <ID>40862698</ID>
+                <Name>ONT-TAN Versand</Name>
+                <Typ>Endeinrichtung</Typ>
+                <Konditionsalternative>
+                    <ID>1</ID>
+                    <Kondition>
+                        <ID>1001427743</ID>
+                        <KonditionsArt>ZK01</KonditionsArt>
+						<KonditionsbeschreibendeParameter>
+                              <Bruttopreis>40.0</Bruttopreis>
+                              <Langtext>String</Langtext>
+                              <Nettopreis>0.0</Nettopreis>
+                              <Preiseinheit>a</Preiseinheit>
+                              <Preisliste>03</Preisliste>
+                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
+                              <Waehrung>EUR</Waehrung>
+                          </KonditionsbeschreibendeParameter>
+							<Basiskonditionen>
+                              <Kuendigungsfrist>0</Kuendigungsfrist>
+                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
+                              <MietzeitMaximum>0</MietzeitMaximum>
+                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
+                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
+                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
+                              <Vertragslaufzeit>a</Vertragslaufzeit>
+                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
+                              <Vertriebsweg>58</Vertriebsweg>
+                          </Basiskonditionen>
+							<KonditionsbildendeParameter>
+                              <Konditionsfall>x</Konditionsfall>
+                              <Zahlungsintervall>x</Zahlungsintervall>
+                          </KonditionsbildendeParameter>
+                    </Kondition>
+                </Konditionsalternative>
+                <Parameter>
+                    <ID>2477</ID>
+                </Parameter>
+				<Parameter>
+                    <ID>2478</ID>
+                </Parameter>
+                <istStandortlos>false</istStandortlos>
+            </Produkt>
+            <Beauftragungsschritte>
+                  <Verzeichniseintrag>false</Verzeichniseintrag>
+                  <Leitungsreservierung>false</Leitungsreservierung>
+                  <Rufnummernbuchung>false</Rufnummernbuchung>
+                  <Bonitaetspruefung>false</Bonitaetspruefung>
+                  <Versandadresspruefung>false</Versandadresspruefung>
+                  <Altersverifikation>false</Altersverifikation>
+                  <Lastschriftverfahren>false</Lastschriftverfahren>
+              </Beauftragungsschritte>
+        </Angebotsposition>
+		<Angebotsposition>
+            <Angebotspositionsnummer>100000000000007</Angebotspositionsnummer>
+            <Aktion>neu</Aktion>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
 			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
@@ -472,14 +678,68 @@
               </Beauftragungsschritte>
           </Angebotsposition>
 		  <Angebotsposition>
-            <Angebotspositionsnummer>100000000000006</Angebotspositionsnummer>
+            <Angebotspositionsnummer>100000000000008</Angebotspositionsnummer>
             <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>	
+			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
+            <Menge>1</Menge>
+            <MengenEinheit>ST</MengenEinheit>
+            <Montagewunsch>false</Montagewunsch>
+            <Produkt>
+                <ID>89760747</ID>
+                <Name>Fiber 50</Name>
+                <Konditionsalternative>
+                    <ID>1</ID>
+                    <Kondition>
+                        <ID>2001476368</ID>
+                        <KonditionsArt>ZK01</KonditionsArt>
+						<KonditionsbeschreibendeParameter>
+                              <Bruttopreis>110.0</Bruttopreis>
+                              <Langtext>String</Langtext>
+                              <Nettopreis>0.0</Nettopreis>
+                              <Preiseinheit>a</Preiseinheit>
+                              <Preisliste>03</Preisliste>
+                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
+                              <Waehrung>EUR</Waehrung>
+                          </KonditionsbeschreibendeParameter>
+							<Basiskonditionen>
+                              <Kuendigungsfrist>0</Kuendigungsfrist>
+                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
+                              <MietzeitMaximum>0</MietzeitMaximum>
+                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
+                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
+                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
+                              <Vertragslaufzeit>a</Vertragslaufzeit>
+                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
+                              <Vertriebsweg>58</Vertriebsweg>
+                          </Basiskonditionen>
+							<KonditionsbildendeParameter>
+                              <Konditionsfall>x</Konditionsfall>
+                              <Zahlungsintervall>x</Zahlungsintervall>
+                          </KonditionsbildendeParameter>
+                    </Kondition>
+                </Konditionsalternative>
+                <istStandortlos>false</istStandortlos>
+            </Produkt>
+            <Beauftragungsschritte>
+                  <Verzeichniseintrag>false</Verzeichniseintrag>
+                  <Leitungsreservierung>false</Leitungsreservierung>
+                  <Rufnummernbuchung>false</Rufnummernbuchung>
+                  <Bonitaetspruefung>false</Bonitaetspruefung>
+                  <Versandadresspruefung>false</Versandadresspruefung>
+                  <Altersverifikation>false</Altersverifikation>
+                  <Lastschriftverfahren>false</Lastschriftverfahren>
+              </Beauftragungsschritte>
+          </Angebotsposition>
+		  <Angebotsposition>
+            <Angebotspositionsnummer>100000000000009</Angebotspositionsnummer>
+            <Aktion>neu</Aktion>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
             <Montagewunsch>false</Montagewunsch>
 			<Klammerinformation>
-			<Konfiguration>100000000000001</Konfiguration>
+			<Konfiguration>100000000000002</Konfiguration>
 			</Klammerinformation>
             <Produkt>
                 <ID>89843281</ID>
@@ -532,63 +792,9 @@
               </Beauftragungsschritte>
           </Angebotsposition> 
 		  <Angebotsposition>
-            <Angebotspositionsnummer>100000000000007</Angebotspositionsnummer>
+            <Angebotspositionsnummer>100000000000010</Angebotspositionsnummer>
             <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>	
-			<uebergeordneteAngebotspositionsnummer>100000000000001</uebergeordneteAngebotspositionsnummer>
-            <Menge>1</Menge>
-            <MengenEinheit>ST</MengenEinheit>
-            <Montagewunsch>false</Montagewunsch>
-            <Produkt>
-                <ID>89760747</ID>
-                <Name>Fiber 50</Name>
-                <Konditionsalternative>
-                    <ID>1</ID>
-                    <Kondition>
-                        <ID>2001476368</ID>
-                        <KonditionsArt>ZK01</KonditionsArt>
-						<KonditionsbeschreibendeParameter>
-                              <Bruttopreis>110.0</Bruttopreis>
-                              <Langtext>String</Langtext>
-                              <Nettopreis>0.0</Nettopreis>
-                              <Preiseinheit>a</Preiseinheit>
-                              <Preisliste>03</Preisliste>
-                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
-                              <Waehrung>EUR</Waehrung>
-                          </KonditionsbeschreibendeParameter>
-							<Basiskonditionen>
-                              <Kuendigungsfrist>0</Kuendigungsfrist>
-                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
-                              <MietzeitMaximum>0</MietzeitMaximum>
-                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
-                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
-                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
-                              <Vertragslaufzeit>a</Vertragslaufzeit>
-                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
-                              <Vertriebsweg>58</Vertriebsweg>
-                          </Basiskonditionen>
-							<KonditionsbildendeParameter>
-                              <Konditionsfall>x</Konditionsfall>
-                              <Zahlungsintervall>x</Zahlungsintervall>
-                          </KonditionsbildendeParameter>
-                    </Kondition>
-                </Konditionsalternative>
-                <istStandortlos>false</istStandortlos>
-            </Produkt>
-            <Beauftragungsschritte>
-                  <Verzeichniseintrag>false</Verzeichniseintrag>
-                  <Leitungsreservierung>false</Leitungsreservierung>
-                  <Rufnummernbuchung>false</Rufnummernbuchung>
-                  <Bonitaetspruefung>false</Bonitaetspruefung>
-                  <Versandadresspruefung>false</Versandadresspruefung>
-                  <Altersverifikation>false</Altersverifikation>
-                  <Lastschriftverfahren>false</Lastschriftverfahren>
-              </Beauftragungsschritte>
-          </Angebotsposition>
-		  <Angebotsposition>
-            <Angebotspositionsnummer>100000000000008</Angebotspositionsnummer>
-            <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
+            <Preisbildungsdatum>2019-08-01</Preisbildungsdatum>
             <Menge>1</Menge>
             <MengenEinheit>ST</MengenEinheit>
             <Montagewunsch>false</Montagewunsch>

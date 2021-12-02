@@ -15,7 +15,7 @@
           <Auftraggeberkennzeichen>1</Auftraggeberkennzeichen>
           <Wunschtermin>2010-03-30</Wunschtermin>
           <AssignmentKategorie>a</AssignmentKategorie>
-          <Kundennummer>1234654320</Kundennummer>
+          <Kundennummer>1234654321</Kundennummer>
           <Vertriebspunktnummer>U-12345</Vertriebspunktnummer>
           <VertriebsOrganisationsNummer>a</VertriebsOrganisationsNummer>
 			<KundenPLZ>
@@ -105,90 +105,6 @@
 					<Name>parameter_name of Endeinrichtung product</Name>
 					<Wert>parameter_value of Endeinrichtung product</Wert>
                 </Parameter>
-            </Produkt>
-            <Beauftragungsschritte>
-                  <Verzeichniseintrag>false</Verzeichniseintrag>
-                  <Leitungsreservierung>false</Leitungsreservierung>
-                  <Rufnummernbuchung>false</Rufnummernbuchung>
-                  <Bonitaetspruefung>false</Bonitaetspruefung>
-                  <Versandadresspruefung>false</Versandadresspruefung>
-                  <Altersverifikation>false</Altersverifikation>
-                  <Lastschriftverfahren>false</Lastschriftverfahren>
-              </Beauftragungsschritte>
-        </Angebotsposition>
-          <Angebotsposition>
-            <Angebotspositionsnummer>100000000000002</Angebotspositionsnummer>
-            <Aktion>neu</Aktion>
-            <Preisbildungsdatum>2019-07-01</Preisbildungsdatum>
-            <Menge>1</Menge>
-            <MengenEinheit>ST</MengenEinheit>
-            <Montagewunsch>false</Montagewunsch>
-            <Produkt>
-                <ID>89700068</ID>
-				<Name>RECHNUNG ONLINE</Name>
-                <Konditionsalternative>
-                    <ID>1</ID>
-                    <Kondition>
-                        <ID>1000000173</ID>
-                        <KonditionsArt>ZK01</KonditionsArt>
-						<KonditionsbeschreibendeParameter>
-                              <Bruttopreis>0.0</Bruttopreis>
-                              <Langtext>String</Langtext>
-                              <Nettopreis>0.0</Nettopreis>
-                              <Preiseinheit>a</Preiseinheit>
-                              <Preisliste>03</Preisliste>
-                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
-                              <Waehrung>EUR</Waehrung>
-                          </KonditionsbeschreibendeParameter>
-							<Basiskonditionen>
-                              <Kuendigungsfrist>0</Kuendigungsfrist>
-                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
-                              <MietzeitMaximum>0</MietzeitMaximum>
-                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
-                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
-                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
-                              <Vertragslaufzeit>a</Vertragslaufzeit>
-                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
-                              <Vertriebsweg>58</Vertriebsweg>
-                          </Basiskonditionen>
-							<KonditionsbildendeParameter>
-                              <Konditionsfall>x</Konditionsfall>
-                              <Zahlungsintervall>x</Zahlungsintervall>
-                          </KonditionsbildendeParameter>
-                    </Kondition>
-                    <Kondition>
-                        <ID>1000000174</ID>
-                        <KonditionsArt>ZK02</KonditionsArt>
-						<KonditionsbeschreibendeParameter>
-                              <Bruttopreis>0.0</Bruttopreis>
-                              <Langtext>String</Langtext>
-                              <Nettopreis>0.0</Nettopreis>
-                              <Preiseinheit>a</Preiseinheit>
-                              <Preisliste>03</Preisliste>
-                              <Preislistenkennzeichen>03</Preislistenkennzeichen>
-                              <Waehrung>EUR</Waehrung>
-                          </KonditionsbeschreibendeParameter>
-							<Basiskonditionen>
-                              <Kuendigungsfrist>0</Kuendigungsfrist>
-                              <KuendigungsfristEinheit>JHR</KuendigungsfristEinheit>
-                              <MietzeitMaximum>0</MietzeitMaximum>
-                              <MietzeitMaximumEinheit>JHR</MietzeitMaximumEinheit>
-                              <Verlaengerungsfrist>0</Verlaengerungsfrist>
-                              <VerlaengerungsfristEinheit>JHR</VerlaengerungsfristEinheit>
-                              <Vertragslaufzeit>a</Vertragslaufzeit>
-                              <VertragslaufzeitEinheit>JHR</VertragslaufzeitEinheit>
-                              <Vertriebsweg>58</Vertriebsweg>
-                          </Basiskonditionen>
-							<KonditionsbildendeParameter>
-                              <Konditionsfall>x</Konditionsfall>
-                              <Zahlungsintervall>x</Zahlungsintervall>
-                          </KonditionsbildendeParameter>
-                    </Kondition>
-                </Konditionsalternative>
-                <Parameter>
-                    <ID>528</ID>
-                </Parameter>
-                <istStandortlos>false</istStandortlos>
             </Produkt>
             <Beauftragungsschritte>
                   <Verzeichniseintrag>false</Verzeichniseintrag>

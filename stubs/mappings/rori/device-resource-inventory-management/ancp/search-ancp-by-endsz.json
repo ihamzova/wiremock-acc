@@ -2,9 +2,9 @@
   "priority": 2,
   "request": {
     "method": "GET",
-    "urlPath": "/api/oltResourceInventory/v1/olt",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
     "queryParameters": {
-      "endSZ": {
+      "accessNodeEquipmentBusinessRef.endSz": {
         "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1-5]{1}$|49\\/8571\\/0\\/76HA|49\\/8571\\/0\\/76Z7|49\\/8571\\/0\\/76Z5"
       }
     }
@@ -14,6 +14,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/olt-resource-inventory/device/endSz/search-olt-device-by-endSZ-{{replace request.query.endSZ '/' '_'}}.json"
+    "bodyFileName": "rori/device-resource-inventory-management/ancp/{{replace request.query.endSz '/' '_'}}.json"
   }
 }

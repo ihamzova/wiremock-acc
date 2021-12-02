@@ -1,0 +1,25 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/card",
+    "queryParameters": {
+      "parentDeviceEquipmentRef.endSz": {
+        "equalTo": "49/30/179/76H2"
+      },
+      "slotName": {
+        "matches": "11|18|1"
+      },
+      "depth": {
+        "matches": "1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/card/{{replace request.query.parentDeviceEquipmentRef.endSz '/' '_'}}/slot_{{request.query.slotName}}.json"
+  }
+}

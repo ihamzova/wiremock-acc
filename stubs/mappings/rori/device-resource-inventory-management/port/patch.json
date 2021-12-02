@@ -1,0 +1,50 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/resource-order-resource-inventory/v5/port/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath" : "[?(@.op == 'replace')]"
+      },
+      {
+        "matchesJsonPath" : "[?(@.path == '/lifeCycleState')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "{{request.path.[3]}}",
+      "href": "/resource-order-resource-inventory/v5/port/0000",
+      "creationDate": "2021-02-03T15:07:59.449882+01:00",
+      "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+      "portName": "0",
+      "resourceId": "732b9db1-5c32-4d1a-948c-ae21f2f47b25",
+      "lifeCycleState": "NOT_OPERATING",
+      "parentEquipmentRef": {
+        "id": "0000",
+        "href": "/resource-order-resource-inventory/v5/card/0000",
+        "endSz": "00/000/0/76H0",
+        "slotName": "0",
+        "deviceType": "OLT",
+        "@type": "EquipmentRef",
+        "@referredType": "Card"
+      },
+      "portType": "PON",
+      "relatedParty": [
+        {
+          "id": "10001",
+          "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+          "role": "Owner",
+          "@baseType": "EntityRef",
+          "@type": "RelatedParty"
+        }
+      ],
+      "@baseType": "PhysicalResource",
+      "@type": "Port"
+    }
+  }
+}

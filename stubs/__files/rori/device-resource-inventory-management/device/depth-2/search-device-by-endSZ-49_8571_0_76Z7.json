@@ -1,0 +1,664 @@
+[
+  {
+    "id": "1063",
+    "href": "/resource-order-resource-inventory/v5/device/1063",
+    "accessTransmissionMedium": "FIBER",
+    "asb": 1,
+    "creationDate": "2021-02-03T15:07:59.449882+01:00",
+    "description": "ETSI Service Shelf H8-MABC",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+    "emsNbiName": "MA5600T",
+    "endSz": "49/8571/0/76Z7",
+    "equipmentNumber": "212880011",
+    "firmwareVersion": "MA5600V800R016C00",
+    "fsz": "76Z7",
+    "importDate": "2020-09-07T11:56:18.533+02:00",
+    "ipAddress": "192.168.20.140",
+    "klsId": "17056514",
+    "lastDiscovery": "2020-09-07T11:55:45.022+02:00",
+    "manufacturer": "HUAWEI",
+    "materialNumber": "40247069",
+    "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+    "name": "ETSI Service Shelf H8-MABC",
+    "resourceId": "801880a6-3abe-4725-93e4-eda4ce1fd314",
+    "shortName": "MABC VB",
+    "technicalLocation": "000031-000000-001-004-002-021",
+    "vpsz": "49/8571/0",
+    "containsCardsRefOrValue": [
+      {
+        "id": "1016",
+        "href": "/resource-order-resource-inventory/v5/card/1016",
+        "creationDate": "2021-02-03T15:07:59.449882+01:00",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "emsNbiName": "H807GPBH",
+        "equipmentNumber": "212880063",
+        "firmwareVersion": "507(2015-8-27)",
+        "lastDiscovery": "2020-09-07T11:55:45.022+02:00",
+        "manufacturer": "HUAWEI",
+        "materialNumber": "40294954",
+        "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+        "name": "8-port GPON OLT Interface Board V3",
+        "resourceId": "15044b4c-3802-4a25-b4ad-712dd00b7b1d",
+        "serialNumber": "022MLNCNF2000512",
+        "shortName": "GPBH",
+        "slotName": "4",
+        "cardType": "GPON",
+        "containsPortsRefOrValue": [
+          {
+            "id": "1476",
+            "href": "/resource-order-resource-inventory/v5/port/1476",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-08-02T10:06:44.333453+02:00",
+            "portName": "7",
+            "resourceId": "c7a657d5-7c45-442d-9b8e-b5db4433efdf",
+            "lifeCycleState": "INSTALLING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1475",
+            "href": "/resource-order-resource-inventory/v5/port/1475",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "6",
+            "resourceId": "cd88fc6f-644b-4684-b8e6-8b8d2139312b",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1474",
+            "href": "/resource-order-resource-inventory/v5/port/1474",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "5",
+            "resourceId": "8cb25bbe-4094-4b7a-a44e-fbbc86887b7a",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1473",
+            "href": "/resource-order-resource-inventory/v5/port/1473",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "4",
+            "resourceId": "23288b5c-3a08-42fb-89e5-5a8c66c08e10",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1470",
+            "href": "/resource-order-resource-inventory/v5/port/1470",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "1",
+            "resourceId": "e051446e-8ae8-4225-a873-a46804d89a67",
+            "lifeCycleState": "INSTALLING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1472",
+            "href": "/resource-order-resource-inventory/v5/port/1472",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "3",
+            "resourceId": "afa4657d-3876-42de-b1a2-87fd2e112fa7",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1471",
+            "href": "/resource-order-resource-inventory/v5/port/1471",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "2",
+            "resourceId": "2dbfb266-9859-4238-8c4c-61cb6382fc93",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1469",
+            "href": "/resource-order-resource-inventory/v5/port/1469",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "0",
+            "resourceId": "bfda0f97-a5d8-4bfd-a8e2-77319e747ea6",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1016",
+              "href": "/resource-order-resource-inventory/v5/card/1016",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "4",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "PON",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          }
+        ],
+        "parentDeviceEquipmentRef": {
+          "id": "1063",
+          "href": "/resource-order-resource-inventory/v5/device/1063",
+          "endSz": "49/8571/0/76Z7",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "relatedParty": [
+          {
+            "id": "10000",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "CardRefOrValue"
+      },
+      {
+        "id": "1018",
+        "href": "/resource-order-resource-inventory/v5/card/1018",
+        "creationDate": "2021-02-03T15:07:59.449882+01:00",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247071",
+        "emsNbiName": "H801SCUN",
+        "equipmentNumber": "212880056",
+        "firmwareVersion": "MA5600V800R016C00",
+        "lastDiscovery": "2020-09-07T11:55:45.022+02:00",
+        "manufacturer": "HUAWEI",
+        "materialNumber": "40247071",
+        "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+        "name": "Super Control Unit Board SCUN",
+        "resourceId": "5f2c9cfe-b462-42a8-bad5-6a88a438426c",
+        "serialNumber": "020KAX4MD3003272",
+        "shortName": "SCUN",
+        "slotName": "9",
+        "cardType": "MANAGEMENT_CARD",
+        "containsPortsRefOrValue": [
+          {
+            "id": "1488",
+            "href": "/resource-order-resource-inventory/v5/port/1488",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "3",
+            "resourceId": "5fcbd316-b189-4ee9-a1f1-6c1fd01a68e6",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1018",
+              "href": "/resource-order-resource-inventory/v5/card/1018",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "9",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1487",
+            "href": "/resource-order-resource-inventory/v5/port/1487",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "2",
+            "resourceId": "b58691d8-6f9d-483d-a6bd-e85a437e0bbb",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1018",
+              "href": "/resource-order-resource-inventory/v5/card/1018",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "9",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1486",
+            "href": "/resource-order-resource-inventory/v5/port/1486",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "1",
+            "resourceId": "cb51b4c9-ee1a-43a5-a179-68638f194663",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1018",
+              "href": "/resource-order-resource-inventory/v5/card/1018",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "9",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1485",
+            "href": "/resource-order-resource-inventory/v5/port/1485",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "0",
+            "resourceId": "61e821c6-4f67-4245-a986-87eb5bfbf89d",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1018",
+              "href": "/resource-order-resource-inventory/v5/card/1018",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "9",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          }
+        ],
+        "parentDeviceEquipmentRef": {
+          "id": "1063",
+          "href": "/resource-order-resource-inventory/v5/device/1063",
+          "endSz": "49/8571/0/76Z7",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "relatedParty": [
+          {
+            "id": "10000",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "CardRefOrValue"
+      },
+      {
+        "id": "1019",
+        "href": "/resource-order-resource-inventory/v5/card/1019",
+        "creationDate": "2021-02-03T15:07:59.449882+01:00",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+        "emsNbiName": "H801X2CS",
+        "equipmentNumber": "212880062",
+        "firmwareVersion": "154(2015-7-1)",
+        "lastDiscovery": "2020-09-07T11:55:45.022+02:00",
+        "manufacturer": "HUAWEI",
+        "materialNumber": "40247074",
+        "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+        "name": "10GE SFP+ Optical Interface Unit Board",
+        "resourceId": "3432c438-1e6a-488c-8bfc-bb8bfadeb9a4",
+        "serialNumber": "020KKPW0B7000098",
+        "shortName": "X2CS",
+        "slotName": "19",
+        "cardType": "UPLINK_CARD",
+        "containsPortsRefOrValue": [
+          {
+            "id": "1489",
+            "href": "/resource-order-resource-inventory/v5/port/1489",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "0",
+            "resourceId": "aefc10e8-2c1f-4db5-89a0-ac2c4f31ff52",
+            "lifeCycleState": "OPERATING",
+            "parentEquipmentRef": {
+              "id": "1019",
+              "href": "/resource-order-resource-inventory/v5/card/1019",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "19",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1490",
+            "href": "/resource-order-resource-inventory/v5/port/1490",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "1",
+            "resourceId": "76dd6bb3-3d7e-455f-9f04-2770bc9c70a3",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1019",
+              "href": "/resource-order-resource-inventory/v5/card/1019",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "19",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          }
+        ],
+        "parentDeviceEquipmentRef": {
+          "id": "1063",
+          "href": "/resource-order-resource-inventory/v5/device/1063",
+          "endSz": "49/8571/0/76Z7",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "relatedParty": [
+          {
+            "id": "10000",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "CardRefOrValue"
+      },
+      {
+        "id": "1020",
+        "href": "/resource-order-resource-inventory/v5/card/1020",
+        "creationDate": "2021-02-03T15:07:59.449882+01:00",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+        "emsNbiName": "H801X2CS",
+        "equipmentNumber": "212880059",
+        "firmwareVersion": "154(2015-7-1)",
+        "lastDiscovery": "2020-09-07T11:55:45.022+02:00",
+        "manufacturer": "HUAWEI",
+        "materialNumber": "40247074",
+        "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+        "name": "10GE SFP+ Optical Interface Unit Board",
+        "resourceId": "4c4979fa-c212-4fd0-9a2a-81bbe78ec9bb",
+        "serialNumber": "020KKPW0BA000080",
+        "shortName": "X2CS",
+        "slotName": "20",
+        "cardType": "UPLINK_CARD",
+        "containsPortsRefOrValue": [
+          {
+            "id": "1492",
+            "href": "/resource-order-resource-inventory/v5/port/1492",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "1",
+            "resourceId": "a5e239c5-4c1e-426f-8da4-20e9c8fa32e7",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1020",
+              "href": "/resource-order-resource-inventory/v5/card/1020",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "20",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          },
+          {
+            "id": "1491",
+            "href": "/resource-order-resource-inventory/v5/port/1491",
+            "creationDate": "2021-02-03T15:07:59.449882+01:00",
+            "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+            "portName": "0",
+            "resourceId": "0bedc534-7bdb-4699-aa22-93143110f372",
+            "lifeCycleState": "NOT_OPERATING",
+            "parentEquipmentRef": {
+              "id": "1020",
+              "href": "/resource-order-resource-inventory/v5/card/1020",
+              "endSz": "49/8571/0/76Z7",
+              "slotName": "20",
+              "deviceType": "OLT",
+              "@type": "EquipmentRef",
+              "@referredType": "Card"
+            },
+            "portType": "ETHERNET",
+            "relatedParty": [
+              {
+                "id": "10000",
+                "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+                "role": "Owner",
+                "@baseType": "EntityRef",
+                "@type": "RelatedParty"
+              }
+            ],
+            "@type": "PortRefOrValue"
+          }
+        ],
+        "parentDeviceEquipmentRef": {
+          "id": "1063",
+          "href": "/resource-order-resource-inventory/v5/device/1063",
+          "endSz": "49/8571/0/76Z7",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "relatedParty": [
+          {
+            "id": "10000",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "CardRefOrValue"
+      }
+    ],
+    "containsPortsRefOrValue": [],
+    "deviceType": "OLT",
+    "lifeCycleState": "OPERATING",
+    "relatedParty": [
+      {
+        "id": "10000",
+        "href": "http://apigw:80/party/v2/partyManagement/organizations/10000",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
+  }
+]

@@ -1,7 +1,8 @@
-<tns:leseVertragResponse xmlns:tns="http://leseVertrag_v10.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseVertragResponse xmlns:tns="http://leseVertrag_v08.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>123456789011</tns:id>
+			<tns:id>123456789013</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>
@@ -14,7 +15,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654321</tns:nummer>
+				<tns:nummer>2000000004</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -127,14 +128,6 @@
 					<tns:id>8</tns:id>
 				</tns:attributId>
 			</tns:parameter>
-			<tns:parameter>
-				<tns:name>ONKZ</tns:name>
-				<tns:wert>067</tns:wert>
-				<tns:art>P</tns:art>
-				<tns:attributId>
-					<tns:id>0000000089</tns:id>
-				</tns:attributId>
-			</tns:parameter>
 			<tns:kondition>
 				<tns:id>0001000000</tns:id>
 				<tns:art>ZK01</tns:art>
@@ -162,7 +155,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>2000000004</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -275,7 +268,7 @@
 	</tns:vertrag>
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>TB0019111801</tns:id>
+			<tns:id>123456789012</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>
@@ -284,11 +277,11 @@
 		<tns:vertragsArt>Miete</tns:vertragsArt>
 		<tns:istBearbeitbar>true</tns:istBearbeitbar>
 		<tns:neuerAuftragMoeglich>true</tns:neuerAuftragMoeglich>
-		<tns:konfigurationsKlammer>aaa</tns:konfigurationsKlammer>
+		<tns:konfigurationsKlammer>aa</tns:konfigurationsKlammer>
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>2000000004</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -366,7 +359,7 @@
 				</tns:klassifizierung>
 			</tns:produkt>
 			<tns:standortAdresse>
-				<tns:id>65778</tns:id>
+				<tns:id>12378185</tns:id>
 				<tns:ort>
 					<tns:VerteilBereich>
 						<tns:name>Qwe</tns:name>
@@ -437,4 +430,4 @@
 			<tns:gruppierungsSchluessel>a</tns:gruppierungsSchluessel>
 		</tns:rechnungsvereinbarung>
 	</tns:vertrag>
-</tns:leseVertragResponse>
+</tns:leseVertragResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

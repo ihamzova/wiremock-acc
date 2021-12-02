@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseVertragResponse xmlns:tns="http://leseVertrag_v10.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseVertragResponse xmlns:tns="http://leseVertrag_v08.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>123456789011</tns:id>
+			<tns:id>123456789013</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>
@@ -15,7 +15,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654321</tns:nummer>
+				<tns:nummer>2000000014</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -80,7 +80,7 @@
 				</tns:id>
 				<tns:name>T-Net</tns:name>
 				<tns:anzeigeName>T-Net</tns:anzeigeName>
-				<tns:typ>Anschluss</tns:typ>
+				<tns:typ>MSN</tns:typ>
 				<tns:subtyp>T-Net</tns:subtyp>
 				<tns:istFuehrendesProdukt>true</tns:istFuehrendesProdukt>
 				<tns:istStandortlos>false</tns:istStandortlos>
@@ -123,17 +123,15 @@
 				<tns:entgeltPflichtEndeTerminIst>1967-08-13</tns:entgeltPflichtEndeTerminIst>
 			</tns:istTermin>
 			<tns:parameter>
-				<tns:wert>88888888</tns:wert>
+				<tns:wert>22222222</tns:wert>
 				<tns:attributId>
-					<tns:id>8</tns:id>
+					<tns:id>0000000002</tns:id>
 				</tns:attributId>
 			</tns:parameter>
 			<tns:parameter>
-				<tns:name>ONKZ</tns:name>
-				<tns:wert>067</tns:wert>
-				<tns:art>P</tns:art>
+				<tns:wert>11111111</tns:wert>
 				<tns:attributId>
-					<tns:id>0000000089</tns:id>
+					<tns:id>0000000001</tns:id>
 				</tns:attributId>
 			</tns:parameter>
 			<tns:kondition>
@@ -163,7 +161,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>2000000014</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -276,7 +274,7 @@
 	</tns:vertrag>
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>TB0019111801</tns:id>
+			<tns:id>123456789012</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>
@@ -289,7 +287,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>9984654320</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -380,14 +378,14 @@
 					<tns:name>a</tns:name>
 				</tns:land>
 				<tns:postcode>
-					<tns:postleitzahl>11111</tns:postleitzahl>
+					<tns:postleitzahl>20097</tns:postleitzahl>
 				</tns:postcode>
 				<tns:grundstueck>
-					<tns:hausnummer>11</tns:hausnummer>
-					<tns:hausnummerZusatz>F</tns:hausnummerZusatz>
+					<tns:hausnummer>10</tns:hausnummer>
+					<tns:hausnummerZusatz>A</tns:hausnummerZusatz>
 				</tns:grundstueck>
 				<tns:strasse>
-					<tns:name>FrSt</tns:name>
+					<tns:name>Strassen name</tns:name>
 				</tns:strasse>
 			</tns:standortAdresse>
 			<tns:istTermin>
@@ -396,32 +394,6 @@
 				<tns:entgeltPflichtBeginnTerminIst>1967-08-13</tns:entgeltPflichtBeginnTerminIst>
 				<tns:entgeltPflichtEndeTerminIst>1967-08-13</tns:entgeltPflichtEndeTerminIst>
 			</tns:istTermin>
-			<tns:parameter>
-				<tns:name>ONKZ</tns:name>
-				<tns:wert>067</tns:wert>
-				<tns:art>P</tns:art>
-				<tns:attributId>
-					<tns:id>0000000089</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>5555555</tns:wert>
-				<tns:attributId>
-					<tns:id>5</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>44444444</tns:wert>
-				<tns:attributId>
-					<tns:id>4</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>11111111</tns:wert>
-				<tns:attributId>
-					<tns:id>1</tns:id>
-				</tns:attributId>
-			</tns:parameter>
 			<tns:kondition>
 				<tns:id>1234</tns:id>
 				<tns:art>ZK01</tns:art>

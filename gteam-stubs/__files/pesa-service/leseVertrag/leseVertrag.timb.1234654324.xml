@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseVertragResponse xmlns:tns="http://leseVertrag_v10.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>123456789011</tns:id>
+			<tns:id>123456789013</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>
@@ -15,7 +15,7 @@
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654321</tns:nummer>
+				<tns:nummer>1234654324</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -81,7 +81,7 @@
 				<tns:name>T-Net</tns:name>
 				<tns:anzeigeName>T-Net</tns:anzeigeName>
 				<tns:typ>Anschluss</tns:typ>
-				<tns:subtyp>T-Net</tns:subtyp>
+				<tns:subtyp>TNet</tns:subtyp>
 				<tns:istFuehrendesProdukt>true</tns:istFuehrendesProdukt>
 				<tns:istStandortlos>false</tns:istStandortlos>
 				<tns:istOnlineKuendbar>true</tns:istOnlineKuendbar>
@@ -123,17 +123,20 @@
 				<tns:entgeltPflichtEndeTerminIst>1967-08-13</tns:entgeltPflichtEndeTerminIst>
 			</tns:istTermin>
 			<tns:parameter>
-				<tns:wert>88888888</tns:wert>
+				<tns:wert>11111111</tns:wert>
 				<tns:attributId>
-					<tns:id>8</tns:id>
+					<tns:id>0000000001</tns:id>
 				</tns:attributId>
 			</tns:parameter>
 			<tns:parameter>
-				<tns:name>ONKZ</tns:name>
-				<tns:wert>067</tns:wert>
-				<tns:art>P</tns:art>
+				<tns:wert>44444444</tns:wert>
 				<tns:attributId>
-					<tns:id>0000000089</tns:id>
+					<tns:id>0000000004</tns:id>
+				</tns:attributId>
+			</tns:parameter>
+			<tns:parameter>
+				<tns:attributId>
+					<tns:id>0000000005</tns:id>
 				</tns:attributId>
 			</tns:parameter>
 			<tns:kondition>
@@ -159,11 +162,11 @@
 		<tns:vertragsArt>Miete</tns:vertragsArt>
 		<tns:istBearbeitbar>true</tns:istBearbeitbar>
 		<tns:neuerAuftragMoeglich>true</tns:neuerAuftragMoeglich>
-		<tns:konfigurationsKlammer>aaa</tns:konfigurationsKlammer>
+		<tns:konfigurationsKlammer>a</tns:konfigurationsKlammer>
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>1234654324</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -285,11 +288,11 @@
 		<tns:vertragsArt>Miete</tns:vertragsArt>
 		<tns:istBearbeitbar>true</tns:istBearbeitbar>
 		<tns:neuerAuftragMoeglich>true</tns:neuerAuftragMoeglich>
-		<tns:konfigurationsKlammer>aaa</tns:konfigurationsKlammer>
+		<tns:konfigurationsKlammer>a</tns:konfigurationsKlammer>
 		<tns:kuendingungsGrund>0</tns:kuendingungsGrund>
 		<tns:vertragsPartner>
 			<tns:nummer>
-				<tns:nummer>1234654322</tns:nummer>
+				<tns:nummer>1234654324</tns:nummer>
 			</tns:nummer>
 		</tns:vertragsPartner>
 		<tns:vertragsAnsprechpartner>
@@ -396,32 +399,6 @@
 				<tns:entgeltPflichtBeginnTerminIst>1967-08-13</tns:entgeltPflichtBeginnTerminIst>
 				<tns:entgeltPflichtEndeTerminIst>1967-08-13</tns:entgeltPflichtEndeTerminIst>
 			</tns:istTermin>
-			<tns:parameter>
-				<tns:name>ONKZ</tns:name>
-				<tns:wert>067</tns:wert>
-				<tns:art>P</tns:art>
-				<tns:attributId>
-					<tns:id>0000000089</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>5555555</tns:wert>
-				<tns:attributId>
-					<tns:id>5</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>44444444</tns:wert>
-				<tns:attributId>
-					<tns:id>4</tns:id>
-				</tns:attributId>
-			</tns:parameter>
-			<tns:parameter>
-				<tns:wert>11111111</tns:wert>
-				<tns:attributId>
-					<tns:id>1</tns:id>
-				</tns:attributId>
-			</tns:parameter>
 			<tns:kondition>
 				<tns:id>1234</tns:id>
 				<tns:art>ZK01</tns:art>

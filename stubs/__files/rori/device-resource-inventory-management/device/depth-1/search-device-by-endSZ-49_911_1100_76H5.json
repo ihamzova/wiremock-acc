@@ -1,0 +1,882 @@
+[
+  {
+    "id": "1155",
+    "href": "/resource-order-resource-inventory/v5/device/1155",
+    "accessTransmissionMedium": "FIBER",
+    "asb": 1,
+    "creationDate": "2021-09-22T11:54:59.928052+02:00",
+    "description": "SDX 6320-16",
+    "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40958960",
+    "emsNbiName": "SDX 6320-16",
+    "endSz": "49/911/1100/76H5",
+    "equipmentNumber": "212880056",
+    "fsz": "76H5",
+    "importDate": "2021-09-22T11:54:59.928052+02:00",
+    "ipAddress": "0.0.0.0",
+    "klsId": "12345",
+    "manufacturer": "ADTRAN",
+    "materialNumber": "40958960",
+    "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+    "name": "SDX 6320-16 XGPON/GPON Combo OLT",
+    "resourceId": "a2cb86f3-5c0d-45c7-85df-3f4bbff3047c",
+    "shortName": "SDX6320-16",
+    "technicalLocation": "000031-000179-001-004-002-021",
+    "vpsz": "49/911/6843",
+    "containsCardsRefOrValue": [],
+    "containsPortsRefOrValue": [
+      {
+        "id": "2665",
+        "href": "/resource-order-resource-inventory/v5/port/2665",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "1",
+        "resourceId": "69a037da-b167-4c6a-bbc1-b7ca448724af",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1240",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1240",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2666",
+        "href": "/resource-order-resource-inventory/v5/port/2666",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "2",
+        "resourceId": "a9972146-e323-4b1d-964e-af463e61e237",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1241",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1241",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2667",
+        "href": "/resource-order-resource-inventory/v5/port/2667",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "3",
+        "resourceId": "968477bc-968f-415b-95ac-4a2e99282b98",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1242",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1242",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2668",
+        "href": "/resource-order-resource-inventory/v5/port/2668",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "4",
+        "resourceId": "23f613ad-a98c-4f90-a1a9-2462895139cf",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1243",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1243",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2669",
+        "href": "/resource-order-resource-inventory/v5/port/2669",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "5",
+        "resourceId": "1598429d-fd4e-4023-a139-5b433401bcf0",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1244",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1244",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2670",
+        "href": "/resource-order-resource-inventory/v5/port/2670",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "6",
+        "resourceId": "63dfde62-94ba-4672-990d-16d06401f703",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1245",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1245",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2671",
+        "href": "/resource-order-resource-inventory/v5/port/2671",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "7",
+        "resourceId": "398a4a7f-b2c7-4b04-9249-0d508329b9de",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1246",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1246",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2672",
+        "href": "/resource-order-resource-inventory/v5/port/2672",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "8",
+        "resourceId": "6bb8d4b2-2f34-482c-a8fb-569bccf0b516",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1247",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1247",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2673",
+        "href": "/resource-order-resource-inventory/v5/port/2673",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "9",
+        "resourceId": "0a3d6bf8-8a1e-423a-9db0-dc053a08942d",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1248",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1248",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2674",
+        "href": "/resource-order-resource-inventory/v5/port/2674",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "10",
+        "resourceId": "d8fdfb95-d25f-4fc3-b857-ba2bce3693f7",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1249",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1249",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2675",
+        "href": "/resource-order-resource-inventory/v5/port/2675",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "11",
+        "resourceId": "da55e35f-5fe4-4e82-8813-ea9fffc9ec1e",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1250",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1250",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2676",
+        "href": "/resource-order-resource-inventory/v5/port/2676",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:55:44.855677+02:00",
+        "portName": "12",
+        "resourceId": "de292e1f-bf32-4362-ab3e-db33c46ab96f",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1251",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1251",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "INSTALLING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2677",
+        "href": "/resource-order-resource-inventory/v5/port/2677",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "13",
+        "resourceId": "91323b6b-fa6b-478f-a318-4d865b937f8f",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1252",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1252",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2678",
+        "href": "/resource-order-resource-inventory/v5/port/2678",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "14",
+        "resourceId": "e8aa097c-6b45-4e75-9f20-f27aa523a09d",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1253",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1253",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2679",
+        "href": "/resource-order-resource-inventory/v5/port/2679",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "15",
+        "resourceId": "d436728b-6300-4b82-a227-818123c8c8f8",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1254",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1254",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2680",
+        "href": "/resource-order-resource-inventory/v5/port/2680",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "16",
+        "resourceId": "89b25b1e-cc3d-44d6-a348-80dd9deb40fa",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1255",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1255",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "PON",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2681",
+        "href": "/resource-order-resource-inventory/v5/port/2681",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "1",
+        "resourceId": "21cdc85b-068c-4772-8f28-2e5729c3bdf8",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1256",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1256",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2682",
+        "href": "/resource-order-resource-inventory/v5/port/2682",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "2",
+        "resourceId": "9f4fc106-66e9-4480-b879-f205a1884a6d",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1257",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1257",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2683",
+        "href": "/resource-order-resource-inventory/v5/port/2683",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "3",
+        "resourceId": "0b867c46-f47f-45db-a28a-1871722352d1",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1258",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1258",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2684",
+        "href": "/resource-order-resource-inventory/v5/port/2684",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "4",
+        "resourceId": "6a2c361a-f77e-4200-b1f7-bb6adefa4113",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1259",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1259",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2685",
+        "href": "/resource-order-resource-inventory/v5/port/2685",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "5",
+        "resourceId": "3f0002c9-03ce-4032-9024-5ed9653a4b38",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1260",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1260",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2686",
+        "href": "/resource-order-resource-inventory/v5/port/2686",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "6",
+        "resourceId": "89caad4c-479a-40c0-b270-8194d938ad05",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1261",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1261",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2687",
+        "href": "/resource-order-resource-inventory/v5/port/2687",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "7",
+        "resourceId": "639434c8-d5b4-4153-bd5c-ad1a61679f28",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1262",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1262",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      },
+      {
+        "id": "2688",
+        "href": "/resource-order-resource-inventory/v5/port/2688",
+        "creationDate": "2021-09-22T11:54:59.928052+02:00",
+        "modificationDate": "2021-09-22T11:54:59.928052+02:00",
+        "portName": "8",
+        "resourceId": "523189b6-b15d-4478-bd85-974d4b89317b",
+        "containsOpticalModuleRefOrValue": {
+          "id": "1263",
+          "href": "/resource-order-resource-inventory/v5/opticalModule/1263",
+          "@baseType": "EntityRef",
+          "@type": " OpticalModuleRefOrValue",
+          "@referredType": "OpticalModule"
+        },
+        "lifeCycleState": "NOT_OPERATING",
+        "parentEquipmentRef": {
+          "id": "1155",
+          "href": "/resource-order-resource-inventory/v5/device/1155",
+          "endSz": "49/911/1100/76H5",
+          "deviceType": "OLT",
+          "@type": "EquipmentRef",
+          "@referredType": "Device"
+        },
+        "portType": "ETHERNET",
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@type": "PortRefOrValue"
+      }
+    ],
+    "deviceType": "OLT",
+    "lifeCycleState": "OPERATING",
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "@baseType": "PhysicalResource",
+    "@type": "Device"
+  }
+]

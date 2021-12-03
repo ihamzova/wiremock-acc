@@ -4,8 +4,8 @@
     "method": "GET",
     "urlPath": "/resource-order-resource-inventory/v1/osrProcessLog/processlog",
     "queryParameters": {
-      "meta%5BendSz%5D": {
-        "matches": "^49/8571/0/76H2$"
+      "meta": {
+        "matches": ".*(49/8571/0/76H2).*"
       }
     }
   },

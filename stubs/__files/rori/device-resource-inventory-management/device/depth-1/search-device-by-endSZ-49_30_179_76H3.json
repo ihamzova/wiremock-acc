@@ -8,9 +8,9 @@
     "description": "ETSI Service Shelf H8-MABC",
     "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
     "emsNbiName": "MA5600T",
-    "endSz": "49/30/179/76H1",
+    "endSz": "49/30/179/76H3",
     "equipmentNumber": "212880056",
-    "fsz": "76H1",
+    "fsz": "76H3",
     "importDate": "2020-09-22T15:27:49.471614+02:00",
     "ipAddress": "0.0.0.0",
     "klsId": "123456",
@@ -60,47 +60,12 @@
             "@baseType": "EntityRef",
             "@type": "PortRefOrValue",
             "@referredType": "Port"
-          },
-          {
-            "id": "1535",
-            "href": "/resource-order-resource-inventory/v5/port/1535",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1536",
-            "href": "/resource-order-resource-inventory/v5/port/1536",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1541",
-            "href": "/resource-order-resource-inventory/v5/port/1541",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1542",
-            "href": "/resource-order-resource-inventory/v5/port/1542",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1540",
-            "href": "/resource-order-resource-inventory/v5/port/1540",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
           }
         ],
         "parentDeviceEquipmentRef": {
           "id": "1067",
           "href": "/resource-order-resource-inventory/v5/device/1067",
-          "endSz": "49/30/179/76H1",
+          "endSz": "49/30/179/76H3",
           "deviceType": "OLT",
           "@type": "EquipmentRef",
           "@referredType": "Device"
@@ -146,98 +111,12 @@
             "@baseType": "EntityRef",
             "@type": "PortRefOrValue",
             "@referredType": "Port"
-          },
-          {
-            "id": "1545",
-            "href": "/resource-order-resource-inventory/v5/port/1545",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1550",
-            "href": "/resource-order-resource-inventory/v5/port/1550",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1543",
-            "href": "/resource-order-resource-inventory/v5/port/1543",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1544",
-            "href": "/resource-order-resource-inventory/v5/port/1544",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1549",
-            "href": "/resource-order-resource-inventory/v5/port/1549",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          },
-          {
-            "id": "1548",
-            "href": "/resource-order-resource-inventory/v5/port/1548",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
           }
         ],
         "parentDeviceEquipmentRef": {
           "id": "1067",
           "href": "/resource-order-resource-inventory/v5/device/1067",
-          "endSz": "49/30/179/76H1",
-          "deviceType": "OLT",
-          "@type": "EquipmentRef",
-          "@referredType": "Device"
-        },
-        "relatedParty": [
-          {
-            "id": "10001",
-            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
-            "role": "Owner",
-            "@baseType": "EntityRef",
-            "@type": "RelatedParty"
-          }
-        ],
-        "@type": "CardRefOrValue"
-      },
-      {
-        "id": "1027",
-        "href": "/resource-order-resource-inventory/v5/card/1027",
-        "creationDate": "2021-02-03T15:07:59.449882+01:00",
-        "description": "8-port GPON R1.7 OLT Interface Board",
-        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40251139",
-        "emsNbiName": "H802GPBD",
-        "equipmentNumber": "214553001",
-        "manufacturer": "HUAWEI",
-        "materialNumber": "40251139",
-        "modificationDate": "2021-02-03T15:07:59.449882+01:00",
-        "name": "8-port GPON R1.7 OLT Interface Board",
-        "resourceId": "86d93d37-367d-43ad-a682-0323cddab5b3",
-        "shortName": "GPPD",
-        "slotName": "5",
-        "cardType": "GPON",
-        "containsPortsRefOrValue": [
-          {
-            "id": "1558",
-            "href": "/resource-order-resource-inventory/v5/port/1558",
-            "@baseType": "EntityRef",
-            "@type": "PortRefOrValue",
-            "@referredType": "Port"
-          }
-        ],
-        "parentDeviceEquipmentRef": {
-          "id": "1067",
-          "href": "/resource-order-resource-inventory/v5/device/1067",
-          "endSz": "49/30/179/76H1",
+          "endSz": "49/30/179/76H3",
           "deviceType": "OLT",
           "@type": "EquipmentRef",
           "@referredType": "Device"
@@ -288,7 +167,7 @@
         "parentDeviceEquipmentRef": {
           "id": "1067",
           "href": "/resource-order-resource-inventory/v5/device/1067",
-          "endSz": "49/30/179/76H1",
+          "endSz": "49/30/179/76H3",
           "deviceType": "OLT",
           "@type": "EquipmentRef",
           "@referredType": "Device"

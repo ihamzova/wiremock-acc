@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/resource-order-resource-inventory/v5/port/99999",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "[?(@.op == 'replace')]"
+      },
+      {
+        "matchesJsonPath": "[?(@.path == '/lifeCycleState')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {}
+  }
+}

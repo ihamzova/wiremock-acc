@@ -1,0 +1,290 @@
+{
+  "shortName": "MABC VB",
+  "materialNumber": "40247069",
+  "emsNbiName": "MA5600T",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+  "lastDiscovery": "2020-07-14T13:59:18+02:00",
+  "id": 1086,
+  "resourceId": "827e9337-6014-4625-a991-600da76a8e90",
+  "deviceName": "ETSI Service Shelf H8-MABC",
+  "endSz": "49/8571/0/76HA",
+  "fsz": "76HA",
+  "vpsz": "49/8571/0",
+  "klsId": 12377912,
+  "ipAddress": "192.168.20.140",
+  "firmwareVersion": "MA5600V800R016C00",
+  "serialNumber": null,
+  "deviceType": "OLT",
+  "importDate": "2020-07-14T13:59:18+02:00",
+  "containsCardsRefOrValue": [
+    {
+      "id": 1533,
+      "slotName": "4",
+      "shortName": "GPBH",
+      "materialNumber": "40294954",
+      "emsNbiName": "H807GPBH",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "96496301-ea6b-40f1-8a4f-86077f37267a",
+      "name": "8-port GPON OLT Interface Board V3",
+      "description": null,
+      "serialNumber": "022MLNCNF2000512",
+      "firmwareVersion": "507(2015-8-27)",
+      "cardType": "GPON",
+      "equipmentNumber": "212880063",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3780,
+          "resourceId": "8d7fbce4-1688-4b7b-8c9e-f05be7f34996",
+          "portType": "PON",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3781,
+          "resourceId": "76bf2d88-7a21-48d4-87bd-130624178e6e",
+          "portType": "PON",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3782,
+          "resourceId": "d4c3ee00-9282-445a-8a49-c26f95045efb",
+          "portType": "PON",
+          "portName": "2",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3783,
+          "resourceId": "b18e44ea-fd55-4340-8abd-965f058c10a1",
+          "portType": "PON",
+          "portName": "3",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3784,
+          "resourceId": "afba2351-d1b3-408e-921f-a7085a2fd969",
+          "portType": "PON",
+          "portName": "4",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3785,
+          "resourceId": "90cf14d6-98aa-446e-a242-aa92a2d0a715",
+          "portType": "PON",
+          "portName": "5",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3786,
+          "resourceId": "2ae5813f-6ee5-48d2-8c89-25742536f922",
+          "portType": "PON",
+          "portName": "6",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3787,
+          "resourceId": "923ab79e-2fbb-42c7-ba04-c2f3836db847",
+          "portType": "PON",
+          "portName": "7",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "id": 1534,
+      "slotName": "7",
+      "shortName": "GPBH",
+      "materialNumber": "40294954",
+      "emsNbiName": "H807GPBH",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "b3db39af-40bd-4425-a730-2c7ca2f95e3f",
+      "name": "8-port GPON OLT Interface Board V3",
+      "description": null,
+      "serialNumber": "022MLNCNF2000489",
+      "firmwareVersion": "507(2015-8-27)",
+      "cardType": "GPON",
+      "equipmentNumber": "212880063",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3788,
+          "resourceId": "7c91e95f-c7eb-4816-bef9-084d26442ea0",
+          "portType": "PON",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3789,
+          "resourceId": "65f39053-c495-4682-919c-e0c08dee3c28",
+          "portType": "PON",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3790,
+          "resourceId": "aef7fbc4-f6c8-4ca6-974a-a1f0ae2a5186",
+          "portType": "PON",
+          "portName": "2",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3791,
+          "resourceId": "00f5760b-2f8e-4a0f-9816-85488cf94733",
+          "portType": "PON",
+          "portName": "3",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3792,
+          "resourceId": "14734db0-4faa-47ce-9006-cdd4204707b9",
+          "portType": "PON",
+          "portName": "4",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3793,
+          "resourceId": "fe928c22-bf53-4b85-a913-83a3a8af9a91",
+          "portType": "PON",
+          "portName": "5",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3794,
+          "resourceId": "0b848f7a-901d-49a0-baf0-63725e9bd39f",
+          "portType": "PON",
+          "portName": "6",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3795,
+          "resourceId": "2a40f7d6-7d15-4b39-b923-7ea42a41b349",
+          "portType": "PON",
+          "portName": "7",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "id": 1535,
+      "slotName": "19",
+      "shortName": "X2CS",
+      "materialNumber": "40247074",
+      "emsNbiName": "H801X2CS",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "6d9b448c-b47c-442a-a5ee-85333d28eac6",
+      "name": "10GE SFP+ Optical Interface Unit Board",
+      "description": null,
+      "serialNumber": "020KKPW0B7000098",
+      "firmwareVersion": "154(2015-7-1)",
+      "cardType": "UPLINK_CARD",
+      "equipmentNumber": "212880062",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3796,
+          "resourceId": "4eb0c1be-4757-4cdd-a308-238f4f5ec593",
+          "portType": "ETHERNET",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3797,
+          "resourceId": "09fb4327-91cf-4ba4-a6ba-d5233a8d40a4",
+          "portType": "ETHERNET",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "id": 1536,
+      "slotName": "9",
+      "shortName": "SCUN",
+      "materialNumber": "40247071",
+      "emsNbiName": "H801SCUN",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247071",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "04a2a45a-ff21-4386-8322-627d52c5f8a4",
+      "name": "Super Control Unit Board SCUN",
+      "description": null,
+      "serialNumber": "020KAX4MD3003272",
+      "firmwareVersion": "MA5600V800R016C00",
+      "cardType": "MANAGEMENT_CARD",
+      "equipmentNumber": "212880056",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3798,
+          "resourceId": "1faaf040-171a-46c4-a2ac-db715504f058",
+          "portType": "ETHERNET",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3799,
+          "resourceId": "a9aff8fe-8e8e-4022-9e51-cfcc96eb563e",
+          "portType": "ETHERNET",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3800,
+          "resourceId": "2409c0d7-0e7b-423d-937a-32acf53d4e53",
+          "portType": "ETHERNET",
+          "portName": "2",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3801,
+          "resourceId": "0b26f5f4-7d60-469e-a650-d88a00625920",
+          "portType": "ETHERNET",
+          "portName": "3",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "id": 1537,
+      "slotName": "20",
+      "shortName": "X2CS",
+      "materialNumber": "40247074",
+      "emsNbiName": "H801X2CS",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247074",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "10d17152-2f08-4924-b35a-e0f16be72ad2",
+      "name": "10GE SFP+ Optical Interface Unit Board",
+      "description": null,
+      "serialNumber": "020KKPW0BA000080",
+      "firmwareVersion": "154(2015-7-1)",
+      "cardType": "UPLINK_CARD",
+      "equipmentNumber": "212880059",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3802,
+          "resourceId": "9fdc557f-6395-4897-b4b3-9dc5ef0a2bcc",
+          "portType": "ETHERNET",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3803,
+          "resourceId": "79575af2-530e-4ff7-9102-a0147998a83e",
+          "portType": "ETHERNET",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    }
+  ],
+  "description": "ETSI Service Shelf H8-MABC",
+  "asb": 1,
+  "technicalLocation": "000031-000000-001-004-002-021",
+  "equipmentNumber": "212880011",
+  "manufacturer": "HUAWEI",
+  "containsPortsRefOrValue": []
+}

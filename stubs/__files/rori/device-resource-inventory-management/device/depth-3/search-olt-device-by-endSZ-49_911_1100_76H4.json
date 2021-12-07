@@ -1,0 +1,243 @@
+{
+  "shortName": "BPMB",
+  "materialNumber": "40916237",
+  "emsNbiName": "MA5800-X7",
+  "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40916237",
+  "lastDiscovery": "2020-07-14T13:59:18+02:00",
+  "id": 6795,
+  "resourceId": "44a4eee8-ae41-4477-bcbe-7b67466dbc67",
+  "deviceName": "MA5800-X7 Service Shelf",
+  "endSz": "49/911/1100/76H2",
+  "fsz": "76H2",
+  "vpsz": "49/911/1100",
+  "klsId": 17056514,
+  "ipAddress": "172.22.53.4",
+  "firmwareVersion": "MA5800V100R019C10",
+  "serialNumber": null,
+  "deviceType": "OLT",
+  "importDate": "2020-07-14T13:59:18+02:00",
+  "containsCardsRefOrValue": [
+    {
+      "id": 4897,
+      "slotName": "1",
+      "shortName": "FLHF",
+      "materialNumber": "40916243",
+      "emsNbiName": "H902FLHF",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40916243",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "resourceId": "86f4a5f2-e088-4ae9-8d82-b191ff66dbe0",
+      "name": "FLHF 16p Flex-PON2.0 OLT",
+      "description": null,
+      "serialNumber": "033DPA10K7000001",
+      "firmwareVersion": "413(2019-7-5)",
+      "cardType": "GPON",
+      "equipmentNumber": "212880063",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3397,
+          "resourceId": "62742fba-664a-4865-b660-0a51b60fc30c",
+          "portType": "PON",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3398,
+          "resourceId": "24e637db-24a0-45cb-800c-4853de6cede0",
+          "portType": "PON",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3399,
+          "resourceId": "ecc3e0d4-9bbe-46f5-bc79-ab7ed2da22b5",
+          "portType": "PON",
+          "portName": "2",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3400,
+          "resourceId": "7ab1d92d-6514-4ea5-a9c0-911ccf53592a",
+          "portType": "PON",
+          "portName": "3",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3401,
+          "resourceId": "d0b55eb7-3b0c-4c2c-8914-ed8f7fdfa086",
+          "portType": "PON",
+          "portName": "4",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3402,
+          "resourceId": "b1e121b7-9cc1-43b3-9f16-dbba8fb1d0ff",
+          "portType": "PON",
+          "portName": "5",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3403,
+          "resourceId": "9a3b52c1-aec1-4a29-8637-8ec819b212bb",
+          "portType": "PON",
+          "portName": "6",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3404,
+          "resourceId": "b104b63d-7864-4b37-8e32-b0e7e9a19a8a",
+          "portType": "PON",
+          "portName": "7",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3405,
+          "resourceId": "94d01d47-4e82-4be5-92f2-4fb86f9673b3",
+          "portType": "PON",
+          "portName": "8",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3406,
+          "resourceId": "676184b0-074c-4bad-8772-93215d94547f",
+          "portType": "PON",
+          "portName": "9",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3407,
+          "resourceId": "7f8288c7-a0bb-472b-9147-ea206ac4d6be",
+          "portType": "PON",
+          "portName": "10",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3408,
+          "resourceId": "2ecfaf08-5507-4bf8-a636-b6606c4e146d",
+          "portType": "PON",
+          "portName": "11",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3409,
+          "resourceId": "7eed4e46-5f7c-44c3-b550-dec0d3c3dbc3",
+          "portType": "PON",
+          "portName": "12",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3410,
+          "resourceId": "a607a07a-72f6-4836-b536-8dd32ea18ac9",
+          "portType": "PON",
+          "portName": "13",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3411,
+          "resourceId": "c88650b3-7d07-4565-baa0-4445b7018c1e",
+          "portType": "PON",
+          "portName": "14",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3412,
+          "resourceId": "f50ada35-33c2-4e6d-ab0b-a806f79a72ae",
+          "portType": "PON",
+          "portName": "15",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "slotName": "8",
+      "shortName": "MPLB",
+      "materialNumber": "40916239",
+      "emsNbiName": "H902MPLB",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40916239",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "id": 3337,
+      "resourceId": "84f28e46-8a7e-431d-a2fc-e37d11182500",
+      "name": "MPLB Main Processing Board",
+      "description": null,
+      "serialNumber": "025KFF10K6000233",
+      "firmwareVersion": "MA5800V100R019C10",
+      "cardType": "PROCESSING_BOARD",
+      "equipmentNumber": "212880061",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": [
+        {
+          "id": 3413,
+          "resourceId": "2fa9a989-3568-4ccd-ba94-6b28a52cb7ae",
+          "portType": "ETHERNET",
+          "portName": "0",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3414,
+          "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b2",
+          "portType": "ETHERNET",
+          "portName": "1",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3415,
+          "resourceId": "be27c008-b4d5-47ac-9f38-15d261d53600",
+          "portType": "ETHERNET",
+          "portName": "2",
+          "containsOpticalModuleRefOrValue": null
+        },
+        {
+          "id": 3416,
+          "resourceId": "17ada542-61e0-411b-ad81-919883616e8a",
+          "portType": "ETHERNET",
+          "portName": "3",
+          "containsOpticalModuleRefOrValue": null
+        }
+      ]
+    },
+    {
+      "slotName": "10",
+      "shortName": "PILA",
+      "materialNumber": "40916246",
+      "emsNbiName": "H902PILA",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40916246",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "id": 3338,
+      "resourceId": "ac85f2d7-0438-45fd-b25f-2bd316c87475",
+      "name": "PILA Power Board",
+      "description": null,
+      "serialNumber": "025KET10K6004035",
+      "firmwareVersion": "",
+      "cardType": "SUPPORT_MODULE",
+      "equipmentNumber": "212880061",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": []
+    },
+    {
+      "slotName": "11",
+      "shortName": "PILA",
+      "materialNumber": "40916246",
+      "emsNbiName": "H902PILA",
+      "tkz1": "03025KET",
+      "tkz2": null,
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40916246",
+      "lastDiscovery": "2020-07-14T13:59:18+02:00",
+      "id": 1339,
+      "resourceId": "5f356b18-0804-40e3-8d0b-3557156b7d9d",
+      "name": "PILA Power Board",
+      "description": null,
+      "serialNumber": "025KET10K6004050",
+      "firmwareVersion": "",
+      "cardType": "SUPPORT_MODULE",
+      "equipmentNumber": "212880061",
+      "manufacturer": "HUAWEI",
+      "containsPortsRefOrValue": []
+    }
+  ],
+  "description": "MA5800-X7 Service Shelf",
+  "asb": 1,
+  "technicalLocation": "000031-000000-001-004-002-021",
+  "equipmentNumber": "212880011",
+  "manufacturer": "HUAWEI",
+  "containsPortsRefOrValue": []
+}

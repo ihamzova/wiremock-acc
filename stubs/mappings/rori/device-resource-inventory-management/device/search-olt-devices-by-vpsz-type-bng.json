@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "fields": {
+        "matches": "endSz"
+      },
+      "vpsz": {
+        "matches": "49\\/30\\/179"
+      },
+      "deviceType": {
+        "equalTo": "BNG"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "endSz": "49/30/179/43G1"
+      }
+    ]
+  }
+}

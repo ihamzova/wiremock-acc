@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "depth": {
+        "matches": "3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/device/depth-3/ral-search-abstract-device.json"
+  }
+}

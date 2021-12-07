@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "endSZ": {
+        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1-5]{1}$|49\\/8571\\/0\\/76HA|49\\/8571\\/0\\/76Z7|49\\/8571\\/0\\/76Z5"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/device/depth-3/search-olt-device-by-endSZ-{{replace request.query.endSZ '/' '_'}}.json"
+  }
+}

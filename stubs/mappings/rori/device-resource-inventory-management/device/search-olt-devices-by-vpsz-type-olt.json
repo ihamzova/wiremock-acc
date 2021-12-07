@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "fields": {
+        "matches": "endSz"
+      },
+      "vpsz": {
+        "matches": "49\\/30\\/179"
+      },
+      "deviceType": {
+        "equalTo": "OLT"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "endSz": "49/30/179/76H1"
+      },
+      {
+        "endSz": "49/30/179/76H2"
+      },
+      {
+        "endSz": "49/30/179/76H3"
+      }
+    ]
+  }
+}

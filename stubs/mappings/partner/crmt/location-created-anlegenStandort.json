@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/crmt/anlegenStandort",
+    "urlPattern": "/csdg/rpc/Mock/de.telekom.digioss.architecture.DigiOSS/Default/AnlegenStandort/up",
     "headers": {
       "Content-Type": {
         "equalTo": "text/xml; charset=UTF-8"

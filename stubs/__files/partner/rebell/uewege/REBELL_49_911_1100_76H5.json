@@ -5,16 +5,16 @@
         "validFrom": "28.01.2020 16:00:00",
         "endPointB": {
             "endSz": "49_911_1100_76H5",
-            "portName": "0/8/2",
+            "portName": "10ge 0/1",
             "endSzParts": {
                 "akz": "49",
                 "vkz": "1100",
-                "fkz": "76H4",
+                "fkz": "76H5",
                 "nkz": "911"
             },
             "deviceHostName": "",
-            "vendorPortName": "P0002",
-            "portPosition": "8.0"
+            "vendorPortName": "10 GE-1",
+            "portPosition": "GE1"
         },
         "version": "1",
         "endPointA": {

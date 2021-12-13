@@ -161,6 +161,13 @@
           "giga:cga:all-area-access"
         ]
       },
+            {
+        "resource": "/giga-areas-location/v3/fibreOnLocation",
+        "pattern": [],
+        "scopes": [
+          "area:fibreOnLocations:full"
+        ]
+      },
       {
         "resource": "/giga-project-dioss/v2/supplierprojects/",
         "pattern": [

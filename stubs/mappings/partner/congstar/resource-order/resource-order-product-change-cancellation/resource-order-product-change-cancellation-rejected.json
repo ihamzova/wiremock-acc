@@ -1,5 +1,5 @@
 {
-  "id": "5f9f7ab8-b799-4b49-bd32-077cdcac0775",
+  "id": "ee6ee988-4199-4745-81fe-d1a3e793350e",
   "priority": 1,
   "request": {
     "method": "POST",
@@ -11,7 +11,7 @@
     ],
     "headers": {
       "X-B3-TraceId": {
-        "contains": "fffc36fff"
+        "contains": "fffc57fff"
       }
     }
   },
@@ -47,7 +47,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/cancellationPhysicalConnection/resource-order-task-state-change-notification-acknowledged.json"
+          "bodyFileName": "partner/congstar/resource-order/cancellationCommon/resource-order-task-state-change-notification-acknowledged.json"
         },
         {
           "method": "POST",
@@ -57,7 +57,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/cancellationPhysicalConnection/resource-order-state-change-notification-held.json"
+          "bodyFileName": "partner/congstar/resource-order/cancellationProductChange/resource-order-state-change-notification-held.json"
         },
         {
           "method": "POST",
@@ -67,17 +67,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/cancellationPhysicalConnection/resource-order-task-state-change-notification-done.json"
-        },
-        {
-          "method": "POST",
-          "fixedDelayMilliseconds": 30000,
-          "headers": {
-            "Authorization": "Bearer {{oauth}}",
-            "Content-Type": "application/json"
-          },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
-          "bodyFileName": "partner/congstar/resource-order/cancellationPhysicalConnection/resource-order-state-change-notification-cancelled.json"
+          "bodyFileName": "partner/congstar/resource-order/cancellationCommon/resource-order-task-state-change-notification-rejected.json"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "id" : "{{request.requestLine.pathSegments.[4]}}",
-  "href" : "/giga-project-dioss/v2/FiberAvailability/serviceQualification/{{request.requestLine.pathSegments.[4]}}",
+  "href" : "/giga-project-dioss/v3/FiberAvailability/serviceQualification/{{request.requestLine.pathSegments.[4]}}",
   "provideAlternative" : false,
   "provideOnlyAvailable" : false,
   "provideUnavailabilityReason" : true,

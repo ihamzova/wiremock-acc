@@ -1,6 +1,6 @@
 {
-  "id" : "{{request.requestLine.pathSegments.[4]}}",
-  "href" : "/giga-project-dioss/v3/FiberAvailability/serviceQualification/{{request.requestLine.pathSegments.[4]}}",
+  "id" : "12377783",
+  "href" : "/giga-project-dioss/v3/FiberAvailability/serviceQualification/12377041",
   "provideAlternative" : false,
   "provideOnlyAvailable" : false,
   "provideUnavailabilityReason" : true,
@@ -23,16 +23,16 @@
       "relatedParty" : [ ],
       "serviceCharacteristic" : [ {
         "name" : "Ausbaustand Glasfaser",
-        "value" : "ready"
+        "value" : "planned"
       }, {
         "name" : "Technologie",
         "value" : "FTTH"
       }, {
         "name" : "DatumVon",
-        "value" : "{{now offset='2 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+        "value" : "{{now offset='3 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
       }, {
         "name" : "DatumBis",
-        "value" : "{{now offset='21 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+        "value" : "{{now offset='22 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
       } ],
       "serviceRelationship" : [ ]
     },

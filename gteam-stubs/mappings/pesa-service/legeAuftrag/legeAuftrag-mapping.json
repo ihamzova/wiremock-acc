@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/legeAuftrag",
+    "urlPattern": "/legeAuftragAnOhneValidierung",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:leseVertragResponse xmlns:tns="http://leseVertrag_v10.ContractManagement.CustomerFunctions.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://leseVertrag_v07.ContractManagement.CustomerFunctions.bbfn.telekom.de C:\workspace\EDB\2700\service_impl\wsdl\pesa\leseVertrag\leseVertrag.xsd">
 	<tns:vertrag>
 		<tns:id>
-			<tns:id>123456789011</tns:id>
+			<tns:id>123456789010</tns:id>
 		</tns:id>
 		<tns:integrationId>0815</tns:integrationId>
 		<tns:rechtlicherVertragsstatus>1</tns:rechtlicherVertragsstatus>

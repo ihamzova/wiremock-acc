@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/giga-areas-location/v2/fibreOnLocations/search",
+    "queryParameters": {
+      "klsIds": {
+        "matches": "12377786"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "area-data-mgmt/FiberLocations/fiber-locations-by-klsid-12377786-payload.json"
+  }
+}

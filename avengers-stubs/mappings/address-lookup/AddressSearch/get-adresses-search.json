@@ -74,6 +74,21 @@
         },
         "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-30xx-(Bonn).json"
       }
+    },
+    {
+      "name": "Get address details by klsIds from FOLv2 for Bornheim_002",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=Born.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-10xx-(Bornheim).json"
+      }
     }
   ]
 }

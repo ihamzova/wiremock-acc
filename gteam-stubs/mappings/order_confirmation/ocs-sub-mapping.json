@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pubsub/r/presales-order/v1/OrderConfirmationEvents",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Pubsub-Subscriber-Id": "25A8FC2A-98F2-4B86-98F6-84324AF28611"
+    }
+  }
+}
+

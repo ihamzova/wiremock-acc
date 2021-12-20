@@ -1,0 +1,44 @@
+{
+  "id" : "300000002",
+  "href" : "/giga-project-dioss/v3/FiberAvailability/serviceQualification/300000002",
+  "provideAlternative" : false,
+  "provideOnlyAvailable" : false,
+  "provideUnavailabilityReason" : true,
+  "qualificationResult" : "qualified",
+  "state" : "done",
+  "relatedParty" : [ ],
+  "serviceQualificationItem" : [ {
+    "id" : "728edc47-3523-4984-981c-7663ef3902ec",
+    "qualificationResult" : "qualified",
+    "state" : "done",
+    "alternateServiceProposal" : [ ],
+    "eligibilityUnavailabilityReason" : [ ],
+    "qualificationItemRelationship" : [ ],
+    "service" : {
+      "id" : "20cb6eed-4cd9-49a5-8177-61a1ac51ada1",
+      "place" : [ {
+        "id" : "25386705",
+        "@type" : "UrbanPropertyAddress"
+      } ],
+      "relatedParty" : [ ],
+      "serviceCharacteristic" : [ {
+        "name" : "Ausbaustand Glasfaser",
+        "value" : "connected"
+      }, {
+        "name" : "Technologie",
+        "value" : "FTTH"
+      }, {
+        "name" : "DatumVon",
+        "value" : "{{now offset='3 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+      }, {
+        "name" : "DatumBis",
+        "value" : "{{now offset='22 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+      }, {
+        "name": "isDevelopmentLocation",
+        "value": "true"
+      }],
+      "serviceRelationship" : [ ]
+    },
+    "terminationError" : [ ]
+  } ]
+}

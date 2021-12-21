@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "name": "Get full address info by klsid",
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/10138743)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/full-address-info-by-klsid-10138743.json"
+      }
+    }
+  ]
+}

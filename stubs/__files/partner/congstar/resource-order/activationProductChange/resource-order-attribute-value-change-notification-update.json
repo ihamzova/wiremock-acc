@@ -41,14 +41,14 @@
           "resource": {
             "@type": "WholebuyResource",
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
-            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}",
+            "carrierContractId": "6666666666",
             "networkProfileConfig": {
-              "ramMaxDownL2": 55168,
-              "ramMaxupL2": 11264,
-              "ramMinDownL2": 27504,
-              "ramMinUpL2": 27000,
-              "ramMinKPDownL2": 27504,
-              "ramMinKPUpL2": 27000
+              "ramMaxDownL2": 550000,
+              "ramMaxupL2": 550000,
+              "ramMinDownL2": 550000,
+              "ramMinUpL2": 550000,
+              "ramMinKPDownL2": 550000,
+              "ramMinKPUpL2": 550000
             }
           },
           "resourceSpecification": {

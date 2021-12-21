@@ -35,12 +35,12 @@
             "carrierContractId": "5587898788",
             "witaContractId": "3321456789",
             "networkProfileConfig": {
-              "ramMaxDownL2": 55168,
-              "ramMaxupL2": 11264,
-              "ramMinDownL2": 27504,
-              "ramMinUpL2": 27000,
-              "ramMinKPDownL2": 27504,
-              "ramMinKPUpL2": 27000
+              "ramMaxDownL2": 110000,
+              "ramMaxupL2": 110000,
+              "ramMinDownL2": 110000,
+              "ramMinUpL2": 110000,
+              "ramMinKPDownL2": 110000,
+              "ramMinKPUpL2": 110000
             },
             "installationPlace": {
               "@type": "GatewayPlace",

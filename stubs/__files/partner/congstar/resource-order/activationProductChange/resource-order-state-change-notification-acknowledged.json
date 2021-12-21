@@ -26,7 +26,7 @@
           "resource": {
             "@type": "WholebuyResource",
             "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
-            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}"
+            "carrierContractId": "6666666666"
           },
           "resourceSpecification": {
             "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"

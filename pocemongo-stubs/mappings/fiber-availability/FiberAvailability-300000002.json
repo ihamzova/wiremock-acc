@@ -2,13 +2,13 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/30000002"
+    "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/300000002"
   },
   "response": {
     "status": 200,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "fiber-availability/fiberAvailability-30000002_FALLBACK.json"
+    "bodyFileName": "fiber-availability/fiberAvailability-300000002_FALLBACK.json"
   }
 }

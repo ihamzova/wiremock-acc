@@ -2,12 +2,7 @@
   "priority": 4,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/presales-order/v1/order-confirmation",
-    "bodyPatterns": [
-      {
-        "matchesJsonPath": "$.[?(@.email=='string@telekom.com')]"
-      }
-    ]
+    "urlPathPattern": "/presales-order/v1/order-confirmation"
   },
   "response": {
     "status": 200

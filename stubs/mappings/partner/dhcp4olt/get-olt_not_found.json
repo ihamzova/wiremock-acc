@@ -1,7 +1,7 @@
 {
   "priority": 10,
   "request": {
-    "urlPath": "/resource-order-resource-inventory/v1/oltDhcpConfiguration/olt",
+    "urlPathPattern": "/((resource-order-resource-inventory/v1/oltDhcpConfiguration/)?)olt",
     "method": "GET"
   },
   "response": {

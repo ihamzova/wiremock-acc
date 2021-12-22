@@ -2,9 +2,10 @@
   "mappings": [
     {
       "name": "Get full address info by klsid",
+      "priority": 5,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/9105643"
+        "urlPath": "/giga-areas-location/v1/lookup/addressSearch/getFullAddressInfo/9105643"
       },
       "response": {
         "status": 200,

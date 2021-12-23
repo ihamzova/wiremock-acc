@@ -8,30 +8,17 @@
         "containsPortsRefOrValue": [
           {
             "containsOpticalModuleRefOrValue": {
-              "creationDate": "2021-11-12T10:02:40.683Z",
-              "descriptionUrl": "string",
-              "emsNbiName": "string",
               "id": 1001,
               "lastDiscovery": "2021-11-12T10:02:40.683Z",
               "manufacturer": "string",
-              "materialNumber": "965874",
-              "modificationDate": "2021-11-12T10:02:40.683Z",
-              "name": "string",
-              "resourceId": "string",
-              "shortName": "GPBH"
+              "materialNumber": "965874"
             },
-            "creationDate": "2021-11-12T10:02:40.683Z",
             "id": 1001,
             "lifeCycleState": "NOT_OPERATING",
-            "modificationDate": "2021-11-12T10:02:40.683Z",
             "portName": "1",
             "portType": "PON"
           }
-        ],
-        "resourceId": "3b430ec3-7aaa-4301-8393-b25966e37250",
-        "serialNumber": "9987458785478598",
-        "shortName": "GPBH",
-        "slotName": "1"
+        ]
       }
     ],
     "containsPortsRefOrValue": [
@@ -50,13 +37,10 @@
           "resourceId": "string",
           "shortName": "string"
         },
-        "creationDate": "2021-11-12T10:02:40.684Z",
         "id": 1002,
         "lifeCycleState": "NOT_OPERATING",
-        "modificationDate": "2021-11-12T10:02:40.684Z",
-        "portName": "string",
-        "portType": "PON",
-        "resourceId": "string"
+        "portName": "1",
+        "portType": "PON"
       }
     ],
     "creationDate": "2021-11-12T10:02:40.683Z",
@@ -84,6 +68,11 @@
     "serialNumber": "6654785985478547",
     "shortName": "string",
     "technicalLocation": "string",
-    "vpsz": "49/30/179"
+    "vpsz": "49/30/179",
+    "relatedParty":[
+      {
+        "id":10001
+      }
+    ]
   }
 ]

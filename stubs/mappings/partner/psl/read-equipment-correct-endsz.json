@@ -1,5 +1,5 @@
 {
-  "priority": 10,
+  "priority": 5,
   "request": {
     "method": "POST",
     "urlPath": "/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp"
@@ -12,6 +12,7 @@
       "url": "http://psl-transformer-app/api/pslTransformer/v1/callback",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Authorization": "Bearer {{oauth}}",
         "Content-Type": "text/xml"
       },
       "method": "POST",

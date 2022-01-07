@@ -1,8 +1,8 @@
 {
-  "priority": 5,
+  "priority": 10,
   "request": {
     "method": "POST",
-    "urlPath": "/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp"
+    "urlPathPattern": "/soabp/rpc/etum2/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp"
   },
   "response": {
     "status": 202

@@ -1,8 +1,14 @@
 {
-  "priority": 10,
+  "priority": 5,
   "request": {
     "method": "POST",
-    "urlPath": "/soabp/rpc/etum2/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp"
+    "urlPath": "/soabp/rpc/etum2/de.telekom.digioss.architecture.DigiOSS/Default/SI_ReadEquipmentRequestOut/pp",
+    "bodyPatterns" : [ {
+      "matchesXPath" : {
+        "expression" : "//data/MT_EQDATA_REQ/EQUI/SORTIERFELD/text()",
+        "equalTo" : "49/30/500/7JVN"
+      }
+    } ]
   },
   "response": {
     "status": 202

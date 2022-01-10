@@ -26,9 +26,6 @@
               "@type": "GatewayPlace",
               "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}"
             }
-          },
-          "resourceSpecification": {
-            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
           }
         }
       ],

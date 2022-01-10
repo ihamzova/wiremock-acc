@@ -1,0 +1,39 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/presales-order/v1/customerOrdersOnline",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "[?(@.mediacode =~ /GIG_.*/)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "payload": {
+          "edbOrderId": "000000-PSM-1A2B3C"
+        },
+        "errorPayload": {
+          "code": null,
+          "message": null,
+          "invalidAttributes": []
+        }
+      }
+    }
+  }
+}

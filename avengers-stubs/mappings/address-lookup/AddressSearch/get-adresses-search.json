@@ -89,6 +89,51 @@
         },
         "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-10xx-(Bornheim).json"
       }
+    },
+    {
+      "name": "Get address details by klsIds from FOLv2 for Bornheim_002",
+      "priority": 2,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=born.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-10xx-(Bornheim).json"
+      }
+    },
+    {
+      "name": "Get address details by any address name",
+      "priority": 900,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": []
+      }
+    },
+    {
+      "name": "Get address details by klsIds from FOLv2 for Y* letter",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=Y.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-1000-(Y).json"
+      }
     }
   ]
 }

@@ -200,8 +200,8 @@
                         <SUBMT>40247072</SUBMT>
                     </EQUI>
                     <KOPF>
-                        <PARTNER>BS_DIGIOSS</PARTNER>
-                        <ANFO_KEN>15758997480418591403</ANFO_KEN>
+                        <PARTNER>{{xPath request.body '//data/MT_EQDATA_REQ/KOPF/PARTNER/text()'}}</PARTNER>
+                        <ANFO_KEN>{{xPath request.body '//data/MT_EQDATA_REQ/KOPF/ANFO_KEN/text()'}}</ANFO_KEN>
                     </KOPF>
                     <STATUS>
                         <LOG_NO>0000000000</LOG_NO>

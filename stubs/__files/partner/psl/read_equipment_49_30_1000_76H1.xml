@@ -5,14 +5,11 @@
         <ns1:MT_EQDATA_RESPV2 xmlns:ns1='http://telekom.de/xi/NGERP_EXTD_PSL_INT/global/WMS/Equipment/Read/V2'>
             <eiMessageContext>
                 <target xmlns='http://messaging.ei.tmobile.net/datatypes'>SI_ReadEquipmentResponseV2In_DigiOSS</target>
-                <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>
-                    urn:uuid:3411bae2-2df1-4170-ace4-af63620c76ea
-                </requestId>
+                <requestId xmlns='http://messaging.ei.tmobile.net/datatypes'>urn:uuid:7305493d-d1fd-4e2f-8024-cbba99c9226e</requestId>
                 <timeLeft xmlns='http://messaging.ei.tmobile.net/datatypes'>172800000</timeLeft>
                 <priority xmlns='http://messaging.ei.tmobile.net/datatypes'>4</priority>
                 <sender xmlns='http://messaging.ei.tmobile.net/datatypes'>sndr:tmo.erp.sap.architecture.SAP:PI</sender>
-                <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>bba68949-293c-481b-8383-2a6cf2959b0b
-                </correlationId>
+                <correlationId xmlns='http://messaging.ei.tmobile.net/datatypes'>e7b1abea-1d00-4945-ac1c-10cf1f403121</correlationId>
             </eiMessageContext>
             <data>
                 <MT_EQDATA_RESPV2>
@@ -180,8 +177,8 @@
                         <SUBMT>40247072</SUBMT>
                     </EQUI>
                     <KOPF>
-                        <PARTNER>BS_DIGIOSS</PARTNER>
-                        <ANFO_KEN>15758997480418591403</ANFO_KEN>
+                        <PARTNER>{{xPath request.body '//data/MT_EQDATA_REQ/KOPF/PARTNER/text()'}}</PARTNER>
+                        <ANFO_KEN>{{xPath request.body '//data/MT_EQDATA_REQ/KOPF/ANFO_KEN/text()'}}</ANFO_KEN>
                     </KOPF>
                     <STATUS>
                         <LOG_NO>0000000000</LOG_NO>

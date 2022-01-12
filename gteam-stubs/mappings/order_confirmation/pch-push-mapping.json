@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/pubsub/p/presales-order/v1/preOrders",
+    "urlPattern": "/pubsub/p/presales-order/v1/pchEvents",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

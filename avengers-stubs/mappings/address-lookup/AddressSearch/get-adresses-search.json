@@ -63,7 +63,7 @@
         "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "$[?(@.klsIds[0] == 3000)]"
+            "matchesJsonPath": "$[?(@.klsIds[0] =~ /300[0-9]/)]"
           }
         ]
       },

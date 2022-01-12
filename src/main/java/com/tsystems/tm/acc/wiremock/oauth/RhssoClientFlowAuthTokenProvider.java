@@ -22,7 +22,7 @@ public class RhssoClientFlowAuthTokenProvider implements AuthTokenProvider {
 
     @Override
     public String getToken() {
-        if (token == null || LocalDateTime.now().isAfter(lastFetched.plusSeconds(token.getExpiresIn()))) {
+        if (token == null || LocalDateTime.now().isAfter(lastFetched.plusSeconds(token.getExpiresIn() - 15))) {
             fetchToken();
         }
         return token.getAccessToken();

@@ -95,7 +95,7 @@
       "priority": 2,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=born.*"
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=[Bb]orn.*"
       },
       "response": {
         "status": 200,
@@ -110,7 +110,7 @@
       "priority": 2,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=Bran.*"
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=[Bb]ran.*"
       },
       "response": {
         "status": 200,
@@ -137,10 +137,10 @@
     },
     {
       "name": "Get address details by klsIds from FOLv2 for B letter",
-      "priority": 1,
+      "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=B"
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=[Bb]&.*"
       },
       "response": {
         "status": 200,

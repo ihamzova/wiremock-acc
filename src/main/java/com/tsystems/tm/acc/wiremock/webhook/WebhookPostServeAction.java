@@ -78,28 +78,27 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
     }
 
     protected void doActionInternal(WebhookPostServeActionDefinition definition, ServeEvent serveEvent, Admin admin, Parameters parameters) {
-        final WebhookPostServeActionDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
         final Notifier notifier = notifier();
 
         scheduler.schedule(
                 () -> {
                     try {
+                        WebhookPostServeActionDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
                         HttpUriRequest request = buildRequest(transformedDefinition);
                         HttpResponse response = httpClient.execute(request);
-                        notifier.info(
-                                String.format("Webhook %s request to %s returned status %s\n\n%s",
+                        notifier.error(
+                                String.format("Webhook %s request to %s returned status %s",
                                         transformedDefinition.getMethod(),
                                         transformedDefinition.getUrl(),
-                                        response.getStatusLine(),
-                                        EntityUtils.toString(response.getEntity())
-                                )
+                                        response.getStatusLine())
                         );
+                        notifier.info(EntityUtils.toString(response.getEntity()));
                     } catch (Throwable e) {
-                        throwUnchecked(e);
                         notifier.error(e.toString());
+                        throwUnchecked(e);
                     }
                 },
-                transformedDefinition.getFixedDelayMilliseconds() != null ? transformedDefinition.getFixedDelayMilliseconds() : 0L,
+                definition.getFixedDelayMilliseconds() != null ? definition.getFixedDelayMilliseconds() : 0L,
                 MILLISECONDS
         );
     }

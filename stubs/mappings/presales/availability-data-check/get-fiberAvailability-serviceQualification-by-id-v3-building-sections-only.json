@@ -1,8 +1,8 @@
 {
-  "priority": 4,
+  "priority": 2,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/([a-zA-Z0-9-_]+)",
+    "urlPathPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/1000000([a-zA-Z0-9-_]+)",
     "queryParameters" : {
       "fields" : {
         "equalTo" : "BuildingSection"

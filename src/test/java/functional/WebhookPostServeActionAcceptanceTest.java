@@ -94,7 +94,7 @@ public class WebhookPostServeActionAcceptanceTest {
                 .withRequestBody(equalToJson("{ \"result\": \"SUCCESS\" }"))
         );
 
-        assertThat(notifier.getInfoMessages(), hasItem(allOf(
+        assertThat(notifier.getErrorMessages(), hasItem(allOf(
                 containsString("Webhook POST request to"),
                 containsString("/callback returned status"),
                 containsString("200")
@@ -141,7 +141,7 @@ public class WebhookPostServeActionAcceptanceTest {
                 .withRequestBody(equalTo("TEST"))
         );
 
-        assertThat(notifier.getInfoMessages(), hasItem(allOf(
+        assertThat(notifier.getErrorMessages(), hasItem(allOf(
                 containsString("Webhook POST request to"),
                 containsString("/callback returned status"),
                 containsString("200")

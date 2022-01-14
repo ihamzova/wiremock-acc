@@ -106,6 +106,21 @@
       }
     },
     {
+      "name": "Get address details by klsIds from FOLv2 for street Brandenburgische",
+      "priority": 2,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=Bran.*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "address-lookup/AddressSearch/addresses-with-street-Brandenburgische.json"
+      }
+    },
+    {
       "name": "Get address details by any address name",
       "priority": 900,
       "request": {
@@ -121,18 +136,18 @@
       }
     },
     {
-      "name": "Get address details by klsIds from FOLv2 for Y* letter",
+      "name": "Get address details by klsIds from FOLv2 for B letter",
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=Y.*"
+        "urlPattern": "/giga-areas-location/v2/lookup/addressSuggestions/\\?address=B"
       },
       "response": {
         "status": 200,
         "headers": {
           "Content-Type": "application/json"
         },
-        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-1000-(Y).json"
+        "bodyFileName": "address-lookup/AddressSearch/adresses-with-kls-1000-(B).json"
       }
     }
   ]

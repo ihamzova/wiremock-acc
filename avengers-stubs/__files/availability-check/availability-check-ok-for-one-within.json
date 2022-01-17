@@ -1,0 +1,87 @@
+{
+  "id": "{{request.path.[4]}}",
+  "href": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/{{request.path.[4]}}",
+  "provideAlternative": false,
+  "provideOnlyAvailable": false,
+  "provideUnavailabilityReason": true,
+  "qualificationResult": "qualified",
+  "state": "done",
+  "relatedParty": [],
+  "serviceQualificationItem": [
+    {
+      "id": "b661a890-7230-4079-a2e9-3b3b7023628d",
+      "qualificationResult": "qualified",
+      "state": "done",
+      "alternateServiceProposal": [],
+      "eligibilityUnavailabilityReason": [],
+      "qualificationItemRelationship": [],
+      "service": {
+        "id": "98b95ca7-7140-4c2c-b4f2-d41afedd2571",
+        "place": [
+          {
+            "id": "{{request.path.[4]}}0",
+            "name": "Vorderhaus",
+            "@type": "BuildingSection"
+          }
+        ],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "name": "Telekom Deutschland GmbH",
+            "role": "NetCo",
+            "characteristics": [
+              {
+                "name": "carrierCode",
+                "value": "DTAG"
+              },
+              {
+                "name": "isWholebuyPartner",
+                "value": "0"
+              }
+            ]
+          }
+        ],
+        "serviceCharacteristic": [
+          {
+            "name": "Ausbaustand Glasfaser",
+            "value": "planned"
+          },
+          {
+            "name": "WE",
+            "value": "3"
+          },
+          {
+            "name": "GE",
+            "value": "8"
+          },
+          {
+            "name": "SL",
+            "value": "8"
+          },
+          {
+            "name": "DatumVon",
+            "value": "{{now offset='-15 days' format='yyyy-MM-dd'}}T06:00:00.000Z"
+          },
+          {
+            "name": "DatumBis",
+            "value": "{{now offset='21 days' format='yyyy-MM-dd'}}T06:00:00.000Z"
+          },
+          {
+            "name": "Technologie",
+            "value": "FTTH"
+          },
+          {
+            "name": "Initiative",
+            "value": "Eigenausbau"
+          },
+          {
+            "name": "Zusatzinformation",
+            "value": "Unterschiedlicher Ausbaustatus. Kürzere Realisierungszeit möglich!"
+          }
+        ],
+        "serviceRelationship": []
+      },
+      "terminationError": []
+    }
+  ]
+}

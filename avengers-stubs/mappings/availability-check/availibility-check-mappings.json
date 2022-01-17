@@ -146,6 +146,21 @@
         },
         "bodyFileName": "availability-check/availability-check-negative-multi-dps.json"
       }
+    },
+    {
+      "name": "Get negative availability check for case with multiple distribution points",
+      "priority": 5,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/300[3-8]\\?fields=BuildingSection"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "availability-check/availability-check-ok-for-one-within.json"
+      }
     }
 
   ]

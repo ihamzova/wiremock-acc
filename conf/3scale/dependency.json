@@ -178,6 +178,19 @@
           "giga:cga:all-area-access",
           "giga:callback:full"
         ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/a4/deprovisioning/accessLine",
+        "scopes": ["rori:provisioningProcess:write", "rori:actAccCallback:post"],
+        "pattern": [
+          "",
+          "/reqcb"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
+        "scopes": ["rori:commissioningDpuA4Tasks:post"],
+        "pattern": [""]
       }
     ]
   }

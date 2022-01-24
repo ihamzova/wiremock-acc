@@ -1,0 +1,12 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPattern": "/giga-project-dioss/v1/wfmtCommunication/wfmOrders"
+    },
+    "response": {
+        "status": 201,
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

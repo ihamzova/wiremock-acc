@@ -11,9 +11,9 @@
           "Content-Type": "application/json"
         },
         "jsonBody": {
-          "id": "{{randomValue type='UUID'}}"
+          "id": "{{request.headers.X-B3-TraceId}}"
         },
-        "fixedDelayMilliseconds": 6000
+        "fixedDelayMilliseconds": 1000
       },
       "postServeActions": {
         "webhook": {
@@ -23,7 +23,7 @@
             "Content-Type": "application/json"
           },
           "url": "http://vvi-handler-app/communicationMessageCallback",
-          "fixedDelayMilliseconds": 10000,
+          "fixedDelayMilliseconds": 3000,
           "bodyFileName": "partner/tardis/dms/dms-pdf-event.json"
         }
       }

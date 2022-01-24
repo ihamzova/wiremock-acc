@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "priority": 5,
+      "priority": 6,
       "request": {
         "method": "GET",
         "urlPathPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/30000000[1-9]"
@@ -15,7 +15,7 @@
       }
     },
     {
-      "priority": 5,
+      "priority": 6,
       "request": {
         "method": "GET",
         "urlPathPattern": "/giga-project-dioss/v2/FiberAvailability/serviceQualification/30000001[0-1]"

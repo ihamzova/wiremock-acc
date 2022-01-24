@@ -178,6 +178,11 @@
           "giga:cga:all-area-access",
           "giga:callback:full"
         ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
+        "scopes": ["rori:commissioningDpuA4Tasks:post"],
+        "pattern": [""]
       }
     ]
   }

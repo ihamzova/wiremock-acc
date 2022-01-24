@@ -46,7 +46,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 20000,
+          "fixedDelayMilliseconds": 25000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
@@ -56,7 +56,7 @@
         },
         {
           "method": "POST",
-          "fixedDelayMilliseconds": 25000,
+          "fixedDelayMilliseconds": 35000,
           "headers": {
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"

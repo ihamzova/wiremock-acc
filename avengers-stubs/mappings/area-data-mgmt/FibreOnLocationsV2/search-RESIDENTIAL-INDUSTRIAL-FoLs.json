@@ -46,17 +46,33 @@
       }
     },
     {
-      "name": "Find RESIDENTIAL & INDUSTRIAL FoL by kls id AND gigaArea number for Bonn_009",
-      "priority": 1,
+      "name": "Find RESIDENTIAL & INDUSTIRAL FoLs by kls id list for 1000 and [3000-3009]",
+      "priority": 5,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?gigaAreaNumber=Bonn_009&klsId=300[0-3]&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?.*klsIds=(300[0-9]).*&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE.*"
       },
       "response": {
         "status": 200,
         "headers": {
           "Content-Type": "application/json"
         },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/residential-industrial/search-by-kls-3000-3009-for-existing.json"
+      }
+    },
+    {
+      "name": "Find RESIDENTIAL & INDUSTRIAL FoL by kls id AND gigaArea number for Bonn_009",
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?gigaAreaNumber=Bonn_009&klsId=300[0-6]&pageSize=1000&areaTypes=INDUSTRIAL&areaTypes=RESIDENTIAL&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+
         "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/residential-industrial/search-Bonn_009.json"
       }
     }

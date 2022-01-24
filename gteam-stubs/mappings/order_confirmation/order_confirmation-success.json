@@ -1,8 +1,8 @@
 {
-  "priority": 4,
+  "priority": 5,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/presales-order/v1/order-confirmation"
+    "urlPathPattern": "/presales-order/v1/order-confirmations"
   },
   "response": {
     "status": 200

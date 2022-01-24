@@ -5,7 +5,7 @@
       "priority": 1,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/(10[0-1][0-9]|102[0-1]|2000|300[0-2])"
+        "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/(10[0-1][0-9]|102[0-1]|2000|300[0-8])"
       },
       "response": {
         "status": 200,

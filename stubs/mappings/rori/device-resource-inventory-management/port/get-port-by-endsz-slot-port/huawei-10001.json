@@ -5,7 +5,7 @@
     "urlPath": "/resource-order-resource-inventory/v5/port",
     "queryParameters": {
       "parentEquipmentRef.endSz": {
-        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1|2|4]{1}$|49\\/8571\\/0\\/76HA"
+        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1|2|4]{1}$|49\\/8571\\/0\\/76HA|49\\/30\\/179\\/76G[0-3]{1}$"
       },
      "parentEquipmentRef.slotName": {
         "matches": "[0-7]|11|18"

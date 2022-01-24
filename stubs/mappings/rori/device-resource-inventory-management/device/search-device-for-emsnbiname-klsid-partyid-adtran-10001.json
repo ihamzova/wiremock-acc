@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "fields": {
+        "matches": "emsNbiName,klsId,relatedParty"
+      },
+      "endSz": {
+        "matches": "49\\/911\\/1100\\/76H[3|5]"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/device/flatDevice/adtran-party10001.json"
+  }
+}

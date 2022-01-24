@@ -1,0 +1,223 @@
+[
+  {
+    "asb": 1,
+    "containsCardsRefOrValue": [
+      {
+        "id": 1001,
+        "cardType": "GPON",
+        "containsPortsRefOrValue": [
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1001,
+            "resourceId": "05d49a0f-9a43-49dd-99c1-3ed6dee11cg7",
+            "portName": "0",
+            "portType": "PON"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1002,
+            "resourceId": "fcaece28-f9de-4339-9a81-a17e42848506",
+            "portType": "PON",
+            "portName": "1"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1003,
+            "resourceId": "a3faccec-e3db-44b0-a958-c8f84015bc25",
+            "portType": "PON",
+            "portName": "2"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1004,
+            "resourceId": "41a64cad-7fa1-4bb9-8e6e-3f9299c3f9b8",
+            "portName": "3",
+            "portType": "PON"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1005,
+            "resourceId": "85dec663-9f20-40e9-bdac-3bd44a770eec",
+            "portType": "PON",
+            "portName": "4"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1006,
+            "resourceId": "635a530f-9b0b-4119-978c-9e1258ee4b1a",
+            "portType": "PON",
+            "portName": "5"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1007,
+            "resourceId": "377315c6-1421-49ac-91e0-fb198d6585ed",
+            "portType": "PON",
+            "portName": "6"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1008,
+            "resourceId": "e70142db-3dc6-4d8c-b4fc-aef413ac922e",
+            "portType": "PON",
+            "portName": "7"
+          }
+        ],
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "equipmentNumber": "214553001",
+        "firmwareVersion": "507(2015-8-27)",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "resourceId": "05d49a0f-9a43-49dd-99c1-3ed6dee11cf7",
+        "serialNumber": "022MLNCNFF2000512",
+        "shortName": "GPBH",
+        "slotName": "3"
+      },
+      {
+        "slotName": "4",
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "id": 1002,
+        "resourceId": "a00f7fac-6afd-4eca-a88a-40a155a4e82b",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553002",
+        "containsPortsRefOrValue": [
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1009,
+            "resourceId": "1466adbe-0f62-40f7-b480-32b1eccfb659",
+            "portName": "0",
+            "portType": "PON"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1010,
+            "resourceId": "f5284921-e0a0-4406-be2f-1b621778f146",
+            "portType": "PON",
+            "portName": "1"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1011,
+            "resourceId": "67570897-5482-4b18-bb58-b25f31e3de58",
+            "portType": "PON",
+            "portName": "2"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1012,
+            "resourceId": "9e2bbc02-819e-4e5d-956d-8fd8be335bdc",
+            "portName": "3",
+            "portType": "PON"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1013,
+            "resourceId": "fb5e9611-86d5-410e-b6f2-24f2817b7b57",
+            "portType": "PON",
+            "portName": "4"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1014,
+            "resourceId": "1d808909-79a6-48fe-b344-aa8b78fa613c",
+            "portType": "PON",
+            "portName": "5"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1015,
+            "resourceId": "f92e6d42-6f33-4315-bcfe-d34b1ee6a1dd",
+            "portType": "PON",
+            "portName": "6"
+          },
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1016,
+            "resourceId": "6756c423-19ee-497e-9c5d-1e5362efd881",
+            "portType": "PON",
+            "portName": "7"
+          }
+        ]
+      },
+      {
+        "slotName": "5",
+        "shortName": "GPBH",
+        "materialNumber": "40294954",
+        "emsNbiName": "H807GPBH",
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40294954",
+        "id": 1003,
+        "resourceId": "a00f7fac-6afd-4eca-a88a-40a155a4e82b",
+        "name": "8-port PON OLT Interface Board V3",
+        "description": "8-port PON OLT Interface Board V3",
+        "serialNumber": "022MLNCNFF2000512",
+        "firmwareVersion": "507(2015-8-27)",
+        "cardType": "GPON",
+        "equipmentNumber": "214553003",
+        "containsPortsRefOrValue": [
+          {
+            "containsOpticalModuleRefOrValue": null,
+            "id": 1017,
+            "resourceId": "d421d498-4705-4fbe-9b51-eba3928c9485",
+            "portType": "PON",
+            "portName": "0"
+          }
+        ]
+      }
+    ],
+    "containsPortsRefOrValue": [
+      {
+        "containsOpticalModuleRefOrValue": {
+          "creationDate": "2021-11-12T10:02:40.684Z",
+          "description": "string",
+          "descriptionUrl": "string",
+          "emsNbiName": "string",
+          "id": 1008,
+          "lastDiscovery": "2021-11-12T10:02:40.684Z",
+          "manufacturer": "HUAWEI",
+          "materialNumber": "654987",
+          "modificationDate": "2021-11-12T10:02:40.684Z",
+          "name": "string",
+          "resourceId": "string",
+          "shortName": "string"
+        },
+        "creationDate": "2021-11-12T10:02:40.684Z",
+        "id": 1002,
+        "lifeCycleState": "NOT_OPERATING",
+        "modificationDate": "2021-11-12T10:02:40.684Z",
+        "portName": "string",
+        "portType": "PON",
+        "resourceId": "string"
+      }
+    ],
+    "description": null,
+    "deviceType": "OLT",
+    "emsNbiName": "MA5600T",
+    "endSz": "49/30/179/76G2",
+    "equipmentNumber": "212880056",
+    "firmwareVersion": "MA5600V800R016C00",
+    "fsz": null,
+    "id": 1001,
+    "importDate": null,
+    "ipAddress": "10.147.122.196",
+    "klsId": 14653,
+    "lastDiscovery": "2021-11-12T10:02:40.684Z",
+    "manufacturer": null,
+    "materialNumber": "325874",
+    "modificationDate": "2021-11-12T10:02:40.684Z",
+    "name": "MA5600T",
+    "resourceId": "a5a35196-3a6b-4bc0-8365-29ee4b578df8",
+    "serialNumber": null,
+    "shortName": "MABC VB",
+    "technicalLocation": "000031-000179-001-004-002-021",
+    "vpsz": "49/30/179"
+  }
+]

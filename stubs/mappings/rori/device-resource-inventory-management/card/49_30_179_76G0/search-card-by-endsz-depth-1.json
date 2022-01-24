@@ -1,0 +1,25 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/card",
+    "queryParameters": {
+      "parentDeviceEquipmentRef.endSz": {
+        "equalTo": "49/30/179/76G0"
+      },
+      "slotName": {
+        "matches": "3|4|5"
+      },
+      "depth": {
+        "matches": "1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/card/49_30_179_76G0/slot_{{request.query.slotName}}.json"
+  }
+}

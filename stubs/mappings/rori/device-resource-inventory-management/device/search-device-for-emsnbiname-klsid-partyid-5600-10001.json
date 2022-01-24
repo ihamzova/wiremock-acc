@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "fields": {
+        "matches": "emsNbiName,klsId,relatedParty"
+      },
+      "endSz": {
+        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/8571\\/0\\/76HA|49\\/30\\/179\\/76G[0-3]{1}$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/device/flatDevice/MA5600-party10001.json"
+  }
+}

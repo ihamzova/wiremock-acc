@@ -15,10 +15,6 @@
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "state": "Failed",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Failed"
-      },
       "orderItem": [
         {
           "@type": "GatewayResourceOrderItem",

@@ -11,6 +11,10 @@
     "task": {
       "@type": "CancelGatewayResourceOrderTask",
       "state": "TerminatedWithError",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderTaskStateChange",
+        "state": "TerminatedWithError"
+      },
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "taskDate": "{{jsonPath request.body '$.taskDate'}}",
       "effectiveCancellationDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",

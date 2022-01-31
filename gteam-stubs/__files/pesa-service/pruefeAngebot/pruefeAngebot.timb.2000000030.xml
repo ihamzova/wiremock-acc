@@ -4,7 +4,7 @@
     <SOAP-ENV:Body>
         <tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de"
                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                   xmlns:ns2="http://BusinessServiceFault_v2.bbfn.telekom.de"
+                                   xmlns:ns3="http://BusinessServiceFault_v2.bbfn.telekom.de"
                                    xmlns:fault="http://ServiceFault_v2.bbfn.telekom.de">
         <Payload>
             <Angebot>
@@ -680,29 +680,20 @@
                 </Produktverfuegbarkeit>
             </Angebot>
             <tns:BusinessFault>
-                <ns2:BBFN>
-                    <ns2:CustomerFunctions>OrderManagement</ns2:CustomerFunctions>
-                </ns2:BBFN>
-                <ns2:ServiceName>sucheProduktUeberAngebot</ns2:ServiceName>
-                <ns2:ServiceVersion>08.50_2020.04.01</ns2:ServiceVersion>
-                <ns2:ServiceFault>50208</ns2:ServiceFault>
-                <ns2:ServiceFaultClass>ProductFault</ns2:ServiceFaultClass>
-                <ns2:ServiceFaultReason>Ein Produktwechsel von ProduktID 89846041 auf ProduktID 89775800 ist
+                <ns3:BBFN>
+                    <ns3:CustomerFunctions>OrderManagement</ns3:CustomerFunctions>
+                </ns3:BBFN>
+                <ns3:ServiceName>sucheProduktUeberAngebot</ns3:ServiceName>
+                <ns3:ServiceVersion>08.50_2020.04.01</ns3:ServiceVersion>
+                <ns3:ServiceFault>50208</ns3:ServiceFault>
+                <ns3:ServiceFaultClass>ProductFault</ns3:ServiceFaultClass>
+                <ns3:ServiceFaultReason>Ein Produktwechsel von ProduktID 89846041 auf ProduktID 89775800 ist
                     Produktwechselmatrix nicht mцglich
-                </ns2:ServiceFaultReason>
-                <ns2:ServiceFaultSeverity>MAJO</ns2:ServiceFaultSeverity>
-                <ns2:isRepeatable>false</ns2:isRepeatable>
+                </ns3:ServiceFaultReason>
+                <ns3:ServiceFaultSeverity>MAJO</ns3:ServiceFaultSeverity>
+                <ns3:isRepeatable>false</ns3:isRepeatable>
             </tns:BusinessFault>
         </Payload>
-        <tns:ServiceFault>
-            <ns2:BBFN/>
-            <ns2:ServiceName/>
-            <ns2:ServiceVersion/>
-            <ns2:ServiceFault/>
-            <ns2:ServiceFaultClass/>
-            <ns2:ServiceFaultReason/>
-            <ns2:ServiceFaultSeverity/>
-            <ns2:isRepeatable/>
-        </tns:ServiceFault>
+        <tns:ServiceFault/>
     </tns:pruefeAngebotResponse>
 </SOAP-ENV:Body></SOAP-ENV:Envelope>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://ServiceFault_v2.bbfn.telekom.de">
+ <Payload>
+<tns:BusinessFault>
+<fault:BBFN>
+<fault:Presentation>Presentation</fault:Presentation>
+</fault:BBFN>
+<fault:ServiceName>pruefeAngebot</fault:ServiceName>
+<fault:ServiceVersion>00.00_0000.00.00</fault:ServiceVersion>
+<fault:ServiceFault>50105</fault:ServiceFault>
+<fault:ServiceFaultClass>AFault</fault:ServiceFaultClass>
+<fault:ServiceFaultReason>Kataloge verschieden</fault:ServiceFaultReason>
+<fault:ServiceFaultSeverity>NORM</fault:ServiceFaultSeverity>
+<fault:isRepeatable>true</fault:isRepeatable>
+</tns:BusinessFault>
+ </Payload>
+</tns:pruefeAngebotResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

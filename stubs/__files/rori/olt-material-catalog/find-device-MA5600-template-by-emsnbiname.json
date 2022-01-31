@@ -3,8 +3,8 @@
   "materialNumber": "40247069",
   "shortName": "MABC VB",
   "manufacturer": "HUAWEI",
-  "emsNbiName": "{{request.requestLine.pathSegments.[5]}}",
-  "tkz": "02351082",
+  "emsNbiName": "MA5600T",
+  "tkz": "02353310",
   "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
   "id": 1000,
   "deviceType": {
@@ -12,7 +12,7 @@
     "type": "OLT",
     "deviceAttributes": []
   },
-  "preprovisioningStrategy": "16-8-8_on-demand",
+  "preprovisioningStrategy": "16-4-4_on-demand",
   "equipmentHolderProfile": {
     "id": 1000,
     "name": "Slot",
@@ -601,5 +601,7 @@
       }
     ],
     "equipmentHolderProfileAttributes": []
-  }
+  },
+  "portProfiles": [],
+  "accessTransmissionMedium": "FIBER"
 }

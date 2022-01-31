@@ -1,5 +1,5 @@
 {
-  "name": "SDX 6320-16",
+  "name": "SDX 6320-16 XGPON/GPON Combo OLT",
   "materialNumber": "40958960",
   "shortName": "SDX6320-16",
   "manufacturer": "ADTRAN",
@@ -12,7 +12,7 @@
     "type": "OLT",
     "deviceAttributes": []
   },
-  "preprovisioningStrategy": "32_on-demand",
+  "preprovisioningStrategy": "16-4-4_on-demand",
   "equipmentHolderProfile": null,
   "portProfiles": [
     {
@@ -159,5 +159,6 @@
       "orderNumber": 8,
       "opticalModuleProfile": null
     }
-  ]
+  ],
+  "accessTransmissionMedium": "FIBER"
 }

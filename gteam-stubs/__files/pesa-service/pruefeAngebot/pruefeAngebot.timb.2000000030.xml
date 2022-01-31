@@ -694,6 +694,15 @@
                 <ns2:isRepeatable>false</ns2:isRepeatable>
             </tns:BusinessFault>
         </Payload>
-        <tns:ServiceFault/>
+        <tns:ServiceFault>
+            <ns2:BBFN/>
+            <ns2:ServiceName/>
+            <ns2:ServiceVersion/>
+            <ns2:ServiceFault/>
+            <ns2:ServiceFaultClass/>
+            <ns2:ServiceFaultReason/>
+            <ns2:ServiceFaultSeverity/>
+            <ns2:isRepeatable/>
+        </tns:ServiceFault>
     </tns:pruefeAngebotResponse>
 </SOAP-ENV:Body></SOAP-ENV:Envelope>

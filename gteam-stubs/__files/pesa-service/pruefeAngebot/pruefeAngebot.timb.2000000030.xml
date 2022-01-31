@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://ServiceFault_v2.bbfn.telekom.de">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://BusinessFault_v2.bbfn.telekom.de">
  <Payload>
 <tns:BusinessFault>
 <fault:BBFN>

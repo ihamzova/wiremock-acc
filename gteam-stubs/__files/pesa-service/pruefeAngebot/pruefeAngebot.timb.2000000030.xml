@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://BusinessServiceFault_v2.bbfn.telekom.de">
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://BusinessServiceFault_v2.bbfn.telekom.de"
     <Payload>
         <Angebot>
             <ID>63000019725</ID>
@@ -673,17 +673,17 @@
                 <EinzelmodulID>89741357</EinzelmodulID>
             </Produktverfuegbarkeit>
         </Angebot>
-    <tns:BusinessServiceFault>
-<fault:BBFN>
-<fault:Presentation>Presentation</fault:Presentation>
-</fault:BBFN>
-<fault:ServiceName>pruefeAngebot</fault:ServiceName>
-<fault:ServiceVersion>00.00_0000.00.00</fault:ServiceVersion>
-<fault:ServiceFault>50211</fault:ServiceFault>
-<fault:ServiceFaultClass>AFault</fault:ServiceFaultClass>
-<fault:ServiceFaultReason>Eine Zubuchung ist am bestehenden Basismarktprodukt bzw. am neu gewünschten Basismarktprodukt für die Angebotsposition mit der Angebotspositionsnummer 10001 aufgrund der Mindestvertragslaufzeit nicht möglich. Eine frühestmögliche Bestellung ist nach dem Ablauf der Mindestvertragslaufzeit am 2022-03-21 möglich</fault:ServiceFaultReason>
-<fault:ServiceFaultSeverity>NORM</fault:ServiceFaultSeverity>
-<fault:isRepeatable>true</fault:isRepeatable>
-</tns:BusinessServiceFault>
+        <tns:BusinessFault>
+            <ns2:BBFN>
+                <ns2:CustomerFunctions>OrderManagement</ns2:CustomerFunctions>
+            </ns2:BBFN>
+            <ns2:ServiceName>sucheProduktUeberAngebot</ns2:ServiceName>
+            <ns2:ServiceVersion>08.50_2020.04.01</ns2:ServiceVersion>
+            <ns2:ServiceFault>50208</ns2:ServiceFault>
+            <ns2:ServiceFaultClass>ProductFault</ns2:ServiceFaultClass>
+            <ns2:ServiceFaultReason>Ein Produktwechsel von ProduktID 89846041 auf ProduktID 89775800 ist Produktwechselmatrix nicht mцglich</ns2:ServiceFaultReason>
+            <ns2:ServiceFaultSeverity>MAJO</ns2:ServiceFaultSeverity>
+            <ns2:isRepeatable>false</ns2:isRepeatable>
+        </tns:BusinessFault>
     </Payload>
 </tns:pruefeAngebotResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

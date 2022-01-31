@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://BusinessFault_v2.bbfn.telekom.de">
- <Payload>
-<tns:BusinessFault>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header /><SOAP-ENV:Body><tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fault="http://BusinessServiceFault_v2.bbfn.telekom.de">
+<tns:BusinessServiceFault>
 <fault:BBFN>
 <fault:Presentation>Presentation</fault:Presentation>
 </fault:BBFN>
@@ -12,6 +11,5 @@
 <fault:ServiceFaultReason>Eine Zubuchung ist am bestehenden Basismarktprodukt bzw. am neu gewünschten Basismarktprodukt für die Angebotsposition mit der Angebotspositionsnummer 10001 aufgrund der Mindestvertragslaufzeit nicht möglich. Eine frühestmögliche Bestellung ist nach dem Ablauf der Mindestvertragslaufzeit am 2022-03-21 möglich</fault:ServiceFaultReason>
 <fault:ServiceFaultSeverity>NORM</fault:ServiceFaultSeverity>
 <fault:isRepeatable>true</fault:isRepeatable>
-</tns:BusinessFault>
- </Payload>
+</tns:BusinessServiceFault>
 </tns:pruefeAngebotResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

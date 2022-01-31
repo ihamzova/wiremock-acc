@@ -4,7 +4,8 @@
     <SOAP-ENV:Body>
         <tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de"
                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                   xmlns:ns2="http://BusinessServiceFault_v2.bbfn.telekom.de">
+                                   xmlns:ns2="http://BusinessServiceFault_v2.bbfn.telekom.de"
+                                   xmlns:fault="http://ServiceFault_v2.bbfn.telekom.de">
         <Payload>
             <Angebot>
                 <ID>63000019725</ID>
@@ -693,5 +694,6 @@
                 <ns2:isRepeatable>false</ns2:isRepeatable>
             </tns:BusinessFault>
         </Payload>
+        <tns:ServiceFault/>
     </tns:pruefeAngebotResponse>
 </SOAP-ENV:Body></SOAP-ENV:Envelope>

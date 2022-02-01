@@ -251,6 +251,24 @@
         },
         "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-20.json"
       }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/communicationManagement/v3/attachment",
+        "queryParameters": {
+          "communicationMessageId": {
+            "matches": "f87efb49-45bc-4de7-85c3-5e59c2c52265"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "gteam-stubs/dms-communication-management/attachment/vvi-attachment-1.json"
+      }
     }
   ]
 }

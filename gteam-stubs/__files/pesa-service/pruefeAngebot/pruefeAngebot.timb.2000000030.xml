@@ -683,13 +683,11 @@
                 <ns3:BBFN>
                     <ns3:CustomerFunctions>OrderManagement</ns3:CustomerFunctions>
                 </ns3:BBFN>
-                <ns3:ServiceName>sucheProduktUeberAngebot</ns3:ServiceName>
+                <ns3:ServiceName>PruefeAngebot</ns3:ServiceName>
                 <ns3:ServiceVersion>08.50_2020.04.01</ns3:ServiceVersion>
                 <ns3:ServiceFault>50208</ns3:ServiceFault>
-                <ns3:ServiceFaultClass>ProductFault</ns3:ServiceFaultClass>
-                <ns3:ServiceFaultReason>Ein Produktwechsel von ProduktID 89846041 auf ProduktID 89775800 ist
-                    Produktwechselmatrix nicht mцglich
-                </ns3:ServiceFaultReason>
+                <ns3:ServiceFaultClass>BusinessFault</ns3:ServiceFaultClass>
+                <ns3:ServiceFaultReason>ProductFault</ns3:ServiceFaultReason>
                 <ns3:ServiceFaultSeverity>MAJO</ns3:ServiceFaultSeverity>
                 <ns3:isRepeatable>false</ns3:isRepeatable>
             </BusinessFault>

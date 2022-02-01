@@ -2,7 +2,7 @@
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
     <SOAP-ENV:Header/>
     <SOAP-ENV:Body>
-        <tns:pruefeAngebotResponse xmlns:tns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de"
+        <pruefeAngebotResponse xmlns="http://pruefeAngebot_v09.SalesAndServiceCatalogue.CRM.bbfn.telekom.de"
                                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                    xmlns:ns3="http://BusinessServiceFault_v2.bbfn.telekom.de"
                                    xmlns:fault="http://ServiceFault_v2.bbfn.telekom.de">
@@ -679,7 +679,7 @@
                     <EinzelmodulID>89741357</EinzelmodulID>
                 </Produktverfuegbarkeit>
             </Angebot>
-            <tns:BusinessFault>
+            <BusinessFault>
                 <ns3:BBFN>
                     <ns3:CustomerFunctions>OrderManagement</ns3:CustomerFunctions>
                 </ns3:BBFN>
@@ -692,8 +692,7 @@
                 </ns3:ServiceFaultReason>
                 <ns3:ServiceFaultSeverity>MAJO</ns3:ServiceFaultSeverity>
                 <ns3:isRepeatable>false</ns3:isRepeatable>
-            </tns:BusinessFault>
+            </BusinessFault>
         </Payload>
-        <tns:ServiceFault/>
-    </tns:pruefeAngebotResponse>
+    </pruefeAngebotResponse>
 </SOAP-ENV:Body></SOAP-ENV:Envelope>

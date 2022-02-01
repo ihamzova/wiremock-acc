@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/soabpRest/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/FixedNetAccounts/up/accounts/8331394971/contracts"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/v2/specific/8331394971/contracts.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

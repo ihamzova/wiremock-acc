@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/soabpRest/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/FixedNetAccounts/up/accounts/8331394971/customerOrders/80035113561"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/v2/specific/8331394971/order_80035113561.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

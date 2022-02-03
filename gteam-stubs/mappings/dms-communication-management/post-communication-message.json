@@ -675,6 +675,30 @@
           "id": "cac99e9a-0102-11ec-9a03-0242ac130003"
         }
       }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/communicationManagement/v3/communicationMessage",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.sendToReceiver==false)]"
+          },
+          {
+            "matchesJsonPath": "$.[?(@.communicationShoppingCart.requestContext.id==21300069)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "fixedDelayMilliseconds": 1000,
+        "jsonBody": {
+          "id": "f87efb49-45bc-4de7-85c3-5e59c2c52265"
+        }
+      }
     }
   ]
 }

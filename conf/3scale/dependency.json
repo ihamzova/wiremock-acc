@@ -2,6 +2,42 @@
   "dependency": {
     "resources": [
       {
+        "resource": "/giga-areas-location/v2/gigaAreas/gigaAreaTopic/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/PlannedNvt/nvtAreaTopic",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/giga-areas-location/v2/folAreas/folAreaTopic/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
         "resource": "/Wholebuy/v1/WholebuyResourceOrder/Events",
         "pattern": [
           "/pubsub/p",
@@ -161,7 +197,7 @@
           "giga:cga:all-area-access"
         ]
       },
-            {
+      {
         "resource": "/giga-areas-location/v3/fibreOnLocation",
         "pattern": [],
         "scopes": [
@@ -181,8 +217,12 @@
       },
       {
         "resource": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
-        "scopes": ["rori:commissioningDpuA4Tasks:post"],
-        "pattern": [""]
+        "scopes": [
+          "rori:commissioningDpuA4Tasks:post"
+        ],
+        "pattern": [
+          ""
+        ]
       }
     ]
   }

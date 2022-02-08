@@ -1,0 +1,20 @@
+{
+  "mappings": [
+    {
+      "id": "3ce99c5b-7d4b-4a40-abf7-d174367709f4",
+      "name": "Find GIGA-TA by folId for all",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-ta-ri-rs/resource-order-resource-inventory/v1/giga-tas\\?.*buildState=BUILT&folId=([0-9]*).*"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "giga-ta-ri/get-giga-tas-by-fol-id-all.json"
+      }
+    }
+  ]
+}

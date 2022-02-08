@@ -6,7 +6,7 @@
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-ta-ri-rs/resource-order-resource-inventory/v1/giga-tas\\?.*buildState=BUILT&folId=([0-9]*).*"
+        "urlPattern": "/giga-ta-ri-rs/resource-order-resource-inventory/v1/giga-tas\\?.*buildState=BUILT.*&folId=([0-9]*).*"
       },
       "response": {
         "status": 200,

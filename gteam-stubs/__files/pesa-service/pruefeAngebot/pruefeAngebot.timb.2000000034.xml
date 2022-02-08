@@ -21,7 +21,7 @@
                 <Auftraggeberkennzeichen>1</Auftraggeberkennzeichen>
                 <Wunschtermin>2010-03-30</Wunschtermin>
                 <AssignmentKategorie>a</AssignmentKategorie>
-                <Kundennummer>2000000030</Kundennummer>
+                <Kundennummer>2000000034</Kundennummer>
                 <Vertriebspunktnummer>U-12345</Vertriebspunktnummer>
                 <VertriebsOrganisationsNummer>a</VertriebsOrganisationsNummer>
                 <KundenPLZ>
@@ -685,7 +685,19 @@
                 </ns3:BBFN>
                 <ns3:ServiceName>PruefeAngebot</ns3:ServiceName>
                 <ns3:ServiceVersion>08.50_2020.04.01</ns3:ServiceVersion>
-                <ns3:ServiceFault>50208</ns3:ServiceFault>
+                <ns3:ServiceFault>50100</ns3:ServiceFault>
+                <ns3:ServiceFaultClass>BusinessFault</ns3:ServiceFaultClass>
+                <ns3:ServiceFaultReason>„Konfiguration OK“</ns3:ServiceFaultReason>
+                <ns3:ServiceFaultSeverity>MAJO</ns3:ServiceFaultSeverity>
+                <ns3:isRepeatable>false</ns3:isRepeatable>
+            </BusinessFault>
+            <BusinessFault>
+                <ns3:BBFN>
+                    <ns3:CustomerFunctions>OrderManagement</ns3:CustomerFunctions>
+                </ns3:BBFN>
+                <ns3:ServiceName>PruefeAngebot</ns3:ServiceName>
+                <ns3:ServiceVersion>08.50_2020.04.01</ns3:ServiceVersion>
+                <ns3:ServiceFault>50361</ns3:ServiceFault>
                 <ns3:ServiceFaultClass>BusinessFault</ns3:ServiceFaultClass>
                 <ns3:ServiceFaultReason>ProductFault</ns3:ServiceFaultReason>
                 <ns3:ServiceFaultSeverity>MAJO</ns3:ServiceFaultSeverity>

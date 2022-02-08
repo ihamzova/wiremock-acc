@@ -1,0 +1,19 @@
+{
+  "channel": "preOrders",
+  "eventType": "CustomerDataChanged",
+  "eventId": "34f65507-464e-4f0c-be44-3e8038a26d15",
+  "version": "1.0",
+  "source": "presales-service",
+  "createdAt": "2021-12-03T18:35:04.026Z",
+  "payload": {
+    "order_id": "210525-PSM-33XV16",
+    "emailAddressChanged": "true",
+    "_links": {
+      "preOrder": {
+        "href": "/presales-order/v1/preOrders/210525-PSM-33XV16"
+      }
+    },
+    "previous": "installation_date_confirmation",
+    "current": "canceled"
+  }
+}

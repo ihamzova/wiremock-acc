@@ -1,4 +1,5 @@
 {
+  "priority" : 1,
   "request": {
     "method": "GET",
     "urlPattern": "/pubsub/s/presales-order/v1/preOrders",
@@ -15,7 +16,7 @@
       "X-Pubsub-Subscriber-Id": "25A8FC2A-98F2-4B86-98F6-84324AF28612",
       "X-Pubsub-Event-Id": "45AC3202-9353-4B91-A7EF-9B876C7F706F"
     },
-    "bodyFileName": "gteam-stubs/presales/presales-cancellation-pull.json",
+    "bodyFileName": "gteam-stubs/presales/presales-customer-data-changed-pull.json",
     "transformers": [
       "response-template"
     ]

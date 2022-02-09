@@ -1,0 +1,19 @@
+{
+  "mappings": [
+    {
+      "name": "Update succesfully FOL status to connected for any FOL",
+      "priority": 10,
+      "request": {
+        "method": "PUT",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/[0-9]*/status/CONNECTED"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/FOL-updated-to-connected.json"
+      }
+    }
+  ]
+}

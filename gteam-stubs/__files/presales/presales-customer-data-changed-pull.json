@@ -1,19 +1,31 @@
 {
-  "channel": "preOrders",
-  "eventType": "CustomerDataChanged",
-  "eventId": "34f65507-464e-4f0c-be44-3e8038a26d15",
-  "version": "1.0",
-  "source": "presales-service",
-  "createdAt": "2021-12-03T18:35:04.026Z",
-  "payload": {
-    "order_id": "210525-PSM-33XV16",
-    "emailAddressChanged": "true",
-    "_links": {
-      "preOrder": {
-        "href": "/presales-order/v1/preOrders/210525-PSM-33XV16"
+  "PresalesCustomerChangedEvent": {
+    "eventId": "cb28d809-a813-43ac-8dbe-68f5c6f8b6fa",
+    "eventTopic": "PresalesCustomerTopic",
+    "eventVersion": "1.0",
+    "eventSource": "presales-service",
+    "eventTime": "2021-02-08T20:45:04.026Z",
+    "eventType": "PresalesCustomerChanged",
+    "payload": {
+      "customer_id": "e573c2b6-2748-419e-ac31-047c401ae951",
+      "related_orders": [
+        "220125-PSM-09CS6Y",
+        "220125-PSM-04OE3H"
+      ],
+      "emailAddressChanged": true,
+      "_links": {
+        "self": {
+          "href": "/presales-order/v1/customers/e573c2b6-2748-419e-ac31-047c401ae951"
+        },
+        "orders": [
+          {
+            "href": "/presales-order/v2/preOrders/220125-PSM-09CS6Y"
+          },
+          {
+            "href": "/presales-order/v2/preOrders/220125-PSM-04OE3H"
+          }
+        ]
       }
-    },
-    "previous": "installation_date_confirmation",
-    "current": "canceled"
+    }
   }
 }

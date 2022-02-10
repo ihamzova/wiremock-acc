@@ -2,7 +2,12 @@
   "priority": 2,
   "request": {
     "method": "GET",
-    "url": "/resource-order-resource-inventory/v1/rial/olt/?endSz=49/7152/5/76H3"
+    "urlPath": "/resource-order-resource-inventory/v1/rial/olt/",
+      "queryParameters": {
+        "endSz": {
+          "equalTo": "49/7152/5/76H3"
+        }
+      }
   },
   "response": {
     "status": 200,

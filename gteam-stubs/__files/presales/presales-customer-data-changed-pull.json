@@ -1,31 +1,29 @@
 {
-  "PresalesCustomerChangedEvent": {
-    "eventId": "cb28d809-a813-43ac-8dbe-68f5c6f8b6fa",
-    "eventTopic": "PresalesCustomerTopic",
-    "eventVersion": "1.0",
-    "eventSource": "presales-service",
-    "eventTime": "2021-02-08T20:45:04.026Z",
-    "eventType": "PresalesCustomerChanged",
-    "payload": {
-      "customer_id": "e573c2b6-2748-419e-ac31-047c401ae951",
-      "related_orders": [
-        "220125-PSM-09CS6Y",
-        "220125-PSM-04OE3H"
-      ],
-      "emailAddressChanged": true,
-      "_links": {
-        "self": {
-          "href": "/presales-order/v1/customers/e573c2b6-2748-419e-ac31-047c401ae951"
+  "eventId": "cb28d809-a813-43ac-8dbe-68f5c6f8b6fa",
+  "eventTopic": "PresalesCustomerTopic",
+  "eventVersion": "1.0",
+  "eventSource": "presales-service",
+  "eventTime": "2021-02-08T20:45:04.026Z",
+  "eventType": "PresalesCustomerChanged",
+  "payload": {
+    "customer_id": "e573c2b6-2748-419e-ac31-047c401ae951",
+    "related_orders": [
+      "220125-PSM-09CS6Y",
+      "220125-PSM-04OE3H"
+    ],
+    "emailAddressChanged": true,
+    "_links": {
+      "self": {
+        "href": "/presales-order/v1/customers/e573c2b6-2748-419e-ac31-047c401ae951"
+      },
+      "orders": [
+        {
+          "href": "/presales-order/v2/preOrders/220125-PSM-09CS6Y"
         },
-        "orders": [
-          {
-            "href": "/presales-order/v2/preOrders/220125-PSM-09CS6Y"
-          },
-          {
-            "href": "/presales-order/v2/preOrders/220125-PSM-04OE3H"
-          }
-        ]
-      }
+        {
+          "href": "/presales-order/v2/preOrders/220125-PSM-04OE3H"
+        }
+      ]
     }
   }
 }

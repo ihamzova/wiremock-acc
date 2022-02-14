@@ -1,14 +1,22 @@
 {
-  "priority": 6,
+  "priority": 5,
   "request": {
     "method": "POST",
     "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments",
-    "bodyPatterns" : [ {
+    "bodyPatterns" : [
+      {
       "matchesJsonPath" : {
         "expression": "$..ipRangePool",
-        "contains": "ancp_olt"
+        "contains": "ancp_dpu"
       }
-    } ]
+    },
+      {
+        "matchesJsonPath": {
+          "expression": "$..parentInterface.endSz",
+          "contains": "49/111/"
+        }
+      }
+    ]
   },
   "response": {
     "status": 200,
@@ -19,13 +27,13 @@
       "id": 1341434323,
       "@type": "IpRangeAssignment",
       "href": "http://server:port/resource-order-resource-inventory/v1/ipRangeAssignments/1341434323",
-      "ipRangePool": "ancp_olt",
+      "ipRangePool": "ancp_dpu",
       "parentInterface": {
-        "endSz": "49/911/84/7ZJA",
-        "port": "ge_4/0/3"
+        "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
+        "port": "{{jsonPath request.body '$.parentInterface.port'}}"
       },
-      "ipAddress": "10.150.240.100",
-      "prefixLength": 30
+      "ipAddress": "80.146.191.0",
+      "prefixLength": 24
     }
   }
 }

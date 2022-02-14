@@ -2,7 +2,7 @@
   "id": "0c3ea00a-0427-44c2-8c18-0ed5c5fd53c7",
   "request": {
     "method": "POST",
-    "url": "/Wholebuy/v2/resourceOrder/",
+    "urlPattern": ".*/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?(@.externalTag=='bsaPhysicalConnection')]"

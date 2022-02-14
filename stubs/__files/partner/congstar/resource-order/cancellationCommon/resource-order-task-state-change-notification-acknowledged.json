@@ -10,7 +10,10 @@
     "@type": "CancelResourceOrderTaskStateChangeNotificationPayload",
     "task": {
       "@type": "CancelGatewayResourceOrderTask",
-      "state": "Acknowledged",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderTaskStateChange",
+        "state": "Acknowledged"
+      },
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "taskDate": "{{jsonPath request.body '$.taskDate'}}",
       "resourceOrder": {

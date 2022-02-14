@@ -3,10 +3,10 @@
   "priority": 1,
   "request": {
     "method": "POST",
-    "url": "/Wholebuy/v2/cancelResourceOrder/",
+    "urlPattern": ".*/cancelResourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?($.@type == 'CancelGatewayResourceOrderTaskCreate')]"
+        "matchesJsonPath": "$.[?($.@type =~ /CancelGatewayResourceOrderTaskCreate|CancelGatewayResourceOrderTask/)]"
       }
     ],
     "headers": {

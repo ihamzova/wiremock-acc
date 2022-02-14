@@ -17,7 +17,10 @@
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "2020-06-24T20:25:25.000738Z",
       "requestedCompletionDate": "2020-07-22",
-      "state": "Held",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Held"
+      },
       "category": "BSA",
       "lastCancellationDate": "2020-07-16",
       "orderItem": [

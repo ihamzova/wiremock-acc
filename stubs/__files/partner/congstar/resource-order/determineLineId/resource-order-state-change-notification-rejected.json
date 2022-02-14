@@ -17,7 +17,10 @@
       "externalTag": "bsaDetermineLineId",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
-      "state": "Rejected",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Rejected"
+      },
       "category": "BSA",
       "orderItem": [
         {

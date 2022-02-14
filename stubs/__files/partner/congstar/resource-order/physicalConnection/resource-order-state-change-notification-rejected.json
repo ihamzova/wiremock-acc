@@ -14,7 +14,10 @@
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
-      "state": "Rejected",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Rejected"
+      },
       "orderItem": [
         {
           "@type": "GatewayResourceOrderItem",

@@ -3,13 +3,10 @@
   "priority": 15,
   "request": {
     "method": "POST",
-    "url": "/Wholebuy/v2/resourceOrder/",
+    "urlPattern": ".*/resourceOrder/",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?($.orderItem[0].action == 'delete')]"
-      },
-      {
-        "matchesJsonPath": "$.[?($.@type == 'GatewayResourceOrderCreateDelete')]"
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaTermination')]"
       }
     ],
     "headers": {}

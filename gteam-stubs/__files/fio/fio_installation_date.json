@@ -1,0 +1,233 @@
+{
+  "eventId": "08a0e1fb-cced-4655-8d86-1145a37bff5f",
+  "eventTime": "2021-07-27T07:01:42.59619Z",
+  "eventType": "GftaInstallationAppointment",
+  "correlationId": null,
+  "domain": "giga-installation-oder",
+  "timeOcurred": "2021-07-27T07:01:42.59619Z",
+  "tenantId": "10000",
+  "event": {
+    "serviceOrder": {
+      "id": "19659",
+      "href": "/giga-installation-order/v1/notConnectedServiceOrder/19659",
+      "externalId": "PJM-1627043319706-756",
+      "orderDate": "2021-07-23T12:29:33.671Z",
+      "requestedCompletionDate": "2021-08-22T00:00:00Z",
+      "externalReference": [
+        {
+          "externalReferenceType": "customerOrderReference",
+          "name": "Performance756",
+          "@type": "ExternalReference"
+        },
+        {
+          "externalReferenceType": "sourceType",
+          "name": "VVM",
+          "@type": "ExternalReference"
+        },
+        {
+          "externalReferenceType": "customerInstallationOrder",
+          "name": "19659",
+          "@type": "ExternalReference"
+        }
+      ],
+      "milestone": [
+        {
+          "description": "A GfAP-Installation Appointment was booked on this distribution point.",
+          "id": "5",
+          "message": "1030001",
+          "milestoneDate": "2021-07-23T12:52:19.858Z",
+          "name": "GfapInstallationAppointment",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "Fiber expansion in NVT-Area has started.",
+          "id": "1",
+          "message": "1010000",
+          "milestoneDate": "2021-07-23T12:31:04.687Z",
+          "name": "AreaProgramExpansionDecision",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "The GfTA-Installation was planned on this distribution point.",
+          "id": "10",
+          "message": "2010000",
+          "milestoneDate": "2021-07-27T07:01:34.437Z",
+          "name": "GftaInstallationAppointment",
+          "status": "planned",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "A Site Survey Appointment was booked on this distribution point.",
+          "id": "7",
+          "message": "1020001",
+          "milestoneDate": "2021-07-26T13:44:43.098Z",
+          "name": "SiteSurveyAppointment",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "The GfTA-Installation was planned on this distribution point.",
+          "id": "6",
+          "message": "2010000",
+          "milestoneDate": "2021-07-23T12:53:40.406Z",
+          "name": "GftaInstallationAppointment",
+          "status": "planned",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "A GfAP-Installation Appointment was booked on this distribution point.",
+          "id": "9",
+          "message": "1030001",
+          "milestoneDate": "2021-07-27T05:05:16.538Z",
+          "name": "GfapInstallationAppointment",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "A Site Survey Appointment was booked on this distribution point.",
+          "id": "8",
+          "message": "1020001",
+          "milestoneDate": "2021-07-26T16:19:36.802Z",
+          "name": "SiteSurveyAppointment",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "A Site Survey Appointment was booked on this distribution point.",
+          "id": "3",
+          "message": "1020001",
+          "milestoneDate": "2021-07-23T12:50:59.24Z",
+          "name": "SiteSurveyAppointment",
+          "status": "confirmed",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "The Site Survey was planned on this distribution point.",
+          "id": "2",
+          "message": "1020000",
+          "milestoneDate": "2021-07-23T12:50:35.843Z",
+          "name": "SiteSurveyAppointment",
+          "status": "planned",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        },
+        {
+          "description": "The GfAP-Installation was planned on this distribution point.",
+          "id": "4",
+          "message": "1030000",
+          "milestoneDate": "2021-07-23T12:52:02.59Z",
+          "name": "GfapInstallationAppointment",
+          "status": "planned",
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": []
+        }
+      ],
+      "note": [],
+      "orderRelationship": [],
+      "relatedParty": [
+        {
+          "id": "19659",
+          "role": "customer",
+          "@referredType": "Individual"
+        },
+        {
+          "name": "0033 Deutsche Telekom Kundenservice",
+          "role": "carrier",
+          "@referredType": "Organization"
+        }
+      ],
+      "serviceOrderItem": [
+        {
+          "id": "1",
+          "quantity": 1,
+          "action": "add",
+          "service": {
+            "id": "1",
+            "category": "CFS",
+            "description": "GfTA-Installation",
+            "isBundle": false,
+            "isStateful": false,
+            "serviceType": "fiberAccessApartment",
+            "startMode": "0",
+            "feature": [],
+            "note": [],
+            "place": [
+              {
+                "id": "12376980010",
+                "name": "DistributionPoint",
+                "role": "distributionPointId",
+                "@type": "Place"
+              },
+              {
+                "id": "12376980",
+                "name": "Address",
+                "role": "locationId",
+                "@type": "Place"
+              }
+            ],
+            "relatedEntity": [],
+            "relatedParty": [],
+            "serviceCharacteristic": [
+              {
+                "id": "1",
+                "name": "apartmentGftaInstallationStatus",
+                "valueType": "string",
+                "characteristicRelationship": [],
+                "value": "UNKNOWN"
+              },
+              {
+                "id": "3",
+                "name": "gfapAppointment",
+                "valueType": "object",
+                "characteristicRelationship": [],
+                "value": {
+                  "category": "AP_Installation",
+                  "validFor": {
+                    "endDateTime": "2021-08-12T10:00:00Z",
+                    "startDateTime": "2021-08-12T06:00:00Z"
+                  }
+                },
+                "@baseType": "Appointment"
+              },
+              {
+                "id": "4",
+                "name": "SiteSurveyAppointment",
+                "valueType": "object",
+                "characteristicRelationship": [],
+                "value": {
+                  "category": "SiteSurvey",
+                  "validFor": {
+                    "endDateTime": "2021-08-05T08:00:00Z",
+                    "startDateTime": "2021-08-05T06:00:00Z"
+                  }
+                },
+                "@baseType": "Appointment"
+              }
+            ],
+            "serviceOrderItem": [],
+            "serviceRelationship": [],
+            "supportingResource": [],
+            "supportingService": [],
+            "@type": "Service"
+          },
+          "serviceOrderItem": [],
+          "serviceOrderItemRelationship": [],
+          "@baseType": "gen.apis.service_ordering.v4.models.ServiceOrder",
+          "@type": "ServiceOrderItem"
+        }
+      ],
+      "state": "inProgress",
+      "@type": "ServiceOrder"
+    }
+  }
+}

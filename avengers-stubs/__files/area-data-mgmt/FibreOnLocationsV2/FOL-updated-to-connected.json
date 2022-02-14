@@ -1,9 +1,9 @@
 {
-  "content": [
+  "content":
     {
       "creationDate": "2020-02-08T17:10:08.734Z",
       "modificationDate": "2020-02-08T17:10:08.734Z",
-      "id": "string",
+      "id": "30001",
       "klsId": 3001,
       "distributionPointID": "string",
       "distributionPointName": "string",
@@ -17,8 +17,8 @@
       "technology": "FTTH",
       "rolloutSponsor": "SELF_EXPANSION",
       "installationDate": "2020-02-08T17:10:08.734Z",
-      "we": 8,
-      "ge": 0,
+      "we": 5,
+      "ge": 3,
       "sl": 0,
       "realizationTime": 0,
       "bandwidthProfiles": [
@@ -74,8 +74,7 @@
           "internalExpansionDecisionDate": "2020-02-08T17:10:08.735Z"
         }
       }
-    }
-  ],
+    },
   "pageable": {
     "sort": {
       "sorted": false,

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/ancpIpSubnet",
+    "queryParameters": {
+      "bngDownlinkPortEquipmentBusinessRef.endSz": {
+        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[1-5]{1}$|49\\/8571\\/0\\/76HA|49\\/8571\\/0\\/76Z7|49\\/8571\\/0\\/76Z5|49\\/30\\/179\\/76G[0-3]{1}$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/ancp-ip-subnet/ancp-ip-subnet-by-any-endSz.json"
+  }
+}

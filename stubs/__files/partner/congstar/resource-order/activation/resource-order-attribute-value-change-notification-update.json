@@ -68,7 +68,7 @@
             "installationPlace": {
               "@type": "GatewayPlace",
               "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
-              "homeId": "{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}"
+              "homeId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.homeId'}}"
             }
           },
           "resourceSpecification": {

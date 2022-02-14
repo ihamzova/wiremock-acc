@@ -1,0 +1,50 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/pubsub/s/giga-installation-order/v1/notConnectedServiceOrderMilestoneEvent",
+        "headers": {
+          "Content-Type": {
+            "equalTo": "application/json"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Pubsub-Subscriber-Id": "25A8FC2A-98F2-4B86-98F6-84324AF28611",
+          "X-Pubsub-Event-Id": "45AC3202-9353-4B91-A7EF-9B876C7F706F"
+        },
+        "bodyFileName": "gteam-stubs/fio/fio_installation_date.json",
+        "transformers": [
+          "response-template"
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/pubsub/s/giga-installation-order/v1/notConnectedServiceOrderStateChangeEvent",
+        "headers": {
+          "Content-Type": {
+            "equalTo": "application/json"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json",
+          "X-Pubsub-Subscriber-Id": "25A8FC2A-98F2-4B86-98F6-84324AF28611",
+          "X-Pubsub-Event-Id": "45AC3202-9353-4B91-A7EF-9B876C7F706F"
+        },
+        "bodyFileName": "gteam-stubs/fio/fio_completed.json",
+        "transformers": [
+          "response-template"
+        ]
+      }
+    }
+  ]
+}

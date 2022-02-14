@@ -23,7 +23,10 @@
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{now format='yyyy-MM-dd'}}",
       "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
-      "state": "Acknowledged",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Acknowledged"
+      },
       "category": "ONT",
       "orderItem": [
         {

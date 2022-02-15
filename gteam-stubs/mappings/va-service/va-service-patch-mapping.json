@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/va-service/agreement",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "gteam-stubs/va-service/agreement.json"
+  }
+}
+

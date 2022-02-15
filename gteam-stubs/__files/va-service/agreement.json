@@ -1,0 +1,117 @@
+{
+  "id": "string",
+  "href": "string",
+  "agreementType": "string",
+  "description": "string",
+  "documentNumber": 0,
+  "initialDate": "2021-11-18T14:25:04.785Z",
+  "name": "string",
+  "statementOfIntent": "string",
+  "status": "string",
+  "version": "string",
+  "agreementAuthorization": [
+    {
+      "date": "2021-11-18T14:25:04.785Z",
+      "signatureRepresentation": "string",
+      "state": "string",
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "@type": "string"
+    }
+  ],
+  "agreementItem": [
+    {
+      "product": [
+        {
+          "id": "string",
+          "href": "string",
+          "name": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string",
+          "@referredType": "string"
+        }
+      ],
+      "productOffering": [
+        {
+          "id": "string",
+          "href": "string",
+          "name": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string",
+          "@referredType": "string"
+        }
+      ],
+      "termOrCondition": [
+        {
+          "id": "string",
+          "description": "string",
+          "validFor": {
+            "endDateTime": "2021-11-18T14:25:04.785Z",
+            "startDateTime": "2021-11-18T14:25:04.785Z"
+          },
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string"
+        }
+      ],
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "@type": "string"
+    }
+  ],
+  "agreementPeriod": {
+    "endDateTime": "2021-11-18T14:25:04.785Z",
+    "startDateTime": "2021-11-18T14:25:04.785Z"
+  },
+  "agreementSpecification": {
+    "id": "string",
+    "href": "string",
+    "description": "string",
+    "name": "string",
+    "@baseType": "string",
+    "@schemaLocation": "string",
+    "@type": "string",
+    "@referredType": "string"
+  },
+  "associatedAgreement": [
+    {
+      "id": "string",
+      "href": "string",
+      "name": "string",
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "@type": "string",
+      "@referredType": "string"
+    }
+  ],
+  "characteristic": [
+    {
+      "name": "string",
+      "valueType": "string",
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "@type": "string"
+    }
+  ],
+  "completionDate": {
+    "endDateTime": "2021-11-18T14:25:04.785Z",
+    "startDateTime": "2021-11-18T14:25:04.785Z"
+  },
+  "engagedParty": [
+    {
+      "id": "string",
+      "href": "string",
+      "name": "string",
+      "role": "string",
+      "@baseType": "string",
+      "@schemaLocation": "string",
+      "@type": "string",
+      "@referredType": "string"
+    }
+  ],
+  "@baseType": "string",
+  "@schemaLocation": "string",
+  "@type": "string"
+}

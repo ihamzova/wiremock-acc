@@ -16,10 +16,7 @@
       "externalTag": "bsaProductChange",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Completed"
-      },
+      "state": "Completed",
       "category": "BSA",
       "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
       "orderItem": [

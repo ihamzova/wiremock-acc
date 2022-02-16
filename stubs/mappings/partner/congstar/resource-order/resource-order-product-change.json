@@ -2,7 +2,7 @@
   "id": "2d992889-d81d-43df-b1ef-42a16efc983b",
   "request": {
     "method": "POST",
-    "urlPattern": ".*/resourceOrder/",
+    "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?(@.externalTag=='bsaProductChange')]"

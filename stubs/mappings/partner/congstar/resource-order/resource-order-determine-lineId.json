@@ -2,7 +2,7 @@
   "id": "74a7959b-bcd5-44e3-8f2c-28e662d8e36a",
   "request": {
     "method": "POST",
-    "urlPattern": ".*/resourceOrder/",
+    "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?(@.externalTag=='bsaDetermineLineId')]"

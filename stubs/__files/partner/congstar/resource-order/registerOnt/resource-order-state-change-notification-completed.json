@@ -14,10 +14,7 @@
       "completionDate": "{{now format='yyyy-MM-dd'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaRegisterOnt",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Completed"
-      },
+      "state": "Completed",
       "category": "ONT",
       "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}",
       "orderItem": [

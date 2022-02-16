@@ -14,10 +14,7 @@
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaRegisterOnt",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Acknowledged"
-      },
+      "state": "Acknowledged",
       "category": "ONT",
       "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}",
       "orderItem": [

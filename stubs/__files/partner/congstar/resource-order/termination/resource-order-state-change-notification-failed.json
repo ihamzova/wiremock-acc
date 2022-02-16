@@ -16,6 +16,7 @@
       "externalTag": "bsaTermination",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{now format='yyyy-MM-dd'}}",
+      "state": "Failed",
       "lastStateChange": {
         "@type": "GatewayResourceOrderStateChange",
         "state": "Failed"

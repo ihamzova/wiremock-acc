@@ -17,10 +17,7 @@
       "externalTag": "bsaActivation",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Completed"
-      },
+      "state": "Completed",
       "orderItem": [
         {
           "@type": "GatewayResourceOrderItem",

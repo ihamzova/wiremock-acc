@@ -10,6 +10,7 @@
     "@type": "CancelResourceOrderTaskStateChangeNotificationPayload",
     "task": {
       "@type": "CancelGatewayResourceOrderTask",
+      "state": "TerminatedWithError",
       "lastStateChange": {
         "@type": "GatewayResourceOrderTaskStateChange",
         "state": "TerminatedWithError"

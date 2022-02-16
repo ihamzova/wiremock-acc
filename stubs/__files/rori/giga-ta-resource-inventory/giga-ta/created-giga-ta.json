@@ -1,10 +1,10 @@
 {
-		"buildState": "BUILT",
-		"technology": "FTTH",
+	"buildState": "BUILT",
+	"technology": "FTTH",
     "apartmentCplId": "ZZZZAA",
     "materialNumber": "Wholebuy",
-		"klsId": "{{jsonPath request.body '$.klsId'}}",
-		"folId": "{{jsonPath request.body '$.folId'}}",
-		"homeId": "{{jsonPath request.body '$.homeId'}}",
-		"carrierCode": "{{jsonPath request.body '$.carrierCode'}}"
-    }
+	"klsId": "{{jsonPath request.body '$.klsId'}}",
+	"folId": "{{jsonPath request.body '$.folId'}}",
+	"homeId": "{{jsonPath request.body '$.homeId'}}",
+	"carrierCode": "{{jsonPath request.body '$.carrierCode'}}"
+}

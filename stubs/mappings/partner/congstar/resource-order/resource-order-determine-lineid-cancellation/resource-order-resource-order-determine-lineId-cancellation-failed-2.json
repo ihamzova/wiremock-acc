@@ -3,7 +3,7 @@
   "priority": 1,
   "request": {
     "method": "POST",
-    "urlPattern": ".*/resourceOrder/",
+    "url": "/Wholebuy/v2/resourceOrder/",
     "bodyPatterns": [
       {
         "matchesJsonPath": "$.[?(@.externalTag=='bsaDetermineLineId')]"

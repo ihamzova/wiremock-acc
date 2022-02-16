@@ -27,10 +27,7 @@
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
       "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
-      "lastStateChange": {
-        "@type": "GatewayResourceOrderStateChange",
-        "state": "Acknowledged"
-      },
+      "state": "Acknowledged",
       "category": "BSA",
       "orderItem": [
         {

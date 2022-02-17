@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "DELETE",
-    "urlPathPattern": "/order-confirmation-service/api/v1/order-confirmations/(.*)"
+    "urlPathPattern": "/presales-order/v1/order-confirmations/(.*)"
   },
   "response": {
     "status": 204

@@ -1,103 +1,76 @@
 {
-  "content":
-    {
+
+  "creationDate": "2020-02-08T17:10:08.734Z",
+  "modificationDate": "2020-02-08T17:10:08.734Z",
+  "id": "30001",
+  "klsId": 3001,
+  "distributionPointID": "string",
+  "distributionPointName": "string",
+  "geoLatitude": 0,
+  "geoLongitude": 0,
+  "geoSource": "string",
+  "installationStatus": "CONNECTED",
+  "demandCarrier": "FTTH",
+  "areaType": "DEVELOPMENT",
+  "reasonForNoConstruction": "NO_OWNER_COMMIT",
+  "technology": "FTTH",
+  "rolloutSponsor": "SELF_EXPANSION",
+  "installationDate": "2020-02-08T17:10:08.734Z",
+  "we": 5,
+  "ge": 3,
+  "sl": 0,
+  "realizationTime": 0,
+  "bandwidthProfiles": [
+    "string"
+  ],
+  "gigaArea": {
+    "creationDate": "2020-02-08T17:10:08.734Z",
+    "modificationDate": "2020-02-08T17:10:08.734Z",
+    "name": "string",
+    "number": "string",
+    "rolloutDate": "2020-02-08T17:10:08.734Z",
+    "areaStatus": "VVM_ONGOING",
+    "initiative": "SELF_EXPANSION",
+    "plannedFrom": "2020-02-08T17:10:08.734Z",
+    "plannedTo": "2020-02-08T17:10:08.734Z",
+    "netCoOrganisationId": 0,
+    "thresholdData": {
+      "threshold": 0,
+      "ordersCountInVVM": 0,
+      "additionalOrdersCountInVVM": 0
+    },
+    "rolloutPartnerRegular": 0,
+    "rolloutPartnerInitial": 0,
+    "internalExpansionDecisionDate": "2020-02-08T17:10:08.734Z"
+  },
+  "nvtArea": {
+    "creationDate": "2020-02-08T17:10:08.734Z",
+    "modificationDate": "2020-02-08T17:10:08.734Z",
+    "businessId": 0,
+    "asb": 0,
+    "name": "string",
+    "onkz": "string",
+    "nvtKlsId": 0,
+    "rolloutPartnerRegular": 0,
+    "gigaArea": {
       "creationDate": "2020-02-08T17:10:08.734Z",
       "modificationDate": "2020-02-08T17:10:08.734Z",
-      "id": "30001",
-      "klsId": 3001,
-      "distributionPointID": "string",
-      "distributionPointName": "string",
-      "geoLatitude": 0,
-      "geoLongitude": 0,
-      "geoSource": "string",
-      "installationStatus": "CONNECTED",
-      "demandCarrier": "FTTH",
-      "areaType": "DEVELOPMENT",
-      "reasonForNoConstruction": "NO_OWNER_COMMIT",
-      "technology": "FTTH",
-      "rolloutSponsor": "SELF_EXPANSION",
-      "installationDate": "2020-02-08T17:10:08.734Z",
-      "we": 5,
-      "ge": 3,
-      "sl": 0,
-      "realizationTime": 0,
-      "bandwidthProfiles": [
-        "string"
-      ],
-      "gigaArea": {
-        "creationDate": "2020-02-08T17:10:08.734Z",
-        "modificationDate": "2020-02-08T17:10:08.734Z",
-        "name": "string",
-        "number": "string",
-        "rolloutDate": "2020-02-08T17:10:08.734Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2020-02-08T17:10:08.734Z",
-        "plannedTo": "2020-02-08T17:10:08.734Z",
-        "netCoOrganisationId": 0,
-        "thresholdData": {
-          "threshold": 0,
-          "ordersCountInVVM": 0,
-          "additionalOrdersCountInVVM": 0
-        },
-        "rolloutPartnerRegular": 0,
-        "rolloutPartnerInitial": 0,
-        "internalExpansionDecisionDate": "2020-02-08T17:10:08.734Z"
+      "name": "string",
+      "number": "string",
+      "rolloutDate": "2020-02-08T17:10:08.734Z",
+      "areaStatus": "VVM_ONGOING",
+      "initiative": "SELF_EXPANSION",
+      "plannedFrom": "2020-02-08T17:10:08.735Z",
+      "plannedTo": "2020-02-08T17:10:08.735Z",
+      "netCoOrganisationId": 0,
+      "thresholdData": {
+        "threshold": 0,
+        "ordersCountInVVM": 0,
+        "additionalOrdersCountInVVM": 0
       },
-      "nvtArea": {
-        "creationDate": "2020-02-08T17:10:08.734Z",
-        "modificationDate": "2020-02-08T17:10:08.734Z",
-        "businessId": 0,
-        "asb": 0,
-        "name": "string",
-        "onkz": "string",
-        "nvtKlsId": 0,
-        "rolloutPartnerRegular": 0,
-        "gigaArea": {
-          "creationDate": "2020-02-08T17:10:08.734Z",
-          "modificationDate": "2020-02-08T17:10:08.734Z",
-          "name": "string",
-          "number": "string",
-          "rolloutDate": "2020-02-08T17:10:08.734Z",
-          "areaStatus": "VVM_ONGOING",
-          "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2020-02-08T17:10:08.735Z",
-          "plannedTo": "2020-02-08T17:10:08.735Z",
-          "netCoOrganisationId": 0,
-          "thresholdData": {
-            "threshold": 0,
-            "ordersCountInVVM": 0,
-            "additionalOrdersCountInVVM": 0
-          },
-          "rolloutPartnerRegular": 0,
-          "rolloutPartnerInitial": 0,
-          "internalExpansionDecisionDate": "2020-02-08T17:10:08.735Z"
-        }
-      }
-    },
-  "pageable": {
-    "sort": {
-      "sorted": false,
-      "unsorted": true,
-      "empty": true
-    },
-    "pageNumber": 0,
-    "pageSize": 1000,
-    "offset": 0,
-    "unpaged": false,
-    "paged": true
-  },
-  "totalPages": 0,
-  "totalElements": 0,
-  "last": true,
-  "first": true,
-  "sort": {
-    "sorted": false,
-    "unsorted": true,
-    "empty": true
-  },
-  "numberOfElements": 0,
-  "size": 1000,
-  "number": 0,
-  "empty": true
+      "rolloutPartnerRegular": 0,
+      "rolloutPartnerInitial": 0,
+      "internalExpansionDecisionDate": "2020-02-08T17:10:08.735Z"
+    }
+  }
 }

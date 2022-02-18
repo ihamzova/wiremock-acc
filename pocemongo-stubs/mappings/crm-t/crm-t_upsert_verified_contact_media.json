@@ -1,0 +1,19 @@
+{
+  "id": "412b7599-16be-4d8c-9ad4-7f7363fa1d29",
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/presales-order/v1/telekomCustomers/.+/contactMedia/email",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.email"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {}
+  }
+}

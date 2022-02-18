@@ -1,0 +1,14 @@
+{
+  "name": "Create or update a property owner agreement.",
+  "request": {
+    "method": "POST",
+    "urlPath": "/landlord-management/v2/propertyOwnerAgreement/agreementStatus"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "ll-core/post-property-owner-agreement.json"
+  }
+}

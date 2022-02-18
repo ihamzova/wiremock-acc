@@ -1,0 +1,32 @@
+{
+  "propertyOwner": {
+    "propertyOwnerId": 0,
+    "propertyOwnerNumber": 0
+  },
+  "propertyOwnerAgreement": {
+    "id": 0,
+    "agreementDate": "2022-02-17T15:51:59.081Z",
+    "agreementStatus": "APPROVED",
+    "agreementRole": "PROPERTY_OWNER",
+    "decisionMaker": true,
+    "customer": true,
+    "buildUpRejectionReason": "string",
+    "propertyProcessTrigger": {
+      "externalId": "string",
+      "processType": "BUILDING_ORDER"
+    }
+  },
+  "consolidatedAgreement": {
+    "id": 0,
+    "klsId": 0,
+    "agreementStatus": "APPROVED",
+    "agreementRole": "PROPERTY_OWNER",
+    "agreementMethod": "PRIMARY",
+    "explorationResponsibleId": 0,
+    "installationDoorOpenerId": 0,
+    "locationResponsibleId": 0,
+    "resourceAssociation": {
+      "tenantId": 0
+    }
+  }
+}

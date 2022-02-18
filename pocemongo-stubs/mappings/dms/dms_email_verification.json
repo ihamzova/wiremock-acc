@@ -1,0 +1,28 @@
+{
+  "id": "09351a27-df90-47ac-b00c-72316cf079fd",
+  "request": {
+    "method": "POST",
+    "url": "/FlexKomm/cwfs/gigabit/FlexKommCWFService/"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {}
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "GET",
+          "fixedDelayMilliseconds": 1000,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "url": "{{jsonPath request.body '$.generischeNachricht.monitorlink01'}}"
+        }
+      ]
+    }
+  }
+}

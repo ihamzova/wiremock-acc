@@ -1,0 +1,19 @@
+{
+  "id": "91981e53-a0bb-4552-8363-644a60917e25",
+  "request": {
+    "method": "POST",
+    "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/.+/update",
+    "headers": {
+      "X-Correlation-Id": {
+        "matches": ".+"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {}
+  }
+}

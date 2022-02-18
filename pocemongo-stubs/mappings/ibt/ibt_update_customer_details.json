@@ -1,0 +1,14 @@
+{
+  "id": "aed886ad-a401-4cf2-9194-53b24e912473",
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/giga-installation-order/v4/customerInstallationOrders/.+/ibtCioCustomer"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {}
+  }
+}

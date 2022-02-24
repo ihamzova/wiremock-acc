@@ -1,0 +1,120 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderAttributeValueChangeNotification",
+  "@type": "ResourceOrderAttributeValueChangeNotification",
+  "eventVersion": "1.0",
+  "eventSource": "WholebuyGateway",
+  "fieldPaths": [
+    {
+      "path": "/expectedCompletionDate"
+    }
+  ],
+  "eventPayload": {
+    "@type": "ResourceOrderAttributeValueChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{now format='yyyy-MM-dd'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaPhysicalConnection",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Acknowledged"
+      },
+      "category": "PhysicalConnection",
+      "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "orderItem": [
+        {
+          "action": "add",
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "resource": {
+            "@type": "WholebuyResource",
+            "installationPlace": {
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
+              "@type": "GatewayPlace"
+            }
+          }
+        }
+      ],
+      "relatedParty": [
+        {
+          "id": "1",
+          "role": [
+            "lineOwner",
+            "installationContact"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+4915112341234"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "test.test@telekom.de"
+                }
+              }
+            ],
+            "familyName": "Test",
+            "givenName": "Norbert",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        },
+        {
+          "id": "2",
+          "role": [
+            "propertyOwner"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+4915112341235"
+                }
+              },
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+49251788779511"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "imusk@gmail.com"
+                }
+              },
+              {
+                "mediumType": "postalAddress",
+                "characteristic": {
+                  "postalAddress": {
+                    "city": "Munic",
+                    "postcode": "23412",
+                    "street": "ABC Str.",
+                    "housenumber": "13",
+                    "housenumber_suffix": "A"
+                  }
+                }
+              }
+            ],
+            "familyName": "Mann",
+            "givenName": "Thomas",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        }
+      ]
+    }
+  }
+}

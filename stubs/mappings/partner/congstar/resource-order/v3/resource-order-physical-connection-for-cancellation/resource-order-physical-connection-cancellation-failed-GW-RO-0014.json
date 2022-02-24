@@ -1,0 +1,65 @@
+{
+  "id": "8a3f6fa2-bade-43ef-a17e-0a4c716e3d1f",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/upstream-partner/tardis/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaPhysicalConnection')]"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc70fff"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted.",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+    }
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+            "X-Callback-Url": "{{request.headers.X-Callback-Url}}",
+            "X-Callback-Id": "{{request.headers.X-Callback-Id}}"
+          },
+          "url": "{{request.headers.X-Callback-Url}}",
+          "bodyFileName": "partner/congstar/resource-order/resource-order-callback.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 15000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/wholebuy-l2bsa/v3/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-state-change-notification-acknowledged.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 20000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/wholebuy-l2bsa/v3/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-state-change-notification-failed-GW-RO-0014.json"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderAttributeValueChangeNotification",
+  "@type": "ResourceOrderAttributeValueChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "fieldPaths": [
+    {
+      "path": "/expectedCompletionDate"
+    },
+    {
+      "path": "/orderItem/0/resource/lineId"
+    },
+    {
+      "path": "/orderItem/0/resource/carrierContractId"
+    },
+    {
+      "path": "/orderItem/0/resource/witaContractId"
+    },
+    {
+      "path": "/orderItem/0/resource/technicianAppointment"
+    },
+    {
+      "path": "/orderItem/0/resource/networkProfileConfig"
+    }
+  ],
+  "eventPayload": {
+    "@type": "ResourceOrderAttributeValueChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaActivation",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Acknowledged"
+      },
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
+            "lineId": "{{persist  key='l2bsaActivationLineId'}}",
+            "carrierContractId": "5587898788",
+            "witaContractId": "3321456789",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 110000,
+              "ramMaxupL2": 110000,
+              "ramMinDownL2": 110000,
+              "ramMinUpL2": 110000,
+              "ramMinKPDownL2": 110000,
+              "ramMinKPUpL2": 110000
+            },
+            "installationPlace": {
+              "@type": "GatewayPlace",
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
+              "homeId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.homeId'}}"
+            }
+          },
+          "resourceSpecification": {
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
+          }
+        }
+      ],
+      "relatedParty": [
+        {
+          "id": "1",
+          "role": [
+            "lineOwner"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+492511234567890"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "test.test@telekom.de"
+                }
+              }
+            ],
+            "familyName": "Kirk",
+            "givenName": "James Tiberius",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        }
+      ]
+    }
+  }
+}

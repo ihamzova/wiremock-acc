@@ -72,6 +72,18 @@
         ]
       },
       {
+        "resource": "/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
         "resource": "/service-order-service-inventory/v1/localServiceInventory",
         "pattern": [
           ""

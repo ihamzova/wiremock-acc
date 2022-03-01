@@ -1,5 +1,5 @@
 {
-  "id": "cb293eeb-39c7-4c3e-8520-26ed6fbf7878",
+  "id": "44fbb12b-12b9-47e9-a0f8-03a7253c04e0",
   "priority": 1,
   "request": {
     "method": "POST",
@@ -46,7 +46,7 @@
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
           "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-state-change-notification-acknowledged.json"
         }
       ]

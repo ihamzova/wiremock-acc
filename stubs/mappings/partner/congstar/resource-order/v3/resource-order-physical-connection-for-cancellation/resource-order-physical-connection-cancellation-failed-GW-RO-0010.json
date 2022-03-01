@@ -1,5 +1,5 @@
 {
-  "id": "6df6ed42-8774-4469-bc89-238cd8756b2d",
+  "id": "fa799e48-5a91-41cb-9959-bcfaa774abc3",
   "priority": 1,
   "request": {
     "method": "POST",
@@ -46,7 +46,7 @@
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
           "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-state-change-notification-acknowledged.json"
         },
         {
@@ -56,7 +56,7 @@
             "Authorization": "Bearer {{oauth}}",
             "Content-Type": "application/json"
           },
-          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
           "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-state-change-notification-failed-GW-RO-0010.json"
         }
       ]

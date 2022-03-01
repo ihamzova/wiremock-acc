@@ -1,0 +1,56 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ancpEndpoints",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": {
+          "expression": "$..partnerType",
+          "contains": "AccessNode"
+        }
+      },
+      {
+        "matchesJsonPath": {
+          "expression": "$..endSz_partner",
+          "contains": "49/222/"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "method": "POST",
+      "fixedDelayMilliseconds": 5000,
+      "jsonBody": {
+        "eventType": "AncpEndpointCreationNotification",
+        "event": {
+          "ancpEndpoint": {
+            "id": 1341434323,
+            "href": "http://server:port/resource-order-resource-inventory/v1/resources/1341434323",
+            "@type": "AncpEndpoint",
+            "bngAncpIpAddress": "{{jsonPath request.body '$.bngAncpIpAddress'}}",
+            "partnerType": "AccessNode",
+            "partnerAncpIpAddress": "{{jsonPath request.body '$.partnerAncpIpAddress'}}",
+            "vlanID": 16,
+            "parentInterface": {
+              "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
+              "port": "{{jsonPath request.body '$.parentInterface.port'}}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

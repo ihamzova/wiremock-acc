@@ -1,0 +1,39 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/ipRangeAssignments",
+    "bodyPatterns" : [
+      {
+      "matchesJsonPath" : {
+        "expression": "$..ipRangePool",
+        "contains": "ancp_dpu"
+      }
+    },
+      {
+        "matchesJsonPath": {
+          "expression": "$..parentInterface.endSz",
+          "contains": "49/222/"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": 1341434323,
+      "@type": "IpRangeAssignment",
+      "href": "http://server:port/resource-order-resource-inventory/v1/ipRangeAssignments/1341434323",
+      "ipRangePool": "ancp_dpu",
+      "parentInterface": {
+        "endSz": "{{jsonPath request.body '$.parentInterface.endSz'}}",
+        "port": "{{jsonPath request.body '$.parentInterface.port'}}"
+      },
+      "ipAddress": "80.146.191.0",
+      "prefixLength": 24
+    }
+  }
+}

@@ -17,6 +17,7 @@
       "externalTag": "bsaDetermineLineId",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "state": "Completed",
       "lastStateChange": {
         "@type": "GatewayResourceOrderStateChange",
         "state": "Completed"

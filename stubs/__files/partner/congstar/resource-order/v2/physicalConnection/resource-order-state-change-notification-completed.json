@@ -16,6 +16,7 @@
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "state": "Completed",
       "lastStateChange": {
         "@type": "GatewayResourceOrderStateChange",
         "state": "Completed"

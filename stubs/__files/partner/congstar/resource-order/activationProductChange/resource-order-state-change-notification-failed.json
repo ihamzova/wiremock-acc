@@ -16,6 +16,7 @@
       "externalTag": "bsaProductChange",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
       "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "state": "Failed",
       "lastStateChange": {
         "@type": "GatewayResourceOrderStateChange",
         "state": "Failed"

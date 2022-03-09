@@ -1,0 +1,51 @@
+{
+  "priority": 7,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/upstream-partner/tardis/resource-order-resource-inventory/networkElementPlanning/v2/Ueweg/Rsrv1KnotenLesenD3",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.ImpFilterKnotenZusatzinfo.daten == '49/30/111/POD/05')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "command": "NEG",
+      "exitState": 12345,
+      "exitStateType": "...",
+      "exitStateMessage": "...",
+      "ExpAnzahlDsIefSupplied": {
+        "count": 12345
+      },
+      "Erep1Knoten": [],
+      "ExpFehlerprotokollOnline": {
+        "actionBlockName": "...",
+        "kategorie": 12345,
+        "name5": "...",
+        "name4": "...",
+        "name3": "...",
+        "name2": "...",
+        "name1": "...",
+        "fehlerbeschreibung": "...",
+        "serverName": "...",
+        "zeitpunkt": 12345,
+        "number1": 12345,
+        "number2": 12345,
+        "number3": 12345,
+        "number4": 12345,
+        "number5": 12345,
+        "wert5": "...",
+        "wert4": "...",
+        "wert3": "...",
+        "wert2": "...",
+        "wert1": "...",
+        "lfdNrJeAufruf": 12345
+      }
+    }
+  }
+}

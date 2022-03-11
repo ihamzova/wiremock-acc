@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/presales-order/v1/providerchangedata/((\\w|-)+)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "presales/provider-change-handler/get-provider-change-data-individual.json"
+  }
+}
+
+

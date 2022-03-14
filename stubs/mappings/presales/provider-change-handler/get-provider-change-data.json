@@ -8,7 +8,34 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "presales/provider-change-handler/get-provider-change-data-individual.json"
+    "jsonBody": {
+      "carrierName": "Vodafone Kabel Deutschland GmbH",
+      "carrierCode": "0669",
+      "numberPortingType": "specified",
+      "phoneNumberAreaCode": "1234",
+      "phoneNumber": {
+        "phoneNumber": "123456789"
+      },
+      "additionalPhoneNumbers": [
+        {
+          "phoneNumber": "123456790"
+        },
+        {
+          "phoneNumber": "123456791"
+        }
+      ],
+      "customerData": {
+        "customerType": "Individual",
+        "customerEmailAddress": "customer@telekom.corp",
+        "customerPhoneNumber": {
+          "phoneNumber": "171123456789"
+        },
+        "customerSalutation": "mister",
+        "customerLegalForm": "EPERS",
+        "customerFirstName": "Mickey",
+        "customerLastName": "Mouse"
+      }
+    }
   }
 }
 

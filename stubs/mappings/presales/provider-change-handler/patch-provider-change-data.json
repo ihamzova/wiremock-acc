@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "PATCH",
+    "urlPathPattern": "/presales-order/v1/providerchangedata/((\\w|-)+)"
+  },
+  "response": {
+    "status": 204
+  }
+}

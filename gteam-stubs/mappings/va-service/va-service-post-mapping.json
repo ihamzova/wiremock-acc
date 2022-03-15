@@ -9,7 +9,7 @@
     },
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?(@.externalReference=~ /^[2-2][0-9]/)]"
+        "matchesJsonPath": "$.[?(@.externalReference=~ /^[2][0-9]/)]"
       }
     ]
   },

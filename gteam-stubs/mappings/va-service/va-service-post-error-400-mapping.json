@@ -9,16 +9,16 @@
     },
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$.[?(@.externalReference==12)]"
+        "matchesJsonPath": "$.[?(@.externalReference==10)]"
       }
     ]
   },
   "response": {
-    "status": 200,
+    "status": 400,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/va-service/agreement.json"
+    "bodyFileName": "gteam-stubs/va-service/error-400.json"
   }
 }
 

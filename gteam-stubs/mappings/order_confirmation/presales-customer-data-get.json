@@ -1,0 +1,14 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/presales-order/v1/presalesCustomers/e573c2b6-2748-419e-ac31-047c401ae951"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "gteam-stubs/presales/presales-customer-data.json"
+  }
+}

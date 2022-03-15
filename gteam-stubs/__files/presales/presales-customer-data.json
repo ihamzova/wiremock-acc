@@ -1,0 +1,19 @@
+{
+  "id": "e573c2b6-2748-419e-ac31-047c401ae951",
+  "legalEntity": {
+    "_type": "Person"
+  },
+  "ssoSubjectId": "ssoSubjectId",
+  "tOnlineNumber": "tOnlineNumber",
+  "telekomCustomerId": "telekomCustomerId",
+  "noTelekomCustomerOnCreation": true,
+  "mustSendTOnlineNumberToEdb": true,
+  "emailVerification": {
+    "verified": true,
+    "verificationId": "123345"
+  },
+  "replacementEmail": {
+    "email": "tim.tommerson@aoe.com",
+    "emailVerificationId": "55555"
+  }
+}

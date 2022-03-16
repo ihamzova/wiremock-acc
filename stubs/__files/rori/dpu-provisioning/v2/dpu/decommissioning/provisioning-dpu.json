@@ -1,0 +1,6 @@
+{
+  "id": "{{request.headers.x-b3-traceid}}",
+  "source": "{{request.headers.x-business-context}}",
+  "businessKey": "{{request.headers.x-business-context}}/{{request.headers.x-b3-traceid}}",
+  "mocked": true
+}

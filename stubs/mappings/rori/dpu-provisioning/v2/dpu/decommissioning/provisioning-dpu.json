@@ -1,0 +1,27 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "^(\\/api\\/dpucommissioning\\/v2\\/dpu\\/decommissioning|\\/resource-order-resource-inventory\\/v2\\/dpuDecommissioningConfigurationTask)"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
+    },
+    "bodyFileName": "rori/dpu-provisioning/v2/dpu/decommissioning/provisioning-dpu.json"
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "http://ont-etcd-api/v2/keys/{{request.headers.x-business-context}}/{{request.headers.x-b3-traceid}}?value=%7B%22source%22%3A%20%22{{request.headers.x-business-context}}%22%2C%22type%22%3A%20%22SUCCESS%22%2C%22message%22%3A%20%22SUCCESS%20CALLBACK%20FROM%20WIREMOCK%22%7D",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "PUT",
+      "body": "",
+      "fixedDelayMilliseconds": 5000
+    }
+  }
+}

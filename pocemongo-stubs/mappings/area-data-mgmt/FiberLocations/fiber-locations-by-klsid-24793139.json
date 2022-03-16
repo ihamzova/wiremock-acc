@@ -1,11 +1,17 @@
 {
-  "priority": 5,
+  "priority": 4,
   "request": {
     "method": "GET",
-    "urlPath": "/giga-areas-location/v2/fibreOnLocations/search",
+    "urlPath": "/giga-areas-location/v3/fibreOnLocations",
     "queryParameters": {
-      "klsIds": {
+      "klsId": {
         "matches": "24793139"
+      },
+      "gigaArea.number": {
+        "matches": ""
+      },
+      "page": {
+        "matches": "0"
       }
     }
   },

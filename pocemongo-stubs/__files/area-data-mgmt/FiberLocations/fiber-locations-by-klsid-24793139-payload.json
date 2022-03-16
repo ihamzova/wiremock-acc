@@ -1,219 +1,149 @@
 {
+  "_links": {
+    "gigaArea": null,
+    "nvtArea": null,
+    "next": null,
+    "self": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?klsId=24793139&direction=ASC&page=0&pageSize=25&includeDpGeoData=false{&locationType.isDevelopment,modifiedSince}",
+      "templated": false,
+      "title": "self",
+      "deprecation": null
+    },
+    "previous": null
+  },
+  "first": true,
+  "last": true,
+  "number": 0,
+  "sort": {
+    "orders": []
+  },
+  "numberOfElements": 1,
+  "empty": false,
+  "totalPages": 1,
+  "totalElements": 1,
+  "size": 25,
   "content": [
     {
-      "creationDate": "2020-11-04T05:01:40.137Z",
-      "modificationDate": "2020-11-04T05:01:40.137Z",
-      "id": "1000000001",
-      "klsId": 1029,
-      "distributionPointID": "A",
-      "distributionPointName": "2989336 DpId A",
-      "installationStatus": "PLANNED",
-      "demandCarrier": "FTTH",
-      "areaType": "DEVELOPMENT",
-      "technology": "FTTH",
-      "rolloutSponsor": "SELF_EXPANSION",
-      "we": 1,
-      "ge": 2,
-      "sl": 3,
+      "id": "24793139",
+      "klsId": "24793139",
+      "projectId": null,
+      "distributionPoint": {
+        "id": "A",
+        "name": null
+      },
+      "status": {
+        "installationStatus": "PLANNED",
+        "reasonForNoConstruction": null,
+        "buildAgreeState": null
+      },
+      "profile": {
+        "installationDate": null,
+        "technology": "FTTH",
+        "bandwidthProfiles": [],
+        "hasRuleViolation": false
+      },
+      "rollout": {
+        "sponsor": "SELF_EXPANSION",
+        "sponsorRuleset": null
+      },
+      "locationType": {
+        "isDevelopment": false,
+        "buildingUsage": "RESIDENTIAL",
+        "expansionCondition": null,
+        "pricePoint": null,
+        "productionMode": null
+      },
+      "geoData": null,
+      "premises": {
+        "residential": 3,
+        "commercial": 2,
+        "additional": 0,
+        "validationDate": null
+      },
+      "metaInfo": {
+        "creationDateTime": "2019-02-06T00:00:00Z",
+        "modificationDateTime": "2019-03-21T00:00:00Z"
+      },
       "gigaArea": {
-        "creationDate": "2020-11-04T05:01:40.084Z",
-        "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "Berlin_002",
         "number": "Berlin_002",
-        "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2019-01-01T11:26:20Z",
-        "netCoOrganisationId": 10001,
+        "name": "Berlin_002",
         "communicativeName": "Berlin_002",
-        "plannedTo": "2021-09-30T00:00:00Z",
-        "thresholdData": {
-          "additionalOrdersCountInVVM": 250,
-          "ordersCountInVVM": 250,
-          "threshold": 10000
-        }
-      },
-      "nvtArea": {
-        "creationDate": "2020-11-04T05:01:40.108Z",
-        "modificationDate": "2020-11-04T05:01:40.108Z",
-        "businessId": 9023,
-        "asb": 333,
-        "name": "NVt Frankfurt 001",
-        "onkz": "29",
-        "nvtKlsId": 123473,
-        "gigaArea": {
-          "creationDate": "2020-11-04T05:01:40.084Z",
-          "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_001",
-          "number": "FRANKFURT_001",
-          "rolloutDate": "2021-12-31T11:26:20Z",
-          "areaStatus": "AREA_PLANNED",
-          "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2019-01-01T11:26:20Z",
-          "plannedTo": "2021-12-27T11:26:20Z",
-          "netCoOrganisationId": 10001,
-          "thresholdData": {}
-        }
-      }
-    },
-    {
-      "creationDate": "2020-11-04T05:01:40.145Z",
-      "modificationDate": "2020-11-04T05:01:40.145Z",
-      "id": "1000000003",
-      "klsId": 1029,
-      "distributionPointID": "B",
-      "distributionPointName": "1029 DpId B",
-      "installationStatus": "PREPARED",
-      "demandCarrier": "FTTH",
-      "areaType": "RESIDENTIAL",
-      "reasonForNoConstruction": "NO_OWNER_COMMIT",
-      "technology": "FTTH",
-      "rolloutSponsor": "SELF_EXPANSION",
-      "installationDate": "2021-11-13T11:26:20Z",
-      "we": 3,
-      "ge": 4,
-      "sl": 5,
-      "gigaArea": {
-        "creationDate": "2020-11-04T05:01:40.084Z",
-        "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "FRANKFURT_002",
-        "number": "FRANKFURT_002",
-        "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2019-01-02T11:26:20Z",
-        "plannedTo": "2021-12-28T11:26:20Z",
-        "netCoOrganisationId": 10001,
-        "thresholdData": {
-          "threshold": 50,
-          "ordersCountInVVM": 30,
-          "additionalOrdersCountInVVM": 40
+        "status": "VVM_ONGOING",
+        "provider": {
+          "passive": 10021,
+          "active": 10001
         },
-        "rolloutPartnerRegular": 10009,
-        "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-      },
-      "nvtArea": {
-        "creationDate": "2020-11-04T05:01:40.110Z",
-        "modificationDate": "2020-11-04T05:01:40.110Z",
-        "businessId": 9024,
-        "asb": 444,
-        "name": "NVt1 Frankfurt 002",
-        "onkz": "39",
-        "nvtKlsId": 223473,
-        "rolloutPartnerRegular": 10009,
-        "gigaArea": {
-          "creationDate": "2020-11-04T05:01:40.084Z",
-          "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_002",
-          "number": "FRANKFURT_002",
-          "rolloutDate": "2021-12-31T11:26:20Z",
-          "areaStatus": "VVM_ONGOING",
-          "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2019-01-02T11:26:20Z",
-          "plannedTo": "2021-12-28T11:26:20Z",
-          "netCoOrganisationId": 10001,
-          "thresholdData": {
-            "threshold": 50,
-            "ordersCountInVVM": 30,
-            "additionalOrdersCountInVVM": 40
-          },
-          "rolloutPartnerRegular": 10009,
-          "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-        }
-      }
-    },
-    {
-      "creationDate": "2020-11-04T05:01:40.149Z",
-      "modificationDate": "2020-11-04T05:01:40.149Z",
-      "id": "1000000004",
-      "klsId": 1029,
-      "distributionPointID": "C",
-      "distributionPointName": "1030 DpId C",
-      "installationStatus": "PASSED_PLUS",
-      "demandCarrier": "COMMERCIAL_BUILDING",
-      "areaType": "INDUSTRIAL",
-      "reasonForNoConstruction": "OTHER_REASONS",
-      "technology": "FTTB",
-      "rolloutSponsor": "NATIONWIDE_PROMOTION_PROGRAM",
-      "we": 4,
-      "ge": 5,
-      "sl": 6,
-      "bandwidthProfiles": [
-        "FTTB500"
-      ],
-      "gigaArea": {
-        "creationDate": "2020-11-04T05:01:40.084Z",
-        "modificationDate": "2020-11-04T05:01:40.084Z",
-        "name": "FRANKFURT_002",
-        "number": "FRANKFURT_002",
-        "rolloutDate": "2021-12-31T11:26:20Z",
-        "areaStatus": "VVM_ONGOING",
-        "initiative": "SELF_EXPANSION",
-        "plannedFrom": "2019-01-02T11:26:20Z",
-        "plannedTo": "2021-12-28T11:26:20Z",
-        "netCoOrganisationId": 10001,
-        "thresholdData": {
-          "threshold": 50,
-          "ordersCountInVVM": 30,
-          "additionalOrdersCountInVVM": 40
+        "rollout": {
+          "date": "2019-12-31T11:26:20.006Z",
+          "partners": []
         },
-        "rolloutPartnerRegular": 10009,
-        "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
-      },
-      "nvtArea": {
-        "creationDate": "2020-11-04T05:01:40.111Z",
-        "modificationDate": "2020-11-04T05:01:40.111Z",
-        "businessId": 9025,
-        "asb": 555,
-        "name": "NVt2 Frankfurt 002",
-        "onkz": "49",
-        "nvtKlsId": 323473,
-        "rolloutPartnerRegular": 10009,
-        "gigaArea": {
-          "creationDate": "2020-11-04T05:01:40.084Z",
-          "modificationDate": "2020-11-04T05:01:40.084Z",
-          "name": "FRANKFURT_002",
-          "number": "FRANKFURT_002",
-          "rolloutDate": "2021-12-31T11:26:20Z",
-          "areaStatus": "VVM_ONGOING",
+        "profile": {
           "initiative": "SELF_EXPANSION",
-          "plannedFrom": "2019-01-02T11:26:20Z",
-          "plannedTo": "2021-12-28T11:26:20Z",
-          "netCoOrganisationId": 10001,
-          "thresholdData": {
-            "threshold": 50,
-            "ordersCountInVVM": 30,
-            "additionalOrdersCountInVVM": 40
-          },
-          "rolloutPartnerRegular": 10009,
-          "internalExpansionDecisionDate": "2020-01-01T11:26:20Z"
+          "tenantId": 10001,
+          "expansionDecisionDate": null,
+          "areaOwner": null
+        },
+        "presale": {
+          "startDateTime": "2019-01-01T11:26:20Z",
+          "endDateTime": "2019-03-31T11:26:20Z"
+        },
+        "threshold": {
+          "targetOrderCount": 1000,
+          "currentOrderCount": 50,
+          "adjustment": 1
+        },
+        "metaInfo": {
+          "creationDateTime": "2018-11-26T11:26:20Z",
+          "modificationDateTime": "2018-11-26T11:26:20Z"
         }
+      },
+      "nvtArea": null,
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139?includeDpGeoData=false",
+          "templated": false,
+          "title": "self",
+          "deprecation": null
+        },
+        "create": {
+          "method": "POST",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation",
+          "templated": false,
+          "title": "create",
+          "deprecation": null
+        },
+        "update": {
+          "method": "PUT",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "templated": false,
+          "title": "update",
+          "deprecation": null
+        },
+        "patch": {
+          "method": "PATCH",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "templated": false,
+          "title": "patch",
+          "deprecation": null
+        },
+        "search": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?includeDpGeoData=false{&locationType.isDevelopment,modifiedSince,direction,page,pageSize}",
+          "templated": false,
+          "title": "search",
+          "deprecation": null
+        },
+        "gigaArea": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/gigaArea/Berlin_002",
+          "templated": false,
+          "title": "gigaArea",
+          "deprecation": null
+        },
+        "nvtArea": null
       }
     }
-  ],
-  "pageable": {
-    "sort": {
-      "sorted": false,
-      "unsorted": true,
-      "empty": true
-    },
-    "pageNumber": 0,
-    "pageSize": 25,
-    "offset": 0,
-    "unpaged": false,
-    "paged": true
-  },
-  "totalPages": 1,
-  "totalElements": 3,
-  "last": true,
-  "first": true,
-  "sort": {
-    "sorted": false,
-    "unsorted": true,
-    "empty": true
-  },
-  "size": 25,
-  "number": 0,
-  "numberOfElements": 3,
-  "empty": false
+  ]
 }

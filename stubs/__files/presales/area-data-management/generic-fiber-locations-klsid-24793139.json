@@ -1,0 +1,110 @@
+{
+  "_links": {
+    "search": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocations{?modifiedSince,direction,page,pageSize}",
+      "templated": true,
+      "title": "search",
+      "deprecation": null
+    },
+    "next": null,
+    "self": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocations?klsId=24793139&direction=ASC&page=0&pageSize=25{&modifiedSince}",
+      "templated": true,
+      "title": "self",
+      "deprecation": null
+    },
+    "previous": null
+  },
+  "first": true,
+  "last": true,
+  "number": 0,
+  "sort": {
+    "orders": []
+  },
+  "numberOfElements": 1,
+  "empty": false,
+  "totalPages": 1,
+  "totalElements": 1,
+  "size": 25,
+  "content": [
+    {
+      "id": "24793139",
+      "klsId": "24793139",
+      "profile": {
+        "technology": "FTTH",
+        "bandwidthProfiles": []
+      },
+      "gigaArea": {
+        "number": "Berlin_002",
+        "name": "Berlin_002",
+        "communicativeName": "Berlin_002",
+        "status": "VVM_ONGOING",
+        "profile": {
+          "initiative": "SELF_EXPANSION",
+          "tenantId": 10001
+        },
+        "provider": {
+          "active": 10001
+        },
+        "metaInfo": {
+          "creationDateTime": "2018-11-26T11:26:20Z",
+          "modificationDateTime": "2018-11-26T11:26:20Z"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericGigaArea/Berlin_002",
+            "templated": false,
+            "title": "self",
+            "deprecation": null
+          },
+          "gigaArea": {
+            "method": "GET",
+            "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/gigaArea/Berlin_002",
+            "templated": false,
+            "title": "gigaArea",
+            "deprecation": null
+          },
+          "wholeBuyGigaArea": null,
+          "search": {
+            "method": "GET",
+            "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericGigaAreas{?modifiedSince,direction,page,pageSize}",
+            "templated": true,
+            "title": "search",
+            "deprecation": null
+          }
+        }
+      },
+      "metaInfo": {
+        "creationDateTime": "2019-02-06T00:00:00Z",
+        "modificationDateTime": "2019-03-21T00:00:00Z"
+      },
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocation/24793139",
+          "templated": false,
+          "title": "self",
+          "deprecation": null
+        },
+        "fibreOnLocation": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139?includeDpGeoData=false",
+          "templated": false,
+          "title": "fibreOnLocation",
+          "deprecation": null
+        },
+        "wholeBuyFibreOnLocation": null,
+        "search": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocations{?modifiedSince,direction,page,pageSize}",
+          "templated": true,
+          "title": "search",
+          "deprecation": null
+        }
+      }
+    }
+  ]
+}

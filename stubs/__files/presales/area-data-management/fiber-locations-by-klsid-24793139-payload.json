@@ -1,0 +1,149 @@
+{
+  "_links": {
+    "gigaArea": null,
+    "nvtArea": null,
+    "next": null,
+    "self": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?klsId=24793139&direction=ASC&page=0&pageSize=25&includeDpGeoData=false{&locationType.isDevelopment,modifiedSince}",
+      "templated": false,
+      "title": "self",
+      "deprecation": null
+    },
+    "previous": null
+  },
+  "first": true,
+  "last": true,
+  "number": 0,
+  "sort": {
+    "orders": []
+  },
+  "numberOfElements": 1,
+  "empty": false,
+  "totalPages": 1,
+  "totalElements": 1,
+  "size": 25,
+  "content": [
+    {
+      "id": "24793139",
+      "klsId": "24793139",
+      "projectId": null,
+      "distributionPoint": {
+        "id": "A",
+        "name": null
+      },
+      "status": {
+        "installationStatus": "PLANNED",
+        "reasonForNoConstruction": null,
+        "buildAgreeState": null
+      },
+      "profile": {
+        "installationDate": null,
+        "technology": "FTTH",
+        "bandwidthProfiles": [],
+        "hasRuleViolation": false
+      },
+      "rollout": {
+        "sponsor": "SELF_EXPANSION",
+        "sponsorRuleset": null
+      },
+      "locationType": {
+        "isDevelopment": false,
+        "buildingUsage": "RESIDENTIAL",
+        "expansionCondition": null,
+        "pricePoint": null,
+        "productionMode": null
+      },
+      "geoData": null,
+      "premises": {
+        "residential": 3,
+        "commercial": 2,
+        "additional": 0,
+        "validationDate": null
+      },
+      "metaInfo": {
+        "creationDateTime": "2019-02-06T00:00:00Z",
+        "modificationDateTime": "2019-03-21T00:00:00Z"
+      },
+      "gigaArea": {
+        "number": "Berlin_002",
+        "name": "Berlin_002",
+        "communicativeName": "Berlin_002",
+        "status": "VVM_ONGOING",
+        "provider": {
+          "passive": 10021,
+          "active": 10001
+        },
+        "rollout": {
+          "date": "2019-12-31T11:26:20.006Z",
+          "partners": []
+        },
+        "profile": {
+          "initiative": "SELF_EXPANSION",
+          "tenantId": 10001,
+          "expansionDecisionDate": null,
+          "areaOwner": null
+        },
+        "presale": {
+          "startDateTime": "2019-01-01T11:26:20Z",
+          "endDateTime": "2019-03-31T11:26:20Z"
+        },
+        "threshold": {
+          "targetOrderCount": 1000,
+          "currentOrderCount": 50,
+          "adjustment": 1
+        },
+        "metaInfo": {
+          "creationDateTime": "2018-11-26T11:26:20Z",
+          "modificationDateTime": "2018-11-26T11:26:20Z"
+        }
+      },
+      "nvtArea": null,
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139?includeDpGeoData=false",
+          "templated": false,
+          "title": "self",
+          "deprecation": null
+        },
+        "create": {
+          "method": "POST",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation",
+          "templated": false,
+          "title": "create",
+          "deprecation": null
+        },
+        "update": {
+          "method": "PUT",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "templated": false,
+          "title": "update",
+          "deprecation": null
+        },
+        "patch": {
+          "method": "PATCH",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "templated": false,
+          "title": "patch",
+          "deprecation": null
+        },
+        "search": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?includeDpGeoData=false{&locationType.isDevelopment,modifiedSince,direction,page,pageSize}",
+          "templated": false,
+          "title": "search",
+          "deprecation": null
+        },
+        "gigaArea": {
+          "method": "GET",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/gigaArea/Berlin_002",
+          "templated": false,
+          "title": "gigaArea",
+          "deprecation": null
+        },
+        "nvtArea": null
+      }
+    }
+  ]
+}

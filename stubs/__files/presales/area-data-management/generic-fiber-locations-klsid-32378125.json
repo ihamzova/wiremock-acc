@@ -10,7 +10,7 @@
     "next": null,
     "self": {
       "method": "GET",
-      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocations?klsId=24793139&direction=ASC&page=0&pageSize=25{&modifiedSince}",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocations?klsId=32378125&direction=ASC&page=0&pageSize=25{&modifiedSince}",
       "templated": true,
       "title": "self",
       "deprecation": null
@@ -30,8 +30,8 @@
   "size": 25,
   "content": [
     {
-      "id": "24793139",
-      "klsId": "24793139",
+      "id": "32378125",
+      "klsId": "32378125",
       "profile": {
         "technology": "FTTH",
         "bandwidthProfiles": []
@@ -84,14 +84,14 @@
       "_links": {
         "self": {
           "method": "GET",
-          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocation/24793139",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericFibreOnLocation/32378125",
           "templated": false,
           "title": "self",
           "deprecation": null
         },
         "fibreOnLocation": {
           "method": "GET",
-          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139?includeDpGeoData=false",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/32378125?includeDpGeoData=false",
           "templated": false,
           "title": "fibreOnLocation",
           "deprecation": null

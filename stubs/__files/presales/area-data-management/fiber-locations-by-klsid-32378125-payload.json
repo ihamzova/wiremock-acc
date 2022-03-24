@@ -5,7 +5,7 @@
     "next": null,
     "self": {
       "method": "GET",
-      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?klsId=24793139&direction=ASC&page=0&pageSize=25&includeDpGeoData=false{&locationType.isDevelopment,modifiedSince}",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocations?klsId=32378125&direction=ASC&page=0&pageSize=25&includeDpGeoData=false{&locationType.isDevelopment,modifiedSince}",
       "templated": false,
       "title": "self",
       "deprecation": null
@@ -25,15 +25,15 @@
   "size": 25,
   "content": [
     {
-      "id": "24793139",
-      "klsId": "24793139",
+      "id": "32378125",
+      "klsId": "32378125",
       "projectId": null,
       "distributionPoint": {
         "id": "A",
         "name": null
       },
       "status": {
-        "installationStatus": "PLANNED",
+        "installationStatus": "READY",
         "reasonForNoConstruction": null,
         "buildAgreeState": null
       },
@@ -90,7 +90,7 @@
         },
         "threshold": {
           "targetOrderCount": 1000,
-          "currentOrderCount": 50,
+          "currentOrderCount": 100,
           "adjustment": 1
         },
         "metaInfo": {
@@ -102,7 +102,7 @@
       "_links": {
         "self": {
           "method": "GET",
-          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139?includeDpGeoData=false",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/32378125?includeDpGeoData=false",
           "templated": false,
           "title": "self",
           "deprecation": null
@@ -116,14 +116,14 @@
         },
         "update": {
           "method": "PUT",
-          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/32378125",
           "templated": false,
           "title": "update",
           "deprecation": null
         },
         "patch": {
           "method": "PATCH",
-          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/24793139",
+          "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/fibreOnLocation/32378125",
           "templated": false,
           "title": "patch",
           "deprecation": null

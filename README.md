@@ -3,25 +3,25 @@
 Curl Helper
 ---
 Allows to make simple GET requests to remote resources.
-You can store the response in the local variable and extract some parts using `jsonPath`
+You can store the response in the local variable and extract some parts using `jsonPath`.
 
-Example:
 ```json
+Example:
 {
   // You should pass url into the body of the curl tag.
   // You can easily format the url with additional variables.
   "complex": "{{#assign 'relationData'}}{{#curl}}http://host/remote-relations/{{request.query.relationId}}{{/curl}}{{/assign}}{{jsonPath relationData '$.relationships[0].id'}}"
 }
 ```
-In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence"
+In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence".
 
 Groovy Helper
 ---
-Allows to use groovy to create response
-You need to setup GROOVY_ROOT env variable to setup root path for groovy scripts (default: ./groovy)
+Allows to use groovy to create response.
+You need to setup GROOVY_ROOT env variable to setup root path for groovy scripts. (default: ./groovy)
 
-Example:
 ```json
+Example:
 {
   // Use 'inline' property to set inline script
   // You can add any number of args, they will be available with given names.
@@ -33,12 +33,13 @@ Example:
   "vanilla": "{{jsonPath request.body '$.test'}}"
 }
 ```
-In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence"
+In Groovy script you can also have access to request thru variable "context" and to persistence thru variable "persistence".
 
 Groovy Post Serve Action
 ---
-Example:
+
 ```json
+Example:
 {
   ...
   "postServeActions": {
@@ -54,8 +55,9 @@ Example:
   ...
 }
 ```
-Or multiple:
+
 ```json
+Or multiple:
 {
   ...
   "postServeActions": {
@@ -82,8 +84,8 @@ Persistence Helper
 Allows to get data from persistent key/value storage.
 Currently only in-memory db.
 
-Example:
 ```json
+Example:
 {
   // Use 'key' property to define key to get from storage
   "simple": "{{persist  key='storedKey'}}"
@@ -91,7 +93,9 @@ Example:
 ```
 
 If you need "get with default" functionality you may use this piece of code:
+
 ```json
+Example:
 {
   {{eq (persist key='my_key') null yes='my_default_value' no=(persist key='my_key')}}
 }
@@ -99,8 +103,9 @@ If you need "get with default" functionality you may use this piece of code:
 
 Persistence Post Serve Action
 ---
-Example:
+
 ```json
+Example:
 {
   ...
   "postServeActions": {
@@ -115,8 +120,9 @@ Example:
   ...
 }
 ```
-or multiple:
+
 ```json
+or multiple:
 {
   ...
   "postServeActions": {
@@ -137,12 +143,34 @@ or multiple:
 }
 ```
 
+Persistence Admin Api
+---
+If com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi is part of the extensions section of this Dockerfile, then one can use a REST client tool like Postman to read out and manipulate the data that was stored with the Persistence (Array) Post Serve Action. One can GET, PUT, POST or DELETE entries in a wiremock-acc instance.
+
+```json
+URL-Pattern: https://wiremock-acc-app-[ENVIRONMENT-NAME].[HOSTNAME]/__admin/persistence
+GET /persistence: gets all the key-value pairs stored
+GET /persistence/{name}: gets a specific value for a key
+POST /persistence: adds a new key-value pair
+PUT /persistence: modifies an existing key-value pair
+DELETE /persistence: deletes all stored entries
+DELETE /persistence/{name}: deletes a specific entry for a key
+```
+
+```json
+Json-Body-Example for a key-value (POST/PUT):
+{
+	"name": "WO.state.1234",
+    "value": "IN_PROGRESS"
+}
+```
+
 Webhook Extension
 ---
-Allows to do callbacks
+Allows to do callbacks.
 
-Example:
 ```json
+Example:
 {
   "request" : {
     "method" : "GET",
@@ -167,8 +195,9 @@ Example:
   }
 }
 ```
-Example of for cycle
+
 ```json
+Example of for cycle:
 [
   {{#each (jsonPath request.body '$.klsIds')}}
   {
@@ -177,12 +206,14 @@ Example of for cycle
   {{/each}}
 ]
 ```
-Example of for Environment variable
+
 ```json
+Example of for Environment variable:
 "system": "{{unsafeSystemValue key='TEST_VALUE'}}"
 ```
-Example oauth helper.
+
 ```json
+Example oauth helper:
 {
   "request": {
     "method": "POST",
@@ -211,28 +242,28 @@ Example oauth helper.
 
 Project structure
 ---
-Stubs are in the folder "stubs"
+**Stubs are in the folder "stubs"**
 - stubs
-  - __files - storage for body contents
+  - **__files - storage for body contents**
       - partner - storage for partner systems body contents. Shared between all teams
       - domain1 - storage for body contents for a specific domain env and team env in that domain
           - service1 - storage for body contents of this service, eg. if this service is not deployed what it should respond.
           - service2 - ...
       - domain2 - ...
-  - mappings - storage for json definitions of stubs
+  - **mappings - storage for json definitions of stubs**
       - partner - storage for partner systems stubs. Shared between all teams
       - domain1 - storage for stubs for a specific domain env and team env in that domain
           - service1 - storage for stubs of this service, eg. if this service is not deployed what it should respond.
           - service2 - ...
       - domain2 - ...
  
- Ideology
- ---
+Ideology
+---
  As it is a central storage, it will contain all stubs for all envs and deployed to all envs.
  It contains only "generic" stubs. That means that stubs in this repository shall not be test case specific.
  They represent MVP of stubs to enable the environment to be operational.
  
- How to add new stubs
+ **How to add new stubs:**
  * First check if there is already stub created for your endpoint
  * If not create it, use as much templating as possible
  * Use positive cases, negative ones are test case specific
@@ -256,4 +287,4 @@ Wiremock can be used as a simple webhook/callback receiver.
 
 More
 ---
-You can read more about creating stubs here: https://gard.telekom.de/gardwiki/display/DGHB/Wiremock+Stubs+Handling
+You can read more about creating stubs here: **https://gard.telekom.de/gardwiki/display/DGHB/Wiremock+Stubs+Handling**

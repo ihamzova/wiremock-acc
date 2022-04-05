@@ -1,4 +1,4 @@
-FROM mtr.external.otc.telekomcloud.com/digitalhub/zulu-openjdk-8:master
+FROM mtr.external.otc.telekomcloud.com/digitalhub/oraclelinux8-zulu-openjdk-8:master
 
 LABEL quay.expires-after=12w
 

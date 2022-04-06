@@ -1,0 +1,29 @@
+{
+  "count": 2,
+  "total": 2,
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/8882105959/billingAccounts?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v2/accounts/8882105959/billingAccounts?limit=20"
+    },
+    "last": {
+      "href": "/v2/accounts/8882105959/billingAccounts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "billingAccounts": [{
+      "self": {
+        "id": "4962110854",
+        "href": "/v2/accounts/8882105959/billingAccounts/4962110854"
+      }
+    }, {
+      "self": {
+        "id": "4962127869",
+        "href": "/v2/accounts/8882105959/billingAccounts/4962127869"
+      }
+    }
+    ]
+  }
+}

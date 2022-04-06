@@ -1,0 +1,25 @@
+{
+  "count": 1,
+  "total": 1,
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/9876543211/billingAccounts?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v2/accounts/9876543211/billingAccounts?limit=20"
+    },
+    "last": {
+      "href": "/v2/accounts/9876543211/billingAccounts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "billingAccounts": [
+      {
+        "self": {
+          "id": "4962110857",
+          "href": "/v2/accounts/9876543211/billingAccounts/4962110857"
+        }
+      }
+    ]
+  }
+}

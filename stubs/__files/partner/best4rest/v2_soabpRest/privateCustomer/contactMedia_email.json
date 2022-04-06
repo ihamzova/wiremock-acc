@@ -1,0 +1,15 @@
+{
+  "type": "ElectronicalAddress",
+  "id": "1-4OF7MCH",
+  "usageContext": "CONTRACT",
+  "email": "john.doe@aoe.de",
+  "verificationStatus": "VERIFIED",
+  "active": "true",
+  "blockedForHotline": "false",
+  "blockedForCallbacks": "false",
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/{{request.requestLine.pathSegments.[7]}}/contacts/1-1AQ-571/contactMedia/1-4OF7MCH"
+    }
+  }
+}

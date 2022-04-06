@@ -1,0 +1,26 @@
+{
+  "count": 1,
+  "total": 1,
+  "_links": {
+    "self": {
+      "href": "/v2/accounts/8331394971/contacts?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v2/accounts/8331394971/contacts?limit=20"
+    },
+    "last": {
+      "href": "/v2/accounts/8331394971/contacts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contacts": [
+      {
+        "role": "HSP",
+        "self": {
+          "id": "1-99R096",
+          "href": "/v2/accounts/8331394971/contacts/1-99R096"
+        }
+      }
+    ]
+  }
+}

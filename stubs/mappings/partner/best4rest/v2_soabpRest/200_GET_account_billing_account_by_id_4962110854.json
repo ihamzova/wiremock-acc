@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/soabpRest/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/FixedNetAccounts/up/([0-9]{10})/billingAccounts/4962110854"
+    "urlPattern": "/soabpRest/SystemTest/de.telekom.digioss.architecture.DigiOSS/Default/FixedNetAccounts/up/accounts/([0-9]{10})/billingAccounts/4962110854"
   },
   "response": {
     "status": 200,

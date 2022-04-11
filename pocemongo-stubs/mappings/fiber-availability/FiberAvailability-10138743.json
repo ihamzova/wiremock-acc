@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/10138743"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "fiber-availability/fiberAvailability-10138743_FALLBACK.json"
+  }
+}

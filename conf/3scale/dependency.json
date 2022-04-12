@@ -246,6 +246,15 @@
         "pattern": [
           ""
         ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/a10nsp/resourceOrderingManagement/v1/resourceOrder",
+        "scopes": [
+          "rori:resourceOrder:full"
+        ],
+        "pattern": [
+          ""
+        ]
       }
     ]
   }

@@ -1,18 +1,13 @@
 {
-  "mappings": [
-    {
-      "name": "rhsso token endpoint",
-      "request": {
-        "method": "POST",
-        "urlPattern": "/tardis/fubi/rbs-convergence-billing-api/v2/billingContexts"
-      },
-      "response": {
-        "status": 201,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "bodyFileName": "partner/rbs/create-billing-context-response.json"
-      }
-    }
-  ]
+  "request": {
+    "method": "POST",
+    "urlPattern": "/tardis/fubi/rbs-convergence-billing-api/v2/billingContexts"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "partner/rbs/create-billing-context-response.json"
+  }
 }

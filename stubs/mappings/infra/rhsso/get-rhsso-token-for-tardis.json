@@ -1,18 +1,13 @@
 {
-  "mappings": [
-    {
-      "name": "rhsso token endpoint",
-      "request": {
-        "method": "POST",
-        "urlPattern": "/tardis/auth/realms/default/protocol/openid-connect/token"
-      },
-      "response": {
-        "status": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "bodyFileName": "infra/rhsso-token.json"
-      }
-    }
-  ]
+  "request": {
+    "method": "POST",
+    "urlPattern": "/tardis/auth/realms/default/protocol/openid-connect/token"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "infra/rhsso-token.json"
+  }
 }

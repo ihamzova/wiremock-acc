@@ -1,216 +1,201 @@
 {
-   "eventId":"c3889056-db42-4861-9ab8-dde14f28099a",
-   "eventTime":"2021-07-19T10:17:24.118346Z",
-   "eventType":"serviceOrderStateChange",
-   "correlationId":null,
-   "domain":"giga-installation-oder",
-   "title":null,
-   "description":null,
-   "priority":null,
-   "timeOcurred":"2021-07-19T10:17:24.118346Z",
-   "tenantId":"10001",
-   "event":{
-      "serviceOrder":{
-         "id":"19495",
-         "href":"/giga-installation-order/v1/notConnectedServiceOrder/19495",
-         "cancellationDate":null,
-         "cancellationReason":null,
-         "category":null,
-         "completionDate":null,
-         "description":null,
-         "expectedCompletionDate":null,
-         "externalId":"NC10000026",
-         "notificationContact":null,
-         "orderDate":"2021-07-19T10:16:36.459Z",
-         "priority":null,
-         "requestedCompletionDate":"2021-08-08T00:00:00Z",
-         "requestedStartDate":null,
-         "startDate":null,
-         "externalReference":[
-            {
-               "externalReferenceType":"customerOrderReference",
-               "name":"NC10000026",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":"ExternalReference"
-            },
-            {
-               "externalReferenceType":"customerInstallationOrder",
-               "name":"19495",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":"ExternalReference"
-            },
-            {
-               "externalReferenceType":"sourceType",
-               "name":"VVM",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":"ExternalReference"
-            }
-         ],
-         "milestone":[
-            {
-               "description":"Fiber expansion in NVT-Area has started.",
-               "id":"1",
-               "message":"1010000",
-               "milestoneDate":"2021-07-19T10:17:12.2Z",
-               "name":"AreaProgramExpansionDecision",
-               "status":"confirmed",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":"ServiceOrderMilestone",
-               "serviceOrderItem":[
-                  
-               ]
-            },
-            {
-               "description":"Landlord agreed to the fiber expansion.",
-               "id":"2",
-               "message":"1000000",
-               "milestoneDate":"2021-07-19T10:17:12.2Z",
-               "name":"LandlordDecision",
-               "status":"confirmed",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":"ServiceOrderMilestone",
-               "serviceOrderItem":[
-                  
-               ]
-            }
-         ],
-         "note":[
-            
-         ],
-         "orderRelationship":[
-            
-         ],
-         "relatedParty":[
-            {
-               "id":"19495",
-               "href":null,
-               "name":null,
-               "role":"customer",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":null,
-               "@referredType":"Individual"
-            },
-            {
-               "id":null,
-               "href":null,
-               "name":"0033 Deutsche Telekom Kundenservice",
-               "role":"carrier",
-               "@baseType":null,
-               "@schemaLocation":null,
-               "@type":null,
-               "@referredType":"Organization"
-            }
-         ],
-         "serviceOrderItem":[
-            {
-               "id":"1",
-               "quantity":1,
-               "action":"add",
-               "appointment":null,
-               "service":{
-                  "id":"1",
-                  "href":null,
-                  "category":"CFS",
-                  "description":"GfTA-Installation",
-                  "endDate":null,
-                  "hasStarted":null,
-                  "isBundle":false,
-                  "isServiceEnabled":null,
-                  "isStateful":false,
-                  "name":null,
-                  "serviceDate":null,
-                  "serviceType":"fiberAccessApartment",
-                  "startDate":null,
-                  "startMode":"0",
-                  "feature":[
-                     
-                  ],
-                  "note":[
-                     
-                  ],
-                  "place":[
-                     {
-                        "id":"12377099",
-                        "href":null,
-                        "name":"DistributionPoint",
-                        "role":"distributionPointId",
-                        "@baseType":null,
-                        "@schemaLocation":null,
-                        "@type":"Place",
-                        "@referredType":null
-                     },
-                     {
-                        "id":"12377099",
-                        "href":null,
-                        "name":"Address",
-                        "role":"locationId",
-                        "@baseType":null,
-                        "@schemaLocation":null,
-                        "@type":"Place",
-                        "@referredType":null
-                     }
-                  ],
-                  "relatedEntity":[
-                     
-                  ],
-                  "relatedParty":[
-                     
-                  ],
-                  "serviceCharacteristic":[
-                     {
-                        "id":"1",
-                        "name":"apartmentGftaInstallationStatus",
-                        "valueType":"string",
-                        "characteristicRelationship":[
-                           
-                        ],
-                        "value":"NOT_CONNECTED",
-                        "@baseType":null,
-                        "@schemaLocation":null,
-                        "@type":null
-                     }
-                  ],
-                  "serviceOrderItem":[
-                     
-                  ],
-                  "serviceRelationship":[
-                     
-                  ],
-                  "serviceSpecification":null,
-                  "state":null,
-                  "supportingResource":[
-                     
-                  ],
-                  "supportingService":[
-                     
-                  ],
-                  "@baseType":null,
-                  "@schemaLocation":null,
-                  "@type":"Service",
-                  "@referredType":null
-               },
-               "serviceOrderItem":[
-                  
-               ],
-               "serviceOrderItemRelationship":[
-                  
-               ],
-               "state":null,
-               "@baseType":"gen.apis.service_ordering.v4.models.ServiceOrder",
-               "@schemaLocation":null,
-               "@type":"ServiceOrderItem"
-            }
-         ],
-         "state":"inProgress",
-         "@baseType":null,
-         "@schemaLocation":null,
-         "@type":"ServiceOrder"
-      }
-   }
+  "eventId": "c3889056-db42-4861-9ab8-dde14f28099a",
+  "eventTime": "2021-07-19T10:17:24.118346Z",
+  "eventType": "serviceOrderStateChange",
+  "correlationId": null,
+  "domain": "giga-installation-oder",
+  "title": null,
+  "description": null,
+  "priority": null,
+  "timeOcurred": "2021-07-19T10:17:24.118346Z",
+  "tenantId": "10001",
+  "event": {
+    "serviceOrder": {
+      "id": "19495",
+      "href": "/giga-installation-order/v1/notConnectedServiceOrder/19495",
+      "cancellationDate": null,
+      "cancellationReason": null,
+      "category": null,
+      "completionDate": null,
+      "description": null,
+      "expectedCompletionDate": null,
+      "externalId": "NC10000026",
+      "notificationContact": null,
+      "orderDate": "2021-07-19T10:16:36.459Z",
+      "priority": null,
+      "requestedCompletionDate": "2021-08-08T00:00:00Z",
+      "requestedStartDate": null,
+      "startDate": null,
+      "externalReference": [
+        {
+          "externalReferenceType": "customerOrderReference",
+          "name": "NC10000026",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": "ExternalReference"
+        },
+        {
+          "externalReferenceType": "customerInstallationOrder",
+          "name": "19495",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": "ExternalReference"
+        },
+        {
+          "externalReferenceType": "sourceType",
+          "name": "VVM",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": "ExternalReference"
+        }
+      ],
+      "milestone": [
+        {
+          "description": "Fiber expansion in NVT-Area has started.",
+          "id": "1",
+          "message": "1010000",
+          "milestoneDate": "2021-07-19T10:17:12.2Z",
+          "name": "AreaProgramExpansionDecision",
+          "status": "confirmed",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": [
+          ]
+        },
+        {
+          "description": "Landlord agreed to the fiber expansion.",
+          "id": "2",
+          "message": "1000000",
+          "milestoneDate": "2021-07-19T10:17:12.2Z",
+          "name": "LandlordDecision",
+          "status": "confirmed",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": "ServiceOrderMilestone",
+          "serviceOrderItem": [
+          ]
+        }
+      ],
+      "note": [
+      ],
+      "orderRelationship": [
+      ],
+      "relatedParty": [
+        {
+          "id": "19495",
+          "href": null,
+          "name": null,
+          "role": "customer",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null,
+          "@referredType": "Individual"
+        },
+        {
+          "id": null,
+          "href": null,
+          "name": "0033 Deutsche Telekom Kundenservice",
+          "role": "carrier",
+          "@baseType": null,
+          "@schemaLocation": null,
+          "@type": null,
+          "@referredType": "Organization"
+        }
+      ],
+      "serviceOrderItem": [
+        {
+          "id": "1",
+          "quantity": 1,
+          "action": "add",
+          "appointment": null,
+          "service": {
+            "id": "1",
+            "href": null,
+            "category": "CFS",
+            "description": "GfTA-Installation",
+            "endDate": null,
+            "hasStarted": null,
+            "isBundle": false,
+            "isServiceEnabled": null,
+            "isStateful": false,
+            "name": null,
+            "serviceDate": null,
+            "serviceType": "fiberAccessApartment",
+            "startDate": null,
+            "startMode": "0",
+            "feature": [
+            ],
+            "note": [
+            ],
+            "place": [
+              {
+                "id": "12377099",
+                "href": null,
+                "name": "DistributionPoint",
+                "role": "distributionPointId",
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": "Place",
+                "@referredType": null
+              },
+              {
+                "id": "12377099",
+                "href": null,
+                "name": "Address",
+                "role": "locationId",
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": "Place",
+                "@referredType": null
+              }
+            ],
+            "relatedEntity": [
+            ],
+            "relatedParty": [
+            ],
+            "serviceCharacteristic": [
+              {
+                "id": "1",
+                "name": "apartmentGftaInstallationStatus",
+                "valueType": "string",
+                "characteristicRelationship": [
+                ],
+                "value": "NOT_CONNECTED",
+                "@baseType": null,
+                "@schemaLocation": null,
+                "@type": null
+              }
+            ],
+            "serviceOrderItem": [
+            ],
+            "serviceRelationship": [
+            ],
+            "serviceSpecification": null,
+            "state": null,
+            "supportingResource": [
+            ],
+            "supportingService": [
+            ],
+            "@baseType": null,
+            "@schemaLocation": null,
+            "@type": "Service",
+            "@referredType": null
+          },
+          "serviceOrderItem": [
+          ],
+          "serviceOrderItemRelationship": [
+          ],
+          "state": null,
+          "@baseType": "gen.apis.service_ordering.v4.models.ServiceOrder",
+          "@schemaLocation": null,
+          "@type": "ServiceOrderItem"
+        }
+      ],
+      "state": "inProgress",
+      "@baseType": null,
+      "@schemaLocation": null,
+      "@type": "ServiceOrder"
+    }
+  }
 }

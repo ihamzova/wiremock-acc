@@ -1,4 +1,5 @@
 {
+  "priority": 1,
   "request": {
     "method": "POST",
     "urlPattern": "/tardis/auth/realms/default/protocol/openid-connect/token"

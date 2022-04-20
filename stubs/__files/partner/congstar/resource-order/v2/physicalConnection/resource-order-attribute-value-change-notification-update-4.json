@@ -8,8 +8,7 @@
   "eventSource": "WholebuyGateway",
   "fieldPaths": [
     {
-      "path": "/expectedCompletionDate",
-      "typeOfChange": "initiallySet"
+      "path": "/additionalStatusInformation"
     }
   ],
   "eventPayload": {
@@ -26,6 +25,11 @@
         "@type": "GatewayResourceOrderStateChange",
         "state": "Acknowledged"
       },
+      "additionalStatusInformation": [
+        {
+          "code": "GW-RO-0046"
+        }
+      ],
       "category": "PhysicalConnection",
       "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
       "orderItem": [

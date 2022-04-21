@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "49\\/8571\\/0\\/76HA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/uplink/by-endsz/find-ethernet-links-by-endsz-49_8571_0_76HA.json"
+  }
+}

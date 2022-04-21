@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1216",
+    "href": "/resource-order-resource-inventory/v5/uplink/1216",
+    "creationDate": "2021-01-22T15:21:27.19554+01:00",
+    "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+    "ordnungsnummer": 10,
+    "pluralId": null,
+    "resourceId": "53012997-b89f-485e-be89-0962a666f122",
+    "uewegId": null,
+    "version": null,
+    "versionId": null,
+    "lsz": "4C1",
+    "portsEquipmentBusinessRef": [
+      {
+        "endSz": "49/911/1100/76H3",
+        "portName": "1",
+        "slotName": null,
+        "deviceType": "OLT",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      },
+      {
+        "endSz": "49/911/84/7ZJB",
+        "portName": "ge-1/2/3",
+        "slotName": "0",
+        "deviceType": "BNG",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      }
+    ],
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "state": "ACTIVE",
+    "@baseType": "PhysicalResource",
+    "@type": "Uplink"
+  },
+  {
+    "id": "1216",
+    "href": "/resource-order-resource-inventory/v5/uplink/1216",
+    "creationDate": "2021-01-22T15:21:27.19554+01:00",
+    "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+    "ordnungsnummer": 10,
+    "pluralId": null,
+    "resourceId": "53012997-b89f-485e-be89-0962a666f122",
+    "uewegId": null,
+    "version": null,
+    "versionId": null,
+    "lsz": "4C1",
+    "portsEquipmentBusinessRef": [
+      {
+        "endSz": "49/911/1100/76H3",
+        "portName": "1",
+        "slotName": null,
+        "deviceType": "OLT",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      },
+      {
+        "endSz": "49/911/84/7ZJB",
+        "portName": "ge-1/2/3",
+        "slotName": "0",
+        "deviceType": "BNG",
+        "portType": "ETHERNET",
+        "@type": "EquipmentBusinessRef"
+      }
+    ],
+    "relatedParty": [
+      {
+        "id": "10001",
+        "href": "https://apigw-mercury-01.magic-dev.telekom.de/party/v2/partyManagement/organizations/10001",
+        "role": "Owner",
+        "@baseType": "EntityRef",
+        "@type": "RelatedParty"
+      }
+    ],
+    "state": "PLANNED",
+    "@baseType": "PhysicalResource",
+    "@type": "Uplink"
+  }
+]

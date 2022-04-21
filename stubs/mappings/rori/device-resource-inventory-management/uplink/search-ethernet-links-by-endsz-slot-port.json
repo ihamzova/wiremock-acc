@@ -1,0 +1,69 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{2,4}"
+      },
+      "portsEquipmentBusinessRef.slotName": {
+        "matches": "([0-9]*)"
+      },
+      "portsEquipmentBusinessRef.portName": {
+        "matches": "([0-9]*)"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": "1004",
+        "href": "/resource-order-resource-inventory/v5/uplink/1004",
+        "creationDate": "2021-11-17T19:24:11.17602+01:00",
+        "lsz": "4C2",
+        "modificationDate": "2021-11-17T19:24:11.176026+01:00",
+        "ordnungsnummer": 1,
+        "pluralId": "abc123456",
+        "resourceId": "7f2f1e75-9407-4df4-8562-f2f195b2965e",
+        "state": "ACTIVE",
+        "uewegId": "R000000001",
+        "version": "1",
+        "versionId": "102/1/1234/567894",
+        "portsEquipmentBusinessRef": [
+          {
+            "deviceType": "OLT",
+            "endSz": "49/8571/0/76H1",
+            "portName": "0",
+            "portType": "ETHERNET",
+            "slotName": "19",
+            "@type": "EquipmentBusinessRef"
+          },
+          {
+            "deviceType": "BNG",
+            "endSz": "49/911/84/7ZJE",
+            "portName": "xe-0/0/1",
+            "portType": "ETHERNET",
+            "slotName": "0",
+            "@type": "EquipmentBusinessRef"
+          }
+        ],
+        "relatedParty": [
+          {
+            "id": "10001",
+            "href": "http://apigw:80/party/v2/partyManagement/organizations/10001",
+            "role": "Owner",
+            "@baseType": "EntityRef",
+            "@type": "RelatedParty"
+          }
+        ],
+        "@baseType": "PhysicalResource",
+        "@type": "Uplink"
+      }
+    ]
+  }
+}

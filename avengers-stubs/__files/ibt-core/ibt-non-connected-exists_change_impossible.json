@@ -1,0 +1,386 @@
+[
+  {
+    "id": "1111",
+    "href": "string",
+    "cancellationDate": "2022-04-22T12:43:24.065Z",
+    "cancellationReason": "string",
+    "category": "string",
+    "completionDate": "2022-04-22T12:43:24.066Z",
+    "description": "string",
+    "expectedCompletionDate": "2022-04-22T12:43:24.066Z",
+    "externalId": "string",
+    "notificationContact": "string",
+    "orderDate": "2022-04-22T12:43:24.066Z",
+    "priority": "string",
+    "requestedCompletionDate": "2022-04-22T12:43:24.066Z",
+    "requestedStartDate": "2022-04-22T12:43:24.066Z",
+    "startDate": "2022-04-22T12:43:24.066Z",
+    "externalReference": [
+      {
+        "externalReferenceType": "string",
+        "name": "string",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string"
+      }
+    ],
+    "milestone": [
+      {
+        "description": "string",
+        "id": "string",
+        "message": "string",
+        "milestoneDate": "2022-04-22T12:43:24.066Z",
+        "name": "string",
+        "status": "string",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string",
+        "serviceOrderItem": [
+          {
+            "itemId": "string",
+            "serviceOrderHref": "string",
+            "serviceOrderId": "string",
+            "@baseType": "ResourceSpecification",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+            "@type": "LogicalResourceSpecification",
+            "@referredType": "string"
+          }
+        ]
+      }
+    ],
+    "note": [
+      {
+        "id": "string",
+        "author": "string",
+        "creationDate": "2022-04-22T12:43:24.066Z",
+        "category": "string",
+        "date": "2022-04-22T12:43:24.066Z",
+        "text": "string",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string"
+      }
+    ],
+    "orderRelationship": [
+      {
+        "id": "string",
+        "href": "string",
+        "relationshipType": "string",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string",
+        "@referredType": "string"
+      }
+    ],
+    "relatedParty": [
+      {
+        "id": "string",
+        "href": "string",
+        "name": "string",
+        "role": "string",
+        "@baseType": "PartyIndividual",
+        "@schemaLocation": "#definitions/PartyIndividual",
+        "@type": "PartyIndividual",
+        "@referredType": "individual"
+      }
+    ],
+    "serviceOrderItem": [
+      {
+        "id": "string",
+        "quantity": 0,
+        "action": "add",
+        "appointments": [
+          {
+            "id": "string",
+            "href": "string",
+            "category": "SiteSurvey",
+            "creationDate": "2022-04-22T12:43:24.066Z",
+            "description": "string",
+            "externalId": "string",
+            "lastUpdate": "2022-04-22T12:43:24.066Z",
+            "calendarEvent": {
+              "id": "string",
+              "href": "string",
+              "name": "string",
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string",
+              "@referredType": "string"
+            },
+            "relatedParty": [
+              {
+                "id": "string",
+                "href": "string",
+                "name": "string",
+                "role": "string",
+                "@baseType": "PartyIndividual",
+                "@schemaLocation": "#definitions/PartyIndividual",
+                "@type": "PartyIndividual",
+                "@referredType": "individual"
+              }
+            ],
+            "status": "Confirmed",
+            "validFor": {
+              "endDateTime": {},
+              "startDateTime": {},
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string"
+            },
+            "cancellationReason": "string",
+            "@baseType": "string",
+            "@schemaLocation": "string",
+            "@type": "string",
+            "@referredType": "string"
+          }
+        ],
+        "service": {
+          "id": "string",
+          "href": "string",
+          "category": "string",
+          "description": "string",
+          "endDate": "2022-04-22T12:43:24.066Z",
+          "hasStarted": true,
+          "isBundle": true,
+          "isServiceEnabled": true,
+          "isStateful": true,
+          "name": "string",
+          "serviceDate": "string",
+          "serviceType": "string",
+          "startDate": "2022-04-22T12:43:24.066Z",
+          "startMode": "string",
+          "feature": [
+            {
+              "id": "string",
+              "isBundle": true,
+              "isEnabled": true,
+              "name": "string",
+              "constraint": [
+                {
+                  "id": "string",
+                  "href": "string",
+                  "name": "string",
+                  "version": "string",
+                  "@baseType": "string",
+                  "@schemaLocation": "string",
+                  "@type": "string",
+                  "@referredType": "string"
+                }
+              ],
+              "featureCharacteristic": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "valueType": "string",
+                  "characteristicRelationship": [
+                    {
+                      "id": "string",
+                      "relationshipType": "string",
+                      "@baseType": "string",
+                      "@schemaLocation": "string",
+                      "@type": "string"
+                    }
+                  ],
+                  "value": {},
+                  "@baseType": "Appointment",
+                  "@schemaLocation": "#/components/schemas/Appointment",
+                  "@type": "LogicalResourceSpecification"
+                }
+              ],
+              "featureRelationship": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "relationshipType": "string",
+                  "validFor": {
+                    "endDateTime": {},
+                    "startDateTime": {},
+                    "@baseType": "string",
+                    "@schemaLocation": "string",
+                    "@type": "string"
+                  },
+                  "@baseType": "string",
+                  "@schemaLocation": "string",
+                  "@type": "string"
+                }
+              ],
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string"
+            }
+          ],
+          "note": [
+            {
+              "id": "string",
+              "author": "string",
+              "creationDate": "2022-04-22T12:43:24.066Z",
+              "category": "string",
+              "date": "2022-04-22T12:43:24.066Z",
+              "text": "string",
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string"
+            }
+          ],
+          "place": [
+            {
+              "id": "12378146",
+              "href": "string",
+              "name": "string",
+              "role": "locationId",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            }
+          ],
+          "relatedEntity": [
+            {
+              "id": "string",
+              "href": "string",
+              "name": "string",
+              "role": "string",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            }
+          ],
+          "relatedParty": [
+            {
+              "id": "string",
+              "href": "string",
+              "name": "string",
+              "role": "string",
+              "@baseType": "PartyIndividual",
+              "@schemaLocation": "#definitions/PartyIndividual",
+              "@type": "PartyIndividual",
+              "@referredType": "individual"
+            }
+          ],
+          "serviceCharacteristic": [
+            {
+              "id": "string",
+              "name": "string",
+              "valueType": "string",
+              "characteristicRelationship": [
+                {
+                  "id": "string",
+                  "relationshipType": "string",
+                  "@baseType": "string",
+                  "@schemaLocation": "string",
+                  "@type": "string"
+                }
+              ],
+              "value": {},
+              "@baseType": "Appointment",
+              "@schemaLocation": "#/components/schemas/Appointment",
+              "@type": "LogicalResourceSpecification"
+            }
+          ],
+          "serviceOrderItem": [
+            {
+              "itemId": "string",
+              "role": "string",
+              "serviceOrderHref": "string",
+              "serviceOrderId": "string",
+              "itemAction": "add",
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string",
+              "@referredType": "string"
+            }
+          ],
+          "serviceRelationship": [
+            {
+              "relationshipType": "string",
+              "service": "string",
+              "serviceRelationshipCharacteristic": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "valueType": "string",
+                  "characteristicRelationship": [
+                    {
+                      "id": "string",
+                      "relationshipType": "string",
+                      "@baseType": "string",
+                      "@schemaLocation": "string",
+                      "@type": "string"
+                    }
+                  ],
+                  "value": {},
+                  "@baseType": "Appointment",
+                  "@schemaLocation": "#/components/schemas/Appointment",
+                  "@type": "LogicalResourceSpecification"
+                }
+              ],
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string"
+            }
+          ],
+          "serviceSpecification": {
+            "id": "string",
+            "href": "string",
+            "name": "string",
+            "version": "string",
+            "@baseType": "ResourceSpecification",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+            "@type": "LogicalResourceSpecification",
+            "@referredType": "string"
+          },
+          "state": "feasibilityChecked",
+          "supportingResource": [
+            {
+              "id": "string",
+              "href": "string",
+              "name": "string",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            }
+          ],
+          "supportingService": [
+            "string"
+          ],
+          "@baseType": "ResourceSpecification",
+          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+          "@type": "LogicalResourceSpecification",
+          "@referredType": "string"
+        },
+        "serviceOrderItem": [
+          "string"
+        ],
+        "serviceOrderItemRelationship": [
+          {
+            "relationshipType": "string",
+            "orderItem": {
+              "itemId": "string",
+              "serviceOrderHref": "string",
+              "serviceOrderId": "string",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            },
+            "@baseType": "ResourceSpecification",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+            "@type": "LogicalResourceSpecification"
+          }
+        ],
+        "state": "acknowledged",
+        "@baseType": "ResourceSpecification",
+        "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+        "@type": "LogicalResourceSpecification"
+      }
+    ],
+    "state": "acknowledged",
+    "stateReason": "string",
+    "gigaAreaNumber": "string",
+    "@baseType": "string",
+    "@schemaLocation": "string",
+    "@type": "string"
+  }
+]

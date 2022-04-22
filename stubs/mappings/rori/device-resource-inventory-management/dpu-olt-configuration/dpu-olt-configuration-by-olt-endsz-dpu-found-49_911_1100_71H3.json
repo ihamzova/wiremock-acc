@@ -5,7 +5,7 @@
     "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
     "queryParameters": {
       "ponPortEquipmentBusinessRef.endSz": {
-        "matches": "49\\/89\\/8000\\/76H2||49\\/911\\/1100\\/71H1|3|5{1}$"
+        "matches": "49\\/911\\/1100\\/71H3"
       }
     }
   },
@@ -14,6 +14,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/device-resource-inventory-management/dpu-olt-configuration/by-olt-endsz/{{replace request.query.dpuEndSz '/' '_'}}.json"
+    "bodyFileName": "rori/device-resource-inventory-management/dpu-olt-configuration/by-dpu-endsz/49_812_179_71G2.json"
   }
 }

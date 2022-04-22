@@ -1,29 +1,29 @@
 [
   {
-    "id": "1220",
-    "href": "/resource-order-resource-inventory/v5/uplink/1220",
+    "id": "1124",
+    "href": "/resource-order-resource-inventory/v5/uplink/1124",
     "creationDate": "2021-01-22T15:21:27.19554+01:00",
     "modificationDate": "2021-01-22T15:21:27.19554+01:00",
-    "ordnungsnummer": 10,
+    "ordnungsnummer": 1,
     "pluralId": null,
-    "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b23",
+    "resourceId": "e346b861-7a9e-45d2-a96c-2f29b12b33b3",
     "uewegId": null,
     "version": null,
     "versionId": null,
     "lsz": "4C1",
     "portsEquipmentBusinessRef": [
       {
-        "endSz": "49/89/8000/76H2",
-        "portName": "1",
-        "slotName": "8",
+        "endSz": "49/8571/0/76HA",
+        "portName": "0",
+        "slotName": "19",
         "deviceType": "OLT",
         "portType": "ETHERNET",
         "@type": "EquipmentBusinessRef"
       },
       {
-        "endSz": "49/30/179/43G2",
+        "endSz": "49/30/179/43G1",
         "portName": "ge-1/2/3",
-        "slotName": "1",
+        "slotName": "0",
         "deviceType": "BNG",
         "portType": "ETHERNET",
         "@type": "EquipmentBusinessRef"
@@ -43,22 +43,22 @@
     "@type": "Uplink"
   },
   {
-    "id": "1220",
-    "href": "/resource-order-resource-inventory/v5/uplink/1220",
+    "id": "1124",
+    "href": "/resource-order-resource-inventory/v5/uplink/1124",
     "creationDate": "2021-01-22T15:21:27.19554+01:00",
     "modificationDate": "2021-01-22T15:21:27.19554+01:00",
-    "ordnungsnummer": 10,
+    "ordnungsnummer": 1,
     "pluralId": null,
-    "resourceId": "8871a8f1-3631-4799-89f1-23464c2dd2b23",
+    "resourceId": "e346b861-7a9e-45d2-a96c-2f29b12b33b3",
     "uewegId": null,
     "version": null,
     "versionId": null,
     "lsz": "4C1",
     "portsEquipmentBusinessRef": [
       {
-        "endSz": "49/89/8000/76H2",
-        "portName": "1",
-        "slotName": "8",
+        "endSz": "49/8571/0/76HA",
+        "portName": "0",
+        "slotName": "19",
         "deviceType": "OLT",
         "portType": "ETHERNET",
         "@type": "EquipmentBusinessRef"
@@ -66,7 +66,7 @@
       {
         "endSz": "49/30/179/43G2",
         "portName": "ge-2/2/3",
-        "slotName": "2",
+        "slotName": "1",
         "deviceType": "BNG",
         "portType": "ETHERNET",
         "@type": "EquipmentBusinessRef"

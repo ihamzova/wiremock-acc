@@ -1,7 +1,7 @@
 [
   {
-    "id": "1220",
-    "href": "/resource-order-resource-inventory/v5/uplink/1220",
+    "id": "1216",
+    "href": "/resource-order-resource-inventory/v5/uplink/1216",
     "creationDate": "2021-01-22T15:21:27.19554+01:00",
     "modificationDate": "2021-01-22T15:21:27.19554+01:00",
     "ordnungsnummer": 10,
@@ -13,7 +13,7 @@
     "lsz": "4C1",
     "portsEquipmentBusinessRef": [
       {
-        "endSz": "49/89/8000/76H2",
+        "endSz": "49/911/1100/76H2",
         "portName": "1",
         "slotName": "8",
         "deviceType": "OLT",
@@ -43,8 +43,8 @@
     "@type": "Uplink"
   },
   {
-    "id": "1220",
-    "href": "/resource-order-resource-inventory/v5/uplink/1220",
+    "id": "1216",
+    "href": "/resource-order-resource-inventory/v5/uplink/1216",
     "creationDate": "2021-01-22T15:21:27.19554+01:00",
     "modificationDate": "2021-01-22T15:21:27.19554+01:00",
     "ordnungsnummer": 10,
@@ -56,7 +56,7 @@
     "lsz": "4C1",
     "portsEquipmentBusinessRef": [
       {
-        "endSz": "49/89/8000/76H2",
+        "endSz": "49/911/1100/76H2",
         "portName": "1",
         "slotName": "8",
         "deviceType": "OLT",
@@ -64,7 +64,7 @@
         "@type": "EquipmentBusinessRef"
       },
       {
-        "endSz": "49/30/179/43G2",
+        "endSz": "49/30/179/43G1",
         "portName": "ge-2/2/3",
         "slotName": "2",
         "deviceType": "BNG",

@@ -1,0 +1,15 @@
+{
+  "name": "Get workorders",
+  "priority": 10,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-project-dioss/v5/workorders.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "workorder/get_workorders.json"
+  }
+}

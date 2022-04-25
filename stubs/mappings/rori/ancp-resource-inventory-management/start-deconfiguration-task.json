@@ -5,7 +5,7 @@
     "urlPathPattern": "/resource-order-resource-inventory/v3/ancpConfigurationStartDeconfigurationTask/([0-9]*)"
   },
   "response": {
-    "status": 200,
+    "status": 202,
     "headers": {
       "Content-Type": "application/json",
       "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",

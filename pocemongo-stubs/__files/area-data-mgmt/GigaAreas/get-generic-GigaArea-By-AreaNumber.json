@@ -1,0 +1,41 @@
+{
+  "number": "Geb_ID_001",
+  "name": "Testgebiet 01",
+  "communicativeName": null,
+  "status": "UNDER_CONSTRUCTION",
+  "profile": {
+    "initiative": "JOINT_VENTURE",
+    "tenantId": 10000
+  },
+  "provider": {
+    "active": 10000
+  },
+  "metaInfo": {
+    "creationDateTime": "2018-11-06T10:50:07.673Z",
+    "modificationDateTime": "2018-11-06T10:50:07.673Z"
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericGigaArea/Geb_ID_001",
+      "templated": false,
+      "title": "self",
+      "deprecation": null
+    },
+    "gigaArea": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/gigaArea/Geb_ID_001",
+      "templated": false,
+      "title": "gigaArea",
+      "deprecation": null
+    },
+    "wholeBuyGigaArea": null,
+    "search": {
+      "method": "GET",
+      "href": "https://area-data-management-app-pocemongo-02.telitcaas3.t-internal.com/giga-areas-location/v3/genericGigaAreas{?modifiedSince,direction,page,pageSize}",
+      "templated": true,
+      "title": "search",
+      "deprecation": null
+    }
+  }
+}

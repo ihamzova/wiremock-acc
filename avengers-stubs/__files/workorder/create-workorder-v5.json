@@ -1,6 +1,6 @@
 {
-  "id": "1{{randomValue length=7 type='NUMERIC'}}",
-  "type": "AUSKUNDUNG",
+  "id": "{{randomValue length=1 type='NUMERIC'}}",
+  "type": "{{jsonPath request.body '$.type'}}",
   "status": "CREATED",
   "source": "INFRASTRUCTURE",
   "networkTopology": "NE4",

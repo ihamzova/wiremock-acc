@@ -1,0 +1,26 @@
+{
+  "name": "Get GigaAreaName by GigaAreaNumber - Geb_ID_001",
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/giga-areas-location/v3/genericGigaAreas",
+    "queryParameters": {
+      "number": {
+        "matches": "Geb_ID_001"
+      },
+      "page": {
+        "matches" : ".*"
+      },
+      "pageSize": {
+        "matches" : ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "area-data-mgmt/GigaAreas/get-generic-GigaArea-By-AreaNumber.json"
+  }
+}

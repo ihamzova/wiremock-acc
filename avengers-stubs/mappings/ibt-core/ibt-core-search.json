@@ -67,7 +67,7 @@
         "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/1111/productionLineChange"
       },
       "response": {
-        "status": 404,
+        "status": 409,
         "headers": {
           "Content-Type": "application/json"
         },

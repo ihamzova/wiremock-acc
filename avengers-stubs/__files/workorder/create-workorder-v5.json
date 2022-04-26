@@ -1,5 +1,5 @@
 {
-  "id": "{{randomValue length=1 type='NUMERIC'}}",
+  "id": "1234567{{randomValue length=1 type='NUMERIC'}}",
   "type": "{{jsonPath request.body '$.type'}}",
   "status": "CREATED",
   "source": "INFRASTRUCTURE",

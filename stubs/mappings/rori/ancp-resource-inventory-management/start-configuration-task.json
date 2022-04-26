@@ -2,10 +2,10 @@
   "priority": 2,
   "request": {
     "method": "POST",
-    "urlPath": "/reqcb/resource-order-resource-inventory/v3/ancpConfigurationStartConfigurationTask",
+    "urlPath": "/resource-order-resource-inventory/v3/ancpConfigurationStartConfigurationTask",
     "queryParameters": {
       "endSz": {
-        "matches": "49\\/30\\/179\\/76H[1-4]{1}$|49\\/911\\/1100\\/76H[2|4]{1}$|49\\/8571\\/0\\/76HA|49\\/8571\\/0\\/76Z7|49\\/8571\\/0\\/76Z5|49\\/30\\/179\\/76G[0-3]{1}$"
+        "matches": "[0-9]{1,6}\/[0-9]{1,6}\/[0-9]{1,6}\/[a-zA-Z0-9]{2,4}"
       },
       "uplinkId": {
         "matches": "([0-9]*)"
@@ -16,7 +16,7 @@
     }
   },
   "response": {
-    "status": 200,
+    "status": 202,
     "headers": {
       "Content-Type": "application/json",
       "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",

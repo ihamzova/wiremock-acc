@@ -29,10 +29,10 @@
         "value" : "FTTH"
       }, {
         "name" : "DatumVon",
-        "value" : "{{now offset='1 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+        "value" : "{{now offset='25 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
       }, {
         "name" : "DatumBis",
-        "value" : "{{now offset='20 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
+        "value" : "{{now offset='35 days' format='yyyy-MM-dd HH:mm:ssZ'}}"
       } ],
       "serviceRelationship" : [ ]
     },

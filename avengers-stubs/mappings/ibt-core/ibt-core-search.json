@@ -25,7 +25,7 @@
         "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /5[0-9]*/)]"
+            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /1005|5[0-9]*/)]"
           }
         ]
       },
@@ -46,7 +46,7 @@
         "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/search",
         "bodyPatterns": [
           {
-            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /3[0-9]*/)]"
+            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /1[0-5]*|3[0-9]*/)]"
           }
         ]
       },

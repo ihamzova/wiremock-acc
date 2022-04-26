@@ -4,15 +4,28 @@
   "eventType": "ServiceOrderStateChange",
   "correlationId": null,
   "domain": "giga-installation-oder",
+  "title": null,
+  "description": null,
+  "priority": null,
   "timeOcurred": "2021-07-19T10:17:24.118346Z",
   "tenantId": "10001",
   "event": {
     "serviceOrder": {
       "id": "19495",
       "href": "/giga-installation-order/v1/notConnectedServiceOrder/19495",
+      "cancellationDate": null,
+      "cancellationReason": null,
+      "category": null,
+      "completionDate":"2021-07-19T10:17:24.118346Z",
+      "description": null,
+      "expectedCompletionDate": "2021-07-19T10:17:24.118346Z",
       "externalId": "NC10000026",
+      "notificationContact": null,
       "orderDate": "2021-07-19T10:16:36.459Z",
+      "priority": null,
       "requestedCompletionDate": "2021-08-08T00:00:00Z",
+      "requestedStartDate": "2021-08-08T00:00:00Z",
+      "startDate": "2021-08-08T00:00:00Z",
       "externalReference": [
         {
           "externalReferenceType": "customerOrderReference",

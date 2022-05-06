@@ -16,7 +16,6 @@
     "resourceOrder": {
       "@type": "GatewayResourceOrder",
       "id": "89898898",
-      "expectedCompletionDate": "{{now format='yyyy-MM-dd'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaPhysicalConnection",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",
@@ -27,7 +26,8 @@
       },
       "additionalStatusInformation": [
         {
-          "code": "GW-RO-0046"
+          "code": "GW-RO-0046",
+          "description": "Description for GW-RO-0046"
         }
       ],
       "category": "PhysicalConnection",

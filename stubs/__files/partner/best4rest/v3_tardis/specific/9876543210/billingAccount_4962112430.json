@@ -1,0 +1,20 @@
+{
+  "id": "4962112430",
+  "preferedPaymentMethod": "SEPA_DEBIT",
+  "bankAccount": {
+    "bankName": "LANDESBANK BERLIN",
+    "type": "SepaBankAccount",
+    "iban": "DE12500105170648489890",
+    "bic": "10050001",
+    "sepaAccountHolder": "Company name"
+  },
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/9876543210/billingAccounts/4962112430"
+    },
+    "billRecipient": {
+      "id": "1-CE5R71",
+      "href": "/v3/accounts/9876543210/contacts/1-CE5R71"
+    }
+  }
+}

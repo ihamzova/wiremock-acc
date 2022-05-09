@@ -1,0 +1,19 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/((upstream-partner/)?)tardis/crmfn/fixedNetAccounts/v3/accounts/4962110854/contracts",
+    "queryParameters": {
+      "postcode": {
+        "matches": "([0-9]{5})"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/v3_tardis/contracts.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

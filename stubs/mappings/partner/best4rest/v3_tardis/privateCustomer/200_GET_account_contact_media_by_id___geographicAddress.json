@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/((upstream-partner/)?)tardis/crmfn/fixedNetAccounts/v3/accounts/([0-9]{10})/contacts/([A-Za-z0-9-]+)/contactMedia/22114446"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/v3_tardis/privateCustomer/contactMedia_geographicAddress.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

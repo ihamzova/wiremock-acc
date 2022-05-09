@@ -1,0 +1,31 @@
+{
+  "count": 2,
+  "total": 2,
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/8882105959/contracts?limit=20"
+    },
+    "first": {
+      "href": "/v3/accounts/8882105959/contracts?limit=20"
+    },
+    "last": {
+      "href": "/v3/accounts/8882105959/contracts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contracts": [{
+      "roles": ["CONTRACT_PARTNER"],
+      "self": {
+        "id": "TB0000209437",
+        "href": "/v3/accounts/8882105959/contracts/TB0000209437"
+      }
+    }, {
+      "roles": ["CONTRACT_PARTNER"],
+      "self": {
+        "id": "TB0000188064",
+        "href": "/v3/accounts/8882105959/contracts/TB0000188064"
+      }
+    }
+    ]
+  }
+}

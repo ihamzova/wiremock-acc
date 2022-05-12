@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/leseVertrag",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },"response" : {
+  "status" : 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "bodyFileName" : "presales/blcrm/leseVertrag.timb.{{jsonPath request.body '$.kundennummer'}}.xml",
+  "transformers": ["response-template"]
+}
+}
+

@@ -1,0 +1,21 @@
+{
+  "count": 0,
+  "total": 0,
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/8331394971/billingAccounts?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v3/accounts/8331394971/billingAccounts?limit=20"
+    },
+    "next": {
+      "href": "/v3/accounts/8331394971/billingAccounts?limit=20&page=2"
+    },
+    "last": {
+      "href": "/v3/accounts/8331394971/billingAccounts?limit=20&page=0"
+    }
+  },
+  "_embedded": {
+    "billingAccounts": []
+  }
+}

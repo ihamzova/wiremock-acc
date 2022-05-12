@@ -1,0 +1,236 @@
+{
+  "id": "TB0000832101",
+  "status": "ACTIVE",
+  "type": "RENT",
+  "product": {
+    "status": "ACTIVE",
+    "startDate": "2012-12-13",
+    "productOffering": {
+      "name": "BC5 BusinessCall ISDN AnlAs",
+      "productSpecification": {
+        "id": "89757285"
+      },
+      "productType": "AnlAS",
+      "productSubtype": "DUWA"
+    },
+    "taxIncludedMonthlyRecurringAmount": 0,
+    "productRelationship": [
+      {
+        "type": "isChild",
+        "product": {
+          "status": "ACTIVE",
+          "startDate": "2013-01-16",
+          "productOffering": {
+            "name": "EVÜ für Nebenstellen unverkürzt",
+            "productSpecification": {
+              "id": "89707032"
+            },
+            "productType": "LM / LM-Paket",
+            "productSubtype": "EVÜ"
+          },
+          "taxIncludedMonthlyRecurringAmount": 0,
+          "place": [
+            {
+              "id": "32378145",
+              "role": "KLS-ID of installation"
+            }
+          ]
+        }
+      },
+      {
+        "type": "isChild",
+        "product": {
+          "status": "ACTIVE",
+          "startDate": "2013-01-31",
+          "productOffering": {
+            "name": "BC5 BusinessCall ISDN BaAs",
+            "productSpecification": {
+              "id": "89757286"
+            },
+            "productType": "AnlAS",
+            "productSubtype": "BaAS"
+          },
+          "productRelationship": [
+            {
+              "type": "isChild",
+              "product": {
+                "status": "ACTIVE",
+                "startDate": "2013-01-16",
+                "productOffering": {
+                  "name": "EVÜ für Nebenstellen unverkürzt",
+                  "productSpecification": {
+                    "id": "89707032"
+                  },
+                  "productType": "LM / LM-Paket",
+                  "productSubtype": "EVÜ"
+                },
+                "taxIncludedMonthlyRecurringAmount": 0,
+                "place": [
+                  {
+                    "id": "32378145",
+                    "role": "KLS-ID of installation"
+                  }
+                ]
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "32378145",
+              "role": "KLS-ID of installation"
+            }
+          ],
+          "productCharacteristic": [
+            {
+              "name": "Rufnummer",
+              "value": "112233"
+            },
+            {
+              "name": "Vorwahl",
+              "value": "01234"
+            },
+            {
+              "name": "RechnungsNr",
+              "value": "11900005"
+            },
+            {
+              "name": "Betriebsart",
+              "value": "1"
+            },
+            {
+              "name": "Zaehler_AnlAs_BaAS",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      {
+        "type": "isChild",
+        "product": {
+          "status": "ACTIVE",
+          "startDate": "2012-12-13",
+          "productOffering": {
+            "name": "BC5 BusinessCall ISDN BaAs",
+            "productSpecification": {
+              "id": "89757286"
+            },
+            "productType": "AnlAS",
+            "productSubtype": "BaAS"
+          },
+          "taxIncludedMonthlyRecurringAmount": 58.7800000,
+          "productRelationship": [
+            {
+              "type": "isChild",
+              "product": {
+                "status": "ACTIVE",
+                "startDate": "2013-01-16",
+                "productOffering": {
+                  "name": "EVÜ für Nebenstellen unverkürzt",
+                  "productSpecification": {
+                    "id": "89707032"
+                  },
+                  "productType": "LM / LM-Paket",
+                  "productSubtype": "EVÜ"
+                },
+                "taxIncludedMonthlyRecurringAmount": 0,
+                "place": [
+                  {
+                    "id": "32378145",
+                    "role": "KLS-ID of installation"
+                  }
+                ]
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "32378145",
+              "role": "KLS-ID of installation"
+            }
+          ],
+          "productCharacteristic": [
+            {
+              "name": "Speicherart der Verbindungsdaten",
+              "value": "3"
+            },
+            {
+              "name": "TNBA-ID",
+              "value": "00080000040989438"
+            },
+            {
+              "name": "RechnungsNr",
+              "value": "11900004"
+            },
+            {
+              "name": "Betriebsart",
+              "value": "3"
+            },
+            {
+              "name": "Zaehler_AnlAs_BaAS",
+              "value": "0"
+            }
+          ]
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "32378145",
+        "role": "KLS-ID of installation"
+      }
+    ],
+    "productCharacteristic": [
+      {
+        "name": "Speicherart der Verbindungsdaten",
+        "value": "3"
+      },
+      {
+        "name": "Verzeichniskennzeichen",
+        "value": "0"
+      },
+      {
+        "name": "TNBA-ID",
+        "value": "00080000040989445"
+      },
+      {
+        "name": "MVST",
+        "value": "631--T5---D"
+      },
+      {
+        "name": "Durchwahlnr.",
+        "value": "519039"
+      },
+      {
+        "name": "Vorwahl",
+        "value": "0631"
+      },
+      {
+        "name": "Abfragestelle",
+        "value": "60"
+      },
+      {
+        "name": "Rufnummernblock1 von",
+        "value": "60"
+      },
+      {
+        "name": "Rufnummernblock1 bis",
+        "value": "89"
+      }
+    ]
+  },
+  "name": "Telekom Magenta XL",
+  "startDate": "2012-12-13",
+  "_links": {
+    "self": {
+      "id": "T749645971",
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts/T749645971"
+    },
+    "contacts": {
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts"
+    },
+    "billingAccount": {
+      "id": "4962110854",
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/billingAccounts/4962110854"
+    }
+  }
+}

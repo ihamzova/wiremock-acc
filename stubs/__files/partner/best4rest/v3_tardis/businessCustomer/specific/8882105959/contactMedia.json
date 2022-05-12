@@ -1,0 +1,25 @@
+{
+  "count": 1,
+  "total": 1,
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/8882105959/contacts/1-CE6R91/contactMedia?limit=20&page=1"
+    },
+    "first": {
+      "href": "/v3/accounts/8882105959/contacts/1-CE6R91/contactMedia?limit=20"
+    },
+    "last": {
+      "href": "/v3/accounts/8882105959/contacts/1-CE6R91/contactMedia?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contactMedia": [{
+      "type": "GeographicAddress",
+      "self": {
+        "id": "9566208",
+        "href": "/v3/accounts/8882105959/contacts/1-CE6R91/contactMedia/9566208"
+      }
+    }
+    ]
+  }
+}

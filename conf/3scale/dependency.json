@@ -294,6 +294,15 @@
         ]
       },
       {
+        "resource": "/resource-order-resource-inventory/v2/planningRules",
+        "pattern": [
+          ""
+        ],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+      {
         "resource": "/giga-areas-location/v3/fibreOnLocation",
         "pattern": [],
         "scopes": [

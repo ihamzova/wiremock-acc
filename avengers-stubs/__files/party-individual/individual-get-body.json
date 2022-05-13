@@ -1,0 +1,65 @@
+{
+  "aristocraticTitle": "string",
+  "birthDate": "2022-05-11T14:22:20.209Z",
+  "countryOfBirth": "string",
+  "deathDate": "2022-05-11T14:22:20.209Z",
+  "familyName": "familyName",
+  "familyNamePrefix": "string",
+  "formattedName": "string",
+  "fullName": "string",
+  "gender": "string",
+  "generation": "string",
+  "givenName": "givenName",
+  "legalName": "string",
+  "location": "string",
+  "maritalStatus": "string",
+  "middleName": "string",
+  "nationality": "string",
+  "placeOfBirth": "string",
+  "preferredGivenName": "string",
+  "title": "string",
+  "contactMedium": [
+    {
+      "mediumType": "EMAIL",
+      "mediumVerified": true,
+      "preferred": true,
+      "characteristic": {
+        "city": "string",
+        "contactType": "string",
+        "country": "string",
+        "emailAddress": "user.email@telekom.com",
+        "faxNumber": "string",
+        "phoneNumber": "string",
+        "postCode": "string",
+        "socialNetworkId": "string",
+        "stateOrProvince": "string",
+        "street1": "string",
+        "houseNumber": "string",
+        "houseNumberAppendix": "string",
+        "street2": "string"
+      },
+      "validFor": {
+        "endDateTime": "2022-05-11T14:22:20.209Z",
+        "startDateTime": "2022-05-11T14:22:20.209Z"
+      }
+    }
+  ],
+  "partyCharacteristic": [
+    {
+      "name": "string",
+      "valueType": "string",
+      "value": "string"
+    }
+  ],
+  "relatedParty": [
+    {
+      "id": "string",
+      "href": "string",
+      "name": "string",
+      "role": "string"
+    }
+  ],
+  "status": "initialized",
+  "id": "350000",
+  "href": "string"
+}

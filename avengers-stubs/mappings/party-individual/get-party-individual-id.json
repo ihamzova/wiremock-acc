@@ -42,6 +42,28 @@
           "referenceError": "conflict"
         }
       }
+    },
+    ,
+    {
+      "id": "e1417560-4559-4619-805e-f56c1f844d0a",
+      "name": "POST party individual with error on retrieve",
+      "priority": 4,
+      "request": {
+        "method": "POST",
+        "url": "/party/v1/individual",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.givenName == 'error_on_retrieve')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-individual/individual-post-body_error_on_retrieve.json"
+      }
     }
   ]
 }

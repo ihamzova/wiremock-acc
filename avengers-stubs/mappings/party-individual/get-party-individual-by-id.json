@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "id": "c45d8ba7-2985-4258-b933-6fa436d5974d",
+      "name": "Get party individual by id",
+      "priority": 3,
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/party/v1/individual/(3[0-9]*)"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-individual/individual-get-body.json"
+      }
+    },
+    {
+      "id": "d55d8ba7-2985-4258-b933-6fa436d5974d",
+      "name": "Not found during party individual by id",
+      "priority": 4,
+      "request": {
+        "method": "GET",
+        "urlPathPattern": "/party/v1/individual/(9[0-9]*)"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "code": "123",
+          "reason": "Could not found party individual by given id",
+          "message": "string",
+          "status": "Error",
+          "referenceError": "string"
+        }
+      }
+    }
+  ]
+}

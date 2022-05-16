@@ -39,6 +39,8 @@ COPY tmi-stubs /$WM_PACKAGE/tmi-stubs
 
 COPY schulung-stubs /$WM_PACKAGE/schulung-stubs
 
+COPY ntoa-stubs /$WM_PACKAGE/ntoa-stubs
+
 EXPOSE 8080
 
 CMD java -jar wiremock-acc-deps.jar --max-request-journal-entries $MAX_REQUEST_JOURNAL_ENTRIES --disable-gzip --async-response-enabled true --extensions com.tsystems.tm.acc.wiremock.groovy.GroovyPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhookPostServeAction,com.tsystems.tm.acc.wiremock.webhook.WebhooksPostServeAction,com.tsystems.tm.acc.wiremock.persist.PersistencePostServeAction,com.tsystems.tm.acc.wiremock.persist.PersistenceArrayPostServeAction,com.tsystems.tm.acc.wiremock.persist.endpoint.PersistenceAdminApi,com.tsystems.tm.acc.wiremock.CustomHelpersResponseTemplateTransformer,com.tsystems.tm.acc.wiremock.groovy.GroovyRequestMatcherExtension --root-dir $STUBS_PATH --container-threads $CONTAINER_THREADS --async-response-threads $ASYNC_RESPONSE_THREADS $ADDITIONAL_OPTIONS

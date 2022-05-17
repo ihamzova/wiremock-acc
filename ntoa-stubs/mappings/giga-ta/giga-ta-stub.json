@@ -1,0 +1,14 @@
+{
+  "name" : "getGigaTA",
+  "request" : {
+    "urlPath" : "/resource-order-resource-inventory/v1/giga-tas",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"giga-tas\": [\n    {\n      \"apartmentCplId\": \"PB0001\",\n      \"homeId\": \"{{request.query.homeId}}\",\n      \"buildState\": \"PLANNED\",\n      \"technology\": \"FTTH\",\n      \"klsId\": 123456789,\n      \"folId\": \"1234567890\",\n      \"gigaAreaNumber\": \"GigaArea_001\",\n      \"creationDate\": null,\n      \"builtDate\": null,\n      \"decommissionedDate\": null,\n      \"carrierCode\": \"DTAG\",\n       \"materialNumber\": \"409123456\",\n      \"testProtocolId\": \"123456789\",\n      \"dpuEndSz\": \"49/341/4/76G1\",\n      \"dpuPortType\": \"GFAST\",\n      \"dpuSlot\": \"0\",\n      \"dpuPort\": \"1\",\n      \"netCoOrganizationId\": null\n    }\n  ],\n  \"paging\": {\n    \"total\": 1,\n    \"page\": 1,\n    \"pages\": 1,\n    \"last\": true\n  }\n}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

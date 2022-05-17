@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPath": "/((upstream-partner/)?)tardis/crmfn/productInventory/v3/product",
+    "urlPattern": "/((upstream-partner/)?)tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "accountId": {
         "matches": "[0-9]+"
@@ -13,6 +13,10 @@
   },
   "response": {
     "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "2"
+    },
     "jsonBody": [
       {
         "id": "{{request.query.rootProductId}}",

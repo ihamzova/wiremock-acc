@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/pruefeAngebot",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/json"
+      }
+    }
+  },"response" : {
+  "status" : 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "bodyFileName" : "stubs/presales/pruefeAngebot/pruefeAngebot.timb.{{jsonPath request.body '$.kundennummer'}}.xml",
+  "transformers": ["response-template"]
+}
+}
+

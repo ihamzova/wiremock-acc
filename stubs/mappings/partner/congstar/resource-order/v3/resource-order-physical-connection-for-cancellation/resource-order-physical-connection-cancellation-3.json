@@ -57,7 +57,7 @@
             "Content-Type": "application/json"
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
-          "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-attribute-value-change-notification-update.json"
+          "bodyFileName": "partner/congstar/resource-order/v3/physicalConnection/resource-order-attribute-value-change-notification-confirm.json"
         }
       ]
     }

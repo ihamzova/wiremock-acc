@@ -1,0 +1,8 @@
+{
+  "customerOrderReference": "{{jsonPath request.body '$.customerOrderReference'}}",
+  "externalOrderId": "{{jsonPath request.body '$.externalOrderId'}}",
+  "fiberOnLocationId": "{{jsonPath request.body '$.fiberOnLocationId'}}",
+  "processVariant": "developmentProcess",
+  "state": "cancelled",
+  "result": "successful"
+}

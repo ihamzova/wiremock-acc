@@ -1,0 +1,26 @@
+{
+  "mappings": [
+    {
+      "id": "2e5e2392-d68f-11ec-9d64-0242ac120002",
+      "priority": 1,
+      "name": "Prod ready validation response for FB: 90056368 or 90056370",
+      "request": {
+        "urlPath": "/giga-installation-order/v1/prodReadyValidation",
+        "method": "POST",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$.[?(@.customerOrderReference =~ /(201126-ASD-BC-01-CJ-07|201126-ASD-BC-01-CJ-07-02)/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "prod-ready-validation/prod_ready_validation_cancelled.json"
+      }
+    }
+  ]
+}
+

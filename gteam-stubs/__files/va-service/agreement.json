@@ -1,72 +1,17 @@
 {
   "@type": "PreAgreement",
-  "id": "ac70a0b1-b7ea-4206-b9d3-f3efc1bde425",
-  "agreementType": "VA-KUE-MRN",
-  "initialDate": "2022-02-10T13:57:46.678924Z",
-  "name": "DEU.DTAG.VAZPKGJPH7",
-  "status": "abgestimmt",
+  "id": "a0648f06-435d-49cc-87e1-af93ad21dcc3",
+  "agreementType": "VA-KUE-ORN",
+  "initialDate": "2022-02-10T08:36:45.836173Z",
+  "name": "DEU.ITEST.V819848350",
+  "status": "angefragt",
   "agreementItem": [
     {
-      "@type": "CallNumberAgreementItem",
+      "@type": "WholebuyAccessAgreementItem",
       "termOrCondition": [
         {
-          "@type": "CallNumberAgreementTerm",
-          "id": "ab77943e-10b2-4bb3-9723-820f241ca371",
-          "@baseType": "AgreementTermOrCondition",
-          "areaCode": "351",
-          "callNumber": "34234323",
-          "PKIabg": "D321",
-          "PKIauf": "D001",
-          "validationResult": false,
-          "source": "REQUEST"
-        },
-        {
-          "@type": "CallNumberAgreementTerm",
-          "id": "11aeaad5-f00a-4812-bc11-643b38bec24b",
-          "@baseType": "AgreementTermOrCondition",
-          "areaCode": "351",
-          "callNumber": "34234324",
-          "PKIabg": "D321",
-          "PKIauf": "D001",
-          "validationResult": false,
-          "source": "REQUEST"
-        },
-        {
-          "@type": "CallNumberAgreementTerm",
-          "id": "1042c99b-69bd-415e-ab06-77bcc17babb1",
-          "@baseType": "AgreementTermOrCondition",
-          "areaCode": "351",
-          "callNumber": "34234323",
-          "PKIabg": "D321",
-          "source": "ASSET"
-        },
-        {
-          "@type": "CallNumberAgreementTerm",
-          "id": "14968655-48c1-49ce-b52e-50221fbd2fb7",
-          "@baseType": "AgreementTermOrCondition",
-          "areaCode": "351",
-          "callNumber": "43322",
-          "PKIabg": "D123",
-          "source": "ASSET"
-        },
-        {
-          "@type": "CallNumberAgreementTerm",
-          "id": "5f55198c-fca8-47b5-acf2-900ab1a98624",
-          "@baseType": "AgreementTermOrCondition",
-          "areaCode": "351",
-          "callNumber": "43323",
-          "PKIabg": "D124",
-          "source": "ASSET"
-        }
-      ],
-      "@baseType": "AgreementItem"
-    },
-    {
-      "@type": "TelekomAccessAgreementItem",
-      "termOrCondition": [
-        {
-          "@type": "TelekomAccessAgreementTerm",
-          "id": "1212121234",
+          "@type": "WholebuyAccessAgreementTerm",
+          "id": "DEU.DTAG.HWGS9",
           "@baseType": "AgreementTermOrCondition",
           "retailContractNumber": ""
         }
@@ -78,13 +23,12 @@
       "termOrCondition": [
         {
           "@type": "PhysicalAccessAgreementTerm",
+          "id": "8cc4a649-a427-4f1f-a26d-b65b0b5207f9",
           "@baseType": "AgreementTermOrCondition",
-          "targetTechnology": "FTTB",
+          "lineId": "DEU.DTAG.HWGS9",
           "useWholeBuy": false,
-          "cplId": "cplid",
-          "currentTechnology": "001",
-          "witaContractId": "1212121234",
-          "releasingPno": "D124"
+          "cplId": "0007BU",
+          "currentTechnology": "VDSL"
         }
       ]
     }
@@ -92,48 +36,76 @@
   "engagedParty": [
     {
       "@type": "PreAgreementProvider",
-      "id": "0999",
-      "name": "0999",
+      "id": "3234",
+      "name": "DEU.DTAG",
       "role": "EKPabg",
       "@baseType": "RelatedParty",
       "@referredType": "Provider"
     },
     {
       "@type": "PreAgreementProvider",
-      "id": "0033",
-      "name": "0033",
+      "id": "3235",
+      "name": "EKP2",
       "role": "EKPauf",
       "@baseType": "RelatedParty",
       "@referredType": "Provider"
     },
     {
       "@type": "TelekomCustomer",
-      "id": "1",
-      "name": "Telekom Customer Name1",
+      "id": "99262720",
+      "name": "Integration",
       "role": "Customer",
       "@baseType": "PreAgreementCustomer",
       "@referredType": "Customer",
-      "assetManagementSystem": "AVIA",
-      "customerId": "1234567890",
-      "name2": "Telekom Customer Name2",
-      "customerType": "individual",
+      "assetManagementSystem": "AAX",
+      "customerId": "9990001",
+      "name2": "Test1",
+      "contractId": "083646849",
       "geographicAddress": {
-        "city": "city1",
-        "postcode": "01279",
-        "streetName": "street1",
-        "streetNr": "2"
+        "city": "Hilden",
+        "postcode": "40721",
+        "streetName": "Hoffeldstr.",
+        "streetNr": "120"
+      }
+    },
+    {
+      "@type": "CarrierCustomer",
+      "id": "1",
+      "name": "Iwan",
+      "role": "Customer",
+      "@baseType": "PreAgreementCustomer",
+      "@referredType": "Customer",
+      "name2": "Rebroff",
+      "geographicAddress": {
+        "city": "Hilden",
+        "postcode": "01061",
+        "streetName": "Blaustr.",
+        "streetNr": "999"
       }
     }
   ],
   "@baseType": "Agreement",
-  "lastStatusChange": "2022-02-10T12:57:49.976065Z",
-  "agreedSwitchOverDate": "2022-02-23",
-  "preAgreementType": "IMPORT",
-  "customerPreferredDate": "2022-02-17",
+  "lastStatusChange": "2022-02-10T08:36:46.293405Z",
+  "agreedSwitchOverDate": "2022-02-24",
+  "preAgreementType": "EXPORT",
+  "identifyingPhoneNumber": "234567",
+  "identifyingAreaCode": "351",
   "responses": [
     {
-      "responseCode": "ZWA",
-      "responseComment": "Alles gut"
+      "responseCode": "ADAPLZ",
+      "responseComment": "40721"
+    },
+    {
+      "responseCode": "ADASTR",
+      "responseComment": "Hoffeldstr."
+    },
+    {
+      "responseCode": "ADAHSNR",
+      "responseComment": "120"
+    },
+    {
+      "responseCode": "AIF",
+      "responseComment": "Anschlussinhaber falsch  (AIF)"
     }
   ]
 }

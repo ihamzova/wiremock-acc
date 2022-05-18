@@ -5,7 +5,7 @@
     "urlPathPattern": "/upstream-partner/tardis/resource-order-resource-inventory/networkElementPlanning/v2/Ueweg/Rsrv1KnotenLesenD3",
     "bodyPatterns": [
       {
-        "matchesJsonPath": "$[?(@.ImpFilterKnotenZusatzinfo.daten == '49/30/111/POD/05')]"
+        "matchesJsonPath": "$[?(@.ImpFilterKnotenZusatzinfo.daten == '49/30/155/POD/05')]"
       }
     ]
   },

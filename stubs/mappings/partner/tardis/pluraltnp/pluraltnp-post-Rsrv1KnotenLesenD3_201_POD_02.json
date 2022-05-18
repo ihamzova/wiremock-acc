@@ -1,0 +1,472 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/upstream-partner/tardis/resource-order-resource-inventory/networkElementPlanning/v2/Ueweg/Rsrv1KnotenLesenD3",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.ImpFilterKnotenZusatzinfo.daten == '49/9124/130/POD/02')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "command": "NEG",
+      "exitState": 12345,
+      "exitStateType": "...",
+      "exitStateMessage": "...",
+      "ExpAnzahlDsIefSupplied": {
+        "count": 12345
+      },
+      "Erep1Knoten": [
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KC2",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KC3",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KD3",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KD4",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KD5",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KDC",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        } ,
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KDD",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        }  ,
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KE2",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KE3",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        },
+        {
+          "Exp1Vpsz": {
+            "vpsz": "49/9124/130",
+            "objnr": 12345,
+            "idPlanet": 12345,
+            "idKlsLokation": 12345
+          },
+          "Exp1Knoten": {
+            "objnr": 12345,
+            "fachsz": "7KH1",
+            "bemerkung": "...",
+            "idPlanet": 12345,
+            "status": "...",
+            "planNeuschaltung": {},
+            "planAufhebung": {},
+            "plgGeraetename": "...",
+            "nodeid": "...",
+            "hostname": "...",
+            "geraetPruefung": "...",
+            "sperrkennzeichen": "...",
+            "uebertragen": "..."
+          },
+          "Exp1ZusVorhaIefSupplied": {
+            "flag": "..."
+          },
+          "Exp1Knotenart": {
+            "objnr": 12345,
+            "fszArt": "...",
+            "kurzname": "...",
+            "name": "..."
+          },
+          "Exp1Bedarfsanmelder": {
+            "objnr": 12345,
+            "dienstekennzeichnung": "..."
+          },
+          "Exp1NetzelementArt": {
+            "objnr": 12345,
+            "kurzname": "..."
+          }
+        }
+      ],
+      "Erep2KnoZusinfo": [
+        {
+          "Exp2ZusatzinfoKlasse": {
+            "klasse": "..."
+          },
+          "Exp2KnotenZusatzinfo": {
+            "objnr": 12345,
+            "daten": "..."
+          }
+        },
+        {
+          "Exp2ZusatzinfoKlasse": {
+            "klasse": "..."
+          },
+          "Exp2KnotenZusatzinfo": {
+            "objnr": 12345,
+            "daten": "..."
+          }
+        }
+      ],
+      "ExpFehlerprotokollOnline": {
+        "actionBlockName": "...",
+        "kategorie": 12345,
+        "name5": "...",
+        "name4": "...",
+        "name3": "...",
+        "name2": "...",
+        "name1": "...",
+        "fehlerbeschreibung": "...",
+        "serverName": "...",
+        "zeitpunkt": 12345,
+        "number1": 12345,
+        "number2": 12345,
+        "number3": 12345,
+        "number4": 12345,
+        "number5": 12345,
+        "wert5": "...",
+        "wert4": "...",
+        "wert3": "...",
+        "wert2": "...",
+        "wert1": "...",
+        "lfdNrJeAufruf": 12345
+      }
+    }
+  }
+}

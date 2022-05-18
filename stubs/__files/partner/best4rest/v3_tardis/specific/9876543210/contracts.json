@@ -1,0 +1,37 @@
+{
+  "count": 2,
+  "total": 2,
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/9876543210/contracts?limit=20"
+    },
+    "first": {
+      "href": "/v3/accounts/9876543210/contracts?limit=20"
+    },
+    "last": {
+      "href": "/v3/accounts/9876543210/contracts?limit=20&page=1"
+    }
+  },
+  "_embedded": {
+    "contracts": [
+      {
+        "roles": [
+          "CONTRACT_PARTNER"
+        ],
+        "self": {
+          "id": "TB0000832102",
+          "href": "/v3/accounts/9876543210/contracts/TB0000832102"
+        }
+      },
+      {
+        "roles": [
+          "CONTRACT_PARTNER"
+        ],
+        "self": {
+          "id": "TB0000835208",
+          "href": "/v3/accounts/9876543210/contracts/TB0000835208"
+        }
+      }
+    ]
+  }
+}

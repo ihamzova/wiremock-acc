@@ -2,7 +2,12 @@
   "priority": 5,
   "request": {
     "method": "POST",
-    "urlPathPattern": "/upstream-partner/tardis/resource-order-resource-inventory/networkElementPlanning/v2/Ueweg/Rsrv1KnotenLesenD3"
+    "urlPathPattern": "/upstream-partner/tardis/resource-order-resource-inventory/networkElementPlanning/v2/Ueweg/Rsrv1KnotenLesenD3",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.ImpFilterKnotenZusatzinfo.daten == '49/30/155/POD/01')]"
+      }
+    ]
   },
   "response": {
     "status": 201,
@@ -20,7 +25,7 @@
       "Erep1Knoten": [
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -60,7 +65,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -100,7 +105,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -140,7 +145,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -180,7 +185,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -220,7 +225,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -261,7 +266,7 @@
 
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345
@@ -301,7 +306,7 @@
         },
         {
           "Exp1Vpsz": {
-            "vpsz": "49/30/111",
+            "vpsz": "49/30/155",
             "objnr": 12345,
             "idPlanet": 12345,
             "idKlsLokation": 12345

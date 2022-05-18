@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
+    "queryParameters": {
+      "ponPortEquipmentBusinessRef.endSz": {
+        "matches": "49\\/911\\/1100\\/71H3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/dpu-olt-configuration/by-dpu-endsz/49_812_179_71G2.json"
+  }
+}

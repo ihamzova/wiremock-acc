@@ -1,0 +1,29 @@
+{
+  "businessArea": "MagentaHaus",
+  "billPresentationMedia": {
+    "billPresentationMediaType": "online"
+  },
+  "businessPartner": {
+    "businessPartnerRole": {
+      "businessPartnerRoleType": "Customer"
+    },
+    "businessPartnerType": "Person",
+    "postalAddress": {
+      "reachabilityType": "EmailAddress"
+    },
+    "emailAddress": {
+      "reachabilityType": "EmailAddress",
+      "emailAddress": "markus.mustermann@t-online.de"
+    }
+  },
+  "id": "143c2abb-1c01-470d-b5c4-0b065ea68b16",
+  "lastModifiedDateTime": "2018-03-14T09:43:42+01:00",
+  "paymentMethod": {
+    "paymentMethodType": "debit"
+  },
+  "accountReceivable": {
+    "accountReceivableNumber": "0049493364"
+  },
+  "validFrom": "2019-05-08T00:00:00+02:00",
+  "validTo": "2019-05-08T00:00:00+02:00"
+}

@@ -1,0 +1,94 @@
+{
+  "mappings": [
+    {
+      "id": "d0c95529-3a3c-470f-ab57-abcef5eeffd4",
+      "name": "Not connected service orders from IBT exists",
+      "priority": 10,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/search"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ibt-core/ibt-non-connected-exists_change_possible.json"
+      }
+    },
+    {
+      "id": "06ecc19f-3cdc-4b82-938a-436886482955",
+      "name": "Not connected service orders from IBT exists",
+      "priority": 2,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /1005|5[0-9]*/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "ibt-core/ibt-non-connected-exists_change_impossible.json"
+      }
+    },
+    {
+      "id": "1799a479-9cf4-4ebf-b064-4694d78c1141",
+      "name": "Not connected service orders from IBT NOT exists",
+      "priority": 3,
+      "request": {
+        "method": "POST",
+        "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/search",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.distributionPointIds[0] =~ /1[0-5]*|3[0-9]*/)]"
+          }
+        ]
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": []
+      }
+    },
+    {
+      "id": "600946b6-ba58-4db3-9217-edb51e99f270",
+      "name": "Could NOT change product line in IBT",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/1111/productionLineChange"
+      },
+      "response": {
+        "status": 409,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {}
+      }
+    },
+    {
+      "id": "600946b6-ba58-4db3-9217-edb51e99f270",
+      "name": "Could change product line in IBT",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-installation-order/v1/notConnectedServiceOrder/2222/productionLineChange"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {}
+      }
+    }
+  ]
+}

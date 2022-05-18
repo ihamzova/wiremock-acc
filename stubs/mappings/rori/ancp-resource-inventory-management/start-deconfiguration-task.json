@@ -1,0 +1,36 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/resource-order-resource-inventory/v3/ancpConfigurationStartDeconfigurationTask/([0-9]*)"
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json",
+        "X-Callback-Id": "{{eq request.headers.X-Callback-Id null yes=(randomValue type='UUID') no=request.headers.X-Callback-Id}}",
+        "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+        "X-B3-ParentSpanId": "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+      },
+      "method": "POST",
+      "jsonBody": {
+        "error": null,
+        "response": null,
+        "success": true
+      }
+    }
+  }
+}

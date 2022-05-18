@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/giga-project-dioss/v5/workorders"
+  },
+    "response": {
+      "status": 201,
+      "headers": {
+        "Content-Type": "application/json",
+        "Location": "/giga-project-dioss/v5/workorders/10022"
+      },
+      "bodyFileName": "workorder/create-workorder-v5.json"
+  }
+}

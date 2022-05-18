@@ -2,6 +2,90 @@
   "dependency": {
     "resources": [
       {
+        "resource": "/giga-areas-location/v1/wbBsaSftpAdapterJobs/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/giga-areas-location/v3/fibreOnLocation",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/giga-areas-location/v3/gigaArea/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/giga-areas-location/v3/wholeBuyFibreOnLocations",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/fio-logic-rs/giga-installation-order/v1/notConnectedServiceOrder/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/api/FiberAvailability/v3/serviceQualification/",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
+        "resource": "/giga-areas-location/v1/addressUploading",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:events:read",
+          "giga:events:write"
+        ]
+      },
+      {
         "resource": "/giga-areas-location/v2/gigaAreas/gigaAreaTopic/",
         "pattern": [
           "/pubsub/p",
@@ -218,7 +302,9 @@
       },
       {
         "resource": "/giga-areas-location/v3/wholeBuyFibreOnLocations",
-        "pattern": [""],
+        "pattern": [
+          ""
+        ],
         "mapping_rules": [
           "GET"
         ],
@@ -242,6 +328,15 @@
         "resource": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
         "scopes": [
           "rori:commissioningDpuA4Tasks:post"
+        ],
+        "pattern": [
+          ""
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/a10nsp/resourceOrderingManagement/v1/resourceOrder",
+        "scopes": [
+          "rori:resourceOrder:full"
         ],
         "pattern": [
           ""

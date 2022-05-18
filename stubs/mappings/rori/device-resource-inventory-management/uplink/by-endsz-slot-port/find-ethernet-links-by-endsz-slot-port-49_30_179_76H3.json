@@ -1,0 +1,25 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "49\\/30\\/179\\/76H3"
+      },
+      "portsEquipmentBusinessRef.slotName": {
+        "matches": "([0-9]*)"
+      },
+      "portsEquipmentBusinessRef.portName": {
+        "matches": "([0-9]*)"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "rori/device-resource-inventory-management/uplink/by-endsz/find-ethernet-links-by-endsz-49_30_179_76H3.json"
+  }
+}

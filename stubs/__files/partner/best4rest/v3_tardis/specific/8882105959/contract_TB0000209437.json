@@ -1,0 +1,276 @@
+{
+  "id": "TB0000209437",
+  "status": "ACTIVE",
+  "type": "RENT",
+  "product": {
+    "status": "ACTIVE",
+    "startDate": "2014-10-23",
+    "productOffering": {
+      "name": "BCA BusinessCall Cpl VDSL AnlAs (2)",
+      "productSpecification": {
+        "id": "89784421"
+      },
+      "productType": "AnlAS",
+      "productSubtype": "DUWA"
+    },
+    "taxIncludedMonthlyRecurringAmount": 0,
+    "productRelationship": [{
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-23",
+        "productOffering": {
+          "name": "010-Sperre",
+          "productSpecification": {
+            "id": "89700136"
+          },
+          "productType": "LM / LM-Paket"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "12376995",
+          "role": "KLS-ID of installation"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-23",
+        "productOffering": {
+          "name": "Unterdrückung der eigenen Rufnr., COLR 3",
+          "productSpecification": {
+            "id": "89704352"
+          },
+          "productType": "LM / LM-Paket",
+          "productSubtype": "COLR"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "12376995",
+          "role": "KLS-ID of installation"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-23",
+        "productOffering": {
+          "name": "Unterdrückung der eigenen Rufnr., CLIR 3",
+          "productSpecification": {
+            "id": "89700139"
+          },
+          "productType": "LM / LM-Paket",
+          "productSubtype": "CLIR"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "place": [{
+          "id": "12376995",
+          "role": "KLS-ID of installation"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-23",
+        "productOffering": {
+          "name": "BCA BusinessCall Cpl VDSL BaAs (2)",
+          "productSpecification": {
+            "id": "89784422"
+          },
+          "productType": "AnlAS",
+          "productSubtype": "BaAS"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "productRelationship": [{
+          "type": "isChild",
+          "product": {
+            "status": "ACTIVE",
+            "startDate": "2014-10-23",
+            "productOffering": {
+              "name": "010-Sperre",
+              "productSpecification": {
+                "id": "89700136"
+              },
+              "productType": "LM / LM-Paket"
+            },
+            "taxIncludedMonthlyRecurringAmount": 0,
+            "place": [{
+              "id": "12376995",
+              "role": "KLS-ID of installation"
+            }
+            ]
+          }
+        }, {
+          "type": "isChild",
+          "product": {
+            "status": "ACTIVE",
+            "startDate": "2014-10-23",
+            "productOffering": {
+              "name": "DSL Business 25000 VDSL",
+              "productSpecification": {
+                "id": "89752952"
+              },
+              "productType": "T-DSL",
+              "productSubtype": "VDSL"
+            },
+            "taxIncludedMonthlyRecurringAmount": 0,
+            "place": [{
+              "id": "12376995",
+              "role": "KLS-ID of installation"
+            }
+            ]
+          }
+        }
+        ],
+        "place": [{
+          "id": "12376995",
+          "role": "KLS-ID of installation"
+        }
+        ],
+        "productCharacteristic": [{
+          "name": "Speicherart der Verbindungsdaten",
+          "value": "3"
+        }, {
+          "name": "TNBA-ID",
+          "value": "00080000041170540"
+        }, {
+          "name": "MVST",
+          "value": "2158-T1---D"
+        }, {
+          "name": "RechnungsNr",
+          "value": "11900794"
+        }, {
+          "name": "Betriebsart",
+          "value": "3"
+        }, {
+          "name": "Zaehler_AnlAs_BaAS",
+          "value": "0"
+        }, {
+          "name": "AnlAs_PW_OV_Klammer_BaAS",
+          "value": "1-2YGTCW0"
+        }
+        ]
+      }
+    }, {
+      "type": "isChild",
+      "product": {
+        "status": "ACTIVE",
+        "startDate": "2014-10-23",
+        "productOffering": {
+          "name": "BC BusinessCall ErgAs (2)",
+          "productSpecification": {
+            "id": "89784416"
+          },
+          "productType": "AnlAS",
+          "productSubtype": "BaAS"
+        },
+        "taxIncludedMonthlyRecurringAmount": 0,
+        "productRelationship": [{
+          "type": "isChild",
+          "product": {
+            "status": "ACTIVE",
+            "startDate": "2014-10-23",
+            "productOffering": {
+              "name": "010-Sperre",
+              "productSpecification": {
+                "id": "89700136"
+              },
+              "productType": "LM / LM-Paket"
+            },
+            "taxIncludedMonthlyRecurringAmount": 0,
+            "place": [{
+              "id": "12376995",
+              "role": "KLS-ID of installation"
+            }
+            ]
+          }
+        }
+        ],
+        "place": [{
+          "id": "12376995",
+          "role": "KLS-ID of installation"
+        }
+        ],
+        "productCharacteristic": [{
+          "name": "Speicherart der Verbindungsdaten",
+          "value": "3"
+        }, {
+          "name": "TNBA-ID",
+          "value": "00080000041170543"
+        }, {
+          "name": "MVST",
+          "value": "2158-T1---D"
+        }, {
+          "name": "RechnungsNr",
+          "value": "11900795"
+        }, {
+          "name": "Betriebsart",
+          "value": "3"
+        }, {
+          "name": "Zaehler_AnlAs_BaAS",
+          "value": "1"
+        }, {
+          "name": "AnlAs_PW_OV_Klammer_BaAS",
+          "value": "1-2YGSA06"
+        }
+        ]
+      }
+    }
+    ],
+    "place": [{
+      "id": "12376995",
+      "role": "KLS-ID of installation"
+    }
+    ],
+    "productCharacteristic": [{
+      "name": "Speicherart der Verbindungsdaten",
+      "value": "3"
+    }, {
+      "name": "Verzeichniskennzeichen",
+      "value": "0"
+    }, {
+      "name": "TNBA-ID",
+      "value": "00080000041170546"
+    }, {
+      "name": "MVST",
+      "value": "2158-T1---D"
+    }, {
+      "name": "Durchwahlnr.",
+      "value": "40930"
+    }, {
+      "name": "Vorwahl",
+      "value": "02158"
+    }, {
+      "name": "Abfragestelle",
+      "value": "0"
+    }, {
+      "name": "Rufnummernblock1 von",
+      "value": "00"
+    }, {
+      "name": "Rufnummernblock1 bis",
+      "value": "29"
+    }
+    ]
+  },
+  "name": "BCA BusinessCall Cpl VDSL AnlAs (2)",
+  "startDate": "2014-10-23",
+  "_links": {
+    "self": {
+      "id": "TB0000209437",
+      "href": "/v3/accounts/8882105959/contracts/TB0000209437"
+    },
+    "contacts": {
+      "href": "/v3/accounts/8882105959/contacts"
+    },
+    "billingAccount": {
+      "id": "4962110858",
+      "href": "/v3/accounts/8882105959/billingAccounts/4962110858"
+    }
+  }
+}

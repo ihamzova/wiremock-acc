@@ -1,0 +1,52 @@
+{
+  "id": "3e83561b-6df6-4be2-b917-aad39171bd2b",
+  "href": "/customerBillOnDemand/3e83561b-6df6-4be2-b917-aad39171bd2b",
+  "state": "inProgress",
+  "customerBill": {
+    "billNo": "10000831773075"
+  },
+  "@type": "regular",
+  "businessArea": "MagentaHaus",
+  "billingContext": {
+    "type": "Value"
+  },
+  "originCustomerBill": {
+    "billNo": "10000831773075"
+  },
+  "payment": {
+    "paymentType": "settled"
+  },
+  "purchaseDate": "2019-05-07",
+  "purchaseOrderId": "12345678",
+  "characteristic": [
+    {
+      "name": "deliveryInformationText",
+      "value": "Die Lieferung an Marija Hennessey, Friedrich-Ebert-Allee 89-91, 53123 Bonn haben wir am 01.02.2019 bearbeitet."
+    }
+  ],
+  "billItem": [
+    {
+      "billItemId": "7fcaf8e3-377d-4f4a-9511-acd5a899521e",
+      "quantity": 1,
+      "productOfferingPrice": {
+        "id": "400004567",
+        "href": "/productOfferingPrice/400004567",
+        "name": "iPhone 11 mobile device"
+      },
+      "productOffering": {
+        "id": "400004567",
+        "href": "/productOffering/400004567"
+      },
+      "grossCharge": 7.95,
+      "netCharge": 6.68,
+      "taxCharge": 1.27,
+      "taxRate": 19,
+      "characteristic": [
+        {
+          "name": "description1",
+          "value": "SpeedOn 5 GB für 7 Tage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/((upstream-partner/)?)tardis/crmfn/fixedNetAccounts/v3/accounts/([0-9]{10})"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "partner/best4rest/v3_tardis/privateCustomer/account.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

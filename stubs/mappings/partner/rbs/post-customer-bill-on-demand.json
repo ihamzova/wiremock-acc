@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/tardis/fubi/rbs-convergence-billing-api/v2/customerBillOnDemand"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "partner/rbs/create-customer-bill-response.json"
+  }
+}

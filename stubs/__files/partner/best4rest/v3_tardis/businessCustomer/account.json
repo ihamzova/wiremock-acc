@@ -1,0 +1,37 @@
+{
+  "id": "8882105959",
+  "lastName": "RC-Thirteen-One-kilt",
+  "lastNamePart1": "RC-Thirteen-One-kilt",
+  "salutationId": "5",
+  "salutation": "COMPANY",
+  "VBKZ": "35",
+  "legalFormId": "3",
+  "status": "ACTIVE",
+  "registerName": "registerNameDummy",
+  "registerSite": "registerSiteDummy",
+  "_links": {
+    "self": {
+      "href": "/v3/accounts/8882105959"
+    },
+    "primaryContact": {
+      "id": "1-CE5R70",
+      "href": "/v3/accounts/8882105959/contacts/1-CE5R70"
+    },
+    "mainContact": {
+      "id": "1-CE5R70",
+      "href": "/v3/accounts/8882105959/contacts/1-CE5R70"
+    },
+    "contacts": {
+      "href": "/v3/accounts/8882105959/contacts"
+    },
+    "contracts": {
+      "href": "/v3/accounts/8882105959/contracts"
+    },
+    "openOrders": {
+      "href": "/v3/accounts/8882105959/customerOrders?status=OPEN"
+    },
+    "billingAccounts": {
+      "href": "/v3/accounts/8882105959/billingAccounts"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "[0-9]{1,6}\\/[0-9]{1,6}\\/[0-9]{1,6}\\/[a-zA-Z0-9]{2,4}"
+      },
+      "state": {
+        "equalTo": "ACTIVE"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": []
+  }
+}

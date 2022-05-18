@@ -1,0 +1,34 @@
+{
+  "name" : "postReserveAccessLineWithHomeId202",
+  "request" : {
+    "urlPathPattern" : "((/reqcb)?)/resource-order-resource-inventory/v2/commissioning/lineId",
+    "method" : "POST"
+  },
+  "response" : {
+    "status" : 202,
+    "body" : "",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId" : "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+    }
+  },
+  "postServeActions" : {
+    "webhook" : {
+      "method" : "{{eq request.headers.X-Callback-Method null yes=POST no=request.headers.X-Callback-Method}}",
+      "url" : "{{request.headers.X-Callback-Url}}",
+      "headers" : {
+        "Authorization" : "Bearer {{oauth}}",
+        "Content-Type" : "application/json",
+        "X-Callback-Correlation-Id" : "{{eq request.headers.X-Callback-Correlation-Id null yes=(randomValue type='UUID') no=request.headers.X-Callback-Correlation-Id}}",
+        "X-Callback-Id" : "{{eq request.headers.X-Callback-Id null yes=(randomValue type='UUID') no=request.headers.X-Callback-Id}}",
+        "X-B3-TraceId" : "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId" : "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+        "X-B3-ParentSpanId" : "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}",
+        "x-correlation-id" : "{{eq request.headers.x-correlation-id null no=request.headers.x-correlation-id}}"
+      },
+      "body" : "{\"response\":{\"homeId\":\"{{jsonPath request.body '$.homeId'}}\",\"lineId\":\"DEU.DTAG.GE11000024\"},\"success\":true}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/giga-installation-order/v1/prodReadyValidation"
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "prv/create-prv-request.json"
+  }
+}

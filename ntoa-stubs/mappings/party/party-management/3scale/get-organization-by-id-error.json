@@ -1,0 +1,24 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/party/v2/partyManagement/organizations/(-?\\d*)($|\\?loadLocations=false)"
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": {
+      "type": "https://gard.telekom.de/gardwiki/display/DGHB/8111900500000002",
+      "title": "No organization with given id/trading name.",
+      "status": 404,
+      "embedded": {
+        "code": "8111900500000002",
+        "reason": "Organization not found.",
+        "message": "No organization with given id/trading name.",
+        "status": 404
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

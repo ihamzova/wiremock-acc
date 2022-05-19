@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/reqcb/presales-order/v1/customerOrdersOnline",
+    "urlPattern": "((/reqcb)?)/presales-order/v1/customerOrdersOnline",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

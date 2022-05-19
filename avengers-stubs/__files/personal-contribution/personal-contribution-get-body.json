@@ -1,0 +1,10 @@
+{
+  "id": "{{request.path.[3]}}",
+  "folId": "{{request.path.[3]}}",
+  "klsId": "{{request.path.[3]}}",
+  "demandedDate": "{{now offset='10 days' format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "constructionDate": "2022-05-19T13:21:04.448Z",
+  "state": "string",
+  "processVariant": "string",
+  "prodReadyValidationId": "string"
+}

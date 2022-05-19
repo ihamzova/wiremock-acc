@@ -1,232 +1,390 @@
 {
-  "eventId": "08a0e1fb-cced-4655-8d86-1145a37bff5f",
-  "eventTime": "2021-07-27T07:01:42.59619Z",
+  "eventId": "cc9da238-2033-4557-b795-969ed7e31be5",
+  "eventTime": "2022-05-17T12:04:32.708Z",
   "eventType": "GftaInstallationAppointment",
-  "correlationId": null,
-  "domain": "giga-installation-oder",
-  "timeOcurred": "2021-07-27T07:01:42.59619Z",
+  "correlationId": "cc9da238-2033-4557-b795-969ed7e31be5",
+  "domain": "giga-installation-order",
+  "title": "string",
+  "description": "string",
+  "priority": "string",
+  "timeOcurred": "2022-05-17T12:04:32.708Z",
   "tenantId": "10000",
   "event": {
     "serviceOrder": {
-      "id": "19659",
-      "href": "/giga-installation-order/v1/notConnectedServiceOrder/19659",
-      "externalId": "PJM-1627043319706-756",
-      "orderDate": "2021-07-23T12:29:33.671Z",
-      "requestedCompletionDate": "2021-08-22T00:00:00Z",
+      "id": "string",
+      "href": "string",
+      "cancellationDate": "2022-05-17T12:04:32.708Z",
+      "cancellationReason": "string",
+      "category": "string",
+      "completionDate": "2022-05-17T12:04:32.708Z",
+      "description": "string",
+      "expectedCompletionDate": "2022-05-17T12:04:32.708Z",
+      "externalId": "NC10000026",
+      "notificationContact": "string",
+      "orderDate": "2022-05-17T12:04:32.708Z",
+      "priority": "string",
+      "requestedCompletionDate": "2022-05-17T12:04:32.708Z",
+      "requestedStartDate": "2022-05-17T12:04:32.708Z",
+      "startDate": "2022-05-17T12:04:32.708Z",
       "externalReference": [
         {
-          "externalReferenceType": "customerOrderReference",
-          "name": "Performance756",
-          "@type": "ExternalReference"
-        },
-        {
-          "externalReferenceType": "sourceType",
-          "name": "VVM",
-          "@type": "ExternalReference"
-        },
-        {
-          "externalReferenceType": "customerInstallationOrder",
-          "name": "19659",
-          "@type": "ExternalReference"
+          "externalReferenceType": "string",
+          "name": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string"
         }
       ],
       "milestone": [
         {
-          "description": "A GfAP-Installation Appointment was booked on this distribution point.",
-          "id": "5",
-          "message": "1030001",
-          "milestoneDate": "2021-07-23T12:52:19.858Z",
-          "name": "GfapInstallationAppointment",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "Fiber expansion in NVT-Area has started.",
-          "id": "1",
-          "message": "1010000",
-          "milestoneDate": "2021-07-23T12:31:04.687Z",
-          "name": "AreaProgramExpansionDecision",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "The GfTA-Installation was planned on this distribution point.",
-          "id": "10",
-          "message": "2010000",
-          "milestoneDate": "2021-07-27T07:01:34.437Z",
-          "name": "GftaInstallationAppointment",
-          "status": "planned",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "A Site Survey Appointment was booked on this distribution point.",
-          "id": "7",
-          "message": "1020001",
-          "milestoneDate": "2021-07-26T13:44:43.098Z",
-          "name": "SiteSurveyAppointment",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "The GfTA-Installation was planned on this distribution point.",
-          "id": "6",
-          "message": "2010000",
-          "milestoneDate": "2021-07-23T12:53:40.406Z",
-          "name": "GftaInstallationAppointment",
-          "status": "planned",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "A GfAP-Installation Appointment was booked on this distribution point.",
-          "id": "9",
-          "message": "1030001",
-          "milestoneDate": "2021-07-27T05:05:16.538Z",
-          "name": "GfapInstallationAppointment",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "A Site Survey Appointment was booked on this distribution point.",
-          "id": "8",
-          "message": "1020001",
-          "milestoneDate": "2021-07-26T16:19:36.802Z",
-          "name": "SiteSurveyAppointment",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "A Site Survey Appointment was booked on this distribution point.",
-          "id": "3",
-          "message": "1020001",
-          "milestoneDate": "2021-07-23T12:50:59.24Z",
-          "name": "SiteSurveyAppointment",
-          "status": "confirmed",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "The Site Survey was planned on this distribution point.",
-          "id": "2",
-          "message": "1020000",
-          "milestoneDate": "2021-07-23T12:50:35.843Z",
-          "name": "SiteSurveyAppointment",
-          "status": "planned",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
-        },
-        {
-          "description": "The GfAP-Installation was planned on this distribution point.",
-          "id": "4",
-          "message": "1030000",
-          "milestoneDate": "2021-07-23T12:52:02.59Z",
-          "name": "GfapInstallationAppointment",
-          "status": "planned",
-          "@type": "ServiceOrderMilestone",
-          "serviceOrderItem": []
+          "description": "string",
+          "id": "string",
+          "message": "string",
+          "milestoneDate": "2022-05-17T12:04:32.708Z",
+          "name": "string",
+          "status": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string",
+          "serviceOrderItem": [
+            {
+              "itemId": "string",
+              "serviceOrderHref": "string",
+              "serviceOrderId": "string",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            }
+          ]
         }
       ],
-      "note": [],
-      "orderRelationship": [],
+      "note": [
+        {
+          "id": "string",
+          "author": "string",
+          "creationDate": "2022-05-17T12:04:32.708Z",
+          "category": "string",
+          "date": "2022-05-17T12:04:32.708Z",
+          "text": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string"
+        }
+      ],
+      "orderRelationship": [
+        {
+          "id": "string",
+          "href": "string",
+          "relationshipType": "string",
+          "@baseType": "string",
+          "@schemaLocation": "string",
+          "@type": "string",
+          "@referredType": "string"
+        }
+      ],
       "relatedParty": [
         {
-          "id": "19659",
-          "role": "customer",
-          "@referredType": "Individual"
-        },
-        {
-          "name": "0033 Deutsche Telekom Kundenservice",
-          "role": "carrier",
-          "@referredType": "Organization"
+          "id": "string",
+          "href": "string",
+          "name": "string",
+          "role": "string",
+          "@baseType": "PartyIndividual",
+          "@schemaLocation": "#definitions/PartyIndividual",
+          "@type": "PartyIndividual",
+          "@referredType": "individual"
         }
       ],
       "serviceOrderItem": [
         {
-          "id": "1",
-          "quantity": 1,
+          "id": "string",
+          "quantity": 0,
           "action": "add",
+          "appointments": [
+            {
+              "id": "string",
+              "href": "string",
+              "category": "TA_Installation",
+              "creationDate": "2022-05-17T12:04:32.708Z",
+              "description": "string",
+              "externalId": "string",
+              "lastUpdate": "2022-05-17T12:04:32.708Z",
+              "calendarEvent": {
+                "id": "string",
+                "href": "string",
+                "name": "string",
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string",
+                "@referredType": "string"
+              },
+              "relatedParty": [
+                {
+                  "id": "string",
+                  "href": "string",
+                  "name": "string",
+                  "role": "string",
+                  "@baseType": "PartyIndividual",
+                  "@schemaLocation": "#definitions/PartyIndividual",
+                  "@type": "PartyIndividual",
+                  "@referredType": "individual"
+                }
+              ],
+              "status": "Confirmed",
+              "validFor": {
+                "endDateTime": "2022-05-18T12:04:32.708Z",
+                "startDateTime": "2022-05-17T12:04:32.708Z",
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string"
+              },
+              "cancellationReason": "string",
+              "@baseType": "string",
+              "@schemaLocation": "string",
+              "@type": "string",
+              "@referredType": "string"
+            }
+          ],
           "service": {
-            "id": "1",
-            "category": "CFS",
-            "description": "GfTA-Installation",
-            "isBundle": false,
-            "isStateful": false,
-            "serviceType": "fiberAccessApartment",
-            "startMode": "0",
-            "feature": [],
-            "note": [],
+            "id": "string",
+            "href": "string",
+            "category": "string",
+            "description": "string",
+            "endDate": "2022-05-17T12:04:32.708Z",
+            "hasStarted": true,
+            "isBundle": true,
+            "isServiceEnabled": true,
+            "isStateful": true,
+            "name": "string",
+            "serviceDate": "string",
+            "serviceType": "string",
+            "startDate": "2022-05-17T12:04:32.708Z",
+            "startMode": "string",
+            "feature": [
+              {
+                "id": "string",
+                "isBundle": true,
+                "isEnabled": true,
+                "name": "string",
+                "constraint": [
+                  {
+                    "id": "string",
+                    "href": "string",
+                    "name": "string",
+                    "version": "string",
+                    "@baseType": "string",
+                    "@schemaLocation": "string",
+                    "@type": "string",
+                    "@referredType": "string"
+                  }
+                ],
+                "featureCharacteristic": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "valueType": "string",
+                    "characteristicRelationship": [
+                      {
+                        "id": "string",
+                        "relationshipType": "string",
+                        "@baseType": "string",
+                        "@schemaLocation": "string",
+                        "@type": "string"
+                      }
+                    ],
+                    "value": {},
+                    "@baseType": "Appointment",
+                    "@schemaLocation": "#/components/schemas/Appointment",
+                    "@type": "LogicalResourceSpecification"
+                  }
+                ],
+                "featureRelationship": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "relationshipType": "string",
+                    "validFor": {
+                      "endDateTime": "2022-05-17T12:04:32.708Z",
+                      "startDateTime": "2022-05-17T12:04:32.708Z",
+                      "@baseType": "string",
+                      "@schemaLocation": "string",
+                      "@type": "string"
+                    },
+                    "@baseType": "string",
+                    "@schemaLocation": "string",
+                    "@type": "string"
+                  }
+                ],
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string"
+              }
+            ],
+            "note": [
+              {
+                "id": "string",
+                "author": "string",
+                "creationDate": "2022-05-17T12:04:32.708Z",
+                "category": "string",
+                "date": "2022-05-17T12:04:32.708Z",
+                "text": "string",
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string"
+              }
+            ],
             "place": [
               {
-                "id": "12376980010",
-                "name": "DistributionPoint",
-                "role": "distributionPointId",
-                "@type": "Place"
-              },
-              {
-                "id": "12376980",
-                "name": "Address",
+                "id": "12378146",
+                "href": "string",
+                "name": "string",
                 "role": "locationId",
-                "@type": "Place"
+                "@baseType": "ResourceSpecification",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+                "@type": "LogicalResourceSpecification",
+                "@referredType": "string"
               }
             ],
-            "relatedEntity": [],
-            "relatedParty": [],
+            "relatedEntity": [
+              {
+                "id": "string",
+                "href": "string",
+                "name": "string",
+                "role": "string",
+                "@baseType": "ResourceSpecification",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+                "@type": "LogicalResourceSpecification",
+                "@referredType": "string"
+              }
+            ],
+            "relatedParty": [
+              {
+                "id": "string",
+                "href": "string",
+                "name": "string",
+                "role": "string",
+                "@baseType": "PartyIndividual",
+                "@schemaLocation": "#definitions/PartyIndividual",
+                "@type": "PartyIndividual",
+                "@referredType": "individual"
+              }
+            ],
             "serviceCharacteristic": [
               {
-                "id": "1",
-                "name": "apartmentGftaInstallationStatus",
+                "id": "string",
+                "name": "string",
                 "valueType": "string",
-                "characteristicRelationship": [],
-                "value": "UNKNOWN"
-              },
-              {
-                "id": "3",
-                "name": "gfapAppointment",
-                "valueType": "object",
-                "characteristicRelationship": [],
-                "value": {
-                  "category": "AP_Installation",
-                  "validFor": {
-                    "endDateTime": "2021-08-12T10:00:00Z",
-                    "startDateTime": "2021-08-12T06:00:00Z"
+                "characteristicRelationship": [
+                  {
+                    "id": "string",
+                    "relationshipType": "string",
+                    "@baseType": "string",
+                    "@schemaLocation": "string",
+                    "@type": "string"
                   }
-                },
-                "@baseType": "Appointment"
-              },
-              {
-                "id": "4",
-                "name": "SiteSurveyAppointment",
-                "valueType": "object",
-                "characteristicRelationship": [],
-                "value": {
-                  "category": "SiteSurvey",
-                  "validFor": {
-                    "endDateTime": "2021-08-05T08:00:00Z",
-                    "startDateTime": "2021-08-05T06:00:00Z"
-                  }
-                },
-                "@baseType": "Appointment"
+                ],
+                "value": {},
+                "@baseType": "Appointment",
+                "@schemaLocation": "#/components/schemas/Appointment",
+                "@type": "LogicalResourceSpecification"
               }
             ],
-            "serviceOrderItem": [],
-            "serviceRelationship": [],
-            "supportingResource": [],
-            "supportingService": [],
-            "@type": "Service"
+            "serviceOrderItem": [
+              {
+                "itemId": "string",
+                "role": "string",
+                "serviceOrderHref": "string",
+                "serviceOrderId": "string",
+                "itemAction": "add",
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string",
+                "@referredType": "string"
+              }
+            ],
+            "serviceRelationship": [
+              {
+                "relationshipType": "string",
+                "serviceRelationshipCharacteristic": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "valueType": "string",
+                    "characteristicRelationship": [
+                      {
+                        "id": "string",
+                        "relationshipType": "string",
+                        "@baseType": "string",
+                        "@schemaLocation": "string",
+                        "@type": "string"
+                      }
+                    ],
+                    "value": {},
+                    "@baseType": "Appointment",
+                    "@schemaLocation": "#/components/schemas/Appointment",
+                    "@type": "LogicalResourceSpecification"
+                  }
+                ],
+                "@baseType": "string",
+                "@schemaLocation": "string",
+                "@type": "string"
+              }
+            ],
+            "serviceSpecification": {
+              "id": "string",
+              "href": "string",
+              "name": "string",
+              "version": "string",
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification",
+              "@referredType": "string"
+            },
+            "state": "feasibilityChecked",
+            "supportingResource": [
+              {
+                "id": "string",
+                "href": "string",
+                "name": "string",
+                "@baseType": "ResourceSpecification",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+                "@type": "LogicalResourceSpecification",
+                "@referredType": "string"
+              }
+            ],
+            "@baseType": "ResourceSpecification",
+            "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+            "@type": "LogicalResourceSpecification",
+            "@referredType": "string"
           },
-          "serviceOrderItem": [],
-          "serviceOrderItemRelationship": [],
-          "@baseType": "gen.apis.service_ordering.v4.models.ServiceOrder",
-          "@type": "ServiceOrderItem"
+          "serviceOrderItemRelationship": [
+            {
+              "relationshipType": "string",
+              "orderItem": {
+                "itemId": "string",
+                "serviceOrderHref": "string",
+                "serviceOrderId": "string",
+                "@baseType": "ResourceSpecification",
+                "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+                "@type": "LogicalResourceSpecification",
+                "@referredType": "string"
+              },
+              "@baseType": "ResourceSpecification",
+              "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+              "@type": "LogicalResourceSpecification"
+            }
+          ],
+          "state": "acknowledged",
+          "@baseType": "ResourceSpecification",
+          "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+          "@type": "LogicalResourceSpecification"
         }
       ],
-      "state": "inProgress",
+      "state": "acknowledged",
+      "stateReason": "string",
+      "gigaAreaNumber": "string",
+      "@baseType": "string",
+      "@schemaLocation": "string",
       "@type": "ServiceOrder"
     }
   }

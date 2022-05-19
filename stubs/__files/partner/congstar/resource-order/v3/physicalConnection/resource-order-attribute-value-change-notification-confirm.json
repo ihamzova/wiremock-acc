@@ -8,7 +8,11 @@
   "eventSource": "WholebuyGateway",
   "fieldPaths": [
     {
-      "path": "/expectedCompletionDate"
+      "path": "/expectedCompletionDate",
+      "typeOfChange": "initiallySet"
+    },
+    {
+      "path": "/carrierContact"
     }
   ],
   "eventPayload": {
@@ -111,6 +115,31 @@
             "givenName": "Thomas",
             "gender": "Herr",
             "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        },
+        {
+          "id": "3",
+          "role": [
+            "carrierContact"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+4915112341237"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "oracle.test@telekom.de"
+                }
+              }
+            ],
+            "name": "Oracle",
+            "@type": "Organization"
           },
           "@type": "RelatedPartyWithPartyInstance"
         }

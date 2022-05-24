@@ -71,6 +71,21 @@
           "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
         }
       }
+    },
+    {
+      "name": "Register to personalContributionTopic",
+      "priority": 10,
+      "request": {
+        "url": "/pubsub/r/personal-contribution/v1/personalContributionTopic",
+        "method": "POST"
+      },
+      "response": {
+        "status": 202,
+        "headers": {
+          "X-Pubsub-Subscriber-Id": "{{randomValue type='UUID'}}",
+          "X-Pubsub-Subscriber-Url": "http://wiremock:8080/pubsub/s/personal-contribution/v1/personalContributionTopic"
+        }
+      }
     }
   ]
 }

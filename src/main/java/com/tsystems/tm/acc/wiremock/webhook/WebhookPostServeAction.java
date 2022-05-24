@@ -14,12 +14,13 @@ import com.github.tomakehurst.wiremock.http.RequestMethod;
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent;
 import com.google.common.collect.ImmutableMap;
 import com.tsystems.tm.acc.wiremock.AsyncPostServeActionWithHandlebars;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.entity.ByteArrayEntity;
-import org.apache.http.util.EntityUtils;
+import org.apache.hc.client5.http.classic.HttpClient;
+import org.apache.hc.core5.http.ClassicHttpRequest;
+import org.apache.hc.core5.http.ClassicHttpResponse;
+import org.apache.hc.core5.http.ContentType;
+import org.apache.hc.core5.http.io.entity.ByteArrayEntity;
+import org.apache.hc.core5.http.io.entity.EntityUtils;
+import org.apache.hc.core5.http.io.support.ClassicRequestBuilder;
 
 import java.util.Collections;
 import java.util.List;
@@ -28,7 +29,6 @@ import java.util.stream.Collectors;
 import static com.github.tomakehurst.wiremock.common.Exceptions.throwUnchecked;
 import static com.github.tomakehurst.wiremock.common.LocalNotifier.notifier;
 import static com.github.tomakehurst.wiremock.core.WireMockApp.FILES_ROOT;
-import static com.github.tomakehurst.wiremock.http.HttpClientFactory.getHttpRequestFor;
 import static com.google.common.base.MoreObjects.firstNonNull;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
@@ -41,22 +41,20 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
         httpClient = HttpClientFactory.createClient();
     }
 
-    protected static HttpUriRequest buildRequest(WebhookPostServeActionDefinition definition) {
-        HttpUriRequest request = getHttpRequestFor(
-                RequestMethod.fromString(definition.getMethod()),
-                definition.getUrl()
-        );
+    protected static ClassicHttpRequest buildRequest(WebhookPostServeActionDefinition definition) {
+        final ClassicRequestBuilder requestBuilder =
+                ClassicRequestBuilder.create(definition.getMethod())
+                        .setUri(definition.getUrl());
 
         for (HttpHeader header : definition.getHeaders().all()) {
-            request.addHeader(header.key(), header.firstValue());
+            requestBuilder.addHeader(header.key(), header.firstValue());
         }
 
         if (RequestMethod.fromString(definition.getMethod()).hasEntity()) {
-            HttpEntityEnclosingRequestBase entityRequest = (HttpEntityEnclosingRequestBase) request;
-            entityRequest.setEntity(new ByteArrayEntity(definition.getBinaryBody()));
+            requestBuilder.setEntity(new ByteArrayEntity(definition.getBinaryBody(), ContentType.DEFAULT_BINARY));
         }
 
-        return request;
+        return requestBuilder.build();
     }
 
     public static WebhookPostServeActionDefinition webhook() {
@@ -84,13 +82,13 @@ public class WebhookPostServeAction extends AsyncPostServeActionWithHandlebars {
                 () -> {
                     try {
                         WebhookPostServeActionDefinition transformedDefinition = transform(serveEvent, definition, parameters, admin.getOptions());
-                        HttpUriRequest request = buildRequest(transformedDefinition);
-                        HttpResponse response = httpClient.execute(request);
+                        ClassicHttpRequest request = buildRequest(transformedDefinition);
+                        ClassicHttpResponse response = (ClassicHttpResponse) httpClient.execute(request);
                         notifier.error(
                                 String.format("Webhook %s request to %s returned status %s",
                                         transformedDefinition.getMethod(),
                                         transformedDefinition.getUrl(),
-                                        response.getStatusLine())
+                                        response.getCode())
                         );
                         notifier.info(EntityUtils.toString(response.getEntity()));
                     } catch (Throwable e) {

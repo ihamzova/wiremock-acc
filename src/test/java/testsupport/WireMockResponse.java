@@ -1,24 +1,9 @@
-/*
- * Copyright (C) 2011 Thomas Akehurst
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package testsupport;
 
 import com.google.common.collect.ImmutableListMultimap;
 import com.google.common.collect.Multimap;
-import org.apache.http.Header;
-import org.apache.http.HttpResponse;
+import org.apache.hc.core5.http.ClassicHttpResponse;
+import org.apache.hc.core5.http.Header;
 
 import java.nio.charset.Charset;
 
@@ -28,16 +13,16 @@ import static com.google.common.collect.Iterables.getFirst;
 
 public class WireMockResponse {
 
-    private final HttpResponse httpResponse;
+    private final ClassicHttpResponse httpResponse;
     private final byte[] content;
 
-    public WireMockResponse(HttpResponse httpResponse) {
+    public WireMockResponse(ClassicHttpResponse httpResponse) {
         this.httpResponse = httpResponse;
         content = getEntityAsByteArrayAndCloseStream(httpResponse);
     }
 
     public int statusCode() {
-        return httpResponse.getStatusLine().getStatusCode();
+        return httpResponse.getCode();
     }
 
     public String content() {
@@ -58,7 +43,7 @@ public class WireMockResponse {
     public Multimap<String, String> headers() {
         ImmutableListMultimap.Builder<String, String> builder = ImmutableListMultimap.builder();
 
-        for (Header header : httpResponse.getAllHeaders()) {
+        for (Header header : httpResponse.getHeaders()) {
             builder.put(header.getName(), header.getValue());
         }
 
@@ -66,6 +51,6 @@ public class WireMockResponse {
     }
 
     public String statusMessage() {
-        return httpResponse.getStatusLine().getReasonPhrase();
+        return httpResponse.getReasonPhrase();
     }
 }

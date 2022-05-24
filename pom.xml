@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tsystems.tm.acc</groupId>
     <artifactId>wiremock-acc</artifactId>
-    <version>1.19</version> <!-- DO NOT CHANGE THIS VERSION UNLESS YOU CHANGE JAVA CODE -->
+    <version>1.20</version> <!-- DO NOT CHANGE THIS VERSION UNLESS YOU CHANGE JAVA CODE -->
     <packaging>jar</packaging>
 
     <properties>
@@ -17,10 +17,6 @@
         <docker.image.prefix>${env.GV_REGISTRY_NAMESPACE}</docker.image.prefix>
         <docker.tag.explicit>default</docker.tag.explicit>
         <dockerfile.plugin.version>1.3.7</dockerfile.plugin.version>
-        <rest-assured.version>3.3.0</rest-assured.version>
-        <gson.version>2.8.5</gson.version>
-        <gson-fire.version>1.8.3</gson-fire.version>
-        <swagger-core.version>1.6.0</swagger-core.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -28,37 +24,37 @@
         <repository>
             <id>automation</id>
             <name>automation</name>
-            <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/automation/</url>
+            <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/automation/</url>
         </repository>
         <repository>
             <id>stage</id>
             <name>stage</name>
-            <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
+            <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
-            <artifactId>wiremock</artifactId>
-            <version>2.26.3</version>
+            <artifactId>wiremock-jre8</artifactId>
+            <version>2.33.2</version>
         </dependency>
         <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-all</artifactId>
-            <version>1.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.10</version>
+            <type>pom</type>
+            <exclusions>
+                <exclusion>
+                    <artifactId>testng</artifactId>
+                    <groupId>org.testng</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>${rest-assured.version}</version>
+            <version>4.4.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.codehaus.groovy</groupId>
@@ -69,40 +65,41 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
+            <version>2.8.9</version>
         </dependency>
         <dependency>
             <groupId>io.gsonfire</groupId>
             <artifactId>gson-fire</artifactId>
-            <version>${gson-fire.version}</version>
+            <version>1.8.5</version>
         </dependency>
         <dependency>
-            <groupId>com.squareup.okio</groupId>
-            <artifactId>okio</artifactId>
-            <version>1.13.0</version>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-core</artifactId>
+            <version>1.6.4</version>
         </dependency>
         <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
-            <version>${swagger-core.version}</version>
+            <version>1.6.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>3.0.3</version>
-            <type>pom</type>
-            <exclusions>
-                <exclusion>
-                    <artifactId>testng</artifactId>
-                    <groupId>org.testng</groupId>
-                </exclusion>
-            </exclusions>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
         </dependency>
-        <!--dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.30</version>
-        </dependency>-->
     </dependencies>
 
     <build>
@@ -157,12 +154,12 @@
                 <repository>
                     <id>release-sandbox</id>
                     <name>release-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -177,7 +174,7 @@
                     </snapshots>
                     <id>release-sandbox</id>
                     <name>release-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases-sandbox/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -190,7 +187,7 @@
                     </snapshots>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </repository>
             </repositories>
         </profile>
@@ -203,12 +200,12 @@
                 <repository>
                     <id>stage-sandbox</id>
                     <name>stage-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -223,7 +220,7 @@
                     </snapshots>
                     <id>stage-sandbox</id>
                     <name>stage-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage-sandbox/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -236,7 +233,7 @@
                     </snapshots>
                     <id>snapshot-sandbox</id>
                     <name>snapshot-sandbox</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots-sandbox/</url>
                 </repository>
             </repositories>
         </profile>
@@ -249,12 +246,12 @@
                 <repository>
                     <id>stage</id>
                     <name>stage</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -269,7 +266,7 @@
                     </snapshots>
                     <id>stage</id>
                     <name>stage</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/stage/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -282,7 +279,7 @@
                     </snapshots>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </repository>
             </repositories>
         </profile>
@@ -295,12 +292,12 @@
                 <repository>
                     <id>release</id>
                     <name>release</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
                 </repository>
                 <snapshotRepository>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
             <repositories>
@@ -315,7 +312,7 @@
                     </snapshots>
                     <id>release</id>
                     <name>release</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/releases/</url>
                 </repository>
                 <repository>
                     <releases>
@@ -328,7 +325,7 @@
                     </snapshots>
                     <id>snapshot</id>
                     <name>snapshot</name>
-                    <url>http://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
+                    <url>https://digihub-wbench.workbench.telekom.de/nexus/content/repositories/snapshots/</url>
                 </repository>
             </repositories>
         </profile>

@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/rhsso/public/realm/.*/?"
+  },
+  "response": {
+    "body": "",
+    "headers": {
+      "Location": "{{unsafeSystemValue type='ENVIRONMENT' key='SSO_USERAUTH_AUTH_ENDPOINT'}}?response_type=code&client_id={{unsafeSystemValue type='ENVIRONMENT' key='PUBLIC_CLIENT_ID'}}&redirect_uri={{request.baseUrl}}/rhsso/public/callback&state={{randomValue type='UUID'}}&scope=openid&nonce={{randomValue type='UUID'}}&kc_idp_hint={{request.pathSegments.[3]}}",
+      "Expires": "0"
+    },
+    "status": 302
+  }
+}

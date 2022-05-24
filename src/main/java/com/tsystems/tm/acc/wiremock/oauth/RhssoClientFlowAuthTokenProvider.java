@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 import static com.tsystems.tm.acc.wiremock.oauth.client.invoker.ResponseSpecBuilders.shouldBeCode;
 import static com.tsystems.tm.acc.wiremock.oauth.client.invoker.ResponseSpecBuilders.validatedWith;
 
+
 public class RhssoClientFlowAuthTokenProvider implements AuthTokenProvider {
     private Token token;
     private LocalDateTime lastFetched;

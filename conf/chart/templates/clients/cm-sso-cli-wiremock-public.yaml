@@ -4,7 +4,7 @@ metadata:
   name: "{{ .Values.app.env.params.PUBLIC_CLIENT_ID }}-rhsso-client"
   annotations:
     rhsso.cli/type: client
-    rhsso.cli/target-instance: rhsso-broker
+    rhsso.cli/target-instance: rhsso-public
     rhsso.cli/target-realm: GigabitHub
 data:
   {{- $name := .Values.app_name }}

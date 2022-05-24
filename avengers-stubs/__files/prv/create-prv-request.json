@@ -3,6 +3,6 @@
   "externalOrderId": 0,
   "fiberOnLocationId": "{{jsonPath request.body '$.fiberOnLocationId'}}",
   "processVariant": "developmentProcess",
-  "result": "successful",
+  "result": "inProgress",
   "state": "acknowledged"
 }

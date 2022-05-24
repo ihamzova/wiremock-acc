@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class CustomHelpersResponseTemplateTransformer extends ResponseTemplateTransformer {
     public CustomHelpersResponseTemplateTransformer() {
-        super(true, new HashMap<String, Helper>() {{
+        super(true, new HashMap<String, Helper<?>>() {{
             put(UnsafeEnvHandlebarsHelper.NAME, new UnsafeEnvHandlebarsHelper());
             put(GroovyHandlebarsHelper.NAME, new GroovyHandlebarsHelper());
             put(PersistenceHandlebarsHelper.NAME, new PersistenceHandlebarsHelper());

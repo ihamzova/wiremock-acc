@@ -1,0 +1,22 @@
+{
+  "name" : "getLLCInfo200",
+  "request" : {
+    "urlPath" : "/resource-order-resource-inventory/v2/llc",
+    "method" : "GET",
+    "queryParameters" : {
+      "llcBaustatus" : {
+        "equalTo" : "BUILT"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"content\":[{\"apartmentCplId\":\"PB0001\",\"ponPortOltVpsz\":\"1\",\"ponPortOltFachSz\":\"1\",\"ponPortOltBg\":\"1\",\"ponPortPortNumber\":\"102\"}]}",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{eq request.headers.X-B3-SpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-SpanId}}",
+      "X-B3-ParentSpanId" : "{{eq request.headers.X-B3-ParentSpanId null yes=(randomValue type='UUID') no=request.headers.X-B3-ParentSpanId}}"
+    }
+  }
+}

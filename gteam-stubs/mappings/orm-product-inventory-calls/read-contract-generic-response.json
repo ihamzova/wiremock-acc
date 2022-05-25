@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/tardis/crmfn/productInventory/v3/product",
+    "urlPattern": "/upstream-partner/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "accountId": {
         "matches": "[0-9]+"

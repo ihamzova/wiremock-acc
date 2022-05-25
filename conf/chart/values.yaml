@@ -36,6 +36,7 @@ app:
     inject_maps:
       - "apigw-endpoints"
       - "rhsso-endpoints"
+      - "rhsso-endpoints-public"
   sidecar:
     env:
       M2M_SCOPE_EXCLUDE: '/**'

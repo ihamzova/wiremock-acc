@@ -32,7 +32,7 @@
         },
         "self": {
           "id": "TB0019111801",
-          "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+          "href": "\/tardis\/crmfn\/productInventory\/v3\/product?accountId={{request.query.accountId}}&page=1&productStatus=active"
         },
         "productRelationship": [
           {
@@ -98,7 +98,7 @@
               },
               "self": {
                 "id": "TB0019111759",
-                "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+                "href": "\/tardis\/crmfn\/productInventory\/v3\/product?accountId={{request.query.accountId}}&page=1&productStatus=active"
               },
               "productPrice": [
                 {
@@ -183,7 +183,7 @@
               },
               "self": {
                 "id": "TB0019111760",
-                "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+                "href": "\/tardis\/crmfn\/productInventory\/v3\/product?accountId={{request.query.accountId}}&page=1&productStatus=active"
               },
               "productPrice": [
                 {
@@ -291,7 +291,7 @@
                     },
                     "self": {
                       "id": "TB0019111761",
-                      "href": "/tmf-api/productInventory/v2/product?accountId=9999070120"
+                      "href": "\/tardis\/crmfn\/productInventory\/v3\/product?accountId={{request.query.accountId}}&page=1&productStatus=active"
                     },
                     "productPrice": [
                       {

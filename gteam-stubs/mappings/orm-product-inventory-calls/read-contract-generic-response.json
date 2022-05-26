@@ -17,6 +17,40 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111801.json"
+    "jsonBody": [
+      {
+        "id": "{{request.query.rootProductId}}",
+        "name": "string",
+        "productSerialNumber": "string",
+        "status": "active",
+        "startDate": "2022-05-26T09:50:20.516Z",
+        "terminationDate": "2022-05-26T09:50:20.516Z",
+        "plannedEndDate": "2022-05-26T09:50:20.516Z",
+        "cancelUntilDate": "2022-05-26T09:50:20.516Z",
+        "invoiceStartDate": "2022-05-26T09:50:20.516Z",
+        "invoiceEndDate": "2022-05-26T09:50:20.516Z",
+        "lastUpdate": "2022-05-26T09:50:20.516Z",
+        "noticePeriodUnit": "month",
+        "noticePeriodAmount": 0,
+        "self": {
+          "id": "{{request.query.rootProductId}}",
+          "count": "string",
+          "total": "string",
+          "href": "string"
+        },
+        "billingAccount": {
+          "id": "{{request.query.rootProductId}}",
+          "name": "string",
+          "billingContextId": "string"
+        },
+        "productOffering": {
+          "id": "{{request.query.rootProductId}}"
+        },
+        "relatedParty": {
+          "id": "{{request.query.rootProductId}}",
+          "role": "string"
+        }
+      }
+    ]
   }
 }

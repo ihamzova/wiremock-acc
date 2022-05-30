@@ -1,0 +1,20 @@
+[
+  {
+  "id": "1003",
+  "href": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/1003",
+  "ancpBngIpAddress": "123.123.123",
+  "ancpIpAddressSubnetMask": "/24",
+  "ancpOwnIpAddress": "string",
+  "backhaulId": "#bhid-003",
+  "configurationState": "ACTIVE",
+  "creationDate": "2021-02-03T15:07:59.449882+01:00",
+  "dpuEndSz": "49/812/179/71G3",
+  "dpuName": "49_812_179_71G3",
+  "emsNbiName": "SDX2221-16-CX",
+  "managedDomain": "string",
+  "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+  "serialNumber": "020223dsd23",
+  "@baseType": "LogicalResource",
+  "@type": "DpuEmsConfiguration"
+  }
+]

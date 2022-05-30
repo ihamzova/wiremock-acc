@@ -341,6 +341,13 @@
         "pattern": [
           ""
         ]
+      },
+      {
+        "resource": "/giga-project-dioss/v1/transferWorkforces",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

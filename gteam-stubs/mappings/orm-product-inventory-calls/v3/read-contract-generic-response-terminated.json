@@ -1,5 +1,5 @@
 {
-  "priority": 3,
+  "priority": 5,
   "request": {
     "method": "GET",
     "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/positive.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/rootProductId-{{request.query.rootProductId}}-terminated.json"
   }
 }

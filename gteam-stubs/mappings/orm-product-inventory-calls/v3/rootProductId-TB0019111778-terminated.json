@@ -5,7 +5,7 @@
     "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": ".+"
+        "matches": "TB0019111778"
       },
       "productStatus": {
         "matches": "Terminated"
@@ -13,10 +13,10 @@
     }
   },
   "response": {
-    "status": 200,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/rootProductId-{{request.query.rootProductId}}-terminated.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/response-body-404-not-found.json"
   }
 }

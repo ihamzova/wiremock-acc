@@ -5,7 +5,7 @@
     "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": ".+"
+        "matches": "TB0019111799"
       },
       "accountId": {
         "matches": "^\\d{10}$"
@@ -13,6 +13,6 @@
     }
   },
   "response": {
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/rootProductId-{{request.query.rootProductId}}.json"
+    "status": 403
   }
 }

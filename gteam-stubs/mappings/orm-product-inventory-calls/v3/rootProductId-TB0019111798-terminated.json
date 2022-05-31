@@ -1,0 +1,18 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
+    "queryParameters": {
+      "rootProductId": {
+        "matches": "TB0019111798"
+      },
+      "productStatus": {
+        "matches": "Terminated"
+      }
+    }
+  },
+  "response": {
+    "status": 400
+  }
+}

@@ -1,975 +1,1359 @@
 {
-  "error": null,
-  "payload": {
-    "managedElement": {
-      "name": "49_761_2000_76H1",
-      "ipAddress": "16.01.10.01",
-      "productName": "MA5800-X7",
-      "manufacturer": "HUAWEI",
-      "softwareVersion": "MA5800V800R016C00",
-      "resourceState": "WORKING",
-      "communicationState": "CS_AVAILABLE"
-    },
-    "modules": [
-      {
-        "slot": "1",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794011",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "2",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794012",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "3",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794013",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "4",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794014",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "5",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794015",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "6",
-        "installedEquipmentObjectType": "H902FLHF",
-        "installedSerialNumber": "H902FL7610794016",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "7",
-        "installedEquipmentObjectType": "H902NXED",
-        "installedSerialNumber": "H902NX7610794017",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "8",
-        "installedEquipmentObjectType": "H902MPLB",
-        "installedSerialNumber": "H902MP7610794018",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
-      },
-      {
-        "slot": "10",
-        "installedEquipmentObjectType": "H902PILA",
-        "installedSerialNumber": "H902PI7610794019",
-        "manufacturer": "HUAWEI",
-        "installedVersion": "507(2021-04-27)",
-        "resourceState": "INSTALLING_INSTALLED",
-        "resourceFulfillmentState": "IN_SERVICE",
-        "shelf": "1"
+   "error": null,
+   "payload": {
+      "ports": [
+         {
+            "installedSerialNumberSFP": "6309532157",
+            "installedMatNumberSFP": null,
+            "slot": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": null,
+            "port": "0",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "port": "1",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedPartNumberSFP": "1442530G1",
+            "installedSerialNumberSFP": "0873018355",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "slot": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1"
+         },
+         {
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "port": "2",
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "1",
+            "installedSerialNumberSFP": "9366374589",
+            "installedMatNumberSFP": null
+         },
+         {
+            "port": "3",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedSerialNumberSFP": "9400033028",
+            "installedMatNumberSFP": null,
+            "slot": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "port": "4",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "1",
+            "installedSerialNumberSFP": "3839426006",
+            "installedMatNumberSFP": "T-UNISFP40958963"
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "5",
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "4240444762",
+            "slot": "1"
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "9816943654",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "1",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "6"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "0667898644",
+            "installedMatNumberSFP": null,
+            "slot": "1",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "7"
+         },
+         {
+            "port": "8",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "6937114484",
+            "slot": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "port": "9",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "7400080945",
+            "slot": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1"
+         },
+         {
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "10",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "8286933857",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "1"
+         },
+         {
+            "port": "11",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "slot": "1",
+            "installedSerialNumberSFP": "2488032533",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "0062631383",
+            "slot": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "port": "12",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "13",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "3141095828",
+            "installedMatNumberSFP": null,
+            "slot": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedSerialNumberSFP": "7188310704",
+            "installedMatNumberSFP": null,
+            "slot": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null,
+            "port": "14",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "port": "15",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "slot": "1",
+            "installedSerialNumberSFP": "9395399255",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null
+         },
+         {
+            "slot": "2",
+            "installedSerialNumberSFP": "5373502293",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": "1442530G1",
+            "port": "0",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON"
+         },
+         {
+            "port": "1",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "2784628467",
+            "slot": "2",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1"
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "port": "2",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "2",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "7531303725",
+            "installedPartNumberSFP": "ADTRAN     1442540F1"
+         },
+         {
+            "port": "3",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "slot": "2",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "5733301887",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": "1442530G1"
+         },
+         {
+            "port": "4",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "4000770333",
+            "slot": "2",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1"
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "1548833687",
+            "slot": "2",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "port": "5",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN"
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "port": "6",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "2",
+            "installedSerialNumberSFP": "5188334171",
+            "installedMatNumberSFP": "T-UNISFP40958963"
+         },
+         {
+            "installedPartNumberSFP": "1442530G1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "2",
+            "installedSerialNumberSFP": "5637744202",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "port": "7"
+         },
+         {
+            "port": "8",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "slot": "2",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "2391157370",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": "1442530G1"
+         },
+         {
+            "port": "9",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedPartNumberSFP": null,
+            "slot": "2",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "0547455273",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+"
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "10",
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "0947321737",
+            "installedMatNumberSFP": null,
+            "slot": "2"
+         },
+         {
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "1803368770",
+            "slot": "2",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "11"
+         },
+         {
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "2",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "2297573176",
+            "installedPartNumberSFP": null,
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "port": "12"
+         },
+         {
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "13",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "0792295434",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "2"
+         },
+         {
+            "port": "14",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedSerialNumberSFP": "6954809450",
+            "installedMatNumberSFP": null,
+            "slot": "2",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "0192188220",
+            "installedMatNumberSFP": null,
+            "slot": "2",
+            "installedPartNumberSFP": null,
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "15"
+         },
+         {
+            "installedPartNumberSFP": "1442530G1",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "4450058321",
+            "slot": "3",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "port": "0",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "installedManufacturerSFP": "ADTRAN"
+         },
+         {
+            "port": "1",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "slot": "3",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "1881761710",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "port": "2",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "3",
+            "installedSerialNumberSFP": "3862775701",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedPartNumberSFP": "1442530G1"
+         },
+         {
+            "installedPartNumberSFP": "1442530G1",
+            "slot": "3",
+            "installedSerialNumberSFP": "7322763987",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "port": "3",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON"
+         },
+         {
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "8847395178",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "slot": "3",
+            "installedPartNumberSFP": "1442530G1",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "4"
+         },
+         {
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "5",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "4682958729",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "3",
+            "installedPartNumberSFP": "ADTRAN     1442540F1"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "4793032649",
+            "slot": "3",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "6"
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "port": "7",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "3",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "9061053046",
+            "installedPartNumberSFP": "1442530G1"
+         },
+         {
+            "port": "8",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "7669389392",
+            "slot": "3",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "9",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "3856196941",
+            "slot": "3",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "port": "10",
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "3",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "3664398501"
+         },
+         {
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "3",
+            "installedSerialNumberSFP": "0754716050",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "port": "11"
+         },
+         {
+            "installedSerialNumberSFP": "1786066352",
+            "installedMatNumberSFP": null,
+            "slot": "3",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": null,
+            "port": "12",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "slot": "3",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "2495243928",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "port": "13",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON"
+         },
+         {
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "14",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "7232759381",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "slot": "3",
+            "installedPartNumberSFP": "1442530G1"
+         },
+         {
+            "port": "15",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "slot": "3",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "7854783879",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "installedPartNumberSFP": "ADTRAN     1442540F1"
+         },
+         {
+            "slot": "4",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "3687603958",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null,
+            "port": "0",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON"
+         },
+         {
+            "slot": "4",
+            "installedSerialNumberSFP": "2341509552",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null,
+            "port": "1",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON"
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "port": "2",
+            "installedPartNumberSFP": "1442530G1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "4",
+            "installedSerialNumberSFP": "1429615685",
+            "installedMatNumberSFP": "T-UNISFP40958962"
+         },
+         {
+            "port": "3",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedPartNumberSFP": null,
+            "slot": "4",
+            "installedSerialNumberSFP": "0421103651",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+"
+         },
+         {
+            "port": "4",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "7966631461",
+            "slot": "4",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1"
+         },
+         {
+            "slot": "4",
+            "installedSerialNumberSFP": "5623523885",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null,
+            "port": "5",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "4",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "7206717361",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "port": "6"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "4689981383",
+            "slot": "4",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "port": "7",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "slot": "4",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "6434027192",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "port": "8",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON"
+         },
+         {
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "2480407150",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "slot": "4",
+            "installedPartNumberSFP": "1442530G1",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "9"
+         },
+         {
+            "port": "10",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "0384193244",
+            "slot": "4",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "8195086003",
+            "slot": "4",
+            "installedPartNumberSFP": "1442530G1",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "11"
+         },
+         {
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "6167344650",
+            "slot": "4",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": null,
+            "port": "12",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "port": "13",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedPartNumberSFP": null,
+            "slot": "4",
+            "installedSerialNumberSFP": "8545930095",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+"
+         },
+         {
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "port": "14",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "4",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "4793290621",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "installedSerialNumberSFP": "1813916645",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "4",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "port": "15",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "installedManufacturerSFP": "ADTRAN"
+         },
+         {
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "port": "0",
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "5",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "8123273791"
+         },
+         {
+            "slot": "5",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "0515403897",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "installedPartNumberSFP": null,
+            "port": "1",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "5",
+            "installedSerialNumberSFP": "7112185767",
+            "installedMatNumberSFP": null,
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "port": "2"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "5768513764",
+            "installedMatNumberSFP": null,
+            "slot": "5",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "3"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "5",
+            "installedSerialNumberSFP": "8453337594",
+            "installedMatNumberSFP": null,
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "port": "4"
+         },
+         {
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "5",
+            "installedSerialNumberSFP": "3966936227",
+            "installedMatNumberSFP": null,
+            "installedPartNumberSFP": null,
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "port": "5"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "3478167224",
+            "slot": "5",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "port": "6",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "7",
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "7010492768",
+            "installedMatNumberSFP": null,
+            "slot": "5"
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "8",
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "2237856863",
+            "installedMatNumberSFP": null,
+            "slot": "5"
+         },
+         {
+            "installedSerialNumberSFP": "1078897096",
+            "installedMatNumberSFP": null,
+            "slot": "5",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null,
+            "port": "9",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "installedManufacturerSFP": "HUAWEI"
+         },
+         {
+            "port": "10",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedPartNumberSFP": "1442530G1",
+            "installedSerialNumberSFP": "3455052067",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "slot": "5",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1"
+         },
+         {
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "port": "11",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "5",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "9016087632",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedPartNumberSFP": "1442530G1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "5",
+            "installedSerialNumberSFP": "1372236915",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedManufacturerSFP": "ADTRAN",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "port": "12"
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "slot": "5",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "1046317675",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "port": "13",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON"
+         },
+         {
+            "port": "14",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "slot": "5",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "9434370673",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null
+         },
+         {
+            "installedPartNumberSFP": "ADTRAN     1442540F1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "slot": "5",
+            "installedSerialNumberSFP": "0198403275",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "port": "15"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "slot": "6",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "5221442548",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "port": "0",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-527"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "6",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "6045072805",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "port": "1"
+         },
+         {
+            "port": "2",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "2112022475",
+            "slot": "6",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "slot": "6",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "8146526477",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null,
+            "port": "3",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522"
+         },
+         {
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "4",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedSerialNumberSFP": "3664113209",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "slot": "6",
+            "installedPartNumberSFP": "ADTRAN     1442540F1"
+         },
+         {
+            "installedPartNumberSFP": "1442530G1",
+            "slot": "6",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "2137437668",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "port": "5",
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON"
+         },
+         {
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "6",
+            "installedSerialNumberSFP": "0996709163",
+            "installedMatNumberSFP": null,
+            "installedPartNumberSFP": null,
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "portType": "PON",
+            "port": "6"
+         },
+         {
+            "installedManufacturerSFP": "ADTRAN",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "port": "7",
+            "installedPartNumberSFP": "1442530G1",
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "slot": "6",
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "6788488752"
+         },
+         {
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "port": "8",
+            "installedPartNumberSFP": null,
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "9282112744",
+            "slot": "6"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "slot": "6",
+            "installedSerialNumberSFP": "9244107169",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS C+",
+            "port": "9",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON"
+         },
+         {
+            "port": "10",
+            "installedVendorPartNumberSFP": "RTXM167-527",
+            "portType": "PON",
+            "installedManufacturerSFP": "HUAWEI",
+            "installedMatNumberSFP": null,
+            "installedSerialNumberSFP": "5338680500",
+            "slot": "6",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedPartNumberSFP": null
+         },
+         {
+            "slot": "6",
+            "installedSerialNumberSFP": "2518963757",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "installedPartNumberSFP": null,
+            "port": "11",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522"
+         },
+         {
+            "installedPartNumberSFP": null,
+            "slot": "6",
+            "installedSerialNumberSFP": "6034644226",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+",
+            "port": "12",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522"
+         },
+         {
+            "port": "13",
+            "installedManufacturerSFP": "HUAWEI",
+            "portType": "PON",
+            "installedVendorPartNumberSFP": "RTXM167-522",
+            "installedPartNumberSFP": null,
+            "slot": "6",
+            "installedSerialNumberSFP": "1980760590",
+            "installedMatNumberSFP": null,
+            "shelf": "1",
+            "installedODNClassSFP": "CLASS B+"
+         },
+         {
+            "installedMatNumberSFP": "T-UNISFP40958962",
+            "installedSerialNumberSFP": "5034783237",
+            "slot": "6",
+            "installedODNClassSFP": "CLASS B+",
+            "shelf": "1",
+            "installedPartNumberSFP": "1442530G1",
+            "port": "14",
+            "installedVendorPartNumberSFP": "ADT123-B-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN"
+         },
+         {
+            "installedVendorPartNumberSFP": "ADT123-C-GPON",
+            "portType": "PON",
+            "installedManufacturerSFP": "ADTRAN",
+            "port": "15",
+            "installedODNClassSFP": "CLASS C+",
+            "shelf": "1",
+            "installedMatNumberSFP": "T-UNISFP40958963",
+            "installedSerialNumberSFP": "8071105874",
+            "slot": "6",
+            "installedPartNumberSFP": "ADTRAN     1442540F1"
+         },
+         {
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "0",
+            "slot": "7",
+            "portType": "ETHERNET",
+            "shelf": "1",
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t"
+         },
+         {
+            "slot": "7",
+            "port": "1",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "shelf": "1",
+            "portType": "ETHERNET",
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t"
+         },
+         {
+            "port": "2",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "slot": "7",
+            "portType": "ETHERNET",
+            "shelf": "1",
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "shelf": "1",
+            "portType": "ETHERNET",
+            "slot": "7",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "3"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "4",
+            "slot": "7",
+            "portType": "ETHERNET",
+            "shelf": "1"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "portType": "ETHERNET",
+            "shelf": "1",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "5",
+            "slot": "7"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "portType": "ETHERNET",
+            "shelf": "1",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "6",
+            "slot": "7"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "portType": "ETHERNET",
+            "shelf": "1",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "7",
+            "slot": "7"
+         },
+         {
+            "slot": "8",
+            "port": "0",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "shelf": "1",
+            "portType": "ETHERNET",
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "slot": "8",
+            "port": "1",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "shelf": "1",
+            "portType": "ETHERNET"
+         },
+         {
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
+            "shelf": "1",
+            "portType": "ETHERNET",
+            "slot": "8",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "port": "2"
+         },
+         {
+            "slot": "8",
+            "port": "3",
+            "installedMatNumberSFP": "OpticUserEeprom:",
+            "shelf": "1",
+            "portType": "ETHERNET",
+            "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t"
+         }
+      ],
+      "ancpConfigurations": null,
+      "connections": null,
+      "onts": null,
+      "modules": [
+         {
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "installedEquipmentObjectType": "H902FLHF",
+            "installedVersion": "507(2021-04-27)",
+            "shelf": "1",
+            "installedSerialNumber": "H902FL7610794011",
+            "slot": "1",
+            "resourceFulfillmentState": "IN_SERVICE"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "installedEquipmentObjectType": "H902FLHF",
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "shelf": "1",
+            "installedVersion": "507(2021-04-27)",
+            "slot": "2",
+            "installedSerialNumber": "H902FL7610794012"
+         },
+         {
+            "slot": "3",
+            "installedSerialNumber": "H902FL7610794013",
+            "shelf": "1",
+            "installedVersion": "507(2021-04-27)",
+            "installedEquipmentObjectType": "H902FLHF",
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "resourceFulfillmentState": "IN_SERVICE"
+         },
+         {
+            "shelf": "1",
+            "installedVersion": "507(2021-04-27)",
+            "slot": "4",
+            "installedSerialNumber": "H902FL7610794014",
+            "installedEquipmentObjectType": "H902FLHF",
+            "manufacturer": "HUAWEI",
+            "resourceState": "INSTALLING_INSTALLED",
+            "resourceFulfillmentState": "IN_SERVICE"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "installedVersion": "507(2021-04-27)",
+            "shelf": "1",
+            "installedSerialNumber": "H902FL7610794015",
+            "slot": "5",
+            "manufacturer": "HUAWEI",
+            "resourceState": "INSTALLING_INSTALLED",
+            "installedEquipmentObjectType": "H902FLHF"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "installedSerialNumber": "H902FL7610794016",
+            "slot": "6",
+            "installedVersion": "507(2021-04-27)",
+            "shelf": "1",
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "installedEquipmentObjectType": "H902FLHF"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "shelf": "1",
+            "installedVersion": "507(2021-04-27)",
+            "slot": "7",
+            "installedSerialNumber": "H902NX7610794017",
+            "installedEquipmentObjectType": "H902NXED",
+            "manufacturer": "HUAWEI",
+            "resourceState": "INSTALLING_INSTALLED"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "installedVersion": "507(2021-04-27)",
+            "shelf": "1",
+            "installedSerialNumber": "H902MP7610794018",
+            "slot": "8",
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "installedEquipmentObjectType": "H902MPLB"
+         },
+         {
+            "resourceFulfillmentState": "IN_SERVICE",
+            "installedSerialNumber": "H902PI7610794019",
+            "slot": "10",
+            "installedVersion": "507(2021-04-27)",
+            "shelf": "1",
+            "resourceState": "INSTALLING_INSTALLED",
+            "manufacturer": "HUAWEI",
+            "installedEquipmentObjectType": "H902PILA"
+         }
+      ],
+      "managedElement": {
+         "ipAddress": "16.01.10.01",
+         "communicationState": "CS_AVAILABLE",
+         "softwareVersion": "MA5800V800R016C00",
+         "resourceState": "WORKING",
+         "manufacturer": "HUAWEI",
+         "productName": "MA5800-X7",
+         "name": "49_761_2000_76H1"
       }
-    ],
-    "ports": [
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "1",
-        "port": "15"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "2",
-        "port": "15"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "3",
-        "port": "15"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "4",
-        "port": "15"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "5",
-        "port": "15"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "0"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "1"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "2"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "3"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "4"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "5"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "6"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "7"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "8"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "9"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "10"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "11"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "12"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "13"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "14"
-      },
-      {
-        "portType": "PON",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "6",
-        "port": "15"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "0"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "1"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "2"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "3"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "4"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "5"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "6"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "7",
-        "port": "7"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "8",
-        "port": "0"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "8",
-        "port": "1"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "8",
-        "port": "2"
-      },
-      {
-        "portType": "ETHERNET",
-        "installedPartNumberSFP": "OpticVendorSpecific:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t\t00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\n\t\t\t\t\t\t\t\t",
-        "installedMatNumberSFP": "OpticUserEeprom:",
-        "shelf": "1",
-        "slot": "8",
-        "port": "3"
-      }
-    ],
-    "connections": null,
-    "onts": null,
-    "ancpConfigurations": null
-  }
+   }
 }

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1014",
+    "href": "/resource-order-resource-inventory/v5/dpuOltConfiguration/1014",
+    "backhaulId": "#bhid-002",
+    "configurationState": "active",
+    "creationDate": "2021-04-01T14:15:20.92816+02:00",
+    "dpuEndSz": "49/812/179/71G5",
+    "modificationDate": "2021-04-01T14:15:20.928189+02:00",
+    "onuId": 123456,
+    "serialNumber": "SN-ADTR-0123",
+    "ponPortEquipmentBusinessRef": {
+      "endSz": "49/911/1100/76H1",
+      "portName": "0",
+      "slotName": "2",
+      "deviceType": "OLT",
+      "portType": "PON",
+      "@type": "EquipmentBusinessRef"
+    },
+    "uplinkPortEquipmentBusinessRef": {
+      "endSz": "49/911/1100/76H1",
+      "portName": "0",
+      "slotName": "19",
+      "deviceType": "OLT",
+      "portType": "ETHERNET",
+      "@type": "EquipmentBusinessRef"
+    },
+    "@baseType": "LogicalResource",
+    "@type": "DpuOltConfiguration"
+  }
+]

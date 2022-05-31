@@ -310,7 +310,8 @@
         ],
         "scopes": [
           "area:fibreOnLocations:read",
-          "area:fibreOnLocations:full"
+          "area:fibreOnLocations:full",
+          "giga:cga:all-area-access"
         ]
       },
       {
@@ -347,6 +348,22 @@
         "pattern": [],
         "scopes": [
           "giga:cga:all-area-access"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/ontUsages",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access",
+          "rori:ontusage:write"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v2/oltCommissioning",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access",
+          "rori:devicecommissioning:full"
         ]
       }
     ]

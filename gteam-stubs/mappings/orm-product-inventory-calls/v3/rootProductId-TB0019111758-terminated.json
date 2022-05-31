@@ -2,7 +2,7 @@
   "priority": 3,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
+    "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
         "matches": "TB0019111758"
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111758.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/rootProductId-TB0019111758.json"
   }
 }

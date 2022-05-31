@@ -1,14 +1,14 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "GET",
     "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
     "queryParameters": {
       "rootProductId": {
-        "matches": "TB0019111801"
+        "matches": "TB0019111758"
       },
-      "accountId": {
-        "matches": "^\\d{10}$"
+      "productStatus": {
+        "matches": "Terminated"
       }
     }
   },
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111801.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v2/rootProductId-TB0019111758.json"
   }
 }

@@ -2,10 +2,10 @@
   "priority": 3,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
+    "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": "TB0019111768"
+        "matches": "TB0019111802"
       },
       "productStatus": {
         "matches": "Terminated"
@@ -17,6 +17,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111768.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/positive.json"
   }
 }

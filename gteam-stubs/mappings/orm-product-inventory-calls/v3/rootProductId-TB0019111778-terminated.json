@@ -2,10 +2,10 @@
   "priority": 3,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/testCheckContractId/getProductInventoryResponse",
+    "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": "TB0019111868"
+        "matches": "TB0019111778"
       },
       "productStatus": {
         "matches": "Terminated"
@@ -13,10 +13,10 @@
     }
   },
   "response": {
-    "status": 200,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/rootProductId-TB0019111868.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/response-body-404-not-found.json"
   }
 }

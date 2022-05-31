@@ -1,22 +1,22 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "GET",
     "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": ".+"
+        "matches": "TB0019111758"
       },
-      "productStatus": {
-        "matches": "Terminated"
+      "accountId": {
+        "matches": "^\\d{10}$"
       }
     }
   },
   "response": {
-    "status": 200,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/positive.json"
+    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/response-body-404-not-found.json"
   }
 }

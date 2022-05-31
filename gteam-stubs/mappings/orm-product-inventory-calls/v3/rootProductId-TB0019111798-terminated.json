@@ -1,11 +1,11 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "GET",
     "urlPathPattern": "/tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "rootProductId": {
-        "matches": ".+"
+        "matches": "TB0019111798"
       },
       "productStatus": {
         "matches": "Terminated"
@@ -13,10 +13,6 @@
     }
   },
   "response": {
-    "status": 200,
-    "headers": {
-      "Content-Type": "application/json"
-    },
-    "bodyFileName": "gteam-stubs/orm-product-inventory-calls/v3/positive.json"
+    "status": 400
   }
 }

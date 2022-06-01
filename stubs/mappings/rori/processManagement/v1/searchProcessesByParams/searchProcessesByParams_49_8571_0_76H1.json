@@ -5,10 +5,7 @@
     "urlPath": "/resource-order-resource-inventory/v1/processManagement/searchProcessesByParams",
     "bodyPatterns": [
       {
-        "matchesJsonPath": {
-          "expression": "$..endSz",
-          "contains": "49/8571/0/76H1"
-        }
+        "matchesJsonPath": "$.[?(@.endSz == '49/8571/0/76H1')]"
       }
     ]
   },

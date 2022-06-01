@@ -4,10 +4,7 @@
     "method": "POST",
     "url": "/v1/psl/read-equipment/",
     "bodyPatterns" : [ {
-      "matchesJsonPath" : {
-        "expression": "$..endsz",
-        "contains": "49/8571/321/76H2"
-      }
+      "matchesJsonPath": "$.[?(@.endsz == '49/8571/321/76H2')]"
     } ]
   },
   "response": {

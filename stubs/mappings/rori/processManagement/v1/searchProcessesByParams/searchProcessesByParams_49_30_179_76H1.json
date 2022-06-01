@@ -4,10 +4,7 @@
     "method": "POST",
     "urlPath": "/resource-order-resource-inventory/v1/processManagement/searchProcessesByParams",
     "bodyPatterns": [{
-      "matchesJsonPath": {
-        "expression": "$..endSz",
-        "contains": "49/30/179/76H1"
-      }
+      "matchesJsonPath": "$.[?(@.endSz == '49/30/179/76H1')]"
     }]
   },
   "response": {

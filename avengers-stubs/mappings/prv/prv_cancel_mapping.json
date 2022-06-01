@@ -1,0 +1,42 @@
+{
+  "mappings":[
+    {
+      "name": "cancel prv process",
+      "priority": 2,
+      "request": {
+        "method": "POST",
+        "urlPath": "/giga-installation-order/v1/prodReadyValidation/cancelProdReadyValidation",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.sourceType == 'BFOT')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 204,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "cancel prv process, result error",
+      "priority": 1,
+      "request": {
+        "method": "POST",
+        "urlPath": "/giga-installation-order/v1/prodReadyValidation/cancelProdReadyValidation",
+        "bodyPatterns": [
+          {
+            "matchesJsonPath": "$[?(@.fiberOnLocationId == '222')]"
+          }
+        ]
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

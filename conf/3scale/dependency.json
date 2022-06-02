@@ -294,6 +294,15 @@
         ]
       },
       {
+        "resource": "/resource-order-resource-inventory/v2/planningRules",
+        "pattern": [
+          ""
+        ],
+        "scopes": [
+          "rori:ponMaterialCatalogueInventory:read"
+        ]
+      },
+      {
         "resource": "/giga-areas-location/v3/fibreOnLocation",
         "pattern": [],
         "scopes": [

@@ -1,0 +1,44 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/wgAccessProvisioning/processStatus"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
+    },
+    "jsonBody": [
+      {
+        "pid": "{{randomValue type='UUID'}}",
+        "businessKey": "{{request.query.businessKey}}",
+        "processDefinitionKey": "DeviceProvisioning",
+        "status": "COMPLETED",
+        "lastBusinessLogStatement": {
+          "message": "Process completed successfully",
+          "message-de": "Prozess erfolgreich beendet",
+          "timestamp": "{{now timezone='Europe/Berlin' offset='3 days' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "source": "wg-access-provisioning"
+        },
+        "processErrors": [],
+        "subProcesses": []
+      },
+      {
+        "pid": "{{randomValue type='UUID'}}",
+        "businessKey": "{{request.query.businessKey}}",
+        "processDefinitionKey": "DeviceProvisioning",
+        "status": "ACTIVE",
+        "lastBusinessLogStatement": {
+          "message": "Configuration access line DEU.DTAG.123ABC0000 started",
+          "message-de": "Konfiguration Access Line DEU.DTAG.123ABC0000 gestartet",
+          "timestamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+          "source": "wg-access-provisioning"
+        },
+        "processErrors": [],
+        "subProcesses": []
+      }
+    ]
+  }
+}

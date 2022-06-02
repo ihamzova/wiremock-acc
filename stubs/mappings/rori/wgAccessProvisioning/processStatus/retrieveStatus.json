@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/resource-order-resource-inventory/v1/wgAccessProvisioning/processStatus/([0-9a-z-]+)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "{{request.headers.Access-Control-Request-Headers}}"
+    },
+    "jsonBody": {
+      "pid": "{{request.pathSegments.[4]}}",
+      "businessKey": "wg-access-provisioning/{{randomValue type='UUID'}}",
+      "processDefinitionKey": "DeviceProvisioning",
+      "status": "COMPLETED",
+      "lastBusinessLogStatement": {
+        "message": "Process completed successfully",
+        "message-de": "Prozess erfolgreich beendet",
+        "timestamp": "{{now timezone='Europe/Berlin' format='yyyy-MM-dd'}}T{{now timezone='Europe/Berlin' format='HH:mm:ss.SSSXXX'}}",
+        "source": "wg-access-provisioning"
+      },
+      "processErrors": [],
+      "subProcesses": []
+    }
+  }
+}

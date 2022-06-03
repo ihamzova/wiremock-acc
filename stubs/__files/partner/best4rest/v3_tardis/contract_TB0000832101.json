@@ -223,14 +223,14 @@
   "_links": {
     "self": {
       "id": "T749645971",
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts/T749645971"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts/T749645971"
     },
     "contacts": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contacts"
     },
     "billingAccount": {
       "id": "4962110854",
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/billingAccounts/4962110854"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/billingAccounts/4962110854"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "id": {{request.requestLine.pathSegments.[7]}},
+  "id": {{request.requestLine.pathSegments.[5]}},
   "firstName": "John",
   "lastName": "Doe",
   "lastNamePart1": "Doe",
@@ -11,27 +11,27 @@
   "status": "ACTIVE",
   "_links": {
     "self": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}"
     },
     "primaryContact": {
       "id": "1-1D0-267",
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts/1-1D0-267"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contacts/1-1D0-267"
     },
     "mainContact": {
       "id": "1-1D0-267",
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts/1-1D0-267"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contacts/1-1D0-267"
     },
     "contacts": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contacts"
     },
     "contracts": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts"
     },
     "openOrders": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/customerOrders?status=OPEN"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/customerOrders?status=OPEN"
     },
     "billingAccounts": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/billingAccounts"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/billingAccounts"
     }
   }
 }

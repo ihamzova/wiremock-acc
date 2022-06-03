@@ -3,13 +3,13 @@
   "total": 2,
   "_links": {
     "self": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts?limit=20"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts?limit=20"
     },
     "first": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts?limit=20"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts?limit=20"
     },
     "last": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts?limit=20&page=1"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts?limit=20&page=1"
     }
   },
   "_embedded": {
@@ -20,7 +20,7 @@
         ],
         "self": {
           "id": "TB0000832101",
-          "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts/TB0000832101"
+          "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts/TB0000832101"
         }
       },
       {
@@ -29,7 +29,7 @@
         ],
         "self": {
           "id": "TB0000835207",
-          "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contracts/TB0000835207"
+          "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contracts/TB0000835207"
         }
       }
     ]

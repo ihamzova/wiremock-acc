@@ -2,7 +2,7 @@
   "priority": 5,
   "request": {
     "method": "GET",
-    "urlPattern": "/((upstream-partner/)?)tardis/crmfn/fixedNetAccounts/v3/accounts/([0-9]{10})/contracts"
+    "urlPattern": "/tardis/crmfn/fixedNetAccounts/v3/accounts/([0-9]{10})/contracts"
   },
   "response": {
     "status": 200,

@@ -10,11 +10,11 @@
   },
   "_links": {
     "self": {
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/billingAccounts/4962112429"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/billingAccounts/4962112429"
     },
     "billRecipient": {
       "id": "1-CE5R70",
-      "href": "/v3/accounts/{{request.requestLine.pathSegments.[7]}}/contacts/1-CE5R70"
+      "href": "/v3/accounts/{{request.requestLine.pathSegments.[5]}}/contacts/1-CE5R70"
     }
   }
 }

@@ -12,7 +12,15 @@
     "qualificationResult" : "qualified",
     "state" : "done",
     "alternateServiceProposal" : [ ],
-    "eligibilityUnavailabilityReason" : [ ],
+    "eligibilityUnavailabilityReason" : [
+      {
+        "@baseType": "testBaseType",
+        "@schemaLocation": "testSchema",
+        "@type": "testType",
+        "code": "NO_OWNER_COMMIT",
+        "label": "testLabel"
+      }
+    ],
     "qualificationItemRelationship" : [ ],
     "service" : {
       "id" : "20cb6eed-4cd9-49a5-8177-61a1ac51ada1",

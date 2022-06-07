@@ -9,6 +9,15 @@
   "fieldPaths": [
     {
       "path": "/carrierContact"
+    },
+    {
+      "path": "/carrierContact/name"
+    },
+    {
+      "path": "/carrierContact/contactMedium"
+    },
+    {
+      "path": "/carrierContact/contactMediumEmail"
     }
   ],
   "eventPayload": {
@@ -30,7 +39,7 @@
           {
             "mediumType": "phone",
             "characteristic": {
-              "phoneNumber":"+49 151 12341235"
+              "phoneNumber": "+49 151 12341235"
             }
           }
         ],

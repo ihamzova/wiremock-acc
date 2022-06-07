@@ -344,6 +344,8 @@
                             <repository>${docker.registry}/${docker.image.prefix}/${project.artifactId}</repository>
                             <buildArgs>
                                 <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+                                <GV_REGISTRY_ADDRESS>${docker.registry}</GV_REGISTRY_ADDRESS>
+                                <GV_REGISTRY_NAMESPACE>${docker.image.prefix}</GV_REGISTRY_NAMESPACE>
                             </buildArgs>
                         </configuration>
                         <executions>

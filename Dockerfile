@@ -1,4 +1,7 @@
-FROM mtr.external.otc.telekomcloud.com/digitalhub/oraclelinux8-zulu-openjdk-8:master
+ARG GV_REGISTRY_ADDRESS
+ARG GV_REGISTRY_NAMESPACE
+
+FROM $GV_REGISTRY_ADDRESS/$GV_REGISTRY_NAMESPACE/oraclelinux8-zulu-openjdk-8:master
 
 LABEL quay.expires-after=12w
 

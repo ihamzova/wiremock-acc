@@ -388,6 +388,13 @@
         "scopes": [
           "giga:cga:all-area-access"
         ]
+      },
+       {
+        "resource": "/presales-order/v1/presalesCustomers",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

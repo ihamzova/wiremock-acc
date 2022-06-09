@@ -374,6 +374,13 @@
           "giga:cga:all-area-access",
           "rori:devicecommissioning:full"
         ]
+      },
+      {
+        "resource": "/presales-order/v1/preOrders",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

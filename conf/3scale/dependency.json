@@ -381,6 +381,13 @@
         "scopes": [
           "giga:cga:all-area-access"
         ]
+      },
+       {
+        "resource": "/presales-order/v2/preOrders",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

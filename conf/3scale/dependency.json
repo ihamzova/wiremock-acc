@@ -402,6 +402,13 @@
         "scopes": [
           "giga:cga:all-area-access"
         ]
+      },
+      {
+        "resource": "/presales-order/v1/archived-orders",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

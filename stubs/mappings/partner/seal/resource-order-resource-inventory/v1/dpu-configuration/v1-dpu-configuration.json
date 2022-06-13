@@ -16,6 +16,7 @@
     "webhook": {
       "url": "{{request.headers.X-Callback-Url}}",
       "headers": {
+        "Authorization": "Bearer {{oauth}}",
         "Content-Type": "application/json",
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
         "X-Callback-Id": "{{eq request.headers.X-Callback-Id null yes=(randomValue type='UUID') no=request.headers.X-Callback-Id}}",

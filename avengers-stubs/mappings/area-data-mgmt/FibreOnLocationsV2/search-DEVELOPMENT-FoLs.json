@@ -1,11 +1,12 @@
 {
   "mappings": [
     {
+      "id": "cb50d6aa-02cd-4483-bc5c-64be8c06e427",
       "name": "Get empty page for criteria not matching any existing FoL",
       "priority": 10,
       "request": {
         "method": "GET",
-        "urlPattern": "\/giga-areas-location\/v2\/fibreOnLocations\/search\\?(.*)"
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?(.*)"
       },
       "response": {
         "status": 200,
@@ -16,8 +17,25 @@
       }
     },
     {
+      "id": "f18a62e7-f72f-4e65-8c0f-0aea38fccc60",
       "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType",
-      "priority": 1,
+      "priority": 3,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-areas-location/v2/fibreOnLocations/search\\?.*pageSize=1000&.*&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "area-data-mgmt/FibreOnLocationsV2/development/search-all.json"
+      }
+    },
+    {
+      "id": "35e4fdee-e7ba-4156-906d-9354d5a42f88",
+      "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType",
+      "priority": 4,
       "request": {
         "method": "GET",
         "url": "/giga-areas-location/v2/fibreOnLocations/search?pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
@@ -31,8 +49,9 @@
       }
     },
     {
+      "id": "c60f0a28-0a3d-43e9-96e2-e176a74ca4f1",
       "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType of Bornheim_002 gigaArea",
-      "priority": 1,
+      "priority": 4,
       "request": {
         "method": "GET",
         "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bornheim_002&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
@@ -46,8 +65,9 @@
       }
     },
     {
+      "id": "c6a34d92-40fe-480d-b757-2f9550deffc3",
       "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType of Frankfurt_006 gigaArea",
-      "priority": 1,
+      "priority": 4,
       "request": {
         "method": "GET",
         "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Frankfurt_006&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"
@@ -61,8 +81,9 @@
       }
     },
     {
+      "id": "2c778042-68f2-4fd7-aa41-46598a1ea0ab",
       "name": "Get FibreOnLocationsV2 with DEVELOPMENT areaType of Bonn_009 gigaArea",
-      "priority": 1,
+      "priority": 4,
       "request": {
         "method": "GET",
         "url": "/giga-areas-location/v2/fibreOnLocations/search?gigaAreaNumber=Bonn_009&pageSize=1000&areaTypes=DEVELOPMENT&initiatives=SELF_EXPANSION&initiatives=JOINT_VENTURE&includeDpGeoData=false"

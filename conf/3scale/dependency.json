@@ -382,7 +382,7 @@
           "giga:cga:all-area-access"
         ]
       },
-       {
+      {
         "resource": "/presales-order/v2/preOrders",
         "pattern": [],
         "scopes": [
@@ -405,6 +405,20 @@
       },
       {
         "resource": "/presales-order/v1/archived-orders",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/gfta",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+      {
+        "resource": "/resource-order-resource-inventory/v1/giga-tas",
         "pattern": [],
         "scopes": [
           "giga:cga:all-area-access"

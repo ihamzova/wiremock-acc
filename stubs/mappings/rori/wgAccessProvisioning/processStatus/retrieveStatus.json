@@ -14,7 +14,7 @@
       "pid": "{{request.pathSegments.[4]}}",
       "businessKey": "wg-access-provisioning/{{randomValue type='UUID'}}",
       "processDefinitionKey": "DeviceProvisioning",
-      "status": "COMPLETED",
+      "status": "completed",
       "lastBusinessLogStatement": {
         "message": "Process completed successfully",
         "message-de": "Prozess erfolgreich beendet",

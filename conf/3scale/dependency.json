@@ -423,6 +423,27 @@
         "scopes": [
           "giga:cga:all-area-access"
         ]
+      },
+       {
+        "resource": "/api/ponInventoryIncomplete/v1/inventory/hkFiberFile/progress",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+       {
+        "resource": "/api/ponInventoryIncomplete/v1/inventory/hkFiberFile/parse",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
+      },
+       {
+        "resource": "/api/ponInventoryIncomplete/v1/inventory/file/parse",
+        "pattern": [],
+        "scopes": [
+          "giga:cga:all-area-access"
+        ]
       }
     ]
   }

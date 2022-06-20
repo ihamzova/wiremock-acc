@@ -2,7 +2,7 @@
   "priority": 4,
   "request": {
     "method": "GET",
-    "urlPathPattern": "/configuration/v1/accessNodes/49_222_([\\w\\d\\_]*)/"
+    "urlPathPattern": "/configuration/v1/accessNodes/49_222_([\\w\\d\\_]*)"
   },
   "response": {
     "status": 202,

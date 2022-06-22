@@ -15,7 +15,7 @@
             <Auftraggeberkennzeichen>1</Auftraggeberkennzeichen>
             <Wunschtermin>2010-03-30</Wunschtermin>
             <AssignmentKategorie>a</AssignmentKategorie>
-            <Kundennummer>1234654320</Kundennummer>
+            <Kundennummer>{{jsonPath request.body '$.kundennummer'}}</Kundennummer>
             <Vertriebspunktnummer>U-12345</Vertriebspunktnummer>
             <VertriebsOrganisationsNummer>a</VertriebsOrganisationsNummer>
             <KundenPLZ>

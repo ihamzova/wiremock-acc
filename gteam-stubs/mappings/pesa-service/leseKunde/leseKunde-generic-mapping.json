@@ -1,5 +1,5 @@
 {
-  "priority": 5,
+  "priority": 3,
   "request": {
     "method": "POST",
     "urlPattern": "/leseKunde",
@@ -13,8 +13,7 @@
   "headers": {
     "Content-Type": "application/json"
   },
-  "bodyFileName" : "gteam-stubs/pesa-service/leseKunde/leseKunde.timb.{{jsonPath request.body '$.kundennummer'}}.xml",
+  "bodyFileName" : "gteam-stubs/pesa-service/leseKunde/leseKunde.timb.xml",
   "transformers": ["response-template"]
 }
 }
-

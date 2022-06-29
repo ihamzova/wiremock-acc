@@ -1,5 +1,6 @@
 {
-  "id": "50fd43af-47d7-442e-8877-96716b18b9b1",
+  "id": "e7edf670-3390-4a9c-a63a-9c3c5f3c2681",
+  "priority": 1,
   "request": {
     "method": "POST",
     "url": "/Wholebuy/v2/resourceOrder/",
@@ -8,7 +9,11 @@
         "matchesJsonPath": "$.[?(@.externalTag=='bsaActivation')]"
       }
     ],
-    "headers": {}
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc98fff"
+      }
+    }
   },
   "response": {
     "status": 202,
@@ -58,6 +63,16 @@
           },
           "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
           "bodyFileName": "partner/congstar/resource-order/v2/activation/resource-order-attribute-value-change-notification-confirm.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 25000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/Wholebuy/v2/WholebuyResourceOrder/Events",
+          "bodyFileName": "partner/congstar/resource-order/v2/activation/resource-order-attribute-value-change-notification-update.json"
         },
         {
           "method": "POST",

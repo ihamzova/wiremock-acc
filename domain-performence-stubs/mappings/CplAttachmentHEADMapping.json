@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "HEAD",
+    "urlPattern": "/smk-ff/ServiceDomain/ServiceABE/CplAttachmentMgmt/v1/cplAttachment.*|/service-order-service-inventory/v1/cplAttachment.*"
+  },
+  "response": {
+    "status": 204
+  }
+}

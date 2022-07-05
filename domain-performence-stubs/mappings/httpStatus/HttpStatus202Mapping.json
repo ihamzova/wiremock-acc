@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "ANY",
+    "urlPattern": "/httpStatus/202.*"
+  },
+  
+  "response": {
+    "status": 202
+  }
+}

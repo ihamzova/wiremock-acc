@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/resourceOrderingManagement/v1/resourceCharacteristicsIntern"
+  },
+
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "{{jsonPath request.body '$.callbackUrl'}}",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "orderState":"Completed",
+        "resourceOrderID":"{{regexExtract (jsonPath request.body '$.callbackUrl') '[0-9]{5}'}}",
+        "resourceState":"Operating-Working",
+        "resourceId":"123"
+      }
+    }
+  }
+}

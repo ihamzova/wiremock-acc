@@ -23,6 +23,7 @@ COPY example-stubs /$WM_PACKAGE/example-stubs
 COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
 COPY marvel-stubs /$WM_PACKAGE/marvel-stubs
+COPY morpheus-stubs /$WM_PACKAGE/morpheus-stubs
 
 COPY orion-stubs /$WM_PACKAGE/orion-stubs
 COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs/mappings

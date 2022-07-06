@@ -1,0 +1,20 @@
+{
+  "id": "a6e59135-cbb4-4b51-8010-a56070d8db97",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "102"
+      }
+    },
+    "urlPattern": "/giga-project-dioss/v5/workorders/\\d+"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

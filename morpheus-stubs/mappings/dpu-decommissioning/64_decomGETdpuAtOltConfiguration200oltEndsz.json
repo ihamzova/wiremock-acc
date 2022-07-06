@@ -1,0 +1,20 @@
+{
+  "id":"83931712-7d70-4db8-a535-687e9c31e892",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
+    "queryParameters": {
+      "ponPortEquipmentBusinessRef.endSz": {
+        "matches": "49/50/179/76H1"
+      }
+    }
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Content-Type":"application/json",
+      "X-B3-TraceId":"{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody":[]
+  }
+}

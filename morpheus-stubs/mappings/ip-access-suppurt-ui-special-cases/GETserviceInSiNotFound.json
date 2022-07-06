@@ -1,0 +1,35 @@
+{
+  "id": "5d9b2781-56da-4841-97ec-83025625646b",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "307"
+      }
+    },
+    "urlPath": "/service-order-service-inventory/v2/serviceInventory",
+    "queryParameters": {
+      "ServiceCharacteristics.value.value": {
+        "matches": "\\d+"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "53"
+    },
+    "jsonBody": {
+      "code": 404,
+      "reason": "Service Inventory with:requestedCriteria not found",
+      "message": null,
+      "status": null,
+      "referenceError": null,
+      "@type": null,
+      "@schemaLocation": null
+    }
+
+  }
+}

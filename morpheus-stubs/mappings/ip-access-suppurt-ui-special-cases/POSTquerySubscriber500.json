@@ -1,0 +1,22 @@
+{
+  "id": "ad1b5161-9d71-4612-b1b1-057c4462bc1a",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "311"
+      }
+    },
+    "bodyPatterns" : [ {
+      "contains" : "QueryRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

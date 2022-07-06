@@ -1,0 +1,46 @@
+{
+  "id": "5b07b67c-d3f3-4838-80b1-6508534f54f4",
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
+    "bodyPatterns": [
+      {
+        "matches": ".*"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Testcase-ID": "{{request.headers.X-Testcase-ID}}"
+    },
+    "jsonBody": {
+      "uuid": "123456f1-e29b-11d4-a716-123456789123",
+      "creationTime": "2022-02-24T08:20:17.678Z",
+      "description": "No idea about a description !",
+      "lastUpdateTime": "2022-02-24T08:20:17.678Z",
+      "specificationVersion": "1_1_0",
+      "address": "What for an address ?",
+      "administrativeState": "What for a state ?",
+      "fsz": "fsz ? Why not simple a endsz?",
+      "vpsz": "vpsz ? Why not simple a endsz?",
+      "klsId": "{{jsonPath request.body '$.dpuKlsId'}}",
+      "lifecycleState": "INSTALLING",
+      "operationalState": "INSTALLING",
+      "plannedMatNumber": "{{jsonPath request.body '$.dpuMaterialNumber'}}",
+      "plannedRackId": "of course",
+      "plannedRackPosition": "and more useless stuff here",
+      "planningDeviceName": "I read overall planned, but we made the planning and not forwared these info",
+      "roles": "no idea about a role",
+      "type": "which type ?",
+      "category": "which category ?",
+      "ztpIdent": "ueseless for us",
+      "networkElementGroupUuid": "123456f1-e29b-1234-a716-123456789123",
+      "partyId": "who to hell need that in the device ?",
+      "fiberOnLocationId": "{{jsonPath request.body '$.dpuFiberOnLocationId'}}",
+      "href": "useless how all of these rest stuff"
+    }
+  }
+}

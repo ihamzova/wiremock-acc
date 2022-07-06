@@ -1,0 +1,20 @@
+{
+  "id": "066c1994-8b62-4b45-b528-10ad44d1011e",
+  "request": {
+    "url": "/resource-order-resource-inventory/v1/releaseOnuIdTask",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.oltEndSz=='49/50/179/76H1')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

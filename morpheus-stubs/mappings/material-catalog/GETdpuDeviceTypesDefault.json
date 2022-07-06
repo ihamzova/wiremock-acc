@@ -1,0 +1,513 @@
+{
+  "id": "89141253-8ca7-4cab-90dd-2257a85f2398",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/deviceTemplate/bycriteria",
+    "queryParameters": {
+      "deviceType": {
+        "equalTo": "DPU"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "name": "16 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+        "materialNumber": "40898329",
+        "shortName": "SDX2221-16 TP-AC-M-FTTB ETSI",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-16-TP",
+        "tkz": "11321782F1",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40898329",
+        "id": 1002,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1072,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1073,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1074,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1075,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1076,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1077,
+            "portType": "GFAST",
+            "orderNumber": 5,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1078,
+            "portType": "GFAST",
+            "orderNumber": 6,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1079,
+            "portType": "GFAST",
+            "orderNumber": 7,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1080,
+            "portType": "GFAST",
+            "orderNumber": 8,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1081,
+            "portType": "GFAST",
+            "orderNumber": 9,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1082,
+            "portType": "GFAST",
+            "orderNumber": 10,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1083,
+            "portType": "GFAST",
+            "orderNumber": 11,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1084,
+            "portType": "GFAST",
+            "orderNumber": 12,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1085,
+            "portType": "GFAST",
+            "orderNumber": 13,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1086,
+            "portType": "GFAST",
+            "orderNumber": 14,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1087,
+            "portType": "GFAST",
+            "orderNumber": 15,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1088,
+            "portType": "GFAST",
+            "orderNumber": 16,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "TWISTED_PAIR"
+      },
+      {
+        "name": "8 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+        "materialNumber": "40898328",
+        "shortName": "SDX2221-08 TP-AC-M-FTTB ETSI",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-08-TP",
+        "tkz": "11321772F1",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40898328",
+        "id": 1004,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1113,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1114,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1115,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1116,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1117,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1118,
+            "portType": "GFAST",
+            "orderNumber": 5,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1119,
+            "portType": "GFAST",
+            "orderNumber": 6,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1120,
+            "portType": "GFAST",
+            "orderNumber": 7,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1121,
+            "portType": "GFAST",
+            "orderNumber": 8,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "TWISTED_PAIR"
+      },
+      {
+        "name": "4 PORT G.FAST FTTB ONU, COAX, AC POWER, WITH TV",
+        "materialNumber": "40987341",
+        "shortName": "SDX2221-04 CX-AC-TV-FTTB",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-04-CX",
+        "tkz": "11321709F1",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40987341",
+        "id": 1005,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1122,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1123,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1124,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1125,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1126,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "COAX"
+      },
+      {
+        "name": "8 PORT G.FAST FTTB ONU, COAX, AC POWER, WITH TV",
+        "materialNumber": "40987342",
+        "shortName": "SDX2221-08 CX-AC-TV-FTTB",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-08-CX",
+        "tkz": "11321773F1",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40987342",
+        "id": 1006,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1127,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1128,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1129,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1130,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1131,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1132,
+            "portType": "GFAST",
+            "orderNumber": 5,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1133,
+            "portType": "GFAST",
+            "orderNumber": 6,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1134,
+            "portType": "GFAST",
+            "orderNumber": 7,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1135,
+            "portType": "GFAST",
+            "orderNumber": 8,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "COAX"
+      },
+      {
+        "name": "16 PORT G.FAST FTTB ONU, COAX, AC POWER, WITH TV",
+        "materialNumber": "40987343",
+        "shortName": "SDX2221-16 CX-AC-TV-FTTB",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-16-CX",
+        "tkz": "11321783F1",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40987343",
+        "id": 1007,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1136,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1137,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1138,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1139,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1140,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1141,
+            "portType": "GFAST",
+            "orderNumber": 5,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1142,
+            "portType": "GFAST",
+            "orderNumber": 6,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1143,
+            "portType": "GFAST",
+            "orderNumber": 7,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1144,
+            "portType": "GFAST",
+            "orderNumber": 8,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1145,
+            "portType": "GFAST",
+            "orderNumber": 9,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1146,
+            "portType": "GFAST",
+            "orderNumber": 10,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1147,
+            "portType": "GFAST",
+            "orderNumber": 11,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1148,
+            "portType": "GFAST",
+            "orderNumber": 12,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1149,
+            "portType": "GFAST",
+            "orderNumber": 13,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1150,
+            "portType": "GFAST",
+            "orderNumber": 14,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1151,
+            "portType": "GFAST",
+            "orderNumber": 15,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1152,
+            "portType": "GFAST",
+            "orderNumber": 16,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "COAX"
+      },
+      {
+        "name": "4 PORT G.FAST FTTB ONU, TWISTED PAIR, AC POWER, WITH MELT",
+        "materialNumber": "40898327",
+        "shortName": "SDX2221-04 TP-AC-M-FTTB ETSI",
+        "manufacturer": "ADTRAN",
+        "emsNbiName": "SDX2221-04-TP",
+        "tkz": "11321708F2",
+        "descriptionUrl": "https://where-ever/bc/bsp/sap/zmnetkat/material.htm?matnr=40898327",
+        "id": 1008,
+        "deviceType": {
+          "id": 1001,
+          "type": "DPU",
+          "deviceAttributes": []
+        },
+        "preprovisioningStrategy": null,
+        "equipmentHolderProfile": null,
+        "portProfiles": [
+          {
+            "id": 1153,
+            "portType": "GPON",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1154,
+            "portType": "GFAST",
+            "orderNumber": 1,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1155,
+            "portType": "GFAST",
+            "orderNumber": 2,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1156,
+            "portType": "GFAST",
+            "orderNumber": 3,
+            "opticalModuleProfile": null
+          },
+          {
+            "id": 1157,
+            "portType": "GFAST",
+            "orderNumber": 4,
+            "opticalModuleProfile": null
+          }
+        ],
+        "accessTransmissionMedium": "TWISTED_PAIR"
+      }
+    ]
+  }
+}

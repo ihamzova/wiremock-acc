@@ -1,0 +1,34 @@
+{
+  "id":"54e799bc-9330-4c17-bd9e-3ff868f3a799",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49/0001/0/71GA"
+      }
+    }
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Content-Type":"application/json",
+      "X-B3-TraceId":"{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody":[
+      {
+        "id": 12345,
+        "href":"href",
+        "ancpBngIpAddress": "10.20.120.2",
+        "ancpIpAddressSubnetMask": "24",
+        "ancpOwnIpAddress": "10.30.130.3",
+        "backhaulId": "backhaulId01",
+        "configurationState": "ACTIVE",
+        "emsNbiName": "H805GPBD",
+        "dpuEndSz": "{{request.requestLine.query.dpuEndSz}}",
+        "managedDomain": "49_30_179_43G1",
+        "serialNumber": "48AB541118CC5191"
+      }
+    ]
+  }
+}

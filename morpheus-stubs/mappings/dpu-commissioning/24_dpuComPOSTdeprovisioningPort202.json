@@ -1,0 +1,55 @@
+{
+  "id" : "78ab762e-1340-423b-afb3-7a9804ccd9d3",
+  "request" : {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v1/deprovisioning/port",
+    "queryParameters": {
+      "businessKey": {
+        "matches": ".*"
+      },
+      "deprovisioningForDpu": {
+        "matches": "true|false"
+      }
+    },
+
+    "bodyPatterns" : [
+      {
+        "matchesJsonPath" : "$.[?(@.endSz=='49/40/179/76H1')]"
+      }
+    ]
+  },
+  "response" : {
+    "status" : 202,
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}"
+    },
+    "jsonBody":
+    {
+      "source": "12345",
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "businessKey": "{{request.requestLine.query.businessKey}}",
+      "index": 0
+    }
+  },
+  "uuid" : "ab54f6b0-e35c-11e8-9f32-f2801f1b24ad",
+  "postServeActions" : {
+    "webhook" : {
+      "url" : "{{request.headers.X-Callback-Url}}",
+      "headers" : {
+        "Authorization" : "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id" : "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId" : "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}",
+        "Content-Type" : "application/json"
+      },
+      "method" : "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds" : 3000,
+      "jsonBody" : {
+        "response": {},
+        "success": true
+      }
+    }
+  }
+}

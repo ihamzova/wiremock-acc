@@ -1,0 +1,20 @@
+{
+  "id": "e2185af0-1880-418e-bda8-377d644a485f",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "208"
+      }
+    },
+    "urlPattern": "/giga-areas-location/v3/fibreOnLocation/([0-9]*)\\?includeDpGeoData=false"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

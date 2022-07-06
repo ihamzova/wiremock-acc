@@ -1,0 +1,24 @@
+{
+  "id": "8949c380-7bf4-4fa4-8b47-8bd44fe0d1e4",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "314"
+      }
+    },
+    "urlPattern": "/service-order-service-inventory/v2/serviceInventory/.*"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "code": "500",
+      "reason": "Failed to establish a backside connection"
+    }
+  }
+}

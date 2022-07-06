@@ -1,0 +1,46 @@
+{
+  "id": "b4753a74-f33a-49aa-a3e5-417e8c58ec2e",
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/resource-order-resource-inventory/v1/fttbDeprovisioning/device",
+    "queryParameters": {
+      "dpuEndSZ": {
+        "matches": "49/0001/0/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  },
+  "uuid": "c2df02e0-8cc1-4794-a7dd-336e5e5a36ad",
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}",
+        "Content-Type": "application/json"
+      },
+      "method": "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds": 3000,
+      "jsonBody": {
+        "response": {
+          "eventId": "123",
+          "endSz": "{{request.requestLine.query.dpuEndSZ}}",
+          "port": "1",
+          "operation": "string",
+          "operationState": "COMPLETED"
+        },
+        "success": true
+      }
+    }
+  }
+
+}

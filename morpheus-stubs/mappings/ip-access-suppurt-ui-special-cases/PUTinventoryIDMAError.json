@@ -1,0 +1,24 @@
+{
+  "id": "a7459fa5-d97f-4625-9e5c-197fbd920bf6",
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "312"
+      }
+    },
+    "urlPattern": "/idma-war/service/rcm/inventory/.*"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "returnCode": 2284,
+      "returnText": "keine Zugangsdaten in der Credential-Datenbank gefunden"
+    }
+  }
+}

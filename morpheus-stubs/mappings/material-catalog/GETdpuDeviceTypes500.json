@@ -1,0 +1,25 @@
+{
+  "id": "ce003cf6-493c-43d3-9ee6-dd3e7c1c2a7e",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "210"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v1/deviceTemplate/bycriteria",
+    "queryParameters": {
+      "deviceType": {
+        "equalTo": "DPU"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

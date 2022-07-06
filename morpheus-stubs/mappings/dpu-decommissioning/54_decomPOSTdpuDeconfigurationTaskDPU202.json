@@ -1,0 +1,40 @@
+{
+  "id": "8f5d5cc7-0a56-4289-b4ce-91da18d718ff",
+  "request": {
+    "urlPattern": "/resource-order-resource-inventory/v1/dpu/dpuDeconfigurationTask",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.dpuName=='49_0001_0_71GA')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  },
+  "uuid": "c2df13e0-8cc1-4794-a7dd-336e5e5a02ad",
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}",
+        "Content-Type": "application/json"
+      },
+      "method": "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds": 3000,
+      "jsonBody": {
+        "status": 2000,
+        "statustype": "SUCCESS",
+        "message": "successfully executed"
+      }
+    }
+  }
+}

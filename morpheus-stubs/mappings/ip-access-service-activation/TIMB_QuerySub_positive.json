@@ -1,0 +1,19 @@
+{
+  "id": "b107778e-a3d1-452f-a94f-c6f8b34ed149",
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "contains" : "QueryRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "xmldata": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><QueryResponseSubscriber xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://dummydomain.telekom.de/RDQ/IN_1\"><RequestID>radiusgw-il00-336-384</RequestID><origin>ver.sul.t-online.de</origin><netprofileid>1</netprofileid><rc>0000</rc><returnmessage>Alles OK</returnmessage><rectime>20190111143957303</rectime><rsptime>20190111143957327</rsptime><tlnnr>551100085002</tlnnr><asskeng>12345</asskeng><calid>DEU.RCM.5</calid><user-auth-required>0</user-auth-required><mfzg>1</mfzg><tlnsps>0</tlnsps><logonsps>0</logonsps><currlogonct>0</currlogonct><profilset>121</profilset><dns-profile>DNSDEF</dns-profile><policy-group>100008</policy-group><max-up-l3>200000</max-up-l3><max-down-l3>500000</max-down-l3><max-session-duration>0</max-session-duration><ipversion>3</ipversion><reserveprefix>1</reserveprefix></QueryResponseSubscriber>"
+    }
+  }
+}

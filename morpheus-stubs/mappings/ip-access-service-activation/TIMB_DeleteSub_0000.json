@@ -1,0 +1,19 @@
+{
+  "id": "b107778e-a3d1-452f-a94f-c6f8b34ed145",
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "bodyPatterns" : [ {
+      "contains" : "DeleteRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "xmldata": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><DeleteResponseSubscriber xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://dummydomain.telekom.de/RDQ/IN_1\"><RequestID>1234</RequestID><origin>ver.sul.t-online.de</origin><netprofileid>1</netprofileid><rc>0000</rc><returnmessage>Request wurde erfolgreich verarbeitet.</returnmessage><rectime>20181004132331177</rectime><rsptime>20181004132331317</rsptime><tlnnr>551100085002</tlnnr></DeleteResponseSubscriber>"
+    }
+  }
+}

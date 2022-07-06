@@ -1,0 +1,25 @@
+{
+  "id": "67d631b6-e532-45b1-96b8-d1428f50f7bf",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "309"
+      }
+    },
+    "bodyPatterns" : [ {
+      "contains" : "QueryRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "xmldata": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><QueryResponseSubscriber xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://dummydomain.telekom.de/RDQ/IN_1\"><RequestID>radiusgw-il00-336-384</RequestID><origin>ver.sul.t-online.de</origin><netprofileid>1</netprofileid><rc>0000</rc><returnmessage>Alles OK</returnmessage><rectime>20190111143957303</rectime><rsptime>20190111143957327</rsptime><tlnnr>551100085002</tlnnr><asskeng>12345</asskeng><calid>DEU.RCM.5</calid><user-auth-required>0</user-auth-required><mfzg>1</mfzg><tlnsps>0</tlnsps><logonsps>0</logonsps><currlogonct>0</currlogonct><profilset>121</profilset><tunnel-profile>tunnel-profile0</tunnel-profile><dns-profile>DNSDEF</dns-profile><filterid>filterid</filterid><policy-group>100008</policy-group><max-up-l3>200000</max-up-l3><max-down-l3>500000</max-down-l3><max-session-duration>0</max-session-duration><ipversion>3</ipversion><ipaddress>0.0.0.0</ipaddress><ipnetmask>0.0.0.0</ipnetmask><reserveprefix>1</reserveprefix><frmdipv6prefix>::</frmdipv6prefix><frmdipv6prefixlen>64</frmdipv6prefixlen><dlgipv6prefix>::</dlgipv6prefix><dlgipv6prefixlen>64</dlgipv6prefixlen><umt-service-data><ocs-subscription-id>ocs-subscription-id0</ocs-subscription-id><throttle-profile>50</throttle-profile></umt-service-data><msisdn>1711234567</msisdn></QueryResponseSubscriber>"
+    }
+  }
+}

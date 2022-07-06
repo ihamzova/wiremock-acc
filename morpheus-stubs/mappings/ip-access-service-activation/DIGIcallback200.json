@@ -1,0 +1,14 @@
+{
+  "id":"808b3194-9790-11eb-a8b3-0242ac130003",
+  "request":{
+    "method":"POST",
+    "urlPattern":"/api/callback/.*"
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Content-Type":"application/json",
+      "X-B3-TraceId":"{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "d88c1edd-ce24-448b-a4ae-a3125c8f9a38",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "308"
+      }
+    },
+    "urlPath": "/service-order-service-inventory/v2/serviceInventory",
+    "queryParameters": {
+      "ServiceCharacteristics.value.value": {
+        "matches": "\\d+"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "53"
+    }
+
+  }
+}

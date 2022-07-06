@@ -1,0 +1,27 @@
+{
+  "id": "4836dd9c-27fe-477d-8204-58d7b1373f38",
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/([0-9]*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "klsId": "{{request.path.[5]}}",
+      "zipCode": "65185",
+      "municipalityName": "Wiesbaden",
+      "distributionAreaName": "Meißen district",
+      "streetName": "Bürgermeister Ludwig Strasse",
+      "streetNameShort": "Bgm. Ludwig Str.",
+      "postortName": "Welzheim",
+      "houseNumber": 5,
+      "houseNumberSupplement": "A",
+      "houseQualifier": "5 A"
+    }
+  }
+}

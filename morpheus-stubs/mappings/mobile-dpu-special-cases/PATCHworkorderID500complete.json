@@ -1,0 +1,25 @@
+{
+  "id": "025e3ba7-4e91-472b-934b-66502799ddc6",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "109"
+      }
+    },
+    "urlPattern": "/giga-project-dioss/v5/workorders/\\d+",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath" : "$.[?(@.status=='COMPLETED')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

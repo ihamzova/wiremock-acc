@@ -1,0 +1,45 @@
+{
+  "id": "6d5c3c29-135d-4349-b57b-f953e4900ab2",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49/0001/0/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [{
+      "id": 678910,
+      "href": "href",
+      "dpuEndsz": "{{request.requestLine.query.dpuEndSz}}",
+      "backhaulId": "backhaulId01",
+      "onuId": 11,
+      "configurationState": "ACTIVE",
+      "serialNumber": "48AB541118CC5191",
+
+      "ponPortEquipmentBusinessRef": {
+        "endSz": "49/50/179/76H1",
+        "slotName": "5",
+        "portName": "4",
+        "deviceType": "OLT",
+        "portType": "PON"
+
+      },
+      "uplinkPortEquipmentBusinessRef": {
+        "endSz": "49/50/179/76H1",
+        "slotName": "3",
+        "portName": "2",
+        "deviceType": "OLT",
+        "portType": "ETHERNET"
+      }
+    }
+    ]
+  }
+}

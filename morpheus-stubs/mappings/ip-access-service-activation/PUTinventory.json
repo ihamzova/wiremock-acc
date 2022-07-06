@@ -1,0 +1,14 @@
+{
+  "id":"5a95d5da-9e92-11eb-a8b3-0242ac130003",
+  "request":{
+    "method":"PUT",
+    "urlPattern":"/idma-war/service/rcm/inventory/.*"
+  },
+  "response":{
+    "status":204,
+    "headers":{
+      "Content-Type":"application/json",
+      "X-B3-TraceId":"{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

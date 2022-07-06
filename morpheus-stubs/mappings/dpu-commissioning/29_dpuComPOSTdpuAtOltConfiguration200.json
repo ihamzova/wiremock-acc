@@ -1,0 +1,47 @@
+{
+  "id" : "b2c8940d-34ac-44ee-80bb-36b6227a2845",
+  "request" : {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
+    "bodyPatterns" : [
+      {
+        "matchesJsonPath" : "$.[?(@.dpuEndSz =~ /49\\/311\\/\\d+\\/71GA/i)]"
+      }
+    ]
+  },
+  "response" : {
+    "status" : 201,
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}"
+    },
+    "jsonBody":
+    {
+      "id": "12345",
+      "href":"href",
+      "backhaulId": "{{jsonPath request.body '$.backhaulId'}}",
+      "configurationState": "{{jsonPath request.body '$.configurationState'}}",
+      "dpuEndSz": "{{jsonPath request.body '$.dpuEndSz'}}",
+      "onuId": 12345,
+      "serialNumber": "{{jsonPath request.body '$.serialNumber'}}",
+      "ponPortEquipmentBusinessRef":
+      {
+        "endSz": "{{jsonPath request.body '$.endSz'}}",
+        "slotName": "{{jsonPath request.body '$.slotName'}}",
+        "portName": "{{jsonPath request.body '$.portName'}}",
+        "deviceType":"OLT",
+        "portType":"PON"
+
+      },
+      "uplinkPortEquipmentBusinessRef":
+      {
+        "endSz": "{{jsonPath request.body '$.endSz'}}",
+        "slotName": "{{jsonPath request.body '$.slotName'}}",
+        "portName": "{{jsonPath request.body '$.portName'}}",
+        "deviceType":"OLT",
+        "portType":"ETHERNET"
+      }
+    }
+  }
+}

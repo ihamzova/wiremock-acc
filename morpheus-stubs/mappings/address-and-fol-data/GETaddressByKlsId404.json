@@ -1,0 +1,33 @@
+{
+  "id": "b023f664-cffd-4075-9133-bccb3784d061",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "203"
+      }
+    },
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/([0-9]*)"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "type": "https://gard.telekom.de/gardwiki/display/DGHB/8111900400000003",
+      "title": "null java.util.Optional.orElseThrow(Optional.java:290)",
+      "status": 404,
+      "detail": null,
+      "instance": null,
+      "embedded": {
+        "code": "8111900400000003",
+        "reason": "Resource not found.",
+        "message": "Required resource not found in elastic.",
+        "status": 404
+      }
+    }
+  }
+}

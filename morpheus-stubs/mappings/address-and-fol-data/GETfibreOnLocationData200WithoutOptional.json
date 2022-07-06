@@ -1,0 +1,147 @@
+{
+  "id": "9769b795-681a-4a49-92df-5f1d98d7ab35",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "206"
+      }
+    },
+    "urlPattern": "/giga-areas-location/v3/fibreOnLocation/([0-9]*)\\?includeDpGeoData=false"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "id": "{{request.path.[3]}}",
+      "klsId": "12377780",
+      "distributionPoint": {
+        "id": "A"
+      },
+      "status": {
+        "installationStatus": "CONNECTED",
+        "reasonForNoConstruction": null,
+        "buildAgreeState": null
+      },
+      "profile": {
+        "installationDate": null,
+        "technology": "FTTB",
+        "bandwidthProfiles": [
+          "FTTB500"
+        ],
+        "hasRuleViolation": false
+      },
+      "rollout": {
+        "sponsor": "SELF_EXPANSION",
+        "sponsorRuleset": null
+      },
+      "locationType": {
+        "isDevelopment": true,
+        "buildingUsage": "RESIDENTIAL",
+        "expansionCondition": null,
+        "pricePoint": null,
+        "productionMode": null
+      },
+      "geoData": null,
+      "premises": {
+        "residential": 1,
+        "commercial": 0,
+        "additional": 0,
+        "validationDate": null
+      },
+      "metaInfo": {
+        "creationDateTime": "2021-02-26T13:44:05.457Z",
+        "modificationDateTime": "2021-08-19T14:05:36.722Z"
+      },
+      "gigaArea": {
+        "number": "08118011_map",
+        "name": "VVMAreaMoonWithDPMap",
+        "communicativeName": null,
+        "status": "UNDER_CONSTRUCTION",
+        "provider": {
+          "passive": null,
+          "active": 10001
+        },
+        "rollout": {
+          "date": "2021-10-04T00:00:00Z",
+          "partners": [
+            {
+              "id": "d73b4f62-c813-41e3-b420-f7e93c031fee",
+              "partyId": 10009,
+              "role": "initial"
+            }
+          ]
+        },
+        "profile": {
+          "initiative": "SELF_EXPANSION",
+          "tenantId": 10001,
+          "expansionDecisionDate": "2020-09-25T00:00:00Z",
+          "areaOwner": null
+        },
+        "presale": {
+          "startDateTime": "2020-09-25T00:00:00Z",
+          "endDateTime": "2020-11-28T00:00:00Z"
+        },
+        "threshold": {
+          "targetOrderCount": 70,
+          "currentOrderCount": 20,
+          "adjustment": -15
+        },
+        "metaInfo": {
+          "creationDateTime": "2020-09-25T05:19:40.997Z",
+          "modificationDateTime": "2021-10-28T08:28:57.932Z"
+        }
+      },
+      "nvtArea": null,
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/fibreOnLocation/1000000020117?includeDpGeoData=false",
+          "title": "self",
+          "deprecation": null,
+          "templated": false
+        },
+        "create": {
+          "method": "POST",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/fibreOnLocation",
+          "title": "create",
+          "deprecation": null,
+          "templated": false
+        },
+        "update": {
+          "method": "PUT",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/fibreOnLocation/1000000020117",
+          "title": "update",
+          "deprecation": null,
+          "templated": false
+        },
+        "patch": {
+          "method": "PATCH",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/fibreOnLocation/1000000020117",
+          "title": "patch",
+          "deprecation": null,
+          "templated": false
+        },
+        "search": {
+          "method": "GET",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/fibreOnLocations?includeDpGeoData=false{&locationType.isDevelopment,modifiedSince,direction,page,pageSize}",
+          "title": "search",
+          "deprecation": null,
+          "templated": false
+        },
+        "gigaArea": {
+          "method": "GET",
+          "href": "https://apigw-domain-develop-01.magic-dev.telekom.de/giga-areas-location/v3/gigaArea/08118011_map",
+          "title": "gigaArea",
+          "deprecation": null,
+          "templated": false
+        },
+        "nvtArea": null
+      }
+    }
+  }
+}

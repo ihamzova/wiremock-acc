@@ -1,0 +1,17 @@
+{
+  "id": "e778e867-d0e4-4b99-bb1e-1f0f4f0399be",
+  "request": {
+    "urlPath": "/resource-order-resource-inventory/v1/assignOnuIdTask",
+    "method": "POST"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "onuId": "12345678"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ba85228b-005c-4077-9084-9856a20dd2e0",
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "313"
+      }
+    },
+    "urlPattern": "/idma-war/service/rcm/inventory/.*"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "code": "500",
+      "reason": "Failed to establish a backside connection"
+    }
+  }
+}

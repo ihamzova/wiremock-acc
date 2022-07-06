@@ -1,0 +1,21 @@
+{
+  "id": "a74bb15a-2b2b-40c5-be23-332f52387a97",
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuOltConfiguration/\\d+"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    },
+
+    "jsonBody": {
+      "id": "12345",
+      "href": "href",
+      "configurationState": "ACTIVE"
+    }
+  }
+}

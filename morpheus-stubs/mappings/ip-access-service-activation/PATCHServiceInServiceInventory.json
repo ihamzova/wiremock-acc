@@ -1,0 +1,306 @@
+{
+  "id": "0aa3228f-c458-428a-af85-e5ec9de6e1e0",
+  "request": {
+    "method": "PATCH",
+    "urlPattern": "/service-order-service-inventory/v2/serviceInventory/.*"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "53"
+    },
+    "jsonBody": {
+      "id": "a51ed21a-18f4-4c7a-a0d9-614592cb689b",
+      "href": "http://api-gateway/service-order-service-inventory/v2/serviceInventory/a51ed21a-18f4-4c7a-a0d9-614592cb689b",
+      "type": "RFS",
+      "name": "IpAccessConfigOperational",
+      "description": null,
+      "@type": "Standard",
+      "@baseType": "Service",
+      "@schemaLocation": null,
+      "state": "active",
+      "category": "RFS",
+      "isServiceEnabled": true,
+      "hasStarted": true,
+      "startMode": "3",
+      "isStateful": false,
+      "serviceDate": "2021-07-28T11:07:50.860Z",
+      "startDate": "2021-07-28T11:39:03.061Z",
+      "endDate": null,
+      "serviceSpecification": null,
+      "characteristic": [{
+        "name": "ProfilSet",
+        "valueType": null,
+        "value": {
+          "value": "121",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "FramedIPv6Prefix",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "FilterID",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "MaxUpspeed",
+        "valueType": null,
+        "value": {
+          "value": "100000",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "UMT_Service_Data_ThrottleUpL3",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "haMSISDN",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "DelegatedIPv6Prefix",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "IPv4NetMask",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "MaxDownspeed",
+        "valueType": null,
+        "value": {
+          "value": "200000",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "FramedIPv6PrefixLength",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "MaxSessionDuration",
+        "valueType": null,
+        "value": {
+          "value": "0",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "UseCase",
+        "valueType": null,
+        "value": {
+          "value": "PRODUCT_CHANGE_WITH_LINE_ID_CHANGE",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "LineID",
+        "valueType": null,
+        "value": {
+          "value": "DEU.RCM.5",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "DNSProfile",
+        "valueType": null,
+        "value": {
+          "value": "DNSEP",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "TeilnehmerSperre",
+        "valueType": null,
+        "value": {
+          "value": "0",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "UMT_Service_Data_ThrottleProfile",
+        "valueType": null,
+        "value": {
+          "value": "ignoreComplete",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "BSS_OE_OrderID",
+        "valueType": null,
+        "value": {
+          "value": "4711",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "TerminationProfile",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "TunnelProfile",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "IPv4Address",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "UMT_Service_Data_OCSSubscriptionID",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "ProfileID",
+        "valueType": null,
+        "value": {
+          "value": "100006",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "TO-Nr",
+        "valueType": null,
+        "value": {
+          "value": "705100925015",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "ReservePrefix",
+        "valueType": null,
+        "value": {
+          "value": "1",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "CredentialsRequested",
+        "valueType": null,
+        "value": {
+          "value": "false",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "DelegatedIPv6PrefixLength",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "UMT_Service_Data_ThrottleDownL3",
+        "valueType": null,
+        "value": {
+          "value": null,
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "MehrfachZugang",
+        "valueType": null,
+        "value": {
+          "value": "1",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "User-Auth-Required",
+        "valueType": null,
+        "value": {
+          "value": "0",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "IPVersion",
+        "valueType": null,
+        "value": {
+          "value": "3",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "InfluenceSession",
+        "valueType": null,
+        "value": {
+          "value": "0",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }, {
+        "name": "CoANAKReaction",
+        "valueType": null,
+        "value": {
+          "value": "0",
+          "@type": null,
+          "@schemaLocation": null
+        }
+      }
+      ],
+      "serviceRelationship": [],
+      "supportingService": [{
+        "id": "9596cb25-7a1c-4a6c-8579-6cca32ed8f89",
+        "href": null,
+        "name": "GigaIP_Access",
+        "category": "CFS",
+        "@referredType": "IP_Access"
+      }
+      ],
+      "supportingResource": [],
+      "relatedParty": [],
+      "serviceOrder": [],
+      "place": [],
+      "note": []
+    }
+  }
+}

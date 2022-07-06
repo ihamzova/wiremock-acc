@@ -1,0 +1,26 @@
+{
+  "id": "b953c148-1b60-423f-9dcb-33bea6c5b1be",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "306"
+      }
+    },
+    "bodyPatterns" : [ {
+      "contains" : "CreateRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "code": "500",
+      "reason": "Failed to establish a backside connection"
+    }
+  }
+}

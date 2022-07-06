@@ -1,0 +1,20 @@
+{
+  "id": "9949f131-4077-4fa0-bafc-c4acffe8c3f9",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "204"
+      }
+    },
+    "urlPattern": "/giga-areas-location/v1/lookup/addressSearch/getAddressInfo/([0-9]*)"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id" : "09d98974-50d0-414e-8d74-bf2f77ab6d3b",
+  "request" : {
+    "method": "DELETE",
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuOltConfiguration/.*"
+  },
+  "response" : {
+    "status" : 204,
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

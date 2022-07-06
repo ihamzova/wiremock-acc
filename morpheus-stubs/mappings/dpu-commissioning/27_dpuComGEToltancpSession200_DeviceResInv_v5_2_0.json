@@ -1,0 +1,27 @@
+{
+  "id":"97873da0-f9e4-4fc3-af29-0201cb8103e0",
+  "priority": "1",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/ancpSession",
+    "queryParameters": {
+      "accessNodeEquipmentBusinessRef.endSz": {
+        "matches": "49\\/40\\/179\\/76H1"
+      }
+    }
+  },
+  "response":{
+    "status":200,
+    "headers":{
+      "Content-Type":"application/json",
+      "X-B3-TraceId":"{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody":[
+      {
+        "id": "88880",
+        "href": "string_href",
+        "partitionId": 77
+      }
+    ]
+  }
+}

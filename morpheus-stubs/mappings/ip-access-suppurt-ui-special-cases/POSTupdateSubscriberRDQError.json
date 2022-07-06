@@ -1,0 +1,27 @@
+{
+  "id": "c2284cf9-0c72-4278-a6a9-19826b8cf15a",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "301"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "contains": "UpdateRequestSubscriber"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "xmldata": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><UpdateResponseSubscriber xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://dummydomain.telekom.de/RDQ/IN_1\"><RequestID>1234</RequestID><origin>ver.sul.t-online.de</origin><netprofileid>1</netprofileid><rc>0001</rc><returnmessage>Datenbankzugriff fehlgeschlagen.</returnmessage><rectime>20181004132331177</rectime><rsptime>20181004132331317</rsptime><tlnnr>551100085002</tlnnr></UpdateResponseSubscriber>"
+    }
+  }
+}

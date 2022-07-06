@@ -9,27 +9,7 @@
   "fieldPaths": [
     {
       "path": "/expectedCompletionDate",
-      "typeOfChange": "initiallySet"
-    },
-    {
-      "path": "/orderItem/0/resource/lineId",
-      "typeOfChange": "initiallySet"
-    },
-    {
-      "path": "/orderItem/0/resource/carrierContractId",
-      "typeOfChange": "initiallySet"
-    },
-    {
-      "path": "/orderItem/0/resource/witaContractId",
-      "typeOfChange": "initiallySet"
-    },
-    {
-      "path": "/orderItem/0/resource/technicianAppointment",
-      "typeOfChange": "initiallySet"
-    },
-    {
-      "path": "/orderItem/0/resource/networkProfileConfig",
-      "typeOfChange": "initiallySet"
+      "typeOfChange": "updated"
     }
   ],
   "eventPayload": {
@@ -37,7 +17,7 @@
     "resourceOrder": {
       "@type": "GatewayResourceOrder",
       "id": "89898898",
-      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "expectedCompletionDate": "{{now format='yyyy-MM-dd'}}",
       "externalId": "{{jsonPath request.body '$.externalId'}}",
       "externalTag": "bsaActivation",
       "orderDate": "{{jsonPath request.body '$.orderDate'}}",

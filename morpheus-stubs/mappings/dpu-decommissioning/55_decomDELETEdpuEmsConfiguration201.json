@@ -1,0 +1,15 @@
+{
+  "id" : "e4b455dc-5c6e-41e9-86ff-10e31cc40c0d",
+  "request" : {
+    "method": "DELETE",
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuEmsConfiguration.*"
+  },
+  "response" : {
+    "status" : 204,
+    "headers" : {
+      "Content-Type" : "application/json",
+      "X-B3-TraceId" : "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId" : "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

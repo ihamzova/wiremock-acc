@@ -1,0 +1,45 @@
+{
+  "id": "ef29b06b-1062-4e4e-8627-4622c8c6eb2b",
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "49\\/40\\/179\\/76H1|49\\/\\d+\\/0\\/74GA|49\\/\\d+\\/0\\/99GA|49\\/\\d+\\/0\\/73GA|49\\/50\\/179\\/76H1"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody":[{
+      "id": "1049",
+      "href": "string",
+      "state": "ACTIVE",
+      "creationDate": "2021-01-22T15:21:27.19554+01:00",
+      "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+      "ordnungsnummer": 42,
+      "lsz": "4C1",
+      "portsEquipmentBusinessRef": [
+        {
+          "endSz": "{{request.query.portsEquipmentBusinessRef.endSz}}",
+          "portName": "101",
+          "slotName": "4",
+          "deviceType": "OLT",
+          "portType": "PON"
+        },
+        {
+          "endSz": "49/30/179/43G1",
+          "portName": "ge-1/2/3",
+          "slotName": "1",
+          "deviceType": "BNG",
+          "portType": "ETHERNET"
+        }
+      ]
+    }]
+  }
+}

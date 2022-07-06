@@ -1,0 +1,25 @@
+{
+  "priority": 5,
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/accessLine",
+    "queryParameters": {
+      "fields": {
+        "matches": "lineId"
+      },
+      "profiles.networkLineProfile.subscriberNetworkLineProfile.l2ccid.isNull": {
+        "matches": "true"
+      },
+      "status": {
+        "matches": "ASSIGNED"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "123"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "a02c6ae3-87fa-46b4-a3cd-2d94a454b189",
+  "scenarioName": "ServiceOrderEvents",
+  "requiredScenarioState": "RetailTerminationInProgressAfterAcknowledgement",
+  "newScenarioState": "WholebuyTerminationInProgressAfterAcknowledgement",
+  "request": {
+    "method": "GET",
+    "urlPath": "/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+    },
+    "jsonBody": {
+      "eventid": "d6d5b08d-c76b-4430-8a07-6a9638320fe7",
+      "eventTopic": "ServiceOrderEvents",
+      "eventVersion": "1.0",
+      "eventSource": "service-order",
+      "eventType": "ServiceOrderStateChangeNotification",
+      "eventTime": "2019-07-25T15:15:30.062Z",
+      "event": {
+        "ServiceOrder": {
+          "id": "11686",
+          "href": " http://api-gateway/service-order-service-inventory/v1/serviceOrder/11686",
+          "externalId": "123456789099002",
+          "priority": null,
+          "description": "TMF641 Service Order",
+          "category": null,
+          "state": "inProgress",
+          "orderDate": "2019-07-25T15:15:21.371Z",
+          "completionDate": null,
+          "requestedStartDate": "2018-07-28T17:53:59.442Z",
+          "requestedCompletionDate": "2018-07-28T17:53:59.442Z",
+          "expectedCompletionDate": null,
+          "startDate": "2019-07-25T15:15:29.959Z",
+          "notificationContact": null,
+          "@baseType": null,
+          "@type": null,
+          "@schemaLocation": null,
+          "note": [],
+          "relatedParty": [],
+          "orderRelationship": [],
+          "orderItem": [
+            {
+              "id": "1",
+              "action": "noChange",
+              "state": null,
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "65f280d244421212actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/65f280d244421212actws010",
+                "name": "GigaWS_Partner",
+                "serviceState": "active",
+                "type": "Subscriber",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "2",
+              "action": "modify",
+              "state": null,
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "abcdef123456789actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/abcdef123456789actws010",
+                "name": "Giga_xPlayWS",
+                "serviceState": "terminated",
+                "type": "Subscription",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

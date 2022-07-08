@@ -1,0 +1,46 @@
+{
+  "id": "2a99687a-ecd1-4082-a60c-bb51d66357b0",
+  "request": {
+    "method": "GET",
+    "urlPath": "/party/v2/partyManagement/organizations/10013/ascendants"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "id": 10013,
+        "isLegalEntity": true,
+        "type": "atomic",
+        "tradingName": "Leonard Weiss fuer DTAG",
+        "nameType": "Supplier",
+        "characteristics": [],
+        "organizationParentRelationship": {
+          "relationshipType": "hasContractswith",
+          "id": 10001
+        },
+        "contactMedium": [],
+        "locationResponsibility": []
+      },
+      {
+        "id": 10001,
+        "isLegalEntity": true,
+        "type": "compositeOrganization",
+        "tradingName": "Telekom Deutschland GmbH",
+        "nameType": "NetCo",
+        "status": "",
+        "characteristics": [
+          {
+            "name": "carrierCode",
+            "value": "DTAG"
+          }
+        ],
+        "contactMedium": [],
+        "locationResponsibility": []
+      }
+    ]
+  }
+}

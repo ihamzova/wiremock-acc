@@ -1,0 +1,109 @@
+{
+  "id": "33102398-cc09-4076-99a6-a9aa71531882",
+  "request": {
+    "method": "GET",
+    "urlPath": "/service-order-service-inventory/v2/serviceInventory",
+    "queryParameters": {
+      "offset": {
+        "matches": "50"
+      },
+      "limit": {
+        "matches": "50"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "53"
+    },
+    "jsonBody": [
+      {
+        "id": "51",
+        "type": "RFS",
+        "name": "AccessLine",
+        "state": "active",
+        "category": "RFS",
+        "isServiceEnabled": true,
+        "hasStarted": true,
+        "startMode": "3",
+        "isStateful": false,
+        "serviceDate": "{{now offset='3 days'}}",
+        "startDate": "{{now offset='3 days'}}",
+        "characteristic": [
+          {
+            "name": "AccessProductionMode",
+            "value": {
+              "value": "{{request.query.ServiceCharacteristics.value.value}}"
+
+            }
+          },
+          {
+            "name": "Line-ID",
+            "value": {
+              "value": "DEU.INIT.{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}40{{randomValue length=1 type='NUMERIC'}}"
+            }
+          }
+        ]
+      },
+      {
+        "id": "52",
+        "type": "RFS",
+        "name": "AccessLine",
+        "state": "active",
+        "category": "RFS",
+        "isServiceEnabled": true,
+        "hasStarted": true,
+        "startMode": "3",
+        "isStateful": false,
+        "serviceDate": "{{now offset='3 days'}}",
+        "startDate": "{{now offset='3 days'}}",
+        "characteristic": [
+          {
+            "name": "AccessProductionMode",
+            "value": {
+              "value": "{{request.query.ServiceCharacteristics.value.value}}"
+
+            }
+          },
+          {
+            "name": "Line-ID",
+            "value": {
+              "value": "DEU.INIT.{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}40{{randomValue length=1 type='NUMERIC'}}"
+            }
+          }
+        ]
+      },
+      {
+        "id": "53",
+        "type": "RFS",
+        "name": "AccessLine",
+        "state": "active",
+        "category": "RFS",
+        "isServiceEnabled": true,
+        "hasStarted": true,
+        "startMode": "3",
+        "isStateful": false,
+        "serviceDate": "{{now offset='3 days'}}",
+        "startDate": "{{now offset='3 days'}}",
+        "characteristic": [
+          {
+            "name": "AccessProductionMode",
+            "value": {
+              "value": "{{request.query.ServiceCharacteristics.value.value}}"
+
+            }
+          },
+          {
+            "name": "Line-ID",
+            "value": {
+              "value": "DEU.INIT.{{randomValue length=7 type='ALPHANUMERIC' uppercase=true}}40{{randomValue length=1 type='NUMERIC'}}"
+            }
+          }
+        ]
+      }
+
+    ]
+  }
+}

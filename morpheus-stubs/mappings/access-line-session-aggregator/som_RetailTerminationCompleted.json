@@ -1,0 +1,339 @@
+{
+  "id": "68bea52f-2036-44bb-b432-977fb74e05f7",
+  "scenarioName": "ServiceOrderEvents",
+  "requiredScenarioState": "WholebuyTerminationInProgressAfterAcknowledgement",
+  "newScenarioState": "RetailTerminationCompleted",
+  "request": {
+    "method": "GET",
+    "urlPath": "/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+    },
+    "jsonBody": {
+      "eventid": "96072203-2a4b-4f00-bea6-07331167616b",
+      "eventTopic": "ServiceOrderEvents",
+      "eventVersion": "1.0",
+      "eventSource": "service-order",
+      "eventType": "ServiceOrderStateChangeNotification",
+      "eventTime": "2019-07-23T14:33:56.299Z",
+      "event": {
+        "ServiceOrder": {
+          "id": "11643",
+          "href": " http://api-gateway/service-order-service-inventory/v1/serviceOrder/11643",
+          "externalId": "123456789098876",
+          "priority": null,
+          "description": "TMF641 Service Order",
+          "category": null,
+          "state": "completed",
+          "orderDate": "2019-07-23T14:20:31.473Z",
+          "completionDate": "7/23/19 2:33 PM",
+          "requestedStartDate": "2018-07-28T17:53:59.442Z",
+          "requestedCompletionDate": "2018-07-28T17:53:59.442Z",
+          "expectedCompletionDate": null,
+          "startDate": "2019-07-23T14:20:38.268Z",
+          "notificationContact": null,
+          "@baseType": null,
+          "@type": null,
+          "@schemaLocation": null,
+          "note": [],
+          "relatedParty": [],
+          "orderRelationship": [],
+          "orderItem": [
+            {
+              "id": "2",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "abcdef22love987654",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/abcdef22love987654",
+                "name": "Giga_xPlay",
+                "serviceState": "terminated",
+                "type": "Subscription",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "3",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "2234dc6e-82b0-4314-acc6-f61adf9dcbbf",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/2234dc6e-82b0-4314-acc6-f61adf9dcbbf",
+                "name": "GigaAnschluss",
+                "serviceState": "terminated",
+                "type": "Anschluss",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "CarrierCode",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "DTAG"
+                    }
+                  },
+                  {
+                    "name": "Line-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "DEU.DTAG.I7N0000000"
+                    }
+                  },
+                  {
+                    "name": "CPL-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "XY0012"
+                    }
+                  },
+                  {
+                    "name": "KLS_ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "14653"
+                    }
+                  },
+                  {
+                    "name": "UpstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "10000"
+                    }
+                  },
+                  {
+                    "name": "Technology",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "FTTH"
+                    }
+                  },
+                  {
+                    "name": "DownstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "50000"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "4",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "81354afa-915e-447e-8830-a4ce7da5c48f",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/81354afa-915e-447e-8830-a4ce7da5c48f",
+                "name": "GigaIP_Access",
+                "serviceState": "terminated",
+                "type": "IP_Access",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "MinDownstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "25728"
+                    }
+                  },
+                  {
+                    "name": "SubscriberNumber",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "5511000850020000"
+                    }
+                  },
+                  {
+                    "name": "AnschlussBilanzierung",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "400"
+                    }
+                  },
+                  {
+                    "name": "MehrfachZugang",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "1"
+                    }
+                  },
+                  {
+                    "name": "DNS_Profile",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "DNS-EP"
+                    }
+                  },
+                  {
+                    "name": "MaxUpspeed",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "200000"
+                    }
+                  },
+                  {
+                    "name": "Recht_auf_Feste_IPAdresse",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "false"
+                    }
+                  },
+                  {
+                    "name": "IP_Version",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "3"
+                    }
+                  },
+                  {
+                    "name": "MaxSessionDuration",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "0"
+                    }
+                  },
+                  {
+                    "name": "VoIP_is_present",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "true"
+                    }
+                  },
+                  {
+                    "name": "FON_aktiv",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "true"
+                    }
+                  },
+                  {
+                    "name": "MaxDownspeed",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "500000"
+                    }
+                  },
+                  {
+                    "name": "MinUpstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "2700"
+                    }
+                  },
+                  {
+                    "name": "IPTV_enabled",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "true"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "1",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "65f1128w0d23c22love987654",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/65f1128w0d23c22love987654",
+                "name": "GigaSubscriber",
+                "serviceState": "terminated",
+                "type": "Subscriber",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "8c408f60-38dc-4cae-a981-55f16e1dd9d2",
+  "priority": 10,
+  "scenarioName": "SlupTokens",
+  "requiredScenarioState": "StartedDelayed",
+  "newScenarioState": "A007",
+  "request": {
+    "urlPattern": "/slupService",
+    "method": "POST",
+    "headers": {
+      "Content-Type": {
+        "contains": "text/xml"
+      },
+      "SOAPAction": {
+        "contains": "/slupService/startSLUP2"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": "//slup:startSLUP2/slupURL",
+        "xPathNamespaces": {
+          "slup": "http://slup2soap.idm.telekom.com/slupService/"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/xml"
+    },
+    "fixedDelayMilliseconds": 15000,
+    "body": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:slup='http://slup2soap.idm.telekom.com/slupService/'><soapenv:Header/><soapenv:Body><slup:startSLUP2Response><SLUPreturncode>0000</SLUPreturncode><detail>OK, SLUP Queue was started</detail><token>{{eq (persist key='SLUPToken') null yes='123456' no=(persist key='SLUPToken')}}</token></slup:startSLUP2Response></soapenv:Body></soapenv:Envelope>"
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 3000,
+          "headers": {
+            "Content-Type": "text/xml"
+          },
+          "url": "{{soapXPath request.body '/startSLUP2/slupURL/text()'}}",
+          "body": "<soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:slup='http://slup2soap.idm.telekom.com/slupClient/'><soapenv:Header/><soapenv:Body><slup:SLUPConnect><token>{{eq (persist key='SLUPToken') null yes='123456' no=(persist key='SLUPToken')}}</token></slup:SLUPConnect></soapenv:Body></soapenv:Envelope>"
+        }
+      ]
+    }
+  }
+}

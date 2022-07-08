@@ -1,0 +1,27 @@
+{
+  "id": "2f878fd6-a1c2-11eb-bcbc-0242ac130002",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/BNGReferenceContainer",
+    "queryParameters": {
+      "nasIPAdresses": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "id": "string",
+        "href": "string",
+        "endSz": "49/8571/0/76H1",
+        "ipAddressBng": "{{request.query.nasIPAdresses}}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2ca2956e-c3e7-4be3-8152-34728ba3c782",
+  "request": {
+    "urlPattern": "/reqcb/upstream-partner/tardis/dhfd/opding/opding-api/v3/diagnosis/platformControl/readRouterInfo",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": {
+          "expression" : "$.lineId",
+          "doesNotMatch" : ".*404"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "method": "POST",
+      "fixedDelayMilliseconds": 5000,
+      "jsonBody": {
+        "processingStatus": {
+          "status": "OK"
+        },
+        "result": {
+          "status": "UNEVALUATED",
+          "resultData": {
+            "readPfcRouterInfoResultData": {
+              "nasIPAddress": "192.168.1.1",
+              "nasPort": 621138151,
+              "nasPortType": 34
+            }
+          }
+        }
+      }
+    }
+  }
+}

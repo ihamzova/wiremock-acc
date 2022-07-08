@@ -1,0 +1,26 @@
+{
+  "id": "71b20f64-6a3b-4046-9868-f4d8521d02e5",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/PortReferenceContainer"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "id": "{{randomValue type='UUID'}}",
+        "href": "href",
+        "endSz": "{{request.query.endSz}}",
+        "slot": "{{request.query.slot}}",
+        "subslot": "{{request.query.subslot}}",
+        "port": "{{request.query.port}}",
+        "portName": "ge-{{request.query.slot}}/{{request.query.subslot}}/{{request.query.port}}",
+        "errorDescription": ""
+      }
+    ]
+  }
+}

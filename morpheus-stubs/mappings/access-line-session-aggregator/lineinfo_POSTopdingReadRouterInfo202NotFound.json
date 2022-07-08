@@ -1,0 +1,41 @@
+{
+  "id": "903e0e4d-72bb-43b8-aaf1-dc8224b7fed8",
+  "request": {
+    "urlPattern": "/reqcb/upstream-partner/tardis/dhfd/opding/opding-api/v3/diagnosis/platformControl/readRouterInfo",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": {
+          "expression" : "$.lineId",
+          "matches" : ".*404"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "Content-Type": "application/json",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+      },
+      "method": "POST",
+      "fixedDelayMilliseconds": 5000,
+      "jsonBody": {
+        "processingStatus": {
+          "status": "ERROR",
+          "error": {
+            "message": "The lineId was not found."
+          }
+        }
+      }
+    }
+  }
+}

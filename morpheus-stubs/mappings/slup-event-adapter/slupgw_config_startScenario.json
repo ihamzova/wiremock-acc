@@ -1,0 +1,21 @@
+{
+  "id": "5a2955ac-68f9-432d-af64-9a7aa5acb8b5",
+  "priority": 10,
+  "scenarioName": "SlupTokens",
+  "requiredScenarioState": "A007",
+  "newScenarioState": "Started",
+  "request": {
+    "urlPattern": "/slupService/__config/scenario/current/A007/new/Started",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200
+  },
+  "postServeActions": {
+    "persist": {
+      "action": "set",
+      "key": "SLUPToken",
+      "value": "{{randomValue length=8 type='NUMERIC'}}"
+    }
+  }
+}

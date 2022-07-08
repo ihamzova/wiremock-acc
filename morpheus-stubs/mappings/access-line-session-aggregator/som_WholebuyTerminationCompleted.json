@@ -1,0 +1,188 @@
+{
+  "id": "331e79be-0a73-44d6-859b-775dcae67f26",
+  "scenarioName": "ServiceOrderEvents",
+  "requiredScenarioState": "RetailTerminationCompleted",
+  "newScenarioState": "WholebuyTerminationCompleted",
+  "request": {
+    "method": "GET",
+    "urlPath": "/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+    },
+    "jsonBody": {
+      "eventid": "09767c04-5139-4b78-af27-a4d013365b41",
+      "eventTopic": "ServiceOrderEvents",
+      "eventVersion": "1.0",
+      "eventSource": "service-order",
+      "eventType": "ServiceOrderStateChangeNotification",
+      "eventTime": "2019-07-25T15:19:57.499Z",
+      "event": {
+        "ServiceOrder": {
+          "id": "11686",
+          "href": " http://api-gateway/service-order-service-inventory/v1/serviceOrder/11686",
+          "externalId": "123456789099002",
+          "priority": null,
+          "description": "TMF641 Service Order",
+          "category": null,
+          "state": "completed",
+          "orderDate": "2019-07-25T15:15:21.371Z",
+          "completionDate": "7/25/19 3:19 PM",
+          "requestedStartDate": "2018-07-28T17:53:59.442Z",
+          "requestedCompletionDate": "2018-07-28T17:53:59.442Z",
+          "expectedCompletionDate": null,
+          "startDate": "2019-07-25T15:15:29.959Z",
+          "notificationContact": null,
+          "@baseType": null,
+          "@type": null,
+          "@schemaLocation": null,
+          "note": [],
+          "relatedParty": [],
+          "orderRelationship": [],
+          "orderItem": [
+            {
+              "id": "1",
+              "action": "noChange",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "65f280d244421212actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/65f280d244421212actws010",
+                "name": "GigaWS_Partner",
+                "serviceState": "active",
+                "type": "Subscriber",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "2",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "abcdef123456789actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/abcdef123456789actws010",
+                "name": "Giga_xPlayWS",
+                "serviceState": "terminated",
+                "type": "Subscription",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "3",
+              "action": "modify",
+              "state": "completed",
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "1bd4c5f8-441a-440b-83fa-34743be03d16",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/1bd4c5f8-441a-440b-83fa-34743be03d16",
+                "name": "GigaAnschluss",
+                "serviceState": "terminated",
+                "type": "Anschluss",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "Technology",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "FTTH"
+                    }
+                  },
+                  {
+                    "name": "KLS_ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "26940718"
+                    }
+                  },
+                  {
+                    "name": "DownstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "50000"
+                    }
+                  },
+                  {
+                    "name": "UpstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "10000"
+                    }
+                  },
+                  {
+                    "name": "CPL-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "XY0012"
+                    }
+                  },
+                  {
+                    "name": "CarrierCode",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "{{randomValue length=4 type='ALPHANUMERIC' uppercase=true}}"
+                    }
+                  },
+                  {
+                    "name": "Line-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "DEU.DTAG.I7N0000000"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

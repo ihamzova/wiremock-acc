@@ -1,0 +1,21 @@
+{
+  "id": "a8c5fdf9-ecce-4d88-9031-e01234567890",
+  "request": {
+    "method": "POST",
+    "urlPath": "/pubsub/r/service-order-service-inventory/v1/ServiceOrderEvents",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.subscribername=='access-line-session-aggregator')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "5136-hfgd-9257-kapr",
+      "X-Pubsub-Subscriber-Url": "https://wiremock-acc-app-morpheus-02.telitcaas3.t-internal.com/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents"
+    }
+  }
+}

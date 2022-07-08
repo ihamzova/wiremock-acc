@@ -1,0 +1,289 @@
+{
+  "id": "6e6fe18f-4740-42c2-9153-8b7cd245a9d7",
+  "scenarioName": "ServiceOrderEvents",
+  "requiredScenarioState": "RetailActivationInProgressAfterAcknowledgement",
+  "newScenarioState": "WholebuyActivationInProgressAfterAcknowledgement",
+  "request": {
+    "method": "GET",
+    "urlPath": "/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+    },
+    "jsonBody": {
+      "eventid": "57a64822-c4d5-481f-a82e-e19d46bcd945",
+      "eventTopic": "ServiceOrderEvents",
+      "eventVersion": "1.0",
+      "eventSource": "service-order",
+      "eventType": "ServiceOrderStateChangeNotification",
+      "eventTime": "2019-07-25T15:03:17.051Z",
+      "event": {
+        "ServiceOrder": {
+          "id": "11685",
+          "href": " http://api-gateway/service-order-service-inventory/v1/serviceOrder/11685",
+          "externalId": "123456789099001",
+          "priority": null,
+          "description": "TMF641 Service Order",
+          "category": null,
+          "state": "inProgress",
+          "orderDate": "2019-07-25T15:03:10.312Z",
+          "completionDate": null,
+          "requestedStartDate": "2018-07-28T17:53:59.442Z",
+          "requestedCompletionDate": "2018-07-28T17:53:59.442Z",
+          "expectedCompletionDate": null,
+          "startDate": "2019-07-25T15:03:16.913Z",
+          "notificationContact": null,
+          "@baseType": null,
+          "@type": null,
+          "@schemaLocation": null,
+          "note": [],
+          "relatedParty": [],
+          "orderRelationship": [],
+          "orderItem": [
+            {
+              "id": "3",
+              "action": "add",
+              "state": null,
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "1bd4c5f8-441a-440b-83fa-34743be03d16",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/1bd4c5f8-441a-440b-83fa-34743be03d16",
+                "name": "GigaAnschluss",
+                "serviceState": "active",
+                "type": "Anschluss",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "DMS_Archivstruktur_kundeAnrede",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "Frau"
+                    }
+                  },
+                  {
+                    "name": "DownstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "50000"
+                    }
+                  },
+                  {
+                    "name": "KLS_ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "26940718"
+                    }
+                  },
+                  {
+                    "name": "DMS_Archivstruktur_kundeTitel",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "Dr."
+                    }
+                  },
+                  {
+                    "name": "Technology",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "FTTH"
+                    }
+                  },
+                  {
+                    "name": "DMS_Archivstruktur_kundeVbkz",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "27"
+                    }
+                  },
+                  {
+                    "name": "UpstreamBandwidth",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "10000"
+                    }
+                  },
+                  {
+                    "name": "CPL-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "XY0012"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "1",
+              "action": "add",
+              "state": null,
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "65f280d244421212actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/65f280d244421212actws010",
+                "name": "GigaWS_Partner",
+                "serviceState": "active",
+                "type": "Subscriber",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "Subscriber-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "65f280d2444212121dddwd122"
+                    }
+                  },
+                  {
+                    "name": "Providernummer",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "111111111"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            },
+            {
+              "id": "2",
+              "action": "add",
+              "state": null,
+              "@type": null,
+              "@schemaLocation": null,
+              "@baseType": null,
+              "appointment": null,
+              "orderItemRelationship": [],
+              "service": {
+                "id": "abcdef123456789actws010",
+                "href": "http://api-gateway/service-order-service-inventory/v1/serviceInventory/abcdef123456789actws010",
+                "name": "Giga_xPlayWS",
+                "serviceState": "active",
+                "type": "Subscription",
+                "@type": "Service",
+                "@schemaLocation": null,
+                "place": [],
+                "serviceCharacteristic": [
+                  {
+                    "name": "CA_BSA_RoutingProfileID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "false"
+                    }
+                  },
+                  {
+                    "name": "Subscription-ID",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "VRE12345611"
+                    }
+                  },
+                  {
+                    "name": "HasExistingNgssmSubscription",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "false"
+                    }
+                  },
+                  {
+                    "name": "CA_BSA_Technology",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "FTTH"
+                    }
+                  },
+                  {
+                    "name": "CA_BSA_DienstvertragsNr",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "TB0000"
+                    }
+                  },
+                  {
+                    "name": "CA_BSA_CarrierAnschlussTyp",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "WIA"
+                    }
+                  },
+                  {
+                    "name": "CA_BSA_SubstitutionDomain",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "gigatripleplay"
+                    }
+                  },
+                  {
+                    "name": "CA_BSA_AccessProviderNumber",
+                    "valueType": null,
+                    "value": {
+                      "@type": null,
+                      "@schemaLocation": null,
+                      "value": "4444"
+                    }
+                  }
+                ],
+                "serviceRelationship": [],
+                "relatedParty": [],
+                "serviceSpecification": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

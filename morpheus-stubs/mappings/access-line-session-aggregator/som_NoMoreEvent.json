@@ -1,0 +1,18 @@
+{
+  "id": "31a38377-0599-4180-9d90-8298acc30d83",
+  "scenarioName": "ServiceOrderEvents",
+  "requiredScenarioState": "WholebuyTerminationCompleted",
+  "newScenarioState": "Started",
+  "request": {
+    "method": "GET",
+    "urlPath": "/pubsub/s/service-order-service-inventory/v1/ServiceOrderEvents/"
+  },
+  "response": {
+    "status": 204,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Pubsub-Subscriber-Id": "{{request.headers.X-Pubsub-Subscriber-Id}}"
+    }
+  }
+}

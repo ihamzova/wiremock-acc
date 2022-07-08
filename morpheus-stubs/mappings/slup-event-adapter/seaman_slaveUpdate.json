@@ -1,0 +1,14 @@
+{
+  "id": "2de6e795-c287-4077-a782-9ca045dcfd89",
+  "request": {
+    "urlPattern": "/seman/v1/userProfile",
+    "method": "POST"
+
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

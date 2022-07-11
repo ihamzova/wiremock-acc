@@ -1,0 +1,41 @@
+{
+  "id": "a686f6ef-7be7-46cd-8075-581ce62062f6",
+  "request": {
+    "method": "GET",
+    "urlPath": "/giga-areas-location/v3/wholeBuyFibreOnLocations",
+    "queryParameters": {
+      "klsId": {
+        "matches": "3237814"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "id": "1000000000002",
+          "klsId": "3237814",
+          "status": {
+            "addressStatus": "HOMES_CONNECTED"
+          },
+          "profile": {
+            "technology": "FTTH"
+          },
+          "gigaArea": {
+            "provider": {
+              "active": 0
+            },
+            "status": "AREA_PLANNED",
+            "profile": {
+              "initiative": "WHOLE_BUY_BSA"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

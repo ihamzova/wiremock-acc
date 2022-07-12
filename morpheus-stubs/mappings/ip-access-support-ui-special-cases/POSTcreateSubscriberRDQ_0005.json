@@ -1,0 +1,25 @@
+{
+  "id": "8ae18ea4-088a-4689-b2e9-2d59ecc07f5b",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/RDQIN_subscriberProvisioning/v1/RDQ/Subscriber",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "315"
+      }
+    },
+    "bodyPatterns" : [ {
+      "contains" : "CreateRequestSubscriber"
+    } ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "xmldata": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?><CreateResponseSubscriber xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://dummydomain.telekom.de/RDQ/IN_1\"><RequestID>1234</RequestID><origin>ver.sul.t-online.de</origin><netprofileid>1</netprofileid><rc>0005</rc><returnmessage>Einfuegen  schlug fehl. Adressierter Datensatz existiert bereits.</returnmessage><errormessage>Beim Anlegen eines Satzes von Typ Subscriber existiert bereits ein Satz mit den Schluesseldaten.</errormessage><rectime>20181004132331177</rectime><rsptime>20181004132331317</rsptime><tlnnr>551100085002</tlnnr></CreateResponseSubscriber>"
+    }
+  }
+}

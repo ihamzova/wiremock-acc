@@ -1,0 +1,25 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCancel",
+  "eventType": "CancelResourceOrderTaskStateChangeNotification",
+  "@type": "CancelResourceOrderTaskStateChangeNotification",
+  "eventVersion": "2.2",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "CancelResourceOrderTaskStateChangeNotificationPayload",
+    "task": {
+      "@type": "CancelGatewayResourceOrderTask",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderTaskStateChange",
+        "state": "TerminatedWithError"
+      },
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "taskDate": "{{jsonPath request.body '$.taskDate'}}",
+      "effectiveCancellationDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "resourceOrder": {
+        "id": "{{jsonPath request.body '$.resourceOrder.id'}}"
+      }
+    }
+  }
+}

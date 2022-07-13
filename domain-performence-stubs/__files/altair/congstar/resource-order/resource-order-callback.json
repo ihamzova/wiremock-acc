@@ -1,0 +1,9 @@
+{
+  "response": {
+    "message": "ServiceOrder is processing",
+    "messageCode": "201",
+    "externalId": "{{jsonPath request.body '$.externalId'}}",
+    "id": "89898898"
+  },
+  "success": true
+}

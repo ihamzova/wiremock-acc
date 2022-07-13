@@ -1,0 +1,14 @@
+{
+  "id": "03dd5f56-70bf-4683-ba61-f68f567cb02c",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v1/giga-tas"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "altair/giga-ta-resource-inventory/giga-ta/giga-ta.json"
+  }
+}

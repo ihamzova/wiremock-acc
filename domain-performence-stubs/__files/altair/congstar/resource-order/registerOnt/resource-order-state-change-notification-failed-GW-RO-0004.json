@@ -1,0 +1,43 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaRegisterOnt",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "state": "Failed",
+      "lastStateChange":{
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Failed",
+        "changeReason": {
+          "@type": "GatewayStateChangeReason",
+          "changeReasonCode": "GW-RO-0004",
+          "changeReasonDescription": "Could not establish connection to media converter"
+        }
+      },
+      "category": "ONT",
+      "ONTserialNumber": "{{jsonPath request.body '$.orderItem[0].resource.ONTserialNumber'}}",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "carrierContractId": "{{jsonPath request.body '$.orderItem[0].resource.carrierContractId'}}"
+          }
+        }
+      ]
+    }
+  }
+}

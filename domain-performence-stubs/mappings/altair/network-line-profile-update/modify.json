@@ -1,0 +1,57 @@
+{
+  "postServeActions": {
+    "webhook": {
+      "method": "POST",
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Content-Type": "application/json"
+      },
+      "jsonBody": {
+        "error": {
+          "message": "No Error",
+          "status": 200,
+          "code": "200"
+        },
+        "response": {
+          "event": {
+            "resourceOrder": {
+              "id": "{{randomValue length\u003d5 type\u003d\u0027NUMERIC\u0027}}",
+              "state": "COMPLETED",
+              "resourceOrderItems": [
+                {
+                  "action": "MODIFY",
+                  "resource": {
+                    "id": "12345",
+                    "state": "OPERATING_WORKING",
+                    "resourceCharacteristics": [
+                      {
+                        "name": "CALID"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "success": true
+      }
+    }
+  },
+  "request": {
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$..[?(@.action\u003d\u003d\u0027MODIFY\u0027)]"
+      }
+    ],
+    "method": "POST",
+    "urlPathPattern": "((/reqcb)?)/resource-order-resource-inventory/v1/networkLineProfile/"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "text/plain"
+    },
+    "status": 202
+  }
+}

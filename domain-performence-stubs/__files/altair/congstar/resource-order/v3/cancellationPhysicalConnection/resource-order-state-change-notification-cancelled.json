@@ -1,0 +1,132 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "{{jsonPath request.body '$.resourceOrder.id'}}",
+      "completionDate": "2020-06-24",
+      "expectedCompletionDate": "2020-07-22",
+      "externalId": "Giga_{{#assign 'relationData'}}{{#curl}}{{unsafeSystemValue type='ENVIRONMENT' key='SERVICE_ORDER_PATH'}}/service-order-rs/service-order/local/v1/serviceorders/bid/load/{{regexExtract (jsonPath request.body '$.externalId') '[0-9]+'}}{{/curl}}{{/assign}}{{jsonPath relationData '$.orderRelationships[0].id'}}_1",
+      "externalTag": "bsaPhysicalConnection",
+      "orderDate": "2020-06-24T20:25:25.000738Z",
+      "requestedCompletionDate": "2020-07-22",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Cancelled"
+      },
+      "category": "BSA",
+      "lastCancellationDate": "2020-07-16",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "DEU.RKOM.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+            "carrierContractId": "5587898788",
+            "witaContractId": "3321456789",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 55168,
+              "ramMaxupL2": 11264,
+              "ramMinDownL2": 27504,
+              "ramMinUpL2": 27000,
+              "ramMinKPDownL2": 27504,
+              "ramMinKPUpL2": 27000
+            },
+            "installationPlace": {
+              "@baseType": "Place",
+              "@type": "GatewayPlace",
+              "klsId": 3094934
+            }
+          },
+          "resourceSpecification": {
+            "id": "FTTC50"
+          }
+        }
+      ],
+      "relatedParty": [
+        {
+          "id": "1",
+          "role": [
+            "lineOwner",
+            "installationContact"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+4915112341234"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "test.test@telekom.de"
+                }
+              }
+            ],
+            "familyName": "Test",
+            "givenName": "Norbert",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        },
+        {
+          "id": "2",
+          "role": [
+            "propertyOwner"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+4915112341235"
+                }
+              },
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+49251788779511"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "imusk@gmail.com"
+                }
+              },
+              {
+                "mediumType": "postalAddress",
+                "characteristic": {
+                  "postalAddress": {
+                    "city": "Munic",
+                    "postcode": "23412",
+                    "street": "ABC Str.",
+                    "housenumber": "13",
+                    "housenumber_suffix": "A"
+                  }
+                }
+              }
+            ],
+            "familyName": "Mann",
+            "givenName": "Thomas",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        }
+      ]
+    }
+  }
+}

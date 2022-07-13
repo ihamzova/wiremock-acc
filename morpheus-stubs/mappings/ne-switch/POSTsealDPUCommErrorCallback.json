@@ -1,0 +1,45 @@
+{
+  "id": "2ba079a6-536b-485b-be20-ef3e99e1b3ab",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/resource-order-resource-inventory/v1/dpu/dpuConfigurationTask",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "406"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.dpuName=='49_8571_1_71GA_V2')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  },
+  "uuid": "c2df13e0-1234-1234-1234-336e5e5a02ad",
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}",
+        "Content-Type": "application/json"
+      },
+      "method": "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds": 3000,
+      "jsonBody": {
+        "status": 5100,
+        "statustype": "ERROR",
+        "message": "there is an error"
+      }
+    }
+  }
+}

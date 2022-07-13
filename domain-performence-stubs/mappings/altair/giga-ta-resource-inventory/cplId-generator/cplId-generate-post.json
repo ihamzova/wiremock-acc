@@ -1,0 +1,16 @@
+{
+  "id": "e5f18624-57e3-4d18-b0b5-0864ef430164",
+  "request": {
+    "method": "POST",
+    "url": "/resource-order-resource-inventory/v1/cplIds"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "cplId": "ZZZZAA"
+    }
+  }
+}

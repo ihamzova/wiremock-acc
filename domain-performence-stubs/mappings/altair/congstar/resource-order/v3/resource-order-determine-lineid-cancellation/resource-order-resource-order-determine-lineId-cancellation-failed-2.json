@@ -1,0 +1,75 @@
+{
+  "id": "fbe55fe4-4180-430d-a4dd-635ebe7528b1",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/upstream-partner/tardis/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaDetermineLineId')]"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc25fff"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "statusMessage": "Async response. Reservation request is accepted.",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}"
+    }
+  },
+  "postServeActions": {
+    "webhooks": {
+      "webhooks": [
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 10000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json",
+            "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+            "X-Callback-Url": "{{request.headers.X-Callback-Url}}",
+            "X-Callback-Id": "{{request.headers.X-Callback-Id}}"
+          },
+          "url": "{{request.headers.X-Callback-Url}}",
+          "bodyFileName": "altair/congstar/resource-order/resource-order-callback.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 15000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "bodyFileName": "altair/congstar/resource-order/v3/determineLineId/resource-order-state-change-notification-acknowledged.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 20000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "bodyFileName": "altair/congstar/resource-order/v3/determineLineId/resource-order-attribute-value-change-notification-update.json"
+        },
+        {
+          "method": "POST",
+          "fixedDelayMilliseconds": 25000,
+          "headers": {
+            "Authorization": "Bearer {{oauth}}",
+            "Content-Type": "application/json"
+          },
+          "url": "{{unsafeSystemValue type='ENVIRONMENT' key='API_GATEWAY_URL'}}pubsub/p/upstream-partner/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/events",
+          "bodyFileName": "altair/congstar/resource-order/v3/determineLineId/resource-order-state-change-notification-failed.json"
+        }
+      ]
+    }
+  }
+}

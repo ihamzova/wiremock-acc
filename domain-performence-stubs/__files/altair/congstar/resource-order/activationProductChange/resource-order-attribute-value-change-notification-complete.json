@@ -1,0 +1,58 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderAttributeValueChangeNotification",
+  "@type": "ResourceOrderAttributeValueChangeNotification",
+  "eventVersion": "1.0",
+  "eventSource": "WholebuyGateway",
+  "fieldPaths": [
+    {
+      "path": "/orderItem/0/resource/startOperatingDate",
+      "typeOfChange": "initiallySet"
+    }
+  ],
+  "eventPayload": {
+    "@type": "ResourceOrderAttributeValueChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaProductChange",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "state": "Acknowledged",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Acknowledged"
+      },
+      "category": "BSA",
+      "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "modify",
+          "resource": {
+            "@type": "WholebuyResource",
+            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
+            "lineId": "{{jsonPath request.body '$.orderItem[0].resource.lineId'}}",
+            "carrierContractId": "6666666666",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 550000,
+              "ramMaxupL2": 550000,
+              "ramMinDownL2": 550000,
+              "ramMinUpL2": 550000,
+              "ramMinKPDownL2": 550000,
+              "ramMinKPUpL2": 550000
+            }
+          },
+          "resourceSpecification": {
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "22a52530-1e53-4fe4-9343-4965651a3c63",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/upstream-partner/tardis/resource-order-resource-inventory/wholebuy-l2bsa/resourceOrderingManagement/v3/resourceOrder/",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.externalTag=='bsaDetermineLineId')]"
+      }
+    ],
+    "headers": {
+      "X-B3-TraceId": {
+        "contains": "fffc28fff"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "statusMessage": "Internal Server Error",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

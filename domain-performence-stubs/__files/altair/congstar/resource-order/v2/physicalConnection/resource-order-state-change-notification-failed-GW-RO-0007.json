@@ -1,0 +1,72 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaPhysicalConnection",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "state": "Failed",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Failed",
+        "changeReason": {
+          "@type": "GatewayStateChangeReason",
+          "changeReasonCode": "GW-RO-0007",
+          "changeReasonDescription": "Invalid resourceSpecification for provided KLS-ID"
+        }
+      },
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "installationPlace": {
+              "@type": "GatewayPlace",
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}"
+            }
+          }
+        }
+      ],
+      "installationPlaceContact": {
+        "@baseType": "RelatedParty",
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 151 12341234"
+            }
+          }
+        ]
+      },
+      "installationTechnicianContact": {
+        "@type": "Individual",
+        "familyName": "Test",
+        "givenName": "Norbert",
+        "gender": "Herr",
+        "contactMedium": [
+          {
+            "mediumType": "phone",
+            "characteristic": {
+              "phoneNumber": "+49 221 5676567"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

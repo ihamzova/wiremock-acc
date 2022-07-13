@@ -1,0 +1,84 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderStateChangeNotification",
+  "@type": "ResourceOrderStateChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "eventPayload": {
+    "@type": "ResourceOrderStateChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "completionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaActivation",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Rejected"
+      },
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "startOperatingDate": "{{now format='yyyy-MM-dd'}}",
+            "lineId": "{{persist  key='l2bsaActivationLineId'}}",
+            "carrierContractId": "5587898788",
+            "witaContractId": "3321456789",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 110000,
+              "ramMaxupL2": 110000,
+              "ramMinDownL2": 110000,
+              "ramMinUpL2": 110000,
+              "ramMinKPDownL2": 110000,
+              "ramMinKPUpL2": 110000
+            },
+            "installationPlace": {
+              "@type": "GatewayPlace",
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}"
+            }
+          },
+          "resourceSpecification": {
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
+          }
+        }
+      ],
+      "relatedParty": [
+        {
+          "id": "1",
+          "role": [
+            "lineOwner"
+          ],
+          "party": {
+            "contactMedium": [
+              {
+                "mediumType": "phone",
+                "characteristic": {
+                  "phoneNumber": "+492511234567890"
+                }
+              },
+              {
+                "mediumType": "email",
+                "characteristic": {
+                  "emailAddress": "test.test@telekom.de"
+                }
+              }
+            ],
+            "familyName": "Kirk",
+            "givenName": "James Tiberius",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        }
+      ]
+    }
+  }
+}

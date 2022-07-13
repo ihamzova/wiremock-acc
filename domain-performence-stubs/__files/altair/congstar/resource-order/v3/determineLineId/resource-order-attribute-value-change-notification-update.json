@@ -1,0 +1,78 @@
+{
+  "eventId": "{{randomValue type='UUID'}}",
+  "eventTime": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+  "eventTopic": "ResourceOrderCreate",
+  "eventType": "ResourceOrderAttributeValueChangeNotification",
+  "@type": "ResourceOrderAttributeValueChangeNotification",
+  "eventVersion": "2.3",
+  "eventSource": "WholebuyGateway",
+  "fieldPaths": [
+    {
+      "path": "/orderItem/0/resource/lineId"
+    },
+    {
+      "path": "/orderItem/0/resource/carrierContractId"
+    }
+  ],
+  "eventPayload": {
+    "@type": "ResourceOrderAttributeValueChangeNotificationPayload",
+    "resourceOrder": {
+      "@type": "GatewayResourceOrder",
+      "id": "89898898",
+      "expectedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "externalId": "{{jsonPath request.body '$.externalId'}}",
+      "externalTag": "bsaDetermineLineId",
+      "orderDate": "{{jsonPath request.body '$.orderDate'}}",
+      "requestedCompletionDate": "{{jsonPath request.body '$.requestedCompletionDate'}}",
+      "actualStartDate": "{{now format='yyyy-MM-dd'}}T{{now format='HH:mm:ss.SSS'}}Z",
+      "lastStateChange": {
+        "@type": "GatewayResourceOrderStateChange",
+        "state": "Acknowledged"
+      },
+      "category": "BSA",
+      "orderItem": [
+        {
+          "@type": "GatewayResourceOrderItem",
+          "id": "1",
+          "action": "add",
+          "resource": {
+            "@type": "WholebuyResource",
+            "lineId": "DEU.GFNW.{{randomValue length=2 type='ALPHANUMERIC' uppercase=true}}{{randomValue length=8 type='NUMERIC'}}",
+            "carrierContractId": "5587898788",
+            "networkProfileConfig": {
+              "ramMaxDownL2": 55168,
+              "ramMaxupL2": 11264,
+              "ramMinDownL2": 27504,
+              "ramMinUpL2": 27000,
+              "ramMinKPDownL2": 27504,
+              "ramMinKPUpL2": 27000
+            },
+            "installationPlace": {
+              "@type": "GatewayPlace",
+              "klsId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.klsId'}}",
+              "homeId": "{{jsonPath request.body '$.orderItem[0].resource.installationPlace.homeId'}}"
+            }
+          },
+          "resourceSpecification": {
+            "id": "{{jsonPath request.body '$.orderItem[0].resourceSpecification.id'}}"
+          }
+        }
+      ],
+      "relatedParty": [
+        {
+          "id": "1",
+          "role": [
+            "lineOwner"
+          ],
+          "party": {
+            "familyName": "Test",
+            "givenName": "Norbert",
+            "gender": "Herr",
+            "@type": "Individual"
+          },
+          "@type": "RelatedPartyWithPartyInstance"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "d4852fdf-3e12-4ac5-8576-2c762354d57c",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/ancpSession",
+    "queryParameters": {
+      "accessNodeEquipmentBusinessRef.endSz": {
+        "equalTo": "49/8571/1/71GA"
+      },
+      "bngDownlinkPortEquipmentBusinessRef.endSz": {
+        "equalTo": "49/30/179/43G1"
+      },
+      "bngDownlinkPortEquipmentBusinessRef.portName": {
+        "equalTo": "ge-2/1/3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "id": "1002",
+        "href": "/resource-order-resource-inventory/v5/ancpSession/1002",
+        "ipAddressAccessNode": "10.150.240.102",
+        "ipAddressBng": "10.150.240.101",
+        "configurationStatus": "ACTIVE",
+        "sessionId": "2",
+        "sessionType": "DPU",
+        "partitionId": 2,
+        "rmkEndpointId": "1341434323",
+        "vlan": 16,
+        "creationDate": "2021-11-30T15:53:30.869637+01:00",
+        "lastActivity": "2021-11-30T15:53:30.867721+01:00",
+        "modificationDate": "2021-12-01T14:56:23.140096+01:00",
+        "accessNodeEquipmentBusinessRef": {
+          "deviceType": "DPU",
+          "endSz": "49/8571/1/71GA",
+          "portName": "1",
+          "portType": "PON",
+          "@type": "EquipmentBusinessRef"
+        },
+        "ancpIpSubnetRef": {
+          "id": "1001",
+          "href": "/resource-order-resource-inventory/v5/ancpIpSubnet/1001",
+          "@referredType": "AncpIpSubnet"
+        },
+        "bngDownlinkPortEquipmentBusinessRef": {
+          "deviceType": "BNG",
+          "endSz": "49/30/179/43G1",
+          "portName": "ge-2/1/3",
+          "portType": "ETHERNET",
+          "slotName": "3",
+          "@type": "EquipmentBusinessRef"
+        },
+        "oltUplinkPortEquipmentBusinessRef": {
+          "deviceType": "OLT",
+          "endSz": "49/8571/0/76HA",
+          "portName": "0",
+          "portType": "ETHERNET",
+          "slotName": "19",
+          "@type": "EquipmentBusinessRef"
+        },
+        "@baseType": "LogicalResource",
+        "@type": "AncpSession"
+      }
+    ]
+  }
+}

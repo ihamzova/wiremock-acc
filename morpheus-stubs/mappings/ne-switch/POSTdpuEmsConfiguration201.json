@@ -1,0 +1,35 @@
+{
+  "id": "1ac01e83-0e1e-4604-b756-3d2782c6b704",
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.dpuEndSz == '49/8571/1/71GA')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    },
+    "jsonBody": {
+      "id": "12345",
+      "href": "href",
+      "ancpBngIpAddress": "{{jsonPath request.body '$.ancpBngIpAddress'}}",
+      "ancpIpAddressSubnetMask": "{{jsonPath request.body '$.ancpIpAddressSubnetMask'}}",
+      "ancpOwnIpAddress": "{{jsonPath request.body '$.ancpOwnIpAddress'}}",
+      "backhaulId": "{{jsonPath request.body '$.backhaulId'}}",
+      "configurationState": "{{jsonPath request.body '$.configurationState'}}",
+      "dpuEndSz": "{{jsonPath request.body '$.dpuEndSz'}}",
+      "dpuName": "{{jsonPath request.body '$.dpuName'}}",
+      "isTarget": "{{jsonPath request.body '$.isTarget'}}",
+      "emsNbiName": "{{jsonPath request.body '$.emsNbiName'}}",
+      "managedDomain": "{{jsonPath request.body '$.managedDomain'}}",
+      "serialNumber": "{{jsonPath request.body '$.serialNumber'}}"
+    }
+  }
+}

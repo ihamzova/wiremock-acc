@@ -1,0 +1,68 @@
+{
+  "id": "e8075f43-6218-4afd-ac44-f5985e28986f",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "116"
+      }
+    },
+    "urlPattern": "/giga-project-dioss/v5/workorders/\\d+"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": {
+      "id": "{{jsonPath request.path '[3]'}}",
+      "type": "DPU_INSTALLATION",
+      "status": "CREATED",
+      "source": "IBT",
+      "networkTopology": "NE4",
+      "dueDateTimeBegin": "2020-11-13T13:57:57.598Z",
+      "dueDateTimeEnd": "2020-11-13T13:57:57.598Z",
+      "completionDateTimeEnd": "2020-11-13T13:57:57.598Z",
+      "workforceExternalId": "123456ABC",
+      "taskDescription": "Gf-AP Installation im Hausanschluss-Raum inkl. Netzschalt-Taetigkeiten im NvT",
+      "supplierProjectId": 10032,
+      "supplierPartyId": "10019",
+      "externalOrderReferenceType": "CUSTOMER_INSTALLATION_ORDER",
+      "externalOrderReferenceId": 10122,
+      "comment": "Bitte beim Nachbarn klingeln falls nicht anwesend.",
+      "klsId": 123456789,
+      "folId": "{{jsonPath request.path '[3]'}}",
+      "gigaAreaNumber": "GigaArea_001",
+      "contactPersons": [
+        {
+          "salutation": "MR",
+          "title": "Dr.",
+          "role": "Hausmeister",
+          "givenName": "Max",
+          "familyName": "Mustermann",
+          "companyName": "Musterfirma GbmH",
+          "customer": true,
+          "propertyContact": true,
+          "primaryContact": true,
+          "contactMedium": {
+            "emailAddress": "Max.Mustermann@t-online.de",
+            "fixedLineNumber": "+49 221 1234567",
+            "mobileNumber": "+49 151 1234567",
+            "messengerNumber": "+49 152 1234567",
+            "preferredContactMedium": "FIXED_LINE"
+          }
+        }
+      ],
+      "creationDate": "2020-11-13T13:57:57.598Z",
+      "workCharacteristic": [
+        {
+          "name": "ConnectionType",
+          "valueType": "boolean",
+          "value": "FiberAccessHome"
+        }
+      ]
+    }
+  }
+}

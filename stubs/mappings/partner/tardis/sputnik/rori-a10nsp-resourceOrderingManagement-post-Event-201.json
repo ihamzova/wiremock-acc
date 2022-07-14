@@ -2,7 +2,7 @@
   "scenarioName": "Default wiremock for POST Horizon Event/201",
   "priority": 5,
   "request": {
-    "urlPattern": "/upstream-partner/tardis/resource-order-resource-inventory/a10nsp/resourceOrderingManagement/horizon/events/v1",
+    "urlPattern": "/tardis/horizon/events/v1",
     "method": "POST"
   },
   "response": {

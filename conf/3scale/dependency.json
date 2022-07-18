@@ -451,6 +451,18 @@
         "scopes": [
           "giga:cga:all-area-access"
         ]
+      },
+      {
+        "resource": "/service-order-service-inventory/v1/ceCommissioningOrder/CeCommissioningOrderEvents",
+        "pattern": [
+          "/pubsub/p",
+          "/pubsub/r",
+          "/pubsub/s"
+        ],
+        "scopes": [
+          "giga:cga:all-area-access",
+          "infra:decoupling:write"
+        ]
       }
     ]
   }

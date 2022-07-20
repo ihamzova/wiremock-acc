@@ -1,0 +1,21 @@
+{
+  "id": "8e237318-1234-1234-6789-3f72424245dd",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/2345234235",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.value=='INACTIVE')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

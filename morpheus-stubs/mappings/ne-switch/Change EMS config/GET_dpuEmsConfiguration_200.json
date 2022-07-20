@@ -1,0 +1,61 @@
+{
+  "id": "7b224242-1234-1234-6789-c493e3534ce8",
+  "request": {
+    "method": "GET",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49\\/8571\\/2\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [
+      {
+        "id": "2345234235",
+        "href": "string",
+        "ancpBngIpAddress": "80.146.191.1",
+        "ancpIpAddressSubnetMask": "/24",
+        "ancpOwnIpAddress": "80.145.191.2",
+        "backhaulId": "#bhid-06",
+        "configurationState": "ACTIVE",
+        "creationDate": "2021-01-22T15:21:27.19554+01:00",
+        "dpuEndSz": "49/8571/2/71GA",
+        "dpuName": "49_8571_2_71GA",
+        "emsNbiName": "SDX2221-16-TP",
+        "isTarget": false,
+        "managedDomain": "49_30_179_43G1",
+        "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+        "serialNumber": "1111111020123dsd23",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string"
+      },
+      {
+        "id": "2345234236",
+        "href": "string",
+        "ancpBngIpAddress": "99.146.191.1",
+        "ancpIpAddressSubnetMask": "/24",
+        "ancpOwnIpAddress": "99.145.191.2",
+        "backhaulId": "#bhid-06",
+        "configurationState": "ACTIVE",
+        "creationDate": "2021-01-22T15:21:27.19554+01:00",
+        "dpuEndSz": "49/8571/2/71GA",
+        "dpuName": "49_8571_2_71GA_V2",
+        "emsNbiName": "SDX2221-16-TP",
+        "isTarget": true,
+        "managedDomain": "49_30_179_43G1",
+        "modificationDate": "2021-01-22T15:21:27.19554+01:00",
+        "serialNumber": "2222222020123dsd24",
+        "@baseType": "string",
+        "@schemaLocation": "string",
+        "@type": "string"
+      }
+    ]
+  }
+}

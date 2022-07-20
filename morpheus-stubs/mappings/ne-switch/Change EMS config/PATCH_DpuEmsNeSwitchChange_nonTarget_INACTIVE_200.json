@@ -1,0 +1,26 @@
+{
+  "id": "8e237318-1234-1234-6789-3f72424245dd",
+  "request": {
+    "method": "PATCH",
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/2345234235",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.[?(@.value=='INACTIVE')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    },
+    "jsonBody": {
+      "id": "2345234235",
+      "href": "href",
+      "isTarget": false,
+      "configurationState": "{{regexExtract request.body '(path.*(configurationState)[\",\\s]*value\"[:\\s]*\"([^\"]*)\".*)' 'obj' default='fallbackState'}}{{obj.2}}"
+    }
+  }
+}

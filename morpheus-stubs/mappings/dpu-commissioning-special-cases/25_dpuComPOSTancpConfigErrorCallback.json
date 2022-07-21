@@ -1,0 +1,56 @@
+{
+  "id": "d7ce6e36-53ff-4bc3-afc4-6490f17828d1",
+  "priority": 1,
+  "request": {
+    "urlPathPattern": ".*/resource-order-resource-inventory/v3/ancpConfigurationStartConfigurationTask",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "127"
+      }
+    },
+    "queryParameters": {
+      "uplinkId": {
+        "matches": ".*"
+      },
+      "endSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      },
+      "sessionType": {
+        "matches": "DPU"
+      }
+    }
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  },
+  "uuid": "aadf12e9-8cc4-4994-a7dd-436e5e5a01ad",
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}",
+        "Content-Type": "application/json"
+      },
+      "method": "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds": 3000,
+      "jsonBody": {
+        "error": {
+          "message": "error",
+          "status": 500,
+          "code": "500"
+        },
+        "response": null,
+        "success": false
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "00ce59dc-9b7c-494b-af8d-e5d3beaf0725",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "112"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v2/llc",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Testcase-ID": "{{request.headers.X-Testcase-ID}}"
+    },
+    "jsonBody": {
+      "totalPages": 1,
+      "totalElements": 0,
+      "size": 1,
+      "content": [],
+      "number": 0,
+      "sort": {
+        "unsorted": true,
+        "sorted": false
+      },
+      "first": true,
+      "last": true,
+      "pageable": {
+        "offset": 0,
+        "sort": {
+          "unsorted": true,
+          "sorted": false
+        },
+        "pageNumber": 0,
+        "paged": true,
+        "unpaged": true,
+        "pageSize": 25
+      },
+      "numberOfElements": 2
+    }
+  }
+}

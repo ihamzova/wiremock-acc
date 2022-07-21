@@ -1,0 +1,21 @@
+{
+  "id": "77235e30-cb60-4c84-9ac9-483bb691926b",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "137"
+      }
+    },
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuEmsConfiguration.*"
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

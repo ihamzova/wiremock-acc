@@ -1,0 +1,24 @@
+{
+  "id": "e39b54e9-acea-4323-9a14-545f57e07d75",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "120"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v2/dpu",
+    "bodyPatterns": [{
+      "matches": ".*"
+    }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "4f53a721-2c78-489d-a95d-ca8458d87713",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "117"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/rial/abstractDevice",
+    "queryParameters": {
+      "endSz": {
+        "matches": "49/40/179/76H1"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Testcase-ID": "{{request.headers.X-Testcase-ID}}"
+    }
+  }
+}

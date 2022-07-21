@@ -1,0 +1,25 @@
+{
+  "id": "fda74210-e0b1-4ef7-95ed-0e16e5b2e0cf",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "123"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/uplink",
+    "queryParameters": {
+      "portsEquipmentBusinessRef.endSz": {
+        "matches": "49\\/40\\/179\\/76H1|49\\/\\d+\\/0\\/74GA|49\\/\\d+\\/0\\/99GA|49\\/\\d+\\/0\\/73GA|49\\/50\\/179\\/76H1"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

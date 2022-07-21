@@ -1,0 +1,24 @@
+{
+  "id": "713da126-1595-4933-bcde-203208020f27",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "122"
+      }
+    },
+    "urlPattern": "/resource-order-resource-inventory/v5/port/\\d+",
+    "bodyPatterns": [{
+      "matchesJsonPath": "$.[?(@.value=='INSTALLING')]"
+    }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

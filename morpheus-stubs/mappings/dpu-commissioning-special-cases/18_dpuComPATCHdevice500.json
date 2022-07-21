@@ -1,0 +1,24 @@
+{
+  "id": "32a120df-c7b2-43a0-be6b-847b3e60e2c7",
+  "priority": 1,
+  "request": {
+    "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "121"
+      }
+    },
+    "urlPathPattern": "/resource-order-resource-inventory/v5/device/\\d+",
+    "bodyPatterns": [{
+      "matchesJsonPath": "$.[?(@.value=='INSTALLING')]"
+    }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cf189986-8698-43ee-85da-96d96a6a9b73",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "131"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/dpuOltConfiguration",
+    "bodyPatterns": [{
+      "matchesJsonPath": "$.[?(@.dpuEndSz =~ /49\\/311\\/\\d+\\/71GA/i)]"
+    }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  }
+}

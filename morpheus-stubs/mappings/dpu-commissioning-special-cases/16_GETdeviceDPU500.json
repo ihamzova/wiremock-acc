@@ -1,0 +1,26 @@
+{
+  "id": "52fcc13c-05a0-4057-a185-73afc40c0c57",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "119"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "endSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Testcase-ID": "{{request.headers.X-Testcase-ID}}"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "929869f9-afa6-4df1-a821-80852f0000c6",
+  "priority": "1",
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "129"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/ancpSession",
+    "queryParameters": {
+      "accessNodeEquipmentBusinessRef.endSz": {
+        "matches": "49\\/40\\/179\\/76H1"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

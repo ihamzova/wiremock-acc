@@ -1,0 +1,137 @@
+{
+  "id": "2204c625-08ca-4226-a9e6-7bc976e4bb88",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "118"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/device",
+    "queryParameters": {
+      "endSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [{
+      "id": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+      "href": "href",
+      "accessTransmissionMedium": "COAX",
+      "asb": 0,
+      "creationDate": "2020-03-10T16:40:26.154Z",
+      "description": "string",
+      "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40247069",
+      "emsNbiName": "MA5600T",
+      "endSz": "{{request.requestLine.query.endSz}}",
+      "equipmentNumber": "string",
+      "fiberOnLocationId": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+      "firmwareVersion": null,
+      "fsz": null,
+      "importDate": "2020-03-10T16:40:26.154Z",
+      "ipAddress": "10.182.112.196",
+      "klsId": "16063944",
+      "lastDiscovery": "2020-03-10T16:40:26.154Z",
+      "maintenanceState": "NOT_IN_MAINTENANCE",
+      "manufacturer": "string",
+      "materialNumber": "40247069",
+      "migrationState": "FTTX1.7_MIGRATION_COMPLETED",
+      "modificationDate": "2020-03-10T16:40:26.154Z",
+      "name": "ETSI Service Shelf H8-MABC",
+      "resourceId": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+      "serialNumber": "12345",
+      "shortName": "SDX2221-04 TP-AC-M-FTTB ETSI",
+      "startOperatingDate": "2020-03-10T16:40:26.154Z",
+      "technicalLocation": "string",
+      "vpsz": null,
+      "deviceType": "DPU",
+      "lifeCycleState": "INSTALLING",
+
+      "containsCardsRefOrValue": [{
+        "id": "1011",
+        "href": "href",
+        "creationDate": "2020-03-10T16:40:26.154Z",
+        "description": null,
+        "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+        "emsNbiName": "H805GPBD",
+        "equipmentNumber": "40261742",
+        "firmwareVersion": "507(2015-8-27)",
+        "lastDiscovery": "2020-03-10T16:40:26.154Z",
+        "manufacturer": null,
+        "materialNumber": "40261742",
+        "modificationDate": "2020-03-10T16:40:26.154Z",
+        "name": "8-port GPON OLT Interface Board V2",
+        "resourceId": "1011",
+        "serialNumber": "021BQW10B6000065",
+        "shortName": "GPPD",
+        "slotName": "4",
+        "cardType": "GPON",
+        "containsPortsRefOrValue": [{
+          "id": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+          "href": "href",
+          "creationDate": "2020-03-10T16:40:26.154Z",
+          "modificationDate": "2020-03-10T16:40:26.154Z",
+          "portName": "1",
+          "resourceId": "1049",
+          "containsOpticalModuleRefOrValue": {
+            "id": "1",
+            "href": "href",
+            "creationDate": "2020-03-10T16:40:26.154Z",
+            "description": null,
+            "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+            "emsNbiName": "H805GPBD",
+            "equipmentNumber": "40261742",
+            "lastDiscovery": "2020-03-10T16:40:26.154Z",
+            "manufacturer": null,
+            "materialNumber": "40261742",
+            "modificationDate": "2020-03-10T16:40:26.154Z",
+            "name": "8-port GPON OLT Interface Board V2",
+            "resourceId": "1049",
+            "serialNumber": "021BQW10B6000065",
+            "shortName": "GPPD"
+          }
+        }
+        ]
+      }
+      ],
+
+      "containsPortsRefOrValue": [{
+        "id": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+        "href": "href",
+        "creationDate": "2020-03-10T16:40:26.154Z",
+        "modificationDate": "2020-03-10T16:40:26.154Z",
+        "portName": "1",
+        "resourceId": "{{groovy arg1='request.requestLine.query.endSz' arg2='/' inline='String endSz=context.get(arg1); String[] endSzParts=endSz.split(arg2); return endSzParts[1]'}}",
+        "lifeCycleState": "INSTALLING",
+        "portType": "PON",
+
+        "containsOpticalModuleRefOrValue": {
+          "id": "1",
+          "href": "href",
+          "creationDate": "2020-03-10T16:40:26.154Z",
+          "description": null,
+          "descriptionUrl": "https://edmpc3.one-erp.telekom.de/sap(bD1kZSZjPTAzMA==)/bc/bsp/sap/zmnetkat/material.htm?matnr=40261742",
+          "emsNbiName": "H805GPBD",
+          "equipmentNumber": "40261742",
+          "lastDiscovery": "2020-03-10T16:40:26.154Z",
+          "manufacturer": null,
+          "materialNumber": "40261742",
+          "modificationDate": "2020-03-10T16:40:26.154Z",
+          "name": "8-port GPON OLT Interface Board V2",
+          "resourceId": "1049",
+          "serialNumber": "021BQW10B6000065",
+          "shortName": "GPPD"
+        }
+      }
+      ]
+    }
+    ]
+  }
+}

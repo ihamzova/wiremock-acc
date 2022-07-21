@@ -1,0 +1,25 @@
+{
+  "id": "72a1dbb6-24d0-4fd7-9136-46412b4fee0c",
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "139"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v1/commissioningDpuA4Tasks",
+    "bodyPatterns": [{
+      "matches": ".*"
+    }
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-Testcase-ID": "{{request.headers.X-Testcase-ID}}"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "df6ad354-8b6a-4b89-8eba-2f0fff9c66df",
+  "priority": 1,
+  "request": {
+    "url": "/resource-order-resource-inventory/v3/backhaulId/search",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "125"
+      }
+    },
+    "bodyPatterns": [{
+      "matchesJsonPath": "$.[?(@.endSz=='49/40/179/76H1')]"
+    }, {
+      "matchesJsonPath": "$.[?(@.portNumber)]"
+    }, {
+      "matchesJsonPath": "$.[?(@.slotNumber)]"
+    }
+
+    ]
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

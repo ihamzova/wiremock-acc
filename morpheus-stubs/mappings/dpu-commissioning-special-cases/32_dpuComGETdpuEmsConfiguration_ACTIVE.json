@@ -1,0 +1,39 @@
+{
+  "id": "a4e8d302-cd60-46ba-970d-ab2a76ab2509",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "118"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    },
+    "jsonBody": [{
+      "id": 12345,
+      "href": "string",
+      "ancpBngIpAddress": "10.150.240.102",
+      "ancpIpAddressSubnetMask": "/24",
+      "ancpOwnIpAddress": "10.150.240.101",
+      "backhaulId": "#bhid-002",
+      "configurationState": "ACTIVE",
+      "emsNbiName": "SDX2221-08-TP",
+      "dpuEndSz": "{{request.requestLine.query.dpuEndSz}}",
+      "managedDomain": "49_30_179_43G1",
+      "serialNumber": "123456"
+    }
+    ]
+  }
+}

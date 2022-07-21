@@ -1,0 +1,25 @@
+{
+  "id": "c84a82e9-0700-4e73-9320-4a18e6ca5a2f",
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "134"
+      }
+    },
+    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
+    "queryParameters": {
+      "dpuEndSz": {
+        "matches": "49\\/311\\/\\d+\\/71GA"
+      }
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"
+    }
+  }
+}

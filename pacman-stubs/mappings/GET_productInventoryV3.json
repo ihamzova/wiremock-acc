@@ -1,0 +1,24 @@
+{
+  "request": {
+    "urlPath": "/upstream-partner/tardis/crmfn/productInventory/v3/product",
+    "queryParameters": {
+      "accountId": {
+        "matches": "[0-9]+"
+      },
+      "page": {
+        "matches": "[0-9]+"
+      },
+      "limit": {
+        "matches": "[0-9]+"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "pacman-stubs/productInventoryV3_response.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "1"
+    }
+  }
+}

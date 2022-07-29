@@ -353,6 +353,15 @@
         ]
       },
       {
+        "resource": "/resource-order-resource-inventory/directfiber/resourceOrderingManagement/v1/resourceOrder",
+        "scopes": [
+          "rori:resourceOrderDirectFiber:full"
+        ],
+        "pattern": [
+          ""
+        ]
+      },
+      {
         "resource": "/giga-project-dioss/v1/transferWorkforces",
         "pattern": [],
         "scopes": [

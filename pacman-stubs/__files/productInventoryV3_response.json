@@ -1,0 +1,654 @@
+[
+  {
+    "id": "TB0036985959",
+    "name": "Zuhause Sofort",
+    "productSerialNumber": "50218562",
+    "status": "active",
+    "startDate": "2022-07-13T22:00:00.000Z",
+    "plannedEndDate": "2024-07-13T21:59:59.999Z",
+    "cancelUntilDate": "2024-06-13T21:59:59.999Z",
+    "noticePeriodUnit": "month",
+    "noticePeriodAmount": 1,
+    "self": {
+      "id": "TB0036985959",
+      "count": 1,
+      "total": 1,
+      "href": "\/crmfn\/productInventory\/v3\/product?accountId=8358678996&page=1&limit=20"
+    },
+    "isBundle": false,
+    "productRelationship": [
+      {
+        "relationshipType": "contains",
+        "product": {
+          "id": "TB0036985960",
+          "name": "VDSL 16",
+          "productSerialNumber": "89763794",
+          "status": "active",
+          "startDate": "2022-07-13T22:00:00.000Z",
+          "plannedEndDate": "2022-07-27T21:59:59.999Z",
+          "cancelUntilDate": "2022-07-26T21:59:59.999Z",
+          "noticePeriodUnit": "day",
+          "noticePeriodAmount": 1,
+          "self": {
+            "id": "TB0036985960",
+            "count": 1,
+            "total": 1,
+            "href": "\/crmfn\/productInventory\/v3\/product?accountId=8358678996&page=1&limit=20"
+          },
+          "isBundle": false,
+          "productRelationship": [
+            {
+              "relationshipType": "reliesOn",
+              "product": {
+                "id": "TB0036985959"
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "24085334",
+              "role": "geographical address",
+              "address": {
+                "postcode": "49637"
+              }
+            },
+            {
+              "id": "1-HIL9I59",
+              "role": "CRMT address"
+            }
+          ],
+          "productPrice": [
+            {
+              "name": "Bereitstellung von VDSL 16 im Magenta Zuhause S",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "one time",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreemount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001721178"
+              }
+            },
+            {
+              "name": "VDSL 16 im Magenta Zuhause S",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "recurring",
+              "recurringChargePeriod": "month",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001721179"
+              }
+            }
+          ],
+          "billingAccount": {
+            "id": "1-I7IGQHA",
+            "name": "6782339696"
+          },
+          "productOffering": {
+            "id": "89763794"
+          },
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "T-DSL"
+            },
+            {
+              "name": "productSubtype",
+              "value": "VDSL"
+            },
+            {
+              "name": "GRUS",
+              "value": "004372748689"
+            },
+            {
+              "name": "IntegrationId",
+              "value": "1-I7IGL8S"
+            }
+          ],
+          "relatedParty": {
+            "id": "8358678996",
+            "role": "customer"
+          }
+        }
+      },
+      {
+        "relationshipType": "bundles",
+        "product": {
+          "id": "TB0036985961",
+          "name": "SurfZuhause Sofort",
+          "productSerialNumber": "50218563",
+          "status": "active",
+          "startDate": "2022-07-13T22:00:00.000Z",
+          "plannedEndDate": "2022-07-27T21:59:59.999Z",
+          "cancelUntilDate": "2022-07-26T21:59:59.999Z",
+          "noticePeriodUnit": "day",
+          "noticePeriodAmount": 1,
+          "self": {
+            "id": "TB0036985961",
+            "count": 1,
+            "total": 1,
+            "href": "\/crmfn\/productInventory\/v3\/product?accountId=8358678996&page=1&limit=20"
+          },
+          "isBundle": false,
+          "productRelationship": [
+            {
+              "relationshipType": "bundles",
+              "product": {
+                "id": "TB0036985959"
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "24085334",
+              "role": "geographical address",
+              "address": {
+                "postcode": "49637"
+              }
+            },
+            {
+              "id": "1-HIL9I59",
+              "role": "CRMT address"
+            }
+          ],
+          "productPrice": [
+            {
+              "name": "Zuhause Sofort bereitstellen",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "one time",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001755705"
+              }
+            },
+            {
+              "name": "Zuhause Sofort",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "recurring",
+              "recurringChargePeriod": "month",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001755707"
+              }
+            }
+          ],
+          "billingAccount": {
+            "id": "1-I7IGQHA",
+            "name": "6782339696"
+          },
+          "productOffering": {
+            "id": "50218563"
+          },
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "ISP"
+            },
+            {
+              "name": "productSubtype",
+              "value": "ISPX"
+            },
+            {
+              "name": "Zugangsnummer",
+              "value": "553100395019",
+              "id": "0000000564"
+            },
+            {
+              "name": "GRUS",
+              "value": "004372748690"
+            },
+            {
+              "name": "IntegrationId",
+              "value": "1-I7IGL8T",
+              "id": "0000000564"
+            }
+          ],
+          "relatedParty": {
+            "id": "8358678996",
+            "role": "customer"
+          },
+          "realizingResource": [
+            {
+              "id": "0000000564",
+              "name": "TOId",
+              "value": "553100395019"
+            }
+          ]
+        }
+      },
+      {
+        "relationshipType": "contains",
+        "product": {
+          "id": "TB0036985963",
+          "name": "VoIP Basistarif",
+          "productSerialNumber": "89753887",
+          "status": "active",
+          "startDate": "2022-07-13T22:00:00.000Z",
+          "plannedEndDate": "2022-07-27T21:59:59.999Z",
+          "cancelUntilDate": "2022-07-26T21:59:59.999Z",
+          "noticePeriodUnit": "day",
+          "noticePeriodAmount": 1,
+          "self": {
+            "id": "TB0036985963",
+            "count": 1,
+            "total": 1,
+            "href": "/crmfn/productInventory/v3/product?accountId=8358678996&page=1&limit=20"
+          },
+          "isBundle": false,
+          "productRelationship": [
+            {
+              "relationshipType": "reliesOn",
+              "product": {
+                "id": "TB0036985961"
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "24085334",
+              "role": "geographical address",
+              "address": {
+                "postcode": "49637"
+              }
+            },
+            {
+              "id": "1-HIL9I59",
+              "role": "CRMT address"
+            }
+          ],
+          "productPrice": [
+            {
+              "name": "Bereitstellung VoIP Basistarif",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "one time",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1000363095"
+              }
+            },
+            {
+              "name": "Monatlicher Grundpreis VoIP Basistarif",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "recurring",
+              "recurringChargePeriod": "month",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001602741"
+              }
+            }
+          ],
+          "billingAccount": {
+            "id": "1-I7IGQHA",
+            "name": "6782339696"
+          },
+          "productOffering": {
+            "id": "89753887"
+          },
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "ISP-Zusatzprodukt"
+            },
+            {
+              "name": "GRUS",
+              "value": "004372748690"
+            },
+            {
+              "name": "IntegrationId",
+              "value": "1-I7IGL8W"
+            }
+          ],
+          "relatedParty": {
+            "id": "8358678996",
+            "role": "customer"
+          }
+        }
+      },
+      {
+        "relationshipType": "contains",
+        "product": {
+          "id": "TB0036985962",
+          "name": "Heimnetz-Diagnose",
+          "productSerialNumber": "50155700",
+          "status": "active",
+          "startDate": "2022-07-13T22:00:00.000Z",
+          "plannedEndDate": "2022-07-27T21:59:59.999Z",
+          "cancelUntilDate": "2022-07-26T21:59:59.999Z",
+          "noticePeriodUnit": "day",
+          "noticePeriodAmount": 1,
+          "self": {
+            "id": "TB0036985962",
+            "count": 1,
+            "total": 1,
+            "href": "\/crmfn\/productInventory\/v3\/product?accountId=8358678996&page=1&limit=20"
+          },
+          "isBundle": false,
+          "productRelationship": [
+            {
+              "relationshipType": "reliesOn",
+              "product": {
+                "id": "TB0036985961"
+              }
+            }
+          ],
+          "place": [
+            {
+              "id": "24085334",
+              "role": "geographical address",
+              "address": {
+                "postcode": "49637"
+              }
+            },
+            {
+              "id": "1-HIL9I59",
+              "role": "CRMT address"
+            }
+          ],
+          "productPrice": [
+            {
+              "name": "Bereitstellung Heimnetz-Diagnose",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "one time",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001660687"
+              }
+            },
+            {
+              "name": "Monatlicher Grundpreis Heimnetz-Diagnose",
+              "pricingDate": "2022-07-12T22:00:00.000Z",
+              "priceType": "recurring",
+              "recurringChargePeriod": "month",
+              "price": {
+                "taxRate": 19.0000000,
+                "dutyFreeAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                },
+                "taxIncludedAmount": {
+                  "unit": "EUR",
+                  "value": 0
+                }
+              },
+              "productOfferingPrice": {
+                "id": "1001660689"
+              }
+            }
+          ],
+          "billingAccount": {
+            "id": "1-I7IGQHA",
+            "name": "6782339696"
+          },
+          "productOffering": {
+            "id": "50155700"
+          },
+          "characteristic": [
+            {
+              "name": "productType",
+              "value": "ISP-Zusatzprodukt"
+            },
+            {
+              "name": "GRUS",
+              "value": "004372748690"
+            },
+            {
+              "name": "IntegrationId",
+              "value": "1-I7IGL8V"
+            }
+          ],
+          "relatedParty": {
+            "id": "8358678996",
+            "role": "customer"
+          }
+        }
+      }
+    ],
+    "place": [
+      {
+        "id": "24085334",
+        "role": "geographical address",
+        "address": {
+          "postcode": "49637"
+        }
+      },
+      {
+        "id": "1-HIL9I59",
+        "role": "CRMT address"
+      }
+    ],
+    "productPrice": [
+      {
+        "name": "Zuhause Sofort bereitstellen",
+        "pricingDate": "2022-07-12T22:00:00.000Z",
+        "priceType": "one time",
+        "price": {
+          "taxRate": 19.0000000,
+          "dutyFreeAmount": {
+            "unit": "EUR",
+            "value": 58.7800000
+          },
+          "taxIncludedAmount": {
+            "unit": "EUR",
+            "value": 69.9500000
+          }
+        },
+        "productOfferingPrice": {
+          "id": "1001755686"
+        }
+      },
+      {
+        "name": "Zuhause Sofort monatlicher Grundpreis",
+        "pricingDate": "2022-07-12T22:00:00.000Z",
+        "priceType": "recurring",
+        "recurringChargePeriod": "month",
+        "price": {
+          "taxRate": 19.0000000,
+          "dutyFreeAmount": {
+            "unit": "EUR",
+            "value": 33.5700000
+          },
+          "taxIncludedAmount": {
+            "unit": "EUR",
+            "value": 39.9500000
+          }
+        },
+        "productOfferingPrice": {
+          "id": "1001755699"
+        }
+      }
+    ],
+    "billingAccount": {
+      "id": "1-I7IGQHA",
+      "name": "6782339696"
+    },
+    "productOffering": {
+      "id": "50218562"
+    },
+    "characteristic": [
+      {
+        "name": "productType",
+        "value": "Anschluss"
+      },
+      {
+        "name": "productSubtype",
+        "value": "IP"
+      },
+      {
+        "name": "Speicherart TDSV .7",
+        "value": "3",
+        "id": "0000000002"
+      },
+      {
+        "name": "Verzeichniskennzeichen",
+        "value": "0",
+        "id": "0000000003"
+      },
+      {
+        "name": "Verzeichniskennzeichen 2. MSN",
+        "value": "0",
+        "id": "0000000006"
+      },
+      {
+        "name": "Verzeichniskennzeichen 3. MSN",
+        "value": "0",
+        "id": "0000000007"
+      },
+      {
+        "name": "TNBA-ID",
+        "value": "00080000069972305",
+        "id": "0000000008"
+      },
+      {
+        "name": "GRUS",
+        "value": "004372748689"
+      },
+      {
+        "name": "IntegrationId",
+        "value": "1-I7IGL8I"
+      }
+    ],
+    "relatedParty": {
+      "id": "8358678996",
+      "role": "customer"
+    },
+    "realizingResource": [
+      {
+        "id": "0000000001",
+        "name": "Telefonnummer",
+        "value": "0049543746433441",
+        "isMajor": true,
+        "resourceCharacteristic": [
+          {
+            "name": "LaenderVorwahl",
+            "value": "0049",
+            "id": "0000000001"
+          },
+          {
+            "name": "ONKZ",
+            "value": "05437",
+            "id": "0000000001"
+          },
+          {
+            "name": "Rufnummer",
+            "value": "46433441",
+            "id": "0000000001"
+          }
+        ]
+      },
+      {
+        "id": "0000000004",
+        "name": "Telefonnummer",
+        "value": "0049543746433443",
+        "isMajor": false,
+        "resourceCharacteristic": [
+          {
+            "name": "LaenderVorwahl",
+            "value": "0049",
+            "id": "0000000004"
+          },
+          {
+            "name": "ONKZ",
+            "value": "05437",
+            "id": "0000000004"
+          },
+          {
+            "name": "Rufnummer",
+            "value": "46433443",
+            "id": "0000000004"
+          }
+        ]
+      },
+      {
+        "id": "0000000005",
+        "name": "Telefonnummer",
+        "value": "0049543746433442",
+        "isMajor": false,
+        "resourceCharacteristic": [
+          {
+            "name": "LaenderVorwahl",
+            "value": "0049",
+            "id": "0000000005"
+          },
+          {
+            "name": "ONKZ",
+            "value": "05437",
+            "id": "0000000005"
+          },
+          {
+            "name": "Rufnummer",
+            "value": "46433442",
+            "id": "0000000005"
+          }
+        ]
+      }
+    ]
+  }
+]

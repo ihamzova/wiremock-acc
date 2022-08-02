@@ -55,6 +55,36 @@
         },
         "bodyFileName": "party-management/ascendants-organizations-for-id-10025.json"
       }
+    },
+    {
+      "name": "Get organization info for user with partyId = 125 (GrootGmbH)",
+      "id": "c45d8ba7-2994-4258-b933-6fa436d59785",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/125/ascendants?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/ascendants-organizations-for-id-125.json"
+      }
+    },
+    {
+      "name": "Get organization info for user with partyId = 123 (AntGmbH)",
+      "id": "c45d8ba7-2994-4258-b933-6fa436d59123",
+      "request": {
+        "method": "GET",
+        "url": "/party/v2/partyManagement/organizations/123/ascendants?loadLocations=true"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "party-management/ascendants-organizations-for-id-123.json"
+      }
     }
   ]
 }

@@ -29,6 +29,36 @@
         },
         "bodyFileName": "supplier-management/supplier-partyId-10025.json"
       }
+    },
+    {
+      "name": "Get NE3 supplier by party id (atomic organization id)",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=123"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "supplier-management/supplier-partyId-123.json"
+      }
+    },
+    {
+      "name": "Get NE4 supplier by party id (atomic organization id)",
+      "priority": 10,
+      "request": {
+        "method": "GET",
+        "urlPattern": "/giga-project/v2/suppliers\\?atomicOrganizationId=125"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "bodyFileName": "supplier-management/supplier-partyId-125.json"
+      }
     }
   ]
 }

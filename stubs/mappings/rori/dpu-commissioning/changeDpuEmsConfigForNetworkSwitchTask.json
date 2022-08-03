@@ -4,7 +4,7 @@
     "method": "POST"
   },
   "response": {
-    "status": 200,
+    "status": 202,
     "headers": {
       "Content-Type": "application/json",
       "X-B3-TraceId": "{{eq request.headers.X-B3-TraceId null yes=(randomValue type='UUID') no=request.headers.X-B3-TraceId}}",
@@ -29,8 +29,8 @@
         },
         "method": "POST",
         "jsonBody": {
-          "response": {},
-          "success": true
+          "success": true,
+          "error": null
         }
       }
     }

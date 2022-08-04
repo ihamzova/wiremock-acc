@@ -13,7 +13,7 @@
   "headers": {
     "Content-Type": "application/json"
   },
-  "bodyFileName" : "gteam-stubs/pesa-service/leseKunde/leseKunde.timb.xml",
+  "bodyFileName" : "gteam-stubs/pesa-service/leseKunde/lesekunde_generic_{{jsonPath request.body '$.wiremockHolder.mediacode'}}_{{jsonPath request.body '$.wiremockHolder.products.length()'}}.xml",
   "transformers": ["response-template"]
 }
 }

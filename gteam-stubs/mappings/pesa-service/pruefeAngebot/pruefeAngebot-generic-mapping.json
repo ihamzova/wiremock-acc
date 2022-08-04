@@ -13,7 +13,7 @@
   "headers": {
     "Content-Type": "application/json"
   },
-  "bodyFileName" : "gteam-stubs/pesa-service/pruefeAngebot/pruefeAngebot.timb.xml",
+  "bodyFileName" : "gteam-stubs/pesa-service/pruefeAngebot/pruefeAngebot_generic_{{jsonPath request.body '$.wiremockHolder.mediacode'}}_{{jsonPath request.body '$.wiremockHolder.products.length()'}}.xml",
   "transformers": ["response-template"]
 }
 }

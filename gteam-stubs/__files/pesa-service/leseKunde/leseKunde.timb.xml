@@ -52,7 +52,7 @@
             </bom:Email>
         </tns:Person>
         <tns:Rechnungsvereinbarung>
-            <bom:Rechnungsvereinbarungsnummer>1234567890</bom:Rechnungsvereinbarungsnummer>
+            <bom:Rechnungsvereinbarungsnummer>{{jsonPath request.body '$.wiremockHolder.rechnungsVereinbarung'}}</bom:Rechnungsvereinbarungsnummer>
             <tns:HatRechnungOnline>false</tns:HatRechnungOnline>
             <tns:Rechnungsempfaenger>
                 <tns:Person>

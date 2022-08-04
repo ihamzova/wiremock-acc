@@ -36,15 +36,15 @@
                     <Konfiguration>100000000000001</Konfiguration>
                 </Klammerinformation>
                 <Produkt>
-                    <ID>55555555</ID>
+                    <ID>{{jsonPath request.body '$.wiremockHolder.products.[0].productId'}}</ID>
                     <Name>Name of Endeinrichtung product</Name>
                     <Typ>Endeinrichtung</Typ>
                     <Subtyp>IP</Subtyp>
                     <Konditionsalternative>
                         <ID>12</ID>
                         <Kondition>
-                            <ID>{{jsonPath request.body '$.wiremockHolder.kondition.[0].kondID' default='1234'}}</ID>
-                            <KonditionsArt>{{jsonPath request.body '$.wiremockHolder.kondition.[0].kondArt' default='ZK01'}}</KonditionsArt>
+                            <ID>{{jsonPath request.body '$.wiremockHolder.products.[0].kondition.[0].kondID' default='1234'}}</ID>
+                            <KonditionsArt>{{jsonPath request.body '$.wiremockHolder.products.[0].kondition.[0].kondArt' default='ZK01'}}</KonditionsArt>
                             <KonditionsbeschreibendeParameter>
                                 <Bruttopreis>10.0</Bruttopreis>
                                 <Langtext>String</Langtext>
@@ -71,8 +71,8 @@
                             </KonditionsbildendeParameter>
                         </Kondition>
                         <Kondition>
-                            <ID>{{jsonPath request.body '$.wiremockHolder.kondition.[1].kondID' default='5678'}}</ID>
-                            <KonditionsArt>{{jsonPath request.body '$.wiremockHolder.kondition.[1].kondArt' default='ZK02'}}</KonditionsArt>
+                            <ID>{{jsonPath request.body '$.wiremockHolder.products.[0].kondition.[1].kondID' default='5678'}}</ID>
+                            <KonditionsArt>{{jsonPath request.body '$.wiremockHolder.products.[0].kondition.[1].kondArt' default='ZK02'}}</KonditionsArt>
                             <KonditionsbeschreibendeParameter>
                                 <Bruttopreis>20.0</Bruttopreis>
                                 <Langtext>String</Langtext>

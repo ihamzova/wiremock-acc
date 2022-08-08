@@ -1,0 +1,202 @@
+{
+  "id": "TB0004967725",
+  "name": "MagentaZuhause M",
+  "productSerialNumber": "89843267",
+  "status": "active",
+  "startDate": "2019-07-06T00:00:00.000Z",
+  "noticePeriodUnit": "month",
+  "noticePeriodAmount": 1,
+  "self": {
+    "id": "TB0003715039",
+    "count": 1,
+    "total": 2,
+    "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070132&page=1&productStatus=active"
+  },
+  "isBundle": false,
+  "place": [
+    {
+      "id": "6154990",
+      "role": [
+        "geographical address"
+      ],
+      "address": {
+        "postcode": "81667"
+      }
+    },
+    {
+      "id": "2-PL24L",
+      "role": [
+        "CRMT address"
+      ]
+    }
+  ],
+  "productPrice": [
+    {
+      "name": "Magenta Zuhause M, Bereitstellung",
+      "pricingDate": "2019-01-16T00:00:00.000Z",
+      "priceType": "one time",
+      "price": {
+        "taxRate": 19.0000000,
+        "dutyFreeAmount": {
+          "unit": "EUR",
+          "value": 0
+        },
+        "taxIncludedAmount": {
+          "unit": "EUR",
+          "value": 0
+        }
+      },
+      "productOfferingPrice": {
+        "id": "1000738327"
+      }
+    },
+    {
+      "name": "Magenta Zuhause M, Monatlicher Grundpreis",
+      "pricingDate": "2019-01-16T00:00:00.000Z",
+      "priceType": "recurring",
+      "recurringChargePeriod": "month",
+      "price": {
+        "taxRate": 19.0000000,
+        "dutyFreeAmount": {
+          "unit": "EUR",
+          "value": 33.5700000
+        },
+        "taxIncludedAmount": {
+          "unit": "EUR",
+          "value": 39.9500000
+        }
+      },
+      "productOfferingPrice": {
+        "id": "1000738330"
+      }
+    }
+  ],
+  "billingAccount": {
+    "id": "1-1TD-126",
+    "name": "4962112429"
+  },
+  "productOffering": {
+    "id": "89843267"
+  },
+  "characteristic": [
+    {
+      "name": "productType",
+      "value": "Endeinrichtung"
+    },
+    {
+      "name": "productSubtype",
+      "value": "EG SP"
+    },
+    {
+      "name": "TNBA-ID",
+      "value": "00080000044940192",
+      "id": "0000000008"
+    },
+    {
+      "name": "GRUS",
+      "value": "004343160007"
+    },
+    {
+      "name": "IntegrationId",
+      "value": "1-7WLQ48W"
+    }
+  ],
+  "relatedParty": {
+    "id": "9999070132",
+    "role": "customer"
+  },
+  "realizingResource": [
+    {
+      "id": "0000000001",
+      "name": "Telefonnummer",
+      "value": "00498912971601",
+      "isMajor": true,
+      "resourceCharacteristic": [
+        {
+          "name": "LaenderVorwahl",
+          "value": "0049",
+          "id": "0000000001"
+        },
+        {
+          "name": "ONKZ",
+          "value": "089",
+          "id": "0000000001"
+        },
+        {
+          "name": "Rufnummer",
+          "value": "12971601",
+          "id": "0000000001"
+        }
+      ]
+    },
+    {
+      "id": "0000000004",
+      "name": "Telefonnummer",
+      "value": "00498912971603",
+      "isMajor": false,
+      "resourceCharacteristic": [
+        {
+          "name": "LaenderVorwahl",
+          "value": "0049",
+          "id": "0000000004"
+        },
+        {
+          "name": "ONKZ",
+          "value": "089",
+          "id": "0000000004"
+        },
+        {
+          "name": "Rufnummer",
+          "value": "12971603",
+          "id": "0000000004"
+        }
+      ]
+    },
+    {
+      "id": "0000000004",
+      "name": "Telefonnummer",
+      "value": "00498912971603",
+      "isMajor": false,
+      "resourceCharacteristic": [
+        {
+          "name": "LaenderVorwahl",
+          "value": "0049",
+          "id": "0000000004"
+        },
+        {
+          "name": "ONKZ",
+          "value": "089",
+          "id": "0000000004"
+        },
+        {
+          "name": "Rufnummer",
+          "value": "12971603",
+          "id": "0000000004"
+        }
+      ]
+    },
+    {
+      "id": "0000000005",
+      "name": "Telefonnummer",
+      "value": "00498912971602",
+      "isMajor": false,
+      "resourceCharacteristic": [
+        {
+          "name": "LaenderVorwahl",
+          "value": "0049",
+          "id": "0000000005"
+        },
+        {
+          "name": "ONKZ",
+          "value": "089",
+          "id": "0000000005"
+        },
+        {
+          "name": "Rufnummer",
+          "value": "12971602",
+          "id": "0000000005"
+        }
+      ]
+    }
+    ]
+    }

@@ -6,7 +6,7 @@
       "name": "FiberAvailability_by_klsId_used_in_fiberbau-autotest-01-testchain",
       "request": {
         "method": "GET",
-        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/(3237811|90056356|90056357|90056358|90056359|90056360|90056361|90056361|90056362|90056362|90056363|90056364|90056364|90056368|90056370|80056101)\\?fields=BuildingSection"
+        "urlPattern": "/giga-project-dioss/v3/FiberAvailability/serviceQualification/(3237811|90056356|90056357|90056358|90056359|90056360|90056361|90056361|90056362|90056362|90056363|90056364|90056364|90056368|90056370|80056101|90056371)\\?fields=BuildingSection"
       },
       "response": {
         "status": 200,

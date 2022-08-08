@@ -24,7 +24,6 @@ COPY bilateral_stubs /$WM_PACKAGE/bilateral_stubs
 COPY avengers-stubs /$WM_PACKAGE/avengers-stubs
 COPY marvel-stubs /$WM_PACKAGE/marvel-stubs
 COPY morpheus-stubs /$WM_PACKAGE/morpheus-stubs
-COPY pacman-stubs /$WM_PACKAGE/pacman-stubs
 
 COPY orion-stubs /$WM_PACKAGE/orion-stubs
 COPY stubs/mappings/infra /$WM_PACKAGE/orion-stubs/mappings
@@ -38,6 +37,8 @@ COPY merlin-performance-stubs /$WM_PACKAGE/merlin-performance-stubs
 COPY domain-performence-stubs /$WM_PACKAGE/domain-performence-stubs
 COPY gteam-stubs/__files/ /$WM_PACKAGE/__files/gteam-stubs
 COPY gteam-stubs/mappings/ /$WM_PACKAGE/mappings/gteam-stubs
+COPY pacman-stubs/__files/ /$WM_PACKAGE/__files/pacman-stubs
+COPY pacman-stubs/mappings/ /$WM_PACKAGE/mappings/pacman-stubs
 
 COPY pocemongo-stubs /$WM_PACKAGE/pocemongo-stubs
 

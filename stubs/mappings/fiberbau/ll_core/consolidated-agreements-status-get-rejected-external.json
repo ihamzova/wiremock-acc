@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "fiberOnLocationId": {
+        "matches": "32378132"
+      }
+    },
+    "urlPathPattern": "/landlord-management/v1/consolidatedAgreements"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody" : {
+        "status": "REJECTED"
+    }
+  }
+}

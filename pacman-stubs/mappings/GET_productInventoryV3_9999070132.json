@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/((upstream-partner/)?)tardis/crmfn/productInventory/v3/product",
+    "queryParameters": {
+      "accountId": {
+        "matches": "9999070132"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "pacman-stubs/productInventoryV3_9999070132_response.json",
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "1"
+    }
+  }
+}

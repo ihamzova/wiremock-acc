@@ -1,0 +1,114 @@
+{
+  "id": "TB0004967725",
+  "name": "MagentaZuhause M Regio",
+  "productSerialNumber": "89886949",
+  "status": "active",
+  "startDate": "2020-05-11T22:00:00.000Z",
+  "plannedEndDate": "2022-06-04T21:59:59.999Z",
+  "cancelUntilDate": "2022-05-04T21:59:59.999Z",
+  "noticePeriodUnit": "month",
+  "noticePeriodAmount": 1,
+  "self": {
+    "id": "TB0004967725",
+    "count": 3,
+    "total": 6,
+    "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070131"
+  },
+  "isBundle": false,
+  "place": [
+    {
+      "id": "6154988",
+      "role": "geographical address",
+      "address": {
+        "postcode": "68165"
+      }
+    },
+    {
+      "id": "1-4J9A200",
+      "role": "CRMT address"
+    }
+  ],
+  "productPrice": [
+    {
+      "name": "MagentaZuhause M Regio Bereitstellungsentgelt",
+      "pricingDate": "2020-05-05T22:00:00.000Z",
+      "priceType": "one time",
+      "price": {
+        "taxRate": 16.0000000,
+        "dutyFreeAmount": {
+          "unit": "EUR",
+          "value": 0
+        },
+        "taxIncludedAmount": {
+          "unit": "EUR",
+          "value": 0
+        }
+      },
+      "productOfferingPrice": {
+        "id": "1000859164"
+      }
+    },
+    {
+      "name": "MagentaZuhause M Regio Monatlicher Grundpreis",
+      "pricingDate": "2020-05-05T22:00:00.000Z",
+      "priceType": "recurring",
+      "recurringChargePeriod": "month",
+      "price": {
+        "taxRate": 16.0000000,
+        "dutyFreeAmount": {
+          "unit": "EUR",
+          "value": 0
+        },
+        "taxIncludedAmount": {
+          "unit": "EUR",
+          "value": 0
+        }
+      },
+      "productOfferingPrice": {
+        "id": "1000859165"
+      }
+    }
+  ],
+  "billingAccount": {
+    "id": "1-7WL5NY3",
+    "name": "4962112429"
+  },
+  "productOffering": {
+    "id": "89886949"
+  },
+  "characteristic": [
+    {
+      "name": "productType",
+      "value": "ISP"
+    },
+    {
+      "name": "productSubtype",
+      "value": "ISPM"
+    },
+    {
+      "name": "Zugangsnummer",
+      "value": "553100252301",
+      "id": "0000000564"
+    },
+    {
+      "name": "GRUS",
+      "value": "004343159856"
+    },
+    {
+      "name": "IntegrationId",
+      "value": "1-7WL7DHX",
+      "id": "0000000564"
+    }
+  ],
+  "relatedParty": {
+    "id": "8332218688",
+    "role": "customer"
+  },
+  "realizingResource": [
+    {
+      "id": "0000000564",
+      "name": "TOId",
+      "value": "553100252301"
+    }
+  ]
+}

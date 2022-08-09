@@ -1,0 +1,87 @@
+{
+  "id": "TB0005017970",
+  "name": "AVM FRITZ!Box 7590",
+  "productSerialNumber": "40373921",
+  "status": "active",
+  "startDate": "2020-05-11T22:00:00.000Z",
+  "plannedEndDate": "2022-05-10T21:59:59.999Z",
+  "cancelUntilDate": "2022-05-04T21:59:59.999Z",
+  "noticePeriodUnit": "day",
+  "noticePeriodAmount": 6,
+  "self": {
+    "id": "TB0005017970",
+    "count": 6,
+    "total": 6,
+    "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070132"
+  },
+  "isBundle": false,
+  "place": [
+    {
+      "id": "6154988",
+      "role": "geographical address",
+      "address": {
+        "postcode": "68165"
+      }
+    },
+    {
+      "id": "1-4J99VGT",
+      "role": "CRMT address"
+    }
+  ],
+  "productPrice": [
+    {
+      "name": "AVM FRITZ!Box 7590 Endgeräte-Servicepaket",
+      "pricingDate": "2020-05-05T22:00:00.000Z",
+      "priceType": "recurring",
+      "recurringChargePeriod": "month",
+      "price": {
+        "taxRate": 16.0000000,
+        "dutyFreeAmount": {
+          "unit": "EUR",
+          "value": 6.6800000
+        },
+        "taxIncludedAmount": {
+          "unit": "EUR",
+          "value": 7.9500000
+        }
+      },
+      "productOfferingPrice": {
+        "id": "1001183086"
+      }
+    }
+  ],
+  "billingAccount": {
+    "id": "1-7X11EOJ",
+    "name": "6782097420"
+  },
+  "productOffering": {
+    "id": "40373921"
+  },
+  "characteristic": [
+    {
+      "name": "productType",
+      "value": "Endeinrichtung"
+    },
+    {
+      "name": "productSubtype",
+      "value": "EG SP"
+    },
+    {
+      "name": "TNBA-ID",
+      "value": "00080000044940192",
+      "id": "0000000008"
+    },
+    {
+      "name": "GRUS",
+      "value": "004343160007"
+    },
+    {
+      "name": "IntegrationId",
+      "value": "1-7WLQ48W"
+    }
+  ],
+  "relatedParty": {
+    "id": "8332218688",
+    "role": "customer"
+  }
+}

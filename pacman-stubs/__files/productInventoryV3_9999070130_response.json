@@ -1,82 +1,262 @@
 {
-  "id": "TB0004967725",
-  "name": "MagentaZuhause M",
-  "productSerialNumber": "89843267",
+  "id": "TB0001409664",
+  "name": "Call & Surf Comfort (5) Standard",
+  "productSerialNumber": "89738406",
   "status": "active",
-  "startDate": "2019-07-06T00:00:00.000Z",
+  "startDate": "2016-06-30T22:00:00.000Z",
+  "plannedEndDate": "2022-06-30T21:59:59.999Z",
+  "cancelUntilDate": "2022-05-30T21:59:59.999Z",
   "noticePeriodUnit": "month",
   "noticePeriodAmount": 1,
   "self": {
-    "id": "TB0003715039",
-    "count": 1,
-    "total": 2,
-    "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070130&page=1&productStatus=active"
+    "id": "TB0001409664",
+    "count": 2,
+    "total": 6,
+    "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070130"
   },
   "isBundle": false,
-  "place": [
+  "productRelationship": [
     {
-      "id": "6154990",
-      "role": [
-        "geographical address"
-      ],
-      "address": {
-        "postcode": "81667"
+      "relationshipType": "contains",
+      "product": {
+        "id": "TB0001409665",
+        "name": "DSL 3000R",
+        "productSerialNumber": "89709982",
+        "status": "active",
+        "startDate": "2016-06-30T22:00:00.000Z",
+        "plannedEndDate": "2022-05-10T21:59:59.999Z",
+        "cancelUntilDate": "2022-05-04T21:59:59.999Z",
+        "noticePeriodUnit": "day",
+        "noticePeriodAmount": 6,
+        "self": {
+          "id": "TB0001409665",
+          "count": 2,
+          "total": 6,
+          "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070130"
+        },
+        "isBundle": false,
+        "productRelationship": [
+          {
+            "relationshipType": "reliesOn",
+            "product": {
+              "id": "TB0001409664"
+            }
+          }
+        ],
+        "place": [
+          {
+            "id": "6154988",
+            "role": "geographical address",
+            "address": {
+              "postcode": "68165"
+            }
+          },
+          {
+            "id": "1-4J9A1ZO",
+            "role": "CRMT address"
+          }
+        ],
+        "productPrice": [
+          {
+            "name": "DSL 3000R im Call & Surf Comfort (5), Grundpreis",
+            "pricingDate": "2016-06-30T22:00:00.000Z",
+            "priceType": "recurring",
+            "recurringChargePeriod": "month",
+            "price": {
+              "taxRate": 16.0000000,
+              "dutyFreeAmount": {
+                "unit": "EUR",
+                "value": 0
+              },
+              "taxIncludedAmount": {
+                "unit": "EUR",
+                "value": 0
+              }
+            },
+            "productOfferingPrice": {
+              "id": "1000328915"
+            }
+          }
+        ],
+        "billingAccount": {
+          "id": "1-4J99YP6",
+          "name": "3410502723"
+        },
+        "productOffering": {
+          "id": "89709982"
+        },
+        "characteristic": [
+          {
+            "name": "productType",
+            "value": "T-DSL"
+          },
+          {
+            "name": "productSubtype",
+            "value": "Consumer"
+          },
+          {
+            "name": "GRUS",
+            "value": "004339841054"
+          },
+          {
+            "name": "IntegrationId",
+            "value": "1-4J9A291"
+          }
+        ],
+        "relatedParty": {
+          "id": "8332218688",
+          "role": "customer"
+        }
       }
     },
     {
-      "id": "2-PL24L",
-      "role": [
-        "CRMT address"
-      ]
+      "relationshipType": "bundles",
+      "product": {
+        "id": "TB0001409666",
+        "name": "Surf Comfort (5)",
+        "productSerialNumber": "89743062",
+        "status": "active",
+        "startDate": "2016-06-30T22:00:00.000Z",
+        "plannedEndDate": "2022-05-05T21:59:59.999Z",
+        "cancelUntilDate": "2022-05-04T21:59:59.999Z",
+        "noticePeriodUnit": "day",
+        "noticePeriodAmount": 1,
+        "self": {
+          "id": "TB0001409666",
+          "count": 2,
+          "total": 6,
+          "href": "\/crmfn\/productInventory\/v3\/product?accountId=9999070130"
+        },
+        "isBundle": false,
+        "productRelationship": [
+          {
+            "relationshipType": "bundles",
+            "product": {
+              "id": "TB0001409664"
+            }
+          }
+        ],
+        "place": [
+          {
+            "id": "6154988",
+            "role": "geographical address",
+            "address": {
+              "postcode": "68165"
+            }
+          },
+          {
+            "id": "1-4J9A1ZO",
+            "role": "CRMT address"
+          }
+        ],
+        "productPrice": [
+          {
+            "name": "Überlassung Surf Comfort (5)",
+            "pricingDate": "2016-06-30T22:00:00.000Z",
+            "priceType": "recurring",
+            "recurringChargePeriod": "month",
+            "price": {
+              "taxRate": 16.0000000,
+              "dutyFreeAmount": {
+                "unit": "EUR",
+                "value": 0
+              },
+              "taxIncludedAmount": {
+                "unit": "EUR",
+                "value": 0
+              }
+            },
+            "productOfferingPrice": {
+              "id": "1000333687"
+            }
+          }
+        ],
+        "billingAccount": {
+          "id": "1-4J99YP6",
+          "name": "3410502723"
+        },
+        "productOffering": {
+          "id": "89743062"
+        },
+        "characteristic": [
+          {
+            "name": "productType",
+            "value": "ISP"
+          },
+          {
+            "name": "productSubtype",
+            "value": "ISPX"
+          },
+          {
+            "name": "Zugangsnummer",
+            "value": "553100204417",
+            "id": "0000000564"
+          },
+          {
+            "name": "GRUS",
+            "value": "004339841057"
+          },
+          {
+            "name": "IntegrationId",
+            "value": "1-4J9A296",
+            "id": "0000000564"
+          }
+        ],
+        "relatedParty": {
+          "id": "8332218688",
+          "role": "customer"
+        },
+        "realizingResource": [
+          {
+            "id": "0000000564",
+            "name": "TOId",
+            "value": "553100204417"
+          }
+        ]
+      }
+    }
+  ],
+  "place": [
+    {
+      "id": "6154988",
+      "role": "geographical address",
+      "address": {
+        "postcode": "68165"
+      }
+    },
+    {
+      "id": "1-4J9A1ZO",
+      "role": "CRMT address"
     }
   ],
   "productPrice": [
     {
-      "name": "Magenta Zuhause M, Bereitstellung",
-      "pricingDate": "2019-01-16T00:00:00.000Z",
-      "priceType": "one time",
-      "price": {
-        "taxRate": 19.0000000,
-        "dutyFreeAmount": {
-          "unit": "EUR",
-          "value": 0
-        },
-        "taxIncludedAmount": {
-          "unit": "EUR",
-          "value": 0
-        }
-      },
-      "productOfferingPrice": {
-        "id": "1000738327"
-      }
-    },
-    {
-      "name": "Magenta Zuhause M, Monatlicher Grundpreis",
-      "pricingDate": "2019-01-16T00:00:00.000Z",
+      "name": "Call & Surf Comfort (5)\/ Standard, Monatl. Grundpreis bei Neubereitstellung",
+      "pricingDate": "2016-06-30T22:00:00.000Z",
       "priceType": "recurring",
       "recurringChargePeriod": "month",
       "price": {
-        "taxRate": 19.0000000,
+        "taxRate": 16.0000000,
         "dutyFreeAmount": {
           "unit": "EUR",
-          "value": 33.5700000
+          "value": 233.5700000
         },
         "taxIncludedAmount": {
           "unit": "EUR",
-          "value": 39.9500000
+          "value": 277.9500000
         }
       },
       "productOfferingPrice": {
-        "id": "1000738330"
+        "id": "1400001150"
       }
     }
   ],
   "billingAccount": {
-    "id": "1-1TD-126",
-    "name": "4962112429"
+    "id": "1-4J99YP6",
+    "name": "3410502723"
   },
   "productOffering": {
-    "id": "89843267"
+    "id": "89738406"
   },
   "characteristic": [
     {
@@ -85,7 +265,7 @@
     },
     {
       "name": "productSubtype",
-      "value": "IP"
+      "value": "T-Net"
     },
     {
       "name": "Speicherart der Verbindungsdaten",
@@ -98,38 +278,28 @@
       "id": "0000000003"
     },
     {
-      "name": "Verzeichniskennzeichen 2. MSN",
-      "value": "0",
-      "id": "0000000006"
-    },
-    {
-      "name": "Verzeichniskennzeichen 3. MSN",
-      "value": "0",
-      "id": "0000000007"
-    },
-    {
       "name": "TNBA-ID",
-      "value": "00080000043762591",
+      "value": "00080000042233018",
       "id": "0000000008"
     },
     {
       "name": "GRUS",
-      "value": "004341647279"
+      "value": "004339841054"
     },
     {
       "name": "IntegrationId",
-      "value": "1-5DPFTQ1"
+      "value": "1-4J9A28V"
     }
   ],
   "relatedParty": {
-    "id": "9999070130",
+    "id": "8332218688",
     "role": "customer"
   },
   "realizingResource": [
     {
       "id": "0000000001",
       "name": "Telefonnummer",
-      "value": "00498912971601",
+      "value": "00496213714533",
       "isMajor": true,
       "resourceCharacteristic": [
         {
@@ -139,84 +309,15 @@
         },
         {
           "name": "ONKZ",
-          "value": "089",
+          "value": "0621",
           "id": "0000000001"
         },
         {
           "name": "Rufnummer",
-          "value": "12971601",
+          "value": "3714533",
           "id": "0000000001"
         }
       ]
-    },
-    {
-      "id": "0000000004",
-      "name": "Telefonnummer",
-      "value": "00498912971603",
-      "isMajor": false,
-      "resourceCharacteristic": [
-        {
-          "name": "LaenderVorwahl",
-          "value": "0049",
-          "id": "0000000004"
-        },
-        {
-          "name": "ONKZ",
-          "value": "089",
-          "id": "0000000004"
-        },
-        {
-          "name": "Rufnummer",
-          "value": "12971603",
-          "id": "0000000004"
-        }
-      ]
-    },
-    {
-      "id": "0000000004",
-      "name": "Telefonnummer",
-      "value": "00498912971603",
-      "isMajor": false,
-      "resourceCharacteristic": [
-        {
-          "name": "LaenderVorwahl",
-          "value": "0049",
-          "id": "0000000004"
-        },
-        {
-          "name": "ONKZ",
-          "value": "089",
-          "id": "0000000004"
-        },
-        {
-          "name": "Rufnummer",
-          "value": "12971603",
-          "id": "0000000004"
-        }
-      ]
-    },
-    {
-      "id": "0000000005",
-      "name": "Telefonnummer",
-      "value": "00498912971602",
-      "isMajor": false,
-      "resourceCharacteristic": [
-        {
-          "name": "LaenderVorwahl",
-          "value": "0049",
-          "id": "0000000005"
-        },
-        {
-          "name": "ONKZ",
-          "value": "089",
-          "id": "0000000005"
-        },
-        {
-          "name": "Rufnummer",
-          "value": "12971602",
-          "id": "0000000005"
-        }
-      ]
     }
-    ]
-    }
+  ]
+}

@@ -6,7 +6,7 @@
         "matches": "[0-9]{2,}"
       }
     },
-    "urlPathPattern": "/landlord-management/v1/consolidatedAgreements"
+    "urlPath": "/landlord-management/v1/consolidatedAgreements"
   },
   "response": {
     "headers": {
@@ -14,7 +14,7 @@
     },
     "status": 200,
     "jsonBody" : {
-        "status": "APPROVED"
+        "agreementStatus": "APPROVED"
     }
   }
 }

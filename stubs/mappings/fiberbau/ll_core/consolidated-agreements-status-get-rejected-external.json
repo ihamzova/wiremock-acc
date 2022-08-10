@@ -7,7 +7,7 @@
         "matches": "32378132"
       }
     },
-    "urlPathPattern": "/landlord-management/v1/consolidatedAgreements"
+    "urlPath": "/landlord-management/v1/consolidatedAgreements"
   },
   "response": {
     "headers": {
@@ -15,7 +15,7 @@
     },
     "status": 200,
     "jsonBody" : {
-        "status": "REJECTED"
+        "agreementStatus": "REJECTED"
     }
   }
 }

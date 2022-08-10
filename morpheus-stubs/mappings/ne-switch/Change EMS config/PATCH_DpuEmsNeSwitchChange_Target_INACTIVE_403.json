@@ -3,6 +3,11 @@
   "priority": 1,
   "request": {
     "method": "PATCH",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "410"
+      }
+    },
     "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/2345234236",
     "bodyPatterns": [
       {

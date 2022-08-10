@@ -1,0 +1,46 @@
+{
+  "id": "a6df12e9-1234-1234-6789-436e5e5a04ad",
+  "priority": 1,
+  "request": {
+    "urlPattern": "/resource-order-resource-inventory/v1/dpu/dpuModificationTask",
+    "method": "POST",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "411"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.dpuName =~ /49_8571_2_71.*/i )]"
+      }
+    ]
+  },
+  "response": {
+    "status": 202,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+      "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
+    }
+  },
+  "uuid": "a6df12e9-1234-1234-6789-436e5e5a04dd",
+  "postServeActions": {
+    "webhook": {
+      "url": "{{request.headers.X-Callback-Url}}",
+      "headers": {
+        "Authorization": "Bearer {{oauth}}",
+        "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}",
+        "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}",
+        "Content-Type": "application/json"
+      },
+      "method": "{{request.headers.X-Callback-Method}}",
+      "fixedDelayMilliseconds": 3000,
+      "jsonBody": {
+        "status": 5100,
+        "statustype": "ERROR",
+        "message": "there is an error"
+      }
+    }
+  }
+}

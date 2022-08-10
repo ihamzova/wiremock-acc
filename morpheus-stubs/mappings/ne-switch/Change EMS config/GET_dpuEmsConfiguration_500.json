@@ -1,7 +1,13 @@
 {
   "id": "7b224242-1234-1234-6789-c493e3534ce8",
+  "priority": 1,
   "request": {
     "method": "GET",
+    "headers": {
+      "X-Testcase-ID": {
+        "matches": "407"
+      }
+    },
     "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
     "queryParameters": {
       "dpuEndSz": {

@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/pubsub/s/presales-order/v1/preOrders",
+    "urlPattern": "/pubsub/s/presales-order/v2/preOrders",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"

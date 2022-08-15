@@ -24,6 +24,11 @@
     }
   },
   "postServeActions": {
+    "persist": {
+      "action": "set",
+      "key": "l2bsaActivationExternalIdForCancellation",
+      "value": "{{jsonPath request.body '$.externalId'}}"
+    },
     "webhooks": {
       "webhooks": [
         {

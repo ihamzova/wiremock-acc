@@ -1,0 +1,17 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink/findAndImport",
+    "bodyPatterns" : [
+      {"matchesJsonPath" : "$[?(@.length() == 2)]"}
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+  "bodyFileName": "rori/device-resource-inventory-management/uplink/by-endsz/find-and-import-ethernet-links-by-endsz-49_30_179_76H1.json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPath": "/resource-order-resource-inventory/v5/uplink/findAndImport",
+    "bodyPatterns" : [
+    {"matchesJsonPath" : "$[?(@.length() == 2)]",
+     "matchesJsonPath" :"$[?(@.oltPortEquipmentBusinessRef.endSz == '49/30/179/76H1')]"}
+  ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+  },
+  "bodyFileName": "rori/device-resource-inventory-management/uplink/by-endsz/find-and-import-ethernet-links-by-endsz-49_30_179_76H1.json"
+}
+}

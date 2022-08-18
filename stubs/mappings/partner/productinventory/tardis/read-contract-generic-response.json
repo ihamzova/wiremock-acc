@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/((upstream-partner/)?)tardis/crmfn/productInventory/v3/product",
+    "urlPathPattern": "/((upstream-partner/)?)tardis/crmfn/productInventory/v3/product",
     "queryParameters": {
       "accountId": {
         "matches": "[0-9]+"
@@ -23,7 +23,13 @@
         "name": "MagentaZuhause M",
         "productSerialNumber": "89843267",
         "status": "active",
-        "startDate": "2019-07-06T00:00:00.000Z",
+        "startDate": "2022-05-26T09:50:20.516Z",
+        "terminationDate": "2022-05-26T09:50:20.516Z",
+        "plannedEndDate": "2022-05-26T09:50:20.516Z",
+        "cancelUntilDate": "2022-05-26T09:50:20.516Z",
+        "invoiceStartDate": "2022-05-26T09:50:20.516Z",
+        "invoiceEndDate": "2022-05-26T09:50:20.516Z",
+        "lastUpdate": "2022-05-26T09:50:20.516Z",
         "noticePeriodUnit": "month",
         "noticePeriodAmount": 1,
         "self": {
@@ -976,6 +982,12 @@
         "productSerialNumber": "89843268",
         "status": "active",
         "startDate": "2017-06-27T00:00:00.000Z",
+        "terminationDate": "2022-05-26T09:50:20.516Z",
+        "plannedEndDate": "2022-05-26T09:50:20.516Z",
+        "cancelUntilDate": "2022-05-26T09:50:20.516Z",
+        "invoiceStartDate": "2022-05-26T09:50:20.516Z",
+        "invoiceEndDate": "2022-05-26T09:50:20.516Z",
+        "lastUpdate": "2022-05-26T09:50:20.516Z",
         "noticePeriodUnit": "month",
         "noticePeriodAmount": 1,
         "self": {

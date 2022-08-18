@@ -1,19 +1,14 @@
 {
-  "id": "8e232918-1234-1234-6789-427235cd05dd",
+  "id": "f66dc3a1-5689-40c6-b4c8-76d78a5615f0",
   "priority": 1,
   "request": {
     "method": "PATCH",
     "headers": {
       "X-Testcase-ID": {
-        "matches": "413"
+        "matches": "406"
       }
     },
-    "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/2345234236",
-    "bodyPatterns": [
-      {
-        "matchesJsonPath": "$.[?(@.value=='ACTIVE')]"
-      }
-    ]
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/101112"
   },
   "response": {
     "status": 500,

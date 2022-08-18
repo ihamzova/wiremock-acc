@@ -5,7 +5,7 @@
     "method": "GET",
     "headers": {
       "X-Testcase-ID": {
-        "matches": "407"
+        "matches": "409"
       }
     },
     "urlPath": "/resource-order-resource-inventory/v5/dpuEmsConfiguration",
@@ -16,7 +16,7 @@
     }
   },
   "response": {
-    "status": 500,
+    "status": 404,
     "headers": {
       "Content-Type": "application/json",
       "X-B3-TraceId": "{{request.headers.X-B3-TraceId}}"

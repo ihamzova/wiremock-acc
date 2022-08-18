@@ -17,7 +17,7 @@
       "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
     },
     "jsonBody": {
-      "id": "12345",
+      "id": "101112",
       "href": "href",
       "ancpBngIpAddress": "{{jsonPath request.body '$.ancpBngIpAddress'}}",
       "ancpIpAddressSubnetMask": "{{jsonPath request.body '$.ancpIpAddressSubnetMask'}}",

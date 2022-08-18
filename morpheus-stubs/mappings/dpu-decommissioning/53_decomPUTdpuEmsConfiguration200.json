@@ -2,7 +2,7 @@
   "id": "50d11d9e-635f-4136-9df1-f47144453673",
   "request": {
     "method": "PATCH",
-    "urlPattern": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/12345"
+    "urlPattern": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/56789"
   },
   "response": {
     "status": 200,
@@ -12,7 +12,7 @@
       "X-B3-SpanId": "{{request.headers.X-B3-SpanId}}"
     },
     "jsonBody": {
-      "id": "12345",
+      "id": "56789",
       "href": "href",
       "configurationState": "INACTIVE"
     }

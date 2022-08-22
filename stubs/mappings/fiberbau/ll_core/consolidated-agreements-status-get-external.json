@@ -13,8 +13,10 @@
       "Content-Type": "application/json"
     },
     "status": 200,
-    "jsonBody" : {
+    "jsonBody" : [
+      {
         "agreementStatus": "APPROVED"
-    }
+      }
+    ]
   }
 }

@@ -4,12 +4,6 @@
     "method": "GET",
     "urlPathPattern": "/giga-areas-location/v1/lookup/addressSuggest/extended/addressSuggestions/STREET",
     "queryParameters" : {
-      "zipCode" : {
-        "matches" : ".*"
-      },
-      "localityName" : {
-        "matches" : ".*"
-      },
       "streetName" : {
         "matches" : ".*"
       }

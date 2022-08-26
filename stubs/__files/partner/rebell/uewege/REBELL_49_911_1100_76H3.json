@@ -1,0 +1,80 @@
+[
+    {
+        "pluralId": "514753489",
+        "uewegId": "I611417355",
+        "validFrom": "28.01.2020 16:00:00",
+        "endPointB": {
+            "endSz": "49_911_1100_76H3",
+            "portName": "0/1/0",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "1100",
+                "fkz": "76H3",
+                "nkz": "911"
+            },
+            "deviceHostName": "",
+            "vendorPortName": "P0002",
+            "portPosition": "1.0"
+        },
+        "version": "1",
+        "endPointA": {
+            "endSz": "49_911_1100_7ZJA",
+            "portName": "xe-7/1/0",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "1100",
+                "fkz": "7ZJA",
+                "nkz": "911"
+            },
+            "deviceHostName": "BONJ27",
+            "vendorPortName": "[0/2]/0",
+            "portPosition": "7.1.0"
+        },
+        "versionId": "102/1/9514/9729089",
+        "lsz": "4C2",
+        "ordNr": "34",
+        "validUntil": "01.01.2100 00:00:00",
+        "id": 241782061,
+        "lszErg": "",
+        "status": "InBetrieb"
+    },
+    {
+        "pluralId": "514753489",
+        "uewegId": "I611417355",
+        "validFrom": "28.01.2020 16:00:00",
+        "endPointB": {
+            "endSz": "49_911_1100_76H3",
+            "portName": "0/1/0",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "1100",
+                "fkz": "76H3",
+                "nkz": "911"
+            },
+            "deviceHostName": "",
+            "vendorPortName": "P0002",
+            "portPosition": "1.0"
+        },
+        "version": "1",
+        "endPointA": {
+            "endSz": "49_911_1100_7ZJ3",
+            "portName": "xe-1/3/3",
+            "endSzParts": {
+                "akz": "49",
+                "vkz": "1100",
+                "fkz": "7ZJ3",
+                "nkz": "911"
+            },
+            "deviceHostName": "BONJ27",
+            "vendorPortName": "[0/2]/0",
+            "portPosition": "1.3.3"
+        },
+        "versionId": "102/1/9514/9729089",
+        "lsz": "4C2",
+        "ordNr": "34",
+        "validUntil": "01.01.2100 00:00:00",
+        "id": 241782061,
+        "lszErg": "",
+        "status": "InBetrieb"
+    }
+]

@@ -44,7 +44,7 @@
       "configurationState": "ACTIVE",
       "creationDate": "2021-02-03T15:07:59.449882+01:00",
       "dpuEndSz": "{{request.query.dpuEndSz}}",
-      "dpuName": "{{replace request.query.dpuEndSz '/' '_'}}",
+      "dpuName": "{{replace request.query.dpuEndSz '/' '_'}}_V2",
       "emsNbiName": "SDX2221-16-TP",
       "managedDomain": "string",
       "modificationDate": "2021-02-03T15:07:59.449882+01:00",

@@ -16,6 +16,43 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "rori/device-resource-inventory-management/dpu-ems-configuration/by-dpu-endsz/2_dpu_objects.json"
+    "jsonBody": [{
+      "id": "1000",
+      "href": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/1000",
+      "ancpBngIpAddress": "123.123.123",
+      "ancpIpAddressSubnetMask": "/24",
+      "ancpOwnIpAddress": "string",
+      "backhaulId": "#bhid-000",
+      "configurationState": "ACTIVE",
+      "creationDate": "2021-02-03T15:07:59.449882+01:00",
+      "dpuEndSz": "{{request.query.dpuEndSz}}",
+      "dpuName": "{{replace request.query.dpuEndSz '/' '_'}}",
+      "emsNbiName": "SDX2221-16-TP",
+      "managedDomain": "string",
+      "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+      "serialNumber": "020223dsd23",
+      "@baseType": "LogicalResource",
+      "@type": "DpuEmsConfiguration",
+      "isTarget": "false"
+    }, {
+      "id": "1001",
+      "href": "/resource-order-resource-inventory/v5/dpuEmsConfiguration/1001",
+      "ancpBngIpAddress": "123.123.123",
+      "ancpIpAddressSubnetMask": "/24",
+      "ancpOwnIpAddress": "string",
+      "backhaulId": "#bhid-001",
+      "configurationState": "ACTIVE",
+      "creationDate": "2021-02-03T15:07:59.449882+01:00",
+      "dpuEndSz": "{{request.query.dpuEndSz}}",
+      "dpuName": "{{replace request.query.dpuEndSz '/' '_'}}",
+      "emsNbiName": "SDX2221-16-TP",
+      "managedDomain": "string",
+      "modificationDate": "2021-02-03T15:07:59.449882+01:00",
+      "serialNumber": "020223dsd23",
+      "@baseType": "LogicalResource",
+      "@type": "DpuEmsConfiguration",
+      "isTarget": "true"
+    }
+    ]
   }
 }

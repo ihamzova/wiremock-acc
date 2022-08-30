@@ -37,8 +37,48 @@
     "sendEmail": true,
     "state": "acknowledged",
     "token": "string",
-    "uri": "link_to_prv_for_fol_{{{folId}}}",
+    "uri": "https://www.google.com/",
     "userInteraction": true
   },
   {{/each}}
+  {
+    "bid": 111,
+    "checkResult": "string",
+    "completionDate": "2022-08-26T12:31:50.829Z",
+    "creationDate": "2022-08-26T12:31:50.829Z",
+    "customerAuthentificationId": "string",
+    "customerOrderReference": "string",
+    "emailAddress": "string",
+    "externalOrderId": 0,
+    "externalReferences": [
+      {
+        "externalReferenceType": "sourceType",
+        "name": "string"
+      }
+    ],
+    "fiberOnLocationId" : "-111121212" ,
+  "gigaAreaNumber": "string",
+  "id": "string",
+  "klsId": 0,
+  "mobileNumber": "string",
+  "notes": [
+  {
+    "author": "string",
+    "category": "processHistory",
+    "date": "2022-08-26T12:31:50.829Z",
+    "text": "string"
+  }
+],
+  "partyResourceAssociation": {
+  "guid": "string",
+  "tenantId": 0
+},
+  "processResolution": "failed",
+  "processVariant": "developmentProcess",
+  "sendEmail": true,
+  "state": "acknowledged",
+  "token": "string",
+  "uri": "https://www.google.com/",
+  "userInteraction": true
+  }
 ]

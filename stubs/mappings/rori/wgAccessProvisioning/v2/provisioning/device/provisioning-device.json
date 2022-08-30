@@ -3,6 +3,7 @@
     "method": "ANY",
     "urlPathPattern": "/resource-order-resource-inventory/v2/provisioning/device"
   },
+  "priority": 10,
   "response": {
     "status": 200,
     "headers": {

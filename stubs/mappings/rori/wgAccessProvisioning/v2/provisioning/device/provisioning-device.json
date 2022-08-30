@@ -3,6 +3,7 @@
     "method": "ANY",
     "urlPathPattern": "/resource-order-resource-inventory/v2/provisioning/device"
   },
+  "priority": 10,
   "response": {
     "status": 200,
     "headers": {
@@ -17,6 +18,7 @@
       "url": "{{request.headers.X-Callback-Url}}",
       "headers": {
         "X-Callback-Correlation-Id": "{{request.headers.X-Callback-Correlation-Id}}",
+        "Authorization": "Bearer {{oauth}}",
         "Content-Type": "application/json"
       },
       "method": "POST",

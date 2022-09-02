@@ -2,7 +2,7 @@
   "priority": 3,
   "request": {
     "method": "POST",
-    "urlPattern": "/leseKunde",
+    "urlPattern": "/gigabit/blcrm-adapter/leseKunde",
     "headers": {
       "Content-Type": {
         "equalTo": "application/json"
